@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "MYSTHERCERIA_NAME",
+        "Text": "Mythercellerie"
+    },
+    {
+        "Key": "MYSTHERCERIA_DESCRIPTION",
+        "Text": "La Mythercellerie est une discipline faite de perceptions tordues. Ces pouvoirs floutent la ligne entre la réalité et le rêve, piochant à la fois dans la vitae de son utilisateur et sur la vitalité des Fae, présente dans le monde naturel. La Mythercellerie est une discipline de charades et de puzzles, d’énigmes et de casse-tête et beaucoup de ses pouvoirs provoquent des effets qui embourbent l’esprit de la cible. La Mythercellerie intègre aussi un talent accru pour acquérir des savoir obscurs, pour créer et résoudre des énigmes."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_1_NAME",
+        "Text": "Vue de Fae"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_1_DESCRIPTION",
+        "Text": "La Mythercellerie ouvre votre esprit à un autre monde : celui des rêves et de l’imagination. Votre capacité à voir la réalité avec l’œil des Fae déforme vos perceptions, vous octroyant des informations qui ne pourraient pas être gagnées par l’observation normale ou l’inspection."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_1_SYSTEM",
+        "Text": "Ce pouvoir est toujours actif. Vous pouvez apprendre l’utilité et l’âge d’un objet en un regard, détecter un faux d’un original et identifier les matériaux utilisés dans la création d’un objet. Vous pouvez aussi percevoir des informations sur le créateur de l’objet, incluant le nombre de points en Compétence Artisanat qu’il a utilisés, son type de créature et l’époque à laquelle l’objet a été conçu. Enfin, vous pouvez discerner les sens obscurs, les symboles, les références politiques et historiques et les informations cachées dans l’art de l’objet. De plus, vous pouvez reconnaître les créatures, individus, pouvoirs et enchantements d’origine fae. Bien que vous ne puissiez apprendre leurs capacités ou durées, votre Vue de Fae vous permet de détecter que de tels effets sont présents."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Si un objet a des verrous cachés, ou des compartiments, vous les découvrez. Vous pouvez discerner le code ou la suite de manœuvres nécessaires pour ouvrir une porte ou un compartiment, en dépensant trois tours complets à étudier la serrure. Si la serrure nécessite une clef et que vous dépensez trois tours en étude, vous pourrez reconnaître d’un seul coup d’œil si une clef donnée pourra fonctionner dans cette serrure."
+    },
+	 {
+        "Key": "MYSTHERCERIA_POWER_2_NAME",
+        "Text": "Supercherie ténébreuse"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_2_DESCRIPTION",
+        "Text": "Comme les contes de fées d’antan, vous pouvez ennuyer une victime avec des contrariétés mineures et des farces de fae, rendant sa vie plus difficile pour une courte période de temps. Tant que cet effet dure, la cible pourrait mal ranger des objets, perdre le sens de l’orientation, découvrir ses lacets liés ensemble, ou d’autres infortunes mineures - cadeaux des fae."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action standard, puis lancez un challenge en opposition contre votre cible, en utilisant le Score de Test de Mythercellerie. Si vous réussissez, votre cible sera perturbée par des ennuis et tracasseries durant l’heure qui suit, vu que des fae lui font des farces, lui causant problème sur problème. Hors combat, ses clefs de voiture peuvent disparaître, son téléphone portable se décharger rapidement, il peut se lever et trouver ses lacets noués ensemble. En combat, à chaque fois que votre victime utilise un point de Volonté pour faire une Manœuvre de Combat, son attaque échouera automatiquement. Ce pouvoir n’a aucun effet sur les attaques améliorées par des manœuvres de combat qui ont été faites sans dépenser de volonté."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Cet usage de Supercherie ténébreuse dure pour le reste de la nuit, plutôt qu’une heure."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Toutes les attaques de la cible qui sont améliorées par des Manœuvres de Combat échouent automatiquement, même si la manœuvre ne nécessitait pas de volonté."
+    },
+	{
+        "Key": "MYSTHERCERIA_POWER_3_NAME",
+        "Text": "Je viens en ami (Ay Befriend)"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_3_DESCRIPTION",
+        "Text": "A l’époque médiévale, il était courant de déclarer des intentions pacifiques envers les visiteurs ou des camarades fraîchement rencontrés par la déclaration \"Je viens en ami\". Les fées ont conservé cette coutume et sont bien disposées envers ceux qui se souviennent de la façon convenable de les saluer, en déclarant sans hésitation votre amicalité par l’ancienne formule : <i>\"Oyez, pixies, je viens en ami !\"(\"Prithee, piskies, Ay Befriend!\")</i>.<br /> Les changelins et peuples fae ont leurs propres centres d’intérêts et sociétés, mais ils sont capables de filer un coup de main -s'ils sont récompensés de tels efforts. En utilisant ce pouvoir, vous pouvez appeler l’une des plus petites de ces créatures et lui promettre une récompense raisonnable si elle vous aide pour un temps."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_3_SYSTEM",
+        "Text": "Dépensez un point de sang et utilisez votre action standard pour appeler une petite troupe de pixies, un type de fae. Les Pixies sont humanoïdes, mais de petite taille et d’apparences variées, vêtus de petits vêtements simples faits de feuilles et de la flore naturelle. Ces créatures sont invisibles à toutes les personnes n’ayant pas Vue de Fae. Normalement les Fae arrivent dans les cinq minutes qui viennent, tant qu’elles peuvent bel et bien atteindre l’endroit où vous êtes. Elles peuvent voler, mais n’ont pas la capacité de traverser les murs et les objets solides.<br /> Tant que vous payez les pixies d’avance avec une once d’or, des gemmes, ou des petits objets précieux, elles devraient être relativement loyales, bien qu’espiègles. Vous pouvez demander à ces pixies d’effectuer l’équivalent d’une action inter-partie pendant le temps d’une partie, ou en plus de vos propres actions inter-parties. Si vous leur demandez une action inter-partie, telle que de vous apporter un objet, porter un message, nettoyer un lieu, découvrir des informations utiles durant le temps d’une session de jeu, les pixies feront la tâche à une vitesse fulgurante, la terminant dans l’heure. SI vous utilisez <i>Je viens en ami</i> entre deux parties, vous gagnez une action inter-partie inobservable, intraçable. Dans tous les cas, les pixies ne se mettent pas en danger et ne se lancent pas dans des combats. Vous ne pouvez utiliser <i>Je viens en ami</i> plus d’une fois par semaine calendaire, que ce soit durant la session de jeu, ou entre deux sessions"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Je viens en ami une fois durant la partie et une autre durant les actions inter-partie, au cours d’une même semaine calendaire. Vous ne pouvez utiliser cet avantage pour disposer de deux actions en partie, ou de 2 actions inter-partie au cours d’une semaine calendaire."
+    }, 
+	{
+        "Key": "MYSTHERCERIA_POWER_4_NAME",
+        "Text": "Glyphe Changelin"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_4_DESCRIPTION",
+        "Text": "La langue des Fae est une toile serrée, capable de capter les pensées comme une araignée les mouches. Voir de telles glyphes écrites désoriente la plupart des esprits, causant confusion et légère stupeur au mieux : l’amnésie totale face à un esprit particulièrement faible."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_4_SYSTEM",
+        "Text": "Pour inscrire un Glyphe Changelin, dépensez 1 point de sang et dépensez trois tours complets à tracer des lettres et symboles sur un objet cible. Vous devez avoir de quoi écrire sur ledit objet. Vous pouvez dessiner ces sceaux sur un objet déplaçable, une porte, le sol d’une pièce, mais la zone où inscrire doit être d’au moins 15 centimètres (six pouce) de diamètre. Une fois dessiné, le Glyphe Changelin est invisible pour ceux qui ne possèdent pas Vue de Fae ; pour ceux qui peuvent le voir, le glyphe apparaît comme étant un symbole doucement luisant écrit dans une lumière lunaire argentée. Les mortels qui touchent l’objet, ou traversent une glyphe statique deviennent confus pour les 5 prochaines minutes et erreront, quittant la zone en prenant la direction par laquelle ils sont venus.Les créatures surnaturelles doivent réussir un challenge statique, avec l’attribut Mental + Volonté, contre une difficulté égale à votre Score de Test de Mythercellerie, ou souffrir d’un effet similaire.De plus, les individus souffrant de dérangements gagnent un trait de dérangement.Si cela fait que l’individu subit une crise psychotique, cette crise n’aura lieu qu’après la fin des effets de votre Glyphe Changelin.Pour plus d’informations sur les dérangements, consultez Dérangements dans le Chapitre Atouts et Handicaps. <br /> Après qu’un mortel a émergé hors de l’errance du Glyphe Changelin, il n’a aucune idée du temps qu’il a pu y passer, ni aucun souvenir de la raison pour laquelle il était venu dans ce lieu(ou pour laquelle il a touché cet objet). Il justifiera ses actions sans aucun recours à la logique. Au bout d’un jour, il aura oublié même complètement d’être venu ici(ou d’avoir vu l’objet).<br /> Après qu’une créature surnaturelle a surmonté son état confus, elle a une vague conscience que du temps a passé, mais aucune compréhension du temps durant lequel il était sous l’effet du glyphe.Il se souvient de ses activités précédentes, mais elles semblent distantes et rêvées. La cible ne se souvient de rien qui aurait eu lieu sous l’effet de ce pouvoir. <br />Si un individu est attaqué, mis en danger, ou ciblé par un pouvoir offensif, l’effet du Glyphe Changelin cesse immédiatement. <br />Une fois inscrit, un Glyphe Changelin persiste pour un an et un jour, ou jusqu'au moment où l’utilisateur de Mythercellerie décide de l’enlever, ou si l’objet est abîmé par au moins 1 point de dégât.Si une créature surnaturelle résiste à l’effet du Glyphe Changelin, il est immunisé aux effets de tout autre Glyphe Changelin créé par le même utilisateur pendant une heure.Un personnage est immunisé aux effets de son propre Glyphe Changelin."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les créatures surnaturelles souffrent des mêmes effets postérieurs que les créatures mortelles et partiellement surnaturelles. De plus, si une créature émerge de l’effet de votre Glyphe Changelin avant la fin de la durée normale, il devient confus et souffre d’une pénalité de -3 pour toute action non-défensive durant les 3 prochains tours."
+    }, 
+	{
+        "Key": "MYSTHERCERIA_POWER_5_NAME",
+        "Text": "Énigme Fantastique"
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_5_DESCRIPTION",
+        "Text": "Vous avez ouvert votre esprit au rêve et êtes devenu éclairé. Vos sensations altérées peuvent être déconcertantes pour ceux qui ne partagent pas votre savoir, mais vous savez pertinemment qu’il y a une différence entre la folie et le rêve. Quand vous le souhaitez, vous pouvez partager vos réflexions, déchirer le voile des pensées d’un auditoire et l’ouvrir aux vérités distordues de la réalité. A travers des questions philosophiques pénétrantes, des formules mathématiques, des koan zens ou d’autres dilemmes paradoxaux, vous pouvez détricoter l’esprit de votre cible."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_5_SYSTEM",
+        "Text": "Pour infliger l’Énigme Fantastique, dépensez 1 point de sang et dépensez une action standard pour donner une énigme à votre cible. Si vous réussissez un challenge en opposition en utilisant votre Score de Test de Mythercellerie, la cible est captivée, la complexité de votre logique distordue piégeant son esprit. Il ne peut faire d’autre action que de tenter de résoudre l’Énigme Fantastique. D’autres usages de Mythercellerie ne peuvent affecter la cible tant qu’elle est dans cet état.<br /> Pendant 5 minutes, la cible se comporte comme sous l’effet du Glyphe de Changelin. A la fin de ce temps, elle doit réussir un challenge statique de Mental + Érudition contre une difficulté équivalente à votre Score de Test de Mythercellerie. Parce que c'est un challenge statique, la cible neteste pas contre l’utilisateur de la Mythercellerie et ce dernier ne peut donc re-tester, bien que la cible le puisse. Si la cible réussit, elle répond à votre Énigme correctement et émerge de son état de fascination sans effet additionnel. Si elle échoue, elle ne peut répondre à votre question et subit 3 points de dégâts aggravés qui ne peuvent être réduits ou absorbés et elle émerge de cet état de méditation. Si quelqu'un de captivé par l’Énigme Fantastique est attaqué, mis en danger ou ciblé par un pouvoir offensif, la cible peut choisir l’une de ces deux actions.<br /> • Échapper temporairement aux effets du pouvoir : le personnage peut se défendre mais ne peut faire aucune action offensive ou utilitaire, ni discuter de façon sensée avec quiconque. Son seul but est de fuir la zone. Lorsque le personnage n’est plus en danger, il retourne à son état méditatif et peut continuer ses tentatives de répondre à la question, comme le veut l’usage normal de ce pouvoir.<br /> • Admettre sa défaite, abandonner et terminer plus rapidement l’Énigme Fantastique. Si un personnage fait cela, il subit 3 points de dégâts aggravés qui ne peuvent être réduits ou absorbés, de façon identique au fait d’échouer à répondre à cette énigme après le temps écoulé."
+    },
+    {
+        "Key": "MYSTHERCERIA_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Si la cible échoue ou admet sa défaite, elle souffre de 4 dégâts aggravés."
+    },
+	{
+        "Key": "MYSTHERCERIA_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "La cible souffre d’un malus de -3 quand elle tente le challenge pour résoudre votre énigme."
+    },
+    {
+        "Key": "MYSTHERCERIA_ELDER_POWER_1_NAME",
+        "Text": "Vol d’esprit"
+    },
+    {
+        "Key": "MYSTHERCERIA_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Le Vol d’Esprit est un pouvoir invasif, plongeant dans les profondeurs de la psyché d’un sujet pour le piller de sa sensibilité pour vos propres bénéfices. Le vol est temporaire mais, tant que vous possédez l’esprit du sujet, il n’est rien de plus qu’une enveloppe vide."
+    },
+    {
+        "Key": "MYSTHERCERIA_ELDER_POWER_1_SYSTEM",
+        "Text": "Pour voler l’esprit d’une victime, dépensez 2 points de Sang, une action standard et initiez un challenge opposé avec votre cible en utilisant le Score de Test de Mythercellerie. Si vous réussissez, l’acuité mentale du sujet vous est transférée. Il devient amorphe et faible et peut même tomber dans le coma (si c'est un mortel).<br />Tant que vous êtes en possession de l’esprit de votre victime, vous gagnez +3 à vos attributs mentaux et votre cible subit un malus de -3 à ses attributs mentaux. Si la pénalité place le sujet à 0 points dans ses attributs mentaux, il tombe en torpeur (ou dans le coma si c'est un mortel). Quand il est utilisé sur un PNJ, ce pouvoir plonge toujours le PNJ en torpeur ou coma et vous donne un bonus égal à +3 à vos attributs mentaux ou le niveau de base du PNJ, quelle que soit la valeur la plus basse.<br />Un individu ne peut pas être sous les effets de plus d’une utilisation de Vol de l’Esprit à n’importe quel moment donné. Les bonus donnés par Vol de L’Esprit ne s'additionnent pas. Vous ne pouvez pas utiliser ce pouvoir sur deux personnages différents pour gagner un bonus de +6 à vos attributs mentaux.<br />Un individu ne peut pas être sous les effets de plus d’une utilisation de Vol de l’Esprit à n’importe quel moment donné. Les bonus donnés par Vol de L’Esprit ne s'additionnent pas. Vous ne pouvez pas utiliser ce pouvoir sur deux personnages différents pour gagner un bonus de +6 à vos attributs mentaux.<br />Les créatures qui ne sont pas conscientes, comme les zombies, ou qui ne sont pas humaines, comme les animaux, ou élémentaires sont immunisées au Vol de l’Esprit."
+    },
+	{
+        "Key": "MYSTHERCERIA_TEST_SCORE",
+        "Text": "L'utilisateur de Mythercellerie doit utiliser son Attribut <i>Mental + Érudition</i>, contre l’Attribut <i>Mental + Volonté</i> de la cible."
+    }
+]

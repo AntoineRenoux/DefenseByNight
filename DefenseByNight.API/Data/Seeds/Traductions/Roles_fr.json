@@ -1,0 +1,22 @@
+[
+    {
+        "Key": "ADMIN",
+        "Text": "Administrateur"
+    },
+    {
+        "Key": "CA",
+        "Text": "Conseil d'administration"
+    },
+    {
+        "Key": "ORGANIZER",
+        "Text": "Organisateur"
+    },
+    {
+        "Key": "PLAYER",
+        "Text": "Joueur"
+    },
+    {
+        "Key": "MEMBER",
+        "Text": "Membre"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "ELEMENTS_NAME",
+        "Text": "La Voie des Éléments"
+    },
+    {
+        "Key": "ELEMENTS_DESCRIPTION",
+        "Text": "Les Grecs d’antan croyaient que les quatre éléments - terre, eau, air et feu - étaient les briques fondamentales de l’univers. En utilisant les techniques de La Maîtrise des Éléments, vous pouvez communiquer avec ces forces élémentaires et autres objets inanimés pour les commander à faire vos volontés. La Maîtrise des Éléments ne peut être utilisée que sur de la matière inanimée."
+    },
+    {
+        "Key": "ELEMENTS_POWER_1_NAME",
+        "Text": "Force Élémentaire"
+    },
+    {
+        "Key": "ELEMENTS_POWER_1_DESCRIPTION",
+        "Text": "En s'appuyant sur la force intemporelle et l’endurance de la terre et de la pierre environnante, vous pouvez forcer votre corps à prendre une de leurs propriétés pour une courte durée."
+    },
+    {
+        "Key": "ELEMENTS_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action simple pour activer la Force Élémentaire. Pendant les cinq prochaines minutes, vous gagnez, soit le Focus en Force, soit le Focus d’Endurance (au choix).<br />Vous ne pouvez bénéficier que d’une seule application de Force Élémentaire à n’importe quel moment donné."
+    },
+    {
+        "Key": "ELEMENTS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ELEMENTS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Quand la Force Élémentaire est activée, vous recevez un bonus de +2 aux Challenges pour Agripper."
+    },
+	 {
+        "Key": "ELEMENTS_POWER_2_NAME",
+        "Text": "Langue de Bois"
+    },
+    {
+        "Key": "ELEMENTS_POWER_2_DESCRIPTION",
+        "Text": "Vous avez la capacité d’écouter les esprits sauvages qui habitent les objets inanimés. De tels esprit sont souvent pédants et uniquement concernés par ce qui les intéresse. Si vous pouvez les convaincre de faire attention, vous pouvez apprendre une bonne quantité d’informations sur les activités dont l’esprit a été témoin. Gardez à l’esprit que les expériences qui vous intéressent n’intéressent pas forcément une machine à café."
+    },
+    {
+        "Key": "ELEMENTS_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour activer Langue de Bois. Pendant les cinq minutes suivantes, vous avez la capacité de communiquer avec les esprits qui vivent dans des objets de tous les jours et vous pouvez leur proposer de communiquer avec vous. La nature de l’objet déterminé la personnalité de l’esprit ; un couteau peut avoir une personnalité tranchante, alors qu’une machine à café pourrait être très excitée.<br />Un esprit répondra aux questions basiques honnêtement, mais des concepts étrangers peuvent le rendre confus. Vous pouvez raisonnablement vous attendre à des réponses avec le type de questions suivantes :<br /> • Quelle est ta fonction ?<br />• Est-ce que quelque chose d’intéressant s'est produit près de toi ?<br />• A quoi ressemblait la personne qui est passée en courant il y a un moment ?<br />• Quelqu'un s'est battu ici récemment?<br />Les objets inanimés auxquels on accède avec ce pouvoir ne peuvent pas détecter les personnages cachés par des pouvoirs surnaturels."
+    },
+    {
+        "Key": "ELEMENTS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ELEMENTS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Votre utilisation de Langue de Bois dure pendant une heure plutôt que cinq minutes. De plus, vous pouvez entendre le murmure des conversations tenues entre les objets inanimés autour de vous, ce qui vous avertit lorsqu'un autre individu s'approche. Tant que vous êtes capables d’entendre, vous êtes conscients de quiconque s'approche à cinq pas de vous. Même si vous ne pouvez pas directement voir le personnage, vous pouvez estimer son emplacement en écoutant le papotage ambiant qui vous entoure. Cet effet ne peut être utilisé pour détecter les personnages cachés par des moyens surnaturels."
+    },
+	{
+        "Key": "ELEMENTS_POWER_3_NAME",
+        "Text": "Animer l’Immobile"
+    },
+    {
+        "Key": "ELEMENTS_POWER_3_DESCRIPTION",
+        "Text": "Vous avez le pouvoir d’animer des objets et les commander selon vos souhaits pour un temps limité. Ces objets se plient et se déplacent selon vos ordres, mais leurs fonctions sont limitées par leur forme."
+    },
+    {
+        "Key": "ELEMENTS_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour animer un objet dans votre ligne de vue. L’objet gagne une mobilité limitée et obéit à tous vos ordres au mieux de ses capacités pendant une heure. Vous pouvez donner des ordres simples à ces objets, comme \"Poursuis cet homme,\" ou \"Attaque quiconque entre\". Les objets ne sont pas très intelligents et ont une capacité de raisonnement limitée. Les objet animés ne peuvent pas utiliser d’armes ou tirer parti des qualités d’une arme. Un ordre qui décrit \"Amène-moi le pistolet quand tu verras une voiture rouge passer dehors\", pourrait aboutir à un tabouret très confus.<br />Vous avez la capacité d’animer et de contrôler simultanément un nombre d’objets égal à votre score dans la compétence Occultisme, mais chaque objet doit être animé séparément. Ils restent animés tant qu’ils sont dans votre champ de vision, ou jusqu'à une heure.<br />Traitez les objets animés par ce pouvoir comme des PNJs type à 2 points. Les objets animés avec des roues ou jambes, bougent à une vitesse normale. Les objets sans roues ou jambes se déplacent à un rythme d’un pas par action. Les objets animés ne peuvent pas être la cible de pouvoirs Mentaux ou Sociaux, mais ils ne peuvent attaquer les personnes que le Thaumaturge ne peut pas attaquer lui-même. Par exemple, si le thaumaturge est affecté avec succès par le pouvoir de Transe, ses animations sont incapables d’attaquer le Vampire qui a plongé leur maître en Transe."
+    },
+    {
+        "Key": "ELEMENTS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ELEMENTS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "La durée de votre capacité à animer les objets s'étend jusqu'à la fin de la soirée. De plus, vous avez une vague idée de ce que vos animations sont en train de faire et ce qu’il se passe dans les deux pas de chaque animation. Vous pouvez savoir que quelqu'un est en train d’attaquer votre tabouret de bar avec une hachette, mais vous ne pouvez pas exactement savoir qui est en train de balancer la hache."
+    }, 
+	{
+        "Key": "ELEMENTS_POWER_4_NAME",
+        "Text": "Forme Élémentaire"
+    },
+    {
+        "Key": "ELEMENTS_POWER_4_DESCRIPTION",
+        "Text": "D'anciennes légendes décrivent des sorciers avec la capacité de transfigurer leur allure en la forme d’objets ordinaires. Vous avez le pouvoir de transformer votre corps en n’importe quel objet avec une masse grossièrement égale à la vôtre."
+    },
+    {
+        "Key": "ELEMENTS_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour adopter la forme de n’importe quel objet dont la taille est grossièrement égale à la vôtre. Vous gardez vos sens, mais vous êtes incapable de bouger sous les effets de votre propre pouvoir. L’objet en lequel vous vous transformez fonctionne exactement comme un véritable objet de son type - devenir une télévision veut dire que vous pouvez être branché et allumé, sans que cela ne vous inflige de dommages. Ce pouvoir dure pour le reste de la nuit.<br />Vous n’avez pas accès aux disciplines tant que vous êtes dans cette forme. En utilisant Forme Élémentaire, vos attributs et vos niveaux de santé restent les mêmes, mais il peut être plus difficile ou plus facile de vous nuire, à la discrétion du conteur. Si vous vous transformez en un vase en verre, un coup de marteau pourrait infliger 10 points de dégâts normaux au lieu de 1 standard. A l’inverse, si vous vous transformez en rocher, vous êtes probablement immunisé aux attaques du Toreador qui manie une dague. Se transformer en un objet inanimé n’accorde aucune protection contre les pouvoirs Mentaux ou Sociaux.<br />Les personnages qui utilisent la Forme Élémentaire ne possèdent pas la capacité mystique de rester cohésif. Si un individu se transforme en poussières, air ou eau, il sera probablement dispersé et mourra en quelques tours.<br />Forme Élémentaire est un pouvoir de transformation et ne peut pas être utilisé en combinaison d’autres pouvoirs de transformation. Vous pouvez mettre fin à cette transformation à n’importe quel moment en dépensant une action simple."
+    },
+    {
+        "Key": "ELEMENTS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ELEMENTS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Quand vous endossez la Forme Élémentaire, vous pouvez devenir un objet aussi petit que la moitié de votre taille normale ou aussi grand que le double que votre taille normale."
+    }, 
+	{
+        "Key": "ELEMENTS_POWER_5_NAME",
+        "Text": "Invoquer les Élémentaires"
+    },
+    {
+        "Key": "ELEMENTS_POWER_5_DESCRIPTION",
+        "Text": "Vous avez le pouvoir d’invoquer et commander l’un des esprits élémentaires du monde. Ces élémentaires sont des esprits animés par l’un des éléments primaire : feu, terre, eau ou air.De telles créatures ne sont pas d’amicaux alliés, mais des esclaves de votre volonté."
+    },
+    {
+        "Key": "ELEMENTS_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour invoquer un élémentaire. Une fois invoqué, l’esprit élémentaire suit les commandes mentales du Thaumaturge pour les trois prochains tours, agissant sur l’initiative de l’invocateur. Après que le durée a expiré, l’élémentaire retourne dans son foyer en paix, à moins qu’il n’ait été abusé lors de sa convocation. Abuser l’esprit le pousse à vous attaquer une fois la durée expirée.<br />Un élémentaire invoqué n’est pas subtil et représente une énorme violation potentielle de la Mascarade. Par défaut, un esprit élémentaire est un PNJ Type à 6 points sans pouvoirs ni compétences. Quand vous invoquez un élémentaire, vous pouvez choisir l’une des capacités spéciales suivantes :<br /><strong>Élémentaire de Feu:</strong>  Votre élémentaire a le focus de compétence \"Attaque à Distance : Boule de Feu\" et peut envoyer des boules de feu, qui infligent 2 points de dégâts aggravés à quiconque elles touchent. Quiconque touche votre élémentaire prend 1 point de dégâts aggravés. Tout ce qui touche votre élémentaire qui est inflammable s'enflamme.<br /><strong>Élémentaire de Terre : </strong> Votre élémentaire a la compétence focus Bagarre et a 5 points en Force d’âme.<br /><strong>Élémentaire d’Eau :</strong>Votre élémentaire est immunisé aux dégâts Physiques. Quiconque frappé par votre élémentaire ne prend aucun dégât, mais est étendu face contre terre. Votre élémentaire se déplace au double de sa vitesse tant qu’il est dans l’eau. <br /><strong>Élémentaire d’Air : </strong>Votre élémentaire peut voler à une vitesse normale et est immunisé aux dégâts aggravés. Quiconque frappé par votre élémentaire ne prend aucun dégât, mais est étendu face contre terre.<br /> Vous ne pouvez contrôler qu’un seul élémentaire à la fois. Si vous réutilisez ce pouvoir avant que la durée du précédent n’expire, votre contrôle se transfère au nouvel élémentaire et le précédent élémentaire invoqué est libre d’agir de son propre chef. Les élémentaires relâchés attaquent souvent leurs invocateurs avant de retourner dans leur propre plan d’existence."
+    },
+    {
+        "Key": "ELEMENTS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "ELEMENTS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "La durée de Invoquer les Élémentaires s'étend à cinq minutes."
+    }, 
+	{
+        "Key": "ELEMENTS_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard."
+    }
+]

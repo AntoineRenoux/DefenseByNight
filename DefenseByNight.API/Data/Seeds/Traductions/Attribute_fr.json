@@ -1,0 +1,26 @@
+[
+    {
+        "Key": "PHYSICAL_NAME",
+        "Text": "Physique"
+    },
+    {
+        "Key": "SOCIAL_NAME",
+        "Text": "Social"
+    },
+    {
+        "Key": "MENTAL_NAME",
+        "Text": "Mental"
+    },
+    {
+        "Key": "PHYSICAL_DESCRIPTION",
+        "Text": "Les attributs physiques quantifient de manière générale la force, l’agilité et la vigueur d’un personnage. Un personnage avec de modestes attributs physiques n’est pas très athlétique, tandis qu’un personnage avec des attributs physiques élevés est exceptionnellement fort, dextre ou robuste. Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et seulement leur Physique) pour une courte période. Pour davantage d’informations sur la manière de dépenser ainsi du Sang, voyez le chapitre Le sang."
+    },
+    {
+        "Key": "SOCIAL_DESCRIPTION",
+        "Text": "Les vampires sont des créatures manipulatrices, usant des humains (et réciproquement) comme des composantes de leurs tentatives afin de faire avancer leurs objectifs personnels. Les attributs sociaux décrivent l’apparence, le charme et la capacité à interagir avec autrui d’un personnage. Si votre personnage a peu d’attribut en Social, il est maladroit, timide ou encore commun. Un personnage avec un haut niveau dans l’attribut Social est séduisant, fascinant et doux, doué pour convaincre autrui d’aller dans son sens."
+    },
+    {
+        "Key": "MENTAL_DESCRIPTION",
+        "Text": "Les attributs mentaux indiquent la capacité du personnage à résoudre des problèmes, apprendre, déduire et à être attentif. Un personnage avec un attribut Mental élevé est vigilant, logique ou intuitif. D’autre part, si l’attribut Mental du personnage est faible, il n’est pas aussi doué. Un tel personnage peut avoir fait peu d’études, être naïf ou lent à la détente."
+    }
+]

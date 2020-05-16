@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "OBEAH_NAME",
+        "Text": "Obéah"
+    },
+    {
+        "Key": "OBEAH_DESCRIPTION",
+        "Text": "Le pouvoir sacré d’Obeah fut reconnu et respecté, tout comme ses utilisateurs, les Salubriens. Cependant, au fil des siècles, le clan et le pouvoir furent honnis et tout signe de la discipline Obeah est désormais susceptible d’être traité avec dédain et suspicion. Le pouvoir lui-même peut guérir les blessures psychologiques et physiques – et pourtant les vampires ont toutes les raisons de croire qu’Obeah et le clan qui l’a créé, puise son origine dans des pouvoirs infernaux et de la diablerie.<br /> A notre époque, les vampires croient ce mensonge - ou ont toutes les raisons de continuer à promouvoir ce mensonge. Les antiques mensonges et les anciennes trahisons lient encore la plupart des anciens à cette assertion et ils persécutent et détruisent toute personne découverte à posséder les pouvoirs d’Obeah avant qu’ils aient la chance de dire la vérité. L’utilisation de tout pouvoir d’Obeah au-delà du premier entraîne la manifestation du troisième œil sur le front de l’utilisateur. Cet œil s'ouvre et s’illumine tout au long de l’utilisation du pouvoir et disparaît par la suite. <br /><strong>Obeah et Valeren </strong> : un personnage possédant n’importe quel niveau d’Obeah ne pourra jamais acheter Valeren. De même, un personnage qui a acheté n’importe quel niveau de Valeren ne pourra jamais acheter Obeah."
+    },
+    {
+        "Key": "OBEAH_POWER_1_NAME",
+        "Text": "Sentir la vie"
+    },
+    {
+        "Key": "OBEAH_POWER_1_DESCRIPTION",
+        "Text": "La vie imprègne le monde, une énergie s’écoulant inéluctablement dans tout ce qui est. Avec ce pouvoir, vous pouvez exploiter ce courant, ressentir le pouls de l’univers et percevoir de manière tangible l’énergie vitale des individus à proximité."
+    },
+    {
+        "Key": "OBEAH_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action simple pour activer Sentir la vie. Pour l’heure suivante, vous gagnez la capacité instinctive de percevoir la santé de n’importe quelle créature qui se trouve à 10 pas de vous. Vous réalisez automatiquement les informations suivantes : • Si la cible est vivante, morte ou morte - vivante • Le nombre actuel de blessures de la cible et le nombre de niveaux de santé restants • La localisation et la gravité des blessures qu’elle subit actuellement • Si la cible souffre de maladies ou d’autres maux et si oui, lesquels • Si la cible a des drogues ou des poisons dans son organisme et si oui, lesquels • La disposition de tous les organes, os, muscles et autres structures physiques du corps. Vous vous rendez compte si des organes ont été enlevés ou déplacés et vous pouvez sentir les signes des blessures plus âgées, guéries ou des anomalies génétiques.Sentir la vie surpasse les pouvoirs permettant de camoufler les niveaux de Santé d’un individu tels que Blessures trompeuses(NdT : Misleading Wounds) ou des pouvoirs similaires."
+    },
+    {
+        "Key": "OBEAH_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBEAH_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Obeah se concentre sur la défense et la guérison. En dépensant 1 point de Sang et en utilisant une action simple, vous pouvez également utiliser Sentir la vie pour recevoir un bonus de +5 à tous les tests en utilisant la compétence Médecine ou lorsque vous essayez de diagnostiquer la cause du décès d’un cadavre."
+    },
+	 {
+        "Key": "OBEAH_POWER_2_NAME",
+        "Text": "Toucher Anesthésiant"
+    },
+    {
+        "Key": "OBEAH_POWER_2_DESCRIPTION",
+        "Text": "Vous avez le toucher d’un guérisseur. Vous pouvez faire fuir la douleur ou taire la peur dans le cœur de vos patients. Toute cible qui se soumet volontairement à votre toucher anesthésiant peut être rendue immunisée à la douleur et toute créature mortelle affectée par votre pouvoir tombe dans un sommeil réparateur immédiat."
+    },
+    {
+        "Key": "OBEAH_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour cibler un sujet volontaire. Pour l’heure suivante, la cible ne ressent aucune douleur et ne subit aucune pénalité de blessure. Si votre cible est mortelle, vous la mettez dans un état de sommeil paisible, où elle ne ressentira aucune douleur pour les 10 prochaines heures.<br /> De plus, les créatures mortelles guériront 3 points de dégâts normaux après s’être reposées huit heures entières sous les effets de ce pouvoir. Le toucher anesthésiant ne peut être utilisé que sur des cibles volontaires. Les individus sous l’effet du toucher anesthésiant sont immunisés contre les effets de toucher brûlant, à moins que le personnage utilisant le toucher brûlant ait aussi le pouvoir ancien Ardente agonie."
+    },
+    {
+        "Key": "OBEAH_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBEAH_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépenser 1 Sang et utiliser une action simple pour utiliser le toucher anesthésiant sur une cible volontaire dans votre ligne de vue."
+    },
+	{
+        "Key": "OBEAH_POWER_3_NAME",
+        "Text": "Corpore Sano"
+    },
+    {
+        "Key": "OBEAH_POWER_3_DESCRIPTION",
+        "Text": "Votre vitae est une substance alchimique, portant des propriétés curatives comme celles des êtres possédés par les figures sacrées mythologiques. En imposant les mains sur les blessures des autres, vous pouvez les faire guérir à une vitesse incroyable."
+    },
+    {
+        "Key": "OBEAH_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour cibler une personne volontaire. La cible guérit immédiatement 1 point de dégâts normaux. Corpore Sano ne peut être utilisé qu’une fois par tour. Vous pouvez utiliser Corpore Sano pour vous guérir."
+    },
+    {
+        "Key": "OBEAH_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBEAH_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "En plus des propriétés normales de Corpore Sano, vous pouvez également choisir de dépenser 1 point de Sang pour guérir un point de dégâts aggravés."
+    }, 
+	{
+        "Key": "OBEAH_POWER_4_NAME",
+        "Text": "Veille du Berger"
+    },
+    {
+        "Key": "OBEAH_POWER_4_DESCRIPTION",
+        "Text": "Comme un berger protégeant son troupeau des loups et des autres prédateurs, ceux qui cherchent votre protection peuvent trouver la paix et l’abri en votre présence. Une aura de douce vigilance vous entoure, donnant un sentiment d’espoir et de calme à ceux qui restent à proximité."
+    },
+    {
+        "Key": "OBEAH_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour activer la garde du berger. Ce pouvoir vous protège ainsi que tous les individus que vous choisissez, personnes comme créatures, aussi longtemps qu’elles restent à cinq pas de vous. Tant que ce pouvoir est actif, aucune personne ayant une intention hostile ne peut venir à moins de cinq pas de vous ou de ceux que vous choisissez de protéger. Si une personne se trouvant dans les cinq pas choisit d’attaquer ou d’utiliser un pouvoir hostile vous ciblant ou l’un de ceux que vous protégez, la tentative échoue automatiquement. De plus, l’attaquant est immédiatement et automatiquement repoussé à cinq pas de sa cible par une main douce et surnaturelle. La garde du berger n’empêche pas les individus utilisant des armes à distance ou des pouvoirs de vous attaquer, vous ou ceux que vous protégez. Si une personne protégée par votre garde du berger attaque ou cible une personne avec un pouvoir hostile (qu'elle cible une personne à l’intérieur ou à l’extérieur de votre aura), elle perd immédiatement la protection de la garde du berger. Un tel personnage ne peut pas être protégé par votre pouvoir pour l’heure suivante.<br /> Une fois que la garde du berger est activée et que vous avez choisi les personnes que vous protégez avec ce pouvoir, vous ne pouvez pas ajouter d’autres personnes à cette protection à moins de réactiver la garde du berger. Il n’y a pas de limite au nombre d’individus que vous pouvez protéger avec ce pouvoir, à condition qu’ils restent à cinq pas de vous. Chaque tour après le premier, vous devez dépenser 1 point de sang pour garder l garde du berger active. Si vous arrêtez de dépenser du sang, ou de faire toute action autre que de la parole ou du déplacement, ce pouvoir s’arrête immédiatement."
+    },
+    {
+        "Key": "OBEAH_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBEAH_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les personnages protégés par votre garde du berger gagnent également un bonus de +3 aux tests de défense impliquant l’esquive et la survie."
+    }, 
+	{
+        "Key": "OBEAH_POWER_5_NAME",
+        "Text": "La Bénédiction du roi"
+    },
+    {
+        "Key": "OBEAH_POWER_5_DESCRIPTION",
+        "Text": "En imposant vos mains sur les malades ou les blessés, vous guérissez le corps du patient de toute affliction ou maladie, l’amenant à un état de pleine santé. Lorsque cela se produit, un doux sentiment de paix se propage à travers l’âme de votre cible, la rendant temporairement joyeuse et en harmonie avec le monde. Certains vampires voient cela comme une bénédiction ; d’autres le considèrent comme une ruse infernale destinée à cacher la vraie nature de l’utilisateur."
+    },
+    {
+        "Key": "OBEAH_POWER_5_SYSTEM",
+        "Text": "Dépensez 3 points de sang et touchez une cible volontaire pendant une minute pour activer la bénédiction du roi. Par la suite, toutes les maladies physiques dont souffre actuellement votre cible sont guéries, pour aussi longtemps que vous le souhaitez. La bénédiction du Roi peut être utilisée pour guérir des blessures, régénérer les membres perdus, corriger les défauts génétiques, contrecarrer les poisons ou les drogues, guérir les maladies et supprimer les altérations indésirables à la forme physique, comme celles causées par Vicissitude. La Bénédiction du Roi ne peut être utilisée que sur des cibles volontaires. Les personnages qui ne peuvent pas dépenser 3 points de Sang en un seul tour peuvent remplir cette exigence sur plusieurs tours, tant que le Sang est dépensé consécutivement."
+    },
+    {
+        "Key": "OBEAH_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "OBEAH_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "L’utilisation de la bénédiction du roi peut également apporter la paix à ceux qui ont des maux ou des troubles psychologiques et peut même guérir des dérangements. Après avoir rempli tous les autres coûts de ce pouvoir, vous pouvez également supprimer le dérangement d’un individu. Notez que ce pouvoir ne peut pas enlever définitivement le dérangement primaire d’un Malkavien, même si cela le soulage pendant un court laps de temps. Un Malkavien ne gagne pas de traits de dérangement pendant une heure. Pour plus d’informations sur les dérangements et les traits de dérangement, voir le chapitre 5: avantages et défauts."
+    },
+    {
+        "Key": "OBEAH_ELDER_POWER_1_NAME",
+        "Text": "Soulager l’âme bestiale"
+    },
+    {
+        "Key": "OBEAH_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Les légendes disent que les Vampires sont maudits par la malédiction de Caïn, leur âme noircie par la nature même de l’étreinte. Avec ce pouvoir, les anciens peuvent soulager les pulsions et ravages de la Bête, offrant à l’âme du vampire une soirée de paix rare et bénie. Cependant, un tel pardon vient au coût d’une certaine quantité de libre arbitre."
+    },
+    {
+        "Key": "OBEAH_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 3 points de Sang, touchez une cible consentante et concentrez-vous pendant une minute pour retirer tous les traits de la Bête de la cible. Après avoir été consacrée de cette manière, votre cible est incapable d’entreprendre n’importe quelle action qui lui causerait de gagner des traits de la Bête pour le reste de la soirée. Si votre cible tente une activité que le Conteur croit mener vers un trait de la Bête, le personnage perd son action sans avoir exécuté son activité."
+    },
+	{
+        "Key": "OBEAH_TEST_SCORE",
+        "Text": "L'utilisateur de Mythercellerie doit utiliser son Attribut <i>Mental + Érudition</i>, contre l’Attribut <i>Mental + Volonté</i> de la Cible."
+    }
+]

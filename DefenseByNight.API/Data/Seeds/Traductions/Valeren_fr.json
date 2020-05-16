@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "VALEREN_NAME",
+        "Text": "Valeren"
+    },
+    {
+        "Key": "VALEREN_DESCRIPTION",
+        "Text": "Luttant pour défendre leur clan en des temps sombres et troubles, les guerriers Salubriens créèrent la discipline Valeren. Au fil des siècles, des rumeurs se répandirent selon lesquelles les Salubriens seraient des infernalistes et des diabolistes. Cette discipline est désormais vue avec crainte et aversion. Contrairement à sa discipline sœur, Obeah, Valeren n’est véritablement pas un pouvoir de guérison. C’est une manifestation de guerre, de colère et de Chi. Comme avec Obeah, dans les temps modernes, la plupart des vampires croient que les Salubriens et leurs disciplines sont d’origine infernale. D’antiques mensonges et d’anciennes trahisons lient toujours la plupart des anciens à cette affirmation. Ainsi, ils persécutent et détruisent quiconque est découvert à posséder les pouvoirs de Valeren avant même qu’ils aient eu la chance de dire la vérité. L’utilisation de pouvoirs de Valeren au-delà du premier entraine la manifestation du troisième œil au milieu du front de l’utilisateur. Cet œil reste ouvert et s’illumine tout au long de l’utilisation de ces pouvoirs et disparait par la suite. Valeren et Obéah : un personnage possédant n’importe quel niveau d’Obeah ne pourra jamais acheter Valeren. De même, un personnage qui a acheté n’importe quel niveau de Valeren ne pourra jamais acheter Obéah."
+    },
+    {
+        "Key": "VALEREN_POWER_1_NAME",
+        "Text": "Sentir la Vitalité"
+    },
+    {
+        "Key": "VALEREN_POWER_1_DESCRIPTION",
+        "Text": "La vie imprègne le monde, une énergie s’écoulant inéluctablement dans tout ce qui est. Avec ce pouvoir, vous pouvez exploiter ce courant, ressentir le pouls de l’univers et percevoir de manière tangible l’énergie vitale des individus à proximité."
+    },
+    {
+        "Key": "VALEREN_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action simple pour activer Sentir la Vitalité. Pour l’heure suivante, vous gagnez la capacité instinctive de percevoir la santé de n’importe quelle créature qui se trouve à 10 pas de vous. Vous réalisez automatiquement les informations suivantes : • Si la cible est vivante, morte ou morte - vivante • Le nombre actuel de blessures de la cible et le nombre de niveaux de santé restants • La localisation et la gravité des blessures qu’elle subit actuellement • Si la cible souffre de maladies ou d’autres affections et si oui, lesquelles • Si la cible a des drogues ou des poisons dans son organisme et si oui, lesquels • La disposition de tous les organes, os, muscles et autres structures physiques du corps.Vous vous rendez compte si des organes ont été enlevés ou déplacés et vous pouvez sentir les signes des blessures plus âgées, guéries ou des anomalies génétiques. Sentir la Vitalité surpasse les pouvoirs permettant de camoufler les niveaux de Santé d’un individu tels que Blessures trompeuses(NdT: Misleading Wounds) ou des pouvoirs similaires."
+    },
+    {
+        "Key": "VALEREN_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VALEREN_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Valeren se concentre sur le combat et cause la douleur. Alors que Sentir la Vitalité est actif, vous n’avez pas besoin de dépenser de point de volonté pour utiliser la manœuvre de combat « Percer le cœur »"
+    },
+	 {
+        "Key": "VALEREN_POWER_2_NAME",
+        "Text": "Toucher Brûlant"
+    },
+    {
+        "Key": "VALEREN_POWER_2_DESCRIPTION",
+        "Text": "Vous avez l’esprit d’un guerrier et vous pouvez infliger une terrible souffrance à vos ennemis. Toute cible victime de votre Toucher Brûlant est consumée par la douleur."
+    },
+    {
+        "Key": "VALEREN_POWER_2_SYSTEM",
+        "Text": "Utilisez une action standard pour attraper une cible. Si vous réussissez, dépensez 1 point de sang pour infliger « Toucher Brûlant » à la victime, en plus des effets standard de la manœuvre de combat. Par la suite, la cible subit une pénalité -3 à toutes les actions jusqu'à votre prochaine initiative. Si vous êtes déjà en train de lutter contre votre cible, vous pouvez simplement activer Toucher Brûlant en dépensant 1 point de sang et en utilisant une action simple.<br /> Toucher Brûlant inflige une forte douleur à quiconque vous touche bien que les individus qui ne sont pas attaqués peuvent simplement se retirer avant de subir ces pénalités. Si un autre personnage est en train de vous toucher ou de vous agripper lorsque vous dépensez 1 point de Sang pour activer Toucher Brûlant, cet individu peut choisir de laisser aller ou de subir les effets du pouvoir et de recevoir sa pénalité de -3 jusqu'à votre initiative au tour suivant. <br />Les pouvoirs permettant à un individu de résister à la douleur ne peuvent surmonter la douleur causée par un Toucher Brûlant, sauf si spécifiquement noté dans la description de ce don."
+    },
+    {
+        "Key": "VALEREN_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VALEREN_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Ceux qui ont subi votre Toucher Brûlant ont toujours les réminiscences de cette agonie gravées dans leur subconscient. La menace de torture d’un utilisateur de Valeren donne au personnage le plus stoïque une raison de reconsidérer son entêtement. Quiconque a été touché par ce pouvoir subit une pénalité de -5 pour résister aux tests d’interrogatoires basés sur l’intimidation. Cet effet ne peut pas être utilisé pour augmenter des pouvoirs surnaturels."
+    },
+	{
+        "Key": "VALEREN_POWER_3_NAME",
+        "Text": "Mens Sana"
+    },
+    {
+        "Key": "VALEREN_POWER_3_DESCRIPTION",
+        "Text": "Votre vitae est une substance alchimique, portant des propriétés curatives comme celles des êtres possédés par les figures sacrées mythologiques. En focalisant votre chi de guerrier et en concentrant votre esprit, vous utilisez les pouvoirs sacrés de votre sang, vous faisant guérir à une vitesse incroyable."
+    },
+    {
+        "Key": "VALEREN_POWER_3_SYSTEM",
+        "Text": "Une fois par tour, vous pouvez dépenser 1 point de sang pour guérir 1 point de dégâts normaux. Le sang dépensé pour Mens Sana ne compte pas pour la quantité maximale de sang qu’un personnage peut dépenser par tour. Vous ne pouvez effectuer cette action que sur vous-même ; vous ne pouvez guérir d’autres individus avec Mens Sana."
+    },
+    {
+        "Key": "VALEREN_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VALEREN_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Mens Sana deux fois par tour, guérissant jusqu'à 2 points de dégâts pour le coût de 2 points de Sang."
+    }, 
+	{
+        "Key": "VALEREN_POWER_4_NAME",
+        "Text": "Armure de Fureur de Caïn"
+    },
+    {
+        "Key": "VALEREN_POWER_4_DESCRIPTION",
+        "Text": "Lorsque ce pouvoir est activé, l’utilisateur est entouré par un halo pourpre brillant. Cette armure fantôme est formée à partir de l’essence spirituelle du vampire et le protège contre la plupart des blessures physiques."
+    },
+    {
+        "Key": "VALEREN_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action simple pour activer l’Armure de Fureur de Caïn. Tant que ce pouvoir est actif, vous gagnez un bonus de +3 à tous les tests de défense basés sur l’esquive et la Survie. Si à un moment donné vous utilisez une action standard pour faire autre chose que d’utiliser une attaque de Mêlée, une attaque de Bagarre, ou de vous diriger vers un personnage que vous avez l’intention d’attaquer, l’Armure de Fureur de Caïn se termine immédiatement.<br /> L’Armure de Fureur de Caïn n’est pas une véritable armure. Les attaques qui normalement peuvent percer les armures ne peuvent pas limiter ou ignorer les effets de ce pouvoir."
+    },
+    {
+        "Key": "VALEREN_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VALEREN_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Tant que ce pouvoir est actif, vous bénéficiez des avantages d’une frénésie, sans subir les inconvénients. En outre, vous êtes à l’abri de la peur et de la frénésie de faim. Ces effets ne se cumulent pas avec les avantages d’une frénésie naturelle."
+    }, 
+	{
+        "Key": "VALEREN_POWER_5_NAME",
+        "Text": "La Vengeance de Samiel"
+    },
+    {
+        "Key": "VALEREN_POWER_5_DESCRIPTION",
+        "Text": "Lors de l’utilisation de ce pouvoir, le troisième œil de l’utilisateur s'ouvre et brille d’une flamme féroce et brillante. Sous les effets de la Vengeance de Samiel, les coups du vampire deviennent infaillibles et sa colère devient féroce, presque palpable."
+    },
+    {
+        "Key": "VALEREN_POWER_5_SYSTEM",
+        "Text": "Une fois par tour, vous pouvez dépenser 1 point de sang et utiliser une action standard pour effectuer une attaque de Mêlée ou de Bagarre contre un autre personnage. Cette attaque touche automatiquement, par un succès normal. Les pouvoirs ou les effets qui annulent complètement ou permettent d’éviter une attaque peuvent être utilisés pour éviter la Vengeance de Samiel. Cependant, les pouvoirs qui donnent un bonus à l’esquive au défenseur n’ont pas d’effets.<br /> La vengeance de Samiel peut être utilisée en combinaison avec d’autres pouvoirs, tels que Potence ou les Griffes du fauve, mais ne peut pas être utilisé en conjonction avec des attaques à distance. En outre, les manœuvres de combat ne peuvent pas être combinées avec une attaque augmentée par la Vengeance de Samiel en aucune circonstance."
+    },
+    {
+        "Key": "VALEREN_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "VALEREN_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Votre vengeance de Samiel vous donne un succès exceptionnel sur cette attaque, au lieu d’un succès normal. Votre cible peut choisir de dépenser un point de Volonté pour convertir ce succès exceptionnel automatique en succès normal."
+    },
+    {
+        "Key": "VALEREN_ELDER_POWER_1_NAME",
+        "Text": "Fougueuse Agonie"
+    },
+    {
+        "Key": "VALEREN_ELDER_POWER_1_DESCRIPTION",
+        "Text": "L'arsenal spirituel d’un utilisateur de Valeren est puissant et incroyablement intense quand il est utilisé par ceux qui ont maîtrisé ses Pouvoirs d’Ancien. Grâce à l’utilisation de la Fougueuse Agonie, vous pouvez étendre le pouvoir de votre chi au point d’infliger des douleurs à n’importe qui que vous puissiez voir, à la condition d’avoir touché votre victime il y a moins d’une heure."
+    },
+    {
+        "Key": "VALEREN_ELDER_POWER_1_SYSTEM",
+        "Text": "Utilisez une action simple et dépensez 1 point de sang pour activer ce pouvoir. A condition d’avoir touché votre cible il y a moins d’une heure, vous pouvez utiliser Toucher Brûlant sans contact, tant que la cible est dans votre ligne de vue. N’importe quel sorte de contact permet l’utilisation de la Fougueuse Agonie, ce qui inclut l’utilisation d’attaques de Bagarre, une poignée de main ou le fait d’effleurer quelqu'un dans une salle bondée. Si vous perdez de vue la cible à n’importe quel moment, vous devrez toucher la cible à nouveau, avant d’utiliser la Fougueuse Agonie.<br />Une victime de Fougueuse Agonie sait instinctivement qui est le responsable de ses tourments."
+    },
+	{
+        "Key": "VALEREN_TEST_SCORE",
+        "Text": "L’utilisateur de Valeren utilise son Score de Test de <i>Mental + Médecine</i> contre le Score de Test de <i>Mental + Volonté</i> de la cible."
+    }
+]

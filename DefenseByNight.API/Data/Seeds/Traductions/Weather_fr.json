@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "WEATHER_NAME",
+        "Text": "Le Contrôle du Climat"
+    },
+    {
+        "Key": "WEATHER_DESCRIPTION",
+        "Text": "Les contes ont longtemps raconté l’histoire de sorciers qui pouvaient contrôler la météo. On dit que les pouvoirs de cette Voie sont antérieurs au clan Tremere de plusieurs siècles, comme les sorciers des Assamites et les Disciples de Set ont exercé de tels pouvoirs pour aider leurs troupeaux avec les récoltes pendant les périodes de famine.<br />En utilisant le Contrôle du Climat, vous avez appris à manipuler subtilement la météo ou convoquer la fureur des tempêtes et des éclairs.<br />Notez que les pouvoirs suivants doivent commencer sur un point dans la ligne de vue du thaumaturge."
+    },
+    {
+        "Key": "WEATHER_POWER_1_NAME",
+        "Text": "Brouillard"
+    },
+    {
+        "Key": "WEATHER_POWER_1_DESCRIPTION",
+        "Text": "Les initiés du Contrôle du Climat peuvent convoquer un brouillard pour couvrir une zone ou un paysage."
+    },
+    {
+        "Key": "WEATHER_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action Standard pour convoquer Brouillard. Pendant la prochaine heure, un brouillard se forme sur une large zone, jusqu'à 1,60 km de diamètre (1 mile) pour chaque point que vous possédez dans la compétence Occultisme. Quiconque pris dans le brouillard est incapable de voir à plus de 15 pas. La quantité d’humidité naturelle dans l’air détermine la densité du brouillard.<br />Votre conteur a le dernier mot sur le temps exact qu’il faut pour que le brouillard se forme et à quel point il bloque agressivement la vue. Le brouillard dure une heure pour chaque point que vous possédez dans la compétence Occultisme, à moins que vous ne choisissez de terminer le pouvoir plus tôt. Une fois que brouillard prend fin, ses effets se dissipent lentement, s'évaporant sur l’heure suivante."
+    },
+    {
+        "Key": "WEATHER_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "WEATHER_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "En plus de l’utilisation standard de Brouillard, vous pouvez dépensez 1 point de Sang et votre action standard pour remplir instantanément une zone d’une taille allant jusqu'à celle d’une large salle de bal avec un épais brouillard. Si utilisé dehors, votre brouillard s'étend de 50 pas dans toutes les directions, avec vous au centre.<br />Les individus dans votre brouillard instantanément créé ne peuvent pas voir au-delà de trois pas. Les personnages qui souhaitent attaquer ou utiliser un pouvoir au-delà de trois pas doivent utiliser la manœuvre de combat Combat en Aveugle. Les pouvoirs qui vous permettent de voir dans l’obscurité complète, comme les yeux de la Bête, ne peuvent pas être utilisés pour contourner Brouillard, mais les pouvoirs qui permettent de compenser votre perte de vue, comme Sens Accrus peuvent contourner cette restriction. Le Brouillard dure une minute pour chaque point que vous possédez dans la compétence Occultisme, mais vous pouvez le dissiper plus tôt en dépensant une action simple. Pour plus d’informations sur le combat en aveugle."
+    },
+	 {
+        "Key": "WEATHER_POWER_2_NAME",
+        "Text": "Fluctuation"
+    },
+    {
+        "Key": "WEATHER_POWER_2_DESCRIPTION",
+        "Text": "Vous avez appris à subtilement façonner la météo locale, fluctuant doucement la température vers le haut ou le bas selon vos besoins."
+    },
+    {
+        "Key": "WEATHER_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour altérer la température dans un rayon de 1,6 km (1 mile). Vous pouvez faire monter ou descendre la température de 5 degrés Fahrenheit (3,80 degrés Celsius) pour chaque point que vous possédez dans la compétence Occultisme. Ce changement de température s'opère lentement, changeant d’un degré (0,55 degré Celsius) toutes les heures jusqu'à ce que le niveau voulu soit atteint. Une fois arrivé à ce niveau, le pouvoir persiste pendant une heure pour chaque point que vous possédez dans la compétence Occultisme, avant que la température ne remonte doucement à la normale."
+    },
+    {
+        "Key": "WEATHER_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "WEATHER_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "En plus des effets standards de Fluctuation, vous pouvez dépensez 1 point de Sang et utiliser votre action standard pour augmenter ou diminuer la température dans une zone d’une taille allant jusqu'à celle d’une large salle de bal. Vous pouvez fixer la température n’importe où entre -20 degrés Fahrenheit et 120 degrés Fahrenheit (-28,88 à 48 degrés Celsius). A son plus froid, ce pouvoir peut geler l’eau en trois tours. A son plus chaud, il peut provoquer des coups de chaleurs chez des mortels pas préparés, dessécher les plantes et dessécher les objets inanimés en quelques minutes."
+    },
+	{
+        "Key": "WEATHER_POWER_3_NAME",
+        "Text": "Grands Vents"
+    },
+    {
+        "Key": "WEATHER_POWER_3_DESCRIPTION",
+        "Text": "Grâce au pouvoir de votre sang, vous avez la capacité de commander de puissantes bourrasques de vent d’une force terrifiante."
+    },
+    {
+        "Key": "WEATHER_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour appeler de grands vents dans un rayon de 1,60 km (1 mile) pour chaque point que vous possédez dans la compétence Occultisme. Vous pouvez invoquer des vents qui peuvent souffler jusqu'à 48,28 kilomètres par heure (30 miles par heure), avec des rafales de vent au double de cette vitesse. Cet accroissement du vent arrive lentement. Le vent augmente de 1,6 km par heure(1 mile par heure) toutes les dix minutes, jusqu'à ce que la vitesse désirée soit atteinte. Une fois que le vent atteint sa vitesse désirée, le pouvoir dure 10 minutes pour chaque point que vous possédez dans la compétence Occultisme, avant de doucement revenir à la normale. Grands Vents peut provoquer des black-out aléatoires, blocages routiers, avions cloués au sol et des dégâts matériels à la discrétion du conteur."
+    },
+    {
+        "Key": "WEATHER_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "WEATHER_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "En plus des effets standards de Grand Vents, vous pouvez dépenser 1 Point de Sang, utiliser votre action standard et faire un challenge opposé en utilisant le Score de Test de Thaumaturgie pour envoyer un souffle d’air à votre cible. Si votre cible échoue à esquiver, elle est martelée par une violente rafale de vent, renversée en arrière jusqu'à 6 pas et atterrit face contre terre. Si votre cible impacte une surface solide, elle prend 2 points de dégâts normaux."
+    }, 
+	{
+        "Key": "WEATHER_POWER_4_NAME",
+        "Text": "Tempête"
+    },
+    {
+        "Key": "WEATHER_POWER_4_DESCRIPTION",
+        "Text": "Vous avez appris à invoquer et contrôler de puissantes tempêtes avec un grand pouvoir de destruction, qui peuvent semer le chaos indifféremment sur vos ennemis et les biens matériels."
+    },
+    {
+        "Key": "WEATHER_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour appeler une Tempête. Cette Tempête couvre un large rayon avec de grands vents et de la pluie ou de la neige, si la température est assez basse. La vitesse du vent augmente dans la zone d’effet jusqu'à ce qu’elle atteigne 32,12 km/h (20 miles par heure). Votre aire d’effet est de 1,6 km (1 mile) pour chaque point que vous possédez dans la compétence Occultisme. Les rafales de vent peuvent atteindre jusqu'à 64,37 km/h (40 miles par heure). Cet accroissement du vent se produit lentement. Les vents grandissent à une vitesse de 1,6 km/h (1 mile) toutes les 10 minutes jusqu'à ce que la vitesse désirée soit atteinte. Une fois que le vent a atteint la vitesse désirée, le pouvoir dure pendant 10 minutes pour chaque point que vous possédez dans la compétence <i>Occultisme</i>.<br /> En vous concentrant et en n’entreprenant aucune autre action pendant 10 minutes, vous pouvez, en outre, ravager un rayon de la taille d’un pâté de maisons, intensifiant la tempête dans cette zone. Pour ce faire, vous n’avez pas à voir la zone affectée, mais vous devez être familier avec cette zone. Si vous employez cet effet, la zone cible souffre de coupures de courants, inondations et de dégâts matériels. Les routes deviennent impraticables, bloquées par des arbres tombés ou d’autres débris."
+    },
+    {
+        "Key": "WEATHER_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "WEATHER_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "En plus de l’effet standard de la Tempête, vous pouvez dépensez 1 point de Sang et utiliser votre action simple pour vous entourer d’une tempête tourbillonnante. Ce maelström miniature dure un tour complet pour chaque point que vous possédez dans la compétence Occultisme. Une fois par tour, tant que ce pouvoir est actif, vous pouvez dépensez une action standard pour employer l’effet du Focus de Grands Vents, sans avoir à dépenser de point de Sang."
+    }, 
+	{
+        "Key": "WEATHER_POWER_5_NAME",
+        "Text": "Éclairs"
+    },
+    {
+        "Key": "WEATHER_POWER_5_DESCRIPTION",
+        "Text": "L'arme même des dieux, la foudre, est à vos ordres, frappant vos ennemis."
+    },
+    {
+        "Key": "WEATHER_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour faire un Challenge opposé. Si vous réussissez, vous pouvez frapper votre cible avec un éclair. Les individus frappés par la foudre souffrent de 4 points de dégâts normaux. <br /> Un éclair peut émaner de votre main tendue ou, si vous êtes dehors quand vous utilisez ce pouvoir, il peut frapper depuis les nuages au dessus."
+    },
+    {
+        "Key": "WEATHER_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Votre éclair inflige 5 points de dégâts normaux, au lieu des 4 standards."
+    },
+	{
+        "Key": "WEATHER_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Quand vous frappez un adversaire avec Éclairs, vous pouvez choisir soit d’aveugler une cible pendant un tour complet soit de l’étourdir, provoquant la perte de sa prochaine action simple. Si un personnage est frappé par plus d’un éclair en un seul tour, il peut souffrir des deux effets, mais il ne peut pas être sujet au même effet deux fois en un seul tour."
+    }, 
+	{
+        "Key": "WEATHER_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour Le Contrôle du Climat."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "Key": "PHYSICAL_STRENGTH_NAME",
+        "Text": "Force"
+    },
+    {
+        "Key": "PHYSICAL_DEXTERITY_NAME",
+        "Text": "Dextérité"
+    },
+    {
+        "Key": "PHYSICAL_STAMINA_NAME",
+        "Text": "Endurance"
+    },
+    {
+        "Key": "PHYSICAL_STRENGTH_DESCRIPTION",
+        "Text": "Un personnage focalisé sur la Force est costaud et musclé. Une fois par combat, de tels personnages peuvent utiliser gratuitement une manœuvre de combat basée sur la Force (Désarmer, Agripper, Assommer ou Percer le Cœur)."
+    },
+    {
+        "Key": "PHYSICAL_DEXTERITY_DESCRIPTION",
+        "Text": "Un personnage focalisé sur la Dextérité est rapide et agile. Une fois par combat, de tels personnages peuvent utiliser gratuitement une manœuvre de combat basée sur la Dextérité (Accélération, Désarmer, Combat à l’Aveugle ou Dégainage rapide)."
+    },
+    {
+        "Key": "PHYSICAL_STAMINA_DESCRIPTION",
+        "Text": "Un personnage focalisé sur l’Endurance est coriace et robuste. De tels personnages ne subissent pas les pénalités de blessure. De plus, ils ne peuvent être ni assommés ni mis à terre par une manœuvre de combat à moins que l’attaquant ait un attribut Physique supérieur à celui de votre personnage."
+    },
+    {
+        "Key": "SOCIAL_CHARISMA_NAME",
+        "Text": "Charisme"
+    },
+    {
+        "Key": "SOCIAL_MANIPULATION_NAME",
+        "Text": "Manipulation"
+    },
+    {
+        "Key": "SOCIAL_APPEARANCE_NAME",
+        "Text": "Apparence"
+    },
+    {
+        "Key": "SOCIAL_CHARISMA_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Social de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Parallèlement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple flagorner tous les avocats de la ville, votre conteur peut diviser le temps de réalisation par deux."
+    },
+    {
+        "Key": "SOCIAL_MANIPULATION_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Social de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Parallèlement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple flagorner tous les avocats de la ville, votre conteur peut diviser le temps de réalisation par deux."
+    },
+    {
+        "Key": "SOCIAL_APPEARANCE_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Social de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Parallèlement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple flagorner tous les avocats de la ville, votre conteur peut diviser le temps de réalisation par deux."
+    },
+    {
+        "Key": "MENTAL_PERCEPTION_NAME",
+        "Text": "Perception"
+    },
+    {
+        "Key": "MENTAL_INTELLIGENCE_NAME",
+        "Text": "Intelligence"
+    },
+    {
+        "Key": "MENTAL_WITZ_NAME",
+        "Text": "Astuce"
+    },
+    {
+        "Key": "MENTAL_PERCEPTION_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Mental de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Alternativement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple traduire un texte ancien en français, votre conteur peut diviser le temps de réalisation par deux."
+    },
+    {
+        "Key": "MENTAL_INTELLIGENCE_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Mental de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Alternativement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple traduire un texte ancien en français, votre conteur peut diviser le temps de réalisation par deux."
+    },
+    {
+        "Key": "MENTAL_WITZ_DESCRIPTION",
+        "Text": "Quand vous faites un challenge non basé sur un pouvoir en lien avec le focus Mental de votre personnage, le conteur peut décider de vous donner un bonus de +3 pour ce challenge. Alternativement, quand votre personnage tente une action d’une durée significative, non basée sur un pouvoir et en lien avec son focus, comme par exemple traduire un texte ancien en français, votre conteur peut diviser le temps de réalisation par deux."
+    }
+]

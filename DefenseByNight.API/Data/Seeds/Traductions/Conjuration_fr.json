@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "CONJURATION_NAME",
+        "Text": "La Voie de la Conjuration"
+    },
+    {
+        "Key": "CONJURATION_DESCRIPTION",
+        "Text": "La voie de la conjuration vous permet de créer des objets ou des créatures à partir de rien, entièrement issus de l’imagination et de la magie de ceux qui les façonnent. Les objets créés par l’entremise de la voie de la conjuration sont entièrement génériques et ne portent aucune marque ou signe distinctif. De plus, les objets conjurés sont en parfait état ne portent aucune trace d’usure ou de rayures. Vous pouvez créer tout ce que vous imaginez tout en étant limité par votre taille physique ; en effet, vous ne pouvez pas créer d’objets qui soient plus grands ou plus lourds que vous.<br />Vous devez être familier avec le type d’objet que vous souhaitez conjurer. Par exemple, vous devez posséder la compétence “Arme à feu” pour conjurer un Revolver, tout comme vous devez posséder des points dans la compétence “Science” ou “Médecine” afin de créer des médicaments. Votre conteur a le dernier mot concernant les compétences que vous devez posséder pour créer certains objets."
+    },
+    {
+        "Key": "CONJURATION_POWER_1_NAME",
+        "Text": "Invoquer la Forme Simple"
+    },
+    {
+        "Key": "CONJURATION_POWER_1_DESCRIPTION",
+        "Text": "Les initiés dans la Voie de la conjuration possèdent la capacité de créer un objet constitué d’un seul et unique matériau. Ces objets ne peuvent pas être constitués de plusieurs parties et sont exempts de toute forme de mécanisme complexe. A l’aide de ce pouvoir, vous pouvez conjurer un morceau de roche, un pieu en bois ou une barre de fer."
+    },
+    {
+        "Key": "CONJURATION_POWER_1_SYSTEM",
+        "Text": "En dépensant une action standard et 1 point de sang, vous pouvez conjurer un objet inanimé qu’une personne peut tenir dans une main. Les objets créés par ce pouvoir doivent avoir une forme simple et sont dénués d’éléments électroniques ou de parties amovibles. Les objets créés par ce niveau de pouvoir apparaissent toujours dans votre main. Vous ne pouvez pas conjurer des créatures vivantes ou non mortes. Une fois que vous avez conjuré l’objet, vous devez dépenser un point de sang pour chaque minute supplémentaire où vous souhaitez maintenir sa forme sur le plan matériel. La première minute ne nécessite pas de dépense de sang supplémentaire. Si vous ne dépensez pas le point de sang supplémentaire, l’objet disparaît."
+    },
+    {
+        "Key": "CONJURATION_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CONJURATION_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "\"Invoquer la forme Simple\" peut être conjuré avec une action simple au lieu d’une action standard."
+    },
+	 {
+        "Key": "CONJURATION_POWER_2_NAME",
+        "Text": "Magie de la Forge"
+    },
+    {
+        "Key": "CONJURATION_POWER_2_DESCRIPTION",
+        "Text": "Vous possédez la capacité de conjurer tout objet complexe composé de divers éléments et de parties amovibles dans lesquelles vous avez une compréhension générale."
+    },
+    {
+        "Key": "CONJURATION_POWER_2_SYSTEM",
+        "Text": "En dépensant 1 Sang et en vous concentrant pendant 5 tours entiers, et en n’engageant aucune autre action que celle se déplacer, vous pouvez créer un objet complexe avec ce pouvoir. A partir du moment où vous êtes familier avec l’objet désiré et que vous possédez les compétences nécessaires, vous pouvez créer des objets avec des parties amovibles et des composants électroniques. En possédant les compétences spécifiques, vous pouvez conjurer un revolver, un téléphone portable, un ordinateur portable, une batterie, un petit moteur et tout autre objet du quotidien. Ces objets sont limités en taille, une personne normale doit pouvoir les utiliser d’une seule main. Les objets créés par ce niveau de pouvoir apparaissent toujours dans votre main.<br />Les objets créés par l’entremise de ce pouvoir peuvent nécessiter une aide extérieure pour fonctionner totalement. Ainsi, un téléphone portable aura besoin d’un fournisseur de réseau (ou d’un hacker très doué) afin que vous puissiez passer un appel, et la plupart des objets électroniques auront besoin d’électricité pour fonctionner. Les objets créés par ce pouvoir possèdent tout ce qu’il faut pour fonctionner parfaitement. Ainsi, un revolver créé par ce pouvoir aura un chargeur rempli de munitions et un téléphone portable aura une batterie pleine. Une fois que vous avez conjuré l’objet, vous devez dépenser un point de sang pour chaque minute supplémentaire où vous souhaitez maintenir sa forme sur le plan matériel physique. La première minute ne nécessite pas de dépense de sang supplémentaire. Si vous ne dépensez pas le point de sang supplémentaire, l’objet disparaît.<br />Ce pouvoir peut être utilisé pour créer une pièce normale d’équipement. Pour plus d’informations à ce sujet, se référer au Système de génération de l’équipement."
+    },
+    {
+        "Key": "CONJURATION_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CONJURATION_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "\"Magie de la Forge\" peut être utilisé pour créer un objet faisant jusqu'à 3 mètres cube. Si vous créez un objet trop grand ou trop encombrant à transporter, l’objet apparaîtra directement en face de vous, au bout de vos doigts tendus."
+    },
+	{
+        "Key": "CONJURATION_POWER_3_NAME",
+        "Text": "Permanence"
+    },
+    {
+        "Key": "CONJURATION_POWER_3_DESCRIPTION",
+        "Text": "Les objets que vous créez sont réels et permanents, ne nécessitant aucune dépense additionnelle de sang afin de rester sur notre plan d’existence."
+    },
+    {
+        "Key": "CONJURATION_POWER_3_SYSTEM",
+        "Text": "Après avoir créé un objet en utilisant “Invoquer la forme simple” ou “Magie de la Forge”, vous pouvez dépenser un point de sang et utiliser une action simple pour rendre cet objet permanent. L’objet ne disparaît pas à moins d’être banni à l’aide d’un pouvoir tel que “Inverser la Conjuration”"
+    },
+    {
+        "Key": "CONJURATION_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CONJURATION_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous créez un objet par l’entremise de “Invoquer la forme simple” ou de “Magie de la Forge”, vous pouvez choisir de rendre l’objet permanent sans avoir à dépenser de sang ou à utiliser une action supplémentaire."
+    }, 
+	{
+        "Key": "CONJURATION_POWER_4_NAME",
+        "Text": "Inverser la conjuration"
+    },
+    {
+        "Key": "CONJURATION_POWER_4_DESCRIPTION",
+        "Text": "Vous pouvez détruire les objets conjurés - même ceux créés par vous, ou un autre thaumaturge - les dissipant ainsi dans le néant magique dont ils sont issus."
+    },
+    {
+        "Key": "CONJURATION_POWER_4_SYSTEM",
+        "Text": "Dépensez un point de sang et utilisez votre action standard pour tenter de dissiper un objet créé par la voie de la conjuration. Vous pouvez bannir n’importe laquelle de vos créations sans aucun test. Pour bannir un objet créé par un autre thaumaturge, vous devez faire un challenge statique en utilisant votre attribut Mental + Occulte dont le seuil de difficulté est égal au score en Mental + Occulte du Créateur. Vous pouvez cibler n’importe quel objet que vous voyez ou ressentez avec ce pouvoir. Cependant, vous ne disposez d’aucun moyen de distinguer les objets conjurés des objets fabriqués naturellement.<br />Vous pouvez utiliser ce pouvoir pour bannir les objets et certaines créatures conjurées par d’autre voies de thaumaturgie, tels que les élémentaires conjurés par la “Voie de la maîtrise élémentaire”. Bannir un élémentaire nécessite que vous réussissiez un test en opposition contre l’élémentaire en utilisant votre groupement de Thaumaturgie."
+    },
+    {
+        "Key": "CONJURATION_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CONJURATION_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser une action simple pour déterminer si un objet dans votre champ de vision est naturel ou conjuré à l’aide de thaumaturgie. Après avoir déterminé si l’objet est naturel ou conjuré, vous pouvez dépenser 1 point de Sang et utiliser une action standard pour tenter de le dissiper, en utilisant le système de règles ci-dessus."
+    }, 
+	{
+        "Key": "CONJURATION_POWER_5_NAME",
+        "Text": "Pouvoir Sur la Vie"
+    },
+    {
+        "Key": "CONJURATION_POWER_5_DESCRIPTION",
+        "Text": "Bien que les thaumaturges ne puissent créer la Vie, avec ce pouvoir vous avez la capacité de conjurer des créations qui possèdent un semblant d’existence. Ces créatures ne sont pas vraiment “conscientes”, possèdent une forme d’intelligence limitée et ne disposent d’aucune créativité. Ces créatures obéissent aveuglément à vos ordres et ne possèdent aucune volonté qui leur soit propre."
+    },
+    {
+        "Key": "CONJURATION_POWER_5_SYSTEM",
+        "Text": "Concentrez-vous pendant 5 tours entiers en dépensant 1 point de sang par tour, en n’entreprenant aucune autre action pour conjurer un “Simulacre”, un être vivant qui obéit à vos ordres mentaux. Ce pouvoir peut être utilisé pour créer un fac-similé de tout animal ou type de personne normal. Votre “Simulacre” possède les caractéristiques générales propres aux types de personnes ou à l’animal que vous créez, et il ne peut être créé pour dupliquer ou copier une créature ou un animal en particulier.<br />Le simulacre n’est pas vraiment vivant et n’entreprend aucune action sans recevoir vos instructions. Le “Sang” provenant d’une telle créature n’est d’aucune utilité et ne dispose d’aucune propriété naturelle ou surnaturelle. Les vampires ne peuvent pas se nourrir sur ces créatures, pas plus qu’ils ne peuvent leur donner L’Étreinte. Un simulacre dure jusqu’au lever du soleil, après quoi il se dissout de lui-même et retourne dans l’éther mystique dont il provient. Un simulacre qui est “tué” se dissipe de la même façon, il en va de même pour les membres potentiellement arrachés de la créature. Vous ne pouvez posséder qu’un seul simulacre “actif” à la fois. Si vous créez un nouveau Simulacre, le précédent se désincarne aussitôt.<br />Votre création possède un attribut physique compris entre 1 et 8 (à votre convenance), un score de 1 en attribut mental ainsi qu’en attribut social. Il ne dispose d’aucune compétence, d’aucun focus et d’aucune discipline. Votre simulacre peut être ciblé par des disciplines ou des pouvoirs surnaturels et peut être la cible de pouvoirs de Domination tels que la “Possession”. Il est possible de transformer en goule votre création, lui permettant ainsi de transporter 5 points de sang vampirique, cependant votre simulacre n’apprendra jamais de pouvoirs surnaturels."
+    },
+    {
+        "Key": "CONJURATION_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "CONJURATION_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous invoquez ce pouvoir, vous pouvez créer une réplique spécifique de créature, au lieu d’une création générique. Faire une réplique de vous-même ne nécessite aucun pré-requis, cependant vous devez posséder 2 points dans la compétence “subterfuge” pour créer une réplique d’une personne. Si vous utilisez le pouvoir pour cloner une créature surnaturelle, le résultat apparaît identique, mais le clone ne dispose d’aucun pouvoir surnaturel d’aucune sorte et il reste une créature tout à fait ordinaire."
+    }, 
+	{
+        "Key": "CONJURATION_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour La Voie de la Conjuration."
+    }
+]

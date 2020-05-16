@@ -1,0 +1,506 @@
+[
+    {
+        "Key": "FLAW_ADDICTION_NAME",
+        "Text": "Addiction"
+    },
+    {
+        "Key": "FLAW_ADDICTION_DESCRIPTION",
+        "Text": "Vous souffrez d’une dépendance à une substance, qui doit être présente dans le sang que vous buvez. Il peut s'agir d’alcool, de nicotine, de drogues dures ou simplement d’adrénaline. Mécaniquement, la dépendance d’un personnage est divisée en trois catégories : les amphétamines, les hallucinogènes ou les sédatifs. Lorsque vous prenez ce handicap, vous devez choisir une de ces trois catégories pour représenter la dépendance de votre personnage. Vous pouvez prendre ce handicap jusqu'à trois fois, en choisissant chaque fois un autre type de drogue et en souffrant de toutes les pénalités. Pour plus d’informations sur les médicaments et les toxines, voir le chapitre 6 : Système de base, Drogues et types de poisons. Au début du jeu, ou à tout moment si le personnage s'alimente, vous recevez une pénalité en fonction de votre dépendance, comme suit et ce pendant une heure : <br /> • Amphétamine : Vous recevez une pénalité de -1 pour tous les tests Mentaux et tous les tests nécessitant une coordination ou une dextérité mentale. • Hallucinogène : Vous êtes agité et ne pouvez pas récupérer de Volonté pendant l’heure suivante. • Sédatifs : Vous souffrez d’une pénalité de -5 aux tests basés sur les compétences d’Investigation ou d’Intuition."
+    },
+    {
+        "Key": "FLAW_AMNESIA_NAME",
+        "Text": "Amnésie"
+    },
+    {
+        "Key": "FLAW_AMNESIA_DESCRIPTION",
+        "Text": "Vous êtes incapable de vous souvenir de votre passé, de vous-même ou de votre famille, mortelle ou vampirique. Vous n’avez aucune connaissance de vos anciens amants, ennemis ou alliés. Vos origines et les circonstances de votre amnésie sont laissées à la discrétion du conteur et il est encouragé à rendre votre passé aussi intéressant que possible, afin qu’il puisse hanter votre présent et affecter l’histoire de votre personnage."
+    },
+    {
+        "Key": "FLAW_ILLITERATE_NAME",
+        "Text": "Analphabète"
+    },
+    {
+        "Key": "FLAW_ILLITERATE_DESCRIPTION",
+        "Text": "Par manque d’éducation ou à la suite d’une maladie comme la dyslexie, vous êtes incapable de lire ou d’écrire. Ce handicap rend impossible l’accès aux compétences suivantes : Érudition, Informatique ou Sciences. Votre conteur peut également choisir de limiter le nombre de points que vous pouvez mettre dans Histoire ou Occulte."
+    },
+	 {
+        "Key": "FLAW_ARCHAIC_NAME",
+        "Text": "Archaïque"
+    },
+    {
+        "Key": "FLAW_ARCHAIC_DESCRIPTION",
+        "Text": "L'afflux constant de la technologie moderne vous déboussole et vous rend furieux. Les choses modernes signalent une augmentation de la puissance mortelle et un changement palpable loin du monde que vous comprenez. Vous ne pouvez pas acheter les compétences suivantes : Ordinateur, Conduite, Science (toute science moderne) ou Sécurité. En outre, vous ne pouvez pas utiliser des machines ou des technologies inventées au cours des 100 dernières années. Note : Les joueurs avec ce handicap devraient jouer des visions anciennes ou archaïques sur d’autres compétences, le cas échéant, comme l’utilisation d’herbes et de cataplasmes lors de l’exécution de la compétence de médecine, plutôt que les médicaments et l’équipement modernes."
+    },
+    {
+        "Key": "FLAW_LINKED_TO_EARTH_NAME",
+        "Text": "Attaché à la Terre"
+    },
+    {
+        "Key": "FLAW_LINKED_TO_EARTH_DESCRIPTION",
+        "Text": "Certains vampires sont inextricablement liés à leur domaine d’origine et ils doivent se reposer à proximité d’au moins deux poignées de terre natale : la terre d’un lieu important des jours ou ils étaient mortels. Cette terre peut être celle de votre lieu de naissance ou du cimetière où vous avez subi votre Étreinte. Chaque nuit passée sans cette connexion physique à cette terre inflige une pénalité cumulative de -1 à tous vos groupements de tests d’attaque (jusqu'à un maximum de -5). Ces pénalités restent jusqu'à ce que vous reposiez pendant une journée entière au milieu de votre terre."
+    },
+    {
+        "Key": "FLAW_UNHOLY_BEACON_NAME",
+        "Text": "Balise de l’impie"
+    }
+    ,{
+        "Key": "FLAW_UNHOLY_BEACON_DESCRIPTION",
+        "Text": "Vous rayonnez d’un mal visible, celui qui attire l’attention mortelle et laisse un sentiment persistant de malaise. Les mortels dévots et les chasseurs mortels avec la Vraie Foi, réalisent automatiquement que vous êtes un vampire. Vous pouvez descendre d’une lignée mortelle qui interagissait historiquement avec des démons, vous souffrez peut-être d’une malédiction démoniaque ou vous pouvez être un infernaliste. Chaque fois que vous utilisez un pouvoir de Discipline de niveau 4 ou plus, votre aura montre des signes de corruption infernale. Vous ne pouvez pas entrer dans des lieux sacrés, comme des églises, des mosquées, des synagogues ou d’autres lieux de culte. Les pouvoirs de la foi, y compris la Vraie Foi des chasseurs mortels et des pouvoirs des Salubriens, ajoutent toujours un point de dégât supplémentaire sur une attaque réussie."
+    },
+    {
+        "Key": "FLAW_ONE_EYED_NAME",
+        "Text": "Borgne"
+    },
+    {
+        "Key": "FLAW_ONE_EYED_DESCRIPTION",
+        "Text": "Vous avez peut-être perdu un œil avant l’Étreinte ou il a pu être enlevé par un effet permanent, comme Vicissitude. Pour une raison quelconque, vous ne pouvez en aucune circonstance le régénérer. Vous avez une pénalité de -5 à toutes vos attaques physiques à distance, y compris les attaques avec des armes à feu et des armes de jet."
+    },
+    {
+        "Key": "FLAW_NIGHTMARE_NAME",
+        "Text": "Cauchemars"
+    },
+    {
+        "Key": "FLAW_NIGHTMARE_DESCRIPTION",
+        "Text": "Vous faites d’horribles cauchemars lorsque vous vous reposez pendant la journée et ces images vous hantent pour la nuit suivante. Vous avez rarement une journée entière de sommeil et il est difficile pour vous de surmonter l’agitation de votre Bête. Lorsque vous péchez contre votre moralité, votre esprit se fixe sur ces événements, les jouant (ainsi que d’autres incidents émotionnellement douloureux de votre passé) encore et encore pendant que vous dormez la journée. Vous perdez des traits de Bête à raison de 1 par jour de repos, plutôt que de perdre tous les traits de Bête avec une seule journée de sommeil."
+    },
+    {
+        "Key": "FLAW_CORPSE_MEAT_NAME",
+        "Text": "Chair de cadavre"
+    },
+    {
+        "Key": "FLAW_CORPSE_MEAT_DESCRIPTION",
+        "Text": "Votre chair ne se régénère pas complètement une fois qu’elle est endommagée. Alors que vous êtes en mesure de vous guérir jusqu'à être en pleine forme, votre peau conserve encore des coupures, des larmes, des impacts de balle, etc. Chaque fois que vous êtes frappé par une attaque physique qui inflige 2 points de dégâts ou plus, vous obtenez également une pénalité de -1 immédiate à votre attribut physique (jusqu'à une pénalité maximale de -5). Cette pénalité n’est pas supprimée si vous guérissez les dégâts ; elle reste jusqu'à ce que le personnage se repose pendant une journée entière."
+    },
+    {
+        "Key": "FLAW_HUNTED_NAME",
+        "Text": "Chassé"
+    },
+    {
+        "Key": "FLAW_HUNTED_DESCRIPTION",
+        "Text": "Votre nom, votre visage et votre histoire sont connus des organisations de chasseurs, des loups-garous ou de la secte opposée. Si vous attirez l’attention, les chasseurs viendront pour vous. Vous devez dépenser 2 actions inter-parties par mois pour éviter les individus qui cherchent activement à provoquer votre mort finale. Si vous ne parvenez pas à le faire, vous entrez en jeu avec votre Catégorie de Niveaux de Santé Sain remplie de dégâts aggravés."
+    },
+    {
+        "Key": "FLAW_BLUNT_FANGS_NAME",
+        "Text": "Crocs émoussés"
+    },
+    {
+        "Key": "FLAW_BLUNT_FANGS_DESCRIPTION",
+        "Text": "Vos crocs sont émoussés plutôt que d’être tranchants comme les autres vampires. En conséquence, votre morsure ne fait pas de dommages aggravés. Votre morsure n’engendre pas le Baiser, vous devez vous nourrir par des moyens plus vicieux."
+    },
+    {
+        "Key": "FLAW_CURIOSITY_NAME",
+        "Text": "Curiosité"
+    },
+    {
+        "Key": "FLAW_CURIOSITY_DESCRIPTION",
+        "Text": "Votre incroyable curiosité dépasse souvent votre bon sens. Vous ne pouvez rien y faire! Il y a tant de choses merveilleuses dans le monde, tant de secrets à découvrir et tant de mystères à comprendre. Si vous ne parvenez pas à explorer quelque chose de nouveau ou d’inconnu, votre Volonté maximale est réduite de 1 pour le reste de la soirée. Cette pénalité est cumulative ; si vous refusez plus d’une opportunité intrigante, votre maximum de Volonté continue de diminuer."
+    },
+    {
+        "Key": "FLAW_ATTENTION_DEFICIT_NAME",
+        "Text": "Déficit d’attention"
+    },
+    {
+        "Key": "FLAW_ATTENTION_DEFICIT_DESCRIPTION",
+        "Text": "Vous n’avez jamais été bon dans la concentration et votre volonté est un peu instable sur vos meilleurs jours. Si vous devez vous concentrer pour continuer à utiliser un pouvoir ou une capacité, votre utilisation de ce pouvoir se termine après un seul tour et doit être réactivée si vous souhaitez continuer à l’utiliser. En outre, votre Volonté permanente est réduite de 1."
+    },
+    {
+        "Key": "FLAW_SNOW_FLAKE_NAME",
+        "Text": "Douillet"
+    },
+    {
+        "Key": "FLAW_SNOW_FLAKE_DESCRIPTION",
+        "Text": "Vous êtes une créature amicale et douce, pas vraiment réputée pour votre ténacité. Vous pouvez provenir d’une société décadente ou d’un lignage noble qui n’a jamais eu à effectuer de travail physique. Pour cette raison, vous avez 1 niveau de santé en moins dans les catégories de Niveaux de santé Blessé et Incapacité. Vos autres catégories de Niveaux de Santé ne sont pas affectées par ce handicap."
+    },
+    {
+        "Key": "FLAW_SENSITIVE_STOMACH_NAME",
+        "Text": "Estomac sensible"
+    },
+    {
+        "Key": "FLAW_SENSITIVE_STOMACH_DESCRIPTION",
+        "Text": "Certaines personnes ont le cœur tendre, d’autres ont une sensibilité globale à propos du sang. Il est possible que vous soyez boulimique. Vous avez de la difficulté à garder en vous le sang après que vous vous êtes nourri. Calculez votre réserve de sang comme si votre personnage avait 1 point de moins en Génération. Les nouveau-nés ayant cette faille réduisent leur nombre maximum de réserve de sang de 2."
+    },
+    {
+        "Key": "FLAW_BLAND_NAME",
+        "Text": "Fade"
+    },
+    {
+        "Key": "FLAW_BLAND_DESCRIPTION",
+        "Text": "La vie est devenue beaucoup plus passionnante depuis votre Étreinte ... mais, malheureusement, vous non. Vous êtes enclin à parler de choses insipides et vous ne manipulez pas très bien la fureur ou la stimulation émotionnelle. Lorsque d’autres se passionnent, vous hésitez, vous raclez la gorge et vous vous retirez. Ce qui vous rend difficile d’exprimer vos sentiments les plus profonds et vos motivations intérieures. Vous ne recevez pas le re-test généralement donné par l’archétype d’un personnage."
+    },
+    {
+        "Key": "FLAW_WEAKNESS_NAME",
+        "Text": "Faiblesse"
+    },
+    {
+        "Key": "FLAW_WEAKNESS_DESCRIPTION",
+        "Text": "Votre esprit est faible, facilement perturbé ou confus. Vous avez tendance à être un suiveur et à parler rarement pour vous-même. En raison de cette faiblesse, vous êtes très sensible aux disciplines de la Domination et d’Aliénation. Vous ne pouvez pas dépenser de Volonté pour résister à ces disciplines et obtenir un re-test."
+    },
+    {
+        "Key": "FLAW_HAMELIN_FLUTIST_NAME",
+        "Text": "Flutiste d’Hamelin"
+    },
+    {
+        "Key": "FLAW_HAMELIN_FLUTIST_DESCRIPTION",
+        "Text": "Les animaux affluent en votre présence, que vous le vouliez ou non. Ces animaux sont d’une espèce distinctive et ceux qui savent repérer ces créatures peuvent facilement dire quand vous êtes dans la région. Leur présence rend assez facile de suivre vos mouvements, localiser votre emplacement et potentiellement découvrir où est votre havre. Vous n’avez aucune capacité de contrôler ces créatures à moins d’utiliser Animalisme sur eux et, même si vous le faites, d’autres animaux viendront prendre la place de ceux que vous renvoyez. Lorsque vous choisissez ce handicap, vous devez choisir l’espèce d’animal. Ces animaux ne vous feront pas de mal sauf s'ils sont dirigés par quelqu'un d’autre qui utilise Animalisme et les animaux peuvent voir à travers vos pouvoirs surnaturels d’Occultation, vous ne pouvez vous cacher d’eux."
+    },
+    {
+        "Key": "FLAW_KID_NAME",
+        "Text": "Gamin"
+    },
+    {
+        "Key": "FLAW_KID_DESCRIPTION",
+        "Text": "Vous êtes très enfantin en apparence. Cela peut être parce que vous êtes de petite taille ou parce que vous avez été étreint au cours d’une période de l’histoire qui considérait qu’un jeune adolescent était en age de se marier. C'est contre la coutume vampirique d’étreindre les enfants et beaucoup considèrent que ces vampires sont à la fois un bris significatif de la mascarade et une pratique dégoûtante. En outre, il est difficile pour vous de déguiser le fait que vous ne grandissez pas et il est difficile pour un enfant de passer la nuit éveillé, comme tous les vampires le doivent. Les personnages ayant ce handicap ont un attribut physique de départ maximum de 5 plutôt que 10. Ce nombre peut être augmenté avec des traits d’attributs bonus."
+    },
+    {
+        "Key": "FLAW_HEAL_SLOWLY_NAME",
+        "Text": "Guérison lente"
+    },
+    {
+        "Key": "FLAW_HEAL_SLOWLY_DESCRIPTION",
+        "Text": "La vitae dans vos veines est paresseuse et votre contrôle sur votre sang est, au mieux, imparfait. Bien que vous soyez capable de forcer ce sang à se fondre dans votre chair et à guérir vos blessures, vous le faites avec beaucoup de difficulté. Vous devez dépenser un point supplémentaire de sang chaque fois que vous souhaitez guérir un point de dégâts. Cette pénalité s'applique lorsque vous utilisez des points de sang pour vous guérir mais ne pénalise pas votre utilisation de pouvoirs de guérison sur d’autres personnages grâce à l’utilisation de pouvoirs tels que la Rage de sang de la Voie du Sang."
+    },
+    {
+        "Key": "FLAW_HAUNTED_NAME",
+        "Text": "Hanté"
+    },
+    {
+        "Key": "FLAW_HAUNTED_DESCRIPTION",
+        "Text": "Un fantôme vengeur vous tourmente d’au-delà de la tombe. Bien qu’il se limite habituellement à des gémissements fantasmatiques, des manifestations étranges et l’effet occasionnel préjudiciable, ce fantôme veut vous causer du tort. Il fait de son mieux pour rendre votre éternité misérable et pour hâter le jour où vous le rejoindrez dans la mort. Vous pouvez voir et entendre ce fantôme, que vous ayez ou non l’atout Medium ou possédiez n’importe quelle voie de Nécromancie"
+    },
+    {
+        "Key": "FLAW_IMPATIENT_NAME",
+        "Text": "Impatient"
+    },
+    {
+        "Key": "FLAW_IMPATIENT_DESCRIPTION",
+        "Text": "Vous n’avez pas la patience de rester debout et d’attendre. Vous voulez faire des choses maintenant - oubliez les trainards qui essayent de vous retenir. Vous préférez vivement agir sur l’impulsion sans vous soucier des conséquences. Chaque fois que vous êtes obligé d’attendre ou d’être patient au lieu d’agir immédiatement, vous devez dépenser 1 point de Volonté pour attendre sans agir pendant cinq minutes. Si vous ne dépensez pas cette Volonté, vous réagissez avec une colère extrême, attaquant la source de votre retard."
+    },
+    {
+        "Key": "FLAW_WHITE_WATER_NAME",
+        "Text": "Incapacité à Traverser l’Eau Vive"
+    },
+    {
+        "Key": "FLAW_WHITE_WATER_DESCRIPTION",
+        "Text": "Vous ne pouvez pas traverser l’eau courante à moins que vous soyez au moins 50 pieds au-dessus. A propos de ce handicap, « l’eau courante » doit être au moins de la taille d’un ruisseau de trois pieds de large ou d’une plus grande étendue d’eau. Lorsque vous traversez l’eau courante, vous perdez 1 point de Volonté. Cette Volonté ne peut pas être récupérée jusqu'à ce que vous vous reposiez pendant une journée entière."
+    },
+    {
+        "Key": "FLAW_INEPT_NAME",
+        "Text": "Inepte"
+    }
+    ,{
+        "Key": "FLAW_INEPT_DESCRIPTION",
+        "Text": "Votre Étreinte a été difficile et peut-être que le destin ne voulait pas que vous soyez un membre du clan qui vous a choisi. Vous n’avez aucune compétence dans l’une des disciplines principales de votre clan. Vous ne commencez pas avec un point gratuit dans cette discipline et vous devez payer des coûts hors-clan en XP pour acheter cette discipline, même si vous n’avez pas besoin d’un enseignant. Vous devez prendre ce handicap lors de la création du personnage. Ce handicap ne peut pas être supprimé."
+    },
+    {
+        "Key": "FLAW_INFAMOUS_BROOD_NAME",
+        "Text": "Infâme couvée"
+    },
+    {
+        "Key": "FLAW_INFAMOUS_BROOD_DESCRIPTION",
+        "Text": "Vous venez d’une étreinte de masse. Tout officier de votre secte peut dépenser n’importe quel trait de statut (permanent, inné ou éphémère) afin de vous donner le trait d’état averti."
+    },
+    {
+        "Key": "FLAW_BESTIAL_INSTINCT_NAME",
+        "Text": "Instinct bestial "
+    },
+    {
+        "Key": "FLAW_BESTIAL_INSTINCT_DESCRIPTION",
+        "Text": "Votre Bête adore se battre et ne va pas reculer face à un défi. Quand elle voit l’occasion de se libérer, elle se jette en avant avec un abandon dangereux, déchirant votre esprit avec des griffes ardentes. Chaque fois que vous gagnez un ou plusieurs traits de Bête, vous prenez un point de dégât aggravé. Ces dommages ne peuvent pas être réduits ou annulés."
+    },
+    {
+        "Key": "FLAW_INTOLERANCE_NAME",
+        "Text": "Intolérance"
+    },
+    {
+        "Key": "FLAW_INTOLERANCE_DESCRIPTION",
+        "Text": "Vous avez une aversion déraisonnable d’une certaine chose. Cela peut être un clan, une lignée de sang, un type de créature ou un type spécifique de personne. Vous persécuterez ces individus dans la mesure de vos capacités, mettant même en péril les alliances et votre propre réputation pour les voir entachés. Si vous êtes forcé de travailler avec une telle personne, vous subissez une pénalité de -2 à tous vos groupes de tests non défensifs."
+    },
+    {
+        "Key": "FLAW_THE_BEAST_IN_THE_MIRROR_NAME",
+        "Text": "La Bête dans le miroir"
+    },
+    {
+        "Key": "FLAW_THE_BEAST_IN_THE_MIRROR_DESCRIPTION",
+        "Text": "Les miroirs trahissent votre nature monstrueuse. Quiconque, mortel ou vampire, voit votre reflet dans un miroir découvre votre bête qui se tourne vers eux. Votre Bête apparaît sur les caméras qui utilisent un système de miroirs pour capturer l’image mais pas sur des équipements numériques modernes. Chaque fois que vous voyez votre Bête réfléchie, vous gagnez un trait automatique de Bête. Les traits de Bête gagnés à partir de ce handicap ne comptent pas pour la perte de moralité mais comptent dans la probabilité d’entrer en frénésie. Comme tous les traits de Bête, ces traits restent jusqu'à ce que vous vous reposiez pendant une journée entière. Pour plus d’informations sur les traits de la Bête et les péchés moraux, voir le Chapitre 7 : Système dramaturgique, Humanité, Gagner des traits de la Bête."
+    },
+    {
+        "Key": "FLAW_POSEIDON_NAME",
+        "Text": "L'appel de Poséidon"
+    },
+    {
+        "Key": "FLAW_POSEIDON_DESCRIPTION",
+        "Text": "Votre stabilité est directement liée à la météo. Vous êtes calme comme le ciel clair et votre rage grandit petit à petit comme une averse se transforme en tempête. Si vous ne dormez pas sur ou sous l’eau naturelle (dans un bateau sur un lac, une rivière ou un océan, ou sous les eaux d’un cours d’eau), vous ne pouvez pas dépenser de Volonté la nuit suivante."
+    },
+    {
+        "Key": "FLAW_HARD_HEARING_NAME",
+        "Text": "Malentendant"
+    },
+    {
+        "Key": "FLAW_HARD_HEARING_DESCRIPTION",
+        "Text": "Votre audition est défectueuse et, même avec de l’équipement correctif, vous ne pouvez pas entendre parfaitement. Cela peut être dangereux dans certaines circonstances car vous ne pouvez pas compter sur votre audition pour vous avertir du danger. Vous subissez une pénalité de -2 aux groupement d’Intuition et d’Investigation basée sur l’audition."
+    },
+    {
+        "Key": "FLAW_CURSED_NAME",
+        "Text": "Maudit"
+    },
+    {
+        "Key": "FLAW_CURSED_DESCRIPTION",
+        "Text": "Vous souffrez d’une malédiction surnaturelle mineure en raison de votre dette karmique envers l’univers ou un ennemi doté d’un sens de l’humour tordu. Cette malédiction est spécifique et détaillée ; elle devrait se rapporter à un certain défaut archétypal de votre personnage, tel que l’arrogance. Comme tous les handicaps, rappelez-vous qu’un conteur ne devrait pas autoriser une malédiction qui n’a pas d’impact significatif sur votre personnage. Une malédiction doit être attachée à une compétence dans laquelle vous possédez au moins 1 point. Lorsque la malédiction est déclenchée, vous recevez une pénalité de -1 aux scores de tests avec cette compétence. Vous pouvez acheter ce handicaps jusqu'à trois fois. Quelques exemples:<br /> • Une Nosferatu qui était une gouvernante dans la vie porte la malédiction d’un petit garçon mourant, déclarant que les enfants de moins de 10 ans peuvent toujours voir à travers son Occultation. Alors que le joueur va dépeindre cet effet spécifique dans son histoire, il a également associé cette malédiction avec sa compétence Discrétion. Donc, en présence d’enfants de moins de 10 ans, les tests de Discrétion prennent un malus de -1.<br />• Un Kiasyd a été maudit par des fées tricheuses. Le lait coagule en sa présence et les insectes meurent quand ils viennent à trois pas de lui. Chaque fois que le conteur indique que les fées viennent le harceler, le joueur Kiasyd doit jouer ces effets. Il a associé cette malédiction à sa compétence Intuition et, par conséquent, ses Scores de Test d’Intuition sont réduits de 1 lorsque cela se produit.<br />• Une archéologue Lasombra croit qu’elle a été maudite pour avoir ouvert une tombe égyptienne antique. La malédiction affirme que le Lasombra va « souffrir d’une langue tordue quand elle a le plus besoin de clarté ». Le joueur Lasombra a associé cette malédiction à sa compétence Linguistique. Chaque fois qu’elle tente de traduire une langue dans une autre, elle joue son rôle avec incertitude et fait des erreurs grammaticales. En outre, ses scores de tests de Linguistique sont réduits de 1 quand elle est sous pression."
+    },
+    {
+        "Key": "FLAW_POOR_EYESIGHT_NAME",
+        "Text": "Mauvaise vue"
+    },
+    {
+        "Key": "FLAW_POOR_EYESIGHT_DESCRIPTION",
+        "Text": "Votre vue est défectueuse et, même avec des verres ou des lentilles, vous ne pouvez pas voir avec une acuité complète. Vous souffrez d’une pénalité de -2 à toutes vos attaques Physiques à distance, y compris les attaques avec des armes à feu et des armes de jet."
+    },
+    {
+        "Key": "FLAW_DIFFICULT_MOBILITY_NAME",
+        "Text": "Mobilité difficile"
+    },
+    {
+        "Key": "FLAW_DIFFICULT_MOBILITY_DESCRIPTION",
+        "Text": "Vous avez de la difficulté à vous déplacer rapidement ou à suivre votre entourage. Vous pouvez être petit, posséder un pied-bot, être bossu ou marcher avec une canne. Vous faites deux pas par action de mouvement au lieu de la norme trois."
+    },
+    {
+        "Key": "FLAW_DEAD_BURIED_NAME",
+        "Text": "Mort et enterré"
+    },
+    {
+        "Key": "FLAW_DEAD_BURIED_DESCRIPTION",
+        "Text": "En tant que mortel, vous avez vécu dans la région où la chronique est fixée (ou vous possédez un peu de renommée) et ceux qui vous aiment croient que vous êtes mort. Si vous utilisez votre vrai nom, si votre photo sort ou si vous êtes repéré par des personnes qui vous connaissaient, des questions inconfortables seront posées. Si cela arrive trop souvent, les chasseurs mortels réaliseront rapidement votre nature de mort-vivant."
+    },
+    {
+        "Key": "FLAW_NECROPHIL_NAME",
+        "Text": "Nécrophile"
+    },
+    {
+        "Key": "FLAW_NECROPHIL_DESCRIPTION",
+        "Text": "Vous êtes obsédé par les morts. Votre havre est salement décoré avec des parties de corps coupées et mutilées. Vous parlez aux morts, que vous pouviez les entendre parler ou non, vous dansez avec eux, vous en déchiffrez l’art et vous profitez de leur compagnie. Cela pourrait rendre difficile l’invitation de personnes en vue d’une discussion. Si les mortels découvrent votre havre, cela va certainement causer un bris de Mascarade et recevoir toute l’attention des médias. Vous devez passer au moins 10 minutes en compagnie de vrais cadavres chaque nuit. Sinon, vous avez une pénalité de -1 à tous les groupes de tests jusqu'à ce que vous ayez rempli cette condition. Cette pénalité n’est pas cumulative."
+    },
+    {
+        "Key": "FLAW_NEGLIGENT_NAME",
+        "Text": "Négligent"
+    },
+    {
+        "Key": "FLAW_NEGLIGENT_DESCRIPTION",
+        "Text": "Il est difficile pour vous de prêter attention aux détails et, quand vous entrez dans le combat, vous avez tendance à agir d’abord et penser par la suite, même quand cela signifie que vous finissez par tourner en rond ou oublier des choses simples. Vous faites beaucoup d’erreurs dans votre vie quotidienne, comme abandonner des choses ou laisser les tâches simples sortir de votre esprit. Vos attaques ne comptent pas contre la capacité d’un autre joueur de déclarer une Fuite Logique, à moins que vous soyez actuellement attaqué par votre cible. Un personnage que vous attaquez avant son initiative dans un round peut encore déclarer une Fuite Logique dans ce round. En outre, si quelqu'un déclare son intention de faire une Fuite Logique, vous ne pouvez pas l’empêcher de s'échapper en déclarant que vous avez l’intention d’utiliser une action physique contre elle plus tard dans ce round."
+    },
+    {
+        "Key": "FLAW_NOTORIETY_NAME",
+        "Text": "Notoriété"
+    },
+    {
+        "Key": "FLAW_NOTORIETY_DESCRIPTION",
+        "Text": "Vous avez une mauvaise réputation parmi les vampires. Cela peut provenir de quelque chose que vous avez fait dans le passé ou peut-être est-ce lié à votre père, votre lignée ou autre chose. Vous ne recevez pas de bonus passifs des traits de statut éphémères."
+    },
+    {
+        "Key": "FLAW_FRAGILE_BONES_NAME",
+        "Text": "Os fragiles"
+    },
+    {
+        "Key": "FLAW_FRAGILE_BONES_DESCRIPTION",
+        "Text": "Votre corps est moins robuste que la moyenne et ne peut pas endurer autant de blessures. Vos os peuvent être plus fragiles et votre stature physique peut être légère ou délicate. Si vous prenez plus de 2 points de dégâts d’un seul coup, un de vos membres (choisi par votre attaquant) est cassé. Ce membre est inutile jusqu'à ce que les dommages soient guéris. Si une ou les deux jambes de votre personnage sont cassées, vous ne pouvez plus vous déplacer que d’un pas par action, en boitant ou en rampant. Si un ou les deux des bras de votre personnage sont cassés, vous obtenez une pénalité de -5 aux groupes d’attaque Bagarre et Mêlée, à moins que le personnage ait l’atout ambidextre, auquel cas vous ne subissez qu’une pénalité de -3. Un personnage avec un bras cassé ne peut pas utiliser des armes à deux mains. Un personnage avec les deux bras cassés ne peut pas faire d’attaques physiques à moins qu’il soit capable de mordre sans agripper ou qu’il ait plus de deux autres membres utilisables (comme des tentacules appelés par Sombre Métamorphose ou des membres créés avec Vicissitude)."
+    },
+    {
+        "Key": "FLAW_WEAK_GENERATION_NAME",
+        "Text": "Petite génération"
+    },
+    {
+        "Key": "FLAW_WEAK_GENERATION_DESCRIPTION",
+        "Text": "Un personnage ayant ce handicap doit avoir 1 ou 2 points dans l’historique Génération ; les anciens, quelle que soit leur génération ne peuvent pas posséder ce défaut. Les 1er et 2ème points de l’historique Génération (Nouveau-né ou Ancilla) couvrent une plus grande variété de générations que les trois points plus anciens. Un Nouveau-né, avec 1 point de Génération, pourrait être de 15ème à 11ème génération. Un Ancilla, avec 2 points de Génération, pourrait être 10ème ou 9ème génération. Si un Ancilla prend ce handicap, il est de la 10ème génération. Si un nouveau-né prend ce handicap, vous pouvez choisir d’être 12ème ou 13ème génération. Si vous choisissez la 13ème génération pour votre personnage, alors Petite génération est un défaut à 2 points, plutôt qu’à 1. Si vous voulez que votre personnage soit vraiment un vampire de sang clair de la 14ème ou 15ème génération, vous devez acheter le défaut de Sang clair plutôt que le défaut Petite génération. Vous ne pouvez pas acheter à la fois Petite génération et Sang clair. Si un personnage avec Petite génération diable et gagne une génération qui le place au point par défaut de son historique Génération, vous devez supprimer ce handicap et rembourser son coût en XP. Ce changement survient lorsqu'un personnage Nouveau-né diable et baisse sa génération de 12ème à 11ème ou quand un personnage d’Ancilla diable et passe de la 10ème à la 9ème génération."
+    },
+    {
+        "Key": "FLAW_PERMANENT_WOUND_NAME",
+        "Text": "Plaie permanente"
+    },
+    {
+        "Key": "FLAW_PERMANENT_WOUND_DESCRIPTION",
+        "Text": "Vous avez subi des blessures pendant ou immédiatement avant l’étreinte, que votre sire n’a pas soignées. Cette blessure ne peut pas être guérie, mais elle ne saigne pas et vous pouvez peut-être la cacher sous des bandages ou des vêtements. Vous avez deux niveaux en moins dans votre catégorie de Niveaux de Santé Sain (voir Santé et Dégâts)."
+    },
+    {
+        "Key": "FLAW_DISEASE_CARRIER_NAME",
+        "Text": "Porteur de maladie"
+    },
+    {
+        "Key": "FLAW_DISEASE_CARRIER_DESCRIPTION",
+        "Text": "Votre sang porte une maladie mortelle et hautement contagieuse. Il peut s'agir de n’importe quelle maladie, de la peste noire à la rage ou encore la variole. Les mortels dont vous vous nourrissez contractent toujours cette maladie et c'est habituellement mortel. Quand vous vous nourrissez d’un mortel ayant le Focus d’Endurance, il se rétablit en cinq jours. Les autres mortels meurent dans tous les cas. Lorsque vous utilisez une action d’immobilisation pour vous nourrir, vous devez passer une action d’arrêt supplémentaire pour vous nourrir en toute sécurité, sinon vous êtes volontairement en train d’assassiner le mortel en propageant votre maladie. Si vous ne vous nourrissez pas en toute sécurité, vous gagnez des traits de Bête au début de la prochaine partie, comme si vous aviez commis un meurtre. Si vous devez vous nourrir pendant une session de jeu, vous devez dépenser deux fois plus de temps pour vous nourrir ou vous ne vous êtes pas nourri en toute sécurité et vous souffrez immédiatement de cette même pénalité. Pour plus d’informations, voir Gagner des Traits de la Bête."
+    },
+    {
+        "Key": "FLAW_SINISTER_PRESENCE_NAME",
+        "Text": "Présence sinistre"
+    },
+    {
+        "Key": "FLAW_SINISTER_PRESENCE_DESCRIPTION",
+        "Text": "Vous rayonnez d’un air d’au-delà qui provoque la nervosité et le malaise chez les personnes autour de vous. La nature exacte de cette présence étrange est spécifique à chaque vampire et peut prendre de nombreuses formes différentes. Vous devriez parler avec votre conteur pour déterminer l’étrangeté exacte conférée à votre personnage par ce handicap, mais tous les types de Présence sinistre sont déconcertants et potentiellement un bris de la mascarade. Vous pouvez prendre ce handicap jusqu'à trois fois pour différents aspects de votre nature étrange, mais chacun doit être distinctif et sans rapport avec le reste. Vous ne pouvez pas prendre Présence Sinistre deux fois et faire que vos yeux soient pourpres et incandescents. Vous pouvez prendre Présence Sinistre deux fois et dire que vos yeux brillent et que votre odeur corporelle est celle d’une puanteur de pourriture.<br />Voici quelques exemples possibles :<br />• Des yeux incandescents ou inhabituellement colorés<br />• Brise froide à la suite du personnage<br />• Odeur terrifiante de roses ou de cimetière<br />• Crocs permanents qui ne peuvent pas se rétracter<br />• Langue fourchue ou peau écaillée<br />• Vous ne vous reflétez pas (selon la faiblesse du clan Lasombra)<br />• Les plantes flétrissent à mesure que vous approchez et meurent à votre contact"
+    },
+    {
+        "Key": "FLAW_DAMNED_NAME",
+        "Text": "Prise des damnés"
+    },
+    {
+        "Key": "FLAW_DAMNED_DESCRIPTION",
+        "Text": "Il n’y a pas d’extase ou de plaisir dans le Baiser quand vous vous nourrissez ; les mortels souffrent d’une horrible agonie liée à votre morsure. Vous devez tuer votre proie pour vous assurer qu’elle ne puisse pas s'échapper. Vous ne pouvez pas fermer les plaies que vous causez après avoir bu du sang d’autrui. Se nourrir sur des mortels compte comme un péché moral de niveau 1."
+    },
+    {
+        "Key": "FLAW_PROPHET_GEHENNA_NAME",
+        "Text": "Prophète de la Géhenne"
+    },
+    {
+        "Key": "FLAW_PROPHET_GEHENNA_DESCRIPTION",
+        "Text": "Vous souffrez de visions de catastrophes apocalyptiques et de prémonitions de destruction à grande échelle. L’univers se trompe en quelque sorte et l’équilibre karmique va revenir en faisant souffrir tout le monde. Vous avez des cauchemars éveillés et des visions d’un avenir infernal qui n’a jamais eu lieu. Certains disent que c'est un sous-produit d’une Étreinte difficile ; d’autres disent que c'est une prémonition de la Géhenne ou une vision d’une Géhenne qui n’aura jamais lieu. Vous devez utiliser toute votre volonté pour faire la différence entre le monde réel et celui qui vous hante. Chaque fois que votre Volonté diminue, vous perdez un peu plus de votre compréhension de la réalité et vous vous enfoncez dans ces visions cauchemardesques. Si vous manquez de Volonté, vous tomberez dans la torpeur. Ce handicap se retrouve souvent chez les Cappadociens, les Malkaviens, les Nosferatu et les Ravnos."
+    },
+    {
+        "Key": "FLAW_REJECTED_PREY_NAME",
+        "Text": "Proie rejetée"
+    },
+    {
+        "Key": "FLAW_REJECTED_PREY_DESCRIPTION",
+        "Text": "Quelque chose dans votre psychologie ou vos croyances religieuses vous interdit de chasser un certain type de proie mortelle. Vous pourriez refuser de vous nourrir sur des trafiquants de drogue, des policiers, des innocents ou des bouddhistes. Vous ne gagnez pas de vitae en vous nourrissant sur ces individus. Si vous voyez que d’autres vampires se nourrissent de vos proies exclues, vous devez essayer d’arrêter cette profanation, violemment si nécessaire. Si vous échouez, vous gagnez un trait de Bête."
+    },
+    {
+        "Key": "FLAW_STOLEN_POTENTIAL_NAME",
+        "Text": "Potentiel volé"
+    },
+    {
+        "Key": "FLAW_STOLEN_POTENTIAL_DESCRIPTION",
+        "Text": "Quelque chose de terrible vous est arrivé dans votre passé. Peut-être avez-vous été frappé par une puissante malédiction Baali ou avez-vous été blessé, handicapé ou avez nié le besoin d’interaction sociale, ou subi une enfance psychologiquement destructrice. Choisissez un attribut lors de la création du personnage. Vous ne recevez pas de focus dans cet attribut. Vous devez acheter ce handicap lors de la création du personnage."
+    },
+    {
+        "Key": "FLAW_BAD_LOCK_HOLDER_NAME",
+        "Text": "Porte poisse"
+    },
+    {
+        "Key": "FLAW_BAD_LOCK_HOLDER_DESCRIPTION",
+        "Text": "Chaque fois que des choses bizarres se produisent, cela vous arrive. Vous avez une chance terrible et le malheur vous traque, vous mettant face contre terre dès qu’il en a une occasion. Chaque fois que le conteur doit déterminer de façon aléatoire un résultat négatif, comme déterminer quel personnage est frappé par une pierre qui tombe ou dans quel quartier un flic ira faire sa ronde, aucun test n’est effectué ; vous souffrez toujours de la conséquence de la malchance."
+    },
+    {
+        "Key": "FLAW_OBVIOUS_PREDATOR_NAME",
+        "Text": "Prédateur évident"
+    },
+    {
+        "Key": "FLAW_OBVIOUS_PREDATOR_DESCRIPTION",
+        "Text": "Les mortels sentent instinctivement qu’il y a quelque chose qui ne va pas avec vous. Votre Bête est forte et il y a quelque chose en vous qui fait que les autres se rendent compte que vous êtes dangereux. Les mortels réagissent mal à votre contact, comme si vous exsudiez un air de menace. En outre, la Bête surmonte votre meilleure nature et rend difficile pour vous de vous rappeler de vos vraies priorités. Vous souffrez d’une pénalité de -2 sur toutes les interactions avec les mortels qui ignorent le monde surnaturel. En outre, vous ne pouvez pas acheter d’historique Contacts, Alliés ou Influence."
+    },
+    {
+        "Key": "FLAW_PRESUMPTUOUS_NAME",
+        "Text": "Présomptueux"
+    },
+    {
+        "Key": "FLAW_PRESUMPTUOUS_DESCRIPTION",
+        "Text": "Vous avez une opinion exagérée et inébranlable de votre valeur et vos capacités. Vous faites confiance à vos propres capacités par rapport à tout autre personne, même dans les situations où vous risquez la défaite. Parce que vous n’êtes pas réellement invulnérable et omnipotent, un tel excès de confiance peut être dangereux et, lorsque vous échouez, vous trouvez rapidement quelqu'un ou autre chose à blâmer. Vous ne pouvez pas bénéficier d’aide en attaquant ou aider le défenseur des tactiques de combat de masse, à moins que la personne qui vous aide ne suive un ordre que vous venez de donner."
+    },
+    {
+        "Key": "FLAW_SLOW_REACTIONS_NAME",
+        "Text": "Réactions lentes"
+    },
+    {
+        "Key": "FLAW_SLOW_REACTIONS_DESCRIPTION",
+        "Text": "Vous ne pensez pas vite et vos mouvements n’ont jamais été particulièrement adroits. Vous avez un temps de réaction lent. Ce n’est pas votre faute si vous êtes lourdaud, mais cela vous handicape un peu - surtout en combat. Votre initiative est réduite de 5."
+    },
+    {
+        "Key": "FLAW_OSTENTATIOUS_MEAL_NAME",
+        "Text": "Repas Ostentatoire"
+    },
+    {
+        "Key": "FLAW_OSTENTATIOUS_MEAL_DESCRIPTION",
+        "Text": "Vous ne pouvez pas simplement vous nourrir du sang des mortels ; vous devez également consommer le cœur de votre victime, le foie et autres tissus riches en sang. Cette particularité nécessite la mort de toutes vos victimes. Un personnage avec ce handicap commence chaque soir avec un trait Bête et gagne un trait Bête supplémentaire chaque fois qu’il se nourrit. Vous n’obtiendrez pas un test de dégénérescence pour réduire les traits de Bête gagnés grâce à ce mérite. Les personnages avec ce défaut peuvent manger de la chair comme s'ils avaient le mérite Mascarade Personnelle. Les personnages avec Repas Ostentatoire ne reçoivent pas les autres avantages de Mascarade Personnelle et ne peuvent pas l’utiliser pour manger de la nourriture normale (seulement la chair consommée pendant l’alimentation)."
+    },
+    {
+        "Key": "FLAW_REPELLED_RELIGION_NAME",
+        "Text": "Repoussé par la religion"
+    },
+    {
+        "Key": "FLAW_REPELLED_RELIGION_DESCRIPTION",
+        "Text": "Dans la légende, les vampires peuvent être chassés par des symboles saints et ne peuvent pas entrer dans un lieu béni ou sacré. Votre sang est lié à l’origine de ces mythes. Il se pourrait que vous souffriez de la culpabilité religieuse résiduelle ou que votre Bête déteste et craigne la dévotion religieuse. Pour quelque raison que ce soit, quand un mortel présente formellement un symbole de sa foi (quelle qu’elle soit), vous ne pouvez pas directement nuire au mortel, ni l’affecter avec des pouvoirs, ni vous approcher à plus de cinq pas de lui. Si vous entrez en contact avec un symbole sacré, vous prenez un point de dégâts normaux à chaque tour où vous êtes en contact avec lui. En outre, vous ne pouvez pas entrer dans un site qui est désigné par votre conteur comme un lieu sacré. Si vous êtes forcé de le faire (ou transporté sur un tel territoire), vous subissez 3 points de dégâts aggravés chaque tour où vous y restez. Ces dommages ne peuvent pas être réduits ou annulés."
+    },
+    {
+        "Key": "FLAW_CLEAR_BLOOD_NAME",
+        "Text": "Sang clair"
+    },
+    {
+        "Key": "FLAW_CLEAR_BLOOD_DESCRIPTION",
+        "Text": "Le fléau dérogatoire \"Sang clair\" se réfère à ces vampires dont l’Étreinte est la plus éloignée du progéniteur vampirique originel : les vampires de la 14ème ou 15ème génération. Ces individus sont toujours Caitiff car leur vitae est incapable de supporter les caractéristiques traditionnelles d’un clan. La prophétie affirme que les vampires de Sang clair apporteront la fin des temps. Pendant les Nuits de la Tourmente, ces vampires ont été chassés presque jusqu'à l’extinction par des anciens paranoïaques qui craignaient que cette prophétie devienne vraie.<br />Le sang de ces malheureux vampires est exceptionnellement faible et une telle créature ne peut pas apprendre les disciplines vampiriques aussi largement que les vrais Nouveaux-nés. Certains apparaissent à peine morts-vivants et d’autres sont en proie à des rêves étrangement réalistes de nuits antiques. Vous ne pouvez pas créer de liens de sang, ni donner l’Étreinte, ni créer de goules. Favorablement, la lumière du soleil ne vous inflige que des dégâts normaux et tous vos tests pour résister à la frénésie sont faits comme si vous aviez 1 trait de Bête en moins.<br />Seuls les personnages dotés d’un point dans l’historique Génération (Nouveau-né) peuvent acheter ce handicap. Votre personnage est un vampire de la 15ème ou de la 14ème génération (votre choix). Si votre personnage diable et gagne la 13ème génération, vous devez échanger ce handicap pour le handicap Petite Génération et rembourser la différence en XP. Les vampires Sang clair ont trois disciplines de clan (comme les Caitiff), mais commencent à jouer avec seulement 2 points libres de disciplines : 1 point dans deux de ces disciplines de clan. En outre, vous ne pouvez jamais augmenter de discipline (dans ou hors du clan) au dessus du pouvoir de niveau 4."
+    },
+    {
+        "Key": "FLAW_ROTTEN_BLOOD_NAME",
+        "Text": "Sang pourri"
+    },
+    {
+        "Key": "FLAW_ROTTEN_BLOOD_DESCRIPTION",
+        "Text": "Vous êtes affligé d’une maladie vampirique insidieuse qui pourrit votre sang, transformant vos veines et votre chair en moisi noir. Comme votre vitae putride se déplace à travers vos veines, cette maladie se répand, corrompant votre chair en ruisseaux parsemés de moisissure humide. Chaque fois que vous dépensez un point de sang, vous prenez un point de dégât normal. Ces dommages ne peuvent pas être réduits ou annulés. Le sang dépensé pour guérir ne déclenche pas cet effet. Cette maladie n’est pas contagieuse mais, lorsque vous souffrez des effets visibles de Sang pourri en public, cela est considéré comme un bris de la Mascarade."
+    },
+    {
+        "Key": "FLAW_SENSITIVITY_TO_MAGIC_NAME",
+        "Text": "Sensibilité à la magie"
+    },
+    {
+        "Key": "FLAW_SENSITIVITY_TO_MAGIC_DESCRIPTION",
+        "Text": "Vous êtes sensible à la magie du sang, ainsi qu’aux sorts des mages ou à la semi-magie des mortels. Vous ne pouvez pas dépenser de la Volonté pour re-test la Thaumaturgie, la Nécromancie ou d’autres formes de magie."
+    },
+    {
+        "Key": "FLAW_MATHUSALEM_THIRST_NAME",
+        "Text": "Soif de Mathusalem"
+    },
+    {
+        "Key": "FLAW_MATHUSALEM_THIRST_DESCRIPTION",
+        "Text": "Vous avez de la difficulté à vous nourrir pleinement du sang humain ou animal. Le sang de vampire fournit toujours une nourriture riche, qui vous fait courir le risque du lien de sang et peut vous mener à la faim interdite d’Amarante. Vous entrez toujours en jeu avec la moitié de votre réserve de sang ; aucune action inter-partie ne peut vous permettre d’entrer en jeu avec votre réserve de sang remplie. Les personnages avec ce handicap ne peuvent pas bénéficier de l’historique Troupeau. Vous pouvez vous nourrir pleinement uniquement sur d’autres vampires. Ce défaut apparaît principalement chez les Anciens ou les Illustres Anciens."
+    },
+    {
+        "Key": "FLAW_INNOCENCE_THIRST_NAME",
+        "Text": "Soif d’innocence"
+    },
+    {
+        "Key": "FLAW_INNOCENCE_THIRST_DESCRIPTION",
+        "Text": "La vue de l’innocence éveille une terrible envie de sang générée par votre Bête. Elle ne peut pas supporter le fait que ces personnes existent et cherche à ternir, corrompre ou détruire tout ce qui est pur."
+    },
+    {
+        "Key": "FLAW_DARK_FATE_NAME",
+        "Text": "Sombre destin"
+    },
+    {
+        "Key": "FLAW_DARK_FATE_DESCRIPTION",
+        "Text": "Quelque chose a changé le cours de votre non-vie, vous livrant psychologiquement ou surnaturellement à une fin tragique. Peut-être vous êtes-vous lassé de l’éternité et cherchez-vous inconsciemment des moyens de mettre fin à votre existence, ou peut-être qu’une chose que vous avez faite dans le passé a fait du destin votre ennemi. Quoi qu’il en soit, votre fin est proche et vous ne vous échapperez pas facilement. Si vous tombez en torpeur ou êtes pieuté, vous rencontrez directement la mort finale."
+    },
+    {
+        "Key": "FLAW_DARK_SECRET_NAME",
+        "Text": "Sombre secret"
+    },
+    {
+        "Key": "FLAW_DARK_SECRET_DESCRIPTION",
+        "Text": "Vous avez un secret issu de votre passé, ce qui vous causerait un grand embarras s'il était découvert par vos ennemis. Si votre secret est révélé publiquement, vous devez rembourser ce handicap, conformément aux règles pour retirer des Atouts et Handicaps, Chapitre Cinq. Comme tous les handicaps, rappelez-vous qu’un conteur ne doit pas autoriser un Sombre Secret qui n’affecte pas la survie possible du personnage s'il est révélé ou qui copie une difficulté inhérente au type de personnage. Un personnage ne peut pas avoir plus d’un Sombre secret.<br /> Voici quelques exemples de Sombre secret:<br /> • Vous avez un amant dans une autre secte ou un infernaliste<br /> • Vous avez commis un crime punissable par les lois de la secte<br /> • Vous avez trahi votre clan ou votre lignée"
+    },
+    {
+        "Key": "FLAW_DEEP_SLEEP_NAME",
+        "Text": "Sommeil profond"
+    },
+    {
+        "Key": "FLAW_DEEP_SLEEP_DESCRIPTION",
+        "Text": "Vous avez du mal à vous réveiller pendant la journée, même dans des situations dangereuses. Votre moralité est considérée comme étant deux points plus bas pour rester éveillé pendant la journée et pour déterminer les pénalités dont vous souffrez pendant les heures où le soleil est levé."
+    },
+    {
+        "Key": "FLAW_MILK_NAME",
+        "Text": "Soupe au lait"
+    },
+    {
+        "Key": "FLAW_MILK_DESCRIPTION",
+        "Text": "Vous vous fâchez contre tout le monde, pas à cause de l’injustice ou parce que vous avez un compte à régler. La vérité est que vous êtes juste toujours en colère. On considère que vous avez 1 trait de Bête supplémentaire pour déterminer si vous devez tester la frénésie et déterminer la difficulté de ce test."
+    },
+    {
+        "Key": "FLAW_DEATH_SIGHT_NAME",
+        "Text": "Vision de mort"
+    },
+    {
+        "Key": "FLAW_DEATH_SIGHT_DESCRIPTION",
+        "Text": "Votre vue n’a jamais vraiment récupéré de votre mort et, depuis votre étreinte, elle a refusé de représenter avec précision le monde autour de vous. Tous ceux que vous voyez (mortel, vampire ou autre) semblent flétris et morts. Les bâtiments semblent décrépits et votre environnement ne possède aucune beauté et aucune vibration. Tous vos tests d’Investigation ont une pénalité de -2 et vous ne pouvez pas utiliser le pouvoir d’Auspex Perception de l’Aura pour déterminer le type d’une créature. Enfin, vous ne pouvez pas visuellement dire la différence entre une personne vivante et un vampire, même s'il est sur une voie."
+    },
+    {
+        "Key": "FLAW_SILVER_WEAKNESS_NAME",
+        "Text": "Vulnérable à l’argent"
+    },
+    {
+        "Key": "FLAW_SILVER_WEAKNESS_DESCRIPTION",
+        "Text": "Vous pouvez être un descendant des cousins mortels que sont les Loup-Garous (ou d’autres changeurs de forme), vous pouvez avoir une certaine connexion avec la lune ou vous pouvez souffrir de quelque superstition primitive. Quoi qu’il en soit, vous avez une vulnérabilité notable à l’argent. Lorsque vous êtes frappé par une arme avec en argent, vous prenez des dégâts aggravés plutôt que des dégâts normaux."
+    }
+]

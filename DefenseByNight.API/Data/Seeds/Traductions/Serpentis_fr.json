@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "SERPENTIS_NAME",
+        "Text": "Serpentis"
+    },
+    {
+        "Key": "SERPENTIS_DESCRIPTION",
+        "Text": "Dans d’anciens temples égyptiens, dans les gratte-ciels les plus récents, le clan des serpents exerce ses arts et vénère son fondateur : le dieu vampirique, Set. Les Setites considèrent que leur discipline de Serpentis est un don de la bienveillance de Set, ils traitent son utilisation avec révérence, louant Set à chaque usage et invocation de ses pouvoirs."
+    },
+    {
+        "Key": "SERPENTIS_POWER_1_NAME",
+        "Text": "Yeux du Serpent"
+    },
+    {
+        "Key": "SERPENTIS_POWER_1_DESCRIPTION",
+        "Text": "Comme les charmeurs de serpents d’autrefois, votre regard a le pouvoir de calmer et d’hypnotiser. Lorsque vous utilisez ce pouvoir, vos yeux prennent une teinte or brillante, captant l’attention de ceux qui rencontrent votre regard. Tant que vous tenez son attention, votre sujet reste complètement immobilisé."
+    },
+    {
+        "Key": "SERPENTIS_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action simple pour activer les Yeux du Serpent. Vous devez avoir l’attention de votre cible (voir Regard et Focalisation) et engager votre cible dans un défi opposé à l’aide des scores de test de Serpentis.Si vous réussissez, la cible est paralysée tant que vous maintenez son regard avec le vôtre.Si vous brisez le contact visuel, utilisez un autre pouvoir, ou si la cible est attaquée, blessée ou ciblée par des pouvoirs hostiles, votre pouvoir hypnotique s'arrête."
+    },
+    {
+        "Key": "SERPENTIS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Vos Yeux du Serpent durent trois tours après rupture du contact visuel, tant que votre adversaire n’est pas attaqué, blessé, ou ciblé avec un pouvoir agressif."
+    },
+    {
+        "Key": "SERPENTIS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser d’autres pouvoirs tout en maintenant une cible paralysée avec vos Yeux du Serpent. Cependant, si votre cible est attaquée ou blessée, ce sort hypnotique se casse."
+    },
+	 {
+        "Key": "SERPENTIS_POWER_2_NAME",
+        "Text": "Langue de l’Aspic"
+    },
+    {
+        "Key": "SERPENTIS_POWER_2_DESCRIPTION",
+        "Text": "En activant ce pouvoir, vous gagnez certains des pouvoirs naturels et mythiques associés aux serpents. Vous pouvez parler, contrôler et appeler des serpents. Certains utilisateurs sont particulièrement bénis et peuvent même obtenir un avantage naturel dans la persuasion orale, tout comme le Serpent d’autrefois."
+    },
+    {
+        "Key": "SERPENTIS_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action simple pour activer la Langue de l’Aspic pendant une heure. Pendant que ce pouvoir est actif, votre langue est bifide et vous pouvez parler à des serpents (ou des individus sous forme de serpent) dans un murmure sifflant si tranquille que le son ne peut être perçu que par quelqu'un qui possède Sens Intensifiés ou un pouvoir semblable. Tant que la langue de l’Aspic est active, vous pouvez sentir parfaitement votre environnement, même dans les profondeurs de la nuit ou dans l’obscurité non naturelle comme celle causée par Obtenebration. Normalement, les personnages qui ne peuvent pas voir pendant le combat doivent utiliser la manœuvre de combat à l’aveugle. Tant que la langue de l’Aspic de votre personnage est active, vous pouvez vous battre sans avoir besoin de la manœuvre de combat à l’aveugle.<br /> En outre, en dépensant un point de sang supplémentaire et une action standard, vous pouvez invoquer jusqu'à cinq petits serpents locaux ou deux serpents de taille moyenne. Ces serpents prennent jusqu'à 10 minutes à apparaître et doivent être capables de voyager naturellement à votre emplacement. Ce sont des animaux agissant en tant que tels, mais ils vous sont fidèles et tenteront de faire votre volonté jusqu'à l’aube. Traitez les petits serpents comme des serviteurs à 1 point et les serpents moyens comme des serviteurs à 3 points."
+    },
+    {
+        "Key": "SERPENTIS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SERPENTIS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous utilisez la Langue de l’Aspic, vous gagnez également un bonus de +1 aux tests basés sur le son de votre voix, y compris les compétences liées à la persuasion et les pouvoirs de Présence tels que Envoûtement (en supposant que vous parliez pour renforcer votre utilisation du pouvoir)."
+    },
+	{
+        "Key": "SERPENTIS_POWER_3_NAME",
+        "Text": "Peau de la Vipère"
+    },
+    {
+        "Key": "SERPENTIS_POWER_3_DESCRIPTION",
+        "Text": "Avec seulement un moment de concentration, vous faites apparaître sur votre peau des éruptions brillantes, des écailles protectrices et vos membres et muscles s'allongent. Tant que ce pouvoir est actif, vous avez un aspect hideux, semblable à un serpent, mais vous gagnez une défense significative contre les attaques physiques."
+    },
+    {
+        "Key": "SERPENTIS_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action simple pour invoquer ce pouvoir, vous obtenez des écailles défensives et devenez extrêmement flexible. Tant que ce pouvoir est actif, vous avez un bonus de +2 au Scores de Tests de Défense basés sur l’esquive. Les individus qui utilisent la Peau de la Vipère peuvent aussi mordre sans avoir d’abord besoin d’agripper leurs adversaires.<br /> Évidemment, être vu par les mortels tout en utilisant la Peau de la Vipère est un bris de la mascarade.<br /> Peau de la Vipère est un pouvoir de transformation et ne peut être combiné avec d’autres pouvoirs transformateurs. Vous pouvez mettre fin à cette transformation à tout moment en dépensant une action simple. La transformation effectuée par Peau de la Vipère est assez humanoïde pour permettre l’utilisation d’armes."
+    },
+    {
+        "Key": "SERPENTIS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SERPENTIS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Votre bonus aux scores de test basés sur l’esquive devient +3 (au lieu de la norme +2). De plus, vous recevez un bonus de +1 au score de test de Bagarre lorsque vous tentez de mordre votre adversaire."
+    }, 
+	{
+        "Key": "SERPENTIS_POWER_4_NAME",
+        "Text": "Forme du Cobra"
+    },
+    {
+        "Key": "SERPENTIS_POWER_4_DESCRIPTION",
+        "Text": "Les Mythes affirment que les anciens prêtres d’Egypte pouvaient commander à leurs bâtons de se transformer en serpents. Vous pouvez effectuer une métamorphose encore plus grande, vous transformant en un cobra massif, qui conserve la taille et le poids de votre forme originelle. Cette forme de reptile donne une morsure venimeuse et la capacité de glisser à travers de petits passages, tout en vous permettant d’utiliser toutes les disciplines qui ne nécessitent pas les mains ou la parole."
+    },
+    {
+        "Key": "SERPENTIS_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action standard pour vous transformer en un cobra massif, de taille humaine, d’environ 4,5 mètres de long. Vous pouvez mettre fin à cette transformation à tout moment en dépensant une simple action. Un personnage en Forme du Cobra est extrêmement souple et ne peut être agrippé ; les attaquants qui tentent de vous attraper échouent automatiquement.En outre, vous pouvez mordre vos ennemis sans les agripper d’abord et vos morsures sont venimeuses.<br /> Les individus qui sont mordus par un vampire dans la Forme du Cobra doivent résister à un poison de virilité 15.Le poison infligé par ce pouvoir endommage les personnages vivants et détruit le sang des vampires.Pour plus d’informations sur le poison, voir Drogues et Types de Poisons dans Santé et Dégâts.Rappelez - vous que toutes les morsures vampiriques, y compris celles des personnages en Forme du Cobra, infligent des dégâts aggravés.<br /> La forme du Cobra est un pouvoir de transformation et ne peut être combiné avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "SERPENTIS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SERPENTIS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez modifier votre Forme du Cobra, devenant aussi gros qu’un python massif, ou aussi petit qu’une vipère. Votre longueur et votre masse peuvent augmenter jusqu'à trois fois votre corps naturel."
+    }, 
+	{
+        "Key": "SERPENTIS_POWER_5_NAME",
+        "Text": "Cœur des ténèbres"
+    },
+    {
+        "Key": "SERPENTIS_POWER_5_DESCRIPTION",
+        "Text": "Dans les légendes égyptiennes, les cœurs des morts sont enlevés afin qu’ils puissent être pesés contre la plume de la vérité. Ceux qui échouent sont jetés dans un lac de feu et dévorés, tandis que ceux qui sont dignes sont acceptés au paradis. Il est dans votre pouvoir de retirer les cœurs des créatures mortes-vivantes et de prendre en main leur jugement."
+    },
+    {
+        "Key": "SERPENTIS_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une heure pour exécuter un rituel complexe afin d’extraire le cœur d’un corps non vampirique : soit le vôtre, soit celui d’un autre participant volontaire. Aucun test n’est nécessaire pour enlever un cœur.<br /> Ce pouvoir ne peut être utilisé que la nuit d’une nouvelle lune.<br /> Alors que la plupart des chairs vampiriques pourrissent et se désintègrent en un seul tour après avoir été séparées de leur corps, un cœur enlevé avec ce pouvoir reste intact. Le cœur peut être remplacé par une autre utilisation du Cœur des Ténèbres, tant que l’utilisateur du pouvoir possède le cœur correct à restaurer. Il n’est pas possible d’installer un cœur faux ou le cœur d’une autre personne en utilisant le Cœur des Ténèbres. <br />Toute personne dont le cœur est enlevé de cette manière est immunisée au pieutage. En outre, quand ce personnage tente de résister à la frénésie, il le fait comme si il avait un trait de Bête en moins.<br /> Un cœur séparé peut être pieuté, même si le vampire cible n’est pas blessé. Si le cœur est pieuté, alors ce vampire est immédiatement paralysé comme s'il avait été pieuté normalement. Si le cœur est exposé à un seul point de dégât du feu ou de la lumière du soleil, il est détruit et son propriétaire s'embrase et est réduit en cendres, rencontrant la mort finale en un seul tour.<br /> De toute évidence, essayer d’utiliser ce pouvoir sur un mortel, même une goule, est désespérément mortel."
+    },
+    {
+        "Key": "SERPENTIS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "SERPENTIS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez effectuer Cœur des ténèbres n’importe quelle nuit du mois et le faire sur une cible qui ne veut pas, tant qu’elle est en torpeur."
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_1_NAME",
+        "Text": "Graines de la Corruption"
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_1_DESCRIPTION",
+        "Text": "En discutant pendant quelques instants, vous pouvez implanter des idées subtiles de défiance et de vice dans le subconscient d’une cible, tentant quelqu'un à commettre des actions maléfiques. S'il n’est pas contrôlé, ce conflit interne peut corroder le code moral de la victime et peut faire remonter à la surface des pulsions réprimées, la faisant agir selon ses désirs les plus sombres."
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 2 points de Sang, parlez avec votre cible pendant au moins trois tours complets et faites un challenge opposé avec votre Score de Test de Serpentis. Si vous réussissez, vous faites remonter la nature la plus sombre de la victime à la surface. Les Graines de la Corruption font sortir les désirs cachés de la victime, ses peurs étouffées et ses tentations réprimées. L’individu doit jouer un individu plus sombre, avec une attitude morale plus flexible, prendre toutes les opportunités de jouer les impulsions malicieuses de son personnage.<br />Pour le reste de la soirée, la cible gagne des traits de la Bête dés qu’elle restreint sa sombre nature. Si la cible ignore volontairement une opportunité de prendre l’avantage de la souffrance d’une autre personnage ou de se livrer à la malice et au vice, elle gagne 1 trait de la Bête. Un personnage gagne aussi des traits de la Bête normalement s'il commet des péchés contre la Moralité, qui reste en effet pendant la durée des Graines de la Corruption. Dans les cas où cela cause un conflit moral, les Graines de la Corruption submergent la position morale du personnage."
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_2_NAME",
+        "Text": "Image Divine"
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Les dieux égyptiens possédaient une grande beauté, apparaissant humains quand ils voulaient impressionner ou être idolâtré par leurs croyants; et se transformant en des formes à tête animale quand ils voulaient créer la peur ou montrer leur héritage immortel. C'est ainsi qu’un ancien avec ce pouvoir peut générer l’amour ou la terreur, en permettant que la gloire de son essence divine se reflète sur son aspect."
+    },
+    {
+        "Key": "SERPENTIS_ELDER_POWER_2_SYSTEM",
+        "Text": "En dépensant 3 points de sang et une action standard, vous pouvez changer votre apparence de façon visible à tous. Quand vous activez Image Divine, vous pouvez choisir de personnifier un être bienfaisant ou malfaisant et bénéficier d’avantages liés à ce choix : <br /><strong>Bienfaisant : </strong> un aspect bienfaisant est extrêmement beau, apportant une grâce et élégance surnaturelle, ainsi qu’une pure attractivité physique. Cette forme peut apparaître clairement humaine ou peut manifester des détails de manifestation divine, tels que des ailes, des plumes à la place de cheveux, des écailles opalescentes ou d’autres manifestations physiques appropriées d’un \"bien\" mythologique, qui possède une faible aura dorée. Les mortels agissent avec émerveillement et respect lorsqu'ils doivent converser avec un personnage utilisant cet aspect ; même les créatures surnaturelles ressentent un désir de plaire à cet individu. Un personnage avec cet aspect possède un bonus de +2 pour ses Scores de Test social lors de challenges banals, ou dans les Scores de Test sociaux liés à des pouvoirs tels que la Transe, ou les Yeux de Serpent, qui se basent sur des émotions proches de l’attraction sexuelle, de l’affection ou de la persuasion.<br /><strong>Malfaisant : </strong> Habituellement, quand un ancien Setite utilise un aspect maléfique, sa tête se transforme en celle de la Bête appropriée : chacal, aigle, ou autre totem équivalent - et son corps irradie d’une aura sombre et dorée. Les personnages avec d’autres croyances pourraient avoir des signes différents de ce pouvoir, tels que des cornes démoniaques, une peau rouge, des crocs d’Oni, ou d’autres manifestations appropriées d’un \"mal\" mythologique, mais qui doit toujours irradier de façon sombre et brûlante. Les mortels réagissent avec terreur extrême et soumission face à un personnage utilisant cet aspect et même les créatures surnaturelles se sentent effrayées à l’idée de subir la colère du personnage. Un personnage utilisant cet aspect reçoit un bonus de +2 aux scores de Test social utilisés lors des challenges ordianiress, ou dans les Scores de Test sociaux liés à des pouvoirs tels que Regard Terrifiant ou Majesté, qui impliquent des émotions telles que l’intimidation, la peur ou l’obéissance.<br />Une fois que le personnage utilise Image Divine et choisit son aspect, il doit ré-invoquer le pouvoir une seconde fois (et répondre à tous les critères d’utilisation) pour se changer en l’autre aspect. Imagine Divine est un pouvoir de transformation, qui ne peut pas être utilisé avec d’autres pouvoirs de transformation. Il est en revanche suffisamment proche de l’humain pour permettre l’utilisation d’armes. Image Divine dure 10 minutes."
+    },
+	{
+        "Key": "SERPENTIS_TEST_SCORE",
+        "Text": "L'utilisateur de Serpentis utilise <i>Social + Subterfuge</i> contre <i>Social + Volonté</i> de la cible."
+    }
+]

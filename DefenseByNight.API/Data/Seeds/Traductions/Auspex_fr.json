@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "AUSPEX_NAME",
+        "Text": "Auspex"
+    },
+    {
+        "Key": "AUSPEX_DESCRIPTION",
+        "Text": "Les sens d’un prédateur doivent être extrêmement développés pour traquer sa proie dans la nuit. Les cinq sens de l’odorat, du toucher, du goût, de la vue et de l’ouïe peuvent tous être affûtés avec l’utilisation de l’Auspex. Ils peuvent alors dépasser les sens physiques, augmentant les capacités de concentration, de perception et même de conscience d’un vampire au-delà des possibilités des Mortels. De tels sens peuvent saisir les subtiles textures du mouvement ainsi que les états émotionnels, transcendant l’acuité mentale ordinaire. L’Auspex peut également percer les distractions mentales et les illusions, comme celles créées par les disciplines d’Occultation et de Chimérie. <br /> <strong>Auspex et Chimérie/Occultation </strong> : Si vous tentez d’utiliser Sens Accrus pour percer les occultations surnaturelles, votre cible peut choisir d’utiliser <i>Mental + Discrétion</i> pour Score de Test de Défense, en lieu et place de <i> Mental + Volonté </i>.Si vous tentez de percer une illusion, votre cible peut choisir d’utiliser <i>Social + Subterfuge</i> au lieu du Score de Test générique <i>Social + Volonté</i>. <br /> Si l’utilisateur d’Auspex réussit, il perce les pouvoirs d’Occultation ou de Chimérie."
+    },
+    {
+        "Key": "AUSPEX_POWER_1_NAME",
+        "Text": "Sens Accrus"
+    },
+    {
+        "Key": "AUSPEX_POWER_1_DESCRIPTION",
+        "Text": "Vous pouvez étendre vos sens physiques au-delà des limites humaines. Votre vue et votre ouïe peuvent être étendues jusqu’à deux fois les limites humaines, alors que le toucher, l’odorat et le goût deviennent suffisamment sensibles pour discerner les plus infimes détails avec aisance. Un personnage peut améliorer n’importe lequel de ses sens, voire tous, selon ses désirs."
+    },
+    {
+        "Key": "AUSPEX_POWER_1_SYSTEM",
+        "Text": "Sens Accrus est toujours actif. La vision accrue d’un personnage lui permet de voir clairement, même dans l’obscurité la plus totale, et lui permet de comprendre des sons trop faibles pour que des personnes normales les entendent. Lorsqu’un personnage avec Sens Accrus se situe à moins de deux pas d’un individu dissimulé par des moyens surnaturels, comme avec Occultation, le personnage avec Sens Accrus réalise automatiquement que quelqu’un est proche, bien qu’il ne sache ni l’identité ni l’emplacement de cette personne. Sens Accrus ne donne qu’une vague sensation que quelque chose n’est pas normal.<br /> Lorsque que quelque chose vous aveugle, votre ouïe peut fournir une compensation adéquate pour la perte de votre vue. Normalement, les personnages qui ne peuvent voir pendant un combat doivent utiliser la Manœuvre de combat Combat en Aveugle.<br /> Tant que l’ouïe de votre personnage est intacte, vous pouvez vous battre sans passer par la Manœuvre de combat Combat en Aveugle. Si vous dépensez 1 point de Sang et faites une action standard, votre personnage peut améliorer ses sens de manière plus poussée. Si vous procédez ainsi, vous remarquez n’importe quel objet ordinaire caché dans votre champ de vision et vous pouvez faire un challenge en opposition en utilisant le Score de Test d’Auspex pour distinguer les détails de n’importe quel objet ou personne dissimulé avec des pouvoirs surnaturels, de même avec les objets illusoires, ou les objets et personnes déguisés par des pouvoirs surnaturels. Si vous percez un pouvoir surnaturel de cette manière, vous pouvez ignorer les utilisations de ce même pouvoir par le même utilisateur pendant les cinq prochaines minutes. Si vous possédez plus de niveaux d’Auspex que votre cible possède du pouvoir qu’elle est en train d’utiliser pour générer l’Occultation (ou l’illusion), les effets perçants du pouvoir persistent pendant une heure au lieu de cinq minutes."
+    },
+    {
+        "Key": "AUSPEX_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "AUSPEX_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous n’avez pas besoin de grogner ou de faire un geste pour vous faire comprendre. Votre Bête peut communiquer directement avec les esprits des animaux proches. Toutefois, ces animaux doivent pouvoir vous voir pendant que vous utilisez ce pouvoir. En outre, vous n’avez plus besoin de compter sur la capacité de langage de l’animal. Quand vous utilisez ce pouvoir, vous obtenez une image mentale de toute situation que l’animal tente de décrire. Par exemple, vous verriez un souvenir du Prince marchant vers sa voiture, plutôt que d’entendre la description et l’interprétation du rat témoin de la scène."
+    },
+    {
+        "Key": "AUSPEX_POWER_2_NAME",
+        "Text": "Perception d’Aura"
+    },
+    {
+        "Key": "AUSPEX_POWER_2_DESCRIPTION",
+        "Text": "En étudiant attentivement un sujet, vous pouvez discerner l’aura brillante qui entoure toutes les créatures vivantes. L’interaction des couleurs dans une aura donne une idée des émotions du sujet, ainsi que de ses motivations et de sa nature. Avec de la pratique, vous pouvez apprendre à lire ces couleurs. Lors d’une soirée banale, l’aura d’un individu peut contenir de nombreuses teintes qui évoluent ; les émotions fortes prédominent, pendant que des impressions momentanées ou des motivations cachées surgissent brièvement par des traces ou des tourbillons. Les couleurs changent en fonction de l’état émotionnel du sujet, se mélangeant en de nouveaux tons dans un motif en constante évolution.Plus les émotions sont fortes, plus les teintes de l’aura sont prononcées."
+    },
+    {
+        "Key": "AUSPEX_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action standard pour faire un challenge en opposition contre votre cible. Si vous réussissez, votre personnage peut lire les détails de l’aura de la cible. Typiquement, l’examen est visuel, mais n’importe quel sens physique approprié peut être utilisé. Si vous réussissez, vous pouvez discerner le type de créature de votre cible (vampire, goule, vampire possédant un mortel, etc…), l’humeur générale, toute tendance violente immédiate et si la cible a diablé ou non lors de l’année passée. Ce pouvoir ne vous permet pas de lire dans les pensées ou de détecter la vérité.<br /> Si vous échouez au challenge en opposition, l’aura de votre cible est trop trouble pour la discerner clairement. Les détails sont trop flous et aucune couleur ou motif en particulier ne semble dominant.<br /> Le coût en Sang pour activer Perception de l’Aura est nul si la cible ne s’oppose pas au challenge."
+    },
+    {
+        "Key": "AUSPEX_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Pour la prochaine heure, vous continuez à percevoir l’aura de la cible sans dépense supplémentaire de Sang et sans faire de challenge. Si son humeur change ou si elle devient agressive, vous aurez un avertissement préalable. En terme de mécanisme, si votre cible démarre un combat, vous pouvez faire une action simple avant qu’elle ne fasse n’importe quelle action. Cet avertissement ne vous donne pas une action supplémentaire, mais vous permet d’agir en avance."
+    },
+    {
+        "Key": "AUSPEX_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Si votre cible se situe dans les limites de trois pas, votre personnage ne dépense pas de Sang pour activer Perception de l’Aura, que la cible soit volontaire ou non. Si la cible n’est pas volontaire, vous devez quand même faire un challenge en opposition pour utiliser ce pouvoir."
+    },
+	{
+        "Key": "AUSPEX_POWER_3_NAME",
+        "Text": "Psychométrie"
+    },
+    {
+        "Key": "AUSPEX_POWER_3_DESCRIPTION",
+        "Text": "Toute créature vivante laisse derrière elle une empreinte de ses pensées et de ses émotions, à l’image des ondulations d’un sillage dans l’eau. Avec ce pouvoir, votre personnage peut lire les empreintes psychiques sur des objets récemment manipulés ou des lieux où des événements émotionnellement forts se sont produits. Un contact et un moment de concentration peuvent libérer un flux d’images et de sensations, pouvant révéler un aperçu du passé.</i> Notez que vous ne pouvez utiliser ce pouvoir que sur des objets ou des lieux et non sur des personnes, des vampires, des animaux, ou toute autre créature vivante. Les visions reçues par l’utilisation de ce pouvoir sont rarement claires ou détaillées et s’expriment plus comme des « aperçus psychiques ». Mais un vampire intelligent peut apprendre beaucoup d’un simple aperçu. Bien que la plupart des visions révéleront la dernière personne ayant utilisé l’objet ou se trouvant dans les lieux, un propriétaire de longue date peut laisser une impression plus forte et un drame du passé peut remplacer un événement plus récent d’un lieu. Pour obtenir une empreinte psychique, vous devez tenir physiquement l’objet (ou toucher une partie du lieu) à même la peau nue. Lorsque vous le faites, vous entrez dans une transe superficielle et vous récoltez des informations à partir des résidus spirituels de l’objet. Vous êtes à peine conscient de votre entourage lorsque vous utilisez Psychométrie, bien qu’un bruit fort ou des sensations physiques importantes fassent cesser la transe instantanément."
+    },
+    {
+        "Key": "AUSPEX_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action standard pour toucher un objet. Vous pouvez alors poser au Conteur une de ces questions et une question supplémentaire par cinq minutes de concentration du personnage sur l’objet ou le lieu :<br /> • Montre-moi la dernière personne qui a tenu l’objet. <br />•• Votre personnage reçoit une vision de la dernière personne qui a utilisé l’objet.La vision montre en général le dernier individu significatif et non la dernière personne à avoir touché l’objet.<br /> • Comment l’individu est-il mort ?<br /> •• Cette question ne peut être posée que lorsque Psychométrie est utilisée sur(tout ou partie d’) un cadavre. Votre personnage reçoit une vision des derniers moments de la vie de la cible.<br >/ • Quand(ou comment) l’objet a t-il été utilisé pour la dernière fois ?<br /> •• Votre personnage reçoit une image de la plus récente utilisation de l’objet et de sa cible(un couteau attaquant, avec l’apparition de la victime, des jumelles regardant en bas, montrant la voiture du Prince, etc.).Si l’objet a été utilisé dans un événement émotionnellement chargé, comme un meurtre ou un vol, votre personnage reçoit un bref aperçu de l’émotion et de son lien avec l’objet.<br /> • Y a-t - il des émotions fortes liées à l’objet ?<br /> •• Si quelqu’un aime ou déteste l’objet, ou si des émotions profondes sont liées à l’usage de l’objet, votre personnage reçoit cette information. Elle peut dater d’un certain temps, en fonction de la nature de l’objet et de ses associations.<br /> Certains objets ou lieux ont des émotions particulièrement fortes liées à eux. Votre Conteur peut décider de fournir une ou plusieurs réponses gratuitement lorsqu’un personnage utilise Psychométrie sur une cible chargée émotionnellement.Les personnages utilisant n’importe quel niveau d’Occultation et qui utilisent l’objet ou visitent un lieu, ne laissent aucune empreinte psychique.<br /> Pour les usages de ce pouvoir, les cadavres(y compris les cadavres de créatures surnaturelles et les cendres de vampires) comptent comme des objets et peuvent être ciblés par Psychométrie. Les vampires qui n’ont pas rencontré leur Mort Finale ne comptent pas comme des cadavres."
+    },
+    {
+        "Key": "AUSPEX_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "AUSPEX_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Quand vous activez Psychométrie, vous pouvez poser trois questions au lieu d’une."
+    }, 
+	{
+        "Key": "AUSPEX_POWER_4_NAME",
+        "Text": "Télépathie"
+    },
+    {
+        "Key": "AUSPEX_POWER_4_DESCRIPTION",
+        "Text": "Depuis des temps anciens, les humains ont toujours désiré pouvoir connaître les secrets enfouis dans la pensée d’autrui, parler et recevoir des communications depuis l’âme aussi bien que les lèvres. La Télépathie est la communication pure de pensées, de sensations, de désirs et ceux qui peuvent réaliser un tel exploit sont puissants. En projetant vos sens vers l’extérieur, vous pouvez percer l’esprit des autres, extirpant leurs pensées. Vous pouvez lier votre conscience avec celle des autres, envoyant ou recevant des idées et des pensées."
+    },
+    {
+        "Key": "AUSPEX_POWER_4_SYSTEM",
+        "Text": "Pour activer Télépathie sur une cible volontaire, dépensez simplement 1 point de Sang. Aucun challenge n’est nécessaire et la cible peut être localisée n’importe où dans la même ville (ou un rayon de 80 km de l’emplacement de votre personnage). Cet usage de Télépathie ne nécessite pas spécifiquement de ligne de vue. La Télépathie permet au personnage et à sa cible d’envoyer et recevoir messages mentaux et simples images.<br /> Si vous tentez d’utiliser Télépathie sur une cible non volontaire, vous devez dépenser 1 point de Sang et faire un challenge en opposition contre la cible, qui doit être dans votre champ de vision. Si vous réussissez, votre personnage peut envoyer une image ou un bref message (quelque chose pouvant être dit en moins de 10 secondes) à la cible. Alternativement, votre personnage peut extirper une image ou une information spécifique de l’esprit de la cible involontaire. L’information reçue de cette manière doit répondre à l’une de ces questions suivantes (selon votre convenance) :<br />  • À quoi êtes-vous en train de penser ? <br /> • À quoi ressemble la personne ou la chose que vous venez juste de décrire ?<br /> • Où se trouve la personne ou l’objet dont vous venez juste de parler ? <br /> • Est-ce que vous aimez ou détestez la personne à qui vous êtes en train de parler ? <br />• Qu’avez-vous l’intention de faire dans les cinq prochaines minutes ? <br /> Si un personnage volontaire devient réticent pendant un échange télépathique, le personnage utilisant Télépathie doit immédiatement dépenser 1 point de Sang et réussir un challenge en opposition ou être éjecté de l’esprit de la cible désormais non volontaire.<br /> Lorsque vous communiquez avec une cible volontaire, une utilisation simple de Télépathie dure une heure mais vous ne pouvez communiquer qu’avec une seule personne en même temps.Si vous activez Télépathie sur une seconde cible, le premier lien se coupe immédiatement.<br /> Un individu ne peut pas utiliser d’autres pouvoirs(comme les pouvoirs de Domination − Injonction, Suggestion, ou Esprit Distrait) en conjonction avec Télépathie.<br /> Le télépathe a le choix de se faire connaître ou non pendant la communication. Dans le cas où il ne le ferait pas, la cible peut déterminer l’identité du télépathe en réussissant un challenge en opposition de Perception."
+    },
+    {
+        "Key": "AUSPEX_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Vous pouvez poser deux des questions ci-dessus (au lieu d’une) avec chaque challenge réussi lorsque vous extirpez des informations de l’esprit de votre cible."
+    },
+    {
+        "Key": "AUSPEX_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez maintenir Télépathie avec jusqu’à trois cibles volontaires, vous permettant de tenir une conversation avec tous les participants en même temps. Les participants peuvent vous parler ou échanger entre eux par contact télépathique. Vous devez dépenser 1 point de Sang par cible. Pour faire venir un nouvel individu dans le lien, vous dépensez alors le Sang nécessaire. Vous pouvez éjecter quelqu’un de votre lien sans couper la communication avec les autres impliqués."
+    }, 
+	{
+        "Key": "AUSPEX_POWER_5_NAME",
+        "Text": "Projection Astrale"
+    },
+    {
+        "Key": "AUSPEX_POWER_5_DESCRIPTION",
+        "Text": "N’étant plus confiné au plan physique, vous pouvez projeter vos sens et votre conscience en dehors de votre corps. Autonome, votre conscience vagabonde dans les différents niveaux de pensée, vous permettant de voir le monde comme si vous étiez un esprit incorporel. N’étant pas concerné par les problèmes de masse et de matière, vous traversez n’importe quelle barrière physique et vous vous déplacez à la vitesse de votre pensée jusqu’à n’importe quel endroit situé sur Terre."
+    },
+    {
+        "Key": "AUSPEX_POWER_5_SYSTEM",
+        "Text": "Pour activer Projection Astrale, vous devez dépenser 1 point de Sang et une action standard pour méditer. Cette dépense permet à votre personnage de projeter sa conscience en dehors de sa forme physique. Lorsqu’un personnage est en Projection Astrale, son corps est dans un état similaire à la torpeur. Si son corps est endommagé, la Projection Astrale cesse automatiquement et la conscience de l’individu retourne immédiatement dans son corps.<br /> La Projection Astrale d’un personnage est une version idéalisée de son apparence normale. Bien que cette image puisse revêtir des habits dorés, être entourée d’un halo de lumière argenté, ou avoir une fourrure épaisse, elle est toujours reconnaissable comme étant votre personnage. Une forme psychique peut voyager à environ 80 km par heure et traverser des objets solides, mais ne peut interagir avec le monde physique de quelle que manière que ce soit. Les seuls pouvoirs que vous pouvez utiliser pendant la Projection Astrale sont les quatre premiers niveaux d’Auspex ; vous ne pouvez pas utiliser d’autres disciplines, de pouvoirs d’Anciens d’Auspex ou de techniques(même celles basées sur l’Auspex) pendant que vous êtes dans cet état.<br /> Une forme psychique est invisible à ceux qui ne possèdent pas Sens Accrus ou des capacités surnaturelles similaires. Vous pouvez dépenser 1 point de Sang pour vous manifester(votre corps d’origine dépense ce Sang), rendant votre forme psychique visible comme si elle était matériellement présente pour un tour seulement.Bien que le personnage soit encore intangible et ne puisse interagir physiquement, une forme psychique manifestée peut être vue et entendue normalement et être ciblée par des pouvoirs Sociaux ou Mentaux par ceux dans le monde matériel. Les individus avec Sens Accrus ou des capacités surnaturelles similaires peuvent voir les vagues contours d’un individu en Projection Astrale même si cet individu ne s’est pas manifesté, mais l’observateur ne peut distinguer de détails, voir les mouvements ou entendre la voix projetée du personnage sauf s’il se manifeste.<br /> Deux individus qui sont tous deux en Projection Astrale peuvent interagir entre eux normalement et peuvent même se battre à coups de poing ou par des attaques Physiques non armées. Un coup réussi d’un autre individu sous cette forme n’inflige pas de dégâts; cela coûte à la place 1 point de Volonté à la victime. Si la victime n’a plus de Volonté, la Projection Astrale cesse immédiatement et ne peut être réactivée pendant 10 minutes. Rappelez - vous que seuls les 4 premiers niveaux d’Auspex peuvent être utilisés en Projection Astrale; un personnage ne peut utiliser d’autres pouvoirs(même contre un autre individu en projection astrale) et ne possède aucun équipement autre que de simples vêtements dans cet état."
+    },
+    {
+        "Key": "AUSPEX_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "AUSPEX_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "En plus de l’Auspex, vous pouvez utiliser les deux premiers niveaux de n’importe quelle discipline Sociale ou Mentale de clan que vous possédez. C’est une exception à la règle contre l’utilisation d’autres disciplines en Projection Astrale. Votre personnage utilise ses pouvoirs normalement lorsqu’il en vise d’autres dans le plan psychique. Si votre personnage se manifeste, il peut également utiliser ses disciplines sur des cibles du monde matériel pendant sa manifestation. <br /> Puissance, Célérité et Force d’âme ne peuvent jamais être utilisées en Projection Astrale ni les pouvoirs nécessitant un contact, sauf s’ils sont utilisés contre d’autres individus psychiquement projetés."
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_1_NAME",
+        "Text": "Clairvoyance"
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Votre maîtrise de la vision surnaturelle vous permet de jeter votre esprit au loin et voir des événements lointains, des lieux ou des individus comme si vous étiez en leur présence. Ce pouvoir a inspiré des légendes et des mythes, transmettant la sensation que, quel que soit l’endroit où vous vous cachez - vous ne pouvez échapper au vampire."
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_1_SYSTEM",
+        "Text": "Pour activer Clairvoyance, dépensez 1 point de sang et une action standard. Vos perceptions se scindent, vous permettant de vous concentrer sur une personne familière, lieu ou objet sans perdre la possibilité de ressentir vos environs actuels. Pour plus d’informations sur comment cibler une cible familière, consultez Utiliser des Disciplines, Familiarité avec la Cible.<br />Si vous utilisez Clairvoyance sur une créature surnaturelle ou sur un objet en la possession d’une créature surnaturelle, vous devez faire un challenge opposé contre votre cible ou l’individu qui contrôle l’objet en utilisant le Score de Test d’Auspex. Si vous réussissez, vous pouvez voir, entendre et par ailleurs sentir l’endroit autour de votre cible comme si vous étiez en sa présence. Si vous observez un endroit avec lequel vous êtes déjà familier, il n’y a pas de challenge requis et votre Clairvoyance réussit automatiquement.<br />Votre Clairvoyance dure pendant cinq minutes pour chaque point que vous possédez dans la compétence Investigation. Si vous utilisez Clairvoyance sur un personnage qui est à plusieurs endroits en même temps ou une créature dont la forme physique a été divisée en plus d’un pièce, vous devez choisir quelle localisation vous voulez percevoir en activant Clairvoyance. Ensuite, si vous choisissez de percevoir la position alternative, vous devez activer Clairvoyance une nouvelle fois.<br /> <strong>Exemple : </strong> Si vous utilisez Clairvoyance pour espionner une cible qui utilise Possession ou Projection Psychique, vous pouvez choisir d’espionner le corps de la cible ou la localisation de son esprit. De manière similaire, si vous choisissez d’espionner un personnage dont le cœur a été retiré, vous pouvez choisir de percevoir les lieux autour du corps ou l’endroit où est localisé le cœur de la cible.<br />Vous ne pouvez utiliser que d’autres pouvoirs d’Auspex, pas de pouvoirs d’ancien ou de techniques, au travers de la Clairvoyance, tant que vous pouvez remplir les pré-requis de ces pouvoirs. Un personnage peut utiliser l’intensification des sens pour sentir une bougie au travers de la Clairvoyance, mais vous ne pouvez pas toucher la cire pour activer Psychométrie. Parce que vous n’êtes pas présent physiquement, vos sens intensifiés ne peuvent pas vous prévenir de la proximité d’un individu occulté ou d’illusions. Vous pouvez toujours dépenser un point de sang pour aiguiser vos sens dans l’espoir de détecter de tels effets.<br />Si votre cible est cachée par un pouvoir qui lui confère l’invisibilité, comme la Présence Invisible, vous devez d’abord surmonter l’Occultation de la cible pour pouvoir utiliser Clairvoyance sur cet individu. Faites un challenge en utilisant vos attributs <i>Mental</i> + <i>Investigation</i> contre le <i>Mental</i> + <i>Volonté</i> ou <i>Mental</i> + <i>Discrétion</i> de votre cible (c'est à sa guise).<br />Un personnage ne peut pas avoir plusieurs applications actives de Clairvoyance au même moment."
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_2_NAME",
+        "Text": "Assaut Psychique"
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_2_DESCRIPTION",
+        "Text": "La plupart des usages de l’Augure sont subtiles, permettant de rassembler des informations ou transmettre des pensées de manière douce et discrète. L’Assaut Psychique n’est rien de ces choses là. Un Vampire qui maîtrise ce pouvoir a la capacité d’attaquer un autre individu en utilisant la force de son acuité mentale, martelant sa cible malchanceuse avec un barrage incompréhensible de volonté et de pensées."
+    },
+    {
+        "Key": "AUSPEX_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez un point de sang et une action standard pour attaquer l’esprit de votre adversaire avec un Assaut Psychique. Faites un challenge opposé contre votre adversaire en utilisant le Score de Test d’Auspex. Si vous réussissez, votre victime prend 4 points de dégâts normaux. Les dégâts infligés par un Assaut Psychique ne peuvent pas être réduits ou annulés par l’armure ou des protections surnaturelles comme la Force d’âme.<br />Un personnage attaqué par un Assaut Psychique sait immédiatement d’où provient l’attaque et de qui elle vient dans ce lieu (s'il y a plus d’une personne dans les lieux). Vous pouvez activer ce pouvoir de manière répétée contre la même cible ; c'est une exception à la règle qui interdit un personnage d’utiliser un pouvoir sur la même cible après avoir échoué. Si vous échouez à faire votre Assaut Psychique contre votre cible, vous pouvez essayer encore contre le même adversaire (ou quelqu'un d’autre) au tour d’après.<br />"
+    },
+	{
+        "Key": "AUSPEX_TEST_SCORE",
+        "Text": "L’utilisateur d’Auspex utilise <i>Mental + Investigation</i> contre <i>Mental + Volonté</i> de la cible."
+    }
+]

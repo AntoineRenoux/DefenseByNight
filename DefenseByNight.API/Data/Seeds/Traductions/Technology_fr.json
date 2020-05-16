@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "TECHNOLOGY_NAME",
+        "Text": "La Voie de la Technomancie"
+    },
+    {
+        "Key": "TECHNOLOGY_DESCRIPTION",
+        "Text": "La Technomancie est l’art thaumaturgique de divination et de contrôle des machines ou des systèmes technologiques. En ces temps modernes, la technologie est aussi essentielle que ne le furent la forge de l’acier ou la récolte de céréales au Moyen-Age. Ainsi, de jeunes vampires dont les années mortelles leur permirent de baigner dans une “Révolution industrielle” ou une “ère informatique”, ont découvert qu’ils pouvaient étendre le pouvoir de la Magie de leur sang à travers ces curieuses inventions. Leur sang est semble-t-il devenu assez flexible pour s’adapter aux composants électroniques alors que le monde évolue dans une génération numérique.<br />Certains érudits occultes pensent que la Technomancie se base sur un principe de magie sympathique, similaire au Vaudou. D’autres estiment que les dispositifs technologiques inclus dans cette forme de Magie ne sont rien de plus que des talismans qui influent sur la volonté du pratiquant. Quelle que soit la vérité, les jeunes vampires qui disposent de cette nouvelle voie possèdent une compréhension et une foi dans les possibilités de la technologie et parviennent à distiller cette dévotion dans leur magie."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_1_NAME",
+        "Text": "Analyse"
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_1_DESCRIPTION",
+        "Text": "Les initiés de la Voie de la Technomancie apprennent à exploiter la vérité fondamentale de chaque appareil. D’un simple contact, vous pouvez projeter vos perceptions dans un appareil et glaner une compréhension de son usage, les principes technologiques qui le composent et savoir comment le manipuler. Ce pouvoir n’octroie pas un savoir permanent, simplement un flash momentané de lucidité, qui s’estompe au bout de quelques heures."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_1_SYSTEM",
+        "Text": "Pour activer le pouvoir, vous devez toucher un appareil technologique, dépenser 1 point de Sang et utiliser votre action standard. Peu après, vous projetez votre conscience dans l’appareil, vous permettant, temporairement, de mieux comprendre son utilité, son principe de fonctionnement ainsi que la façon de le manipuler. De cette façon, vous pouvez toucher un ordinateur et apprendre ses spécifications, déterminer les circonstances du déclenchement d’une alarme en la touchant, ou bien toucher une voiture et connaître sa condition, sa vitesse de pointe, etc.<br />Toutes les connaissances acquises grâce à l’utilisation de ce pouvoir disparaissent à l’aube à moins que le thaumaturge ne possède “Souvenir parfait” ou “Mémoire Expansée”. Un thaumaturge peut conserver les informations sur le fonctionnement d’un appareil en prenant le temps et l’effort de les coucher par écrit."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Analyser peut également être utilisé pour comprendre un fichier numérique innovant, vous permettant de lire les programmes ainsi que les fichiers électroniques. Par exemple, vous pouvez lire le contenu d’une clé USB, connaître tous les logiciels installés sur un ordinateur, ou bien consulter la liste des appels récents sur un téléphone portable - tout cela sans avoir besoin d’allumer l’appareil."
+    },
+	 {
+        "Key": "TECHNOLOGY_POWER_2_NAME",
+        "Text": "Circuits Grillés"
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_2_DESCRIPTION",
+        "Text": "Vous avez le pouvoir de détruire n’importe quel appareil électronique dans votre champ de vision en provoquant une surtension dans la batterie interne ou externe et provoquer ainsi la surchauffe des circuits."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour utiliser ce pouvoir sur n’importe quel appareil électronique situé dans votre champ de vision. L’appareil ciblé est ainsi détruit sans possibilité de réparation. Ce pouvoir ne peut être utilisé pour blesser directement un individu, cependant la destruction soudaine de la puce de régulation d’un moteur à injection peut provoquer des dégâts à la discrétion du conteur."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Ce pouvoir peut être utilisé pour cibler un appareil électronique de stockage de données et effacer son contenu sans possibilité de récupération ordinaire. Si vous provoquez cet effet, il n’existe aucun signe prouvant que cette panne est due à autre chose qu’une simple défaillance de l’appareil."
+    },
+	{
+        "Key": "TECHNOLOGY_POWER_3_NAME",
+        "Text": "Crypter/Décrypter"
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_3_DESCRIPTION",
+        "Text": "Vous avez la possibilité de protéger et de déverrouiller des appareils électroniques ou des fichiers numériques."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_3_SYSTEM",
+        "Text": "D’un simple toucher, vous pouvez crypter tout appareil, brouillant ainsi ses commandes de façon mystique afin qu’il ne fonctionne que pour vous. De plus, vous pouvez aussi protéger tout fichier électronique auquel vous accédez, sécurisant le fichier afin qu’il ne puisse être ouvert que par vous-même. Vous avez également la possibilité d’inverser l’opération et ainsi décrypter les appareils chiffrés afin d’accéder aux données en outrepassant les protocoles de protection.<br />Les personnages essayant d’accéder à un fichier/appareil que vous avez crypté subissent une pénalité sur leurs Scores de Test du nombre de points égal à votre score dans la compétence Informatique. Toute personne essayant d’accéder à l’appareil en utilisant la Voie de la Technomancie doit faire un jet en opposition en utilisant son Score de Test de Technomancie. Notez bien que ce challenge n’est pas nécessaire si le technomancien hostile souhaite simplement détruire l’appareil ou les fichiers concernés."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Cracker votre encryptage avec un équipement ordinaire est impossible. Seul un autre utilisateur de la voie de la Technomancie peut réussir à décrypter vos protocoles. Cependant, les technomanciens subissent une pénalité sur leur Score de Test égale au nombre de points que vous possédez dans la compétence Informatique lorsqu’ils essaient d’influer ou de lire des données que vous avez cryptées."
+    }, 
+	{
+        "Key": "TECHNOLOGY_POWER_4_NAME",
+        "Text": "Accès à Distance"
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_4_DESCRIPTION",
+        "Text": "Vous possédez désormais un tel degré de connexion innée avec la technologie que, d’un simple coup d’œil, vous pouvez contrôler et utiliser tout appareil électronique comme si vous le manipuliez physiquement."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang, utilisez votre action standard, et ciblez n’importe quel appareil électronique situé dans votre champ de vision. Pendant la prochaine heure, vous pouvez utiliser votre action simple ou standard pour interagir avec l’appareil, de façon tout à fait normale, même si vous n’êtes pas situé à proximité de l’appareil. Vous pouvez donc entrer des données dans votre téléphone mobile sans avoir à le sortir de votre poche, lire un message sur un écran même si vous ne voyez pas l’appareil, réinitialiser l’alarme sur la montre d’une autre personne, ou reprogrammer entièrement un ordinateur sans même le toucher."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous franchissez automatiquement toute sécurité ordinaire sur l’appareil que vous ciblez, mais vous devez néanmoins faire un challenge pour affecter l’équipement d’un autre technomancien. Avec ce pouvoir, vous pouvez automatiquement accéder au contenu d’un ordinateur, même si vous ne connaissez pas le mot de passe."
+    }, 
+	{
+        "Key": "TECHNOLOGY_POWER_5_NAME",
+        "Text": "Télétravail"
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_5_DESCRIPTION",
+        "Text": "Vous possédez la capacité de ressentir tout appareil électronique situé à 300 mètres et pouvez y accéder en utilisant “Accès Distant” via ce pouvoir."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 sang et utilisez votre action simple pour activer “Télétravail”. Pendant les 5 prochaines minutes, vous pouvez sentir tous les objets électroniques et leur emplacement général à proximité immédiate de votre position. Vous pouvez utiliser n’importe lequel de vos pouvoirs de Technomancie sur ces objets sans avoir besoin de les voir ou les toucher, aussi longtemps que vous resterez à 300 mètres de ceux-ci."
+    },
+    {
+        "Key": "TECHNOLOGY_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "TECHNOLOGY_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Une fois activé, le pouvoir dure 1 heure au lieu de 5 minutes."
+    }, 
+	{
+        "Key": "TECHNOLOGY_TEST_SCORE",
+        "Text": "Il n'y a pas de Score Standard pour la Voie de la Technomancie"
+    }
+]

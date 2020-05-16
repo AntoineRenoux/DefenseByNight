@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "BONES_NAME",
+        "Text": "La Voie des Ossements"
+    },
+    {
+        "Key": "BONES_DESCRIPTION",
+        "Text": "L'étude de la Voie des ossements est l’étude des corps physiques ; chair pourrie et os poussiéreux. En maîtrisant la Voie des Ossements, un nécromancien obtient la capacité de créer et de détruire des zombies comme les hordes croulantes des non-morts. Ces créatures sans conscience obéissent aux ordres du nécromancien."
+    },
+    {
+        "Key": "BONES_POWER_1_NAME",
+        "Text": "Regard des Morts"
+    },
+    {
+        "Key": "BONES_POWER_1_DESCRIPTION",
+        "Text": "Vous n’êtes pas étranger aux corps et aux restes de chairs découpés. Vos expériences et votre talent de Nécromancie vous donnent la possibilité d’observer un corps et de comprendre de quelle façon il est mort."
+    },
+    {
+        "Key": "BONES_POWER_1_SYSTEM",
+        "Text": "Ciblez un Vrai Corps dans votre ligne de vue et dépensez une action simple. Vous savez aussitôt de quelle façon cette créature est morte, aussi bien que l’heure de la mort et si le corps a été déplacé ou altéré. De plus, en dépensant une action standard et en vous concentrant, vous pouvez sentir la présence de corps dans les 90 m (100 yards) et découvrir leur emplacement."
+    },
+    {
+        "Key": "BONES_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BONES_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "En dépensant 1 Point de Sang, vous pouvez déguiser les causes de la mort d’un corps, modifiant toutes les traces et les blessures sur celui-ci. Une fois que vous avez modifié un corps de cette façon, les utilisations supplémentaires de Regard des Morts n’indiqueront pas que le corps a été modifié."
+    },
+	 {
+        "Key": "BONES_POWER_2_NAME",
+        "Text": "Détruire la Coquille"
+    },
+    {
+        "Key": "BONES_POWER_2_DESCRIPTION",
+        "Text": "Les philosophes disent qu’il est plus facile de détruire que de créer. Vos pouvoirs de nécromancie prouvent que cet adage est vrai. En ciblant un corps animé, vous pouvez couper les fils qui le maintiennent, dissipant son élan."
+    },
+    {
+        "Key": "BONES_POWER_2_SYSTEM",
+        "Text": "Dépensez un point de Sang et une action standard pour cibler un seul Vrai Corps, une partie d’un Vrai Corps ou un zombie dans votre ligne de vue, même s'il s'agit d’un zombie que vous ne contrôlez pas. Ce pouvoir détruit la cible complètement. Il ne reste même pas de cendres. <br /> Vous ne pouvez pas utiliser ce pouvoir sur des vampires ou d’autres êtres surnaturels mais vous pouvez détruire le Vrai Corps qui est actuellement habité par un spectre ou par un autre vampire. Si vous le faites, vous forcez l’esprit à repartir dans les Terres des ombres ou leur corps d’origine et vous détruisez le Vrai Corps."
+    },
+    {
+        "Key": "BONES_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BONES_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez Détruire la Coquille d’une action simple au lieu d’une action standard."
+    },
+	{
+        "Key": "BONES_POWER_3_NAME",
+        "Text": "Horde Putréfiée"
+    },
+    {
+        "Key": "BONES_POWER_3_DESCRIPTION",
+        "Text": "En invoquant votre puissance nécromantique, vous infusez l’essence pure des Terres des Ombres dans un corps décédé, animant ainsi un tas de chair pourrissante. Aussi longtemps que le corps reste en un seul morceau, il peut ignorer les dégâts physiques - comme une jambe brisée ou voir malgré des orbites vides - afin d’obéir à vos volontés."
+    },
+    {
+        "Key": "BONES_POWER_3_SYSTEM",
+        "Text": "Dépensez un point de Sang et une action standard pour forcer un Vrai Corps à se lever et obéir à vos ordres verbaux. Vous devez posséder (et avoir avec vous) un corps convenable afin de le réanimer avec ce pouvoir. A n’importe quel moment, vous pouvez contrôler un maximum de zombies équivalent à votre niveau en Occulte. Chaque zombie doit être animé séparément.<br />Vous pouvez animer les corps directement à partir de leurs tombes, et ce même si vous ne les voyez pas, tant que vous êtes sûr que des corps sont dans la zone, comme en utilisant Regard des Morts. Il peut falloir aux zombies plusieurs tours pour vous atteindre, s'ils doivent creuser à travers la terre ou soulever leur caveau. <br />Les créatures animées avec ce pouvoir sont des zombies, avec très peu de sensibilité et aucune créativité. Ils doivent obéir à toutes vos requêtes et suivre vos ordres. Ces zombies sont relativement permanents. Ils durent le temps que vous les relâchiez ou qu’ils subissent un nombre de dégâts équivalent a leur niveau de PNJ Type. <br />Les zombies créés par Horde Putréfiée sont des PNJ Type de niveau 2. Chaque zombie obtient la spécialisation Puissance ou Force d’Âme ainsi que la spécialisation Mêlée ou Bagarre. Un zombie ne peut pas faire d’actions d’influence ou agir indépendamment, mais il peut accomplir des tâches simples quand il n’est pas supervisé, comme nettoyer le sol ou attaquer toute personne qui entre dans une pièce."
+    },
+    {
+        "Key": "BONES_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BONES_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Les zombies créés avec ce pouvoir sont de niveau 3 et non de niveau 2. Ils disposent aussi de la spécialisation Puissance et Force d’Âme ainsi qu’au choix, la spécialisation Mêlée ou Bagarre."
+    }, 
+	{
+        "Key": "BONES_POWER_4_NAME",
+        "Text": "Morbidité"
+    },
+    {
+        "Key": "BONES_POWER_4_DESCRIPTION",
+        "Text": "Les spectres et les zombies sont des créatures relativement fragiles, faciles à détruire ou découper en petits morceaux. En concentrant votre puissance nécromantique, vous pouvez modifier une créature morte-vivante, réparant sa chair pourrissante ou fortifiant son esprit, à travers votre magie."
+    },
+    {
+        "Key": "BONES_POWER_4_SYSTEM",
+        "Text": "Dépensez un Point de Sang et une action standard pour cibler un zombie, un spectre ou un autre serviteur mort-vivant. Ce pouvoir a différentes utilisations : <br/> <strong>Zombies : </strong> Soigner un zombie à moins de trois pas de 3 points de dégâts. Vous pouvez faire des réparations cosmétiques. Altérer un zombie de cette façon le rendra moins pourrissant ou décrépit ; il ressemblera beaucoup plus à ce qu’il était de son vivant. Ensuite, le corps recommencera à pourrir comme d’habitude. En utilisant ce pouvoir sur un zombie toutes les quelques semaines, il pourrait presque passer pour humain. <br />Si un zombie se trouve dans les trois pas, vous pouvez lui donner trois niveaux de vie supplémentaires. Ces niveaux disparaissent en premier s'il subit des dégâts et disparaissent après cinq minutes, que des dégâts aient été subits ou non. On ne peut appliquer cet effet plusieurs fois sur un zombie, il n’est pas cumulable. <br /> <strong>Spectres :</strong>Vous pouvez augmenter le niveau de PNJ Type du spectre de 1, jusqu'à un maximum de 6. Cet effet dure une heure. Aucun fantôme ne peut être sous les effets de plusieurs utilisations de ce pouvoir à la fois.<br />Vous pouvez aussi changer l’apparence cosmétique d’un spectre, modifiant son apparence générale. Vous ne pouvez changer son genre ou ses aspects naturels, mais vous pouvez changer ses vêtements, sa coiffure et tout autre qualité superficielle. Beaucoup de nécromants utilisent ce pouvoir pour mettre à jour leurs suivants spectraux à un style plus moderne."
+    },
+    {
+        "Key": "BONES_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BONES_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser les effets spécifiques aux zombies de ce pouvoir sur un vampire, lui permettant temporairement d’apparaître plus humain. L’utilisation de ce pouvoir de cette façon peut faire qu’un vampire sur une voie autre que celle de l’humanité apparaisse comme un suivant de cette voie pour une courte période de temps. Un tel usage de Morbidité dure 10 minutes. Vous ne pouvez pas utiliser ce pouvoir sur un vampire plus d’une fois par nuit."
+    }, 
+	{
+        "Key": "BONES_POWER_5_NAME",
+        "Text": "Marionnette Macabre"
+    },
+    {
+        "Key": "BONES_POWER_5_DESCRIPTION",
+        "Text": "Le pouvoir le plus terrifiant d’un nécromancien cadavérique est sa capacité à occuper un corps, prenant spirituellement le contrôle de la forme physique de votre cible et portant son corps comme votre propre chair. Tant que vous êtes au contrôle de son corps, vous pouvez faire toutes les actions physiques dont celui-ci était capable."
+    },
+    {
+        "Key": "BONES_POWER_5_SYSTEM",
+        "Text": "Pour utiliser Marionnette Macabre, vous devez dépenser votre action standard et cibler un Vrai Corps ou un zombie dans votre ligne de vue, incluant les zombies qui ne sont pas sous votre contrôle. Votre conscience est transférée dans le corps ciblé comme si ce corps était le votre. Votre corps originel tombe alors en état de torpeur et ne peut se défendre ou agir de lui-même. Il conserve quand même tous les effets des niveaux de Force d’Âme que vous possédez.<br /> Les corps n’ont aucune discipline et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu’il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du vôtre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d’Âme ou de Puissance.<br /> Marionnette Macabre dure jusqu’au prochain lever de soleil ou jusqu’à ce que vous dépensiez une action simple pour retourner à votre corps originel. Marionnette Macabre s'arrête aussi immédiatement si vous voyagez à plus de 16 km (10 miles) de votre corps originel, si le corps originel prend des dégâts ou si le corps que vous possédez est détruit.<br /> En possession d’un zombie, vous ne pouvez pas dépenser de points de Sang, mais pouvez utiliser la Force d’Âme et/ou la Puissance de ce dernier."
+    },
+    {
+        "Key": "BONES_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "BONES_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez posséder n’importe quel zombie que vous contrôlez, comme ceux créés par le pouvoir de Horde Putréfiée. Vous pouvez activer ce pouvoir même si vous ne pouvez pas voir ces zombies, tant qu’ils sont à moins de 1,6 km de votre position (1 mile). Vous devez toujours payer le coût de ce pouvoir."
+    }, 
+	{
+        "Key": "BONES_TEST_SCORE",
+        "Text": "Il n'y a pas de challenge standard pour La Voie des Ossements"
+    }
+]

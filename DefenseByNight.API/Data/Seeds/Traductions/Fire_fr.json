@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "FIRE_NAME",
+        "Text": "Le Voie des flammes"
+    },
+    {
+        "Key": "FIRE_DESCRIPTION",
+        "Text": "La foi a souvent été liée au feu, puisqu'il symbolise la pureté et la divinité. Peut-être s'agit-il de la raison pour laquelle l’Inquisition a trouvé que c'était une arme efficace il y a longtemps. En exploitant les techniques mystiques du Piège des flammes, vous avez appris à invoquer et contrôler le feu. Les flammes conjurées par Le Piège des flammes sont de nature mystique. Vous devez relâcher le feu de votre contrôle avant que cela n’affecte l’environnement.<br />Par exemple, si vous activez la Main de Feu, elle ne brûle pas votre main ni ne provoque votre frénésie. Cependant, si vous touchez un autre individu avec cette main et qu’il s'enflamme, ces flammes peuvent vous brûler ou provoquer votre frénésie.<br />Le feu déclenche la frénésie chez les Vampires. L’utiliser comme une arme est l’une des méthodes les plus faciles pour amener un Vampire à la Mort Finale."
+    },
+    {
+        "Key": "FIRE_POWER_1_NAME",
+        "Text": "Main de Feu"
+    },
+    {
+        "Key": "FIRE_POWER_1_DESCRIPTION",
+        "Text": "Les initiés du Piège des flammes apprennent à invoquer une flamme dansante et chatoyante sur leur(s) main(s). Ce feu projette une vive lumière et vous fournit une arme terrifiante contre un autre vampire."
+    },
+    {
+        "Key": "FIRE_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour conjurer un feu mystique qui recouvre votre main (ou vos mains). La Main de Feu projette de la lumière et vous permet de frapper avec votre main pour brûler vos adversaires, provoquant des dégâts aggravés. Vous pouvez même l’utiliser en conjonction avec d’autres pouvoirs, comme Célérité et Puissance, pour devenir un formidable combattant.<br />Une fois lancée, la Main de Feu persiste jusqu'à ce que vous dépensiez une action simple pour la souffler. Vous ne souffrez d’aucun dégât ou gêne à cause de la Main de Feu ; en effet, vous pouvez même porter des gants ou d’autres vêtements qui ne seront pas affectés par le feu. Cependant, si vous faites s'enflammer quelque chose d’autre, ces flammes secondaires peuvent vous blesser."
+    },
+    {
+        "Key": "FIRE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FIRE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez convoquer votre Main de Feu à n’importe quel moment sans que cela ne nécessite la dépense d’une action. De plus, vous êtes hautement entraîné quand vous combattez avec des flammes en combat à mains nues. Quand vous utilisez Main de Feu en combat, vous recevez un bonus de +1 à vos scores de tests avec Bagarre."
+    },
+	 {
+        "Key": "FIRE_POWER_2_NAME",
+        "Text": "Boule de Feu"
+    },
+    {
+        "Key": "FIRE_POWER_2_DESCRIPTION",
+        "Text": "Vous avez le pouvoir d’invoquer une boule de feu dans la paume de votre main et de la lancer sur un ennemi. La boule flamboyante brille à travers l’air pour frapper votre cible en un souffle dévastateur et explosif."
+    },
+    {
+        "Key": "FIRE_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang, utilisez votre action standard et faites un challenge opposé pour lancer Boule de Feu sur un ennemi à moins de 20 pas de votre emplacement. Une Boule de Feu qui réussit inflige 2 points de dégâts aggravés de feu quand elle touche, puis s'éteint dans un souffle de de feu mystique. Si votre Boule de Feu frappe un objet inflammable, comme un tas de foin ou de papiers, mais pas les vêtements portés par des ennemis, la cible prend feu."
+    },
+    {
+        "Key": "FIRE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Votre Boule de Feu inflige un point supplémentaire de dégâts aggravés, pour un total de 3 dégâts aggravés pour chaque frappe réussie."
+    },
+    {
+        "Key": "FIRE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous n’avez pas besoin de dépenser du Sang pour utiliser Boule de Feu, bien que vous deviez toujours utiliser votre action standard."
+    },
+	{
+        "Key": "FIRE_POWER_3_NAME",
+        "Text": "Pilier de Feu"
+    },
+    {
+        "Key": "FIRE_POWER_3_DESCRIPTION",
+        "Text": "D'un geste, vous pouvez invoquer d’imposants piliers de flammes intenses sur la position d’une cible de votre choix."
+    },
+    {
+        "Key": "FIRE_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour conjurer un pilier de flammes qui est approximativement de 1,8 mètres (Six pieds) de diamètre et de la même hauteur. Vous devez placer ce Pilier de Feu à moins de 20 pas de votre emplacement. N’importe qui, à part vous, qui reste dans ou passe au travers de ce diamètre prend 2 points de dégâts aggravés. Vous êtes immunisé aux dégâts de votre Pilier de Feu, mais si vous deviez provoquer la combustion de quelque chose d’autre, ces flammes secondaires peuvent vous blesser.<br />S'il est dirigé vers une victime, le feu jaillit d’en-dessous de la victime. Vous devez faire mieux que votre cible dans un Challenge opposé en utilisant vos traits d’attributs Mental + Occultisme contre les traits d’attributs Physique + Esquive de la cible. Si vous réussissez, la cible prend 2 points de dégâts aggravés, sinon elle s'écarte avant que le pilier ne se soit formé. Les effets normaux de la compétence Esquive ne réduisent pas les dégâts de cette attaque.<br />Pilier de Feu provoque des dégâts aux personnages dans la zone d’effet à la fin de leur initiative de round commun. Si une cible reste dans le Pilier de Feu pendant plus d’un tour, elle continue à prendre des dégâts à la fin de son initiative de round commun jusqu'à ce qu’elle quitte la zone d’effet.<br />Les dégâts du Pilier de Feu ne se cumulent pas entre eux ou avec d’autres pouvoirs à zone d’effet. Si vous avez plus d’un tel pouvoir qui affecte la même zone, seul l’effet avec les dégâts les plus hauts s'applique.<br />La colonne de feu reste pendant cinq minutes, jusqu'à ce que vous décidiez de l’éteindre en dépensant une action simple, tombiez en torpeur ou mouriez."
+    },
+    {
+        "Key": "FIRE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FIRE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Quiconque se tient ou passe au travers de votre Pilier de Feu prend 3 points de dégâts aggravés chaque tour."
+    }, 
+	{
+        "Key": "FIRE_POWER_4_NAME",
+        "Text": "Immoler"
+    },
+    {
+        "Key": "FIRE_POWER_4_DESCRIPTION",
+        "Text": "D'un geste, vous pouvez mystiquement embraser une cible, provoquant la combustion spontanée de votre victime. Ce feu déchirant continuer de brûler jusqu'à ce que la victime arrive à entreprendre des actions spécifiques pour l’éteindre."
+    },
+    {
+        "Key": "FIRE_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang, utilisez votre action standard et faites un Challenge opposé pour Immoler une cible qui est à moins de 20 pas de votre emplacement. Si vous réussissez, la cible s'enflamme, subissant 2 points de dégâts aggravés. De plus, la victime est en feu, prend 2 point supplémentaires de dégâts aggravés à la fin de chaque tour successif jusqu'à ce que la victime utilise 2 actions (simple ou standard) pour étouffer les flammes. Tout ce que touche la victime alors qu’elle est en feu peut potentiellement s'enflammer, à la discrétion du conteur.<br />Vous pouvez immoler une cible plusieurs fois lors de tours successifs, provoquant des dégâts qui se cumulent alors que la cible subit la brûlure de manière répétée. Cependant, quel que soit le nombre de fois qu’une victime subit des utilisations individuelles d’Immoler, elle ne prend toujours que 2 points de dégâts aggravés à cause du feu lors des tours suivants."
+    },
+    {
+        "Key": "FIRE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Votre utilisation d’Immoler inflige un niveau supplémentaire de dégâts aggravés, pour un total de 3 points de dégâts aggravés par frappe. Un succès exceptionnel n’accroît pas les dégâts de brûlure que prend votre cible lors des rounds suivants."
+    },
+    {
+        "Key": "FIRE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Trois actions (standard ou simple) sont requises pour étouffer les flammes provoquées par l’immolation."
+    }, 
+	{
+        "Key": "FIRE_POWER_5_NAME",
+        "Text": "Tempête de Feu"
+    },
+    {
+        "Key": "FIRE_POWER_5_DESCRIPTION",
+        "Text": "Les Maîtres de la Voie des flammes ont la capacité de projeter leur fureur intérieur en une terrifiante tempête de feu, brûlant et consumant tout dans son passage."
+    },
+    {
+        "Key": "FIRE_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour convoquer une Tempête de Feu destructrice. Tempête de Feu fonctionne comme Pilier de Feu, mais affecte une zone allant jusqu'à 20 pas de diamètre sur un emplacement allant jusqu'à 40 pas. A la différence de Pilier de Feu, Tempête de Feu dure pendant cinq tours ou jusqu'à ce que vous décidiez de l’éteindre, bougiez à plus de 50 pas, tombiez en torpeur ou mouriez.<br />Les dégâts de Tempête de Feu ne se cumulent pas avec eux-même ou avec ceux d’autres pouvoirs à zone d’effet. Si vous avez plus d’un tel pouvoir qui affecte la même zone, seul l’effet avec les dégâts les plus hauts s'applique."
+    },
+    {
+        "Key": "FIRE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "FIRE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Votre Tempête de Feu provoque un point supplémentaire de dégâts aggravés par tour, pour un total de 3 points de dégâts aggravés."
+    }, 
+	{
+        "Key": "FIRE_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard."
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "Key": "VICISSITUDE_NAME",
+        "Text": "Vicissitude"
+    },
+    {
+        "Key": "VICISSITUDE_DESCRIPTION",
+        "Text": "Les Tzimisce sont connus pour leur comportement scientifique et leur cruelle insensibilité, mais plus encore, ils sont légendaires pour leur capacité à tordre et modeler de la chair mortelle ainsi que les os et les tissus. Les Monstres portent des secrets anciens, qui font frémir d’autres vampires d’horreur à la vue de leur travail manuel. Ces pouvoirs nécessitent un contact physique pour que le vampire forme et trace les contours de la forme physique d’une autre créature. Vicissitude de guérison : Les personnages surnaturels affectés par Vicissitude peuvent annuler les effets de ce pouvoir par d’autres applications de Vicissitude ou en guérissant l’affliction comme s'il s'agissait de 5 points de dégâts normaux. Vicissitude et pouvoirs transformateurs : Lorsque vous activez un pouvoir transformateur, toute altération faite par Vicissitude à votre forme originelle n’affecte pas votre forme transformée, mais réapparaît quand vous revenez à votre forme originelle.Par exemple, si Vicissitude a définitivement tordu votre cheville, votre forme de loup n’a pas cette affliction. Cependant, la cheville tordue par Vicissitude revient quand vous reprenez forme humaine."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_1_NAME",
+        "Text": "Visage Malléable"
+    },
+    {
+        "Key": "VICISSITUDE_POWER_1_DESCRIPTION",
+        "Text": "Avec ce pouvoir, un sculpteur sur chair peut changer son apparence, façonner sa chair et ses tissus pour correspondre au visage d’un autre individu. La personne à imiter de cette façon peut être quelqu'un de spécifique, ou le visage peut être un assortiment aléatoire de caractéristiques, comme vous le désirez."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de sang et cinq actions standard pour modifier votre corps. Visage malléable vous oblige à sculpter physiquement vos traits, tirant et tordant la chair sous vos mains. Ce pouvoir peut être utilisé pour modifier vos caractéristiques pour correspondre à n’importe quelle apparence humaine normale. Vous pouvez modifier votre visage, taille, sexe, peau ou la couleur des cheveux, ainsi qu’ajouter ou enlever des marques distinctives. Vous pouvez modifier votre taille jusqu'à 30,5 centimètres vers le haut ou vers le bas, mais vous ne pouvez pas devenir quelque chose qui n’est pas humain, comme un animal, et vous ne pouvez pas réorganiser vos organes. Visage malléable peut modifier votre voix si vous dépensez 1 point de sang supplémentaire lorsque vous activez ce pouvoir.<br /> Pour imiter fidèlement l’apparence d’une personne en particulier, vous devez avoir au moins 2 points de la compétence Médecine et vous devez étudier cette personne à partir de plusieurs angles de vue pendant au moins cinq minutes, apprendre ses expressions faciales, comment elle se déplace et autres qualités distinctives. Vous pourriez être capable d’imiter le visage de quelqu'un après avoir étudié une photo, mais votre déguisement ne trompe pas les gens qui ont déjà rencontré votre cible, car vous n’avez pas assez de matière sur cette personne. Pour imiter de façon crédible la voix d’un autre personnage, vous devez avoir au moins 3 points de la compétence Médecine et vous devez l’écouter parler pendant au moins cinq minutes, son discours doit être complexe avec de nombreux mots et expressions. L’écoute d’un enregistrement de cette voix n’est pas suffisante pour une véritable réplication ; votre voix déguisée n’aurait pas la profondeur nécessaire pour tromper quelqu'un qui a déjà parlé directement à la personne que vous imitez. <br />Alternativement, vous pouvez utiliser ce pouvoir pour vous donner une apparence plus belle et un peu étrange. Lorsqu'il est utilisé de cette façon, vous subissez une pénalité de - 2 à votre attribut Social, mais gagnez le focus Apparence.<br /> Visage malléable n’est pas un pouvoir transformateur mais ses effets ne s'appliquent qu’à votre forme normale. Si vous utilisez un pouvoir de transformation, les effets de Visage malléable ne se transfèrent pas à votre forme transformée."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VICISSITUDE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez modeler votre chair en n’utilisant qu’une seule action standard et vous n’avez pas besoin de vos mains pour façonner votre visage à votre convenance."
+    },
+	 {
+        "Key": "VICISSITUDE_POWER_2_NAME",
+        "Text": "Sculpture de la Chair"
+    },
+    {
+        "Key": "VICISSITUDE_POWER_2_DESCRIPTION",
+        "Text": "La chair des autres créatures est le mastic dans vos mains, se déplaçant et s'étirant comme vous le voulez. Vous pouvez effectuer des modifications drastiques à la chair et aux organes de toute créature que vous touchez."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_2_SYSTEM",
+        "Text": "Si la cible est consentante, vous pouvez dépenser 1 point de sang et dépenser cinq actions standard pour changer l’apparence d’une autre personne exactement comme vous le feriez en utilisant Visage malléable.<br /> Au combat, vous pouvez dépenser une action standard et dépenser 1 point de sang pour faire une attaque de Bagarre augmentée de Vicissitude. Si votre attaque réussit, vous salissez, tordez ou retirez cruellement des morceaux de la chair de la cible, infligeant 1 point de dégâts normaux. Ces dommages ne peuvent être réduits ou annulés et ne peuvent être augmentés ou modifiés par d’autres pouvoirs. Vous ne pouvez pas augmenter les dégâts de cette attaque en utilisant Puissance et vous ne pouvez pas améliorer les dégâts en dommages aggravés en utilisant Griffes Bestiales ou des pouvoirs similaires.<br /> Comme les autres pouvoirs de Vicissitude, Sculpture de la chair vous oblige à mouler physiquement le corps de votre cible dans la forme désirée. <br />Sculpture de la chair n’est pas un pouvoir de transformation, mais ses effets ne s'appliquent qu’à votre forme normale. Si vous utilisez un pouvoir de transformation, les effets de Sculpture de la chair ne se transfèrent pas à votre forme transformée."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Lors d’une attaque basée sur une bagarre, vous infligez 2 points de dégâts normaux, qui ne peuvent être réduits ou annulés et ne peuvent être modifiés par d’autres pouvoirs."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Sculpture de la chair sur une cible volontaire en dépensant trois actions standard au lieu des cinq initiales. Les attaques utilisant Sculpture de la chair infligent maintenant une base de 2 dégâts normaux et infligent 3 dégâts normaux lorsque vous obtenez un succès exceptionnel lors de l’utilisation de ce pouvoir."
+    },
+	{
+        "Key": "VICISSITUDE_POWER_3_NAME",
+        "Text": "Sculpture des Os"
+    },
+    {
+        "Key": "VICISSITUDE_POWER_3_DESCRIPTION",
+        "Text": "À ce niveau de maîtrise, vous pouvez briser l’os avec un toucher, l’allonger ou le raccourcir comme vous le souhaitez. Vous maîtrisez les secrets de l’anatomie et de la forme physique et vous avez la capacité de causer des dommages terribles - ou de créer des jouets tordus de chair et d’os."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et cinq actions standard pour modifier radicalement votre forme ou la forme d’un autre personnage qui est soit volontaire soit incapable de bouger. En utilisant Sculpture des os, vous pouvez déplacer ou enlever des os, des groupes musculaires, des terminaisons nerveuses et des organes internes, déformer un corps physique dans une forme radicalement différente et potentiellement anatomiquement improbable. <br />Lorsque vous utilisez Sculpture des os sur vous-même ou une autre personne, affectez l’un des effets suivants à votre cible. Aucun personnage ne peut être affecté par plus d’une application de Sculpture des os à la fois.<br /> • <strong>Membres supplémentaires</strong> : Sacrifiez 2 niveaux de santé afin de cultiver un ou plusieurs membres supplémentaires.Une fois par tour, vous pouvez dépenser votre action simple pour amener ces membres supplémentaires à attaquer. Les attaques des membres supplémentaires utilisent votre score de test d’attaque normal, mais ne reçoivent pas de bonus de disciplines.Par exemple, vous ne pouvez pas utiliser Puissance pour augmenter une attaque faite par vos membres supplémentaires. Ces membres supplémentaires ne peuvent pas être utilisés pendant les tours de Célérité.<br /> • <strong>Résistant</strong>: Sacrifiez jusqu'à 3 points de votre attribut physique pour obtenir un nombre égal de niveaux de santé. Ces niveaux de santé sont tous dans la voie de la Saine blessure.<br /> • <strong>Biologie transformée</strong> : Votre cœur(et/ ou d’autres organes) se trouvent dans des endroits inhabituels. Vous ne pouvez pas être pieuté et vous pouvez être difficile à tuer.Séparer votre cerveau de votre cœur vous fait encore rencontrer la mort finale, mais il peut être difficile de décapiter un vampire qui maintient son cerveau dans un endroit inhabituel.<br > •<strong>Estropié</strong> : Vous transformez votre cible en une forme incapable de se battre ou, dans certains cas, de se déplacer. Vous pouvez priver votre victime de son action simple, son action standard, ou les deux.<br /> • <strong>Corps de l’arme</strong> : Sacrifiez un niveau de santé pour transformer une partie de votre corps en une arme.Construisez l’arme normalement, en utilisant les règles pour créer des armes.L’arme issue de votre corps ne peut pas être désarmée et, si elle est brisée, vous pouvez la réformer en dépensant 1 point de sang. <br />Les niveaux de santé et les points d’attribut sacrifiés aux utilisations de Sculpture des os ne peuvent être retrouvés que lorsque la Sculpture des os est annulée. Comme les autres pouvoirs de Vicissitude, Sculpture des os vous oblige à mouler physiquement le corps de votre cible dans la forme désirée. <br />Sculpture des os n’est pas un pouvoir de transformation mais ses effets ne s'appliquent qu’à votre forme normale. Si vous utilisez un pouvoir de transformation, les effets de Sculpture des os ne se transfèrent pas à votre forme transformée."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VICISSITUDE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous activez Sculpture des os, vous pouvez choisir d’appliquer deux des modifications ci-dessus au lieu d’une seule. Vous ne pouvez pas appliquer la même modification plus d’une fois."
+    }, 
+	{
+        "Key": "VICISSITUDE_POWER_4_NAME",
+        "Text": "Forme Monstrueuse"
+    },
+    {
+        "Key": "VICISSITUDE_POWER_4_DESCRIPTION",
+        "Text": "Votre corps est capable de se transformer en une abomination horrible, mutée, déformée et tordue, s’approchant des créatures de H.R Giger. Vous pouvez développer des pointes d’os à travers les parties de votre corps, vous recouvrir de fourrure ou de cheveux, développer de nombreux yeux, ou tout ce que votre esprit tordu peut imaginer."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action standard pour vous transformer en un monstre massif et inhumain. Tant que vous êtes dans la Forme monstrueuse, vous avez une pénalité de -3 à vos attributs Mental et Social, mais vous recevez également le focus Physique de Force et un bonus de +3 à votre attribut Physique lors d’attaques de Bagarre. De plus, vos attaques de Bagarre infligent des dommages aggravés pendant que vous êtes dans la Forme monstrueuse.<br /> La Forme monstrueuse est un pouvoir de transformation et ne peut être combinée avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VICISSITUDE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "En Forme monstrueuse, votre bonus aux attaques basées sur la Bagarre augmente à +5, au lieu de la norme +3. Votre Forme monstrueuse est terriblement effrayante à voir. Les adversaires dont la Force de Volonté actuelle est inférieure à la vôtre subissent une pénalité de -2 en vous attaquant avec des pouvoirs basés sur la Mêlée ou la Bagarre. Cette pénalité s'applique toujours aux PNJ n’ayant pas de Volonté."
+    }, 
+	{
+        "Key": "VICISSITUDE_POWER_5_NAME",
+        "Text": "Forme Sanglante"
+    },
+    {
+        "Key": "VICISSITUDE_POWER_5_DESCRIPTION",
+        "Text": "Si vous vous concentrez brièvement, vous pouvez amener votre corps à se liquéfier en une flaque de sang. Dans cet état, vous pouvez toujours agir et enregistrer le monde autour de vous. Vous êtes une créature liquide dans le monde de ceux confinés à un état solide."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action standard pour vous transformer en une flaque de sang. En forme sanglante, vous ne pouvez pas dépenser de sang, parler, activer des pouvoirs ou attaquer physiquement, mais vous êtes également à l’abri des attaques physiques provenant de sources autres que le feu et la lumière du soleil. Vous pouvez être blessé par des attaques non-physiques et vous pouvez être blessé par des armes flamboyantes, comme une torche ou une fusée de secours ; cependant, les munitions incendiaires passent à travers vous trop rapidement pour infliger des dommages.Si vous êtes frappé par une arme flamboyante, comme une torche ou une fusée de secours, vous pouvez dépenser 1 point de sang pour éteindre cette flamme au moment où elle vous frappe. <br />Votre forme sanglante est semi-gélatineuse, mais ne peut pas maintenir une forme solide. Vous n’est pas humain et ne pouvez pas paraître, marcher ou parler. En forme sanglante, d’autres personnages peuvent tenter de vous boire.Pour ce faire, un attaquant doit faire un challenge basé sur Bagarre en utilisant son attribut Physique +Bagarre contre votre attribut Physique +Esquive.En cas de succès, l’attaquant boit 1 point de votre sang. Si vous n’avez plus de sang pendant cette transformation, soit du fait que quelqu'un boive votre vitae, soit du fait de votre dépense de points de sang, vous rencontrez immédiatement la mort finale. Les personnages qui ont très peu de vitae dans leur réserve de sang devraient être prudents sur la transformation en forme sanglante.<br /> Dans cette forme, vous pouvez passer par toute fente, trou ou ouverture que le liquide pourrait normalement traverser. Vous ne pouvez pas passer à travers des objets solides ou passages hermétiques, vous ne vous condensez pas et ne pouvez voyager ainsi. Vous ne pouvez pas voler mais vous pouvez voyager le long de surfaces inclinées ou surélevées, comme un mur. Vous ne prenez aucun dommage de chute. En forme sanglante, vous êtes constitué de vitae liquide et avez une présence physique tangible.Vous pouvez être touché par quiconque passe sa main à travers votre forme et vous pouvez toucher d’autres individus en vous écoulant dans la direction de la cible. Toucher ou être touché peut exiger une attaque Bagarre. <br />La forme sanglante est un pouvoir de transformation et ne peut pas être combinée avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "VICISSITUDE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "VICISSITUDE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Plutôt qu’en flaque de sang, vous pouvez vous transformer en une forme floue vaguement humaine de sang gélatineux. Cette forme peut rester debout, maintenir son uniformité en marchant ou en exécutant des activités simples et elle est capable de parler."
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_1_NAME",
+        "Text": "Souffle du dragon"
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Avec ce pouvoir, vous modelez vos organes internes en un fourneau organique et surnaturel. Comme les dragons des contes anciens, vous rugissez un souffle de flammes sur vos ennemis, incinérant tout dans un petit rayon."
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 3 points de Sang et votre action standard pour souffler des flammes sur vos adversaires. Souffle du Dragon peut cibler jusqu'à trois personnages qui sont à moins de trois pas l’un de l’autre. Toutes les cibles doivent être à six pas de vous.<br />Pour attaquer avec Souffle du Dragon, utilisez le Score de Test Attribut <i>Physique</i> + <i>Athlétisme</i> contre le Score de Test <i>Physique</i> + <i>Esquive</i> de la cible. Si vous réussissez, le pouvoir inflige 4 points de dégâts de feu. Le feu provoque des dégâts aggravés aux vampires. Souffle du Dragon peut être utilisé pendant les rounds de Célérité, mais vous devez en payer le coup pour chaque attaque.<br />Quand vous ciblez plusieurs ennemis avec ce pouvoir, vous devez faire un challenge opposé avec chacun des défenseurs. Devriez-vous dépenser un point de Volonté pour faire un re-test de l’un de ces challenges opposés, vous gagnez aussi un re-test pour le reste des challenges opposés sans dépenser de volonté supplémentaire. Si vous dépensez de la volonté après re-test après que des challenges ont été résolus, vous ne pouvez pas revenir en arrière pour faire un re-test rétroactif des challenges que vous avez perdus."
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Souffle du Dragon inflige 5 dégâts de feu à vos cibles au lieu de 4."
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_2_NAME",
+        "Text": "Sang acide"
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Ceux qui maîtrisent les pouvoirs de la Vicissitude peuvent transformer leur corps au delà des capacités humaines, modelant leur chair et leur sang en une entité de beauté surnaturelle ou de moquerie cruelle. Avec ce pouvoir, la compétence du Vampire en Vicissitude est tellement grande que son propre sang peut le défendre contre ceux qui veulent le profaner."
+    },
+    {
+        "Key": "VICISSITUDE_ELDER_POWER_2_SYSTEM",
+        "Text": "Une fois que vous achetez ce pouvoir, le sang de votre personnage devient en permanence un acide puissant. Cette condition ne blesse pas votre personnage, mais blessera ceux qui entreront en contact avec votre vitae.<br />Quiconque boit votre sang prend immédiatement 3 points de dégâts aggravés par point de sang ingéré. Ces dégâts ne peuvent pas être réduits ou annulés. Quiconque tente de vous diabler, même si vous n’avez aucun point de sang dans votre réserve de Sang, doit faire un challenge en utilisant le Score de Test <i>Physique</i> + <i>Survie</i> contre le Score de Test <i>Physique</i> + <i>Occultisme.</i>. Si la diablerie réussit dans ce challenge, il subira 5 points de dégâts aggravés et vous aura diablé avec succès. Si le diaboliste rate ce challenge, il est immédiatement détruit alors que le sang de votre cœur le dissout de l’intérieur. Vous restez intact.<br />Parce que quiconque boit votre sang prend des dégâts, Sang Acide peut rendre difficile (mais pas impossible) l’Étreinte d’un nouvel infant ou le maintien des goules.<br />Si un personnage avec le Sang Acide utilise Forme Sanglante, il peut utiliser 1 point de Sang par tour pour infliger 3 points de dégâts aggravés à quiconque ou quoique ce soit le touche. Cela inclut quiconque l’a agrippé ; la prise ne provoque pas de dégât, mais quiconque vous touchez est continuellement brûlé par votre Sang Acide. Si plusieurs individus vous touchent alors que vous avez activé cet effet, une seule utilisation de ce pouvoir peut brûler jusqu'à quatre individus, provoquant 3 points de dégâts aggravés.<br />Notez que les personnages qui sont à court de Sang alors qu’ils sont en Forme Sanglante, rencontrent immédiatement la Mort Finale."
+    },
+	{
+        "Key": "VICISSITUDE_TEST_SCORE",
+        "Text": "Il n’y a pas de de Score de Test générique pour Vicissitude."
+    }
+]

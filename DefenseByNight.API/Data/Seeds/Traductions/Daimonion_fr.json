@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "DAIMOINON_NAME",
+        "Text": "Daemonium"
+    },
+    {
+        "Key": "DAIMOINON_DESCRIPTION",
+        "Text": "Subtils, puissants et tout à fait mauvais, les pouvoirs de Daemonium sont la discipline signature des Baali. Cette discipline a été perfectionnée dans les fosses sacrificielles les plus profondes et les donjons les plus tortueux de l’Âge des ténèbres et transmet ces horreurs dans l’âge moderne. Ce sont les dons noirs du mal, arrachés des langues des rois sorciers et déverrouillés dans le cœur vicieux et corrompu des traîtres. Les personnages qui apprennent Daemonium s'ouvrent aux chuchotements et à la persuasion subconsciente des entités infernales. Toutes pensées et ambitions deviennent suspectes et il est difficile même pour cette personne de juger si elle agit de son propre gré. Chaque point de Daemonium qu’un personnage apprend corrompt l’âme de l’individu. Chaque fois qu’un pouvoir Daemonium est utilisé, une tache infernale submerge l’aura de l’utilisateur puis disparaît. Apprendre les 4 premiers points de Daemonium indique que le personnage est corrompu par les forces infernales et il est incontestable qu’elle utilise une puissance totalement et indiscutablement démoniaque. Un personnage doit faire un pacte délibéré avec une créature infernale pour apprendre le 5ème point de Daemonium : soit en conquérant cette entité et en en devenant maître, soit en la vénérant et enrejoignant sa cause comme un allié volontaire. Indépendamment de la façon dont ce pacte est atteint, le personnage est totalement et irréductiblement infernaliste.Seuls ceux qui concluent un tel pacte peuvent acquérir le 5ème point de Daemonium."
+    },
+    {
+        "Key": "DAIMOINON_POWER_1_NAME",
+        "Text": "Sentir le péché"
+    },
+    {
+        "Key": "DAIMOINON_POWER_1_DESCRIPTION",
+        "Text": "L'ennemi le plus dangereux est, bien sûr, celui au sein de votre propre esprit. En parlant avec un individu, l’utilisateur de ce pouvoir peut découvrir ses vices les plus profonds, révélant ses faiblesses spirituelles à la perception vive de l’utilisateur."
+    },
+    {
+        "Key": "DAIMOINON_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour regarder dans l’âme de votre cible. Vous devez faire un challenge opposé à votre cible, en utilisant le Score de Test de Daemonium. Si vous réussissez, vous découvrez combien de traits de Bête la cible possède actuellement, ainsi que le niveau actuel de sa Moralité. De plus, vous découvrirez exactement comment votre cible a gagné chaque trait de Bête qu’elle possède : spécifiquement, quand, où, dans quelles circonstances et pour quelle raison."
+    },
+    {
+        "Key": "DAIMOINON_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Vous pouvez lire l’esprit de votre cible pour le reste de la nuit, sans autre défi. Chaque fois que vous la voyez, vous pouvez réexaminer son âme et découvrir si tout ce que vous avez appris au début a changé. Si oui, vous découvrez la nature de cette nouvelle altération, selon une utilisation standard de Sentir le péché."
+    },
+    {
+        "Key": "DAIMOINON_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Si votre cible n’a actuellement aucun trait de bête, vous apprenez plutôt la date approximative de la dernière fois que votre cible a gagné les traits de Bête et pourquoi ces traits ont été gagnés."
+    },
+	 {
+        "Key": "DAIMOINON_POWER_2_NAME",
+        "Text": "Peur du vide abyssal"
+    },
+    {
+        "Key": "DAIMOINON_POWER_2_DESCRIPTION",
+        "Text": "Ceux qui apprennent les pouvoirs de Daemonium commencent à voir les âmes des autres comme des objets à enchaîner, échanger et utiliser pour leur propre ambition ou amusement. Avec ce pouvoir, l’utilisateur lie la parole donnée ou la promesse d’une cible à sa terreur primitive de destruction finale. Ceux qui concluent un tel contrat savent instinctivement et totalement que briser une promesse liée par ce pouvoir signifie sacrifier une partie de leur âme au vide abyssal."
+    },
+    {
+        "Key": "DAIMOINON_POWER_2_SYSTEM",
+        "Text": "Quand un autre personnage vous fait une promesse, vous pouvez dépenser 1 Sang et utiliser une action standard pour lier cette promesse avec Peur du vide abyssal. Si votre cible rompt ensuite la promesse liée par ce pouvoir, elle doit contester cette rupture contre les entités infernales de l’enfer ou être punie par leur châtiment. L’activation de ce pouvoir nécessite un test opposé de Trait de Challenge Daemonium. La cible doit faire la promesse de sa propre volonté et elle ne peut être forcée par la menace ou par l’utilisation de pouvoirs surnaturels. En outre, les manquements à cette promesse doivent être volontaires et ne peuvent pas être contraints de la même façon.<br /> Si une personne liée par la peur du vide abyssal est dominée (ou autrement surnaturellement forcée) de briser sa promesse, Peur du vide abyssal n’est pas déclenchée. Si la cible rompt par la suite la promesse de sa propre volonté, Peur du vide abyssal prendra son dû, selon les effets normaux de ce pouvoir. De plus, si un individu lié par votre Peur du vide abyssal est surnaturellement forcé de rompre la promesse, vous êtes immédiatement conscient des circonstances dans lesquelles la cible a été forcée de renier sa parole.<br /> Une personne qui rompt volontairement une promesse liée par Peur du vide abyssal doit faire un test statique en utilisant son attribut Mental + Survie contre une difficulté égale à votre attribut <i>Mental + Erudition</i>. Parce que c'est un test statique et comme votre personnage n’est pas directement impliqué, vous ne pouvez pas utiliser de retests. Votre victime peut retest, comme prévu pour un test statique normal. Si votre victime perd le test, elle perd un point de Volonté et doit immédiatement répéter le test. Perdre de nouveau entraîne la perte d’un autre point de Volonté et un autre test statique. Cette chaîne de tests statiques se poursuit jusqu'à ce que la cible gagne un test (Par égalité ou en gagnant les tests appropriés) ou jusqu'à ce que la cible épuise sa Volonté. Si les effets de Peur du vide abyssal font qu’un personnage perd de la Volonté quand elle n’a pas de Volonté restante, les esprits infernaux descendent. L'âme de la cible est tirée hors de son corps et traînée pour toujours dans l’enfer. Le personnage meurt immédiatement.Un tel personnage ne peut jamais être ressuscité(pas même temporairement) et aucun pouvoir ou capacité surnaturelle ne peut entrer en contact avec l’âme maudite.<br /> Une promesse liée par Peur du vide abyssal doit être explicite.La cible doit parler à haute voix, en disant quelque chose d’aussi direct et clair que <i>«Je promets de ne jamais dire à personne votre nom »</i>, ou <i>«Je jure de ne jamais vous attaquer»</i> ou <i>«Parole d’honneur, je vais toujours vous dire la vérité»</i>. Peur du vide abyssal ne peut pas être utilisé pour faire valoir des déclarations vagues, des affirmations confirmatives ou des accords généraux tels que: <i>«Bien sûr»</i>, <i>«Je suis d’accord»</i> ou <i>«Comme vous dites.»</i>. Peur du vide abyssal ne peut pas être utilisé pour faire respecter des promesses faites à plusieurs personnes, comme celles faites dans un discours public, mais uniquement des promesses qui vous sont faites directement et individuellement.Par exemple, si un politicien a annoncé sa promesse de campagne pour «mettre un poulet dans chaque pot», vous ne pouvez pas faire respecter cette promesse.Vous pourriez, bien sûr, rencontrer l’homme politique plus tard et lui demander de vous faire cette promesse personnellement - et ensuite utiliser Peur du vide abyssal sur cette obligation faite personnellement.<br /> Une fois utilisé, ce pouvoir persistera pendant deux parties ou un mois, selon la plus longue durée entre les deux possibilités.Après la fin de cette durée, le sujet est libre de rompre sa promesse sans crainte de représailles et la crainte instinctive de le faire se dissipera et ne le hantera plus."
+    },
+    {
+        "Key": "DAIMOINON_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "DAIMOINON_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Si votre cible rompt sa promesse, elle perd 1 point de Volonté avant de faire son premier test contre Peur du vide abyssal."
+    },
+	{
+        "Key": "DAIMOINON_POWER_3_NAME",
+        "Text": "Conflagration"
+    },
+    {
+        "Key": "DAIMOINON_POWER_3_DESCRIPTION",
+        "Text": "Tous les pouvoirs de Daemonium ne sont pas subtils. Certains sont destinés à marquer la peur dans l’innocent, à insuffler la menace de la douleur et de la destruction à ceux qui défient votre volonté. En invoquant ce pouvoir, l’usager appelle le feu vert brûlant des royaumes de ses protecteurs infernaux, exultant dans la cruauté des damnés."
+    },
+    {
+        "Key": "DAIMOINON_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour lancer une boule de flammes verte hideuse à votre cible. Ce feu est clairement d’origine infernale. Pour frapper votre ennemi avec le feu, vous devez gagner un test opposé à l’aide de votre attribut mental + Erudition par rapport à l’attribut physique de la cible + Esquive. Si vous réussissez, votre cible prend 2 points de dégâts aggravés, elle est consumée par la flamme damnée. Conflagration est un pouvoir mental et, en tant que tel, ne peut pas être utilisé pendant les rounds de célérité. Vous pouvez à plusieurs reprises activer Conflagration contre une cible ; c'est une exception à la règle qui interdit à un personnage d’utiliser un pouvoir mental sur la même cible immédiatement après un échec. Si vous échouez un test de Conflagration contre un adversaire, vous pouvez essayer de nouveau contre le même adversaire(ou quelqu'un d’autre) au tour suivant. Les flammes infernales de Conflagration sont fugaces et les incendies provoqués par l’usage de ce pouvoir se dissipent en trois tours."
+    },
+    {
+        "Key": "DAIMOINON_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": "La cible prend 3 points de dégâts aggravés au lieu des 2 standard."
+    },
+    {
+        "Key": "DAIMOINON_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Conflagration pendant les tours de Célérité."
+    }, 
+	{
+        "Key": "DAIMOINON_POWER_4_NAME",
+        "Text": "Psychomachie"
+    },
+    {
+        "Key": "DAIMOINON_POWER_4_DESCRIPTION",
+        "Text": "Avec ce pouvoir effrayant, l’utilisateur de Daemonium combine sa capacité à lire les fautes spirituelles d’une victime avec sa capacité à rassembler l’énergie des plans infernaux. Psychomachie donne vie aux blessures psychologiques les plus profondes d’un individu, confrontant la cible aux parties les plus dangereuses, honteuses de son propre subconscient."
+    },
+    {
+        "Key": "DAIMOINON_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour faire un test opposé à votre cible, en utilisant le trait de Challenge de Daemonium. En cas de succès, une manifestation illusoire de l’angoisse et du péché de votre cible apparaît à portée de bras du sujet de votre pouvoir. Cette incarnation peut être le père abusif du sujet, un amant mort depuis longtemps, un épouvantail de l’enfance ou quelque autre manifestation de ses blessures intérieures. Quelle que soit sa forme, l’anima maléfique se tourne immédiatement vers votre cible et cherche à lui faire du mal. La cible de psychomachie peut interagir et être blessée par son anima maléfique comme s'il s'agissait d’une créature normale. Vous pouvez également voir la manifestation Psychomachie, mais vous ne pouvez pas interagir avec elle. Les autres personnes ne peuvent pas voir ou interagir avec cette incarnation spirituelle et n’ont aucun moyen de déterminer si elle est là ou de la cibler avec des attaques ou des pouvoirs. Une incarnation maléfique créée par Psychomachie est un PNJ de 5 points avec 10 points de sang. Il possède les pouvoirs Griffes Bestiales et Sens Intensifiés, mais n’a pas accès à d’autres pouvoirs d’Auspex ou de Protéisme. Il a des spécialisations de votre choix de deux des trois disciplines physiques standard (Puissance, Célérité et Force d’âme). En outre, vous pouvez sélectionner trois autres domaines de compétences que la manifestation possède. La psychomachie ne peut pas être activée pendant les tours de célérité, mais une incarnation maléfique possédant le focus Célérité peut entreprendre des actions physiques pendant les tours de célérité. Lorsque la psychomachie se termine, la manifestation se dissipe en une fumée nauséabonde, sulfureuse, que seuls votre cible et vous pouvez sentir. Cela se produit après cinq minutes, quand l’incarnation maléfique prend 5 points de dégâts, ou si votre cible est en torpeur ou rendue inconsciente. Vous ne pouvez avoir qu’une seule manifestation psychomachique active à la fois. Utiliser le pouvoir une seconde fois, même sur une autre cible, dissipe la première incarnation de ce pouvoir."
+    },
+    {
+        "Key": "DAIMOINON_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Votre Psychomachie possède 2 points de plus. Ils peuvent être utilisés pour acheter des disciplines ou des compétences."
+    },
+    {
+        "Key": "DAIMOINON_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Quand vous créez votre Psychomachie, votre manifestation possède en plus 1 point de volonté, qu’elle peut dépenser normalement. De plus, vous pouvez donner jusqu'à 3 points supplémentaires de volonté en dépensant ce même montant de points de volonté lorsque vous créez l’anima maléfique. Il s'agit d’une exception à la règle qui empêche les PNJ d’avoir ou d’utiliser de la volonté."
+    }, 
+	{
+        "Key": "DAIMOINON_POWER_5_NAME",
+        "Text": "Condamnation"
+    },
+    {
+        "Key": "DAIMOINON_POWER_5_DESCRIPTION",
+        "Text": "L'usager de ce pouvoir lance une malédiction sur une victime, invoquant le nom de son allié démoniaque pour investir la malédiction d’une autorité infernale. La légende indique que certains Baali manient des malédictions si ignobles que la victime est prête à se suicider plutôt que de faire face à une fatalité inévitable."
+    },
+    {
+        "Key": "DAIMOINON_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour maudire fortement votre cible. Faites un test opposé à votre cible, en utilisant le Trait de Challenge Daemonium. Si vous réussissez, vous maudissez le sujet avec l’un des blâmes suivants :<br /> • La victime ne peut pas dépenser de sang pour augmenter son attribut physique. <br /> • La cible subit une pénalité de -2 à un attribut de votre choix. <br /> • La cible subit une pénalité de -5 pour les Scores de Test impliquant une compétence de votre choix.<br /> • Chaque fois que la cible échoue à un test statique, elle subit automatiquement les résultats d’un échec critique.<br /> Les malédictions lancées par Condamnation durent pour le reste de la nuit. Aucun personnage ne peut être soumis à plus d’une utilisation de la Condamnation à la fois. Si une nouvelle malédiction est appliquée, l’ancienne disparaît. Les personnages qui possèdent la Condamnation sont infernalistes."
+    },
+    {
+        "Key": "DAIMOINON_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "DAIMOINON_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous utilisez avec succès Condamnation, choisissez et appliquez deux des effets ci-dessus plutôt qu’un."
+    },
+    {
+        "Key": "DAIMOINON_ELDER_POWER_1_NAME",
+        "Text": "Pacte Infernal"
+    },
+    {
+        "Key": "DAIMOINON_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Le malin n’est pas une créature solitaire. Il chasse en meute, partageant ses atouts et malédictions et entraîne autant d’âmes qu’il le peut dans les couloirs de l’enfer. Avec ce pouvoir, vous pouvez introduire les autres dans les bonnes grâces des démons, les initiant dans votre alliance infernale pour le bénéfice de tous."
+    },
+    {
+        "Key": "DAIMOINON_ELDER_POWER_1_SYSTEM",
+        "Text": "En partageant l’affection de votre patron damné, vous pouvez donner des pouvoirs infernaux aux autres. Pour recevoir un bénéfice de ce pouvoir, la cible doit accepter l’affection de votre patron infernal de son plein gré. De plus, elle doit sacrifier quelque chose qui lui tient énormément à cœur (la relique d’un amant, un serviteur loyal et ainsi de suite) à votre patron, à travers vous. Une fois présenté avec un sacrifice convenable, l’utilisateur de Daemonium dépense 3 points de Sang et invoque un rituel mystique de bénédiction pendant cinq tours complets, pendant lesquels le sujet doit être présent. Si la cible a des arrières-pensées avant la fin de l’invocation, ce pouvoir échoue automatiquement. Si la cible reste consentante pendant tous les cinq tours du rituel, le sacrifice du suppliant est consumé dans des flammes vertes et il reçoit une bénédiction infernale. La cible gagne l’atout Pouvoir Infernal sans payer le moindre XP et sans que cet atout compte dans le maximum de points d’atouts qu’elle peut acheter. La cible choisit quel effet elle reçoit de l’application de l’atout Pouvoir Infernal. Vous êtes considéré comme étant le maître infernal de votre cible dans le but de ces effets."
+    },
+	{
+        "Key": "DAIMOINON_TEST_SCORE",
+        "Text": "L'utilisateur de Daemonium utilise <i>Mental + Érudition</i> contre <i>Mental + Volonté</i> de la cible."
+    }
+]

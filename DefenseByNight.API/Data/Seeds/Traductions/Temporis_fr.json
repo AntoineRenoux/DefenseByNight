@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "TEMPORIS_NAME",
+        "Text": "Temporis"
+    },
+    {
+        "Key": "TEMPORIS_DESCRIPTION",
+        "Text": "Ceux qui contrôlent les pouvoirs de Temporis ont la capacité de comprendre les permutations du temps, accélérant et ralentissant ses effets en fonction de leurs désirs. Temporis canalise la force mystique qui rend un vampire immortel, rendant son corps immunisé contre les ravages du temps. Le vrai Brujah prétend que l’antediluvian Brujah a créé Temporis avant qu’il ait été diablé et que sa malédiction a dégradé son pouvoir pour ceux qui ont suivi Troile après sa destruction. <br />Les utilisateurs de Temporis ont tendance à devenir de plus en plus méticuleux et presque obsédés par les petits détails de la vie quotidienne. Ils ont également tendance à manquer d’émotions à un degré élevé, se détachant par l’expérience du passage des âges, ressentant le passage des siècles comme un grain de sable à travers un sablier. Ces êtres sont insensibles et cruels, n’accordant que peu de valeur à un seul individu dans la grande tapisserie du temps. <br /><strong>Temporis et Célérité </strong>: Un personnage qui a acheté n’importe quelle quantité de Célérité ne peut jamais acheter de Temporis.De même, un personnage qui a acheté une quantité de Temporis ne peut jamais acheter Célérité."
+    },
+    {
+        "Key": "TEMPORIS_POWER_1_NAME",
+        "Text": "Sablier de l’Esprit"
+    },
+    {
+        "Key": "TEMPORIS_POWER_1_DESCRIPTION",
+        "Text": "Le temps est une entité complexe, se déplaçant comme une rivière autour d’un millier de minuscules pierres. La plus petite altération peut entraîner d’énormes changements. Pour utiliser efficacement Temporis, l’esprit du lanceur doit être capable de comprendre ces courants et tourbillons et de prédire leurs résultats."
+    },
+    {
+        "Key": "TEMPORIS_POWER_1_SYSTEM",
+        "Text": "Sablier de l’esprit est toujours actif. En plus d’accorder un sens du temps extrêmement précis, vous permettant de garder une trace de la durée exacte jusqu'à la milliseconde, ce niveau de Temporis vous donne également une sensibilité unique à toute perturbation du temps. Dans un rayon d’un mile, vous percevez automatiquement quand le temps est manipulé, que ce soit par l’utilisation de Temporis ou d’autres pouvoirs surnaturels qui altèrent le temps. En outre, vous détectez automatiquement l’utilisation de pouvoirs qui accordent des actions supplémentaires, tels que Célérité, quand ils sont utilisés à moins de 1000 pieds de vous. Par ailleurs, vous pouvez lire l’âge d’un objet en un coup d’œil et vous pouvez dire si Temporis a jamais été utilisé sur cet objet en notant que son âge réel ne correspond pas à la quantité de temps qui s'est écoulée depuis la création de l’objet.<br /> De plus, en dépensant votre action standard et en faisant un test opposé réussi, en utilisant le Score de Test de Temporis, vous découvrez si oui ou non une cible possède Célérité ou Temporis ; vous discernerez alors combien de points de Célérité ou Temporis la cible possède.Si vous utilisez ce pouvoir sur une créature non vampirique qui possède des pouvoirs qui peuvent façonner le temps ou lui permettre d’accomplir de multiples actions, vous obtenez une compréhension approximative des capacités de cette créature."
+    },
+    {
+        "Key": "TEMPORIS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TEMPORIS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "En plus de connaître les points totaux de Temporis ou Célérité de votre cible, vous pouvez également discerner les pouvoirs spécifiques qu’elle possède, y compris les techniques et les pouvoirs des aînés."
+    },
+	 {
+        "Key": "TEMPORIS_POWER_2_NAME",
+        "Text": "Juste à Temps"
+    },
+    {
+        "Key": "TEMPORIS_POWER_2_DESCRIPTION",
+        "Text": "Avec ce pouvoir, vous pouvez voler des objets depuis des recoins de l’Histoire. En créant une petite anomalie dans le flux naturel du temps, vous atteignez et saisissez, dans le passé ou le présent, les objets perdus, les déchets abandonnés et épaves abandonnées, tirant de force ces articles vers vous."
+    },
+    {
+        "Key": "TEMPORIS_POWER_2_SYSTEM",
+        "Text": "En dépensant 1 point de sang et en dépensant une action simple, vous pouvez utiliser Juste à temps pour attirer un objet commun à vous d’un autre point dans le temps. Ces éléments sont des choses qui ont été perdues ou déplacées et qui n’auront jamais manqué à leur propriétaire. L’objet est un exemple courant et non-écrit de son type ; vous pouvez choisir d’attirer un aigle du désert ou une jolie peinture, mais vous ne pouvez pas acquérir l’arme du shérif ou la Mona Lisa.L’objet doit être assez petit pour qu’une personne normale le tienne facilement dans ses deux mains et ne pas avoir de valeur particulière.<br /> Si vous choisissez d’attirer à vous une arme, le conteur détermine les qualités spécifiques de l’arme.Si l’arme est un pistolet, il a un chargeur complet de munitions. Pour plus d’informations sur les armes et les qualités d’armes, voir le chapitre 13: Influences et équipement, Accessoires, armes et armures."
+    },
+    {
+        "Key": "TEMPORIS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TEMPORIS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Si vous utilisez Juste à temps pour attirer une arme ou un objet de combat, vous pouvez sélectionner les qualités de cet élément, plutôt que de le faire choisir par votre conteur."
+    },
+	{
+        "Key": "TEMPORIS_POWER_3_NAME",
+        "Text": "Seconde Fractionnée"
+    },
+    {
+        "Key": "TEMPORIS_POWER_3_DESCRIPTION",
+        "Text": "Avec ce pouvoir, vous ralentissez les effets du temps autour de vous, vous permettant de bouger dans un scintillement et presque semblant être à deux endroits à la fois. Même si vous ne pouvez pas attaquer les autres dans un tel état, vous pouvez vous déplacer, attirer des armes ou effectuer d’autres petites actions en un clin d’œil."
+    },
+    {
+        "Key": "TEMPORIS_POWER_3_SYSTEM",
+        "Text": "Une fois par tour, vous pouvez dépenser 1 point de sang pour obtenir une action supplémentaire simple, qui ne peut pas être interrompue. Cette action supplémentaire résout votre initiative et ne peut pas être utilisée pour cibler d’autres personnages ou objets contrôlés par d’autres personnages ; elle ne peut pas non plus être utilisée pour activer des pouvoirs."
+    },
+    {
+        "Key": "TEMPORIS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TEMPORIS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous gagnez deux actions simples supplémentaires avec chaque utilisation de Seconde fractionnée, plutôt qu’une."
+    }, 
+	{
+        "Key": "TEMPORIS_POWER_4_NAME",
+        "Text": "Patience des Nornes"
+    },
+    {
+        "Key": "TEMPORIS_POWER_4_DESCRIPTION",
+        "Text": "Votre maîtrise de Temporis est devenue si puissante que vous pouvez enlever des objets inanimés du temps, en les suspendant pendant un petit moment alors que le reste du monde avance. Vous pouvez arrêter dans les airs un objet en train de tomber, suspendre une explosion assez longtemps pour échapper à son feu, ou préserver un artefact fragile de la pourriture."
+    },
+    {
+        "Key": "TEMPORIS_POWER_4_SYSTEM",
+        "Text": "Une fois par tour, vous pouvez dépenser 1 point de sang pour obtenir une action supplémentaire simple, qui ne peut pas être interrompue. Cette action supplémentaire résout votre initiative et ne peut pas être utilisée pour cibler d’autres personnages ou objets contrôlés par d’autres personnages ; elle ne peut pas non plus être utilisée pour activer des pouvoirs."
+    },
+    {
+        "Key": "TEMPORIS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "TEMPORIS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous gagnez deux actions simples supplémentaires avec chaque utilisation de Seconde fractionnée, plutôt qu’une."
+    }, 
+	{
+        "Key": "TEMPORIS_POWER_5_NAME",
+        "Text": "Don de Clotho"
+    },
+    {
+        "Key": "TEMPORIS_POWER_5_DESCRIPTION",
+        "Text": "Vous êtes capable d’accélérer le temps comme il passe à travers votre corps, ce qui vous amène à vous déplacer avec une vitesse et une précision surnaturelles."
+    },
+    {
+        "Key": "TEMPORIS_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang pour activer le Don de Clotho pour le tour. Lorsque vous activez Don de Clotho, vous gagnez deux rounds supplémentaires d’actions ; chaque round supplémentaire comprend une action simple et une action standard.Résolvez un round supplémentaire d’actions lors du premier round de Célérité et résolvez le second round supplémentaire d’actions lors du deuxième round de Célérité."
+    },
+    {
+        "Key": "TEMPORIS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "TEMPORIS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Chaque tour, vous pouvez utiliser une (et une seule) des actions standard accordées par Don de Clotho pour activer un pouvoir Mental ou Social. Il s'agit d’une exception à la règle qui stipule que vous ne pouvez pas utiliser les pouvoirs Mental ou Social pendant les tours Célérité."
+    },
+    {
+        "Key": "TEMPORIS_ELDER_POWER_1_NAME",
+        "Text": "Baiser de Lachésis"
+    },
+    {
+        "Key": "TEMPORIS_ELDER_POWER_1_DESCRIPTION",
+        "Text": "A ce niveau de maîtrise de Temporis, vous avez la capacité d’affecter le passage du temps sur les objets physiques et les individus, les faisant se flétrir et se décomposer. Le temps ravage le sujet comme si des décennies avaient passé en un souffle."
+    },
+    {
+        "Key": "TEMPORIS_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 2 points de Sang et utilisez votre action standard pour faire vieillir votre cible (ou la rajeunir) en un clin d’œil. Si vous visez un individu ou un objet contrôlé par un autre individu, vous devez aussi remporter un Challenge opposé contre votre cible en utilisant le Score de Test de Temporis.<br />Un Baiser de Lachésis réussi vous permet d’accroître ou de réduire l’âge d’une cible jusqu'à 100 ans. Provoquer un vieillissement de 100 ans tue instantanément un mortel et inflige 2 points de dégâts normaux, qui ne peuvent pas être réduits ou annulés, aux cibles surnaturelles, par le flétrissement et une décomposition générale. Le Baiser de Lachésis ne cause aucun dégât significatif aux objets à moins que vous ne le souhaitiez; si vous choisissez d’infliger des dégâts à un objet, tout objet normal tombera en poussière.<br />Les objets vieillis de cette manière ne peuvent pas retourner à un stade précédent ou incomplet. Une pièce en argent peut perdre son ternissement et apparaître comme fraîchement frappée, mais elle ne reviendra pas sous la forme d’un bloc de métal non travaillé. De la même manière, un corps d’adulte peut revenir à celui d’un enfant, ses capacité mentales, sa mémoire et expériences ne sont pas affectées. Un amputé qui reviendrait à un âge avant sa blessure ne régénère pas son bras manquant, une épée brisée ne deviendra rien d’autre que des éclats qui ont l’air plus neufs. Les créatures douées de conscience gardent toute leur mémoire et n’importe quel dérangement. Le point de régression le plus lointain pour un Vampire est son étreinte ; un vampire qui régresse au point de son étreinte reste un vampire, pas un corps inanimé - un vampire qui a régressé garde toutes ses disciplines et tous les changements dans sa génération dus à la diablerie."
+    },
+	{
+        "Key": "TEMPORIS_TEST_SCORE",
+        "Text": "Le lanceur de Temporis utilise son Attribut <i>Physique + Survie</i> contre l’Attribut <i>Physique + Volonté</i> de la cible."
+    }
+]

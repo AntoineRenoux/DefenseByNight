@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" [routerLink]="['']">GEN_LBL_SITE_NAME</a>
+
+    <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/character']">Personnage_proxy</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/rules']">Règles_proxy</a>
+      </li>
+    </ul>
+
+    <div *ngIf="loggedIn()" class="dropdown" dropdown>
+      <a class="dropdown-toggle text-light" dropdownToggle>
+        Welcome {{ authService.decodedToken?.unique_name | titlecase }}
+      </a>
+
+      <div class="dropdown-menu mt-3" *dropdownMenu>
+        <a class="dropdown-item" (click)="logOut()"><i class="fa fa-sign-out mr-1"></i>GEN_LBL_LOG_OUT</a>
+      </div>
+    </div>
+
+    <form *ngIf="!loggedIn()" class="form-inline my-2 my-lg-0" #loginForm="ngForm" (ngSubmit)="login()">
+      <div class="btn-group" dropdown [autoClose]="false">
+        <button id="button-connexion" dropdownToggle type="button" class="btn btn-secondary dropdown-toggle" aria-controls="dropdown-basic">GEN_LBL_LOG_IN<span class="caret"></span></button>
+        <button type="button" class="btn btn-secondary">GEN_LBL_REGISTER</button>
+        <ul id="dropdown-connexion" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-connexion">
+          <li class="ml-2 mr-2 mb-2" role="menuitem">
+            <input type="text" class="form-control" placeholder="Username_proxy" aria-label="Username"/>
+          </li>
+          <li class="ml-2 mr-2" role="menuitem">
+            <input type="password" class="form-control" placeholder="Password_proxy" aria-label="Password"/>
+          </li>
+          <li class="divider dropdown-divider"></li>
+          <li role="menuitem" class="text-center">
+            <button class="btn btn-primary" type="submit">Connexion_proxy</button>
+          </li>
+        </ul>
+      </div>
+    </form>
+
+  </div>
+</nav>

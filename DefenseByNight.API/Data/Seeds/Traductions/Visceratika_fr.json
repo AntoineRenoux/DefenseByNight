@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "VISCERATIKA_NAME",
+        "Text": "Visceratika"
+    },
+    {
+        "Key": "VISCERATIKA_DESCRIPTION",
+        "Text": "Au sommet des flèches de marbre des anciennes cathédrales, des gardiens en pierre voûtés regardent fixement la ville, surveillant attentivement les rues. Avec la puissance de Visceratika, vous pouvez durcir votre peau et ne faire qu’un avec la pierre, à peu près comme les anciennes sculptures de gargouilles angéliques et démoniaques. Les membres de la lignée de la Gargouille étaient esclaves quand ils ont d’abord manifesté cette discipline, comme si les rituels jetés à plusieurs reprises sur eux étaient devenus permanents, fusionnant avec leur nature magique. C'est une énigme dans le monde vampirique - et plus encore parce que la lignée peut enseigner son pouvoir exclusif aux autres.<br /> Posséder Visceratika renforce et durcit remarquablement la peau d’un vampire qui devient teintée de faibles nuances de gris. Pour une gargouille, cela ne fait que très peu de différence car, même sans apprendre Visceratika, les Gargouilles apparaissent comme si elles étaient faites de pierre. Cependant, lorsque d’autres vampires apprennent ce pouvoir, il provoque une légère mais perceptible altération de leur apparence."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_1_NAME",
+        "Text": "Peau du Caméléon"
+    },
+    {
+        "Key": "VISCERATIKA_POWER_1_DESCRIPTION",
+        "Text": "Quand vous activez ce pouvoir, vous vous fondez naturellement dans votre environnement. Bien que vous ne soyez pas invisible, vous devenez moins perceptible et ceux autour de vous ont tendance à ne pas porter leur attention sur vous, même s'ils réalisent que vous êtes ici."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action simple pour activer Peau du Caméléon pendant une heure. Vous devez être actuellement hors de vue des mortels pour activer ce pouvoir. Par la suite, tant que vous n’attirez pas l’attention sur vous, les mortels présumeront que vous êtes une partie attendue et légitime de leur environnement. Ils supposent que vous avez une véritable raison d’être là et ne remettront pas en question votre présence. Si on leur demande ensuite, ils vous décrivent avec des généralités. Même si votre apparence est particulièrement bestiale ou horrible, comme une gargouille ou un Nosferatu peut apparaître, tant que vous prenez des mesures simples pour éviter l’attention, comme porter un chapeau ou remonter votre col et ne rien faire pour que les gens vous remarquent, les mortels dans la zone vous ignoreront.<br /> Vous pouvez interagir avec les mortels sous les effets de ce pouvoir tant que vous ne les surprenez pas ou ne leur donnez pas une raison d’examiner minutieusement votre apparence. Après une conversation, le mortel ne se souvient de vous que comme un individu banal avec les qualifications appropriées pour être présent et rien de plus. Si vous utilisez un autre pouvoir, ou attaquez quelqu'un, ou attirez l’attention sur vous d’une quelconque manière, ce pouvoir prend immédiatement fin. <br />Peau du Caméléon échoue dès que vous tentez d’entrer un lieu privé. Ce pouvoir pourrait vous permettre de parcourir une scène de crime, mais il ne peut pas être utilisé pour entrer dans un laboratoire top secret ou marcher inaperçu dans la maison de quelqu'un."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VISCERATIKA_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Votre Peau du Caméléon fonctionne sur les créatures surnaturelles, comme les vampires et les mortels. Les créatures surnaturelles qui vous rencontrent font un challenge opposé en utilisant leur score de Test Mental + Volonté contre votre score de Test Mental + Discrétion. Les personnages avec Auspex reçoivent un bonus égal au nombre de niveaux d’Auspex qu’ils possèdent. Les Pouvoirs d’Ancien comptent dans ce bonus, pas les techniques."
+    },
+	 {
+        "Key": "VISCERATIKA_POWER_2_NAME",
+        "Text": "Surveiller le Foyer"
+    },
+    {
+        "Key": "VISCERATIKA_POWER_2_DESCRIPTION",
+        "Text": "Les bâtiments ont des souvenirs et la pierre peut porter des échos non perçus par l’oreille humaine. En touchant n’importe quelle partie d’un bâtiment, comme le mur, le plafond ou le sol, vous pouvez sentir à distance les individus à l’intérieur, comme une chauve-souris qui utilise son sonar."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_2_SYSTEM",
+        "Text": "En dépensant 1 point de Sang et en passant un tour complet à vous concentrer, vous obtenez une perception complète de la disposition d’un bâtiment et des habitants à ce moment. Vous recevez des informations précises sur la conception du bâtiment - où sont toutes les chambres, s'il y a des passages secrets ou des chambres cachées et ainsi de suite. Vous apprenez également l’emplacement, la taille approximative et le type général (humanoïde ou animal) de toutes les choses vivantes (et mortes-vivantes) à l’intérieur. Ce bâtiment peut être aussi grand qu’un manoir ; pour acquérir des informations détaillées sur une superstructure massive ou un gratte-ciel, votre conteur peut vous demander d’activer ce pouvoir une fois tous les quelques étages."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VISCERATIKA_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Surveiller le Foyer en dépensant une action simple plutôt qu’un tour complet de concentration."
+    },
+	{
+        "Key": "VISCERATIKA_POWER_3_NAME",
+        "Text": "Se Lier à la Montagne"
+    },
+    {
+        "Key": "VISCERATIKA_POWER_3_DESCRIPTION",
+        "Text": "Vous avez une compréhension innée de la terre, de la pierre, du béton et du métal. Vous pouvez manipuler et modeler mêmes les matières naturelles les plus solides comme si vous manipuliez une poignée d’argile."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action standard. En saisissant une portion de pierre ou une matière manufacturée pierreuse, comme le béton, la brique ou d’autres éléments de maçonnerie, vous pouvez la manipuler comme si elle était molle et malléable. En utilisant ce pouvoir, vous pouvez même vous former un refuge sûr dans un tel matériau, scellant tout interstice derrière vous alors que vous rampez dedans. Vous pouvez créer des couloirs et des ouvertures et les traverser, ne laissant aucune trace d’un tel passage derrière vous. Un personnage qui utilise Se Lier à la Montagne peut modeler trois pieds cube (0,08 Mètre cube) de pierre avec une action standard et peut se déplacer dans un tel matériau d’un pas par round.<br /> Ceux qui souhaitent remarquer ou localiser une Gargouille qui utilise Se Lier à la Montagne pour s'abriter dans un mur ou un autre matériau doivent réussir un challenge opposant leur attributs Mental + Investigation contre les attributs Physique + Discrétion de l’utilisateur de Visceratika. Quand un personnage qui utilise Sens Intensifiés arrive à deux pas d’un personnage caché par Se Lier à la Montagne, il se rend compte qu’il y a quelqu'un de proche, bien qu’il ne sache pas qui ni précisément où trouver cette personne. Un personnage qui a été averti par Sens Intensifiés de cette manière reçoit un bonus de +3 à son challenge pour le remarquer et localiser l’utilisateur de Visceratika."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VISCERATIKA_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez modeler et bouger au travers du métal et des alliages, aussi bien que la pierre."
+    }, 
+	{
+        "Key": "VISCERATIKA_POWER_4_NAME",
+        "Text": "Armure de Terra"
+    },
+    {
+        "Key": "VISCERATIKA_POWER_4_DESCRIPTION",
+        "Text": "Là ou des utilisateurs mineurs de Visceratika peuvent altérer leur peau pour gagner l’apparence de la pierre, vous pouvez réellement modifier la vôtre pour acquérir la dureté de la pierre aussi. Quand vous activez ce pouvoir, votre peau prend la couleur du granite, du marbre ou d’un autre type de pierre, durcissant vos traits en lignes acérées et plans rigides."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et votre action simple pour renforcer votre peau jusqu'à la dureté de la pierre pendant une heure. Pendant que l’Armure de Terra est active, votre peau blindée a les qualités Balistique et (Hardened - verifier traduction avec Dak) Robuste. Quand vous êtes affecté par ce pouvoir, votre apparence peut être considérée comme une violation de la Mascarade. <br />Amure de Terra n’est pas une simple armure et les attaques qui percent normalement l’armure ni ne percent ni n’ignorent les effets de ce pouvoir."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "VISCERATIKA_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "De plus, votre Armure de Terra a la qualité Intégrale mais, à l’inverse des inconvénients d’une armure Intégrale, votre peau altérée peut être cachée en-dessous de vêtements ou de pouvoirs comme Occultation."
+    }, 
+	{
+        "Key": "VISCERATIKA_POWER_5_NAME",
+        "Text": "Force de la Pierre"
+    },
+    {
+        "Key": "VISCERATIKA_POWER_5_DESCRIPTION",
+        "Text": "Comme la pierre elle-même, vous devenez dur et impénétrable. La pierre ne peut pas brûler et ne peut pas être percée. Avec l’utilisation de ce pouvoir, vous pouvez vous protéger de deux des plus grands fléaux de l’existence Vampirique et emprunter la force de la terre pour vous défendre."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_5_SYSTEM",
+        "Text": "En dépensant 1 point de Sang et une action simple, vous transformez votre corps jusqu'à la solidité de la pierre. Tant que vous êtes dans cette forme, vous ne prenez pas de dégâts du feu et les attaques enflammées ou incendiaires ne vous infligent que des dégâts normaux. De plus, parce que vos organes sont aussi durs que de la pierre, vous ne pouvez pas être pieuté. Quand vous êtes affecté par ce pouvoir, votre apparence est clairement une violation de la mascarade. Une fois activé, ce pouvoir dure jusqu'au prochain lever de soleil. <br />Force de la Pierre est un pouvoir de transformation et ne peut pas être combiné à d’autres pouvoirs de transformation. Vous pouvez achever cette transformation à n’importe quel moment en dépensant une action simple. La transformation de Force de la Pierre est une version rocheuse de la forme (humanoïde) d’un personnage et les personnages sous cette forme peuvent utiliser des armes."
+    },
+    {
+        "Key": "VISCERATIKA_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "VISCERATIKA_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Quand ce pouvoir est actif, vous prenez la moitié des dégâts (arrondis au supérieur) de la lumière du soleil. Ceci est une exception à la règle qui empêche les pouvoirs des Vampires de réduire les dégâts reçus de la lumière du jour."
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_1_NAME",
+        "Text": "Rempart"
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_1_DESCRIPTION",
+        "Text": "En attrapant un autre personnage et le tenant proche de vous, vous pouvez l’abriter dans la masse de pierre de votre étreinte. De cette manière, fut un temps pendant lequel les anciens esclaves Gargouilles protégeaient leurs maîtres Tremeres ; de nos jours, ce pouvoir est davantage utilisé contre les mages qu’à leur bénéfice."
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_1_SYSTEM",
+        "Text": "Pour utiliser Rempart, vous devez d’abord utiliser avec succès la manœuvre de combat Agripper sur votre cible. Rappelez-vous que des cibles consentantes peuvent céder, prévenant de la nécessité d’utiliser de la Volonté pour réaliser une manœuvre de combat. Une fois que vous avez établi la manœuvre, vous pouvez dépenser 1 point de Sang et une action Simple pour activer Rempart.<br /> Tant qu’elle est dans votre étreinte, la cible est protégée de toutes les formes d’attaques physiques et ne peut pas physiquement attaquer les autres.<br />Toutes les attaques Physiques dirigées vers l’individu protégé par Rempart vous visent à la place. Les individus protégés peuvent être ciblés par des Attaques Mentales et Sociales qui ne requièrent pas un toucher. Un individu protégé peut utiliser des Attaques Mentales et Sociales lui-même, tant que ces attaques ne requièrent pas de lui de toucher son adversaire ou d’utiliser un geste. Un rempart prend fin si votre cible échappe à votre poigne ou si vous la laissez partir. De plus, Rempart prend fin si vous avez un ou plus de points de marqués dans votre niveau de santé Incapacité."
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_2_NAME",
+        "Text": "Fourneau d’Acier"
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Votre capacité à tordre la pierre et modeler le métal a atteint un niveau où vous pouvez le faire sans utiliser un contact physique direct. Avec un geste ou un rugissement, vous provoquez la fonte des armes, les axes des voitures se tordent ou tout autre métal en votre présence perd sa cohésion."
+    },
+    {
+        "Key": "VISCERATIKA_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez votre action standard pour cibler une seule pièce de métal ou de pierre dans votre ligne de vue qui n’est pas plus large que 3 mètres cube (10 pieds) en terme de taille. L’objet se tord et perd définitivement son intégrité, comme s'il était exposé à un température extrême. Les armes fondent et deviennent inutiles quand elles sont visées par ce pouvoir et vous pouvez facilement détruire des véhicules et bâtiments. Même si l’objet est sous le contrôle de quelqu'un d’autre, tant que vous pouvez voir l’objet et le viser avec Fourneau d’Acier, sans faire de tests."
+    },
+	{
+        "Key": "VISCERATIKA_TEST_SCORE",
+        "Text": "L'utilisateur de Visceratika utilise le Score de Test Attribut <i>Mental + Athlétisme</i> contre le Score de Test Attribut <i>Mental + Volonté</i> de la cible."
+    }
+]

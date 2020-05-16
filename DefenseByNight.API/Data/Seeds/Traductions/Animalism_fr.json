@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "ANIMALISM_NAME",
+        "Text": "Animalisme"
+    },
+    {
+        "Key": "ANIMALISM_DESCRIPTION",
+        "Text": "Quand un vampire est Étreint, son âme est accablée par un instinct sombre et primal : La Bête. La Bête le change en prédateur, le conduisant à des actes sauvages pour sa survie. Certains vampires résistent à leur Bête, tandis que d’autres se réjouissent de leur nouvelle nature animale. En s'appuyant sur cet instinct sauvage et cette pulsion prédatrice, un vampire peut communiquer avec et contrôler des animaux, en établissant son emprise sur les bêtes plus primitives que lui. <br /> L'Animalisme peut être utilisé sur les oiseaux, les mammifères, les marsupiaux et les poissons. Il ne peut pas être utilisé sur les insectes, ni sur les créatures dont l’esprit est trop élémentaire pour comprendre une communication rudimentaire, tels que les mollusques ou les vers."
+    },
+    {
+        "Key": "ANIMALISM_POWER_1_NAME",
+        "Text": "Murmures Sauvages"
+    },
+    {
+        "Key": "ANIMALISM_POWER_2_NAME",
+        "Text": "Appel"
+    },
+    {
+        "Key": "ANIMALISM_POWER_3_NAME",
+        "Text": "Dompter la Bête"
+    },
+    {
+        "Key": "ANIMALISM_POWER_4_NAME",
+        "Text": "Soumission de l’esprit"
+    },
+    {
+        "Key": "ANIMALISM_POWER_5_NAME",
+        "Text": "Conquérir la Bête"
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_1_NAME",
+        "Text": "Furie Pourpre"
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_2_NAME",
+        "Text": "Intimider la Bête"
+    },
+    {
+        "Key": "ANIMALISM_POWER_1_DESCRIPTION",
+        "Text": "Les animaux vous reconnaissent comme un prédateur et réagissent avec suspicion et peur. Vous pouvez communiquer avec les animaux en poussant des grognements et en utilisant le langage corporel. Bien qu’un animal ne soit pas obligé de vous obéir, il aura tendance à répondre favorablement aux personnes qui utilisent ce pouvoir."
+    },
+    {
+        "Key": "ANIMALISM_POWER_2_DESCRIPTION",
+        "Text": "En poussant un hurlement, une série de gazouillis, ou tout autre bruit d’animal identifiable, vous invoquez des animaux jusqu'à vous. Selon la forme de votre appel, vous pouvez choisir la taille et le type d’animal commun dans la zone. Bien que ces animaux ne soient pas vos esclaves, ils sont relativement amicaux envers vous et tenteront de vous assister de leur mieux pour ce que vous leur demandez."
+    },
+    {
+        "Key": "ANIMALISM_POWER_3_DESCRIPTION",
+        "Text": "La Bête est une créature féroce, désireuse de dominer les autres, sujette à de violentes pulsions et agissant de manière primitive. Toutefois, la Bête peut être domptée, ou bien intimidée, par ceux qui savent comment maîtriser ses pulsions. Certains vampires utilisent ce pouvoir comme un alpha le ferait sur une créature inférieure, forçant la Bête au calme. D’autres apaisent les émotions de leur cible, plongeant la Bête de l’autre dans une paisible tranquillité. Quelle que soit la méthode utilisée, le résultat est le même et le vampire ciblé doit temporairement survivre sans les instincts acérés de sa Bête."
+    },
+    {
+        "Key": "ANIMALISM_POWER_4_DESCRIPTION",
+        "Text": "La Bête est une chose palpable, capable d’influencer les esprits des autres animaux. Vous pouvez non seulement intimider les créatures inférieures, mais pouvez aussi envoyer votre conscience dans le corps d’un animal, le soumettant complètement. Le corps de l’animal devient complètement soumis à votre volonté et vous pouvez l’utiliser comme si c’était votre forme naturelle. Pendant que votre esprit est dans le corps de l’animal, votre propre corps tombe dans un état comateux. Bien que vous puissiez utiliser l’entièreté de votre intelligence, votre ruse et vos souvenirs, vous êtes limités par les capacités physiques de l’animal."
+    },
+    {
+        "Key": "ANIMALISM_POWER_5_DESCRIPTION",
+        "Text": "Grâce à votre fine compréhension de votre propre nature primitive et vos instincts de prédateur, vous êtes en communion avec la Bête. Bien que personne ne dirait que le monstre est dompté, la capacité de lâcher ou restreindre volontairement votre Bête est effroyable et peut donner à un vampire un avantage de taille."
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_1_DESCRIPTION",
+        "Text": "La bête d’un Vampire est souvent perçue comme quelque chose de tangible, rageant dans les ombres de l’âme et tranchant la conscience d’un Vampire pour chercher la libération. Un Ancien avec ce pouvoir peut autoriser la force et la rage de sa bête à être goûtée dans son sang, offrant une certaine protection contre quiconque tenterait de la drainer de sa vitae."
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_2_DESCRIPTION",
+        "Text": "La Bête est un prédateur qui n’aime rien d’autre qu’exercer son influence sur un autre membre de son espèce. Quand vous utilisez ce pouvoir, vous relâchez la pleine puissance du monstre en vous, conduisant les autres vampires à paniquer de peur devant le pouvoir écrasant de votre Bête."
+    },
+    {
+        "Key": "ANIMALISM_POWER_1_SYSTEM",
+        "Text": "Vous pouvez communiquer avec les animaux en poussant des grognements et en utilisant le langage corporel. Pour poser des questions à un animal, consultez un Conteur. Le Conteur doit répondre du point de vue de l’animal qui aura été attiré par votre appel. Un personnage qui souhaite établir une communication doit être visible et audible de la créature. Vous pouvez parler à un animal en particulier, ou bien utiliser ce pouvoir pour questionner toute la faune locale à portée d’écoute. <br /> S’il n’y a pas d’animaux à proximité, vos requêtes peuvent rester sans réponse. De plus, si le Conteur pense que vous demandez quelque chose qu’un animal ne remarquerait pas (ou pourrait ne pas comprendre), votre personnage recevra une réponse confuse ou incomplète. Demander <i>«Est-ce que des créatures à deux pattes (humain ou vampire) sont passées par ici cette nuit ?»</i> recevrait une réponse raisonnable. Les écureuils, les chiens errants ou les oiseaux locaux pourraient vous dire qu’un groupe de six hommes sont passés par ici très récemment. Toutefois, ces animaux seraient incapables de différencier un humain d’un autre, ni d’identifier le type d’équipement qu’ils portaient."
+    },
+    {
+        "Key": "ANIMALISM_POWER_2_SYSTEM",
+        "Text": "En dépensant un point de Sang et une action standard, vous invoquez jusqu’à cinq petits animaux, trois animaux moyens ou un grand animal. Vous déterminez le type (et la taille) de ces animaux. Dans des conditions habituelles, ces animaux arriveront dans les dix minutes. Toutefois, si vous choisissez d’invoquer des animaux particulièrement courants dans la zone, cela peut prendre moins de temps. Invoquer un animal particulièrement rare peut prendre bien plus longtemps (à la discrétion du Conteur). Tenter d’invoquer un animal n’existant pas dans la région (comme un ours polaire dans le désert égyptien) sera un échec automatique. <br /> Les animaux ainsi convoqués ne se voient attribuer aucun pouvoir spécial pour répondre à votre appel et doivent donc pouvoir voyager jusqu’à vous. Un coyote ne pourra pas ouvrir une porte fermée, mais pourra se rendre sur un parking, là où un corbeau atteindra très facilement le toit d’un immeuble. Ce pouvoir ne confère aucune capacité spéciale, ni intelligence ou courage à l’animal invoqué. <br /> Les animaux invoqués vous considèrent comme un <i>alpha</i> de leur espèce. Si vous utilisez Murmures Sauvages pour communiquer, les animaux Appelés tenteront d’obéir à vos requêtes. Ils travailleront pour vous jusqu’à l’aube ou jusqu’à encaisser autant de dégâts que leur niveau de PNJ. <br /> Plusieurs utilisations de ce pouvoir ne permettent pas de convoquer des groupes supplémentaires de créatures tout en contrôlant les premiers. Toutefois, si votre premier groupe d’animaux Appelés est dispersé (en prenant des dégâts, en fuyant ou en étant renvoyé), vous pouvez réutiliser ce pouvoir pour convoquer un second groupe. En outre, Appel ne peut être utilisé pour prendre le contrôle d’un groupe d’animaux sous le contrôle d’un autre utilisateur de la Discipline Animalisme (bien que vous puissiez utiliser Murmures Sauvages pour parler avec de tels animaux). <br /> Les animaux convoqués avec Appel sont créés avec les règles de PNJ type, avec les instructions supplémentaires suivantes : <br /> • <i>Petits animaux</i> : Utilisez la règle pour un PNJ type à 1 point. <br /> Les petits animaux peuvent posséder une capacité de déplacement spéciale. Cette capacité lui permet d’escalader, nager, voler ou de s’enfouir à une vitesse normale. <br /> Les petits animaux sont les petits chiens, les chats, les écureuils et la plupart des oiseaux, les poissons et les animaux fouisseurs. <br /> • <i>Animaux moyens</i> : Utilisez la règle pour un PNJ type à 3 points. <br /> Cette catégorie comprend les gros chiens, les coyotes, les lynx et les ours bruns. <br /> • <i>Grands animaux</i> : Utilisez la règle pour un PNJ type à 5 points.<br /> L’invocateur peut Appeler un cheval, un cerf ou un grizzli.<br /> Avant d’aller dormir ou d’entrer en torpeur, il est possible de dépenser un point de Sang pour activer ce pouvoir.Utilisé de cette façon, les animaux invoqués par ce pouvoir garderont votre lieu de repos jusqu’à leur mort ou votre réveil."
+    },
+    {
+        "Key": "ANIMALISM_POWER_3_SYSTEM",
+        "Text": "La cible de ce pouvoir doit être un vampire ou une autre créature surnaturelle capable d’entrer en frénésie.<br /> Quand vous êtes le centre de l’attention d’un autre personnage (comme indiqué dans les règles génériques d’usage de Disciplines), vous pouvez dépenser un point de sang, utiliser une action standard et faire un challenge en opposition en utilisant le Score de Test d’Animalisme. Si la cible était en frénésie, quand ce pouvoir a été utilisé avec succès, elle sort immédiatement de frénésie.<br /> Si la cible du pouvoir n’était pas en frénésie, elle devient incapable d’entrer en frénésie durant la prochaine heure. De plus, sa Volonté est affaiblie et elle doit dépenser deux points de Volonté (au lieu d’un seul) pour bénéficier d’un re-test de challenge durant le reste de ce tour et le prochain tour complet. <br /> La Bête d’un vampire est une partie critique de sa nature prédatrice. Quand elle est endormie, le vampire est plus lent à réagir. Si un individu a un Trait de la Bête (ou en gagne un) sous l’effet de ce pouvoir, elle lutte pour utiliser sa Volonté pour une plus grande période. Pour les cinq prochaines minutes, elle doit continuer à dépenser deux points de Volonté au lieu d’un pour refaire ses challenges.<br /> Les personnages ayant des avantages ou des pouvoirs permettant un re-test sans dépenser de Volonté peuvent les utiliser normalement quand ils sont sous l’effet de ce pouvoir et ne dépensent pas un point supplémentaire de Volonté pour ces re-tests. <br /> Dompter la Bête ne peut être utilisé sur soi."
+    },
+    {
+        "Key": "ANIMALISM_POWER_4_SYSTEM",
+        "Text": "Pour utiliser Soumission de l’Esprit, vous devez dépenser un point de sang et une action standard pour regarder un animal dans les yeux ; ce pouvoir ne peut pas fonctionner sur un sujet aveugle ou qui ne peut pas voir vos yeux. Faites un challenge opposé contre l’animal quand vous tentez de contrôler. Si c’est une réussite, votre conscience est transférée dans le corps de votre cible et son esprit est mis dans un état proche de la fugue. Comme votre esprit est entièrement concentré sur le contrôle de ce nouveau corps, le vampire n’a aucune perception de ce que son vrai corps ressent. Le corps du personnage tombe dans un état de coma et ne peut se défendre ni agir de lui-même. Le corps peut toujours utiliser Force d’Âme ou d’autres pouvoirs qui sont toujours actifs quand votre conscience est absente. Pendant l’utilisation de ce pouvoir, vous connaissez toujours la direction et la distance à laquelle se trouve votre vrai corps, bien que vous ne puissiez pas percevoir ses alentours.<br /> Les animaux normaux et <i>goulifiés</i> peuvent être la cible de Soumettre l’Esprit. Les créatures surnaturelles (comme les vampires transformés en animaux ou les loup-garous) ne peuvent pas être la cible de ce pouvoir. Assurez-vous de demander à votre Conteur si votre cible est appropriée.<br /> Les animaux normaux ne possèdent pas de disciplines et ne peuvent dépenser de sang. Toutefois, si votre personnage contrôle un animal <i>goulifié</i>, la goule possède 5 points de sang (comme une goule standard). Le vampire ayant le contrôle peut dépenser un point de sang par tour, quelle que soit la génération du personnage. Vous ne pouvez en aucune façon dépenser de sang pour agir sur le corps d’origine.<br /> Un personnage ne peut utiliser aucune de ses disciplines pendant qu’il utilise Soumission de l’Esprit. Vous pouvez dépenser le sang de la goule pour utiliser ses propres pouvoirs physiques : Célérité, Force d’Âme et Puissance.<br /> Pendant l’utilisation de ce pouvoir, un personnage utilise ses propres attributs et focus mentaux et sociaux, ses compétences et historiques pour les challenges.Toutefois, vous utilisez les attributs physiques de l’animal pour les challenges physiques.Cet attribut est égal au double du niveau de PNJ de cet animal. Si l’animal que vous contrôlez a le pouvoir de voler ou est adapté à la vie aquatique(comme un poisson), vous pouvez voler ou nager à vitesse normale.<br /> Soumettre l’Esprit dure jusqu’à la prochaine aube ou jusqu’à ce que vous dépensiez une action simple pour quitter l’animal et vous réveiller. Soumettre l’Esprit s’arrête immédiatement si le personnage s’éloigne à plus de 16km(10 miles) de son corps d’origine ou si le corps d’origine comme celui de l’animal encaissent des dommages. <br /> Les animaux ne prennent pas de dégâts dus au soleil, même une fois contrôlé par un vampire. Toutefois, un vampire avec des Traits de la Bête risque d’entrer en frénésie."
+    },
+    {
+        "Key": "ANIMALISM_POWER_5_SYSTEM",
+        "Text": "Dépensez un point de sang et une action simple pour sortir immédiatement de Frénésie. Alternativement, vous pouvez dépenser un point de sang et une action simple pour rentrer immédiatement en Frénésie."
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_1_SYSTEM",
+        "Text": "Quiconque goûte votre vitae peut sentir la furie à peine contenue de votre Bête. Vous mordre ou boire 1 point ou plus de votre Sang causera la frénésie de l’individu et le fera fuir de terreur. Ce pouvoir ne requiert pas de challenge ; la furie est automatique et ne peut pas être résistée avec un point de Volonté.<br />La Furie Pourpre affectera tous les personnages qui vous mordent ou boivent votre sang, même les individus qui sont normalement immunisés à la frénésie, comme les mortels, goules ou les Vampire affectés par Calmer la Bête. Quiconque devient lié au sang après que vous avez acheté ce pouvoir devient immunisé à ces effets et portera la marque de votre Bête dans son Sang. Quiconque boit le sang de quelqu'un qui vous est lié, en le mordant ou en buvant son sang, souffrira des effets de la Furie Pourpre bien qu’il ait peur du protecteur mystique de l’individu (vous, bien qu’il ne vous connaisse pas) au lieu d’avoir peur de votre vassal.<br />Si un autre personnage arrive à vous diabler, votre Bête survit en lui, déchirant son âme. Le Diaboliste meurt dans les trois prochaines nuit, alors que votre bête va lentement et douloureusement le déchirer de l’intérieur. Cet effet n’est pas répercuté à ceux qui vous sont liés au sang."
+    },
+    {
+        "Key": "ANIMALISM_ELDER_POWER_2_SYSTEM",
+        "Text": "Vous ne pouvez que cibler des vampires, ou d’autres créatures surnaturelles capables de la frénésie, avec ce pouvoir.<br />Quand vous êtes l’objet de l’attention d’un autre personnage (comme le Regard et la Focalisation), vous pouvez dépenser 2 points de Sang, dépenser votre action standard et faire un Challenge opposé contre votre victime en utilisant votre Score de Test d’Animalisme.<br />Si vous réussissez, votre Bête va surnaturellement prendre d’assaut la Bête de votre cible, la faisant paniquer. A chaque fois que la victime vous confronte, votre bête va déchirer sa psyché, la forçant à reculer de ce qu’elle perçoit comme étant un prédateur plus puissant.<br />La victime doit immédiatement détourner le regard de vous ou elle prendra 2 points de dégâts aggravés, qui ne peuvent pas être réduits ou annulés. Pendant les dix prochaines minutes, à chaque fois que la victime vous regarde, tente de vous parler, de vous confronter, ou de vous attaquer de quelque manière que ce soit, elle prend 2 points de dégâts qui ne peuvent pas être réduits ou annulés, alors que sa bête érupte d’horreur. La victime de votre Intimider la Bête peut éviter de prendre des dégâts en baissant le regard ou en évitant toutes formes de confrontation. Une victime de ce pouvoir sait instinctivement quelles actions vont lui causer des dégâts.<br />Intimider la Bête ne peut pas causer de dégâts à un personnage plus d’une fois par tour et n’a aucun effet sur les personnages qui ne possèdent pas de bête."
+    },
+    {
+        "Key": "ANIMALISM_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous n’avez pas besoin de grogner ou de faire un geste pour vous faire comprendre. Votre Bête peut communiquer directement avec les esprits des animaux proches. Toutefois, ces animaux doivent pouvoir vous voir pendant que vous utilisez ce pouvoir. En outre, vous n’avez plus besoin de compter sur la capacité de langage de l’animal. Quand vous utilisez ce pouvoir, vous obtenez une image mentale de toute situation que l’animal tente de décrire. Par exemple, vous verriez un souvenir du Prince marchant vers sa voiture, plutôt que d’entendre la description et l’interprétation du rat témoin de la scène."
+    },
+    {
+        "Key": "ANIMALISM_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Quand vous invoquez des créatures en utilisant ce pouvoir, appliquez l’un des effets additionnels suivants. Si vous invoquez plus d’une créature, l’effet choisi s’applique à chaque créature (toutes pourront voler, auront une intelligence supérieure, etc.) <br /> • <i>Déplacement spécial</i> <br /> Vous pouvez invoquer un groupe de créatures de taille moyenne qui peut voler ou nager à une vitesse normale (comme un vautour, un aigle ou un saumon) ou une unique créature de grande taille qui nage à vitesse normale (comme un requin ou un dauphin) <br /> • <i>Intelligence accrue</i> <br /> Vous pouvez appeler un animal particulièrement intelligent pour son espèce. Cet animal est doué de compréhension et suivra des instructions bien plus complexes. Vous pouvez lui donner des ordres de type Si/Alors comme <i>«Reste à la porte pendant que je m’infiltre à l’intérieur. Aboie une fois si un homme approche et deux fois si tu vois une femme»</i>. Cet animal est un individu lambda de son espèce pour les autres aspects.<br /> •<i>Nuée</i><br /> Vous invoquez un grand nombre de petits animaux.</i> Ce peut être des rats, des corbeaux, des piranhas ou d’autres créatures similaires ; mais souvenez-vous qu’Animalisme ne peut affecter les insectes.<br />Une nuée est créée en utilisant les règles de PNJ type normales et une nuée est considérée comme une unique créature en matière de combat.<br />Une nuée se déplace lentement (un pas par action) et en tuer un unique animal n’a que peu d’effet sur la totalité de la nuée. Pour venir à bout d’une nuée, vous devez infliger le double des dégâts nécessaires à tuer un PNJ de sa taille. Un grand animal a 5 niveaux de santé, donc une nuée de grande taille aura 10 niveaux de santé."
+    },
+    {
+        "Key": "ANIMALISM_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Plutôt que d’avoir à dépenser un point de Volonté supplémentaire pour faire un re-test, la victime ne peut plus faire de re-test du tout durant l’effet de ce pouvoir."
+    },
+    {
+        "Key": "ANIMALISM_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser les deux premiers niveaux de vos disciplines mentales et sociales de clan lorsque vous utilisez Soumission de l’Esprit. Si vous contrôlez un animal <i>goulifié</i>, vous pouvez dépenser jusqu’à 5 points de sang pour utiliser ces disciplines de clan, au rythme d’un point par tour, quelle que soit la génération. Les vampires avec ce focus ayant Animalisme comme discipline de clan peuvent utiliser Soumission de l’Esprit pendant l’utilisation de Soumission de l’Esprit, transférant leur esprit d’un animal à un autre. Chaque nouvelle utilisation de Soumission de l’Esprit coûte un point de sang, une action standard, un contact visuel et un challenge opposé."
+    },
+    {
+        "Key": "ANIMALISM_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Conquérir la Bête pour entrer en Frénésie, même si vous en seriez en principe incapable, par exemple lorsque vous êtes affecté par des pouvoirs comme Dompter la Bête. De plus, en <i>Frénésie de rage</i>, votre personnage reçoit un bonus de +3 à tous ses groupements de Test d’Attaque Physique (au lieu du +1 standard). Votre personnage souffre toujours du malus standard de -2 à ses groupements de Test de Défense Physique quand il est en Frénésie."
+    },
+    {
+        "Key": "ANIMALISM_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ANIMALISM_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ANIMALISM_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": "L’effet d’affaiblissement sur la Volonté dure jusqu’à la fin de ce tour et pour les deux tours complets suivants (plutôt qu’un)."
+    },
+    {
+        "Key": "ANIMALISM_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ANIMALISM_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ANIMALISM_TEST_SCORE",
+        "Text": "Le personnage usant d’Animalisme utilise <i>Social</i> + <i>Dressage</i> contre <i>Social</i> + <i>Volonté</i> de la cible"
+    }
+]

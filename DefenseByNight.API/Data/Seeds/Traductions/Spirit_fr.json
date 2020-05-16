@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "SPIRIT_NAME",
+        "Text": "La Voie de l’Esprit"
+    },
+    {
+        "Key": "SPIRIT_DESCRIPTION",
+        "Text": "Les pratiquants du Mouvement de l’Esprit se sont entraînés à pousser, saisir, déplacer des objets ainsi que des personnes à l’aide de la Télékinésie. À partir du moment où vous voyez votre cible, vous pouvez la soulever ou la manipuler aussi bien que si vous la portiez physiquement. Le contrôle télékinétique sur un objet via le Mouvement de l’esprit ne vous procure aucune sensation tactile, et vous ne pouvez pas sentir si un objet est chaud, rugueux ou glissant."
+    },
+    {
+        "Key": "SPIRIT_POWER_1_NAME",
+        "Text": "Poussée de Force"
+    },
+    {
+        "Key": "SPIRIT_POWER_1_DESCRIPTION",
+        "Text": "Les initiés au Mouvement de L’esprit ont la capacité de projeter un choc de force télékinétique, étourdissant et renversant les objets ou leurs opposants."
+    },
+    {
+        "Key": "SPIRIT_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action standard, puis faites un challenge en opposition pour produire une Poussée de Force sur n’importe quelle cible située a 20 pas de vous. Un succès à l’encontre d’une créature ou personne pousse la victime de 5 pas dans la direction de votre choix. Une Poussée réussie à l’encontre d’un objet peut affecter celui-ci si son poids n’excède pas 90 Kilos. Si l’objet n’est pas retenu, il peut être projeté de 5 pas dans n’importe quelle direction. Un objet détenu par quelqu’un d’autre peut être arraché de ses mains à la condition de battre le porteur de l’objet dans un challenge en opposition."
+    },
+    {
+        "Key": "SPIRIT_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Votre Poussée touche votre adversaire dans une partie sensible et l’étourdit. La victime perd sa prochaine action standard."
+    },
+    {
+        "Key": "SPIRIT_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "En plus de l’effet standard du pouvoir, une personne subit 2 points de dommages normaux dus à l’impact. Le choc causé par ce pouvoir propulse la victime ou l’objet à 6 pas au lieu de 5."
+    },
+	 {
+        "Key": "SPIRIT_POWER_2_NAME",
+        "Text": "Manipuler"
+    },
+    {
+        "Key": "SPIRIT_POWER_2_DESCRIPTION",
+        "Text": "Vous avez appris à contrôler vos capacités télékinétiques et vous pouvez soulever et manipuler un petit objet, situé dans votre champ de vision, avec la même dextérité que si vous le teniez dans votre main."
+    },
+    {
+        "Key": "SPIRIT_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action standard pour manipuler un objet pesant jusqu'à 20 kilos. Les objets hissés à l’aide de ce pouvoir peuvent être déplacés à votre vitesse de marche et doivent pouvoir être soulevés par une personne normale à l’aide de ses mains. Vous pouvez déplacer et utiliser l’objet comme vous le souhaitez et avec la même facilité que si vous utilisiez vos mains. Ainsi, vous pouvez décrocher un objet, appuyer sur un bouton, ou déclencher une arme à feu en utilisant ce pouvoir.<br />Après avoir activé Manipulation, vous pouvez contrôler l’objet ciblé pendant 5 minutes ou jusqu'à ce que vous le perdiez de vue. Contrôler un objet à distance vous demande une grande concentration et nécessite de dépenser une action standard. De plus, la Manipulation précise d’un objet à distance ajoute une pénalité de -3 points à chacun de vos Scores de test.<br />Ce pouvoir ne peut cibler les objets possédés par d’autres personnages à moins qu’ils ne soient inconscients ou immobilisés."
+    },
+    {
+        "Key": "SPIRIT_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SPIRIT_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez manipuler des objets inanimés pesant jusqu’à 50 kilos. Vous êtes tellement adroit avec ce pouvoir que vous ne subissez pas le malus de -3 en contrôlant un objet à distance."
+    },
+	{
+        "Key": "SPIRIT_POWER_3_NAME",
+        "Text": "Vol"
+    },
+    {
+        "Key": "SPIRIT_POWER_3_DESCRIPTION",
+        "Text": "Vous avez appris à projeter votre puissance télékinétique vers l’intérieur vous libérant ainsi des contraintes de la gravité pour vous élever dans les airs."
+    },
+    {
+        "Key": "SPIRIT_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour activer ce pouvoir. Pendant les 5 prochaines minutes, vous pouvez voler à vitesse normale. Vous pouvez transporter jusqu'à 5 kilos supplémentaires d’équipement pour chaque point que vous possédez en “ Mouvement de l’esprit”. Le Vol est un pouvoir mental et ne peut être utilisé pour vous mouvoir durant les rounds de Célérité."
+    },
+    {
+        "Key": "SPIRIT_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SPIRIT_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Si vous utilisez votre action Standard et Simple pour vous déplacer, vous pouvez voler jusqu'à 9 pas au lieu des 6 pas habituels."
+    }, 
+	{
+        "Key": "SPIRIT_POWER_4_NAME",
+        "Text": "Répulsion"
+    },
+    {
+        "Key": "SPIRIT_POWER_4_DESCRIPTION",
+        "Text": "Vous maîtrisez désormais la capacité de projeter une puissante vague télékinétique qui repousse violemment les personnes (vos ennemis aussi bien que vos alliés) ainsi que les objets autour de vous."
+    },
+    {
+        "Key": "SPIRIT_POWER_4_SYSTEM",
+        "Text": "Dépensez une action standard pour Repousser tout ce qui pèse jusqu'à 250 kilos et qui se trouve à moins de 5 pas de votre position. Tout personnage situé a 5 pas dont le score en physique est inférieur à votre score en mental est projeté jusqu'à 6 pas en arrière, s’éloignant ainsi de vous. Les personnages possédant un score d’attribut physique égal ou supérieur à votre score en mental sont repoussés de 3 pas seulement.<br />Les objets pesant jusqu'à 100 kilos sont repoussés de 6 pas. Les objets pesant jusqu’à 250 kilos sont repoussés de 3 pas. Les objets de plus de 250 Kilos ne sont pas affectés.<br />Les personnages vous ayant agrippé ou mordu perdent automatiquement leur Manœuvre de combat et sont repoussés. Les personnages dont la trajectoire les oblige a heurter un objet solide ou bien ceux qui sont frappés par des débris volants subissent 1 point de dommage de par l’utilisation de ce pouvoir.<br />Vous ne pouvez pas choisir les cibles de votre Répulsion. Tous les personnages sont affectés."
+    },
+    {
+        "Key": "SPIRIT_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SPIRIT_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous projetez vos cibles de 6 pas en arrière, peu importe leur score en attribut physique."
+    }, 
+	{
+        "Key": "SPIRIT_POWER_5_NAME",
+        "Text": "Contrôle"
+    },
+    {
+        "Key": "SPIRIT_POWER_5_DESCRIPTION",
+        "Text": "Les maîtres du Mouvement de L’Esprit possèdent la capacité d’imposer leur volonté à travers la puissance de leur esprit afin d’exercer un contrôle Télékinétique complet sur une cible. D’un seul geste, vous pouvez contrôler totalement un sujet, le forçant à se mouvoir et à agir physiquement selon votre gré."
+    },
+    {
+        "Key": "SPIRIT_POWER_5_SYSTEM",
+        "Text": "Vous pouvez désormais utiliser le pouvoir de « Manipulation » sur des objets pesant jusqu'à 1 tonne et vous pouvez cibler des créatures vivantes en réussissant un challenge en opposition en utilisant votre Score de Test de Thaumaturgie. Les personnages sur lesquels vous réussissez à exercer votre pouvoir de Contrôle sont considérés comme “Agrippés”. Lorsqu’un personnage Agrippé tente de s’échapper de votre emprise, il doit réussir un challenge en opposition en utilisant son attribut Physique + Bagarre contre votre Attribut Mental + Occulte.<br />Ce pouvoir ne vous permet pas l’utilisation d’autres pouvoirs sur votre cible une fois que celle-ci est “agrippée”. Par exemple, vous ne pouvez pas utiliser “Contrôle” pour maintenir une cible à distance afin de lui infliger un Chaudron de Sang. Pour utiliser Chaudron de sang (ou tout autre pouvoir nécessitant d’agripper sa cible), vous devez Agripper physiquement votre cible.<br />Les personnes ou objets “Agrippés” peuvent être déplacés de 3 pas par tour dans n’importe quelle direction. Le Contrôle dure pendant 10 tours, ou jusqu'à ce que votre cible parvienne à se défaire de son emprise. Si vous utilisez ce pouvoir pour soulever une cible dans les airs et ensuite la laisser tomber ou si la cible parvient à se libérer alors qu’elle est dans les airs, elle subit des dommages dus à la chute. Pour toute information sur les dégâts de chute, reportez-vous au Chapitre Six : Dégâts de Chute.<br />Si vous utilisez ce pouvoir pour lancer un objet lourd sur votre adversaire, la cible doit effectuer un challenge statique en utilisant son score d’attribut physique + Esquive contre une difficulté de 10. Si elle échoue, la cible encaisse de 1 à 6 points de dommages, dépendant de la taille de l’objet. Un parpaing peut infliger 1 point de dégât, tandis qu’un gros camion peut infliger 6 points de dégâts. Essayer de lâcher un objet sur votre victime la place automatiquement comme la cible d’un challenge physique."
+    },
+    {
+        "Key": "SPIRIT_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Votre victime ne peut s'échapper de votre “agrippement” pendant 2 tours : Le tour où elle est saisie et le tour d’après."
+    },
+	{
+        "Key": "SPIRIT_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous avez la possibilité de soulever jusqu’à 10 tonnes."
+    }, 
+	{
+        "Key": "SPIRIT_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour Le Mouvement de l’Esprit"
+    }
+]

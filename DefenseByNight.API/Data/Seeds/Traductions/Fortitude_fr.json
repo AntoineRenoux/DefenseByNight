@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "FORTITUDE_NAME",
+        "Text": "Force d’Âme"
+    },
+    {
+        "Key": "FORTITUDE_DESCRIPTION",
+        "Text": "Les Vampires sont surnaturellement résistants. Leur corps change avec l’Étreinte et peut survivre à des coups, des taillades, des blessures par balles et aux chutes beaucoup plus facilement que la physiologie mortelle ne le permet. Le sang Vampirique a des propriétés curatives, ressoudant les chairs et les os dans un effort à peine conscient. <br />Cependant, certains vampires sont de véritables mastodontes, chassant d’un haussement d’épaules d’atroce sévices et de terribles traumatismes physique. Leurs corps devenus résistants aux blessures, ignorant des douleurs qui enverraient un mortel dans une catatonie fatale. <br /> Chaque point dans la Discipline Force d’Âme représente un accroissement de la résistance physique du personnage et chaque point s'additionne avec les effets des autres points que le personnage possède dans la Discipline. Si votre personnage possède Résilience (Force d’Âme •••), il possède aussi les bonus donnés par Endurance (Force d’Âme •) et Ardeur (Force d’Âme ••), qu’il doit avoir déjà appris avant d’atteindre Résilience.<br /> Les pouvoirs de Force d’Âme sont toujours actifs et ne coûtent normalement pas de points de sang pour être activés à moins que ce ne soit spécifié dans la description du pouvoir. Des techniques et Pouvoirs d’Anciens peuvent nécessiter du sang (ou un action) afin d’être activés ; référez - vous à chaque pouvoir pour les spécificités."
+    },
+    {
+        "Key": "FORTITUDE_POWER_1_NAME",
+        "Text": "Endurance"
+    },
+    {
+        "Key": "FORTITUDE_POWER_1_DESCRIPTION",
+        "Text": "Vous êtes au delà de la douleur ou de la fatigue et ignorez ces difficultés. Votre corps ne ressent tout simplement pas ces inconvénients mineurs."
+    },
+    {
+        "Key": "FORTITUDE_POWER_1_SYSTEM",
+        "Text": "Vous pouvez facilement ignorer la douleur. Votre personnage est immunisé contre la torture et ne souffre pas de pénalités du fait des blessures."
+    },
+    {
+        "Key": "FORTITUDE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FORTITUDE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	 {
+        "Key": "FORTITUDE_POWER_2_NAME",
+        "Text": "Ardeur"
+    },
+    {
+        "Key": "FORTITUDE_POWER_2_DESCRIPTION",
+        "Text": "Votre corps peut prendre plus de dégâts que celui des autres, souffrant seulement de blessures légères même dans des circonstances qui devraient entraîner des blessures sérieuses."
+    },
+    {
+        "Key": "FORTITUDE_POWER_2_SYSTEM",
+        "Text": "A chaque fois que votre personnage prend des dégâts aggravés, vous pouvez en convertir un point en dégât normal."
+    },
+    {
+        "Key": "FORTITUDE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FORTITUDE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	{
+        "Key": "FORTITUDE_POWER_3_NAME",
+        "Text": "Résilience"
+    },
+    {
+        "Key": "FORTITUDE_POWER_3_DESCRIPTION",
+        "Text": "Vous pouvez supporter d’horribles sévices, résistant même aux blessures les plus graves tout en continuant à vous battre. Ceci est un exploit d’endurance impressionnant, clairement au-delà des simples capacités des mortels."
+    },
+    {
+        "Key": "FORTITUDE_POWER_3_SYSTEM",
+        "Text": "A chaque fois que votre personnage subit des dégâts, vous pouvez ignorer un point de dégâts normaux. Vous pouvez utiliser ce pouvoir en conjonction avec d’autres pouvoirs qui pourraient convertir des dégâts aggravés en dégâts normaux. Vous pouvez utiliser Ardeur pour rétrograder un point de dégâts aggravés en un point de dégâts normaux, puis vous pouvez utiliser Résilience pour ignorer ce point de dégât normal."
+    },
+    {
+        "Key": "FORTITUDE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FORTITUDE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "FORTITUDE_POWER_4_NAME",
+        "Text": "Résistance"
+    },
+    {
+        "Key": "FORTITUDE_POWER_4_DESCRIPTION",
+        "Text": "Vous pouvez supporter d’horribles sévices, résistant même aux blessures les plus graves tout en continuant à vous battre. Ceci est un exploit d’endurance impressionnant, clairement au-delà des simples capacités des mortels."
+    },
+    {
+        "Key": "FORTITUDE_POWER_4_SYSTEM",
+        "Text": "Chaque fois que votre personnage subit des dégâts aggravés, vous pouvez convertir un point de ces dégâts aggravés en dégâts normaux. Vous pouvez utiliser ce pouvoir en conjonction avec d’autres Pouvoirs qui convertissent les blessures. Ce pouvoir s'accumule avec Ardeur, vous permettant de convertir deux points de dégâts aggravés de chaque attaque en dégâts normaux. En outre, il se cumule aussi avec Résilience, vous permettant alors d’ignorer un de ces points de dégâts normaux.vvv"
+    },
+    {
+        "Key": "FORTITUDE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "FORTITUDE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "FORTITUDE_POWER_5_NAME",
+        "Text": "Égide"
+    },
+    {
+        "Key": "FORTITUDE_POWER_5_DESCRIPTION",
+        "Text": "Votre corps semble aussi dur que le fer et aussi résistant à la douleur que l’acier lui-même. Seule une force persistante et monumentale peut vraiment vous blesser."
+    },
+    {
+        "Key": "FORTITUDE_POWER_5_SYSTEM",
+        "Text": "Chaque fois que votre personnage subit des dégâts, vous pouvez ignorer un point de dégâts normaux. Vous pouvez combiner cet effet avec Résilience afin d’ignorer deux points de dégâts normaux par attaque. Vous pouvez également utiliser ce pouvoir en conjonction avec les pouvoirs qui transforment les dégâts aggravées en dégâts normaux."
+    },
+    {
+        "Key": "FORTITUDE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "FORTITUDE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_1_NAME",
+        "Text": "Armure personnelle"
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Votre peau est aussi dure que du fer et votre corps dur comme la pierre. Les armes cassent et rompent contre vous, se brisant grâce à la force avec laquelle elles sont maniées. Les Vampires qui ont maîtrisé ce Pouvoir d’Ancien sont comme des titans, presque inarrêtables et difficiles à blesser."
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_1_SYSTEM",
+        "Text": "Pour activer l’Armure Personnelle, vous devez dépenser 2 points de sang et une action simple. Pendant l’heure qui suit, à n’importe quel moment où vous êtes touché par une arme de mêlée ou tout autre objet inanimé, cet objet se brise contre votre peau et devient inutile. Les armes qui sont brisées par l’Armure Personnelle infligent des dégâts avant qu’elles ne se cassent, mais ne peuvent pas percer votre cœur ; ainsi, l’Armure Personnelle vous empêche effectivement d’être pieuté.<br />Si vous êtes frappé par une attaque de Bagarre, un peu de la force de cette attaque est réfléchie à l’attaquant. L’individu qui vous frappe de cette manière vous assigne ses dégâts normaux et vous prenez la moitié (arrondis au supérieur) des dégâts qu’il a assignés. Par la suite, vous pouvez choisir de réduire les dégâts que vous avez pris en utilisant des pouvoirs tels que ceux de Force d’Âme. Réduire les dégâts de cette manière ne peut en aucun cas réduire les dégâts que votre adversaire subit ; donc le total est déterminé par le montant assigné par son attaque avant que vous ne l’ayez réduit.<br />Les attaques à distance et les attaques qui ne frappent pas directement votre chair, comme le pouvoir de Puissance, Intensité, ne sont pas affectés par l’armure personnelle, à l’exception des projectiles en bois, qui vont se briser avant qu’ils ne puissent percer votre cœur."
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_2_NAME",
+        "Text": "Réparer la chair non-morte"
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Un Vampire avec ce pouvoir a la maîtrise sur le sang, les os et la chair de sa forme physique et il peut les commander afin qu’ils puissent accomplir des exploits de guérison au-delà de la simple capacité des Vampires normaux. Il peut convoquer son sang avec une efficacité remarquable, scellant même la plus horrible des blessures."
+    },
+    {
+        "Key": "FORTITUDE_ELDER_POWER_2_SYSTEM",
+        "Text": "Vous pouvez dépenser 2 points de Sang pour guérir instantanément d’un 1 point de dégât aggravé. Ce pouvoir fonctionne comme un pouvoir normal de guérison et ne nécessite pas la dépense d’une action pour être réalisé."
+    },
+	{
+        "Key": "FORTITUDE_TEST_SCORE",
+        "Text": "Il n’y a pas de Score de Test générique pour Force d’Âme."
+    }
+]

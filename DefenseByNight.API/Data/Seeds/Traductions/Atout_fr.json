@@ -1,0 +1,846 @@
+[
+    {
+        "Key":"ATOUT_AMBIDEXTROUS_NAME",
+        "Text": "Ambidextre"
+    },
+    {
+        "Key":"ATOUT_AMBIDEXTROUS_DESCRIPTION",
+        "Text": "La plupart des gens n’ont qu’une seule main dominante, soit la gauche soit la droite. Une fois par tour, quand vous attaquez avec des armes (à feu ou de mêlée), vous pouvez utiliser les qualités de votre arme principale et l’une des qualités des armes de votre main « faible », autorisant les deux à augmenter votre attaque.Vous ne pouvez pas utiliser le même bonus deux fois dans un seul challenge. Par exemple, vous ne pouvez pas choisir Précis deux fois pour recevoir un bonus de +4.Les deux armes doivent logiquement pouvoir toucher votre opposant pour pouvoir appliquer cet Atout; par conséquent, vous ne pouvez pas utiliser une des qualités d’une épée dans votre main « faible » sur une attaque à distance avec un pistolet dans l’autre.Ambidextre peut être utilisé lors des rounds de Célérité mais ne peut être utilisé qu’une seule fois dans le tour. Pour plus d’informations sur les armes à une et deux mains, voir le Chapitre 13 : Influences et Equipements."
+    },
+    {
+        "Key":"ATOUT_EEL_NAME",
+        "Text": "Anguille"
+    },
+    {
+        "Key":"ATOUT_EEL_DESCRIPTION",
+        "Text": "Soit vous êtes extrêmement souple, incroyablement dextre ou étonnamment vif ; quelle qu’en soit la raison, vous avez l’étrange capacité d’éviter les dégâts. Vous gagnez un bonus de +3 sur vos traits de tests basés sur l’esquive."
+    },
+    {
+        "Key":"ATOUT_ABLE_IN_COMPETENCE_NAME",
+        "Text": "Aptitude à une compétence"
+    },
+    {
+        "Key":"ATOUT_ABLE_IN_COMPETENCE_DESCRIPTION",
+        "Text": "Du fait de votre histoire, que ce soit un entraînement intense ou un talent inné, vous êtes prodigieusement doué dans un domaine. Choisissez une seule compétence et augmentez le nombre de points potentiels maximum de 1. Vous devez toujours dépenser normalement des points d’XP pour acheter la compétence jusqu’à son niveau maximum. Vous pouvez acheter cet atout plusieurs fois mais, à chaque fois que vous le faites, vous devez appliquer l’atout à une compétence différente."
+    },
+    {
+        "Key":"ATOUT_ARCANE_NAME",
+        "Text": "Aptitude à une compétence"
+    },
+    {
+        "Key":"ATOUT_ARCANE_DESCRIPTION",
+        "Text": "Du fait de votre histoire, que ce soit un entraînement intense ou un talent inné, vous êtes prodigieusement doué dans un domaine. Choisissez une seule compétence et augmentez le nombre de points potentiels maximum de 1. Vous devez toujours dépenser normalement des points d’XP pour acheter la compétence jusqu’à son niveau maximum. Vous pouvez acheter cet atout plusieurs fois mais, à chaque fois que vous le faites, vous devez appliquer l’atout à une compétence différente."
+    },
+    {
+        "Key":"ATOUT_BLASE_NAME",
+        "Text": "Blasé"
+    },
+    {
+        "Key":"ATOUT_BLASE_DESCRIPTION",
+        "Text": "Vous avez tout vu, tout fait et êtes allé partout. Vous êtes notoirement difficile à impressionner et vous avez un don pour regarder les faits sans émotions. Vous gagnez un re-test gratuit quand vous résistez aux effets de l’Aliénation, Melpominée et Présence. Ce re-test peut être utilisé avant ou après le re-test normal de Volonté et est une exception à la règle qui limite le nombre de re-tests par Challenge."
+    },
+    {
+        "Key":"ATOUT_DARE_DEVIL_NAME",
+        "Text": "Casse-cou"
+    },
+    {
+        "Key":"ATOUT_DARE_DEVIL_DESCRIPTION",
+        "Text": "Vous savez prendre des risques et, mieux encore, comment y survivre. Quand vous prenez part à des actions physiques exceptionnellement dangereuses, comme sauter d’une voiture en marche à une autre, vos traits de challenges sont accrus de 3. Si vous engagez seul de multiples adversaires en même temps, vous gagnez un bonus de +2 à tous vos traits physiques en défense."
+    },
+    {
+        "Key":"ATOUT_PROPHECY_NAME",
+        "Text": "Capacités prophétiques"
+    },
+    {
+        "Key":"ATOUT_PROPHECY_DESCRIPTION",
+        "Text": "Vous percevez des présages du futur. Vous pouvez utiliser des techniques comme lancer des os, lire des cartes de prédictions, utiliser un plateau mystique, étudier l’astrologie ou faire usage de drogues hallucinogènes. A l’inverse, vous pouvez avoir des visions poussées sur vous-même si vous essayez d’empêcher une telle divination. Vous pouvez tirer des conseils de ces signes puisqu’ils fournissent des indices du futur et des avertissements du présent. Vous pouvez, une fois par session de jeu, demander à vos conteurs un indice sur une intrigue pertinente. En outre, de petits éclairs de perspicacité arrivent quand c’est le plus nécessaire ; une fois par heure, vous pouvez sacrifier une action standard pour immédiatement utiliser une action simple.Cette capacité vous permet d’utiliser l’action simple à n’importe quel moment, même avant votre initiative."
+    },
+    {
+        "Key":"ATOUT_LUCKY_NAME",
+        "Text": "Chanceux"
+    },
+    {
+        "Key":"ATOUT_LUCKY_DESCRIPTION",
+        "Text": "Comme la plupart des filous, fous et autres illuminés, votre vie a été une série de coïncidences fortuites et de secondes chances. Que vous comptiez sur votre chance ou qu’elle vous lâche, vous menez une existence enchantée. Si un adversaire obtient un succès exceptionnel contre vous, vous le dévalorisez à un succès normal. Vous pouvez utiliser cette capacité une fois toutes les cinq minutes ou une fois par combat."
+    },
+    {
+        "Key":"ATOUT_FARSEEING_NAME",
+        "Text": "Clairvoyant"
+    },
+    {
+        "Key":"ATOUT_FARSEEING_DESCRIPTION",
+        "Text": "Vous avez la capacité inhabituelle de voir avec une grande clarté, de surmonter les distractions, les illusions et les effets hypnotiques. Vous gagnez un re-test gratuit quand vous êtes ciblé par les disciplines Chimérie, Occultation et Mythercellerie. Ceci est un re-test défensif, vous ne pouvez pas utiliser Clairvoyant quand vous utilisez Auspex (ou des pouvoirs similaires) pour percer l’occultation déjà établie d’un individu ou percer activement une illusion Chimérique. Cet atout vous donne un re-test gratuit pour résister à des pouvoirs comme Horrible Réalité ou quand vous essayez de garder en vue quelqu'un qui essaye d’utiliser Disparaître de L’esprit. Ce re-test peut être utilisé avant ou après le re-test normal de Volonté et est une exception à la règle qui limite le nombre de re-test à un seul par Challenge."
+    },
+    {
+        "Key":"ATOUT_DIGESTION_NAME",
+        "Text": "Digestion efficace"
+    },
+    {
+        "Key":"ATOUT_DIGESTION_DESCRIPTION",
+        "Text": "Votre métabolisme est extrêmement efficace et vous profitez de la substantifique moelle du sang. Quand vous vous nourrissez sur des animaux, la quantité de Sang que vous gagnez n’est pas divisée par deux. Quand vous vous nourrissez sur un mortel, vous gagnez un point de sang supplémentaire pour chaque point de sang que vous buvez. Cet atout double l’efficacité de l’historique Troupeau quand il est utilisé lors d’une session de jeu. Par exemple, si un personnage avec cet atout possède trois points de Troupeau, passe cinq minutes hors jeu, il gagne 6 points de Sang au lieu des 3 standard. Cet atout ne vous permet pas de dépasser votre maximum de Traits de Sang. La Digestion Efficace ne marche que sur du sang de mortel ou d’animaux ; il ne marche pas sur le sang de vampire, ce qui inclut le sang de vampire ingéré par les goules."
+    },
+    {
+        "Key":"ATOUT_COMMON_DISCIPLINE_NAME",
+        "Text": "Discipline commune supplémentaire"
+    },
+    {
+        "Key":"ATOUT_COMMON_DISCIPLINE_DESCRIPTION",
+        "Text": "Il est dit que le sang du premier vampire pouvait supporter toutes les disciplines et n’avait aucune disposition intrinsèque. Votre sang contient une faible trace de cette qualité et manifeste quatre disciplines de clan plutôt que trois. Choisissez une discipline commune en tant que quatrième discipline de clan. Vous commencez sans le point gratuit (ou points) dans cette quatrième discipline de clan, vous pouvez enseigner cette discipline, les pouvoirs qui affectent les disciplines de clan (comme la Possession) l’affectent aussi. Vous payez tous les coûts pour apprendre cette discipline comme si elle était de votre clan. Vous pouvez choisir parmi les disciplines communes suivantes : Animalisme, Auspex, Célérité, Domination, Force d’âme, Occultation, Puissance et Présence. Cet atout ne peut pas être combiné avec d’autres atouts qui donnent à votre personnage des disciplines de clan additionnelles."
+    },
+    {
+        "Key":"ATOUT_LANGUAGE_GIFT_NAME",
+        "Text": "Don pour les langues"
+    },
+    {
+        "Key":"ATOUT_LANGUAGE_GIFT_DESCRIPTION",
+        "Text": "Certaines personnes ont un esprit qui excelle dans la rétention et l’association d’informations, capable d’apprendre plusieurs langues avec facilité. Vous pouvez assigner deux langues pour chaque point de Linguistique que vous achetez. De plus, vous gagnez un bonus de +3 à chaque fois que vous êtes amené à faire un Challenge utilisant Linguistique."
+    },
+    {
+        "Key":"ATOUT_SCHOLAR_NAME",
+        "Text": "Érudit"
+    },
+    {
+        "Key":"ATOUT_SCHOLAR_DESCRIPTION",
+        "Text": "Vous êtes un véritable puits de science et vous avez passé de nombreuses années à étudier l’histoire, découvrir des secrets et accumuler de précieuses informations. Vous pouvez assigner deux spécialisations dans Mystère pour chaque point que vous achetez dans la compétence Mystère. De plus, vous gagnez un bonus de +3 à chaque fois que vous êtes amené à faire un Challenge utilisant Mystère."
+    },
+    {
+        "Key":"ATOUT_NECROMANCY_NAME",
+        "Text": "Formation en Nécromancie"
+    },
+    {
+        "Key":"ATOUT_NECROMANCY_DESCRIPTION",
+        "Text": "Les Nécromanciens surveillent étroitement leur savoir et ceux qui connaissent les secrets de la Nécromancie - comme les Giovanni - partagent rarement la maîtrise de leurs arts. D’une manière ou d’une autre, vous avez été entraîné par un Nécromancien ou étudié d’horribles textes et avez accumulé suffisamment de maîtrise pour devenir compétent dans une voie de la magie nécromantique. Avec cet atout, vous pouvez apprendre une seule voie de Nécromancie et ses pouvoirs au prix d’une discipline hors-clan. Si votre personnage a appris une telle magie dans son histoire, il vous faudra justifier une telle éducation dans sa biographie. Si vous souhaitez apprendre la Nécromancie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet atout."
+    },
+    {
+        "Key":"ATOUT_THAUMATURGY_NAME",
+        "Text": "Formation en Thaumaturgie"
+    },
+    {
+        "Key":"ATOUT_THAUMATURGY_DESCRIPTION",
+        "Text": "Les Thaumaturges surveillent étroitement leur savoir et ceux qui connaissent les secrets de la Thaumaturgie - comme les Tremeres - partagent rarement la maîtrise de leurs arts. D’une manière ou d’une autre, vous avez été entraîné par un Thaumaturge ou avez gagné l’accès à des écrits interdits et avez accumulé suffisamment de maîtrise pour devenir compétent dans une voie de la magie Thaumaturgique. Avec cet atout, vous pouvez apprendre une seule voie de Thaumaturgie et ses pouvoirs au prix d’une discipline hors-clan. Si votre personnage a appris une telle magie dans son histoire, il vous faudra justifier une telle éducation dans sa biographie. Si vous souhaitez apprendre la Thaumaturgie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet atout."
+    },
+    {
+        "Key":"ATOUT_INALIENABLE_NAME",
+        "Text": "Inaliénable"
+    },
+    {
+        "Key":"ATOUT_INALIENABLE_DESCRIPTION",
+        "Text": "Il y a quelque chose d’étrange et puissant qui se cache dans votre sang, lui donnant la capacité d’enlever les influences de la vitae étrangère sur vos émotions. Vous êtes immunisé au lien de sang, ce qui inclut les liens mineurs du Vinculum. Les personnages Tremeres, incluant les lignées de sang, ne peuvent pas prendre cet atout."
+    },
+    {
+        "Key":"ATOUT_INFLEXIBLE_NAME",
+        "Text": "Inflexible"
+    },
+    {
+        "Key":"ATOUT_INFLEXIBLE_DESCRIPTION",
+        "Text": "Que vous appeliez ça être obstiné, intraitable ou simplement têtu, votre personnage possède une flamme en lui qui ne le quittera pas − quelles que soient les circonstances. Augmentez votre niveau permanent de Volonté à 7. Vous commencez chaque session de jeu avec 7 de Volonté au lieu des 6 standard."
+    },
+    {
+        "Key":"ATOUT_PERSONNAL_MASCARADE_NAME",
+        "Text": "Mascarade Personnelle"
+    },
+    {
+        "Key":"ATOUT_PERSONNAL_MASCARADE_DESCRIPTION",
+        "Text": "Bien que votre aura soit pâle et que vous possédiez les marques distinctives d’un Vampire, votre chair conserve un semblant de condition humaine. Vous apparaissez comme vivant et en bonne santé, votre peau est chaude au toucher et vous pouvez prétendre être un humain plus facilement que les autres vampires. De plus, vous avez la capacité de manger et boire comme le font les mortels et même de profiter des saveurs de tels aliments. Bien que cela ne vous nourrisse en rien, la capacité de manger est utile pour le Vampire se prétendant humain. Un personnage sur une voie de l’illumination ne peut pas posséder cet atout. Si vous achetez une voie de l’illumination tandis que vous possédez cet atout, vous perdez Mascarade Personnelle et votre XP n’est pas remboursé."
+    },
+    {
+        "Key":"ATOUT_MEDIUM_NAME",
+        "Text": "Medium"
+    },
+    {
+        "Key":"ATOUT_MEDIUM_DESCRIPTION",
+        "Text": "Pendant votre vie mortelle, vous pouvez avoir été un chaman, un spirite ou peut-être que votre flirt avec la mort a laissé une partie de votre esprit dans les Terres d’Ombres. Quelle qu’en soit la raison, vous êtes un canal vers les Terres d’Ombres et vous possédez la capacité naturelle de voir et entendre des fantômes et occasionnellement des aperçus de vos environs dans les Terres d’Ombres. Cet atout ne donne pas la capacité de contrôler ou commander les fantômes et ne donne pas non plus la capacité mystique de comprendre les Spectres qui ne parlent pas un langage que vous connaissez."
+    },
+    {
+        "Key":"ATOUT_INFERNAL_POWER_NAME",
+        "Text": "Pouvoir Infernal"
+    },
+    {
+        "Key":"ATOUT_INFERNAL_POWER_DESCRIPTION",
+        "Text": "Vous avez promis votre âme à un démon, diable ou une autre entité obscure (que vous identifiez selon les croyances de votre personnage) et la créature démoniaque vous a imprégné de son pouvoir surnaturel. Presque toutes les créatures surnaturelles redoutent et haïssent les infernalistes et tueront les personnages avec Pouvoir Infernal sans se poser de questions et sans remords. De plus, si vous échouez à obéir à votre maître démoniaque ou si vous contrariez le démon, vous perdez immédiatement l’accès à cet atout. De plus, vous prenez 5 points de dégâts aggravés, qui ne peuvent pas être réduits ou annulés d’une quelconque manière, pour votre manque d’obéissance. Cela ne vous libère pas de votre contrat infernal ; ce n’est que l’expression de la colère de votre maître.Pour regagner l’accès à cet atout, vous devez accomplir une tâche assignée par votre maître infernal: une tâche qui sera toujours vile, cruelle et inhumaine. Si vous échouez à accomplir cette tâche en 30 jours, vous rencontrez la mort finale.Il n’y a aucune échappatoire à ce destin.<br />Les personnages avec Pouvoir Infernal doivent choisir l’un des dons suivants. Chaque don possède deux effets, un mineur et un majeur. Quand vous choisissez un don, vous gagnez l’accès aux deux effets fourni par le don.<br />Don : <strong>Feu Démoniaque</strong> <br /> &emsp; Effet Mineur : votre pouvoir infernal vous accorde la résistance au feu. Les armes enflammées ou les armes incendiaires ne vous infligent que des dégâts normaux au lieu d’aggravés. De plus, en dépensant une action simple (sans besoin d’allumage ou de carburant), vous pouvez créer une boule de flammes verdâtres dans la paume de votre main. La sphère est approximativement de la taille d’une balle de baseball. Quand vous tenez le feu démoniaque dans vos mains, vous infligez des dégâts aggravés au combat à mains nues.<br /> &emsp; Effet Majeur : en dépensant une action simple, vous pouvez vous envelopper d’une aura de flammes verdâtre-noires pendant les cinq prochaines minutes. Tant que vous êtes dans l’aura, vos vêtements et votre équipement ne sont pas endommagés par les flammes et vos attaques de Bagarre et de Melée infligent des dégâts aggravés. Quiconque est assez fou pour vous agripper alors que l’effet est actif prend 3 points de dégâts aggravés. <br /> <strong>Don : Contrat du Profane</strong><br /> &emsp; Effet Mineur : vous avez l’autorisation de votre maître de forger des contrats mineurs, offrant à un autre personnage un pouvoir infernal en échange d’une portion de son âme immortelle. La cible ne peut pas être forcée dans l’accord au travers de l’utilisation de pouvoirs surnaturels ou la violence. Mais elle peut être contrainte au travers de la politique, de la persuasion générale ou d’autres manœuvres sociales. Quand elle signe le contrat, vous devenez son maître infernal et elle devient votre serviteur infernal. La cible gagne l’accès à un effet mineur de son choix, sans avoir à acheter l’atout Pouvoir Infernal. Le démon qui octroie le Pacte Infernal gagne le pouvoir sur n’importe quelle âme qui a accepté un contrat venant de vous. Votre maître démoniaque peut rescinder les pouvoirs de l’un de vous s'il le souhaite. Si votre serviteur vous désobéit ou vous mécontente, vous avez l’option de pouvoir lui infliger 5 points de dégâts aggravés, qui ne peuvent pas être réduits ou annulés de quelque manière que ce soit. Vous pouvez aussi priver la cible de son pouvoir infernal et lui demander d’accomplir une sombre tâche, elle peut être aussi facile ou difficile que vous le souhaitez. Si la cible n’accomplit pas la tâche dans les 30 jours, elle rencontre la mort finale. Comment avec tout contrat infernal, un contrat mineur ne peut être annulé que si la cible meurt ou si vous mourez. Si vous perdez l’accès à votre Pouvoir Infernal, vous ne pouvez utiliser aucun de ses effets contre votre serviteur et vous ne pouvez pas non plus créer d’autres contrats. Cependant, vos sbires ne perdent pas leurs pouvoirs simplement parce que votre situation est en suspens.<br />&emsp;Effet Majeur : tant que vous maintenez au moins un Contrat du Profane avec un autre personnage joueur, vous pouvez appeler votre Pouvoir Infernal, traverser les feux de l’enfer et apparaître à un endroit dans le monde physique qui est sacré pour votre maître démoniaque, tel qu’un temple diabolique ou votre autel infernal. Pour ce faire, vous devez vous concentrer pendant trois tours complets alors que vous chantez dans un langage infernal.<br />Quand vous apparaissez sur le site de votre choix, vous pouvez choisir d’y rester pendant une minute avant de repartir vers l’endroit que vous venez de quitter. Ou vous pouvez choisir de rester à l’endroit où vous avez voyagé. Vous pouvez utiliser cet effet une fois par session pour chaque contrat mineur que vous possédez actuellement. <br /> <strong>Don: Régénération Impie</strong> <br /> &emsp; Effet Mineur : si vous avez n’importe quel dégât qui est au niveau de \"Incapacité\", vous régénérez 1 point de dégât normal par tour sans dépense de sang. Si vous n’avez plus de dégâts normaux restants, mais toujours des dégâts aggravés au niveau \"Incapacité\", vous soignez 1 point de dégâts aggravés tous les trois tours. Cet atout soigne un personnage sur son initiative pendant le tour de Round Commun ; ce pouvoir n’a aucun effet pendant les tours de célérité. Cet atout s'arrête de fonctionner quand le personnage n’a plus de dégâts à soigner en \"Incapacité\".Le soin donné par cet atout ne nécessite aucune dépense de sang ni d’action.<br /> &emsp; Effet Mineur : si vous avez n’importe quel dégât qui est au niveau de \"Incapacité\", vous régénérez 1 point de dégât normal par tour sans dépense de sang. Si vous n’avez plus de dégâts normaux restants, mais toujours des dégâts aggravés au niveau \"Incapacité\", vous soignez 1 point de dégâts aggravés tous les trois tours. Cet atout soigne un personnage sur son initiative pendant le tour de Round Commun ; ce pouvoir n’a aucun effet pendant les tours de célérité. Cet atout s'arrête de fonctionner quand le personnage n’a plus de dégâts à soigner en \"Incapacité\".Le soin donné par cet atout ne nécessite aucune dépense de sang ni d’action.<br /> &emsp; Effet Majeur : si vous êtes blessé au point de la torpeur ou de la Mort Finale, vous ressuscitez dans une explosion de flammes noires et verdâtres. Vous ressuscitez en pleine santé. Pendant les cinq prochains tours, vous recevez un joker de +5 à tous vos traits défensifs. Avant la fin de ce temps, vous devez tuer un autre personnage et verbalement condamner l’âme de votre victime au pouvoir de votre maître. Si vous échouez à ce faire pendant le temps attribué, vous rencontrez la mort finale de manière permanente et irrévocable, peu importe le niveau de santé ou les effets d’un autre pouvoir surnaturel. Vous ne pouvez pas utiliser cet effet si c'est votre maître démoniaque qui vous a blessé au point de la torpeur ou de la mort finale, ou si votre mort initiale est le résultat d’autre chose que la prise de dégâts. Cet effet ne peut être utilisé qu’une seule fois par session de jeu. <br /> Être simplement un infernaliste ne crée pas de stigmates visibles sur l’aura d’un personnage. Un infernaliste ne montre pas de souillures ou de corruption jusqu'à ce qu’il utilise un pouvoir infernal. Quand il le fait (et tant que le pouvoir est actif), l’aura du personnage montrera clairement la corruption et la souillure infernale. De plus, quiconque sera témoin de vos pouvoirs infernaux remarquera immédiatement votre souillure infernale, qu’ils utilisent Auspex ou non. Un personnage ne peut jamais perdre de manière permanente cet atout. Les contrats démoniaques sont inviolables et il n’y a aucun moyen de se soustraire à l’accord une fois que vous faites partie de la chaîne de commande infernale. La seule manière est la mort et encore, à ce moment là, l’âme du personnage est damnée à jamais au service de son maître diabolique."
+    },
+    {
+        "Key":"ATOUT_PRECOCIOUS_NAME",
+        "Text": "Précoce"
+    },
+    {
+        "Key":"ATOUT_PRECOCIOUS_DESCRIPTION",
+        "Text": "Votre esprit est particulièrement bien adapté pour maîtriser les connaissances complexes et vous avez toujours été capable d’apprendre rapidement de nouvelles capacités. Quand vous apprenez un nouveau pouvoir grâce à un autre personnage, votre professeur n’a pas à dépenser de points de volonté. De plus, vous n’avez pas à dépenser d’actions d’inter-parties pour apprendre une discipline."
+    },
+    {
+        "Key":"ATOUT_REPUTATION_NAME",
+        "Text": "Réputation"
+    },
+    {
+        "Key":"ATOUT_REPUTATION_DESCRIPTION",
+        "Text": "Vos exploits sont bien connus au-delà des frontières de votre clan et de votre secte. Même les vampires d’autres sectes et d’autres clans ont entendu parler de vous et connaissent votre réputation. Vous pouvez porter un trait de statut temporaire de plus que la limite normale de statut ne le permet. Si votre réputation venait à être salie de manière significative, votre conteur peut retirer le statut temporaire supplémentaire jusqu'à ce que vous vous remettiez de tout scandale."
+    },
+    {
+        "Key":"ATOUT_MAGIC_RESIST_NAME",
+        "Text": "Résistance à la Magie"
+    },
+    {
+        "Key":"ATOUT_MAGIC_RESIST_DESCRIPTION",
+        "Text": "La légende dit que le première Vampire n’avait pas d’aptitude naturelle pour la magie. Votre sang peut être un retour vers cet état ou il peut naturellement être résistant aux enchantements. Vous gagnez un re-test gratuit quand vous résistez aux effets de la Thaumaturgie, de la Nécromancie, des Rites Sabbatiques, des rituels enchantés et aux pouvoirs des mages. Ce re-test peut être utilisé avant et après le re-test normal de Volonté et est une exception à la règle qui limite les re-tests à un seul pendant les challenges. Cependant, vous ne pouvez apprendre aucune voie ou rituel de Thaumaturgie, Nécromancie ou toute autre forme de magie du sang. Si vous possédez une magie du sang quand vous achetez cet atout, vous devez retirer ces pouvoirs sans recevoir de remboursement des XP dépensés sur ces pouvoirs."
+    },
+    {
+        "Key":"ATOUT_ROBUST_NAME",
+        "Text": "Robuste"
+    },
+    {
+        "Key":"ATOUT_ROBUST_DESCRIPTION",
+        "Text": "Vous êtes peut-être plus large que les autres, plus résistant aux épreuves ou avez la peau plus épaisse mais, quelle qu’en soit la raison, vous avez une plus grande capacité à résister aux blessures. Les personnages avec cet atout gagnent un niveau de santé additionnel dans chaque catégorie de santé, donnant quatre niveaux de santé normale, quatre niveaux de santé blessé et quatre niveau de santé incapacité. Cet atout se cumule avec le bonus donné par le focus d’Endurance lié à Force d’Âme ; un personnage qui possède ces deux capacités possède cinq niveaux dans chaque catégorie de santé."
+    },
+    {
+        "Key":"ATOUT_COOL_NAME",
+        "Text": "Sang-froid"
+    },
+    {
+        "Key":"ATOUT_COOL_DESCRIPTION",
+        "Text": "Vous avez un grand contrôle sur vos émotions et vous pouvez garder votre calme dans les situations les plus scandaleuses. Vous considérez avoir deux traits de la Bête en moins quand vous résistez à la frénésie. De plus, vous accroissez vos traits de Challenge pour résister à la frénésie de +3. Les personnages Brujah ne peuvent pas prendre cet atout. Cette restriction ne s'applique pas aux membres de la lignée de sang des Vrais Brujahs."
+    },
+    {
+        "Key":"ATOUT_SENSE_NAME",
+        "Text": "Sens aiguisé"
+    },
+    {
+        "Key":"ATOUT_SENSE_DESCRIPTION",
+        "Text": "L’un de vos sens est particulièrement affiné et vous gagnez un avantage à l’utiliser. Vous pouvez choisir d’augmenter votre vue, ouïe, odorat, toucher ou goût. Quand vous utilisez votre sens amplifié, vous gagnez immédiatement les effets du premier niveau d’Auspex : Sens Amplifiés. Si vous avez déjà le pouvoir, vous n’avez pas à utiliser un point de sang pour répliquer l’Intensification des Sens, qui coûterait autrement du sang."
+    },
+    {
+        "Key":"ATOUT_LIGHT_SLEEP_NAME",
+        "Text": "Sommeil léger"
+    },
+    {
+        "Key":"ATOUT_LIGHT_SLEEP_DESCRIPTION",
+        "Text": "Alors que l’aube rend les vampires somnolents et léthargiques, vous avez la capacité inhabituelle de vous forcer à rester parfaitement éveillé. Un personnage avec cet atout peut rester vigilant pendant une heure après le lever du soleil et se réveiller une heure avant le coucher du soleil. De plus, vous pouvez instantanément vous réveiller au premier signe de danger et ce faire sans signe de léthargie ou d’hésitation. Vous ignorez toutes les pénalités pour avoir agi pendant les heures de jour, quel que soit votre niveau d’Humanité ou votre nombre de traits de la Bête."
+    },
+    {
+        "Key":"ATOUT_LIFE_BREATH_NAME",
+        "Text": "Souffle de vie"
+    },
+    {
+        "Key":"ATOUT_LIFE_BREATH_DESCRIPTION",
+        "Text": "Peut-être n’êtes-vous pas complètement mort quand vous avez été étreint ou peut-être que le sang vampirique n’a pas autant altéré votre physiologie par rapport aux autres. Vous apparaissez tel un mortel à toutes les tentatives de déterminer votre genre de créature. De plus, votre aura est anormalement brillante pour un vampire et les animaux ne peuvent pas ressentir votre bête (ils agissent comme si vous étiez un mortel). Si votre Moralité descend à trois (temporairement ou en permanence), cet atout cesse de fonctionner jusqu’à ce que votre moralité remonte de nouveau au-dessus de 3. Un personnage sur une voie de l’illumination ne peut pas prendre cet atout."
+    },
+    {
+        "Key":"ATOUT_GOLCONDE_PATH_NAME",
+        "Text": "Sur la voie de Golconde"
+    },
+    {
+        "Key":"ATOUT_GOLCONDE_PATH_DESCRIPTION",
+        "Text": "Vous êtes sur la voie du Suspire, recherchant et travaillant pour atteindre l’état mythique de l’illumination connu sous le nom de Golconde. Acheter Sur la Voie de Golconde indique que vous avez découvert des informations utiles et réelles pour vous aider sur le chemin du Suspire. Vos efforts intenses pour contrôler la Bête ont très légèrement altéré votre physiologie et de fait, vous gagnez un léger avantage sur votre condition vampirique. Il émane de vous une sensation de sérénité, vous reflétez de façon tangible l’affaiblissement de la Bête. Votre conteur travaillera avec vous pour déterminer quelles sont les légendes spécifiques dont votre personnage a entendu parler et ce qu’il sait à propos de Golconde. Pour tenter d’atteindre le Golconde, vous devez avoir au moins quatre points dans la compétence Mystère, en incluant la spécialisation Golconde. De plus votre humanité doit être à un score de 5 ou plus. Bien qu’acheter l’atout \"Sur le Voie de Golconde\" fournisse à votre personnage des indices sur comment accomplir son Suspire, gardez en tête qu’achever avec succès le Golconde est exceptionnellement rare. La plupart de ceux qui sont sur la voie échouent et succombent éventuellement à leur Bête. Ceux qui échouent deviennent souvent amers, regardant une nouvelle génération assez idiote pour essayer là ou ils ont échoué.<br />Choisissez l’un des bénéfices suivants quand vous achetez cet atout :<br /> • Vous pouvez dépenser deux points de sang supplémentaires par tour. <br /> • Vous n’avez pas besoin de dépenser un point de sang pour vous éveiller chaque soir. Vous régénérez aussi un point de sang par jour sans vous nourrir.<br /> • Vous ne subissez plus les pénalités de clan de votre clan.<br />Si votre humanité plonge en dessous de 5, vous perdez l’accès à cet atout jusqu'à ce que vous rachetiez votre Humanité. Si votre Humanité, plonge en dessous de 4, vous devez retirer cet atout entièrement, sans refonte d’XP.<br /> Notez, s'il vous plaît, que cet atout ne vous garantit en rien que vous allez atteindre le Golconde, puisque cet état est incroyablement rare et difficile à achever. Il ne fait que témoigner du fait que votre personnage est un chercheur de la voie, avec plus de connaissances que d’autres. Pour plus d’informations sur le Golconde, lisez le Chapitre Sept : Système dramaturgique."
+    },
+    {
+        "Key":"ATOUT_JACK_OF_ALL_TRADE_NAME",
+        "Text": "Touche-à-Tout"
+    },
+    {
+        "Key":"ATOUT_JACK_OF_ALL_TRADE_DESCRIPTION",
+        "Text": "Vous avez toujours été capable de faire du multitâches, divisant votre attention pour faire deux choses à la fois. Choisissez une catégorie d’attributs (Physique, Social ou Mental) et sélectionnez un focus d’attribut supplémentaire pour cette catégorie. Par exemple, un personnage avec cet atout peut avoir dans ses attributs Physique à la fois un focus en Force et un en Endurance."
+    },
+    {
+        "Key":"ATOUT_VITALITY_NAME",
+        "Text": "Vitalité intense"
+    },
+    {
+        "Key":"ATOUT_VITALITY_DESCRIPTION",
+        "Text": "La malédiction de Caïn coule avec force dans vos veines. Vous pouvez dépenser un point de sang supplémentaire que votre génération ne le permet. Les Nouveau-Nés et les Ancillae peuvent acheter cet atout pour 2 points, tandis que les anciens doivent payer le prix plein de 3 points. Les personnages qui diablent au-dessus de la 9ème génération doivent dépenser un point d’XP pour compenser le coût accru. Si votre personnage ne peut pas payer cet accroissement du coût ou s'il amenait le personnage au-delà de la limite des 7 points d’atouts, vous perdez l’atout et l’XP dépensé pour l’acheter n’est pas remboursé."
+    },
+    {
+        "Key":"ATOUT_IRON_WILL_NAME",
+        "Text": "Volonté de Fer"
+    },
+    {
+        "Key":"ATOUT_IRON_WILL_DESCRIPTION",
+        "Text": "En atteignant un niveau de contrôle mental digne des maîtres des arts martiaux ou des érudits intensément dévoués, vous maîtrisez une structure mentale rigide. Vous pouvez utiliser cette détermination pour concentrer votre esprit, résistant à la torture, l’intimidation et les pouvoirs qui tentent directement de vous contrôler. Vous gagnez un re-test gratuit pour résister aux effets d’Auspex, Animalisme et Domination. La volonté de Fer ne peut pas être utilisée pour faire des re-tests pour percer Occultation ou Chimérie, mais octroie un re-test quand vous tentez de résister à des pouvoirs comme la télépathie ou Assaut Psychique. Ce re-test peut être utilisé avant ou après le re-test de Volonté et est une exception à la règle qui limite le nombre de re-tests à un par Challenge."
+    },
+    {
+        "Key":"ATOUT_UNCOMMUN_CLAN_NAME",
+        "Text":"Clan Inhabituel"
+    },
+    {
+        "Key":"ATOUT_UNCOMMUN_CLAN_DESCRIPTION",
+        "Text":"Votre personnage est un membre d’un clan peu courant, un de ceux qui ne sont pas banals dans le cadre de vos chroniques. Ce clan n’est pas souvent vu et il peut avoir un côté étranger. Vous trouverez peu d’autres individus de ce clan dans ce cadre et il peut recevoir moins d’avantages que les « membres véritables » de la Secte."
+    },
+    {
+        "Key":"ATOUT_RARE_CLAN_NAME",
+        "Text":"Clan Rare"
+    },
+    {
+        "Key":"ATOUT_RARE_CLAN_DESCRIPTION",
+        "Text":"Votre personnage est un membre d’un clan rare, un de ceux qu’il est très peu fréquent de croiser dans le cadre de vos chroniques. Ce genre de personnages peuvent être des solitaires, des hors-castes, ou des observateurs de la Secte et sont souvent maltraités ou évités par les autres personnages en jeu, tout comme appropriés au cadre."
+    },
+    {
+        "Key":"ATOUT_RESTRAINED_CLAN_NAME",
+        "Text":"Clan Restreint"
+    },
+    {
+        "Key":"ATOUT_RESTRAINED_CLAN_DESCRIPTION",
+        "Text":"Avec cet atout, vous pouvez incarner un clan qui n’est pas listé dans votre cadre de chronique. Vérifiez auprès de votre Conteur avant de choisir cet atout. Le Conteur peut ne pas vous autoriser à acheter cet atout s’il veut interdire complètement certains clans ou lignées qui ne rentrent pas dans son cadre. Avec la permission de votre Conteur, vous pouvez prendre cet atout pour incarner une lignée peu usuelle d’un clan, même si le coût total pour jouer cette lignée (rareté du clan de base plus la rareté de la lignée) dépasse un total de 6 points d’atouts."
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_SURPRISE_NAME",
+        "Text":"Attaque Surprise"
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_SURPRISE_DESCRIPTION",
+        "Text":"Vous êtes entraîné à attaquer par surprise. Vous recevez un bonus de +3 à votre Score de Test Physique lorsque vous attaquez un adversaire qui n’est pas conscient de votre présence. Vous recevez ce bonus une seule fois par combat, car votre première attaque révèle votre présence et ruine n’importe quel autre effet de surprise."
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_VIZIR_NAME",
+        "Text":"Lignée : Vizir"
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_VIZIR_DESCRIPTION",
+        "Text":"Vous êtes membre de la lignée des Vizirs, des sages et des philosophes qui ont défié l’Ancien et refusé de vénérer Haqim au dessus d’Allah. Les Vizirs ont fui la Montagne d’Alamut et ne servent plus l’Ancien du clan. Vos disciplines de clan sont Auspex, Célérité et Quietus."
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_STEAL_NAME",
+        "Text":"Réveil de l’Acier"
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_STEAL_DESCRIPTION",
+        "Text":"Vous possédez une arme de mêlée qui a été nommée et enchantée par un membre de la caste des Sorciers. Si vous dépensez 1 point de Sang et une action simple pour appeler l’arme par son nom, elle apparaît dans votre main. Ceci se fait sans tenir compte de la localisation originelle de l’arme. Vous devez avoir la place de la tenir lorsqu'elle apparaît dans votre main ; l’arme ne peut pas apparaître à l’intérieur d’un objet solide. Si votre arme est cassée ou détruite, elle se reformera (comme neuve) lorsque vous activez ce pouvoir. Si le pouvoir est utilisé pour reformer l’arme, elle apparaît telle qu’elle a été forgée. Si l’arme avait été modifiée ou trempée de sang, ces modifications sont retirées quand l’arme est reformée."
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_WARLOCK_NAME",
+        "Text":"Lignée : Sorcier"
+    },
+    {
+        "Key":"ATOUT_ASSAMITE_WARLOCK_DESCRIPTION",
+        "Text":"Vous êtes membre de la caste des Sorciers Assamites, qui obéissent à la volonté de L’Ancien et cherchent à se venger des Tremere et de la trahison des Vizirs. Vos disciplines de clan sont Occultation, Quietus et La Voie de l’Attrait des Flammes. Vous pouvez aussi acheter une voie de Thaumaturgie de votre choix. Cette voie supplémentaire peut être apprise sans Mentor et est achetée au prix d’une discipline de clan, mais n’est pas considérée comme étant une discipline de clan."
+    },
+    {
+        "Key":"ATOUT_BRUJAH_BROTHERHOOD_NAME",
+        "Text":"Fraternité"
+    },
+    {
+        "Key":"ATOUT_BRUJAH_BROTHERHOOD_DESCRIPTION",
+        "Text":"Les Brujah sont connus pour deux choses : leur tempérament embrasé et leur loyauté infaillible envers le clan. En tant que membre du clan Brujah, vous gagnez un bonus de +2 en Bagarre, Mêlée et Arme à feu lorsque vous combattez un individu qui est pris pour cible par une autre attaque physique de Brujah (Bagarre, Mêlée ou Arme à feu) plus tôt dans le même combat, ou quand un autre Brujah utilise une manoeuvre d’Attaque Assister pour aider votre attaque. Les membres de la lignée des Vrais Brujah ne peuvent pas acheter cet atout."
+    },
+    {
+        "Key":"ATOUT_BRUJAH_ANGER_NAME",
+        "Text":"Colère Brûlante"
+    },
+    {
+        "Key":"ATOUT_BRUJAH_ANGER_DESCRIPTION",
+        "Text":"Le cœur d’un Brujah est embrasé par l’émotion, stimulé par la colère et rempli de juste fureur. En canalisant cette colère, vous pouvez dépenser une action simple pour déchaîner votre Colère Brûlante, qui change vos poings en armes surnaturelles. Quand ce pouvoir est invoqué, les poings du personnage luisent d’une aura rouge, avec une chaleur terne et contenue (vous ne pouvez pas démarrer un feu avec ce pouvoir). Pour l’heure qui suit, lorsque vous attaquez un ennemi avec un coup de poing à mains nues, vous gagnez un bonus de +2 à cette attaque et, si elle est réussie, vous infligez des dégâts aggravés. Vous pouvez arrêter la Colère Brûlante à tout moment au prix d’une action simple."
+    },
+    {
+        "Key":"ATOUT_BRUJAH_ALECTO_NAME",
+        "Text":"Fléau d’Alecto"
+    },
+    {
+        "Key":"ATOUT_BRUJAH_ALECTO_DESCRIPTION",
+        "Text":"Lorsqu’un autre personnage dépense 1 ou plusieurs points de Volonté pour ignorer votre Admiration ou tente d’outrepasser votre Majesté, votre Bête répond avec une rage rancunière. La force de sa colère déchire l’esprit de votre rival. La cible du Fléau d’Alecto prend 1 point de dégât aggravé ; ce dégât ne peut être encaissé ou réduit. Cet effet ne requiert aucune action ou challenge pour l’activer et cela ne brise pas votre Majesté."
+    },
+    {
+        "Key":"ATOUT_BRUJAH_TRUE_NAME",
+        "Text":"Lignée : Vrai Brujah"
+    },
+    {
+        "Key":"ATOUT_BRUJAH_TRUE_DESCRIPTION",
+        "Text":"Vous êtes un membre d’une vieille lignée Brujah qui vilipende ses ancêtres tempétueux, se dédie aux études intellectuelles et aux quêtes dénuées de passion. Vos disciplines de clan sont Puissance, Présence et Temporis."
+    },
+    {
+        "Key":"ATOUT_SET_PERSONNAL_KULT_NAME",
+        "Text":"Culte Personnel"
+    },
+    {
+        "Key":"ATOUT_SET_PERSONNAL_KULT_DESCRIPTION",
+        "Text":"Les Setites aiment développer des cultes et des troupeaux de croyants. Que ce soit des esclaves fanatiques, des disciples adorateurs ou des groupies nymphomanes, votre culte vous sert sans poser de questions. Ces Mortels vénèrent leur maître vampirique — qu’ils connaissent ou pas votre vraie nature. Vous pouvez définir ce culte de la manière que vous voulez. Peut-être qu’ils vénèrent Set, ou Caïn, ou juste vous. Ils peuvent avoir des fêtes extatiques et des orgies, diriger des laboratoires de drogues, ou participer à n’importe quel rituel que vous choisissez.<br />Vous obtenez 5 points gratuits dans l’un des Historiques suivants : Havre, Troupeau ou Ressource. Si vous avez déjà acheté des points dans cet Historique, tous les XPs sont remboursés. Si vous assignez des points de création dans cet Historique, vous pouvez déplacer ces points dans un autre Historique dans lequel vous n’avez pas encore de points.<br />En plus de cet Historique, vous recevez un temple dans lequel votre culte fait ses dévotions ; ce temple est considéré comme une terre consacrée. Si vous avez n’importe quel atout ou handicap qui serait affecté par un sol consacré, ce temple ne vous affecte pas de manière négative. Si vous dépensez 3 points de sang et vous reposez une journée dans ce temple, vous pouvez soigner 2 points de dégâts aggravés au lieu de 1. Ce temple peut être défini par l’atout Havre."
+    },
+    {
+        "Key":"ATOUT_SET_VIPERS_NAME",
+        "Text":"Lignée : Vipères"
+    },
+    {
+        "Key":"ATOUT_SET_VIPERS_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Vipères, les guerriers sacrés du clan Setite. Cet héritage vient avec un grand lot de responsabilités et il est attendu de vous de protéger les temples et les prêtres du clan. Pour s'assurer de vos capacités dans cette tâche, vous avez été gratifié d’une force surpuissante à utiliser au service de Set. Vos disciplines de clan sont Puissance, Présence et Serpentis."
+    },
+    {
+        "Key":"ATOUT_SET_TLACIQUE_NAME",
+        "Text":"Lignée : Tlacique"
+    },
+    {
+        "Key":"ATOUT_SET_TLACIQUE_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Tlacique, qui est composé de couvées de vampires sud-américains et supposées descendre de Tezcatlipoca, le dieu Aztec de la nuit, de la guerre et de la sorcellerie, qu’ils considèrent comme un homologue de Set. Vos disciplines de clan sont Présence, Occultation et Protéisme."
+    },
+    {
+        "Key":"ATOUT_SET_BLOOD_NAME",
+        "Text":"Sang addictif"
+    },
+    {
+        "Key":"ATOUT_SET_BLOOD_DESCRIPTION",
+        "Text":"Quiconque est assez fou pour goûter un point de votre Sang en devient dépendant. La prochaine fois que cette créature a la chance de se nourrir sur vous, elle doit dépenser 1 point de Volonté pour ignorer cette opportunité. Cette dépense permet à la victime de résister à l’addiction pour les 10 prochaines minutes sans dépenses supplémentaires. Après avoir résisté à votre Sang de cette manière 5 fois consécutives, l’addiction est brisée. Si vous avez le pouvoir de Transe, quiconque boit votre Sang est aussi en Transe vis à vis de vous pour le reste de la nuit."
+    },
+    {
+        "Key":"ATOUT_SET_WITCHCRAFT_NAME",
+        "Text":"Sorcellerie Setite"
+    },
+    {
+        "Key":"ATOUT_SET_WITCHCRAFT_DESCRIPTION",
+        "Text":"La sorcellerie est un don offert aux plus croyants et les enfants de Set vénèrent cette capacité comme une marque de foi parmi les leurs. Lorsque vous acquérez cet atout, vous gagnez la discipline Thaumaturgie. Vous pouvez acheter La Voie de la Corruption et une autre Voie de Thaumaturgie de votre choix. Ces Voies ne nécessitent pas de Mentor et sont considérées comme des disciplines hors-clans dans tous les cas (y compris leur coût)."
+    },
+    {
+        "Key":"ATOUT_GANGREL_BLOOD_NAME",
+        "Text":"Sang Protéique"
+    },
+    {
+        "Key":"ATOUT_GANGREL_BLOOD_DESCRIPTION",
+        "Text":"Une fois par heure, vous pouvez activer un pouvoir de Protéisme sans payer les coûts (Sang et action) normalement requis pour activer ce pouvoir. Les effets du Sang Protéique s'activent à votre initiative et ne peuvent pas être combinés avec des effets qui vous permettent de faire des actions avant ou après votre initiative dans ce tour. Cet atout ne peut pas être utilisé avec des pouvoirs d’Anciens ou des techniques de Protéisme, mais peut être utilisé avec l’atout Forme de la Colère de la Bête."
+    },
+    {
+        "Key":"ATOUT_GANGREL_COYOTE_NAME",
+        "Text":"Lignée : Coyote"
+    },
+    {
+        "Key":"ATOUT_GANGREL_COYOTE_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Coyotes. Parfois connus sous le nom de \"Gangrels Urbains\", les Coyotes étaient autrefois aperçus dans le Sabbat mais, depuis récemment, ils peuvent être vus chez les Autarchs ou les Anarchs et même, occasionnellement, parmi les membres de la Camarilla. Contrairement à la plupart des Gangrels, les Coyotes sont à l’aise avec l’environnement urbain et se considèrent comme les prédateurs urbains ultimes. Vos disciplines de clan sont Célérité, Occultation et Protéisme."
+    },
+    {
+        "Key":"ATOUT_GANGREL_NOIAD_NAME",
+        "Text":"Lignée : Noiad"
+    },
+    {
+        "Key":"ATOUT_GANGREL_NOIAD_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Noiads, qui vient de Finlande, de Suède et d’autres parties de la Scandinavie. Ces voyants et oracles primitifs dédaignent la technologie et la culture moderne. Ils préfèrent rester dans les endroits non-développés, se raccrochant fermement à d’anciennes traditions. Vos disciplines de clan sont Animalisme, Auspex et Protéisme."
+    },
+    {
+        "Key":"ATOUT_GANGREL_BEAST_ANGER_NAME",
+        "Text":"Forme de la Colère de la Bête"
+    },
+    {
+        "Key":"ATOUT_GANGREL_BEAST_ANGER_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée uniquement femelle connue sous le nom des Ahrimanes. Ces Gangrels sont extrêmement chamaniques et ont un lien peu commun avec les esprits de toutes sortes. Elles sont secrètes et violentes. Vos disciplines de clan sont Animalisme, Présence et Thaumaturgie : La Voie de la Maîtrise Élémentaire. Les personnages masculins ne peuvent pas prendre cet atout."
+    },
+    {
+        "Key":"ATOUT_GANGREL_AHRIMANES_NAME",
+        "Text":"Lignée : Ahrimanes"
+    },
+    {
+        "Key":"ATOUT_GANGREL_AHRIMANES_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée uniquement femelle connue sous le nom des Ahrimanes. Ces Gangrels sont extrêmement chamaniques et ont un lien peu commun avec les esprits de toutes sortes. Elles sont secrètes et violentes. Vos disciplines de clan sont Animalisme, Présence et Thaumaturgie : La Voie de la Maîtrise Élémentaire. Les personnages masculins ne peuvent pas prendre cet atout."
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_NECROMANCY_NAME",
+        "Text":"Expertise en Nécromancie"
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_NECROMANCY_DESCRIPTION",
+        "Text":"Vous pouvez acheter une voie de Nécromancie additionnelle à La Voie du Sépulcre (toutes les voies excepté la Voie de Mortis, qui est exclue de cet atout).Cette voie additionnelle est apprise sans Mentor et est achetée au prix d’une discipline de clan, mais elle n’est pas considérée comme une discipline de clan. Par exemple, lorsque vous utilisez Possession, ces voies de Nécromancie ne peuvent pas être emportées.Vous pouvez acheter cet atout plusieurs fois pour apprendre plusieurs voies de Nécromancie."
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_BIG_ARMS_NAME",
+        "Text":"Gros bras"
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_BIG_ARMS_DESCRIPTION",
+        "Text":"Vous avez été Étreint pour vos prouesses physiques et les anciens du Clan Giovanni ont invoqué des faveurs pour être sûr que vous ayez de plusamples instructions dans l’art du combat sans entacher votre loyauté au Clan avec un lien de sang minime. Vous pouvez apprendre les disciplines Célérité et Force d’âme sans Mentor, même si vous les payez encore comme des disciplines hors-clan. Cet atout peut être utilisé pour apprendre les pouvoirs d’Anciens (à condition que vous ayez la Génération requise)."
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_GHOST_NAME",
+        "Text":"Serviteur fantôme"
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_GHOST_DESCRIPTION",
+        "Text":"Un Serviteur loyal vous assiste d’outre-tombe. Cet esprit fantomatique est typiquement un membre disparu de la famille qui, pour quelque raison que ce soit, n’a jamais été Étreint. Créez un PNJ en tant que Serviteur niveau 5, en utilisant les règles de spectre dans la section Chapitre Douze : Alliés et Antagonistes. Si vous possédez La Voie du Sépulcre, vous pouvez dépenser 1 point de Sang pour invoquer magiquement votre serviteur fantomatique, lui permettant de se téléporter à votre position actuelle."
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_PREMASCINE_NAME",
+        "Text":"Lignée : Premascine"
+    },
+    {
+        "Key":"ATOUT_GIOVANNI_PREMASCINE_DESCRIPTION",
+        "Text":"Vous êtes le rejeton d’une vieille lignée du clan. Vous souffrez de la pâleur effrayante rappelant celle des Cappadociens et vous pouvez apprendre la Voie de Mortis. Les autres Giovanni (surtout les plus anciens) voient d’un mauvais œil la maîtrise de Mortis, pensant que l’individu est encore loyal envers les Cappadociens. La Voie de Mortis est apprise sans Mentor et ne nécessite pas l’achat de l’atout Expertise de Nécromancie, mais n’est pas considérée comme une discipline de clan dans tous les cas (incluant les coûts d’achat). Cet atout est une exception à la règle qui interdit les non-Cappadociens d’apprendre la Voie de Mortis."
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_ANGEL_FACE_NAME",
+        "Text":"Visage Angélique"
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_ANGEL_FACE_DESCRIPTION",
+        "Text":"Votre connexion innée avec l’Abysse se voit dans chacun des mouvements de votre corps et dans toutes les ombres de votre visage, vous prêtant une grâce et une attraction sexuelle surnaturelle. Vous gagnez le focus de l’attribut Social Charisme ou Apparence en plus de n’importe quel focus d’attribut Social choisi à la création. De plus, vous apparaissez toujours attirant et digne, même lorsque vous êtes blessé, sale, ou que vous avez une Humanité basse. Même si vous êtes sur une voie ou dans une Humanité basse, votre dégradation morale vous prête une beauté de porcelaine, exotique, plutôt qu’un visage monstrueux et primitif. Les appartenances à une voie restent incontestablement visibles, malgré cette beauté exceptionnelle, mais plutôt que d’évoquer la peur ou le dégoût, votre sombre splendeur est intense et sexuellement attirante."
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_BORN_IN_SHADOWS_NAME",
+        "Text":"Né dans les Ombres"
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_BORN_IN_SHADOWS_DESCRIPTION",
+        "Text":"Votre esprit est particulièrement accordé avec les sombres profondeurs de l’Abysse. Une fois par tour, vous pouvez activer un de vos 2 premiers points d’Obténébration sans dépenser de Sang, mais vous devez répondre à toutes les autres exigences. D’autre part, vous pouvez utiliser cet atout une fois par tour pour augmenter jusqu’à 12 pas le rayon de votre Voile de Nuit sans dépenser de Sang. Après cela, vous pouvez continuer à étendre votre Voile de Nuit, mais il vous faut dépenser du sang pour cela."
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_ABYSS_NAME",
+        "Text":"Parcours l’Abysse (Mysticisme de l’Abysse)"
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_ABYSS_DESCRIPTION",
+        "Text":"Les érudits occultes au sein du clan Lasombra prétendent que l’Obténébration provient d’un monde différent, un vide sombre et primordial connu sous le nom de l’Abysse. Ces mystiques recherchent constamment les terribles vérités et les réponses philosophiques car ils espèrent débloquer les secrets de ses profondeurs. Contrairement à la Thaumaturgie, le Mysticisme de l’Abysse n’est pas une magie de sang. C'est une forme de communion, un portail spirituel entre l’adepte et l’Abysse.<br />Vous êtes entraîné dans l’un des arts du Mysticisme de l’Abysse. En vous concentrant sur une destination familière, en chantant durant 5 tours complets et en traversant enfin une flaque d’ombre, vous pouvez voyager dans et au travers de l’Abysse. Vous pouvez emmener jusqu'à 3 compagnons consentants avec vous dans ce voyage. Le Temps et la distance sont subjectifs dans l’Abysse et il n’y a aucune certitude que vous arriverez à votre destination, peu importe la distance.<br />À chaque fois que vous utilisez Parcours l’Abysse, vous devez faire un test avec votre Conteur (pas de trait de challenge utilisé). Si vous gagnez le test, vous passez une heure dans l’Abysse avant d’arriver à destination. Si vous égalisez, vous passez 3 heures dans l’Abysse. Si vous perdez, vous passez 6 heures dans l’Abysse avant d’arriver. Voyager à travers l’Abysse est dangereux et terrifiant, même pour ceux expérimentés dans ce domaine.<br />Chaque heure passée dans l’Abysse vous inflige 1 dégât aggravé, qui ne peut être encaissé ou réduit. De plus, ces dégâts ne peuvent pas être soignés tant que vous n’êtes pas revenu sur le plan physique.<br />Ceci est un atout de Mysticisme de l’Abysse. Les joueurs possédant cet atout sont considérés comme des Mystiques de l’Abysse et peuvent acheter des objets qui requièrent le Mysticisme de l’Abysse."
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_KIASYDE_NAME",
+        "Text":"Lignée : Kiasyde"
+    },
+    {
+        "Key":"ATOUT_LASOMBRA_KIASYDE_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Kiasydes, une engeance étrange et aliénée qui préfère l’existence dans l’isolement et l’étude. Les Kiasydes ont des connexions avec les Fées et sont extrêmement fascinés par les savoirs anciens et interdits. Vos disciplines de clan sont Domination, Mythercellerie et Obténébration."
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_EXTENDED_AWARENESS_NAME",
+        "Text":"Conscience Étendue"
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_EXTENDED_AWARENESS_DESCRIPTION",
+        "Text":"Vous pouvez choisir un deuxième Focus d’attribut Mental."
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_ANANKE_NAME",
+        "Text":"Lignée de Sang: Ananke"
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_ANANKE_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée de sang des Ananke, pratiquant de l’haruspicine, obsédés par les corps récents des morts. Vos disciplines de clans sont : Auspex, Aliénation et Présence."
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_MOON_KNIGHT_NAME",
+        "Text":"Lignée de Sang: Chevaliers de la Lune"
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_MOON_KNIGHT_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée de sang des Chevaliers de la Lune, qui ne manifeste pas l’Aliénation. Vos disciplines de clans sont Auspex, Domination et Occultation."
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_MAZE_MIND_NAME",
+        "Text":"Esprit Labyrinthique"
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_MAZE_MIND_DESCRIPTION",
+        "Text":"Votre esprit est un nid entortillé de folie et d’idées déconnectées, tout personnage qui tente d’extraire des informations sans consentement de votre esprit risque lui-même de devenir fou. Premièrement, vous recevez un bonus de +3 à votre Score de Test de défense pour résister à Domination, Aliénation et La Voie de la Corruption. Deuxièmement, les personnages qui tentent d’extraire des informations de votre esprit gagnent un Dérangement (de votre choix). L’intrus reçoit ce Dérangement comme s'il l’avait acheté ; si vous êtes persuadé d’être Jules César, l’envahisseur croit maintenant qu’il est Jules César (et pas que vous l’êtes). Les Dérangements infligés par l’Esprit Labyrinthique durent pendant une heure."
+    },
+    {
+        "Key":"ATOUT_MALKAVIEN_SOPHISTICATED_NAME",
+        "Text":"Vous voyez les défauts et les erreurs de l’univers, les extrémités cassées et les reflets brisés qui s'écoulent de chaque action. Vous vous rappelez occasionnellement de choses qui ne se sont pas produites ou des impressions de temporalité alternatives de personnes que vous connaissez. Cela vous donne une perception déformée du monde, mais cela peut s'avérer pratique lorsque votre vie est en danger. Vous évitez les coups avant qu’ils ne soient donnés ; vous vous écartez des rayons d’une explosion, vous échappez aux chutes d’objets avant qu’ils ne tombent. Même les pouvoirs Mentaux et Sociaux ont du mal à pénétrer votre cerveau, car vous êtes fortifié dans ces étranges ondulations de folie. Une fois par session de jeu, quand vous devez résister à un challenge Physique, Mental ou Social, ou lorsque vous devez faire un challenge qui pourrait résulter en des blessures, vous pouvez dépenser 1 point de Sang pour gagner automatiquement le challenge ou éviter totalement la situation. Sophistique peut être utilisé à n’importe quel moment, même avant votre tour dans l’ordre d’initiative. Quand Sophistique est utilisé pour éviter une attaque, votre adversaire est considéré comme ayant échoué à vous toucher. Dans le cas de challenges Mentaux et Sociaux, ce résultat peut vous éviter d’être ciblé à nouveau par le même pouvoir. Pour plus d’informations, consultez le Chapitre Six : Système de base."
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_BLIND_EYE_NAME",
+        "Text":"L’œil aveugle"
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_BLIND_EYE_DESCRIPTION",
+        "Text":"Vous ne pouvez pas être la cible de pouvoirs surnaturels qui vous pistent ou vous identifient à portée, sauf si vous vous trouvez déjà dans le champ de vision de l’utilisateur de ce pouvoir. Ceci inclut les pouvoirs de pistage, comme le rituel Illuminer le passage de la Proie et les pouvoirs d’observation comme Clairvoyance et Divination. Notez que cet atout ne bloque pas l’utilisation normale d’Auspex, seulement ceux qui permettent à un observateur de vous surveiller à distance. Si un pouvoir de vision à distance (comme Clairvoyance ou Divination) est utilisé pour espionner votre emplacement, plutôt que sur vous directement, le pouvoir fonctionne normalement pour tout ce qui se trouve dans la zone sauf vous. Bien que l’utilisateur puisse voir l’emplacement et n’importe qui à l’intérieur, vous êtes inaudible et invisible pour l’utilisateur du pouvoir de vision à distance."
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_HIDDEN_ATOUT_NAME",
+        "Text":"Avantage caché"
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_HIDDEN_ATOUT_DESCRIPTION",
+        "Text":"Votre héritage Nosferatu vous accorde des talents exceptionnels avec les pouvoirs d’Occultation. Les individus utilisant Auspex (ou un pouvoir similaire) ne réalisent pas automatiquement qu’il y a une personne Occultée à proximité lorsqu'ils sont proches de vous. De plus, votre Présence Invisible reste active même lorsque vous dormez ou passez en torpeur. Pour que cet aspect d’Avantage Caché fonctionne, vous devez activer Présence Invisible avant d’aller vous coucher (ou de passer en torpeur). Votre Présence Invisible peut être percée par l’Auspex (ou un pouvoir similaire) sans vous réveiller."
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_MALLEABLE_BLOOD_NAME",
+        "Text":"Sang malléable"
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_MALLEABLE_BLOOD_DESCRIPTION",
+        "Text":"Alors que les autres clans rejettent les membres de leur lignée dont le sang a muté pour des pouvoirs différents ou étranges, les Nosferatus ne rejettent jamais un membre de la famille. Le lien entre les Nosferatus est tellement fort qu’ils ne font aucune distinction de lignée ou de clan parent. Vous pouvez choisir une discipline commune ou peu commune à posséder en tant que quatrième discipline de clan. Vous ne pouvez pas créer votre personnage avec un point gratuit (ou points) de cette quatrième discipline de clan, mais vous pouvez enseigner cette discipline et elle est considérée comme une discipline de clan pour tous les autres pouvoirs ou effets. Vous payez les coût d’XP de clan pour acheter cette discipline. Vous pouvez choisir parmi ces disciplines communes et peu communes : Aliénation, Auspex, Célérité, Domination, Force d’âme, Présence, Protéisme, Quietus et Serpentis. Cet atout ne peut pas être combiné avec d’autres atouts qui donnent à votre personnage des disciplines de clan additionnelles."
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_UNATURAL_ADAPTATION_NAME",
+        "Text":"Adaptation non-naturelle"
+    },
+    {
+        "Key":"ATOUT_NOSFERATU_UNATURAL_ADAPTATION_DESCRIPTION",
+        "Text":"Votre Étreinte vous a laissé horriblement muté, bien plus que la plupart de vos frères de clan. A cause de cette mutation révoltante, vous devez choisir deux des capacités spéciales suivantes : <br /> <strong>Patagia :</strong> une fine membrane s'étend entre vos bras et votre torse. Si vous tombez depuis une hauteur destructrice, vous pouvez écarter vos bras et utiliser ces proto-ailes pour planer en sécurité jusqu'au sol. Si vous avez 2 points ou plus de Puissance, vous pouvez voler sur 3 pas par tour en dépensant votre action simple et votre action standard.<br /><strong>Doigts Palmés :</strong> vos doigts des mains et des pieds sont difformes et possèdent une fine membrane entre eux, vous permettant de nager extrêmement rapidement. Vous devez utiliser une action simple pour nager à une vitesse normale (marcher ou courir). Vous gagnez un pas dans ce mouvement pour chaque point que vous possédez dans la compétence Athlétisme.<br /><strong>Gueule Béante: </strong>Votre bouche est énorme et remplie de dents larges et pointues (ou des défenses, ou tout autre élément menaçant). Vous pouvez mordre pour infliger des dégâts sans avoir à attraper votre cible avant. Lorsque vous buvez du Sang, vous drainez 2 points par action standard au lieu d’1 point habituel.<br /><strong>Visqueux: </strong> Votre corps est enduit avec une couche de dépôt gluant. Vous pouvez utiliser une action standard pour échapper automatiquement à une Immobilisation, même celle d’un pouvoir surnaturel (Comme Thaumaturgie : Mouvement de l’Esprit).<br /><strong>Appendices Préhensiles : </strong> Vos bras sont plus longs, étrangement articulés, ou couverts d’horribles ventouses. Vous n’avez pas besoin d’utiliser de Volonté pour effectuer une manœuvre d’Immobilisation et vous recevez un bonus de +2 lorsque vous tentez d’Immobiliser."
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ARTIST_BLESS_NAME",
+        "Text":"Bénédiction de l’Artiste"
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ARTIST_BLESS_DESCRIPTION",
+        "Text":"Le niveau maximum potentiel de tous vos Artisanats et Performances est augmenté de 2 (normalement ceci améliore votre maximum potentiel à 7). De plus, vous gagnez les 3 premiers points de n’importe laquelle des compétences d’Artisanat ou de Performance gratuitement. Si vous avez déjà acheté cette compétence, l’XP de cet achat est remboursé. Si vous avez assigné des points de création dans la compétence choisie, vous pouvez les réassigner dans une compétence dans laquelle vous n’avez pas assigné de point."
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ISHTARRI_NAME",
+        "Text":"Lignée de Sang: Ishtarri"
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ISHTARRI_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Ishtarri, qui se dévoue à la perfection des mouvements, qu’ils soient dans la danse ou dans la bataille. Les Ishtarri sont extrêmement passionnés et ont des difficultés à résister à leur vices. Vos disciplines de clan sont Célérité, Force d’âme et Présence."
+    },
+    {
+        "Key":"ATOUT_TOREADOR_VOLGIRRE_NAME",
+        "Text":"Lignée de Sang: Volgirre"
+    },
+    {
+        "Key":"ATOUT_TOREADOR_VOLGIRRE_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Volgirre, une lignée secrète d’artistes dépravés et sombrement créatifs. Ces créatures vicieuses et licencieuses donnent une mauvaise réputation aux Toreadors, se livrant à des objets d’art cruels, qui sont beaux au-delà de la compréhension des Mortels. Vous avez les disciplines de clan des Toreadors, mais vous pouvez acheter les 2 premiers points de Vicissitude sans mentor."
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ABSENT_INFLUENCE_NAME",
+        "Text":"Influence Absente"
+    },
+    {
+        "Key":"ATOUT_TOREADOR_ABSENT_INFLUENCE_DESCRIPTION",
+        "Text":"Que vous dansiez, peigniez, chantiez ou pratiquiez n’importe quel autre type d’art, votre travail invoque de vraies émotions. Lorsque vous créez de l’art ou entreprenez une performance, vous pouvez choisir une émotion appropriée ou un état d’esprit qui se reflètera dans cet effort. Quiconque regardant l’art ou observant la performance ressent cette émotion. Si un individu souhaite utiliser une émotion contraire à celle choisie, comme attaquer quelqu'un en présence d’un tableau qui évoque le calme, il doit dépenser 1 point de Volonté. S'il le fait, il ignore tous les effets d’Influence Absente pour la prochaine heure.<br />Les effets de l’Influence Absente sont passifs, pas agressifs et encouragent les observateurs à ressentir une émotion ou entrer dans un état d’esprit. L’émotion encouragée par l’art est ressentie par la victime, mais l’Influence Absente ne force pas la victime à agir d’une manière ou d’une autre. Vous pouvez peindre une toile qui provoquera au spectateur une émotion de \"Colère\". La manière dont chaque individu réagira au ressenti de la colère ne tient qu’à l’interprète de ce personnage. Cependant, si le personnage souhaite agir de manière diamétralement opposée ou contradictoire à l’émotion encouragée par l’Influence Absente, il doit payer 1 point de Volonté. Par exemple, s'il est en présence d’une peinture évoquant la \"colère\", il ne se mettra pas à frapper la personne à coté de lui, mais il devra dépenser 1 point de Volonté s'il veut faire des négociations pacifiques, ou annoncer qu’il a pardonné ses ennemis pour leurs affronts passés.<br />Influence Absente ne peut pas affecter les individus en combat et n’a plus d’effet lorsque le combat commence, mais le pouvoir peut rendre difficile pour un personnage de démarrer un combat en premier lieu. Influence Absente fonctionne uniquement lorsqu'elle est placée sur une oeuvre d’art qui est d’une taille significative et peut facilement être observée. Seuls les personnages qui peuvent voir complètement l’oeuvre ou la performance sont affectés par l’Influence Absente.<br />Un personnage n’a pas besoin de dépenser de point de Volonté pour outrepasser l’Influence Absente si agir sur l’émotion causée par l’art devrait causer des dégâts ou l’empêcher d’agir dans l’auto-conservation."
+    },
+    {
+        "Key":"ATOUT_TOREADOR_GRACE_OF_THE_DANCER_NAME",
+        "Text":"La Grâce du Danseur"
+    },
+    {
+        "Key":"ATOUT_TOREADOR_GRACE_OF_THE_DANCER_DESCRIPTION",
+        "Text":"Vous avez un corps athlétique et avez été Étreint au plus haut de votre prouesse physique. Une fois par tour, vous gagnez un re-test gratuit lorsque vous vous défendez contre une attaque qui vous demande de résister avec votre trait de challenge attribut Physique + Esquive. Ce re-test peut être utilisé avant ou après le re-test normal de Volonté et est une exception à la règle limitant le nombre de re-test à un par challenge. Cet effet peut être utilisé durant les rounds de Célérité, mais ne peut être utilisé qu’une seule fois durant le tour choisi."
+    },
+    {
+        "Key":"ATOUT_TREMERE_EXPERTISE_NAME",
+        "Text":"Expertise Thaumaturgique"
+    },
+    {
+        "Key":"ATOUT_TREMERE_EXPERTISE_DESCRIPTION",
+        "Text":"Vous pouvez acheter une voie de Thaumaturgie en plus de la Voie du Sang. Cette voie supplémentaire est apprise sans Mentor et est achetée au prix d’XP de clan, mais n’est pas considérée comme une discipline de Clan. Par exemple, en utilisant le pouvoir de Possession, ces voies Thaumaturgiques ne peuvent pas être emmenées. Vous pouvez acheter cet atout plusieurs fois, vous permettant d’apprendre plusieurs voies de Thaumaturgie."
+    },
+    {
+        "Key":"ATOUT_TREMERE_TELYAV_NAME",
+        "Text":"Lignée : Telyav"
+    },
+    {
+        "Key":"ATOUT_TREMERE_TELYAV_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Telyav, un groupe de Tremere païens de Lituanie supposé éteint par la majorité du clan parent. Vos disciplines de clan sont Auspex, Présence et Thaumaturgie : Voie du Sang."
+    },
+    {
+        "Key":"ATOUT_TREMERE_TALISMAN_NAME",
+        "Text":"Talisman"
+    },
+    {
+        "Key":"ATOUT_TREMERE_TALISMAN_DESCRIPTION",
+        "Text":"Vous possédez un talisman magique. Votre talisman doit être un objet droit, rigide entre dix centimètres et deux mètres de long. Les anciens Tremeres portent parfois des bâtons et des baguettes, alors qu’un Tremere plus moderne peut porter une canne, une baguette de percussion ou un bâton. Tant que vous le tenez en main ou que vous le touchez, vous recevez un bonus de +2 à tous les Scores de Test de Thaumaturgie. Si votre Talisman est cassé, perdu ou volé, il est inutilisable jusqu'à ce que vous en refassiez un, dans un processus qui prend 4 sessions de jeux ou 2 mois, le plus long des deux. Vous seul pouvez utiliser votre talisman ; les autres personnages n’ont aucun bonus de votre talisman.<br />Beaucoup de talismans peuvent être maniés comme armes de mêlées, mais ce n’est pas leur but premier. Si un talisman est assez solide pour être utilisé en arme de mêlée, il doit être conçu comme une arme improvisée (et obtenir une qualité d’arme). Les Tremeres Telyavetic qui achètent cet atout peuvent choisir que leur talisman soit un Athamé (ou tout autre instrument à lame approprié à une religion pré-chrétienne). Certaines religions méprisent l’utilisation d’un Athamé comme une arme, mais s'il est manié en combat, un Athamé a les qualités d’arme Dissimulable et soit Rapide, Argent ou Fer blanc."
+    },
+    {
+        "Key":"ATOUT_TREMERE_COUNTER_MAGIE_NAME",
+        "Text":"Contre-magie"
+    },
+    {
+        "Key":"ATOUT_TREMERE_COUNTER_MAGIE_DESCRIPTION",
+        "Text":"Vous êtes extraordinairement habile avec la magie et vous pouvez détacher les fils d’un sort ainsi que vous pouvez les tisser. Vous gagnez un bonus de +3 à vos Scores de Test défensifs lorsque vous résistez à la Thaumaturgie. De plus, vous pouvez utiliser une action standard et dépenser 1 point de Sang pour cibler un individu ou une zone et tenter de dissiper des effets Thaumaturgiques actifs. Si vous ciblez un individu, vous devez faire un challenge (attribut Mental + Occultisme contre la cible (attribut Mental + Volonté)). En cas de succès, tous les effets actifs d’un pouvoir Thaumaturgique qui affectent votre cible prennent fin et tous les objets magiques de la cible deviennent défaillants pendant une heure. Si vous ciblez une zone, vous pouvez faire un challenge (attribut Mental + Occultisme, difficulté 12) pour dissiper tous les rituels dans un rayon de 5 pas autour de vous. Cibler une zone n’a pas d’effet sur de la magie affectant directement un individu, mais cela dissipe les rituels, les runes et les objets qui ne sont pas la possession directe d’une personne."
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_TZIMISCE_BLOOD_NAME",
+        "Text":"Sang du Tzimisce"
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_TZIMISCE_BLOOD_DESCRIPTION",
+        "Text":"Vous partagez la connexion de votre clan pour la terre et au travers des esprits de la terre, vous entendez des histoires et des murmures de mystères remontant jusqu'au jour de la légendaire Enoch. Ces esprits vous servent et vous protègent, gardant l’endroit où vous dormez. Vous recevez un bonus de +3 à tous les Scores de Test d’Attaque (Physique, Social et Mental) quand vous êtes dans votre havre. Ce bonus s'applique à toutes les réserves sauf celle de défense. De plus, les esprits vous apprennent un savoir ancien et partagent des histoires perdues depuis longtemps. Vous gagnez 2 points gratuits dans la compétence Mystère (incluant les spécialisations à l’achat des niveaux de cette compétence) et votre niveau maximum en compétence Mystère est augmenté de 2. Si vous avez déjà dépensé de l’XP dans les 2 premiers points de la compétence Mystère, cet XP est remboursé. Si vous avez utilisé des points de création pour acheter les 2 premiers niveaux de Mystère, vous devez réassigner ces points à une compétence dans laquelle vous n’avez pas de points assignés."
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_SZLACHTA_NAME",
+        "Text":"Szlachta"
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_SZLACHTA_DESCRIPTION",
+        "Text":"À chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce serviteur soit un Cerbère (s'il est créé à partir d’un animal) ou un Szlachta (s'il est créé à partir d’un humain). Vous devez payer tous les points d’XP pour obtenir ce Serviteur, comme à l’accoutumée. Un personnage doit avoir au moins 3 points en Vicissitude pour utiliser cet atout et votre monstruosité pourra être modifiée par la suite avec vos pouvoirs de Vicissitude.<br />Lorsque vous achetez ce serviteur, assignez-lui 1 des bénéfices suivants, compte tenu de l’atout :<br /><strong>Blindé : </strong> la peau de cette créature a été renforcée et endurcie avec des piques, des plaques chitineuses ou autre protection naturelle. Le Serviteur obtient 2 niveaux de santé supplémentaires.<br /><strong>Sur-musclé : </strong>Vous avez donné une musculature additionnelle à cette créature, augmentant sa force et ses capacités physiques. Le Serviteur obtient une spécialisation gratuite de Puissance.<br /><strong>Souple : </strong> Vous avez allongé les os de cette créature, lui ajoutant des articulations et vous avez affiné son corps, la rendant bien plus agile. Ave une action simple, cette créature peut automatiquement se libérer de toute Immobilisation. De plus, les créatures Souples ont un bonus de +2 sur les Scores de Test basés sur l’Esquive et un bonus de +2 à l’initiative.<br /><strong>Crachat Acide : </strong>Vous avez fait des choses terribles aux organes de cette créature, faisant muter sa chimie interne. Une fois par tour, votre Serviteur peut utiliser une attaque à distance pour infliger 2 points de blessures aggravées. Les Goules avec une spécialisation en Athlétisme ont un bonus à leurs attaques à Distance. Voir le chapitre trois: création de personnage, choix des historiques initiaux, serviteurs.<br /><strong>Conçue pour le Combat : </strong>Votre création est conçue pour se battre. Elle a des griffes et ses membres sont arrangés pour une efficacité maximale. Votre goule obtient une spécialisation gratuite de Bagarre et inflige des dommages aggravés avec les attaques à mains nues.<br /><strong>Vol : </strong>Votre monstre a des ailes en cuir, capables de le porter maladroitement en hauteur. Votre création peut voler à une vitesse normale (trois pas par action simple). Seuls les Cerbères (créations animales) peuvent recevoir cette option."
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_CARPATIQUE_NAME",
+        "Text":"Lignée de Sang: Carpatique"
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_CARPATIQUE_DESCRIPTION",
+        "Text":"Il y a longtemps, quand les Tzimisces ont rejoint le Sabbat, quelques membres de ce clan ont résisté. Ces nobles archaïques refusèrent de cultiver l’utilisation de la Vicissitude, l’appelant une corruption de leur sang pur. Ils dirigent quelques petits domaines dans l’Est de l’Europe et s'aventurent rarement dans le monde moderne. Vos disciplines de clan sont Animalisme, Auspex et Domination. Les Carpatiques ne peuvent jamais apprendre Vicissitude mais ils peuvent apprendre Protéisme sans mentor."
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_KOLDUN_NAME",
+        "Text":"Lignée de Sang: Koldun"
+    },
+    {
+        "Key":"ATOUT_TZIMISCE_KOLDUN_DESCRIPTION",
+        "Text":"Ces Tzimisces qui pratiquent l’art rare de la sorcellerie koldunique, ou koldunisme, affirment être les créateurs de la Magie du Sang. Ces vampires sont profondément connectés à la terre, asservissant les anciens esprits de la terre à leur soumission. Les Kolduns enseignent rarement la magie de leur Sang à des étrangers, même de leur clan, préférant exister dans un petit lignage, se considérant supérieurs aux autres Vampires. Vos disciplines de clan sont Animalisme, Auspex et Thaumaturgie : La Voie de la Maîtrise Élémentaire. Vous pouvez aussi acheter une voie de Thaumaturgie supplémentaire de votre choix. Cette voie supplémentaire est apprise sans Mentor et est achetée au prix d’XP de clan, mais n’est pas considérée comme une discipline de Clan. Par exemple, en utilisant le pouvoir de Possession, cette voie Thaumaturgique ne peut pas être emmenée."
+    },
+    {
+        "Key":"ATOUT_VENTRUE_AURA_OF_COMMAND_NAME",
+        "Text":"Aura de commandement"
+    },
+    {
+        "Key":"ATOUT_VENTRUE_AURA_OF_COMMAND_DESCRIPTION",
+        "Text":"En tant que royauté de la société Vampirique, le clan des Roys ne permet aucune désobéissance des simples pions. Les Mortels et les Goules ne peuvent pas résister à vos pouvoirs de Présence ni de Domination. Lorsque vous ciblez un mortel avec Présence ou Domination, vous réussissez automatiquement ; le mortel ne peut pas faire de challenge de défense. Cet effet s’applique aussi aux techniques avec des prérequis impliquant Domination ou Présence."
+    },
+    {
+        "Key":"ATOUT_VENTRUE_CROISE_NAME",
+        "Text":"Lignée : Croisé"
+    },
+    {
+        "Key":"ATOUT_VENTRUE_CROISE_DESCRIPTION",
+        "Text":"Vous êtes un membre d’une lignée stricte et exigeante du Clan Ventrue. Autrefois honnie comme une aberration, les Croisés ont commencé à obtenir plus de respect des aînés dans les nuits modernes. Vos disciplines de clan sont Auspex, Domination et Force d’âme."
+    },
+    {
+        "Key":"ATOUT_VENTRUE_PARANGON_NAME",
+        "Text":"Parangon"
+    },
+    {
+        "Key":"ATOUT_VENTRUE_PARANGON_DESCRIPTION",
+        "Text":"Vous êtes soit un leader établi au sein des Ventrues soit une star en devenir. La lignée des Roys vous observe tel un exemple et beaucoup de membres plus jeunes du clan cherchent votre approbation et acceptation. Ceci apporte les bénéfices suivants :<br />Le montant de l’argent disponible pour vous dans l’historique Ressources est doublé.<br />Vous obtenez une nouvelle action par Influence que vous contrôlez (Gotha ou Pègre).<br />De plus, vous avez attiré l’attention d’un Ventrue plus jeune qui souhaite suivre vos pas vers la grandeur. Ce lieutenant est un PNJ Nouveau-Né Ventrue de bas rang, qui peut être votre infant ou une relation distante de lignée. Il est construit comme un Serviteur de niveau 6. À la différence d’un Serviteur, ce lieutenant a accès à 3 de ces historiques : Ressources, Havre, Troupeau, ou Influence (Gotha ou Pègre). Votre lieutenant a 3 points dans un de ces historiques, puis 2 dans le second et 1 dans le troisième. Ce lieutenant ne peut pas apprendre de techniques ou pouvoirs d’Anciens. Si le lieutenant meurt, vous perdez accès à cet atout pour 4 sessions de jeu ou 2 mois (le plus long des 2), reflétant votre recherche pour un remplaçant convenable."
+    },
+    {
+        "Key":"ATOUT_VENTRUE_ROYAL_NAME",
+        "Text":"Allure royale"
+    },
+    {
+        "Key":"ATOUT_VENTRUE_ROYAL_DESCRIPTION",
+        "Text":"Comme les ordres des rois et des reines d’autrefois ont été instantanément obéi, vous pouvez libérer la force de votre personnalité dans un flash magnifique. Une fois par session de jeu, vous pouvez utiliser n’importe lequel de vos pouvoirs de Présence de manière instantanée, sans dépenser d’action. Vous pouvez activer cet atout avant votre initiative. Vous devez payer le coût normal et faire les tests appropriés demandés pour activer votre pouvoir de Présence. Allure Royale peut être utilisée pour augmenter les pouvoirs standards, mais ne peut être utilisée en conjonction avec des techniques ou des pouvoirs d’Anciens."
+    },
+    {
+        "Key":"ATOUT_CAITIFF_PROPICE_NAME",
+        "Text":"Propice"
+    },
+    {
+        "Key":"ATOUT_CAITIFF_PROPICE_DESCRIPTION",
+        "Text":"Vous êtes peut-être né sous une bonne étoile, ou peut-être que votre génétique s'est simplement adaptée plus naturellement que les autres à l’Étreinte. Peu importe la raison, l’Étreinte a eu un effet propice à votre existence. Cet atout réplique n’importe quel autre atout général d’un coût de 3 points ou moins. Par exemple, vous pouvez acheter Propice et choisir que cela va répliquer l’atout Robuste, qui coûte ordinairement 3 XP. Propice vous apporte alors les bénéfices de l’atout Robuste pour seulement 1 XP.<br />Rappelez-vous qu’un personnage ne peut pas acheter deux fois le même atout. Cela signifie donc qu’il ne peut pas acheter Propice deux fois, mais aussi qu’il ne peut pas acheter Propice pour répliquer Robuste puis acheter l’atout Robuste à son prix d’origine pour doubler les effets de l’atout. Propice ne peut répliquer que des atouts généraux et ne peut pas être utilisé pour acheter des atouts de clan ou de rareté."
+    },
+    {
+        "Key":"ATOUT_CAITIFF_SANG_ECLIPSE_NAME",
+        "Text":"Sang Éclipsé"
+    },
+    {
+        "Key":"ATOUT_CAITIFF_SANG_ECLIPSE_DESCRIPTION",
+        "Text":"Votre sang est plus dilué que la plupart et même parmi des Vampires de votre Génération. À cause de ça, vous ne vous êtes jamais vraiment adapté à votre état de mort-vivant. Vous n’avez pas de problème à rester éveillé durant la journée et regagnez 1 point de Volonté par jour, même si vous ne vous reposez pas. De plus, vous prenez des dégâts normaux du soleil, contrairement aux dégâts aggravés. Les dégâts du soleil ne peuvent pas être encaissés ou réduits, mais peuvent être soignés normalement selon les règles de soin des dégâts."
+    },
+    {
+        "Key":"ATOUT_CAITIFF_VESTIGES_GRANDEUR_NAME",
+        "Text":"Vestiges de la Grandeur"
+    },
+    {
+        "Key":"ATOUT_CAITIFF_VESTIGES_GRANDEUR_DESCRIPTION",
+        "Text":"Par défaut, les Caïtiffs choisissent trois disciplines de clan parmi les disciplines dans cette liste : Animalisme, Auspex, Célérité, Occultation, Domination, Force d’âme, Présence ou Puissance. Les personnages ayant acheté cet atout choisissent seulement deux disciplines de clan dans cette liste et une parmi la liste de disciplines suivantes : Aliénation, Protéisme, Serpentis, Quietus, Obténébration, Vicissitude, ou Chimérie. Cet atout ne peut être acheté qu’à la création du personnage."
+    },
+    {
+        "Key":"ATOUT_BAALI_INFERNAL_LEGACY_NAME",
+        "Text":"Héritage Infernal"
+    },
+    {
+        "Key":"ATOUT_BAALI_INFERNAL_LEGACY_DESCRIPTION",
+        "Text":"Les Baalis préfèrent Étreindre des individus qui possèdent déjà du sang Démoniaque ; ceux dont les ancêtres, quelque part dans leur lignée familiale, ont eu des ébats ayant engendré un enfant avec un Démon. Ce genre d’âme, déjà entachée par cet héritage, tombe aisément dans l’infernalisme et devient habituellement particulièrement puissante. Cet atout réplique la mécanique de l’atout Pouvoir Infernal et l’atout de la Voie des Révélations Démoniaques. Les Baalis peuvent acheter à la fois l’atout Pouvoir Infernal et l’atout Héritage Infernal, s'ils le souhaitent. Un personnage ne peut pas acheter l’atout Héritage Infernal et l’atout de la Voie des Révélations Démoniaques ; un personnage avec cet atout a déjà converti sa Moralité à cette voie."
+    },
+    {
+        "Key":"ATOUT_BAALI_ANGELLIS_ATER_NAME",
+        "Text":"Lignée de sang : Angellis Ater"
+    },
+    {
+        "Key":"ATOUT_BAALI_ANGELLIS_ATER_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Azaneali, aussi connue sous le nom d’Angellis Ater ou \"Anges Noirs\". Cette lignée a débuté parmi les Lasombra mais a été corrompue (et son sang altéré) par la magie infernale d’un Baali appelé Azaneal. Ces tisseurs d’ombres sataniques prennent plaisir à corrompre et à tourmenter les fidèles de la foi et feront tout leur possible pour détruire la croyance de tels individus. Vos disciplines de clans sont Daemonium, Domination et au choix entre Puissance, Présence, Occultation."
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_NECROMANTIC_INSTINCT_NAME",
+        "Text":"Instinct Nécromantique"
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_NECROMANTIC_INSTINCT_DESCRIPTION",
+        "Text":"Vous pouvez acheter une voie supplémentaire de Nécromancie en plus de la voie de Mortis. Cette voie additionnelle est apprise sans Mentor et est achetée au prix d’une discipline de clan, mais n’est pas considérée comme une discipline de clan. Par exemple, en utilisant le pouvoir de Possession, ces voies Nécromantiques ne peuvent pas être emmenées. Vous pouvez acheter cet atout plusieurs fois, vous permettant d’apprendre plusieurs voies de Nécromancie. Les membres de la lignée de sang Samedi qui achètent cet atout peuvent choisir la Voie de Mortis."
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_BLOODLINE_SAMEDI_NAME",
+        "Text":"Lignée de sang: Samedi"
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_BLOODLINE_SAMEDI_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Samedi, un groupe indépendant de vampires répugnants et pourrissants qui pratiquent le vaudou. Vos disciplines de sang sont Force d’âme, Occultation et Thanatosis."
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_SAIL_NAME",
+        "Text":"Voile Percé"
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_SAIL_DESCRIPTION",
+        "Text":"Vous tirez votre pouvoir de l’énergie de la mort. A chaque fois qu’une créature consciente (mortelle ou surnaturelle) meurt dans votre ligne de vue, vous gagnez immédiatement 3 points de Sang. Ce Sang agit en tous points comme les points de Sang normaux. Cet effet ne vous permet pas d’avoir plus de Sang que votre maximum habituel. La mort d’êtres non-conscients, comme les animaux, et la mort d’êtres artificiels, comme les Golems, ne rapportent aucun bénéfice."
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_BLOODLINE_LAMIA_NAME",
+        "Text":"Lignée de sang: Lamia"
+    },
+    {
+        "Key":"ATOUT_CAPPADOCIAN_BLOODLINE_LAMIA_DESCRIPTION",
+        "Text":"Vous êtes un membre de la lignée des Lamia, qui consiste en un ordre de femmes qui ont autrefois juré de protéger leurs maîtres Cappadociens. Il y a très peu d’hommes parmi les Lamias, mais leur existence est connue. Vos disciplines de clan sont Force d’âme, Nécromancie: Voie de Mortis et Puissance."
+    },
+    {
+        "Key":"ATOUT_RAVNOS_DAYDREAM_NAME",
+        "Text":"Rêve Éveillé"
+    },
+    {
+        "Key":"ATOUT_RAVNOS_DAYDREAM_DESCRIPTION",
+        "Text":"Vous êtes profondément en lien avec le monde des rêves dans lequel se forme la Chimérie. Une fois par session, vous pouvez utiliser une simple illusion chimérique comme si elle était réelle. Cette réalité personnelle temporaire dure un tour complet. Durant ce tour, vous pouvez courir sur un escalier chimérique, couper une vraie corde avec un couteau d’illusion, ou utiliser une barre chimérique pour faire levier sur un objet lourd. Cet effet s'applique uniquement sur le Ravnos ou sur les objets inanimés que le Ravnos tente d’affecter. Rêve Éveillé ne peut pas être utilisé pour blesser directement ou aider un autre personnage."
+    },
+    {
+        "Key":"ATOUT_RAVNOS_BLOODLINE_BRAHMAN_NAME",
+        "Text":"Lignée de Sang : Brahman"
+    },
+    {
+        "Key":"ATOUT_RAVNOS_BLOODLINE_BRAHMAN_DESCRIPTION",
+        "Text":"En Inde, le clan Ravnos fut un jour organisé en un système de castes. En théorie, la place de chacun dans ces castes (appelées jati) était héritée par le Sire et ces jati étaient immuables. Dans les nuits modernes, seule une jati existe encore. Ces Ravnos, connus en tant que Brahman, sont des philosophes et des gourous tâchés de découvrir la vérité derrière l’illusion de la réalité. Vos disciplines de clan sont Animalisme, Auspex et Chimérie."
+    },
+    {
+        "Key":"ATOUT_RAVNOS_KING_ESCAPE_NAME",
+        "Text":"Roi de l’évasion"
+    },
+    {
+        "Key":"ATOUT_RAVNOS_KING_ESCAPE_DESCRIPTION",
+        "Text":"Filous notoires, les Ravnos se retrouvent parfois piégés dans des situations épineuses. Au travers des siècles, le clan a développé des méthodes pour échapper aux conséquences de leurs actions. Les Ravnos avec cet atout ont une capacité à s'éclipser quand personne ne regarde, échappant même aux prisons les mieux gardées ou verrouillées. Les attaques Physiques n’empêchent pas le personnage de s'échapper, sauf si l’attaque réussit à infliger des dommages ou si le Ravnos est immobilisé. Les personnages qui sont physiquement retenus ou emprisonnés (pas immobilisés) peuvent étudier leur environnement pendant 3 tours, après quoi ils trouvent un moyen d’échapper à leurs liens. Cet atout affecte uniquement le Ravnos et ne lui permet pas de s'échapper d’une situation qui n’a pas de sortie logique, d’échapper à une contrainte mentale comme Domination, ou de bouger au travers d’objets solides."
+    },
+    {
+        "Key":"ATOUT_SALUBRI_JUST_FURY_NAME",
+        "Text":"Juste fureur"
+    },
+    {
+        "Key":"ATOUT_SALUBRI_JUST_FURY_DECRIPTION",
+        "Text":"La foi et la fureur de votre esprit, quand elles sont relâchées, sont des entités palpables. Vous recevez un bonus de +3 à vos Scores de Test de Bagarre et Mêlée quand vous ciblez un personnage qui possède des pouvoirs démoniaques, atouts ou investissements infernaux, ou la discipline Daemonium. De plus, vous recevez un bonus de +1 à à vos Scores de Test Bagarre et Mêlée quand vous ciblez des membres du clan Tremere ou des diabolistes. Ces bonus ne se cumulent pas ; si plus d’un bonus s'applique, vous recevez le plus grand d’entre eux. Fureur Vertueuse nécessite un acte de foi conscient, vous devez annoncer que vous utilisez Fureur Vertueuse quand vous annoncez la cible de votre attaque. Si la cible ne remplit pas les conditions, cet atout ne fournit aucun bonus. Tous les personnages sont conscients d’une utilisation réussie de cet atout ; une lumière blanche et violente jaillit du poing du Salubrien (ou de son arme), émanant à travers le coup dans une radiance terrifiante de par sa foi.<br />Les Vampires qui voient cet effet peuvent ne pas le reconnaître, mais ils ressentent une peur perceptible les submerger devant cette vision. La lumière n’arrange en rien la réputation des Salubriens en tant qu’Infernalistes ; au contraire, la foi peut provenir de n’importe quelle source - les malveillantes inclues. L’utilisation réussie de ce pouvoir ne fait pas la différence, donc il n’est pas possible de dire quel aspect de la cible (diaboliste, démoniste, Tremere, ou tout) a provoqué les effets de Fureur Vertueuse."
+    },
+    {
+        "Key":"ATOUT_SALUBRI_SPIRIT_ARMOR_NAME",
+        "Text":"Armure spirituelle"
+    },
+    {
+        "Key":"ATOUT_SALUBRI_SPIRIT_ARMOR_DECRIPTION",
+        "Text":"Des siècles de foi et de dévouement sont portés dans le sang du Salubrien. Tant que vous n’avez pas de traits de la Bête, vous pouvez dépenser 1 point de Sang quand vous êtes ciblé par un pouvoir démoniaque, les capacités accordées par les atouts ou investissements infernaux, ou la discipline Daemonium. Si vous le faites, vous résistez automatiquement à l’utilisation de ce pouvoir. Cet effet peut être utilisé n’importe quand, avant même l’initiative du round de combat. Un personnage avec cet atout ne peut pas apprendre de pouvoirs démoniaques, acheter des atouts infernaux, utiliser des investissements infernaux ou apprendre la discipline Daemonium."
+    },
+    {
+        "Key":"ATOUT_SALUBRI_BLOODLINE_HEALER_NAME",
+        "Text":"Lignée : Guérisseur"
+    },
+    {
+        "Key":"ATOUT_SALUBRI_BLOODLINE_HEALER_DECRIPTION",
+        "Text":"Quand les Salubriens furent fondés, les membres de ce clan étaient de pacifiques guérisseurs et des visionnaires mystiques. C'est seulement après que Saulot fut revenu de l’Est que le clan manifesta la fureur de son sang. Vous êtes un retour en arrière de ces temps plus pacifiques : un membre de la lignée des Soigneurs. Vos disciplines de clan sont Auspex, Force d’âme et Obéah."
+    },
+    {
+        "Key":"ATOUT_CACOPHONY_SURNATURAL_ARIA_NAME",
+        "Text":"Aria surnaturel"
+    },
+    {
+        "Key":"ATOUT_CACOPHONY_SURNATURAL_ARIA_DESCRIPTION",
+        "Text":"Votre voix est incomparable et vous êtes entraîné pour l’utiliser à son meilleur avantage. Avec l’achat de cet atout, votre niveau de potentiel maximum dans la compétence Performance (Chant) est accru de 3 points ; si votre limite était de 5, votre nouveau potentiel est accru à 8. De plus, le coût d’XP pour acheter Performance (Chant) est divisé par deux (arrondis au supérieur)."
+    },
+    {
+        "Key":"ATOUT_CACOPHONY_CELESTIAL_OCTAVES_NAME",
+        "Text":"Octaves Célestes"
+    },
+    {
+        "Key":"ATOUT_CACOPHONY_CELESTIAL_OCTAVES_DESCRIPTION",
+        "Text":"La beauté pure de votre chant attire l’attention et provoque le ravissement même dans le cœur le plus froid. Si vous avez le pouvoir de Présence Transe, vous pouvez l’utiliser sur un individu qui écoute votre voix. Vous pouvez le faire même si la cible n’est pas dans votre ligne de vue et même si la cible n’est pas concentrée sur vous et ne réalise pas consciemment que vous êtes en train de chanter. (Ceci est une exception à la règle listée dans le Chapitre Quatre : Disciplines, Regard et Attention). Cet effet ne peut pas être utilisé par des moyens à distances, comme le pouvoir de Melpominée Voix Fantomatique, un enregistrement audio ou par téléphone ; la cible doit vous entendre de vive voix."
+    },
+    {
+        "Key":"ATOUT_GARGOYLE_FLY_NAME",
+        "Text":"Vol"
+    },
+    {
+        "Key":"ATOUT_GARGOYLE_FLY_DESCRIPTION",
+        "Text":"Les Gargouilles Vampiriques sont uniques et différentes en apparence de leurs homonymes architecturaux. Dans leurs rangs vous pouvez voir une variété de cornes, pointes, traits tordus, des visages de canidés ou avec un nombre variable de doigts. Quelques-uns de cette lignée ont des ailes qui poussent. Certaines Gargouilles n’ont que de petites ailes et sont purement ornementales. Vos ailes cependant, sont parfaitement fonctionnelles. Avec cet Atout vous pouvez voler à la même vitesse avec laquelle vous pouvez marcher (trois pas par action). C'est vraiment voler, comme un oiseau ou une autre créature aérienne et n’est pas limité à un simple vol plané. Si vous ailes sont cassées ou retirées, vous devez d’abord les soigner avant de pouvoir a nouveau utiliser le pouvoir de vol."
+    },
+    {
+        "Key":"ATOUT_GARGOYLE_DARK_STATUE_NAME",
+        "Text":"Sombre Statue"
+    },
+    {
+        "Key":"ATOUT_GARGOYLE_DARK_STATUE_DESCRIPTION",
+        "Text":"Votre Étreinte ne vous a pas simplement donné l’apparence de la pierre, elle vous a aussi donné un peu de la résilience et de la passivité de cette pierre. Vous pouvez utiliser votre action standard pour vous transformer en une statue de vous-même, faite en pierre solide. Pendant que vous êtes dans cette forme, vous pouvez percevoir la zone autour de vous et dépenser du Sang pour vous soigner, mais vous ne pouvez pas utiliser vos disciplines et êtes complètement immobile. Vous êtes aussi immunisé aux dégâts par le feu et la lumière du soleil et vous pouvez automatiquement résister aux frénésies de peur déclenchées par la lumière du soleil. Vous gagnez aussi trois niveaux de santé supplémentaires. Sombre Statue dure aussi longtemps que vous le souhaitez et peut continuer pendant le sommeil et la torpeur. Vous pouvez mettre fin aux effets de Sombre Statue avec une action simple."
+    }
+]

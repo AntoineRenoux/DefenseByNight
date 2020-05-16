@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "ASCHES_NAME",
+        "Text": "La Voie des Cendres"
+    },
+    {
+        "Key": "ASCHES_DESCRIPTION",
+        "Text": "L'étude de la Voie des Cendre est l’étude des Terres des Ombres : le monde des morts. A travers des recherches sur le passage d’une âme de ce monde à l’autre, un nécromancien apprend à renforcer ou affaiblir le Voile et même à passer dans et vers chacun des mondes."
+    },
+    {
+        "Key": "ASCHES_POWER_1_NAME",
+        "Text": "Perception au-delà du Voile"
+    },
+    {
+        "Key": "ASCHES_POWER_1_DESCRIPTION",
+        "Text": "Les Terres des Ombres sont superposées sur le monde réel, comme un écho des choses du lointain passé. Les bâtiments qui ont été détruits sont toujours debout ; des carrioles foncent à travers des rues fantomatiques ; des murs, des objets et même des zones forestières sont toujours là où le monde moderne ne montre plus signe de leur existence. A travers l’usage de la Perception au-delà du Voile, vous pouvez voir dans les Terres des Ombres aussi facilement que dans le monde réel."
+    },
+    {
+        "Key": "ASCHES_POWER_1_SYSTEM",
+        "Text": "Une fois acheté, ce pouvoir est toujours actif. Vous pouvez voir et ressentir les Terres des Ombres autour de vous, percevant l’écho du passé qui s'accroche encore à notre monde. Vous pouvez voir les spectres présents dans les Terres des Ombres mais vous ne gagnez aucune capacité pour communiquer avec eux. Si un spectre parle une langue que vous connaissez, vous pouvez discuter avec lui."
+    },
+    {
+        "Key": "ASCHES_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ASCHES_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépenser une action standard pour étudier un mortel vivant et déterminer s'il a des chances de devenir un spectre. Ceux-ci sont créés quand des personnes meurent avec des problèmes non résolus, des connexions émotionnelles particulièrement fortes ou d’autres liens puissants. Vous pouvez aussi regarder un objet dans le monde physique et savoir s'il s'agit d’une forme d’entrave spectrale : un objet de grande importance pour un spectre particulier, qui pourrait être utilisé pour le faire venir ou le lier."
+    },
+	 {
+        "Key": "ASCHES_POWER_2_NAME",
+        "Text": "Maîtrise du Voile"
+    },
+    {
+        "Key": "ASCHES_POWER_2_DESCRIPTION",
+        "Text": "Vous vous tenez entre les deux mondes et pouvez contrôler le flux d’énergie qui circule entre le monde des morts et celui des vivants. Avec de la concentration, vous pouvez manipuler le Voile entre les mondes afin de le rendre plus difficile à franchir - ou plus facile à ignorer."
+    },
+    {
+        "Key": "ASCHES_POWER_2_SYSTEM",
+        "Text": "En dépensant un point de sang et en vous concentrant pendant trois tours complets, vous pouvez augmenter ou diminuer le Voile d’un niveau dans une zone de la taille d’une grande pièce. Cet effet dure pendant le reste de la nuit. Un voile plus fort rend les interactions avec le monde physique plus difficiles pour les spectres tandis qu’un Voile plus faible a l’effet opposé. Il y a trois niveau de Voile : faible, moyen et fort. Le Voile habituel est moyen, sauf dans des lieux particulièrement \"lugubres\", comme des cimetières ou des maisons hantées ; ou des lieux émotionnellement stériles, comme un laboratoire ou une pièce neuve, qui ont un Voile fort. <br /> <strong>Faible :</strong> Cette zone est particulièrement lugubre, remplie de sons inhabituels, d’odeurs et d’apparitions occasionnelles. Les spectres trouvent les interactions avec le monde physique particulièrement faciles dans ces endroits. Les fantômes n’ont pas besoin de dépenser de Pathos pour se manifester. Quand ils le font, les fantômes gagnent un nombre de niveaux de santé équivalent au nombre de tours qu’il prend pour se manifester, avec un maximum de 5. De plus, la vision du monde réel par les fantômes est particulièrement claire et ils peuvent communiquer dans des murmures même avec des personnes n’ayant pas l’atout Medium (ou toute autre capacité à voir ou communiquer avec les spectres). Une âme qui est en dehors de son corps suite à l’usage de Vol d’Âme peut dépenser un point de volonté pour se manifester quand le Voile est si faible. Une telle apparition a accès à tous ses pouvoirs incluant les pouvoirs physiques ainsi qu’un niveau de santé.<br /> <strong>Moyen : </strong> Il s'agit du niveau normal. Les fantômes doivent dépenser la quantité normale de Pathos pour traverser le Voile. <br /> <strong>Fort : Les spectres trouvent la traversée du Voile extrêmement difficile comme les interactions avec le monde physique. Les fantômes doivent dépenser le double du Pathos normal pour pouvoir se manifester.</strong>"
+    },
+    {
+        "Key": "ASCHES_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ASCHES_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "En dépensant un point de sang et en se concentrant pendant trois tours complets, vous pouvez augmenter ou diminuer le niveau du Voile d’un niveau. Cela dure pour un mois lunaire entier (28 jours) et vous pouvez délimiter une zone de la taille d’une grande maison."
+    },
+	{
+        "Key": "ASCHES_POWER_3_NAME",
+        "Text": "Main Morte"
+    },
+    {
+        "Key": "ASCHES_POWER_3_DESCRIPTION",
+        "Text": "Percevoir le Monde des ombres n’est que le premier pas dans la compréhension de la transition entre la vie et la mort. Ensuite, vous devez maîtriser la capacité de passer à travers le Voile. En utilisant ce pouvoir, vous pouvez saisir des artefacts fantomatiques de l’autre coté du Voile et les apporter dans le monde physique."
+    },
+    {
+        "Key": "ASCHES_POWER_3_SYSTEM",
+        "Text": "En dépensant un Point de Sang et une action standard, vous pouvez atteindre le Monde des Ombres et en retirer un objet commun. Les objets rapportés par ce pouvoir doivent être assez petits pour qu’une personne normale puisse les tenir à deux mains. Ce pouvoir peut être utilisé pour récupérer des choses qui se trouvent naturellement dans le Monde des Ombres à cet endroit, des échos des objets qui se trouvaient là dans le passé. De tels objets sont toujours normaux même s'ils apparaissent anciens et doivent logiquement être présents dans l’environnement local des Terres des ombres. <br /> Vous pouvez aussi utiliser ce pouvoir de façon similaire en transférant des objets physiques vers le Monde des Ombres. De cette façon, l’utilisateur de ce pouvoir peut, par exemple, transporter à travers le Voile une arme à feu et la donner à son Suivant fantomatique (qui le suivra partout) et se tiendra prêt à rendre l’arme. <br /> Les objets provenant du Monde des Ombres restent dans le monde physique pour une heure, après quoi ils se dissolvent dans le brouillard et retournent dans leur plan d’origine."
+    },
+    {
+        "Key": "ASCHES_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "ASCHES_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Les objets que vous ramenez du Monde des Ombres restent sur le plan physique jusqu'à la fin de la nuit et non plus pour seulement une heure."
+    }, 
+	{
+        "Key": "ASCHES_POWER_4_NAME",
+        "Text": "Lance Stygienne"
+    },
+    {
+        "Key": "ASCHES_POWER_4_DESCRIPTION",
+        "Text": "Au plus profond des Terres des Ombres, de puissants orages et de puissantes tempêtes ravagent le paysage au ton sépia, allant de pluies de plasma jusqu'à des éclairs d’âme en flammes. Vous pouvez libérer cette puissance, projetant une lance faite de pur oubli en direction de vos ennemis."
+    },
+    {
+        "Key": "ASCHES_POWER_4_SYSTEM",
+        "Text": "Dépensez un point de sang et une action standard afin de lancer un trait de plasma provenant des tempêtes des Terres des Ombres. Faites un challenge opposé de <i>Social + Occulte</i> contre le <i>Physique + Esquive</i> de votre cible. Si vous réussissez, vous infligez 3 points de dégâts normaux. Cette attaque peut frapper des personnes se trouvant dans les Terres des Ombres - incluant les spectres, les voyageurs et les personnes dont l’âme a été volée - aussi bien que sur le plan physique."
+    },
+    {
+        "Key": "ASCHES_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Votre Lance Stygienne inflige 4 points de dégâts normaux au lieu de 3."
+    },
+    {
+        "Key": "ASCHES_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les dégâts infligés par votre Lance Stygienne ne peuvent être encaissés ou réduits mais peuvent être soignés normalement."
+    }, 
+	{
+        "Key": "ASCHES_POWER_5_NAME",
+        "Text": "Ex Nihilo"
+    },
+    {
+        "Key": "ASCHES_POWER_5_DESCRIPTION",
+        "Text": "Le nécromancien qui maîtrise la Voie des Cendres a aussi maîtrisé le Voile. Vous pouvez traverser la frontière entre les Terres des Ombres et le monde physique aussi facilement que d’autres peuvent ouvrir une porte et passer à travers."
+    },
+    {
+        "Key": "ASCHES_POWER_5_SYSTEM",
+        "Text": "En se concentrant sur une destination familière, avec l’utilisation d’un Point de Sang et en incantant pendant cinq tours complets, vous pouvez voyager dans et à travers le Monde des Ombres. Vous pouvez emporter avec vous jusqu'à trois de vos suivants zombies (Horde Putréfiée ou autre suivant) pour ce voyage.<br /> Le temps et les distances étant subjectives dans les Terres des Ombres, il faut toujours 4 heures pour arriver à votre destination, quelle que soit la distance qu’il aurait facilement parcourue dans le monde réel. Vous pouvez raccourcir le temps qu’il faut pour atteindre votre destination en sacrifiant des serviteurs morts-vivants (zombies ou spectres) à la Tempête après votre entrée dans l’Ex Nihilo. Pour chaque suivant ainsi sacrifié, votre voyage prend une heure de moins à se compléter. Si vous sacrifiez vos trois zombies ou spectres, votre voyage ne prendra qu’une heure.<br />Alternativement, vous pouvez entrer dans les Terres des Ombres sans intention de voyager. A la place, vous errez derrière le Voile et espionnez le monde des vivants. Tant que vous êtes dans le Monde des Morts, vous voyez le monde réel comme une ombre floue de lui-même. Cela vous permet d’avoir une idée générale des évènements mais il est très difficile de percevoir des détails ou d’entendre des conversations. L’Atout Médium ne fonctionne pas en sens inverse et ne vous permet pas de voir ou d’écouter le monde réel depuis les Terres des Ombres. Un personnage peut revenir dans le monde physique en se concentrant 5 tours. Cette transition est lente et observable, le personnage revenant lentement et progressivement, gagnant de la solidité au fur et à mesure qu’il traverse le Voile.<br /> Vous ne pouvez emmener qui que ce soit avec vous dans les Terres des Ombres à part vos suivants zombies. Ce pouvoir peut être particulièrement dangereux s'il se trouve des fantômes hostiles comme des spectres dans les Terres des Ombres. De telles créatures peuvent vous attaquer quand vous vous trouvez sur leur plan. La rencontre est alors traitée comme un conflit normal. Tant que vous êtes dans les Terres des Ombres, vous ne pouvez pas utiliser de pouvoirs (Nécromancie incluse) sur des cibles se trouvant dans le monde réel."
+    },
+    {
+        "Key": "ASCHES_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "ASCHES_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "En plus de l’usage normal de ce pouvoir, vous pouvez dépenser un Point de Sang et votre action standard pour effectuer une transition dans le Monde des Ombres durant un battement de cil. Vous passez le tour complet suivant vous déplaçant à travers les Terres des Ombres et vous vous retrouvez ensuite dans n’importe quelle direction de votre emplacement d’origine et dans un rayon de 20 pas."
+    }, 
+	{
+        "Key": "ASCHES_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour La Voie des Cendres"
+    }
+]

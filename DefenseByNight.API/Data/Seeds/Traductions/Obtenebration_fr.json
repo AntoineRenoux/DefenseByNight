@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "OBTENEBRATION_NAME",
+        "Text": "Obténébration"
+    },
+    {
+        "Key": "OBTENEBRATION_DESCRIPTION",
+        "Text": "Les maîtres de l’Obténébration peuvent commander aux ténèbres, leur ordonnant d’obéir à leur volonté. Alors que les profanes pensent que ce n’est rien de plus que quelques petits tours d’ombres, la vérité est bien plus dangereuse. L’Obténébration est complètement surnaturelle, appelant l’essence des Abîmes et les redessinant dans le monde réel. Ces ténèbres étouffent le son, absorbent la lumière et semblent presque tangibles. Ils sont aussi rétifs, se déplaçant et se tordant avec une conscience propre, à moins que leur maître ne les contrôle fermement. <br />Tous les esprits, quelle que soit leur nature, ont peur des Abîmes et les fantômes les fuiront plutôt que de risquer d’entrer dans une folie meurtrière à leur simple contact. <br />Tous les pouvoirs d’Obténébration, incluant les pouvoirs et les techniques d’Anciens, sont automatiquement dissipés s’ils sont exposés à la lumière du soleil."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_1_NAME",
+        "Text": "Jeu d’Ombres"
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_1_DESCRIPTION",
+        "Text": "À votre commandement, les ombres dans la zone se remplissent avec l’énergie de l’Abîme, se déplaçant et se reformant selon vos désirs. Ces ombres s’animent, tremblent et même parviennent à une certaine forme de conscience perverse limitée, se tendant pour porter un contact glacé à quiconque s’approcherait de trop près."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_1_SYSTEM",
+        "Text": "Ce pouvoir accorde au Vampire le contrôle sur les ombres naturelles de la zone. Dépensez 1 point de Sang et effectuez une action simple pour animer une portion d’ombre se trouvant à proximité pour les 5 prochaines minutes. Vos ombres animées ne sont pas vraiment intelligentes mais elles possèdent une astuce suffisamment rudimentaire qui leur permet de suivre des instructions simples.<br /> Vos ombres sont semi-solides et capable de bouger des objets pesant jusqu’à 500 grammes. Les ombres animées possèdent une action standard par tour et peuvent l’utiliser pour bouger de trois pas, pour effectuer une action simple ou pour attaquer. Vos ombres animées bougent et attaquent toujours en groupe. <br />Si elles sont commandées pour attaquer, les ombres s’enroulent autour d’une cible, tentant de lui couper la respiration. Le challenge d’attaque des ombres est de 8. Les morts-vivants ne sont pas affectés par cette attaque, mais les vivants prennent 1 point de dommage par attaque réussie, qui ne peut être encaissé ou réduit, pendant que votre cible cesse peu à peu de respirer. Vos ombres animées sont des créatures indépendantes et leur demander d’attaquer ne vous demande pas d’action. Si vous êtes affecté par un pouvoir Mental ou Social, vos ombres sont aussi affectées. Si vous ne pouvez pas briser la Majesté de la cible, vos ombres seront incapables de l’attaquer. Ces assistants d’ombre sont immunisés aux dégâts physique mais sont automatiquement dissipés s'ils sont exposés au feu ou à la lumière vive. Même un seul point de dommage de feu, comme venant de balles incendiaires, est suffisant pour renvoyer ces rejetons des ombres dans les Abîmes.<br />Un personnage ne peut avoir qu’une seule utilisation de Jeu d’Ombres active en même temps."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez former vos ombres à s’accrocher à votre corps, vous rendant extrêmement intimidant à regarder. Pendant que ce pouvoir est actif, votre contenance terrifiante vous immunise contre les succès exceptionnels de Domination et Présence."
+    },
+	 {
+        "Key": "OBTENEBRATION_POWER_2_NAME",
+        "Text": "Voile de Nuit"
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_2_DESCRIPTION",
+        "Text": "En appelant à vous les profondeurs éternelles de l’Abîme, vous convoquez une bande de ténèbres épaisse et surnaturelle qui absorbe toute lumière et déforme les sons. Ceux qui se trouvent à l’intérieur ressentent un froid douloureux, entendent des murmures de lamentation et ressentent la pression des vagues de l’océan roulant à travers leurs corps vers...le néant."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action simple pour invoquer un nuage d’ombre visqueuse, l’essence même de l’Abîme. Vous pouvez convoquer ces ténèbres au sein de l’existence n’importe où dans votre ligne de vue. Le <i>Voile de Nuit</i> a un diamètre de 6 pas et obscurcit toutes les lumières se trouvant à l’intérieur, créant une zone artificielle de ténèbres surnaturels.<br /> N’importe qui piégé dans votre <i>Voile de Nuit</i> est aveuglé, sauf s’il possède des moyens surnaturels de voir au travers du vide. Les individus dans le voile doivent utiliser les règles de Combat en Aveugle pour attaquer. Les personnages possédant des pouvoirs comme les Yeux de la Bête peuvent voir au travers du <i>Voile de Nuit</i> et les personnages avec des pouvoirs sensoriels comme Sens Aiguisés peuvent palier la cécité, leur permettant d’attaquer normalement. <br />À l’intérieur du voile, la plupart des créatures vivantes comme les animaux ou les gens subissent 1 point de dommage normal chaque tour lors de votre initiative, pendant que l’Abîme vole leur respiration et sape leur volonté de vivre. Ces dommages ne peuvent être encaissés ou réduits. Les Morts-vivants sont immunisés à ces effets, tout comme les créatures vivantes possédant un focus d’Endurance.<br /> Vous êtes immunisé aux effets de votre propre <i>Voile de Nuit</i> ; vous voyez normalement à travers le voile et vous n’êtes pas troublé par son toucher. Après avoir créé un <i>Voile de Nuit</i>, vous pouvez dépenser une action simple pour bouger votre voile de 3 pas dans n’importe quelle direction.Vous pouvez aussi dépenser une action simple et 1 point de Sang pour augmenter le rayon du voile de 2 pas, après qu’il ait été invoqué par une première utilisation de ce pouvoir."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Votre <i>Voile de Nuit</i> manifeste un lien plus fort avec les énergies surnaturelles de l’Abîme. Les Morts-vivants restent immunisés aux effets de dommages de votre voile, mais les créatures vivantes perdent 3 points de dégâts au lieu d’1. Même les créatures qui ont un focus d’Endurance ne peuvent facilement se dérober à ses effets ; ils prennent 2 points de dommages par tour passé dans le voile.De plus, tous les individus dans le voile souffrent d’une pénalité de - 2 au Score de Test d’Attaque(Physique, Mental et Social).Les personnages utilisant des pouvoirs surnaturels pour se dérober à la cécité causée par votre voile ne sont pas immunisés à cette pénalité de - 2.Les personnages utilisant les règles de Combat en Aveugle ne souffrent pas de cette pénalité de - 2."
+    },
+	{
+        "Key": "OBTENEBRATION_POWER_3_NAME",
+        "Text": "Bras des abysses"
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_3_DESCRIPTION",
+        "Text": "Au fur et à mesure que votre maîtrise d’Obténébration grandit, vos capacités a invoquer l’Abîme deviennent encore plus terrifiantes. Vous pouvez appeler des tentacules de ténèbres des Abîmes, des créatures liées aux ombres elles-mêmes. Ces serviteurs frappent et s’enroulent à votre commandement, ils sont au service de tous vos désirs."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action simple pour lever des tentacules depuis les ombres dans votre champ de vision. Ces tentacules sont une manifestation tangible de la conscience primale du vide de l’Abîme. Quand vous activez ce pouvoir, vous créez un <i>Bras des abysses</i> pour chaque pouvoir d’Obténébration que vous possédez, incluant les techniques, jusqu’à un maximum de 5. Les <i>Bras des abysses</i> ne peuvent pas bouger de l’endroit où ils ont été invoqués. <br />Chaque <i>Bras des abysses</i> agit indépendamment des autres, fonctionnant comme une créature entièrement consciente. Un <i>Bras des abysses</i> a une action standard par tour. Il peut utiliser cette action pour attaquer n’importe quelle cible dans les 2 pas. Les <i>Bras des abysses</i> ont un Score de Test d’Attaque de 8 et une attaque réussie inflige 1 point de dégât normal. Cependant, au lieu d’infliger des dommages, vous pouvez choisir qu’un <i>Bras des abysses</i> agrippe sa cible. De cette manière, un <i>Bras des abysses</i> peut utiliser la manœuvre Agripper sans dépenser de Volonté. Dans un combat de masse, les <i>Bras des abysses</i> peuvent fournir la tactique d’attaque assistée à un allié proche. Si cela arrive, les <i>Bras des abysses</i> donnent +1 de bonus au Score de Test d’Attaque de cet allié, de la même manière que la réserve d’un PNJ. Les <i>Bras des abysses</i> ne peuvent pas fournir de tactique de défense assistée. <br />Les <i>Bras des abysses</i> n’ont pas d’esprit et ne peuvent donc être la cible de pouvoirs Mentaux et Sociaux. Toutefois, si vous êtes incapable d’attaquer une cible, vos bras sont aussi incapables de porter une action hostile. Par exemple, si vous ne pouvez pas briser la Majesté de votre cible, vos <i>Bras des abysses</i> ne seront pas capable de l’attaquer non plus. <br />Un <i>Bras des abysses</i> a 4 niveaux de santé. Les bras sont immédiatement détruits s’ils sont exposés à la lumière du jour."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vos <i>Bras des Abysses</i> ont un Score de Test d’Attaque de 10. Si vous possédez au moins 1 point de Puissance, vos <i>Bras des Abysses</i> infligent 2 points de dégâts normaux au lieu de 1. Si vous possédez au moins 1 point de Force d’âme, vos <i>Bras des Abysses</i> ont 6 niveaux de santé au lieu de 4."
+    }, 
+	{
+        "Key": "OBTENEBRATION_POWER_4_NAME",
+        "Text": "Sombre Métamorphose"
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_4_DESCRIPTION",
+        "Text": "En drapant les ténèbres de l’Abîme autour de votre corps, vous fusionnez votre corps avec la conscience des anciennes profondeurs. Des bandes de ténèbres ondulent autour de votre chair pâle et des tentacules remuants apparaissent sur votre cage thoracique, vous transformant en une créature de l’Abîme."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action simple pour vous transformer en une monstrueuse créature d’ombre. La matière brute du vide vous enveloppe dans des bandes ondulantes et 4 tentacules (similaires en apparence aux Bras des Abysses) émergent de votre cage thoracique. Les membres ajoutés par la Sombre Métamorphose ne peuvent pas attaquer indépendamment, mais s’ajoutent à vos propres actions. Une fois par tour, à votre initiative, vous pouvez effectuer une attaque de Mélée avec les bras fournis par la Sombre Métamorphose, sans dépenser d’action. Cette attaque peut cibler n’importe qui dans les 5 pas. Les Attaques faites avec la Sombre Métamorphose utilisent votre score de Mélée et infligent vos dégâts de Mélée.<br /> Les attaques de la Sombre Métamorphose peuvent être modifiées par votre pouvoir de Puissance, incluant la Puissance d’Ancien et les techniques de Puissance mais ne peuvent être modifiées par aucune autre discipline. La Sombre Métamorphose ne peut être utilisée pour attaquer pendant une phase de Célérité. Les attaques de la Sombre Métamorphose peuvent être modifiés en manœuvre pour Agripper mais vous devez payer le prix normal de cette manœuvre. La Sombre Métamorphose ne peut être modifiée par une manœuvre de combat autre que celle pour Agripper.<br /> La Sombre Métamorphose est un pouvoir de transformation et ne peut être combinée avec un autre pouvoir de transformation. Vous pouvez mettre fin à cette transformation à n’importe quel moment en dépensant une action simple. La Sombre Métamorphose est assez humanoïde pour permettre de porter des armes."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Pendant que vous êtes sous les effets de la Sombre Métamorphose, vous pouvez ressentir parfaitement votre environnement, même dans les profondeurs de la nuit ou pendant que vous êtes à l’intérieur d’un autre effet d’Obténébration. Vous êtes immunisé à tous les effets du Voile de Nuit, même la pénalité de -2 infligée par l’effet de focus du Voile de Nuit. De plus, votre figure terrifiante vous immunise aux effets exceptionnels des pouvoirs de Présence et de Domination."
+    }, 
+	{
+        "Key": "OBTENEBRATION_POWER_5_NAME",
+        "Text": "Forme Ténébreuse"
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_5_DESCRIPTION",
+        "Text": "En invoquant ce pouvoir, vous ne vous contentez pas d’invoquer la puissance de l’Abîme ; vous permettez au vide d’entrer dans votre esprit et de se manifester dans votre âme. Votre forme physique se transmute en un corps d’ombre : une forme ondulante et liquide de vide absolu. Tant que vous êtes sous cette forme, vous pouvez vous glisser à travers les trous et les fissures et vous pouvez voir à travers toutes les formes de ténèbres."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et vos actions simple et standard afin de vous transformer en une créature coulante d’ombre liquide.<br /> Tant que vous êtes sous Forme Ténébreuse, vous ne pouvez pas dépenser de point de Sang, activer des pouvoirs ou attaquer physiquement, mais vous êtes aussi immunisé à toutes les attaques Physiques provenant de sources autres que le feu ou la lumière du Soleil. Vous pouvez être blessé par des attaques non-Physiques et vous pouvez être blessé par des armes enflammées, comme une torche ou une fusée de détresse ; toutefois, les munitions incendiaires passent au travers de votre corps trop rapidement pour infliger des dommages. Vous prenez 1 point de dégât aggravé additionnel par le feu, les armes enflammées ou la lumière du soleil tant que vous êtes sous cette forme. Tant que vous êtes sous Forme Ténébreuse, vous n’êtes pas vraiment intangible. Vous êtes capable de vous faufiler dans des petites ouvertures, passer sous les portes et de vous infiltrer dans les trous mais vous ne pouvez pas passer au travers d’objets solides.<br /> Un personnage sous Forme Ténébreuse peut marcher et bouger normalement. De plus, vous pouvez bouger à vitesse normale tant que vous marchez sur une surface solide, incluant les murs et les plafonds. Même si vous ne pouvez pas voler, vous ne prenez pas de dégât de chute tant que vous êtes sous Forme Ténébreuse.Vous pouvez être touché si un individu passe sa main au travers de votre forme et vous pouvez toucher d’autres personnages en étendant un membre ténébreux ou en glissant sur eux. Toucher ou être touché peut demander une attaque de Mélée.<br /> Forme Ténébreuse est un pouvoir de transformation et ne peut être combinée avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "OBTENEBRATION_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "OBTENEBRATION_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépenser 1 point de Sang pendant que vous êtes sous Forme Ténébreuse pour faire apparaître des yeux rouges brillants. Faire ceci vous permet d’utiliser les 3 premiers points de Domination et de Présence pendant que vous êtes en forme d’ombre, tant que vous possédez ces pouvoirs. Ceci est une exception à la règle qui interdit au personnage d’utiliser des disciplines ou de dépenser du Sang sous Forme Ténébreuse."
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_1_NAME",
+        "Text": "Marcher dans les Ombres"
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Votre harmonisation avec les ombres est si grande que vous pouvez faire plus que tirer l’Abysse dans ce monde; vous pouvez effectivement voyager dans l’autre dimension, dans l’Abysse. Ce pouvoir vous permet de traverser de petites distances, marchant dans une ombre et émergeant d’une autre."
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action standard pour marcher dans une ombre et émerger d’une autre, vous téléportant jusqu'à 50 pas dans n’importe quelle direction.<br />Pour utiliser Marcher dans les Ombres, vous devez marcher dans un morceau d’ombre naturelle, non créée par Voile de la Nuit ou actuellement affectée par les pouvoirs d’Obténébration. Vous sortez instantanément d’une autre ombre naturelle dans votre ligne de vue comme si c'était votre pas suivant. Marcher dans les Ombres ne peut pas être utilisé dans les endroits illuminés ou si vous avez été agrippé.<br />Vous pouvez amener un autre individu avec vous, tant que vous le tenez d’une poigne ferme. Pour ce faire, vous devez dépenser 2 points de Sang supplémentaires, pour un total de 3, pour Marcher dans les Ombres et amener le sujet avec vous. Si le sujet n’est pas consentant, vous devez d’abord Agripper la cible avant d’utiliser Marcher dans les Ombres de cette manière.<br />Il n’est pas possible de prendre plus d’un autre personnage avec vous quand vous utilisez Marcher dans les Ombres ; vous ne pouvez pas prendre avec vous des objets que vous ne portez pas facilement."
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_2_NAME",
+        "Text": "Jumeau Ténébreux"
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Vous invoquez un fragment de la sentience primale de l’Abysse dans votre propre ombre. A jamais après, il est votre sombre serviteur, capable d’obéir et d’accomplir des tâches complexes. Quand vous avez besoin de son aide, l’ombre répondra toujours et viendra à votre aide."
+    },
+    {
+        "Key": "OBTENEBRATION_ELDER_POWER_2_SYSTEM",
+        "Text": "Quand vous apprenez Jumeau Ténébreux, votre ombre est infusée du pouvoir de l’Abysse et gagne un semblant de vie. L’ombre est liée à votre volonté et peut suivre vos ordres mentaux. Vous n’avez pas besoin de parler à voix haute pour lui donner des ordres, bien que vous deviez être en ligne de vue pour ce faire. Votre ombre bouge, exécute des actions simples ou attaque, selon vos ordres.<br />Votre ombre possède toutes vos compétences et des attributs Physiques, Mentaux et Sociaux égaux à la moitié de chacun de vos scores dans vos attributs (arrondis au supérieur). Elle peut manipuler des objets physiques, porter des objets qui pèsent jusqu'à une livre (0,45 Kg) pour chaque point que vous possédez dans la compétence <i>Occultisme</i> Notez que le Jumeau Ténébreux ne peut pas manier une arme de mêlée en combat, à moins que vous ne maniez une arme de mêlée, dans ce cas, elle porte une version ombragée de cette même arme qui donne tous les mêmes bonus et inconvénients que l’originale. Les armes portées par votre Jumeau Ténébreux ne peuvent pas avoir la qualité <i>Enflammée</i> ; l’ombre refuse simplement d’utiliser de telles armes.<br />Votre ombre est immunisée aux dégâts Physiques, mais peut être affectée par des pouvoir mentaux ou sociaux. Elle peut se détacher de vous, auquel cas vous n’aurez plus d’ombre jusqu'à son retour. Un Jumeau Ténébreux peut s'infiltrer dans les craquelures, se déplacer sur les surfaces solides et suinter au travers de petits trous exactement tel que décrit dans Forme Ténébreuse. Il peut utiliser les deux premiers points d’Obténébration par heure, sans coût et vous pouvez voir au travers des effets de l’Obténébration de votre ombre comme si vous les aviez créés. Votre ombre n’a pas accès à d’autres pouvoirs.<br />Un Jumeau Ténébreux est dissipé si exposé à une lumière vive, au feu ou à la lumière du soleil. S'il est exposé à une lumière vive, votre ombre revient une minute après que la lumière s'est éteinte ou si vous quittez la zone vivement éclairée. Si endommagé par le feu ou exposé à la lumière du soleil, votre Jumeau Ténébreux ne peut pas revenir avant que dix minutes ne se soit écoulées.<br />Si vous et votre ombre êtes séparés, vous pouvez la convoquer en dépensant 1 point de Sang et une action simple, qui causera la dissipation de l’ombre de sa position actuelle et elle retournera à vos côtés comme votre ombre normale. Vous pouvez alors choisir de la ré-invoquer avec une autre utilisation de ce pouvoir.<br />Quand votre Jumeau Ténébreux n’est pas actif, il agit comme une ombre normale et ne peut pas être attaqué ou dissipé. Si vous commandez à votre ombre d’agir, elle peut être attaquée ou dissipée comme décrit plus haut."
+    },
+	{
+        "Key": "OBTENEBRATION_TEST_SCORE",
+        "Text": "Il n’y a pas de Score de Test générique pour l’Obténébration."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "CELERITY_NAME",
+        "Text": "Célérité"
+    },
+    {
+        "Key": "CELERITY_DESCRIPTION",
+        "Text": "Tout au long de l’histoire, les mythes ont décrit les vampires comme possédant une rapidité et des réflexes surnaturels. Ils se déplacent dans un mouvement flou, marchant sur des surfaces ne pouvant pas supporter leur poids et combattant entre deux battements de cœurs. Célérité est la discipline de la précision et de la rapidité extraordinaire. Au besoin, un vampire peut dépenser son Sang pour accélérer ses actions, se déplaçant avec une rapidité étonnante <br /> Célérité permet d’obtenir des actions supplémentaires. Ces actions supplémentaires se résolvent dans une série de rounds spéciaux appelés <i>Round de Célérité</i>. Après avoir résolu le round d’actions classiques pour tout le monde (dans l’ordre d’initiative), le Conteur continue le combat dans le round de Célérité.Chaque round de Célérité est résolu dans l’ordre d’initiative.Après toutes les actions des personnages dans le premier round de Célérité, le Conteur passe au second Round de Célérité et ainsi de suite jusqu’à ce que tous les personnages impliqués n’aient plus d’actions. <br /> Le round classique et tous les rounds de Célérité composent un seul tour.Une fois tous les rounds de Célérité résolus, le Conteur passe au tour suivant, commençant par le round classique et passant ensuite à tous les rounds de Célérité, etc. <br />Vous pouvez seulement faire des actions Physiques durant un round de Célérité. Votre personnage peut se déplacer, attaquer ou activer un pouvoir Physique mais ne peut engager de challenges mentaux ou sociaux. <br /> Vous devez dépenser un point de sang pour activer Célérité pour un tour.Cette dépense active tous les niveaux de Célérité possédés.Activer Célérité ne requiert pas d’action et peut être fait n’importe quand(même avant votre tour dans l’ordre d’initiative). Certaines techniques basées sur la Célérité ou des pouvoirs d’anciens requièrent une dépense supplémentaire de Sang ou l’usage d’une action pour l’activer.Si c’est le cas, ce sera indiqué dans la description du pouvoir. <br /> Chaque point de Célérité représente une amélioration supplémentaire de la vitesse et chaque point s’ajoute aux bonus précédents. Si un personnage possède Rapidité(Célérité • • •) il possède les bonus de Rapidité mais aussi les bonus donnés par Alacrité(Célérité •) et Vivacité (Célérité • •), qu’il doit posséder pour avoir Rapidité. <br /> Utiliser Célérité au niveau Rapidité ou supérieur est un Bris de Mascarade si un mortel devait en être témoin. <br /> <strong> • Célérité et Temporis </strong>: Un personnage ayant pris Célérité ne peut pas apprendre Temporis et réciproquement."
+    },
+    {
+        "Key": "CELERITY_POWER_1_NAME",
+        "Text": "Alacrité"
+    },
+    {
+        "Key": "CELERITY_POWER_1_DESCRIPTION",
+        "Text": "Vous êtes capable d’un temps de réaction incroyable. En activant Alacrité, vous pouvez faire des mouvements incroyablement rapides, améliorant à la fois vitesse et réflexes"
+    },
+    {
+        "Key": "CELERITY_POWER_1_SYSTEM",
+        "Text": "Quand vous dépensez du Sang pour activer Célérité, votre initiative augmente de la somme de tous les niveaux de Célérité possédés, y compris vos pouvoirs de Célérité d’anciens et les techniques basées sur la Célérité."
+    },
+    {
+        "Key": "CELERITY_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CELERITY_POWER_1_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	 {
+        "Key": "CELERITY_POWER_2_NAME",
+        "Text": "Vivacité"
+    },
+    {
+        "Key": "CELERITY_POWER_2_DESCRIPTION",
+        "Text": "Votre corps répond si rapidement que le monde semble ralentir autour de vous. Vous pouvez utiliser ce temps supplémentaire pour viser votre cible, augmentant ainsi votre précision avec les armes à distance."
+    },
+    {
+        "Key": "CELERITY_POWER_2_SYSTEM",
+        "Text": "Quand vous faîtes une attaque à distance, vous avez un bonus de +5 pour déterminer si oui ou non vous allez faire un Succès Exceptionnel. De plus, quand vous esquivez, vous recevez un bonus de +5 sur votre Score de Test pour comparer les attributs afin de déterminer si votre attaquant a fait un succès exceptionnel."
+    },
+    {
+        "Key": "CELERITY_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CELERITY_POWER_2_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	{
+        "Key": "CELERITY_POWER_3_NAME",
+        "Text": "Rapidité"
+    },
+    {
+        "Key": "CELERITY_POWER_3_DESCRIPTION",
+        "Text": "Vous pouvez vous déplacer plus vite qu’il n’est humainement possible. Avant qu’un humain n’ait le temps de bouger ou même prendre une inspiration, vous agissez pour la seconde fois."
+    },
+    {
+        "Key": "CELERITY_POWER_3_SYSTEM",
+        "Text": "Quand vous activez Célérité, vous gagnez un round supplémentaire d’actions (une action simple et une action standard). Résolvez ces actions durant le premier round de Célérité."
+    },
+    {
+        "Key": "CELERITY_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CELERITY_POWER_3_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "CELERITY_POWER_4_NAME",
+        "Text": "Légèreté"
+    },
+    {
+        "Key": "CELERITY_POWER_4_DESCRIPTION",
+        "Text": "À cette vitesse, vous pouvez vous déplacer plus vite que ce que l’œil humain peut percevoir. Vous êtes flou pour ceux n’ayant pas ce pouvoir et votre vitesse incroyable vous procure du temps pour vous focaliser, viser et tirer."
+    },
+    {
+        "Key": "CELERITY_POWER_4_SYSTEM",
+        "Text": "Tous vos Scores de Test défensifs basés sur l’Esquive reçoivent un bonus de +2 tant que Célérité est actif. Ce bonus se cumule avec le bonus de +2 donné par le Focus : Dextérité.De plus, quand vous faîtes un Succès Exceptionnel sur une attaque à distance normale(sans qu’une discipline surnaturelle ne soit impliquée) lorsque Célérité est active, votre personnage inflige 2 points de dégâts supplémentaires au lieu d’un seul."
+    },
+    {
+        "Key": "CELERITY_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CELERITY_POWER_4_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "CELERITY_POWER_5_NAME",
+        "Text": "Fluidité"
+    },
+    {
+        "Key": "CELERITY_POWER_5_DESCRIPTION",
+        "Text": "Vous pouvez devenir une vraie tornade, vous déplaçant avec une vitesse surnaturelle. Vos attaques sont un flou de mouvement permanent. En combat, vous êtes si rapide qu’on dirait que vous clignotez, apparaissant et disparaissant au moindre clignement d’œil."
+    },
+    {
+        "Key": "CELERITY_POWER_5_SYSTEM",
+        "Text": "Quand vous activez Célérité, vous gagnez un round supplémentaire d’actions (une action simple et une action standard). Résolvez ces actions durant le second round de Célérité."
+    },
+    {
+        "Key": "CELERITY_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "CELERITY_POWER_5_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+    {
+        "Key": "CELERITY_ELDER_POWER_1_NAME",
+        "Text": "Vitesse"
+    },
+    {
+        "Key": "CELERITY_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Avec ce niveau de rapidité augmentée, vous devenez une figure floue et indistincte, tellement accélérée dans ses actions qu’il est difficile de percevoir les détails. Le monde ralentit autour de vous, vous permettant de frapper vos ennemis à plusieurs reprises avant qu’ils ne puissent réagir."
+    },
+    {
+        "Key": "CELERITY_ELDER_POWER_1_SYSTEM",
+        "Text": "Quand vous activez Célérité, vous gagnez un round supplémentaire d’actions, qui comprend une action simple et une action standard. Résolvez ces actions pendant le troisième tour de Célérité dans le tour."
+    },
+    {
+        "Key": "CELERITY_ELDER_POWER_2_NAME",
+        "Text": "Projectile"
+    },
+    {
+        "Key": "CELERITY_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Un Vampire avec ce pouvoir maîtrise la capacité de donner de la vitesse à des objets lancés et des armes de jet. Même des objets banals, tels que des crayons ou des pierres, peuvent être meurtriers dans les mains d’un Ancien accompli."
+    },
+    {
+        "Key": "CELERITY_ELDER_POWER_2_SYSTEM",
+        "Text": "Quand vous faites une attaque physique à distance, comme avec des armes de jet ou jetées, dépensez un point de sang pour activer Projectile. Cette attaque reçoit un bonus de +3 à son Score de Test d’Attaque et inflige un point de dégât supplémentaire.<br />Projectile peut être utilisé pour augmenter une attaque à distance qui ne causerait normalement pas de dégâts, comme jeter avec violence une pièce. Si Projectile booste ce type d’attaque, traitez-la comme une attaque à armes à feu normale, qui fait deux points de dégâts par défaut, 3 si vous faites un succès exceptionnel. De telles attaques ne reçoivent pas le bonus de +3 ou un point de dégât supplémentaire de l’utilisation de Projectile.<br />La dépense de Sang pour Projectile est additionnée à tout autre point de sang dépensé sur Célérité lors de ce tour. Vous pouvez choisir d’utiliser ce pouvoir même si vous ne souhaitez pas activer le reste de votre Célérité. Projectile peut être utilisé pendant les rounds de Célérité, mais vous devez payer le coût de Sang à chaque fois que vous utilisez ce pouvoir."
+    },
+	{
+        "Key": "CELERITY_TEST_SCORE",
+        "Text": "Il n’y a pas de Score de Test standard pour la Célérité."
+    }
+]

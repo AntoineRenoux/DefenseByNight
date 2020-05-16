@@ -1,0 +1,26 @@
+[
+    {
+        "Firstname": "Bruce",
+        "Lastname": "Wayne",
+        "Username": "Batman",
+        "Email": "bruce.wayne@gmail.com",
+        "PhoneNumber": "46468484384",
+        "BirthDate": "1939-03-30"
+    },
+    {
+        "Firstname": "Clark",
+        "Lastname": "Kent",
+        "Username": "Superman",
+        "Email": "clark.kent@gmail.com",
+        "PhoneNumber": "46468484384",
+        "BirthDate": "1938-01-01"
+    },
+    {
+        "Firstname": "Diane",
+        "Lastname": "Prince",
+        "Username": "Wonder Woman",
+        "Email": "Diane.Prince@gmail.com",
+        "PhoneNumber": "46468484384",
+        "BirthDate": "1941-01-12"
+    }
+]

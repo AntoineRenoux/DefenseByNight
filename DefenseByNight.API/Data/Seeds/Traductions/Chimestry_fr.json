@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "CHIMERSTRY_NAME",
+        "Text": "Chimérie"
+    },
+    {
+        "Key": "CHIMERSTRY_DESCRIPTION",
+        "Text": "Les illusions chimériques sont façonnées à partir de la substance des rêves, une essence quasi-substantielle que les membres du clan de Ravnos appellent maya. Les objets fabriqués avec ce pouvoir ne sont pas réels, mais ils ne sont pas non plus entièrement insubstantiels, car ils sont formés de la substance physique du rêve. Un pistolet chimérique a le poids approprié. Un drapeau chimérique se balancera dans le vent et projettera une ombre. Cependant, si un élément chimérique est discrédité, il perd toutes ses qualités physiques − mais seulement pour l’individu qui réussit à le discréditer. <br /> Une construction Chimérique ne peut physiquement rien dévier de plus substantiel qu’une lumière vive ou une légère brise. Les objets ou créatures fabriqués avec ce pouvoir ne peuvent pas causer de dommages. Une armure chimérique n’arrête pas les balles et une épée chimérique ne peut rien couper. <br /> Une des choses les plus importantes à retenir sur la Chimérie est ceci : les illusions peuvent ajouter des choses au monde, mais elles ne peuvent jamais en soustraire. Un personnage pourrait créer un mur chimérique et se cacher derrière lui, mais il ne pourrait pas utiliser ce pouvoir pour créer un trou dans le sol, tout comme Chimérie ne peut pas \"soustraire\" la saleté qui est présente.Un personnage ne peut pas utiliser Chimérie pour rendre des objets ou des personnes invisibles, ni pour dupliquer les pouvoirs d’Occultation.Cependant, vous pouvez utiliser Chimérie pour créer un seau chimérique pour couvrir un élément et ainsi le cacher.Ce pouvoir ne peut pas altérer l’apparence générale d’un personnage, comme Masque aux mille visages, mais elle peut changer la couleur d’un trenchcoat du rouge au bleu. <br /> Chimérie est fait de maya semi-tangible, mélangé à la volonté de l’esprit de croire ce qu’il peut percevoir.Un mur illusoire peut bloquer vos progrès, mais il n’est pas assez substantiel pour soutenir plus de quelques onces de poids. Un individu est bloqué par un mur chimérique en grande partie parce que son esprit ne lui permettra pas de passer cette barrière.Cependant, si une personne qui tombe attrape une corde illusoire, elle ne parvient pas à soutenir son poids. <br /> <strong>Chimérie Discréditée</strong> Reconnaître que quelque chose est chimérique n’est pas la même chose que de ne pas croire l’illusion. Pour ne pas croire une construction, il faut une tentative active pour détruire la création chimérique, représentée par un test de volonté avec le créateur de l’illusion. Il est possible de se rendre compte qu’une illusion est fausse, mais y croire quand même. L’esprit subconscient du sujet ne peut tout simplement pas accepter que cette construction n’est pas réelle. De cette manière, si un personnage voit une épée chimérique passer inoffensivement à travers un objet, elle peut réaliser que l’épée est une illusion. Cependant, l’épée existera toujours et semblera encore réelle, à moins qu’un personnage choisisse de ne pas croire activement et de vaincre le créateur de l’objet dans un test de volonté. <br /> Si un personnage soupçonne que quelque chose est créé par de la Chimérie, il peut faire une tentative active de ne pas croire cette illusion. Pour ce faire, il doit dépenser son action simple et entrer dans un test de volonté avec le créateur de l’illusion. Faites un test opposé en utilisant votre attribut <i>Social + Volonté</i> contre l’attribut <i>Social + Subterfuge</i> de l’utilisateur de Chimérie. Si la tentative de discrédit réussit, l’illusion devient une ombre semi-transparente d’elle-même. Les personnages ne peuvent pas interagir avec des objets qu’ils ont discrédité. <br /> Par exemple, après avoir discrédité un mur chimérique, un personnage peut le voir clairement et peut se déplacer au milieu du mur sans problème. Après avoir discrédité une épée illusoire, le personnage est incapable de la ramasser ; elle passera au travers de sa main s'il essaie. <br /> Si un personnage réussit à discréditer une illusion, les autres personnes ne remarqueront aucun changement dans cette illusion.Même si le personnage voit quelqu’un marcher au milieu d’un mur illusoire, il doit faire un test séparé et réussir à ne pas le croire pour marcher au travers du mur lui-même.S’il ne parvient pas à discréditer la Chimérie, il doit traiter ce mur comme s’il était réel et doit l’abattre ou le contourner pour passer. <br /> Si un personnage réussit à discréditer une illusion chimérique puis fait quelque chose pour démontrer que l’illusion n’est pas réelle, comme marcher dans un mur chimérique, il fournit une excellente occasion pour d’autres observateurs de réaliser que l’illusion n’est pas réelle et de faire leur propres tests de discrédit.Si une personne échoue à tenter de discréditer une illusion, elle ne peut pas tenter de discréditer cette illusion à nouveau pendant cinq minutes.Si le créateur d’une illusion ne croit pas à sa propre illusion, elle cesse immédiatement d’exister.L’utilisateur doit traiter ses illusions comme si elles étaient réelles ou le maya se fane.<br /> <strong>Chimérie et CHIMERSTRY</strong> : Un vampire utilisant CHIMERSTRY peut tenter d’utiliser ses sens aiguisés pour percer une illusion créée par Chimérie. L’utilisateur d’CHIMERSTRY doit utiliser son action simple pour effectuer un test en utilisant son attribut Mental + Investigation contre l’attribut Social + Volonté de l’utilisateur de Chimérie. L’utilisateur de Chimérie peut choisir d’utiliser son attribut Social + Subterfuge comme test défensif plutôt que son attribut <i>Social + Volonté</i>. Si l’utilisateur d’CHIMERSTRY réussit, il discrédite l’illusion. <br /> <strong>Chimérie et Lumiére du soleil</strong> : Si elle est exposée à la lumière du soleil, la Chimérie est instantanément dissipée. La lumière du soleil produite technologiquement ou la lumière ultraviolette ne dissipent pas Chimérie. <br /><strong>Chimérie et Enregistrement</strong> : Chimérie a suffisamment de substance matérielle pour être enregistrée par l’électronique, mais ces enregistrements ne durent pas. Au début, ces enregistrements sont parfaits, mais la qualité de l’illusion capturée se détériore rapidement. Après 10 minutes, un enregistrement de Chimérie perd de sa substance, en acquérant des défauts et de la détérioration. Les bruits chimériques sonnent faiblement et faux ; les clichés ou les enregistrements visuels ressemblent à des CGI mal conçus."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_1_NAME",
+        "Text": "Ignis Fatuus"
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_1_DESCRIPTION",
+        "Text": "Maya est une substance délicate, tissée comme un fil de tulle de la substance des rêves mortels. Vous pouvez tisser une illusion simple à partir de ce matériau délicat, le rendant assez réel pour tromper un seul sens."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_1_SYSTEM",
+        "Text": "En dépensant 1 point de sang et en utilisant votre action standard, vous créez une illusion sensorielle insubstantielle. Les illusions créées avec Ignis Fatuus ne peuvent affecter que l’un des sens suivants : la vue, l’ouïe, l’odorat ou le goût. Avec ce pouvoir, vous pourriez produire un bruit énorme pour faire distraction, donner à une lettre la douce odeur d’un parfum, ou lire à la lumière d’une bougie chimérique.Ces illusions sont incapables de mouvement ou de changement une fois qu’elles ont été créées. Les illusions créées avec Ignis Fatuus durent jusqu’à un tour par niveau de la compétence Subterfuge que vous possédez.<br /> Un personnage utilisant Ignis Fatuus au combat peut distraire et étourdir ses adversaires avec une fausse émotion sensorielle. Pour ce faire, vous devez payer les coûts de ce pouvoir et ensuite faire un test opposé en utilisant le Score de Test de Chimérie. En cas de succès, votre cible est momentanément distraite et perd son action simple la prochaine fois que son initiative est utilisée.Cette utilisation d’Ignis Fatuus repose sur la surprise et, par conséquent, ne peut pas être utilisée sur une personne spécifique plus d’une fois par combat."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Si vous obtenez un succès exceptionnel avec Ignis Fatuus, votre cible perd ses deux prochaines actions standard et simples."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Ceux affectés par votre utilisation d’Ignis Fatuus ne peuvent pas utiliser les manœuvres de combat pour le reste du tour, y compris tous les rounds de ce tour."
+    },
+	 {
+        "Key": "CHIMERSTRY_POWER_2_NAME",
+        "Text": "Fata Morgana"
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_2_DESCRIPTION",
+        "Text": "Votre contrôle sur les fils de maya a augmenté au point que vos illusions peuvent tromper tous les sens à la fois. Bien que vous ayez à ancrer ces illusions plus substantielles dans la réalité, elles ont une profondeur et une stabilité beaucoup plus grandes."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_2_SYSTEM",
+        "Text": "Utilisez votre action standard pour modifier l’apparence d’un objet inanimé. Mirage ne peut pas être utilisé sur des créatures ou des individus. Rappelez-vous que Chimérie peut être utilisé pour ajouter à un élément, ou pour couvrir ce qui est déjà là, mais il ne peut pas être utilisé pour soustraire quelque chose de l’élément ou de l’environnement. Vous ne pouvez pas utiliser ce pouvoir pour réduire la taille d’un objet, mais vous pouvez augmenter sa taille jusqu’à 10%. Vous pouvez modifier la façon dont les gens voient l’objet, les odeurs, les sons, les goûts ou les sentiments − ou tout en même temps. Vous pouvez faire paraître une chaise en lambeaux comme un trône opulent, faire qu’un verre d’eau semble être un grand millésime ou changer une civière roulante en une table d’acajou couverte de bougies. Cette illusion durera jusqu’à une heure.<br /> Les utilisateurs de Mirage doivent couvrir complètement l’objet qu’ils modifient ; toute partie de la fondation qui n’est pas couverte sera visible à travers l’illusion.Par exemple, vous pouvez faire ressembler une civière à une table d’acajou, mais vous ne pouvez pas faire en sorte qu’un meuble classeur ressemble à une table − le corps solide du meuble classeur serait visible entre les jambes de la table. Vous pourriez, cependant, faire du meuble classeur une table avec une nappe accrochée au sol, couvrant ainsi l’intégralité du meuble classeur.<br /> Mirage ne peut pas être utilisé pour modifier l’apparence des individus vivants ou morts-vivants, car c’est le domaine de la discipline d’Occultation. Il peut être utilisé pour apporter des modifications simples aux vêtements, comme la couleur, le matériau ou la qualité générale."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Quiconque tente de ne pas croire votre utilisation de Mirage souffre d’une pénalité -3 à son test pour décrédibiliser."
+    },
+	{
+        "Key": "CHIMERSTRY_POWER_3_NAME",
+        "Text": "Apparition"
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_3_DESCRIPTION",
+        "Text": "Non plus limitées par les frontières de la réalité, vos illusions sont des inventions indépendantes du rêve. Ils se déplacent comme vous les dirigez, soit dans une boucle de répétition, soit en suivant vos instructions continues, étape par étape. Vous pouvez donner à vos illusions un semblant de vie, faisant se déplacer ou parler des êtres illusoires, goutter et onduler de l’eau illusoire et passer d’une chanson à une autre une musique illusoire."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action standard pour créer une illusion indépendante qui semble réelle à tous les sens. Cette illusion peut se déplacer soit dans une boucle prédéterminée, soit, par une concentration continue du créateur, peut changer comme il le souhaite.Un feu d’artifice peut dévier de trajectoire et changer de couleur, un policier illusoire peut sembler marcher à son rythme autour d’un bloc et ainsi de suite. Les objets illusoires semblent remplir leurs fonctions standard; un fusil illusoire peut armer son chien ou tirer une balle illusoire(qui ne cause aucun dommage) et un moteur illusoire peut être démonté et réassemblé.<br /> De plus, vos Apparitions réagiront automatiquement lorsqu’elles interagissent avec des forces ou des obstacles externes.Un drapeau chimérique soufflera dans le vent et une personne chimérique contournera un objet solide placé sur son chemin.<br /> Lorsque vous créez une Apparition, vous déterminez un modèle simple d’actions pour que l’illusion les mette en œuvre, comme la marche décontractée habituelle d’un flic de proximité dans le quartier.Par la suite, vous pouvez dépenser une action simple pour modifier l’activité de votre illusion pour un round, peut - être faire arrêter le flic de proximité afin d’avoir une brève conversation avec quelqu’un(dépenser une action simple pour chaque round pendant lequel vous le faites rester immobile et parler ou écouter).Si vous dépensez une action standard au lieu d’une simple action, vous pouvez ajouter, supprimer ou faire un changement permanent dans les motifs préétablis de l’Apparition, comme faire en sorte que le flic s’arrête et siffle une brève note chaque fois qu’il atteint un certain coin dans son parcours routinier.<br /> De telles altérations au modèle de l’Apparition sont accomplies silencieusement, par un acte de concentration du créateur de l’illusion.Notez que votre personnage ne reçoit aucune capacité spéciale de voir ou d’entendre via son Apparition. Si le créateur du flic ne peut pas entendre les questions posées par la personne parlant avec son policier illusoire, il ne peut pas ordonner au policier de répondre correctement.<br /> Apparition ne peut pas être utilisé pour faire une illusion avec une masse totale supérieure à 10 pieds cubes, bien que la masse puisse être façonnée de la manière que vous choisissez. Des illusions de créatures ou d’individus peuvent se déplacer, selon leur type de créature. Par exemple, un flic illusoire peut marcher en avant et en arrière dans une rue.<br /> Apparition dure une heure, à moins que le pouvoir ne soit arrêté par son créateur, ou que le créateur meure."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépensez une action simple pour configurer une réponse déclenchée pour votre apparition. Vous pouvez créer un enfant illusoire, lisant un livre dans le coin de votre havre et lui donner pour instruction de lever les yeux et dire « bonjour » quand quelqu’un entre dans la pièce ou quand une personne spécifique entre dans la pièce. Chaque Apparition ne peut maintenir qu’un déclencheur à la fois, mais les actions pré-arrangées se produiront à chaque fois que l’élément déclencheur se produira. En utilisant l’exemple ci-dessus, l’enfant illusionniste dira « bonjour » à tous ceux qui entrent dans la pièce jusqu’à ce que vous modifiiez le modèle."
+    }, 
+	{
+        "Key": "CHIMERSTRY_POWER_4_NAME",
+        "Text": "Permanence"
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_4_DESCRIPTION",
+        "Text": "Les illusions que vous créez ont presque leur vie propre, existant sans votre concentration et le maintien d’une existence continue en s’appuyant sur l’essence du rêve. Vous pouvez doter vos simples illusions de cette capacité, leur fournissant une durée de vie pouvant surpasser la vôtre."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action simple pour rendre permanent un Mirage ou une Apparition déjà créé. L’illusion durera jusqu’à ce que vous choisissiez de la dissiper, jusqu’à ce qu’elle soit irrévocablement incapable de continuer, ou jusqu’à ce qu’elle soit soumise à la lumière du soleil. Une illusion permanente est irrévocablement incapable de continuer si elle est vraisemblablement détruite, par exemple en jetant un pistolet chimérique dans un bassin de métal fondu, ou si la route du flic est complètement bloquée par un gros tracteur-remorque."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous activez Permanence, vous pouvez passer trois tours complets pour éviter de payer le coût du sang de ce pouvoir ou vous pouvez dépenser un point de Sang supplémentaire pour activer Permanence sans utiliser une action."
+    }, 
+	{
+        "Key": "CHIMERSTRY_POWER_5_NAME",
+        "Text": "Réalité monstrueuse"
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_5_DESCRIPTION",
+        "Text": "La croyance est une chose tangible, capable de choses presque miraculeuses. Vous pouvez transformer le rêve en réalité, apportant une authentique vraisemblance à vos créations imaginaires. Vos fantasmes obtiennent une réalité tangible et sont capables d’interagir avec le monde réel de façon concrète - même causer des dommages à vos ennemis, si vous le souhaitez."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang et dépensez votre action simple pour augmenter une de vos apparitions déjà existante avec Réalité monstrueuse. Pour les cinq prochaines minutes, cette illusion ne peut pas être discréditée et est imprégnée du pouvoir d’interagir physiquement avec les gens. Une illusion crédibilisée grâce à la Réalité monstrueuse ne peut pas interagir avec des objets inanimés, mais peut causer des dommages durables aux mortels, aux créatures surnaturelles et aux animaux.<br /> Les Apparitions qui ont été augmentées par Réalité monstrueuse peuvent être utilisées pour attaquer, soit par des moyens secondaires (comme le tir d’un pistolet chimérique), soit comme un attaquant principal − l’illusion du flic de proximité se fend et frappe avec sa matraque. Dans les deux cas, le personnage qui a créé l’Apparition augmentée est l’attaquant réel et l’attaque se produit sur l’initiative de ce personnage dans un round.<br /> Pour attaquer avec une Apparition augmentée par la Réalité monstrueuse, dépensez votre action standard et faites un test opposé contre une seule cible, en utilisant votre Attribut Social + Subterfuge contre Physique + Esquive de la cible. En cas de succès, votre cible subit des dégâts de l’objet ou créature créé avec ce pouvoir. Réalité monstrueuse ne peut pas être utilisée pour infliger des conditions de victoire autres que des dommages.<br /> Les dégâts infligés par l’utilisation de Réalité monstrueuse reflètent le mode d’attaque apparent de l’illusion et infligent 3 points de dégâts normaux ou 2 points de dégâts aggravés. Un officier de police illusoire tirant au pistolet ou utilisant un mousqueton inflige un maximum de 3 points de dégâts normaux, tandis qu’un lance-flammes illusoire inflige un maximum de 2 points de dégâts aggravés. Force d’Âme (et les pouvoirs semblables) peuvent réduire les dommages infligés par la Réalité monstrueuse.<br /> Même si l’illusion semble affecter plusieurs personnes ou objets, comme l’illusion d’un lance-flammes, la Réalité monstrueuse ne peut causer des dommages qu’à une cible à la fois. Cette limitation n’interdit pas les problèmes normaux causés par une telle Apparition. Si vous brûlez trois individus dans un jet de lance-flammes de Réalité monstrueuse, choisissez une personne potentiellement nuisible qui prendra les dégâts. Les deux autres peuvent encore entrer en frénésie à cause du feu. Ils ne peuvent cependant pas être endommagés par cette attaque.<br /> Les individus, créatures ou objets créés avec ce pouvoir ont un nombre maximal de niveaux de santé égal à vos points dans Subterfuge, 1 point au minimum. Vous pouvez créer un objet avec moins de niveaux de santé (un morceau illusoire de papier ne serait pas crédible si il avait 5 niveaux de santé). Les illusions chimériques ne peuvent pas vous empêcher directement d’être blessé. Un mur chimérique ne peut pas arrêter une balle.<br /> Une fois que la Réalité monstrueuse a été utilisée pour augmenter une Apparition, l’illusion augmentée peut attaquer une cible à plusieurs reprises ; il s’agit d’une exception à la règle interdisant à un personnage d’utiliser un pouvoir social sur la même cible immédiatement après l’échec. Si vous échouez à une attaque Réalité monstrueuse contre un adversaire, vous pouvez essayer de nouveau contre ce même adversaire, ou quelqu’un d’autre, au tour suivant.<br /> Lorsque vous utilisez un élément créé par Réalité monstrueuse ou créez un individu illusoire, les attaques sont précisément synchronisées avec la volonté du créateur ; c’est pourquoi les Apparitions augmentées avec Réalité monstrueuse ne peuvent être utilisées par personne d’autre que leur créateur.Si vous donnez une arme illusoire augmentée à un autre individu, elle perd son potentiel de causer des dégâts.<br /> Une Apparition augmentée ne peut pas attaquer pendant les rounds de Célérité, même si c’est une arme utilisée pendant les rounds de Célérité.<br /> Les effets nuisibles de la Réalité monstrueuse sont fugaces, car ils sont basés dans la substance du rêve.Les dommages causés par Réalité monstrueuse peuvent plonger un individu dans l’inconscience ou dans la torpeur, mais ils ne peuvent pas tuer. Après cinq minutes, les effets de Réalité monstrueuse s’effacent; les blessures disparaissent et les individus inconscients ou en torpeur se réveillent."
+    },
+    {
+        "Key": "CHIMERSTRY_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Les attaques de votre Réalité monstrueuse infligent soit 4 points de dégâts normaux, soit 3 points de dégâts aggravés, selon le mode d’attaque de l’illusion."
+    },
+	{
+        "Key": "CHIMERSTRY_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Si vous dépensez vos actions simples et standard pour votre Réalité monstrueuse pour attaquer, vous pouvez appliquer une manœuvre de combat, tant que la manœuvre s’appliquerait logiquement au mode d’attaque. Par exemple, votre flic illusoire peut essayer d’agripper votre ennemi ou de planter un pieu en bois dans son cœur. Cet effet ne contourne pas les conditions normales d’utilisation d’une manœuvre de combat ; votre cible doit être dans la piste de la blessure Invalide avant que vous puissiez tenter de la pieuter avec Réalité monstrueuse. Les effets du pieutage(ou d’agripper) sont fugaces et, comme les dégâts de Réalité monstrueuse, se fanent après cinq minutes. Un personnage agrippé par une apparition augmentée peut s’échapper en dépensant une action simple et en faisant un test opposé en utilisant son attribut <i>Physique + Bagarre</i> ou <i>Mêlée</i> contre votre attribut <i>Social + Subterfuge</i>."
+    }, 
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_1_NAME",
+        "Text": "Cauchemar Partagé"
+    },
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Cauchemar Partagé est un pouvoir terrifiant, capable d’infliger les effets de votre imagination sur plusieurs cibles en même temps. Votre attaque chimérique n’est plus limitée à un seul individu par round."
+    },
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_1_SYSTEM",
+        "Text": "Une fois acheté, ce pouvoir est toujours actif et accroît toutes les utilisations de Réalité Horrible. Les attaques faites par vos Apparitions augmentées de Réalité Horrible peuvent cibler jusqu'à cinq individus simultanément. Votre illusion va peut-être lancer une grenade, pour blesser plusieurs individus, ou lancer un souffle de flammes, brûlant un groupe de victimes.<br />Quand vous ciblez plusieurs personnes avec ce pouvoirs, vous devez faire un challenge opposé avec chacun des défenseurs. Si vous dépensez un point de volonté pour re-test n’importe lequel des challenges opposés, vous gagnez aussi ce re-test pour le reste des challenges opposés sans avoir à dépenser de Volonté. Si vous dépensez la volonté pour re-test après que des challenges ont été résolus, vous ne pouvez pas revenir en arrière vers des challenges précédents que vous avez perdus et appliquer le re-test de volonté de manière rétroactive.<br /> Si vous dépensez à la fois votre action simple et standard pour appliquer une manœuvre de combat, selon le Focus de l’attribut Charisme, cette manœuvre de combat ne s'applique qu’à un seul individu."
+    },
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_2_NAME",
+        "Text": "Armée d’Apparitions"
+    },
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Là ou certains peuvent conjurer un individu ou objet depuis le néant, vous avez la capacité de remplir un entrepôt ou entièrement peupler une marche pour les droits civiques avec cette illusion - en un clignement d’yeux"
+    },
+    {
+        "Key": "CHIMERSTRY_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez un point de Sang et votre action standard pour créer jusqu'à trois Apparitions par point que vous possédez dans votre compétenc <i>Subterfuge</i> Une fois créées, vous pouvez donner à chaque Apparition son propre schéma. Quand vous utilisez une action simple pour altérer les schémas de votre Apparition, vous pouvez choisir d’en affecter une, quelques ou toutes les Apparitions créées avec ce pouvoir.<br />Vous ne pouvez avoir qu’une seule application de l’Armée d’Apparitions active à n’importe quel moment donné."
+    },
+	{
+        "Key": "CHIMERSTRY_TEST_SCORE",
+        "Text": "Le créateur d’une Chimérie utilise son Attribut <i>Social + Subterfuge</i> contre l’Attribut <i>Social + Volonté</i> de sa cible."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "QUIESTUS_NAME",
+        "Text": "Quietus"
+    },
+    {
+        "Key": "QUIESTUS_DESCRIPTION",
+        "Text": "Quietus est une discipline sacrée pour les membres du clan Assamite, qui voient son utilisation comme une pratique révérée. Basé sur l’altération du sang, le contrôle de la vitae et la pestilence, le Quietus se concentre sur le fait d’affaiblir et de blesser sa cible pour qu’elle soit détruite plus facilement. A travers l’usage de cette discipline, un Vampire peut devenir un redoutable Assassin qui sème la mort, ne laissant qu’une traînée de sang noircie derrière lui pour en raconter l’histoire.<br /> <strong>Application sur Arme</strong>: Une seule arme ne peut être recouverte avec plusieurs pouvoirs de Quietus en même temps.Quand un personnage se bat avec plusieurs armes qui ont été recouvertes par plusieurs pouvoirs différents de Quietus, seul le pouvoir de l’arme principale affecte la cible."
+    },
+    {
+        "Key": "QUIESTUS_POWER_1_NAME",
+        "Text": "Silence de la Mort"
+    },
+    {
+        "Key": "QUIESTUS_POWER_1_DESCRIPTION",
+        "Text": "La première leçon est celle du silence. L’anonymat et la surprise sont deux des plus redoutables armes présentes dans l’arsenal du Vampire, l’embuscade étant un avantage de poids dans n’importe quelle situation. Avec l’utilisation de ce pouvoir, vous pouvez masquer votre approche, attaquer et vous échapper. Vous pouvez étouffer les supplications désespérées de votre victime alors qu’elle essaye d’obtenir de l’aide ou votre pitié."
+    },
+    {
+        "Key": "QUIESTUS_POWER_1_SYSTEM",
+        "Text": "En dépensant un point de sang et une action simple, vous créez une sphère de silence absolu autour de vous qui inclut votre forme physique. Cette sphère s'étend à un maximum de trois pas autour de vous dans toutes les directions, cependant, vous pouvez choisir de réduire cette zone si vous le souhaitez. Une fois créée, vous pouvez réduire la taille de la sphère en dépensant une action simple, mais vous ne pouvez pas l’étendre au-delà de la limite des trois pas.<br /> Les sons qui proviennent de l’intérieur de votre sphère sont tus. Les pouvoirs qui reposent sur le son sont complètement bloqués par le Silence de Mort. Cela peut signifier que ces pouvoirs échouent dès leur lancement, parce que l’utilisateur se situe dans la zone de silence, ou cela peut vouloir dire que ces pouvoirs échouent car la cible est située à l’intérieur de la sphère de Silence. Cela inclut les pouvoirs comme le pouvoir de Melpominée et certains pouvoirs de Domination (toutefois, des pouvoirs de Domination peuvent être utilisés sans bruit, et de telles utilisations réussissent). <br />Notez bien que certaines utilisations de la Magie du Sang, comme la Thaumaturgie et la Nécromancie, requièrent que l’utilisateur puisse parler. Cependant, ces pouvoirs ne nécessitent pas que la cible puisse les entendre. Par conséquent, ces pouvoirs ne sont pas entravés par le Silence de Mort, même si l’utilisateur est dans la bulle de silence.<br /> Le Silence de Mort dure 10 minutes au maximum, sauf si l’utilisateur brise le pouvoir plus tôt au prix d’une action simple."
+    },
+    {
+        "Key": "QUIESTUS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "QUIESTUS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Votre Silence de Mort peut maintenant s'étendre à cinq pas. Vous pouvez aussi maintenant utiliser le Silence de Mort sur un lieu statique au lieu de vous entourer. Une fois que vous avez créé un Silence de Mort statique, la sphère reste localisée au même endroit même si vous l’aviez placée sur un objet qui a été déplacé."
+    },
+	 {
+        "Key": "QUIESTUS_POWER_2_NAME",
+        "Text": "Le Toucher du Scorpion"
+    },
+    {
+        "Key": "QUIESTUS_POWER_2_DESCRIPTION",
+        "Text": "Par la méditation, l’utilisation des concoctions de plantes et de soporifiques naturels, vous pouvez changer les propriétés de votre Vitae. En activant ce pouvoir, votre sang est transformé en un puissant poison qui ralentit les proies blessées et les prive de leur capacité à se battre."
+    },
+    {
+        "Key": "QUIESTUS_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Ensuite, faites passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de recouvrir le bord de l’arme avec une couche de votre propre vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pour les trois prochains tours, quiconque frappé par cette arme est empoisonné par votre sang venimeux.<br /> Ceux frappés par une arme couverte d’un Toucher du Scorpion souffrent d’une pénalité de -2 sur tous leurs Scores de Test d’Attaque Physique. Ces pénalités durent 5 minutes. Chaque application du Toucher du Scorpion supplémentaire ne rajoute pas plus de pénalités physiques, mais allonge la durée des effets de 5 minutes supplémentaires. Par exemple, un personnage frappé par trois de ces attaques souffre d’une pénalité de -2 sur ses tous ses Scores de Test d’Attaque Physique pendant les prochaines 15 minutes.<br /> Un individu qui a été touché par une arme couverte du Toucher du Scorpion subit ces pénalités, même si l’attaque n’a infligé aucun dégât après que l’adversaire a appliqué tous ses pouvoirs défensifs. Le venin a seulement besoin de toucher sa cible, pas de lui faire des dégâts.<br /> Vous êtes immunisé à votre propre Toucher du Scorpion, mais d’autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire empoisonner. Si quelqu'un d’autre utilise une arme recouverte de votre Toucher du Scorpion, cette personne recevra toutes les pénalités du pouvoir si elle perd n’importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l’arme soient empoisonnés dans la même action. Si la personne qui manie l’arme perd de manière répétée ses tests dans le Challenge, les effets du poison sont allongés de la même manière qu’une cible qui se ferait frapper plusieurs fois.<br /> Vous ne pouvez empoisonner qu’une seule arme de la taille d’une épée ou plus petite à chaque utilisation du Toucher du Scorpion. L’objet peut être de la taille d’une dague, une épée ou un carreau d’arbalète ou un objet similaire. Si vous recouvrez un objet non tranchant, vous devez dépenser une action standard plutôt qu’une action simple, pour ouvrir votre chair d’une autre manière et recouvrir l’arme de vitae.<br /> Le Toucher du Scorpion ne peut pas être utilisé sur les balles ou autre équipements de type armes à feu, la chaleur et la vitesse dégagées par une arme à feu détruisant le revêtement de sang de tout projectile tiré. Le Toucher du Scorpion ne peut être utilisé avec des attaques à mains nues."
+    },
+    {
+        "Key": "QUIESTUS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "QUIESTUS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Les armes enrobées par votre Toucher du Scorpion restent toxiques pendant cinq tours au lieu de trois. De plus, vous pouvez choisir d’épaissir l’ichor de votre sang suffisamment pour que des personnes autres que vous puissent les manier en toute sécurité et sans risquer d’être affecté par votre poison. Toute personne empoisonnée par votre Toucher du Scorpion subit une pénalité -3 à tous les Scores de Test d’Attaque Physique."
+    },
+	{
+        "Key": "QUIESTUS_POWER_3_NAME",
+        "Text": "L’Appel de Dagon"
+    },
+    {
+        "Key": "QUIESTUS_POWER_3_DESCRIPTION",
+        "Text": "Ce pouvoir vicieux permet à un Vampire d’utiliser le sang de sa cible contre elle-même, faisant éclater les vaisseaux sanguins et provoquant dans les organes de graves hémorragies internes. Ces ruptures sont extrêmement douloureuses, délivrant une vive agonie à quiconque est affecté par ce pouvoir."
+    },
+    {
+        "Key": "QUIESTUS_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action standard puis engagez avec votre cible un challenge opposé en utilisant le score de test de Quietus. En cas de réussite, vous provoquez l’hémorragie et la rupture des organes de votre cible.<br /> Un personnage ciblé avec succès par l’appel de Dagon prend 2 points de dégâts normaux durant un tour au cours duquel il aura dépensé du sang. Ces dégâts se produisent au moment où la victime dépense son premier point de sang dans un tour donné. Après le premier tour, vous pouvez utiliser une action simple sur chaque tour suivant afin de maintenir l’effet de ce pouvoir, pour un maximum de cinq tours au total. Les dégâts causés par l’Appel de Dagon ne peuvent être réduits ou annulés. Plusieurs utilisations de l’Appel de Dagon ne se cumulent pas. Un personnage affecté par deux utilisations de l’Appel de Dagon continue de subir 2 dégâts normaux par tour où il utilise du sang."
+    },
+    {
+        "Key": "QUIESTUS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": "Votre cible subit 3 dégâts normaux au lieu de 2, sur chaque tour pendant lequel elle utilise du sang."
+    },
+    {
+        "Key": "QUIESTUS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Si votre cible a de votre sang sur sa personne (qu'elle en ait conscience ou non) ou si votre cible a ingéré de votre sang dans les dernières 24 heures, vous n’avez pas besoin d’une ligne de vue pour utiliser l’Appel de Dagon tant que votre cible est dans un rayon d’un kilomètre et demi (1 mile) de vous. Ceux qui ont été affectés par votre Toucher du Scorpion ou Caresse de Baal sont considérés comme ayant de votre sang sur eux dans le cadre de l’utilisation de l’Appel de Dagon."
+    }, 
+	{
+        "Key": "QUIESTUS_POWER_4_NAME",
+        "Text": "Caresse de Baal"
+    },
+    {
+        "Key": "QUIESTUS_POWER_4_DESCRIPTION",
+        "Text": "En approfondissant son étude de la transformation de la Vitae, l’utilisateur de Quietus peut altérer encore plus profondément les propriétés de son sang, le transformant en un ichor particulièrement corrosif. Cet ichor détruit toutes les chairs qu’il touche, qu’elles soient vivantes ou mortes-vivantes."
+    },
+    {
+        "Key": "QUIESTUS_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Faites ensuite passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de recouvrir le bord de l’arme avec une couche de votre propre Vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pour les trois prochains tours, l’arme gagne le trait \"Mortel\" et quiconque frappé par cette arme subit les dégâts de l’arme en aggravés. Notez bien que la Caresse de Baal n’accroît pas la quantité de dégâts d’une arme donnée, mais cette arme inflige maintenant des dégâts aggravés plutôt que des dégâts normaux.<br /> Vous êtes immunisé à votre propre Caresse de Baal, mais d’autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire blesser. Si quelqu'un d’autre utilise une arme recouverte de votre Caresse de Baal, cette personne recevra un dégât aggravé si elle perd n’importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l’arme soient blessés dans la même action. Si la personne qui manie l’arme perd de manière répétée ses tests dans le Challenge, elle subira le même nombre de dégâts aggravés.<br /> Vous ne pouvez empoisonner qu’une seule arme de la taille d’une épée ou plus petite à chaque utilisation de la Caresse de Baal. L’objet peut être de la taille d’une dague, d’une épée, d’une flèche ou d’un carreau d’arbalète ou bien quelque chose de similaire. Si vous recouvrez un objet non tranchant, vous devez dépenser une action standard plutôt qu’une action simple, pour ouvrir votre chair d’une autre manière et recouvrir l’arme de vitae. <br />La Caresse de Baal ne peut pas être utilisée sur des balles ou autre équipements de type armes à feu, la chaleur et la vitesse dégagée par une arme à feu détruisant le revêtement de sang de tout projectile tiré. La Caresse de Baal ne peut être utilisée à mains nues."
+    },
+    {
+        "Key": "QUIESTUS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "QUIESTUS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les armes enrobées par votre Caresse de Baal restent toxiques pendant cinq tours au lieu de la durée standard de trois tours. De plus, vous pouvez choisir de suffisamment épaissir l’ichor issu de votre sang afin que d’autres individus que vous puissent manier les armes sans risquer de se blesser."
+    }, 
+	{
+        "Key": "QUIESTUS_POWER_5_NAME",
+        "Text": "Goût de la Mort"
+    },
+    {
+        "Key": "QUIESTUS_POWER_5_DESCRIPTION",
+        "Text": "Avec ce niveau de maîtrise, un vampire peut transformer une petite partie de son sang en un acide caustique et qui, ainsi transmuté, permet au vampire de cracher ce sang acide sur un adversaire, brûlant la chair et corrodant ses os."
+    },
+    {
+        "Key": "QUIESTUS_POWER_5_SYSTEM",
+        "Text": "Dépensez un point de sang. Pour le reste du tour, vous pouvez utiliser une action standard pour cracher votre sang toxique sur votre cible. Les attaques faites avec le Goût de la Mort utilisent le Score de Test suivant : Attribut <i>Physique + Athlétique</i> contre l’Attribut <i>Physique</i> de la cible.<br /> Quand vous attaquez avec un Goût de la Mort, vous devez choisir si le sang que vous crachez est transmuté selon le pouvoir de Toucher du Scorpion ou celui de la Caresse de Baal.En utilisant le Toucher du Scorpion via le Goût de la Mort provoque les pénalités décrites sous ce pouvoir.Utiliser la Caresse de Baal provoque deux dégâts aggravés à votre cible. <br /> utilisé pendant des rounds de Célérité."
+    },
+    {
+        "Key": "QUIESTUS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "QUIESTUS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Si le Goût de la Mort est utilisé pour porter le Toucher du Scorpion, quiconque touché par le poison subit un malus de -3 sur ses Scores de Test d’Attaque Physique au lieu de la pénalité standard de -2. Si le Goût de la Mort est utilisé pour porter la Caresse de Baal, vous infligez 3 dégâts aggravés, au lieu des 2 standard."
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_1_NAME",
+        "Text": "Sueur Sanguine"
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_1_DESCRIPTION",
+        "Text": "En se concentrant sur une victime, l’utilisateur de ce pouvoir provoque une transmutation du sang dans le corps de l’individu, le rendant empoisonné à son propre système interne. Le corps de la victime rejette de la bile, expulsée rapidement à travers ses glandes sudoripares et ses pores."
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang, utilisez votre action standard et faites un Challenge opposé avec le Score de Test de Quietus. Si vous réussissez, la cible commence à transpirer du sang. Les mortels affectés par la Sueur Sanguine perdent 2 points de Sang par tour pendant les trois prochains tours et prennent 2 points de dégâts par point de Sang perdu.<br />Les Vampires affectés par Sueur Sanguine perdent 2 points de Sang pendant les trois prochains tours, mais ne souffrent pas de dégâts de cette perte de Sang. Plusieurs applications de la sueur de Sang ne se cumulent pas."
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_2_NAME",
+        "Text": "Griffes Sanglantes de Baal"
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Ceux qui maîtrisent véritablement les propriétés alchimiques de leur sang peuvent lui conférer une incroyable capacité à faire des dégâts. Leur sang devient un ichor puissant, empoisonnant la chair avec le toucher des plus légers et causant chez la victime d’incroyables douleurs."
+    },
+    {
+        "Key": "QUIESTUS_ELDER_POWER_2_SYSTEM",
+        "Text": "En plus des effets standards de la Caresse de Baal, votre application de ce pouvoir vous donne un bonus de +2 à votre score de test de Mêlée, De plus, cette arme inflige un point de dégât aggravé supplémentaire quand elle touche avec succès. Les Griffes Sanglantes de Baal ne peuvent pas être combinées avec le Goût de la Mort."
+    }, 
+	{
+        "Key": "QUIESTUS_TEST_SCORE",
+        "Text": "L'utilisateur de Quietus utilise <i>Mental + Athlétique</i> contre <i>Mental + Volonté</i> de la cible."
+    }
+]

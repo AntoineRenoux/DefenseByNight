@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "SUPULCHER_NAME",
+        "Text": "La Voie du Sépulcre"
+    },
+    {
+        "Key": "SUPULCHER_DESCRIPTION",
+        "Text": "La Voie du Sépulcre inclut l’étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les spectres, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes, les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrale ou d’autres entités intangibles."
+    },
+    {
+        "Key": "SUPULCHER_POWER_1_NAME",
+        "Text": "Témoin de la Mort"
+    },
+    {
+        "Key": "SUPULCHER_POWER_1_DESCRIPTION",
+        "Text": "La première astuce qu’apprennent ceux qui négocient avec les morts est la capacité de sentir et d’interagir avec ces esprits. En apprenant cette capacité, un nécromancien peu découvrir et communique avec les spectres proches."
+    },
+    {
+        "Key": "SUPULCHER_POWER_1_SYSTEM",
+        "Text": "Une fois acheté, ce pouvoir est toujours actif. Vous pouvez voir, entendre et parler aux spectres, en communiquant avec eux que vous ayez ou non un langage commun. Il faut noter que, contrairement à l’avantage Médium, vous ne voyez que le fantôme lui-même et non les environs fantomatiques du Monde des Ombres."
+    },
+    {
+        "Key": "SUPULCHER_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SUPULCHER_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez aussi reconnaître et identifier les pouvoirs, les sorts des spectres et les effets visibles de la Nécromancie vampirique, ainsi que les objets enchantés par Nécromancie (mais pas les entraves spectrales, si ces objets ne sont pas spécifiquement enchantés). Vous n’avez pas la capacité de voir les utilisations non visibles de magie mais uniquement de reconnaître ce que vous pouvez percevoir. Vous ne pouvez identifier les pouvoirs et sorts que vous ne possédez pas mais vous les reconnaissez comme d’origine nécromantique."
+    },
+	 {
+        "Key": "SUPULCHER_POWER_2_NAME",
+        "Text": "Tourment"
+    },
+    {
+        "Key": "SUPULCHER_POWER_2_DESCRIPTION",
+        "Text": "Les esprits récalcitrants ne peuvent échapper à votre pouvoir ni ne peuvent survivre longtemps à votre colère. En concentrant votre puissante magie nécromantique, vous pouvez vous engager dans des batailles ectoplasmiques à travers la barrière du Monde des Ombres."
+    },
+    {
+        "Key": "SUPULCHER_POWER_2_SYSTEM",
+        "Text": "Dépensez un point de Sang et une action standard en désignant votre cible. Faites ensuite un challenge d’opposition de Nécromancie avec le spectre ciblé. Si vous réussissez, vous infligez trois dégâts normaux à ce fantôme."
+    },
+    {
+        "Key": "SUPULCHER_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Vous infligez une perte de 4 points de dégâts normaux au lieu de trois."
+    },
+    {
+        "Key": "SUPULCHER_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Votre cible perd aussi un point de Pathos en cas d’attaque réussie."
+    },
+	{
+        "Key": "SUPULCHER_POWER_3_NAME",
+        "Text": "Invocation d’une Âme"
+    },
+    {
+        "Key": "SUPULCHER_POWER_3_DESCRIPTION",
+        "Text": "En accédant au Monde des Ombres, vous pouvez invoquer un fantôme et le forcer à obéir à votre volonté. Vous appelez l’esprit le plus proche de votre emplacement actuel et, à moins que vous ne connaissiez le vrai nom de ce spectre spécifique, vous n’avez pas de contrôle sur le genre d’individu qui répondra à votre pouvoir. Cependant, ce spectre est contraint à la loyauté et doit faire de son mieux pour obéir à vos demandes - ou il subirait une douleur à détruire son âme."
+    },
+    {
+        "Key": "SUPULCHER_POWER_3_SYSTEM",
+        "Text": "Dépensez un point de Sang et une action standard pour invoquer un spectre. Les spectres sont invisibles aux personnes qui n’ont pas l’avantage Médium, Témoin de la Mort ou d’autres pouvoirs de ce genre. Invocation d’une Âme peut être utilisé pour invoquer un fantôme spécifique si vous connaissez le nom qu’il avait dans la vie. Autrement, vous invoquez le spectre incontrôlé le plus proche. Normalement, le spectre apparaît dans les cinq prochaines minutes, tant qu’il est capable d’atteindre votre localisation. Les spectres peuvent passer à travers les murs mais ne peuvent pas voler ni traverser des obstacles enchantés contre leur passage.<br /> Les spectres invoqués feront tout leur possible pour suivre les ordres que vous leur donnez jusqu'à l’aube ou jusqu'à ce qu’ils aient pris un nombre de dégâts équivalent à leur niveau de PNJ Type. Plusieurs utilisations d’Invocation d’une Âme ne vous permettent pas d’invoquer de spectres supplémentaires tant que vous contrôlez le premier ; si vous utilisez Invocation d’une Âme, tous les spectres que vous contrôlez avec ce pouvoir sont libérés en faveur du nouvellement invoqué.Cependant, si votre premier spectre est libéré(par dégâts, fuite ou si vous le révoquez), vous pouvez utiliser ce pouvoir à nouveau pour invoquer un second spectre. De plus, Invocation d’une Âme ne peut être utilisé pour contrôler des spectres qui sont actuellement sous l’effet de l’utilisation d’un pouvoir de Nécromancie d’un autre pratiquant.<br /> Les spectres invoqués avec ce pouvoir sont créés comme des PNJ Type de niveau 2.Ils ne peuvent faire d’actions inter-parties, mais peuvent agir avec une indépendance relative.Pour plus d’informations sur les spectres, voir le chapitre 12 : alliés et antagonistes."
+    },
+    {
+        "Key": "SUPULCHER_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SUPULCHER_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Les spectres invoqués avec ce pouvoir sont de niveau 3 et non de niveau 2."
+    }, 
+	{
+        "Key": "SUPULCHER_POWER_4_NAME",
+        "Text": "Contrainte d’une Âme"
+    },
+    {
+        "Key": "SUPULCHER_POWER_4_DESCRIPTION",
+        "Text": "La plupart des Nécromanciens doivent se contenter d’alliés invoqués temporairement mais la puissance de votre Nécromancie a grandi, au point que vous pouvez forcer un fantôme à résider à un emplacement de façon quasi permanente - ou de libérer un spectre qui a été subjugué par une autre utilisation de ce pouvoir."
+    },
+    {
+        "Key": "SUPULCHER_POWER_4_SYSTEM",
+        "Text": "Dépensez un point de Sang et concentrez votre volonté pour lier un fantôme à votre localisation. Vous ne pouvez lier un spectre à une personne ou à un objet de cette manière. Un spectre affecté par Contrainte d’une Âme compte comme un suivant à trois points et ne peut pas quitter de plus de 10 pas l’endroit ou il est lié.<br /> Vous ne pouvez avoir qu’un seul spectre lié de cette façon à un moment donné. Si vous liez un nouveau spectre, le précédent est libéré. Pour libérer un spectre lié par un autre nécromancien, vous devez battre l’autre nécromancien dans un challenge opposé de Nécromancie."
+    },
+    {
+        "Key": "SUPULCHER_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "SUPULCHER_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez lier un nombre de spectres égal à votre niveau en occulte. Vous devez les lier individuellement."
+    }, 
+	{
+        "Key": "SUPULCHER_POWER_5_NAME",
+        "Text": "Vol d’Âme"
+    },
+    {
+        "Key": "SUPULCHER_POWER_5_DESCRIPTION",
+        "Text": "Le pouvoir le plus terrifiant d’un nécromancien est sa capacité à arracher une âme d’un corps, le rendant inconscient ou en torpeur tandis que que l’esprit désincarné est sous votre contrôle. Même les créatures qui n’ont théoriquement pas d’âme sont affectées par votre pouvoir, menant à de nombreux débats philosophiques à propos de la nature du monde éphémère."
+    },
+    {
+        "Key": "SUPULCHER_POWER_5_SYSTEM",
+        "Text": "Dépensez un point de sang et une action standard pour faire un challenge opposé de Nécromancie avec votre cible. Si vous réussissez, elle doit aussitôt dépenser un point de Volonté pour résister aux effets de votre Vol d’Âme. Si votre cible ne veut (ou ne peut) pas dépenser ce point de volonté, vous avez réussi à arracher l’âme de son corps. Le corps originel tombe alors dans un état de torpeur et ne peut plus se défendre ou agir de lui-même. Tant que l’âme est en dehors de son corps, la personne affectée sait où se trouve son corps, même si elle n’a plus aucun moyen surnaturel de percevoir ce qui l’entoure si l’âme n’est pas physiquement au même endroit que son corps. <br />Une âme retirée du corps d’une créature se retrouve dans les Terres des Ombres. Elle peut voir et entendre ce qui se passe autour de son corps, mais ne peut communiquer ou interagir avec le monde physique, sauf avec les individus possédant l’atout Médium, de la Nécromancie ou tout autre pouvoir de communication avec les fantômes. L’Âme n’étant pas un vrai spectre, elle ne bénéficie d’aucun Pathos et ne peut se manifester dans le monde réel.<br /> Une âme arrachée à un corps par ce pouvoir ne peut être ciblée avec des pouvoirs ou des effets qui ne ciblent que les fantômes. Une personne qui subit ce pouvoir a neufs niveaux de santé tant qu’elle est prise au piège des Terres des Ombres. Si l’âme volée d’une personne perd tous ses niveaux de santé, elle est dispersée et ne peut plus agir tant qu’elle ne retourne pas à son corps. Si la cible était une créature surnaturelle, elle a toujours accès à ses pouvoirs surnaturels mais ne peut dépenser de sang ou attaquer des cibles qui ne sont pas dans les Terres des Ombres. Les personnes dans les Terres des Ombres peuvent attaquer ou être attaquées par une âme qui a subi ce pouvoir. Après une heure, l’âme arrachée retourne à son corps originel. Cette récupération se produit même si d’autres pouvoirs ou effets pourraient empêcher ce retour. <br />Tant que l’âme est absente du corps, celui-ci garde les pouvoirs physiques passifs activés, comme Force d’Âme mais se retrouve autrement sans défenses. <br />Si une personne utilisant Possession ou un pouvoir similaire est ciblée par Vol d’Âme, l’esprit qui contrôle le corps est celui qui est affecté et non l’esprit dormant. Si Vol d’Âme réussit, l’esprit dominant est retiré du corps et l’esprit dormant reprend le contrôle de son corps. Quand l’effet du vol d’âme s'estompe, l’esprit éjecté du corps revient à son corps originel et non à celui qu’il possédait."
+    },
+    {
+        "Key": "SUPULCHER_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Une cible doit dépenser trois points de volonté pour résister à votre pouvoir au lieu d’un seul."
+    },
+	{
+        "Key": "SUPULCHER_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "En plus de ses effets normaux, l’usage réussi du Vol d’Âme inflige un point de dégât normal à votre cible alors que son âme tord son corps physique à cause de la souffrance extrême. Ce point de dégât ne peut être réduit ou nié."
+    }, 
+	{
+        "Key": "SUPULCHER_TEST_SCORE",
+        "Text": "Il n'y a pas de Score général pour La Voie du Sépulcre."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "OBFUSCATE_NAME",
+        "Text": "Occultation"
+    },
+    {
+        "Key": "OBFUSCATE_DESCRIPTION",
+        "Text": "En tant que créatures de la nuit, les Vampires comptent souvent sur leur capacité à rester cachés, passer inaperçu grâce à la discrétion et la diversion. L’Occultation est le pouvoir qui permet de brouiller l’esprit d’un autre, diminuant ses perceptions et le faisant manquer de petits détails ou des incohérences notables. Grâce à ce pouvoir, un Vampire peut changer son apparence physique, voler et dissimuler des objets de valeur, il peut même aller jusqu'à occulter un petit nombre d’individus de la vue de tous. Tant qu’un individu occulté n’attire pas l’attention sur lui ou n’interagit pas avec son environnement, comme en parlant à quelqu'un ou en manipulant un objet visible, il reste inaperçu. L'Occultation affecte les cinq sens. Ce pouvoir peut visuellement changer ou camoufler l’apparence physique d’un individu et également masquer des sons mineurs incompatibles. Il peut modifier la voix de l’utilisateur, dissimuler l’odeur de l’individu ou même faire en sorte qu’une veste en jean miteuse soit faite d’un cuir riche au toucher, tout cela pour soutenir un déguisement basé sur l’Occultation.<br /> <strong>Occultation et les Animaux</strong> <br /> Occasionnellement, des animaux peuvent sentir un vampire qui possède n’importe quel nombre de traits de la Bête quand il est proche, même quand ce vampire est caché ou altéré par l’Occultation. Cela ne permet pas à l’animal de percer l’Occultation du Vampire, mais l’animal deviendra visiblement nerveux, inquiet et agressif.<br /><strong>Occultation et Auspex</strong> <br />Un Vampire qui utilise Auspex peut tenter d’aiguiser ses sens pour percer l’Occultation d’un individu. L’utilisateur d’Auspex doit faire un test en utilisant son Score de Test <i>Mental + Investigation</i> contre le Score de Test <i>Mental + Volonté</i> de l’utilisateur d’Occultation. L’utilisateur d’Occultation peut choisir d’utiliser son Score de Test Mental + Discrétion comme Score de Test défensif. Si l’utilisateur d’Auspex réussit, il perce le pouvoir d’Occultation. <br /><strong>Occultation et les Machines</strong> <br />L'Occultation fonctionne en embrouillant l’esprit des observateurs, par conséquent cela n’a aucun effet sur les machines. Un personnage sous Occultation sera toujours repéré par un détecteur de métaux, sera pris en vidéo par une camera stationnaire ou automatique et son poids sera toujours détecté par les senseurs d’un ascenseur. Par contre, tout individu qui utilise ces machines peut négliger le personnage sous Occultation. Un paparazzi qui prend des photos peut faire une pause entre deux photos de la foule ou un garde d’aéroport retiendra peut-être son détecteur de métaux loin de l’individu sous Occultation sans s'en rendre compte. Un individu dans un ascenseur ne daignera pas regarder les senseurs d’un ascenseur, sauf si l’ascenseur déclenche mécaniquement une alarme.<br /> L'Occultation brouille aussi l’esprit de ceux qui observent un endroit à travers l’utilisation d’un équipement électronique (qu'il soit éloigné ou non), tant qu’ils regardent une retransmission en direct(ou légèrement différée). Un garde d’aéroport qui regarde un moniteur vidéo ne remarquera pas un personnage invisible capturé sur sa caméra de sécurité, même s'il y a quelque secondes de décalage naturel ou même une minute entière entre l’affichage et l’événement réel. Cependant, si ce même garde rembobine son enregistrement pour voir quelque chose qui s'est passé il y a 10 minutes ou plus dans le passé, il verra l’image du Vampire Occulté enregistrée par l’appareil."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_1_NAME",
+        "Text": "Dissimuler"
+    },
+    {
+        "Key": "OBFUSCATE_POWER_1_DESCRIPTION",
+        "Text": "Vous pouvoirs d’Occultation vous permettent d’estomper les objets en votre possession, faisant qu’ils soient ignorés par tous, même par ceux qui vous fouillent. Ces objets apparaissent et disparaissent selon votre volonté, dissimulés à la vue de tous tant qu’il ne sont pas activement utilisés."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_1_SYSTEM",
+        "Text": "Dépensez une action standard pour dissimuler une arme ou tout autre objet que vous possédez ; l’objet ne doit pas dépasser une longueur de trois pieds (~= 90cm). Les objets sous Dissimuler sont invisibles tant qu’ils sont physiquement sur votre personne. Dissimuler ne peut pas être utilisé pour cacher des être vivants ou morts-vivants (ou des parties d’eux). Dissimuler ne peut pas être utilisé pour cacher un espace négatif ; s'il est possible de cacher une chaise, il est impossible de cacher l’embrasure d’une porte. Si un personnage regarde un objet pendant que vous utilisez Dissimuler dessus, l’observateur voit automatiquement au travers de cette utilisation d’Occultation. Cependant, si l’observateur détourne son regard plus de quelques secondes, comme un tour de combat, il perdra la trace de l’objet et celui-ci sera automatiquement dissimulé. <br />Dissimuler peut être utilisé pour maintenir l’invisibilité de trois objets en même temps. Vous pouvez cesser de Dissimuler un objet à n’importe quel moment. <br />Si vous interagissez avec un objet Dissimulé, en l’utilisant pour attaquer quelqu'un ou en attirant autrement l’attention sur ledit objet, il devient visible. Si vous placez d’autres personnages dans une position où ils sont obligés d’accepter logiquement l’existence d’un objet, il devient visible de tous. Par exemple, personne ne remarquera votre Fusil à Pompe tant qu’il est pendu dans un étui dorsal mais, si vous tendez le bras et que vous le dégainez visiblement, il apparaîtra. Les gens ne remarqueront peut-être pas que vous portez un livre mais, si vous luttez sous le poids d’une enclume à main, elle deviendra visible de tous."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBFUSCATE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez Dissimuler jusqu'à 10 objets en même temps à un moment donné, tant qu’ils restent sur votre personne. Vous pouvez Dissimuler des objets qui font jusqu'à six pieds de long (1m82) au lieu de trois. Vous ne pouvez toujours pas Dissimuler des créatures vivantes ou mortes."
+    },
+	 {
+        "Key": "OBFUSCATE_POWER_2_NAME",
+        "Text": "Présence Invisible"
+    },
+    {
+        "Key": "OBFUSCATE_POWER_2_DESCRIPTION",
+        "Text": "Avec de la concentration, vous pouvez vous protéger de la perception des autres, embrouillant les esprits de ceux qui remarqueraient votre présence en temps normal dans la pièce. Vos pouvoirs d’occultation sont tellement développés que vous pouvez discrètement aller espionner les autres - ou vous échapper d’une situation difficile - tout en restant complètement invisible."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_2_SYSTEM",
+        "Text": "Dépensez une action standard pour devenir invisible, Occultant aussi les objets inanimés présents sur vous. La Présence Invisible ne peut pas être utilisée pour rendre un autre personnage invisible même s'il est inconscient ou mort. Sous les effets de la présence invisible, les petits sons, petites odeurs ou d’autres effets mineurs de votre présence seront ignorés par les autres. Si vous parlez, touchez quelqu'un, produisez une odeur affreuse ou entreprenez toute action qui nécessite un Challenge, votre Présence Invisible prend immédiatement fin.<br /> Si un autre individu vous regarde quand vous activez la Présence Invisible, il voit automatiquement au travers de cette utilisation d’Occultation. Vous serez invisible à toute personne qui ne vous regardait pas quand vous avez utilisé votre Présence Invisible et, si la personne vous ayant perçue détourne le regard au loin pendant plus de quelques secondes, l’équivalent d’un tour en combat, il perd immédiatement votre trace.<br /> Si vous interagissez avec votre environnement, parlez avec un autre personnage ou attirez l’attention sur vous, votre Occultation se brise et vous devenez visible. Si vous placez d’autres personnages dans une position où ils sont obligés d’accepter logiquement votre existence, la Présence Invisible échoue et vous devenez visible de tous. Personne ne remarquera une personne debout dans une pièce, même s'ils doivent la contourner, tant qu’ils peuvent le faire facilement. Cependant, si le Vampire invisible bloque la sortie d’une pièce quand des personnes souhaiteront sortir, son invisibilité disparaîtra."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBFUSCATE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez parler à voie basse ou utiliser votre action standard pour interagir avec un objet auquel on ne fait pas attention sans briser votre Présence Invisible. Vous pouvez glisser à vos alliés un \"attention\" ou rendre confus des spectateurs en ouvrant une porte sans briser votre Occultation. Votre Présence Invisible se brisera si vous criez, interagissez avec quelque chose qu’un autre personnage manipule ou entreprenez une action qui nécessite un Challenge."
+    },
+	{
+        "Key": "OBFUSCATE_POWER_3_NAME",
+        "Text": "Masque aux Milles Visages"
+    },
+    {
+        "Key": "OBFUSCATE_POWER_3_DESCRIPTION",
+        "Text": "En modifiant la perception des autres à votre sujet et en embrouillant leur esprit, vous faites en sorte que des observateurs vous voient différemment. Vous pouvez utiliser ce pouvoir pour devenir un individu fade, indistinct et facilement oubliable dans une foule. Ou si vous le voulez, vous pouvez choisir de devenir un type spécifique de personne, comme un policier ou une serveuse. Avec quelques recherches, vous pouvez faire en sorte que votre forme physique reflète celle d’une autre personne que vous connaissez, prenant ses traits, vêtements, sonorité vocale et d’autres signes distinctifs. Ce pouvoir modifie aussi vos vêtements, les altérant à votre volonté (dans les limites de la crédibilité). Cependant, notez que ce pouvoir ne vous donne pas la capacité de connaître les excentricités d’un individu ou ses manies, ses particularités vocales, ses souvenirs ou ses grâces sociales ; seuls les détails de son apparence sont conférés."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_3_SYSTEM",
+        "Text": "Dépensez une action standard pour vous envelopper dans un voile d’Occultation, vous changez ainsi tous les aspects sensoriels de votre apparence aussi bien dans tout ce qui est audible qu’olfactif. Vous pouvez utiliser le Masque aux Milles Visages pour apparaître aussi générique et oubliable que possible ou vous pouvez spécifiquement imiter l’apparence de quelqu'un que vous avez étudié. <br />Le Masque aux Milles Visages peut être utilisé pour imiter tout ce qui correspond généralement à votre forme. Un Vampire sous une apparence humaine peut ressembler à un vieillard, un enfant ou une femme au foyer, mais il ne peut pas prendre l’apparence d’un cheval. De même, un Vampire qui utilise la Forme de la Bête pour se transformer en un loup peut apparaître comme un gros chien, mais pas comme un homme.<br /> Pour fidèlement imiter l’apparence d’une personne spécifique, vous devez avoir au moins 2 points dans la capacité Subterfuge et vous devez étudier cette personne sous plusieurs angles pendant au moins 5 minutes pour apprendre ses expressions faciales, comment elle se déplace et autres traits distinctifs. Vous pouvez peut-être imiter le visage de quelqu'un après avoir étudié une photographie de lui par exemple, mais votre déguisement ne trompera personne qui a déjà rencontré cet individu auparavant car vous en savez trop peu sur lui pour le reproduire fidèlement. Pour reproduire avec fidélité la voix de votre cible, vous devez avoir au moins 3 points dans la capacité Subterfuge et vous devez l’avoir écoutée parler pendant au moins 5 minutes alors qu’il utilise un certain éventail de mots et de phrases. Écouter un enregistrement de la voix n’est pas suffisant pour une véritable imitation ; votre voix camouflée n’aura pas les subtilités nécessaires pour tromper quiconque ayant parlé à votre cible. <br />Le Masque aux Milles Visages peut être utilisé pour légèrement altérer l’apparence de vos vêtements et de votre équipement, tant que votre équipement ne change pas de taille ou de forme de manière significative. Un smoking peut apparaître comme un coupe - vent ou un ruban autour de votre cou peut apparaître comme une cravate chic mais ce pouvoir ne peut pas faire apparaître le smoking comme un trench-coat qui traîne sur le sol et ne peut donner l’apparence d’un stylo à un pistolet.Le Masque aux Milles Visages ne peut pas être utilisé pour rendre un objet invisible ou partiellement invisible. Vous pouvez peut - être faire apparaître un sweat à capuche et un jean comme un smoking et un pantalon, mais vous ne pouvez pas réduire leur taille comme si vous portiez un bikini. Le Masque aux Milles Visages ne peut qu’affecter des objets que vous tenez ou sur votre personne."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "OBFUSCATE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez drastiquement changer l’apparence de votre garde-robe et de votre équipement. Vous êtes capable de faire apparaître un téléphone portable comme un fusil à pompe ou d’autres prouesses comme faire apparaître votre jean comme une robe de bal."
+    }, 
+	{
+        "Key": "OBFUSCATE_POWER_4_NAME",
+        "Text": "Disparition à la vue de l’Esprit"
+    },
+    {
+        "Key": "OBFUSCATE_POWER_4_DESCRIPTION",
+        "Text": "Votre contrôle sur le pouvoir d’Occultation est tellement grand que des objets et vous peuvent disparaître de la vue de tous, même quand vous êtes activement observé."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_4_SYSTEM",
+        "Text": "Quand vous activez Dissimuler ou Présence Invisible quand quelqu'un regarde, Disparition à la vue de l’Esprit vous permet de faire un Challenge opposé contre n’importe quel observateur, en utilisant le Score de Test d’Occultation. Si vous réussissez le Challenge, votre pouvoir se manifeste malgré leur vigilance et vous ou l’objet que vous ciblez devient invisible à la fin du round de jeu.<br /> Pour utiliser Disparition à la vue de l’Esprit contre de multiples observateurs, vous devez faire un test contre chaque observateur. Si vous dépensez un point de Volonté, vous gagnez un re-test contre chaque observateur. Si vous gagnez contre certains observateurs mais pas d’autres, seuls ceux qui ont échoué lors du Challenge ne sont plus capables de vous voir. Ceux qui ont réussi vous voient (ou l’objet que vous tentez de Dissimuler) comme si vous n’aviez pas utilisé Disparaître de l’Esprit. Comme les pouvoirs précédents d’Occultation, si une personne détourne le regard plus de quelques secondes, un tour de combat, il perd la trace de l’objet ou de l’individu couvert par l’Occultation. <br />Une fois que vous avez acheté Disparition à la vue de l’Esprit, les personnages avec le Sens Intensifié (Auspex) ne peuvent percer aucune de vos utilisations d’Occultation, sauf s'ils possèdent le 5ème point d’Auspex. En outre, les personnages sans les 5 points en Auspex ne remarquent pas automatiquement votre présence, peu importe à quel point vous vous approchez.<br /> Disparaître de l’Esprit peut être utilisé tous les tours, même ceux ou vous avez échoué le tour précédent. C'est une exception à la règle qui empêche un personnage de retenter immédiatement un Challenge mental raté."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Si vous marquez un succès exceptionnel contre quelqu'un qui essaye de voir au travers de votre Disparition à la vue de l’Esprit, cet observateur ne peut plus contester vos autres utilisations de Disparition à la vue de l’Esprit, Masque aux Milles Visages, Dissimuler ou Présence Invisible pendant la prochaine heure. Cela l’empêche d’utiliser des moyens normaux pour garder la vue sur vous, mais cela ne l’empêchera pas d’utiliser Auspex (s'il possède le pouvoir) pour percer vos utilisations d’Occultation."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Quand vous perdez un test avec Disparition à la vue de l’Esprit, vous gagnez un re-test pour cette tentative sans avoir à utiliser de points de Volonté. Si vous n’arrivez pas à disparaître face à de multiples observateurs, vous gagnez ce bénéfice pour chaque Challenge raté, vous permettant de re-test chacun des observateurs. Ces re-tests agissent en tous points comme un re-test grâce à de la volonté."
+    }, 
+	{
+        "Key": "OBFUSCATE_POWER_5_NAME",
+        "Text": "Masquer l’Assemblée"
+    },
+    {
+        "Key": "OBFUSCATE_POWER_5_DESCRIPTION",
+        "Text": "En tant que maître des pouvoirs de l’Occultation, vous pouvez étendre votre protection mentale aux autres, les dissimulant avec votre capacité. Avec de la concentration, vous pouvez les cacher du regard des autres ou leur offrir un déguisement."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_5_SYSTEM",
+        "Text": "Quand vous dépensez une action standard pour activer votre Présence Invisible, Masque aux Milles Visages ou Disparition à la vue de l’Esprit, vous pouvez choisir d’étendre ses effets à des alliés proches. En utilisant Dissimuler l’Entourage, vous pouvez étendre l’un des pouvoirs d’Occultation ci-dessus à un nombre d’individus consentants égal au nombre de points dans votre compétence discrétion, avec un minimum de un.<br /> Les individus ressentent un frisson soudain et distinct quand Occultation est utilisée sur eux pour les dissimuler mais les cibles n’ont aucun moyen mystique de savoir qui est en train d’essayer d’utiliser ce pouvoir, ni dans quelle mesure. Si n’importe laquelle de vos cibles ne souhaite pas être affectée par Occultation, le pouvoir échoue immédiatement pour cet individu. Le pouvoir fonctionne de manière normale avec les autres cibles consentantes. Si un personnage affecté par l’un de vos pouvoirs d’Occultation devient réticent à n’importe quel moment, l’Occultation s'arrête immédiatement pour cet individu.<br /> Un personnage peut toujours voir au travers de sa propre utilisation d’Occultation, indépendamment de qui il affecte. De plus, les autres personnages dissimulés par un Dissimuler l’Entourage peuvent se voir les uns les autres normalement. Si l’un des alliés brise son Occultation ou bouge à plus de 20 pas de vous, le pouvoir cesse de fonctionner pour lui mais reste actif pour tous les autres personnages couverts par cette utilisation de Dissimuler l’Entourage. Cependant, si vous brisez l’Occultation, votre Dissimuler l’Entourage cesse de fonctionner pour tous. Quand ce pouvoir est utilisé pour augmenter celui de Disparition à la vue de l’Esprit, vous n’avez besoin que d’un seul test par observateur, comme si vous aviez disparu seul. Si vous réussissez, vous faites disparaître l’ensemble du groupe.<br /> Vous pouvez utiliser Dissimuler l’Entourage pour étendre plus d’un pouvoir d’Occultation, mais vous ne pouvez pas étendre le même pouvoir à plus d’un groupe en même temps. Par exemple, vous pouvez faire en sorte qu’un groupe de cinq personnes soit invisible et faire en sorte que cinq personnes ressemblent à des artistes de cirque, mais vous ne pouvez pas utiliser ce pouvoir plusieurs fois pour faire en sorte que 10 ou 15 personnes deviennent invisibles.<br /> Dissimuler l’Entourage ne peut être utilisé que sur des créatures intelligentes et ne confère pas la capacité d’occulter des animaux."
+    },
+    {
+        "Key": "OBFUSCATE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "OBFUSCATE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez étendre vos pouvoirs d’Occultation à un nombre d’individus consentants égal au double de vos points dans la compétence discrétion."
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_1_NAME",
+        "Text": "Occultation Distante"
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Protéger les objets et les individus de l’attention des autres est une chose, mais maintenir un tel contrôle de loin requiert la maîtrise d’un Ancien. Avec ce pouvoir, votre capacité atteint des distances au-delà de votre localisation immédiate, offrant une protection encore plus grande à ceux qui vous dissimulez."
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_1_SYSTEM",
+        "Text": "Quand vous utilisez Dissimuler l’Entourage pour cacher un autre individu, le pouvoir dure jusqu'à l’aurore, quelle que soit la distance qu’a parcouru la cible depuis votre localisation. Quand vous utilisez Dissimuler pour dissimuler un objet, vous pouvez cacher tous les objets plus petits qu’une large voiture. De la même manière, cette invisibilité dure jusqu'à l’aurore même si l’objet n’est pas sur votre personne.<br />L'invisibilité accordée par ce pouvoir se brise normalement si votre cible entreprend une action qui d’ordinaire briserait l’Occultation."
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_2_NAME",
+        "Text": "Chasseur Fantôme"
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Les légendes parlent de chasseurs qui traquent la nuit, frappant de nulle part et restant inaperçus, comme un vent invisible. Ces contes ne servent qu’à rappeler aux vampires qu’ils ne sont jamais en sécurité ; tous leurs mouvement sont observés et le silence précède souvent la tempête."
+    },
+    {
+        "Key": "OBFUSCATE_ELDER_POWER_2_SYSTEM",
+        "Text": "Lorsqu'un événement arrive qui, normalement, met fin à votre Présence Invisible, vous pouvez dépenser 3 points de Sang pour activer le Chasseur Fantôme. Pendant les trois prochaines secondes, vous pouvez continuer à entreprendre des actions qui, d’ordinaire, briseraient votre Présence Invisible sans devenir visible.<br />Si vous utilisez Chasseur Fantôme pendant un combat, la protection qu’elle accorde ne continue que le temps d’un round commun. Pour le reste de ce round commun, vous pouvez attaquer, être attaqué, parler à voix forte et interagir avec votre environnement sans devenir visible. Cependant, si vous interagissez toujours avec votre environnement ou un autre personnage à la fin du round commun, vous devenez alors visible. Si vous n’êtes plus engagé dans une action qui briserait votre Présence Invisible à la fin du round commun, votre Présence Invisible reste active. Chasseur Fantôme peut être activé à n’importe quel moment, même avant votre tour dans l’ordre d’initiative. Par exemple, si vous êtes frappé avant votre initiative, vous pouvez activer le Chasseur Fantôme à ce moment.<br />Si vous attaquez quelqu'un sous les effets du Chasseur Fantôme, la victime vous aperçoit brièvement pendant l’attaque et pourra vous rendre la pareille lors de son initiative suivante. Les autres personnages ne peuvent pas vous voir et ne peuvent pas vous cibler avec une attaque, à moins qu’ils n’aient la possibilité de percer votre Présence Invisible, en utilisant Auspex ou d’autres pouvoirs similaires.<br /> <strong>Exemple : </strong> Bolviar s'est occulté avec Présence Invisible et voit son rival, Théodoro. Il approche Theodoro et utilise une action standard pour lui donner un coup de poing, sauvegardant son action simple pour une utilisation plus tard dans le round. Quand il attaque, Bolviar dépense trois points de sang pour activer Chasseur Fantôme, donc l’attaque ne brise pas sa Présence Invisible. Theodoro aperçoit brièvement Bolviar pendant l’attaque mais, pour d’autres observateurs, on dirait que Theodoro a été frappé par une force invisible. Quand l’initiative de Theodoro arrive dans le premier round commun, Theodoro utilise son option pour frapper Bolviar et arrive à le saisir à bras le corps. Parce que le round commun n’est pas arrivé à sa fin, le Chasseur Fantôme est toujours actif. La prise ne brise pas la Présence Invisible. Après avoir été agrippé, Bolviar dépense l’action simple qu’il gardait en essayant d’échapper à Theodoro. Si Bolviar parvient à se dégager de la prise, il restera invisible. S'il échoue à se dégager de la prise, il est toujours en interaction avec un autre personnage quand le round commun prend fin. Si cela venait à arriver, les effets du Chasseur Fantôme arrivent à expiration et la Présence Invisible de Bolviar échoue."
+    },
+	{
+        "Key": "OBFUSCATE_TEST_SCORE",
+        "Text": "On utilise le Score de Test <i>Mental + Discrétion</i> de l’utilisateur d’Occultation contre le Score de Test <i>Mental + Volonté</i> de la cible."
+    }
+]

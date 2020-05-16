@@ -1,0 +1,458 @@
+[
+    {
+        "Key": "CLAN_ASSAMITE",
+        "Text": "ASSAMITE"
+    },
+    {
+        "Key": "CLAN_ASSAMITE_HISTORY",
+        "Text": "Les Assamites, aussi connus comme Les Enfants d’Haqim, sont originaires du Moyen-Orient. Talentueux assassins et guerriers agiles, la majeure partie du clan réside dans une forteresse de montagne appelée Alamut. Ces guerriers sont toujours prêts à accomplir de dangereuses missions, si la dîme de Sang est assez élevée. Leur soif de sang est légendaire, tout comme leur tendance à juger les autres vampires selon les lois de leur fondateur. Ceux qui sont trouvés en défaut doivent être détruits. <br /> Le Clan Assamite n’a prêté allégeance à aucune secte. Bien que quelques éléments épars ont rejoint soit la Camarilla soit le Sabbat, le clan refuse catégoriquement de courber l’échine face à n’importe quelle hiérarchie vampirique. A cette fin, ses membres n’acceptent jamais de contrats à long terme, restant plutôt indépendants dans le grand Jyhad. C’est pourquoi le clan fait peur et n’inspire pas confiance, étant donné que les vampires savent que la loyauté des Assamites va au plus offrant. Certains Assamites suivent une Voie d’Illumination très religieuse qui codifie la dévotion fanatique du clan à la Montagne. Nommée Voie du Sang, elle prône la diablerie et insiste sur une vénération fanatique du fondateur du clan, Haqim.<br /> Par le passé, les Assamites étaient de vicieux diabolistes, contraints d’arrêter cette pratique uniquement parce que les Tremeres leur jetèrent une puissante malédiction à la demande du Cercle Intérieur de la Camarilla. Cette malédiction transforma la Vitae vampirique en un poison pour les Assamites, brûlant leurs veines. A cause de cela, les Assamites (et plus particulièrement les plus anciens) détestent les Tremere par dessus tout. Quand L’Ancien s’éleva et prit le contrôle du clan, il brisa la malédiction avec sa propre sorcellerie, faisant tomber les entraves des Tremere et jurant que le clan se vengerait.<br /> Les vieux Assamites ont tendance à être issus de la culture du Moyen-Orient ou d’Afrique du Nord, alors que les plus jeunes reçoivent l’Étreinte quelle que soit leur origine humaine. La peau d’un Assamite devient plus foncée avec l’âge, à l’inverse des autres vampires qui pâlissent. A cause de cela, les plus vieux Assamites ont une peau d’un noir surnaturel proche de l’onyx, comme sculptée dans l’ébène le plus sombre.<br /> La majorité des Enfants d’Haqim sont des guerriers, entraînés à devenir des tueurs, des espions et des agents secrets. Ils prennent des contrats et retournent à Alamut avec leur paiement une fois qu’ils ont réussi. Le reste du clan - une minorité significative - fait partie des deux autres castes : les Sorciers et les Vizirs. Les Sorciers restent cachés à Alamut, servant l’ancien le plus puissant de leur clan, un vampire appelé L’Ancien. Les Vizirs, autrefois de confiance, ont défié la Montagne dans un schisme idéologique, refusant de se plier à la volonté de L’Ancien. Pour ce crime, ils sont chassés par les leurs. La Montagne n’a de cesse que de pourchasser jusqu’au dernier ceux qu’elle considère comme des traîtres."
+    },
+    {
+        "Key": "CLAN_ASSAMITE_NAME",
+        "Text": "Assamite"
+    },
+    {
+        "Key": "CLAN_ASSAMITE_ORGANIZATION",
+        "Text": "Le clan Assamite a une culture isolée et structurée. Tous les Assamites se doivent de suivre les diktats de L’Ancien, qu’ils traitent avec un mélange de vénération et de peur. De petits groupes de deux ou trois Assamites (appelés <i>falaqi</i>) peuvent résider hors de la Montagne, tant qu’ils adhèrent à la foi d’Haqim et aux diktats de L’Ancien. Bien qu’autrefois le clan avait un respect marqué envers la foi musulmane, le culte d’Allah a été interdit par L’Ancien. Tous les Assamites doivent croire uniquement en Haqim ou être détruits pour leur manque de loyauté."
+    },
+    {
+        "Key": "CLAN_ASSAMITE_SURNAME",
+        "Text": "Assassins"
+    },
+    {
+        "Key": "CLAN_ASSAMITE_WEAKNESS",
+        "Text": "Depuis que la malédiction Tremere a été brisée, les Assamites sont revenus à leur soif de sang. Les Assamites trouvent le sang vampirique très addictif. Quand un Assamite boit du sang de vampire, il gagne 2 Traits de la Bête, pour les 10 prochaines minutes. Si l’Assamite rentre en frénésie durant cette période, il doit tenter de diabler le dernier vampire dont il a goûté le sang. Contrairement aux Traits de la Bête classiques, ces traits ne comptent pas pour déterminer si un vampire perd des Points de Moralité et ces Traits de la Bête disparaissent après 10 minutes."
+    },
+    {
+        "Key": "CLAN_BRUJAH",
+        "Text": "BRUJAH"
+    },
+    {
+        "Key": "CLAN_BRUJAH_HISTORY",
+        "Text": "Il y a longtemps, les vampires du Clan Brujah furent des érudits en quête de sagesse. Ils inspirèrent la gloire de l’ancienne Carthage, une cité grandiose où mortels et vampires vivaient ensemble en paix. Cependant, la traîtrise des Ventrues et les armées de l’ancienne Rome abattirent Carthage et brisèrent pour toujours le clan Brujah. Au fil des siècles, des divisions internes ont profondément secoué le clan Brujah, la nature du clan passant d’un groupe de philosophes stoïques à une armée de guerriers passionnés. Les Brujahs ne sont plus les créatures qu’ils étaient à Carthage.<br /> En ces nuits, les Brujahs sont un groupe d’ardents guerriers, individualistes et rebelles, conduits à la fois au succès et à l’échec par leur nature tempétueuse. Ils ressentent les passions mortelles plus profondément que les autres vampires et sont enclins à frapper avant de poser toute question. Les membres de ce clan aiment les causes et agiront impulsivement contre quoi que ce soit qu’ils perçoivent comme une injustice. Ils se réunissent en de violentes assemblées appelées <i>rants</i> où ils engagent des débats passionnés, défient leurs rivaux au combat, ou suscitent le soutien de croisades contre le status quo. Ils savent mieux que tous que la capacité de ressentir des émotions peut aussi être une voie sombre. De nombreux Brujahs sont emportés par la frénésie et la folie s’ils n’arrivent pas à contrôler leurs passions.<br /> Les membres du clan Brujah sont étreints au sein de nombreuses cultures, régions et religions. Les Brujahs n’ont jamais été sélectifs – ils choisissent leurs Infants sur la base de la pulsion et du désir d’un individu de corriger les torts. Lorsqu’il s’agit de s’adapter au monde moderne, les Brujahs le font mieux que la plupart des vampires. Ils adoptent aisément les symboles de rébellion : crânes rasés, motos, vestes en cuir, clous ou t-shirts aux slogans provocateurs."
+    },
+    {
+        "Key": "CLAN_BRUJAH_NAME",
+        "Text": "Brujah"
+    },
+    {
+        "Key": "CLAN_BRUJAH_ORGANIZATION",
+        "Text": "Les Brujahs expérimentés tendent à inspirer leurs frères de clan, mais il est attendu d’un frère de clan qu’il prouve sa valeur plus qu’il ne se tourne vers ses anciens pour résoudre ses problèmes ; ainsi la hiérarchie du clan est au mieux peu structurée. Les Brujahs tendent à se regrouper en factions philosophiques se réclamant souvent des Idéalistes, des Individualistes ou des Iconoclastes. Les Iconoclastes sont passionnés par la mise à bas de la société et la construction de quelque chose de neuf, tandis que les Idéalistes préfèrent résoudre les problèmes de la société plutôt que de recommencer depuis le début.Les Individualistes sont plus solitaires, travaillant sur une base d’une personne à la fois plutôt que de se concentrer sur la société dans son ensemble."
+    },
+    {
+        "Key": "CLAN_BRUJAH_SURNAME",
+        "Text": "La Plèbe, La Populace"
+    },
+    {
+        "Key": "CLAN_BRUJAH_WEAKNESS",
+        "Text": "Les Brujahs sont très émotifs et ont de grandes difficultés à contrôler la fureur de leur Bête. Leur difficulté à résister à la frénésie est augmentée de 2."
+    },
+    {
+        "Key": "CLAN_SET",
+        "Text": "SETHITE"
+    },
+    {
+        "Key": "CLAN_SET_HISTORY",
+        "Text": "Les disciples de Set, aussi connus comme le clan Setite, débutèrent en tant que culte de la mort dans l’ancienne Égypte mais, en ces nuits, le clan a grandi et prospéré. Que vous soyez à la recherche de secrets ésotériques oubliés ou d’une nuit sous drogue, de plaisirs et d’excès, les Disciples de Set peuvent pourvoir à tous vos désirs. Ces vampires rusés se sont spécialisés dans l’exploitation des faiblesses d’autrui afin d’acquérir le pouvoir pour eux-mêmes. Les Disciples de Set révèrent leur ancêtre, Set, comme le premier vampire et affirment qu’ils sont son unique descendance − les autres clans descendent de créatures inférieures qui devinrent des non-morts bien après l’élévation de Set.<br />En leur sein, les Disciples de Set sont une organisation religieuse dédiée au culte et à la dévotion envers leur Antédiluvien, le tout-puissant Set du mythe égyptien. La foi imprègne le clan, dicte les actions de ses membres et leur donne un but commun. Même quand les schismes religieux survinrent, qui créèrent des lignées telles que les Daityas, les Tlaciques ou les Vipères, la plupart des Setites restèrent unis dans leur foi singulière en Set. C’est uniquement dans le Sabbat que les Setites tournent le dos à leur Antédiluvien, défendent le culte de Caïn et renient la nature divine de Set.<br /> Malheureusement, un tel dévouement fanatique crée des ennemis. Les autres clans considèrent les Disciples de Set à peine mieux que des infernalistes vendant leur âme à une entité inconnue. Assurément, les Setites se spécialisent dans l’offre de pactes avec le démon mais ils arrivent presque toujours à tirer leur épingle du jeu. Néanmoins, de nombreux vampires les regardent avec une méfiance sceptique et préfèrent ne pas s’allier avec les Setites.<br /> Les Disciples de Set apparurent en Afrique du Nord ; nombre de leurs anciens revendiquent d’avoir été prêtres dans l’ancienne Égypte, utilisant ces affirmations comme un levier pour atteindre les positions de pouvoir au sein du clan. En ces nuits, les Setites choisissent leurs infants dans de nombreuses cultures. Ils sélectionnent principalement le charisme, le dévouement et le bagou. Habituellement, ces infants sont tout d’abord initiés au culte de Set puis l’Étreinte leur est donnée en tant que sombre récompense au service de leur dieu. Cependant, il arrive qu’un infant étreint récemment rejette ces enseignements et fuie le temple. Quelques-uns de ces individus se retrouvent au sein du Mouvement Anarch, combattant pour se libérer des volontés de leurs anciens. Pour les jeunes Setites, cela inclut la liberté de religion − une cause très chère à leur cœur.Les Disciples de Set apparurent en Afrique du Nord ; nombre de leurs anciens revendiquent d’avoir été prêtres dans l’ancienne Égypte, utilisant ces affirmations comme un levier pour atteindre les positions de pouvoir au sein du clan.En ces nuits, les Setites choisissent leurs infants dans de nombreuses cultures.Ils sélectionnent principalement le charisme, le dévouement et le bagou.Habituellement, ces infants sont tout d’abord initiés au culte de Set puis l’Étreinte leur est donnée en tant que sombre récompense au service de leur dieu. Cependant, il arrive qu’un infant étreint récemment rejette ces enseignements et fuie le temple.Quelques - uns de ces individus se retrouvent au sein du Mouvement Anarch, combattant pour se libérer des volontés de leurs anciens. Pour les jeunes Setites, cela inclut la liberté de religion − une cause très chère à leur cœur. <br /> Le clan s’est bien adapté à la société moderne, abandonnant les ornements du passé comme un serpent abandonne sa peau. Mais à l’intérieur des temples Setites, au milieu des piliers en or et des statues funéraires égyptiennes, le culte de Set prospère et se répand dans la nuit."
+    },
+    {
+        "Key": "CLAN_SET_NAME",
+        "Text": "Disciples de Set"
+    },
+    {
+        "Key": "CLAN_SET_ORGANIZATION",
+        "Text": "Les Disciples se rassemblent au sein de temples, habituellement un par grande région. Ce temple coordonne un réseau de cultes clandestins et de repaires de stupéfiants, son clergé vampirique se disperse sur plusieurs états ou territoires. Le prestige clanique d’un Disciple de Set est basé sur le prestige du temple qu’il sert et sa position dans la hiérarchie religieuse. Le temple le plus grand et le plus prestigieux se trouve en Afrique du Nord où règne un puissant Mathusalem. De là, le Plus Grand des Prêtres envoie des édits au nom de Set pour les temples inférieurs."
+    },
+    {
+        "Key": "CLAN_SET_SURNAME",
+        "Text": "Serpents"
+    },
+    {
+        "Key": "CLAN_SET_WEAKNESS",
+        "Text": "Les Setites réagissent violemment aux lumières vives. Ils subissent 1 point de dommage additionnel quand ils sont exposés à la lumière du soleil et tous les Scores de Test sont réduits de 2 pour tout challenge initié lorsqu’ils sont exposés à une lumière vive quel qu’en soit le type. Notez que les Scores de Test défensifs ne sont pas sujets à cette pénalité."
+    },
+    {
+        "Key": "CLAN_GANGREL",
+        "Text": "GANGREL"
+    },
+    {
+        "Key": "CLAN_GANGREL_HISTORY",
+        "Text": "Les autres Vampires considèrent les Gangrels comme des créatures primitives. Ils ne comprennent pas la différence entre primitif et prédateur. Oui, les Gangrels peuvent être des bêtes vicieuses et cruelles, soumises à des pulsions animales — mais ils sont aussi des chasseurs rusés et civilisés. En tant que clan, les Gangrels sont méfiants et distants. Ils méprisent les sociétés organisées et préfèrent opérer en dehors des structures et des hiérarchies. Cet individualisme les a amenés à se développer de différentes façons, engendrant de nombreuses lignées différentes, des ultra-territoriaux Andas ou Mariners aux disparates lignées des Noiads ou des Coyotes, dont les pouvoirs diffèrent du clan parent. Le clan les considère tous comme Gangrel.<br /> Là où les autres clans se concentrent sur la politique, le pouvoir ou les possessions, les Gangrels sont des solitaires et des voyageurs ; peu passent du temps dans les cours de Vampire. Ils ont peu de respect pour les inimitiés ou alliances de clan. Les conflits avec les Gangrels concernent plus souvent le domaine ou les droits de chasse plutôt que la politique ou les arrangements en vue du pouvoir. En outre, ils ne ne font pas la différence entre les Anciens et les Nouveaux-nés, comme le font les autres clans. Au lieu de ça, les Gangrels fondent le prestige du clan sur les capacités individuelles, récompensant le courage et la force. Les Anciens Gangrels demandent le respect — mais c’est un respect qu’ils méritent d’obtenir. La plupart des Gangrels apparaissent sales, grossiers et en loques, comme il sied à un clan de vagabonds. En outre, lorsqu’ils sont en frénésie, ils prennent l’aspect de créatures naturelles, leur donnant une mine animale. Ils campent où ils veulent, dans le sol de la terre et ne prêtent pas attention à ce que les autres pensent de leur apparence. Les Gangrels infantent sporadiquement, souvent après avoir chassé un éventuel Infant. Ils abandonnent fréquemment le jeune Vampire après son étreinte, le forçant à apprendre les leçons basiques de survie par lui-même. Une fois que l’infant se sera montré digne, son Sire reviendra vers lui pour l’établir dans la société et l’introduire au sein du clan."
+    },
+    {
+        "Key": "CLAN_GANGREL_NAME",
+        "Text": "Gangrel"
+    },
+    {
+        "Key": "CLAN_GANGREL_ORGANIZATION",
+        "Text": "À certaines occasions, les membres du clan Gangrel se rassemblent, discutent de l’actualité et se font leurs récits de voyages. Ces réunions sont informelles, rarement planifiées à l’avance et parfois ne durent que quelques nuits. Au-delà de ça, les Gangrels évitent d’autres relations que celles entre Sire et Infant. Le dirigeant des Gangrels est celui dont les victoires récentes sont les plus prestigieuses. Ceux dont les faits marquants datent d’un passé lointain, ou qui ont récemment perdu la face, reçoivent beaucoup moins de respect."
+    },
+    {
+        "Key": "CLAN_GANGREL_SURNAME",
+        "Text": "Apatrides"
+    },
+    {
+        "Key": "CLAN_GANGREL_WEAKNESS",
+        "Text": "Tous les Gangrels ont une caractéristique physique animale. Par exemple, vous pouvez avoir des yeux de faucon, des écailles sur votre peau ou une crinière de lion. À chaque fois qu’un Gangrel passe en frénésie, il gagne temporairement une caractéristique physique animale additionnelle. Ces caractéristiques physiques animales temporaires s’effacent lorsque le Vampire dort une journée, mais la caractéristique animale permanente du Gangrel, elle, ne disparaît jamais. Elle peut être cachée par des vêtements, un pouvoir d’Occultation ou temporairement retirée par des pouvoirs tels que Vicissitude, mais elle reviendra toujours lorsque le Vampire dormira."
+    },
+    {
+        "Key": "CLAN_GIOVANNI",
+        "Text": "GIOVANNI"
+    },
+    {
+        "Key": "CLAN_GIOVANNI_HISTORY",
+        "Text": "Les Giovanni commencent leur histoire en tant que maison de marchands vénitiens. Étreints par les érudits du Clan Cappadocien, les Giovanni étaient supposés servir de relais entre le Clan et le monde des mortels durant la Renaissance, mais les marchands, audacieux et avides de pouvoir, se retournèrent rapidement contre leurs maîtres. La chute des Cappadociens n’était que le début de leurs ambitions.<br /> Les Giovanni amassèrent une vaste fortune au cours des siècles, en utilisant leur connaissance approfondie de la politique et beaucoup d’habileté financière. De plus, ils maîtrisèrent les sombres secrets de la Nécromancie, imposant leur contrôle sur les esprits des morts.<br /> L’arrogance des Giovanni grandit à mesure que leur pouvoir augmentait et ils s’accaparèrent rapidement le marché de la Nécromancie dans le monde des Vampires. Pendant des siècles, les Giovanni firent fructifier leurs talents, forçant les autres clans à accepter leur indépendance et à ignorer leur sombre passé. Pendant que le reste du monde Vampirique juge les Giovanni pour la destruction et la diablerie des Cappadociens, il ne peut en aucun cas ignorer les Nécromants — ou tourner le dos au pouvoir qu’apporte le jeune clan.<br /> Devant des étrangers au clan, les Giovanni feront de grandes démonstrations d’humilité et d’amitié. Cependant, cloîtrés dans leurs murs, les membres de la famille incestueuse se livrent une compétition acharnée, n’ayant aucune limite s’ils peuvent gagner un peu plus de pouvoir. Ils ne nouent pas de véritables alliances, mais ils sont prêts à toutes les courbettes pour s’attirer les bonnes grâces d’un autre clan de Vampire. En fin de compte, le Clan Giovanni n’a de loyauté véritable qu’envers lui-même."
+    },
+    {
+        "Key": "CLAN_GIOVANNI_NAME",
+        "Text": "Giovanni"
+    },
+    {
+        "Key": "CLAN_GIOVANNI_ORGANIZATION",
+        "Text": "Fidèles à leurs racines remontant à la Renaissance, les Giovanni ont une organisation interne stricte. Les Anciens dirigent les sangs les plus faibles et gardent les plus jeunes en coupe réglée.<br /> Cependant, le clan n’a que faire des rôles traditionnels des sexes, hommes et femmes peuvent prétendre au pouvoir chez les Giovanni. La structure interne est encore complexifiée par des relations incestueuses, des cultes de la mort hérétiques et des relations étranges avec les esprits fantomatiques des membres disparus de la famille."
+    },
+    {
+        "Key": "CLAN_GIOVANNI_SURNAME",
+        "Text": "Nécromants"
+    },
+    {
+        "Key": "CLAN_GIOVANNI_WEAKNESS",
+        "Text": "La morsure d’un Giovanni cause une douleur atroce aux mortels qui la reçoivent. Quand un Giovanni se nourrit sur un Mortel, il inflige 3 points de dégâts pour chaque point de sang drainé au lieu des 2 habituels."
+    },
+    {
+        "Key": "CLAN_LASOMBRA",
+        "Text": "LASOMBRA"
+    },
+    {
+        "Key": "CLAN_LASOMBRA_NAME",
+        "Text": "Lasombra"
+    },
+    {
+        "Key": "CLAN_LASOMBRA_SURNAME",
+        "Text": "Magistères"
+    },
+    {
+        "Key": "CLAN_LASOMBRA_HISTORY",
+        "Text": "Nés dans les ombres, leurs esprits ayant fusionné avec les profondeurs de l’Abîme, les Vampires du clan Lasombra sont majestueux, élégants et rongés par l’exercice du pouvoir. Peu de Vampires ont autant de volonté et de contrôle, ou maintiennent un tel intérêt à l’excellence, la noblesse et l’ambition que les Lasombras. Le clan est rempli de prêtres souhaitant devenir Pape ou de conseillers qui dirigent le destin de nations entières. Ils aiment les « sports » de la noblesse (duels, empoisonnement, assassinat et ambition) et dirigent la nuit avec élégance et de sombres désirs.<br /> Là où les autres Vampires cherchent du sens, regardant le sang ou les strates hiérarchiques de leur clan pour se motiver dans leur existence éternelle, les Lasombras ne cherchent rien de moins que la suprématie totale. Leur influence dans l’Église est sans égale. Au travers des âges, les Lasombras se sont employés à piéger la Foi, récupérant à la fois des biens et du pouvoir en restant en coulisse.<br /> Même si la Foi est cruciale pour les Lasombras, la plupart d’entre eux ne croient pas que les Vampires puissent être pardonnés ou sauvés. Ils croient que le vampirisme est une malédiction imposée à certains afin de guider les Mortels dans la lumière de Dieu ou pour punir et détruire ceux qui ne peuvent quitter les ténèbres. En tout cas le clan a depuis longtemps abandonné l’espoir de paradis et de salut. Les seuls plaisirs que trouve un Lasombra sont dans le monde Mortel ; la seule gloire qu’il obtient est celle de voir ses ennemis et rivaux écrasés sous sa botte.<br /> L’arrogance est nativement présente dans le sang des Lasombras. Même les plus jeunes membres du clan irradient d’un sens sombre pour le commandement et les plus anciens peuvent utiliser les pouvoirs du clan pour imposer leur volonté à la nuit elle-même. Ils sentent qu’aucun Vampire ne leur arrive à la cheville et que leur sang est significativement supérieur."
+    },
+    {
+        "Key": "CLAN_LASOMBRA_ORGANIZATION",
+        "Text": "Les Lasombras préfèrent les cours majestueuses, les messes noires ainsi que les ornements et les titres aristocratiques. La cérémonie, tout comme le pouvoir, fait partie intégrante de la structure du clan. Pour résumer, les Lasombras sont déviants et meurtriers. Le lignage apporte beaucoup au prestige et certaines lignées familiales sont plus respectées que d’autres. Un système complexe de patronages et de mentorats permet de nouvelles conditions sociales, tout comme une position hiérarchique au sein de sa secte. Un petit groupe au sein du clan, connu sous le nom d’Amici Noctis (les Amis de la Nuit), se rassemble en secret et définit la politique à suivre pour le reste du clan. Ce groupe impose sa volonté sur tous les membres du clan, indépendamment de la secte ou des alliances personnelles. Quand un Lasombra doit être jugé, il est amené devant la Cour de Sang où son utilité sera évaluée et où il sera détruit si celle-ci est jugée insuffisante."
+    },
+    {
+        "Key": "CLAN_LASOMBRA_WEAKNESS",
+        "Text": "Les Vampires du clan Lasombra n’ont pas de reflet. Que ce soit sur un miroir, de l’eau, une surface polie ou un rétroviseur arrière de taxi, les Lasombras ne se reflètent pas. Leur réflexion ne peut pas être capturée par des systèmes qui fonctionnent via des miroirs (comme les vieux appareils photos) mais peut être enregistrée sur des appareils photo modernes."
+    },
+    {
+        "Key": "CLAN_MALKAVIAN",
+        "Text": "MALKAVIAN"
+    },
+    {
+        "Key": "CLAN_MALKAVIAN_NAME",
+        "Text": "Malkavian"
+    },
+    {
+        "Key": "CLAN_MALKAVIAN_SURNAME",
+        "Text": "Lunatiques"
+    },
+    {
+        "Key": "CLAN_MALKAVIAN_HISTORY",
+        "Text": "Pour certains, l’éternité n’est rien de plus qu’une continuation de leur existence mortelle. Pour les Malkaviens, la transition est bien plus abrupte et dévastatrice. L’étreinte fracasse l’esprit de ceux qui sont amenés dans ce clan, les conduisant juste au delà du bord de la folie − mais en déverrouillant des dons surnaturels d’introspection et de perspicacité.<br /> Tous les Malkaviens sont profondément et sombrement fous ; leur psychologie est dans un équilibre précaire au bord de la falaise qu’est leur santé mentale. C’est un phénomène douloureusement aliénant. Leurs dérangements peuvent prendre la forme structurée, médicalement comprise, d’une folie ou elle peut être un renversement complet des sens. Elle peut aller et venir sous la forme d’une psychose vive ou elle peut se manifester sous la forme d’hallucinations élaborées sur le long terme. Chaque Malkavien a vu son esprit se disloquer selon des schémas différents ; aucun d’entre eux n’émerge de son étreinte exactement de la même manière.<br /> Il est très difficile pour les autres Vampires de se lier aux membres du clan Malkavien. Ils sont hargneux, imprévisibles et parfois inintelligibles. Ils voient le monde différemment et, occasionnellement, essaient d’éduquer et d’éclairer les autres à des vérités que seuls eux semblent comprendre. Ces leçons prennent la forme de farces très élaborées, terrifiantes et dangereuses. Ne suivant une logique que seul un Malkavien pourrait comprendre. Les Malkaviens semblent donner l’étreinte au hasard, prenant leurs infants dans toutes les strates de la société mortelle. L’apparence extérieure d’un Malkavien est habituellement spécifique au dérangement du personnage, variant d’une propreté obsessionnelle à un ébouriffement complet. Les Malkaviens les plus jeunes tendent à être plus solitaires et déviants, luttant pour se comprendre eux-mêmes et le nouveau monde dans lequel ils ont été plongés. Les anciens tendent à avoir une meilleure compréhension de leurs tumultes intérieurs et semblent plus à l’aise. De plus, tous les Malkaviens sont connectés à un vaste sixième sens persistant − certains disent que c’est la conscience somnolente du fondateur de leur clan − et ils possèdent tous une perspicacité au delà de toute compréhension mortelle."
+    },
+    {
+        "Key": "CLAN_MALKAVIAN_ORGANIZATION",
+        "Text": "En vérité, le concept de structure est dénué de sens quand on décrit le chaos déchaîné qui affecte le clan Malkavien. Les Malkaviens vont et viennent comme il leur plait, remarquant à peine la traversée des âges. Ils n’ont aucune hiérarchie de clan ni aucune structure. Les anciens sont nominalement en charge, principalement parce qu’ils tendent à être plus lucides que ceux étreint plus récemment."
+    },
+    {
+        "Key": "CLAN_MALKAVIAN_WEAKNESS",
+        "Text": "Tous les membres du clan Malkavien souffrent d’un dérangement permanent et incurable. Ils peuvent acquérir et guérir d’autres dérangements mais ils ne pourront jamais guérir de leur dérangement principal. Les Malkaviens ne reçoivent pas d’XP de handicap pour ce dérangement principal ; cependant ils reçoivent normalement les XP de handicaps pour des dérangements additionnels. Réinitialiser les traits de Dérangement d’un Malkavien le place à 1 plutôt que 0.Pour plus de détails, voir Dérangements."
+    },
+    {
+        "Key": "CLAN_NOSFERATU",
+        "Text": "NOSFERATU"
+    },
+    {
+        "Key": "CLAN_NOSFERATU_NAME",
+        "Text": "Nosferatu"
+    },
+    {
+        "Key": "CLAN_NOSFERATU_SURNAME",
+        "Text": "Rats d’égouts"
+    },
+    {
+        "Key": "CLAN_NOSFERATU_HISTORY",
+        "Text": "Les membres du Clan Nosferatu sont physiquement tordus et déformés par l’Étreinte, transformés en d’horribles monstres issus de leur apparence mortelle. Pire, les déformations Nosferatu sont si cruelles et vicieuses que nombre de ceux qui sont Étreints ne survivent pas. Ces vampires sont si hideux qu’ils doivent rester cachés de la société mortelle, de peur qu’ils ne brisent la Mascarade.<br /> Certains membres du Clan Nosferatu se délectent de leur apparence répugnante, utilisant leurs difformités pour choquer et horrifier les autres vampires. Ils gardent le plus souvent possible leur visage clairement apparent, se réjouissant de l’inconfort qu’une telle vue cause. Plus particulièrement, ces vampires déformés raillent les Toreadors ; les Nosferatus abhorrent leur beauté et leurs dons artistiques.Si les Toreadors en avaient l’opportunité, le Clan Nosferatu serait éradiqué afin de préserver la Mascarade – une excuse à peine voilée pour masquer bigoterie et élitisme.Le Clan Nosferatu porte une animosité similaire et se délecte plus que tout des blessures infligées aux Toreadors.<br /> Les Membres du Clan Nosferatu établissent leur résidence au sein des égouts des grandes villes, s’abritant dans des couvées avec des goules animales pour les protéger durant la journée. Les Nosferatus sont des courtiers de l’information, experts dans la ruse et la discrétion pour mettre en place des pressions politiques. Ils collectent les secrets, espionnent et font chanter les autres vampires. S’ils sont cruels dans leur utilisation des secrets des autres, c’est parce que leur éternité est des plus dures. Leur laideur les fait répugnants et un tel isolement se transforme vite en dépit.<br />La légende dit que l’Antédiluvien Nosferatu regretta d’avoir bafoué la loi de Caïn et, lorsque le clan fut maudit, jura d’éradiquer sa progéniture de la surface de la Terre. Il conserva la plus puissante de ses couvées, la lia au sang et lui ordonna de chasser les Nosferatus jusqu’à ce que tous les membres du clan soient détruits. Peu importe la secte ou autre loyauté d’un Nosferatu, le clan est uni dans la peur et la haine de ces Niktuku."
+    },
+    {
+        "Key": "CLAN_NOSFERATU_ORGANIZATION",
+        "Text": "Les Nosferatus tendent à s’organiser en petits groupes, des couvées habituellement étreintes par le même sire. Ces couvées peuvent s’étendre en de vastes groupes avec des hiérarchies internes basées sur rien de plus que les humeurs et caprices de leur sire originel. Au-delà d’une simple ville, le clan partage l’information via des moyens technologiques ; ils utilisent des emails, forums et serveurs sécurisés connus comme le ShreckNET qui est maintenu par une puissante lignée de Nosferatus."
+    },
+    {
+        "Key": "CLAN_NOSFERATU_WEAKNESS",
+        "Text": "Tous les Nosferatus sont inhumainement laids. Les Nosferatus ne peuvent pas avoir le focus d’attribut Apparence."
+    },
+    {
+        "Key": "CLAN_TOREADOR",
+        "Text": "TOREADOR"
+    },
+    {
+        "Key": "CLAN_TOREADOR_NAME",
+        "Text": "Toreador"
+    },
+    {
+        "Key": "CLAN_TOREADOR_SURNAME",
+        "Text": "Dégénérés"
+    },
+    {
+        "Key": "CLAN_TOREADOR_HISTORY",
+        "Text": "Les roses magnifiques dans un jardin étoilé au soir. Un air chantant dans un crépuscule somnolent. La douceur du baiser d’un amant. Ces images évoquent le Toreador car ces vampires sont les plus beaux de tous.<br />Les Toreadors sont des artistes, écrivains et créateurs : des artisans qui bénéficient d’une vie immortelle d’apparat et de sensualité. Et, contrairement à d’autres clans, les Toreadors s’enfoncent dans le monde des mortels. Souvent, ils font semblant d’être mortels, vivant comme des célébrités et donnant des patronages à des artistes mortels influents. De ville en ville, de passion en passion, le Toreador voltige, inspirant de lui le meilleur des arts et laissant une traînée de cœurs brisés derrière lui.<br />Avec des goûts aussi raffinés, il est facile pour un Toreador de devenir blasé, amer et rempli d’ennui. Entourés par l’excès, ils perdent très vite tout intérêt, saisissant prix après prix − les plus doux étant ceux volés aux autres. Les plus anciens Toreadors deviennent souvent dépravés, tombant dans la débauche simplement pour pouvoir ressentir quoi que ce soit.<br />Les Toreadors aiment la politique et vivent pour la hiérarchie, tant qu’ils en sont au sommet. Ils développent des cultes de la personnalité, rassemblant des adeptes captivés par leur beauté ou mendiant leur patronage. Ils sont toujours à la pointe de la culture, des arts et de la société. Ils s’enorgueillissent de leur beauté et de leur grâce, hébergent des salons et rassemblements pour montrer leur beauté et leur style. Ceux qui ne peuvent pas maintenir le rythme sont ostracisés et ridiculisés. Les Vampires qui sont laids, non-civilisés ou qui ne montrent aucun signe de respect pour les arts sont déchirés par les griffes métaphoriques d’un Toreador. C’est spécifiquement pour cette raison qu’il existe une inimitié éternelle entre les clan Toreador et Nosferatu, une haine ancrée tellement profondément qu’elle durera éternellement."
+    },
+    {
+        "Key": "CLAN_TOREADOR_ORGANIZATION",
+        "Text": "La hiérarchie du clan Toreador est basée sur un système complexe de guildes et de patronages. Avec des étoiles montantes mises en avant − et rapidement mises au rebut dès lors que leur gloire a disparu. Une clique de puissants anciens s’alignent les uns les autres dans un combat subtil de politique alors qu’ils réduisent des réputations à néant et détruisent des vies. Les jeunes Toreadors jetés dans ce bassin rempli de requins doivent rapidement apprendre à nager ou couler."
+    },
+    {
+        "Key": "CLAN_TOREADOR_WEAKNESS",
+        "Text": "Les Toreadors sont souvent extasiés par la beauté et l’art. Quand vous rencontrez une œuvre d’art, une performance ou quelque chose de magnifique qui vous intéresse particulièrement, vous devez lui accorder toute votre attention le temps d’une scène. Un Toreador peut, en dépensant un point de volonté, résister à cette pulsion. Bien que des distractions comme des voix fortes ou une bagarre à proximité peuvent détourner votre attention, un Toreador déteste être interrompu alors qu’il découvre l’art et la beauté et répondra avec colère − même avec violence, voire la frénésie."
+    },
+    {
+        "Key": "CLAN_TREMERE",
+        "Text": "TREMERE"
+    },
+    {
+        "Key": "CLAN_TREMERE_NAME",
+        "Text": "Tremere"
+    },
+    {
+        "Key": "CLAN_TREMERE_SURNAME",
+        "Text": "Sorciers"
+    },
+    {
+        "Key": "CLAN_TREMERE_HISTORY",
+        "Text": "De tous les Clans vampiriques, les Tremeres ont sans doute l’histoire la plus obscure. Il y a longtemps, les Tremeres n’étaient pas des vampires mais de puissants sorciers mortels, spécialisés dans la magie hermétique. Au travers d’une ruse vicieuse et d’une ambition dévorante, ils rejoignirent la société des morts-vivants immortels. Même dans les nuits modernes, les Tremeres sont les maîtres incontestés de la sorcellerie du sang, gardant farouchement leurs secrets. Leurs nombreux succès ont valu aux Tremeres beaucoup d’ennemis amers. Leur héritage est celui du pouvoir occulte exercé par la perspicacité politique et ils sont extrêmement dangereux. Les Tremeres exigent le respect par dessus tout – à la fois des autres vampires et au sein de leur propre clan.<br />Au fil des siècles, aucun clan n’a commis d’atrocités aussi terribles que les Tremeres. De sombres affaires, d’horribles expériences et de viles trahisons entachent leur réputation. Pourtant, les Tremeres continuent de détenir le pouvoir, principalement en raison de solides alliances avec d’autres Clans et de l’influence de leur magie. Ceux qui se retournent contre les Tremeres perdent l’accès à leurs dons occultes et à leurs compétences thaumaturgiques. Un allié sorcier peut être une immense aubaine.<br />Les Sorciers ont abandonné leur robe noire et leur grand bâton au Moyen-Âge ; au contraire, les Tremeres ont adopté une attitude stricte et professionnelle, comme il convient aux nuits modernes. Les costumes austères, les robes guindées et les accessoires haut de gamme ont remplacé les chapeaux et les cannes, car l’image de la maîtrise occulte s’adapte à chaque âge qui passe."
+    },
+    {
+        "Key": "CLAN_TREMERE_ORGANIZATION",
+        "Text": "Les Tremeres évoluent dans une hiérarchie stricte et disciplinée, aux rangs statiques et aux sévères restrictions, connue sous le nom de « Pyramide », dirigée par un conseil des Anciens Tremeres les plus puissants. Des titres tels qu’Apprenti, Seigneur et Régent distinguent nettement les rangs Tremere au sein du clan.<br />Chaque Tremere est choisi avec soin parmi une population mortelle sous contrôle. Une fois transformé en goule, l’éventuel infant est éduqué, testé, puis introduit dans le clan comme un modeste Apprenti. Par son labeur, son dévouement et de judicieuses trahisons, un Tremere peut s’élever dans la Pyramide et saisir le pouvoir dans le Clan. Les Tremeres ne vivent pas seuls mais se réfugient dans des paroisses occultes où ils peuvent travailler ensemble et surveiller leurs arrières."
+    },
+    {
+        "Key": "CLAN_TREMERE_WEAKNESS",
+        "Text": "Le Sang des Tremere contient des défauts et des inégalités inconnus des autres Clans. À cause de ces failles, les Tremeres tombent plus facilement dépendants au sang d’un autre. Il suffit à un Tremere de boire deux fois le sang d’un autre vampire pour être Lié au sang, au lieu des trois fois habituellement – la première ingestion compte comme si le Tremere avait bu deux fois."
+    },
+    {
+        "Key": "CLAN_TZIMISCE",
+        "Text": "TZIMISCE"
+    },
+    {
+        "Key": "CLAN_TZIMISCE_NAME",
+        "Text": "Tzimisce"
+    },
+    {
+        "Key": "CLAN_TZIMISCE_SURNAME",
+        "Text": "Monstres"
+    },
+    {
+        "Key": "CLAN_TZIMISCE_HISTORY",
+        "Text": "Bien avant que l’histoire ne commence à être documentée, les Tzimisces résidaient dans les montagnes et les fastes de l’Ancien Monde, se tenant éloignés des troupeaux de mortels pathétiques sur lesquels ils se nourrissaient. Dirigeants absolus des territoires qu’ils occupent, ce sont des créatures jalouses et possessives, profondément connectées à la terre. Ils défendent violemment leurs domaines, vivant dans des groupes basés sur le lignage − un Sire et son infant adorateur − et savent manipuler le lien de sang avec expertise et cruauté.<br />Les éons passés dans leurs châteaux de pierre ont tordu l’esprit des Tzimisces et les longs siècles d’études leur ont donné la maîtrise de la chair ; ils possèdent la capacité de modeler et manipuler la chair comme un autre manipulerait de l’argile. Ils appliquent une philosophie qui révère la métamorphose, portant leur regard au-delà du fragile corps physique dans une tentative de découverte de la nature de l’âme. Détachés et scientifiques, les Tzimisces utilisent les mortels à la fois comme nourriture et sujets d’expériences. Ils ne se soucient absolument pas des humains, les jetant impitoyablement quand ils ne leur sont plus d’aucune utilité.<br />Les mystiques Tzimisces connaissent bien les esprits de la terre et pratiquent une forme de magie qu’ils appellent le Koldunisme. Ils gardent jalousement ces secrets, particulièrement des Tremere, qu’ils voient comme des usurpateurs de leurs pouvoirs anciens. Ils voient les autres clans comme des prétendants et des faibles, en rut et vivant au milieu même des animaux qu’ils mangent. Pour témoigner leur dédain, de nombreux Tzimisces modèlent leur propre chair en d’étranges et monstrueuses œuvres d’art, avec des couronnes de corne et des vêtements confectionnés à partir de peau sculptée."
+    },
+    {
+        "Key": "CLAN_TZIMISCE_ORGANIZATION",
+        "Text": "Les Tzimisces sont profondément méfiants vis-à-vis des autres Vampires, convaincus que les autres clans envient leurs secrets et qu’ils feront tout pour les obtenir. Ils s’organisent en petites unités familiales étroitement unies autour des forteresses ancestrales de l’Ancien Monde ou des exploitations récemment obtenues dans le Nouveau Monde. Le chef de chaque lignée est connu sous le nom de voïvode et son pouvoir en son propre domaine est absolu."
+    },
+    {
+        "Key": "CLAN_TZIMISCE_WEAKNESS",
+        "Text": "Les Tzimisces sont inextricablement liés à leur domaine d’origine et doivent rester à proximité d’au moins deux poignées de leur sol d’origine − la terre d’un lieu important pour le Tzimisce lors de ses jours mortels, comme la terre de son lieu de naissance ou le cimetière dans lequel il a été étreint. Chaque jour passé sans cette connexion physique à sa terre inflige une pénalité cumulative de -1 sur tous ses traits de test d’attaque (pour un maximum de -5). Ces pénalités sont présentes jusqu'à ce qu’il se repose pendant une journée complète au milieu de sa terre."
+    },
+    {
+        "Key": "CLAN_VENTRUE",
+        "Text": "VENTRUE"
+    },
+    {
+        "Key": "CLAN_VENTRUE_NAME",
+        "Text": "Ventrue"
+    },
+    {
+        "Key": "CLAN_VENTRUE_SURNAME",
+        "Text": "Roys"
+    },
+    {
+        "Key": "CLAN_VENTRUE_HISTORY",
+        "Text": "Alors que les autres clans s’essaient à la politique, étudient la philosophie et encouragent les arts, les descendants du Clan Ventrue ciblent leurs recherches sur la seule chose qui importe vraiment : le pouvoir. Régner est dans leur sang et rares sont les Ventrues qui ne ressentent pas le besoin de commander. La légende du Clan Ventrue est celle des Rois et des Reines, un lignage de souverains datant d’avant la chute de l’Empire Romain. Ils considèrent qu’il est dans leur droit divin de mener et de façonner le monde. Cette attitude s’applique non seulement aux autres vampires mais aussi aux domaines des mortels où les Ventrues sont souvent des faiseurs de rois et décident du destin des empires mortels.<br /> <i>Noblesse oblige</i> est un terme souvent entendu dans les couloirs du Clan Ventrue. Ils respectent la dignitas, une vertu basée sur l’honneur, la propriété ainsi que le respect et ceux qui se plient à ces règles complexes seront l’exemple même de la réussite au sein du Clan des Roys. Les Ventrues sont malins, éduqués et érudits, aussi doués avec une épée qu’avec un stylo. Conservateurs et insensibles, ils basent rarement leurs décisions sur des émotions. Tout ce qu’ils font est pensé avec l’acquisition du pouvoir en tête et la survie du plus fort. Ils savent que la rudesse peut être nécessaire pour diriger un domaine rempli de morts-vivants désobéissants.<br />La pratique du pouvoir royal par les Ventrues se traduit assez bien dans le monde moderne. À la place des rois et des empereurs, ils sont devenus des PDG influents, contrôlant des empires de la finance et des affaires, plutôt que des terres et des serfs. Le Clan a recentré ses intérêts en faveur de la technologie moderne et du commerce où ils fraient tels des loups voraces au sein d’un troupeau de moutons sans défense.<br />Dans le but de maintenir la position dominante du Clan, les Ventrues choisissent généralement leurs infants parmi ceux étant déjà en pleine réussite : meneurs militaires, entrepreneurs, hommes d’affaires et riches investisseurs rejoignent les rangs des anciens rois et reines."
+    },
+    {
+        "Key": "CLAN_VENTRUE_ORGANIZATION",
+        "Text": "Comme les membres mortels de la royauté, un Ventrue apprend son lignage le jour de son Étreinte et doit être toujours prêt à réciter son entière ascendance parfaitement, à la lettre, sur demande de ses aînés. En interne, les Ventrues opèrent dans des systèmes d’allégeance féodaux bien que leur nature exacte ait évolué depuis ses origines antiques. De nos jours, pairie, vassalité et serments de fidélité s’intègrent bien avec les contrats d’affaires, OPA et autres styles de management agressif."
+    },
+    {
+        "Key": "CLAN_VENTRUE_WEAKNESS",
+        "Text": "Les Ventrues ont des goûts sélectifs en ce qui concerne le sang.<br />Chaque Ventrue ne trouve qu’un seul type de sang de mortel à son goût et ne gagne aucune subsistance d’autres sangs. Quand un joueur crée un personnage Ventrue, il doit parler avec son conteur et définir ensemble un type de sang qui convient aux goûts de ce personnage. Cette catégorie doit être plutôt restreinte ; moins d’une personne sur 10 devrait correspondre à cette description.Ce choix est permanent.<br />D’autres types de sang (y compris les animaux) ne nourrissent pas le Vampire. Peu importe la quantité qu’il consomme, sa Réserve de Sang n’augmentera pas et il vomira immédiatement le sang ingéré. Le sang d’autres créatures surnaturelles (comme les autres vampires) est exempté de cette restriction et peut subvenir aux besoins du personnage, quand bien même cette créature ne rentre pas dans les restrictions alimentaires du Ventrue.<br /> S’il est forcé de se nourrir dans un endroit inhabituel, un Ventrue doit dépenser une action inter-partie supplémentaire pour pouvoir venir en jeu avec sa Réserve de Sang pleine."
+    },
+    {
+        "Key": "CLAN_CAITIFF",
+        "Text": "CAITTIF"
+    },
+    {
+        "Key": "CLAN_CAITIFF_NAME",
+        "Text": "Caittif"
+    },
+    {
+        "Key": "CLAN_CAITIFF_SURNAME",
+        "Text": "Déchets, Bâtards (Pander)"
+    },
+    {
+        "Key": "CLAN_CAITIFF_HISTORY",
+        "Text": "Les Caïtiffs ne forment pas un clan. Ils se regroupent ensemble en tant qu’exilés, mais ils n’ont aucun lien de sang entre eux et aucun ne porte de trait universellement distinctif. À l’occasion, le sang d’un vampire ne porte pas les marques de clan de son Sire. Ces infants infortunés sont généralement abandonnés et méprisés car considérés comme inaptes à la société vampirique. Ils sont exclus de leur lignée car ils sont une honte pour leurs sires. L’appellation même implique que le vampire est sans aucune valeur, un paria dans le monde vampirique.<br />La plupart des Caïtiffs fuient de cité en cité, leur existence même vidée de son sens à cause d’un accident d’Étreinte. En tant que groupe, les Caïtiffs ont très peu en commun. Ils peuvent venir de tous horizons ; ils peuvent avoir été choisis par leurs sires ratés ou l’étreinte peut avoir été un véritable accident.Au mieux, ils ne sont qu’une ombre pâle, une réfection du clan qui a échoué à l’étreindre sans personne pour les recommander dans les couloirs de la société vampirique.Les Caïtiffs sont seuls dans la nuit.<br />Les autres vampires rejettent les Caïtiffs, même ceux qui sont normalement ouverts d’esprit. Depuis longtemps, une rumeur clame que les Caitiffs sont une infection, une maladie. Et que passer trop de temps avec eux transformerait l’étreinte du Vampire, de sorte qu’il n’étreindrait que des Caïtiffs. D’autres rumeurs qualifient les Caïtiffs de malédiction, un châtiment de Dieu ou d’une autre force éternelle. Et d’autres encore, plus sombres, annoncent l’abondance de Caïtiffs comme un symbole de la fin des temps ; il sont un signe de l’affaiblissement du pouvoir vampirique et que le monde sera bientôt détruit par le feu."
+    },
+    {
+        "Key": "CLAN_CAITIFF_ORGANIZATION",
+        "Text": "Les Caïtiffs n’ont aucune organisation et aucun sens de l’unité. Ils sont tués dans certains domaines, jetés dehors d’autres et complètement ignorés dans la plupart. Quand un Caïtiff a quelque chose à offrir, il est utilisé sans pitié par un autre Vampire. Quand il n’est plus utile, il est éliminé. À l’occasion, des Caïtiffs se regroupent pour se protéger mais sont susceptibles de se vendre les uns les autres pour leur sécurité ou un profit au lieu de garder leur alliance."
+    },
+    {
+        "Key": "CLAN_CAITIFF_WEAKNESS",
+        "Text": "Les Caïtiffs ne peuvent pas commencer le jeu avec plus de 2 points dans l’historique Génération. Ils peuvent baisser leur génération grâce à la Diablerie. Les Caïtiffs ne peuvent pas enseigner leurs disciplines de clan à d’autres."
+    },
+    {
+        "Key": "CLAN_BAALI",
+        "Text": "BAALI"
+    },
+    {
+        "Key": "CLAN_BAALI_HISTORY",
+        "Text": "Les Vampires parlent très rarement des Baalis, croyant superstitieusement que ces infernalistes peuvent s’entendre être appelés et se convoquer. Il y a longtemps, un groupe de vampires a passé un pacte avec des forces démoniaques, vendant leur âme pour du pouvoir utilisable à l’encontre des autres clans. Le premier de ceux-ci était Baal le destructeur, une puissante force de conquête et de destruction. Bien que ses armées aient finalement été mises en déroute et conduites vers l’obscurité, le clan Baali n’a pas été oblitéré. Au contraire, il continue d’exister au sein de la cité maudite de Chorazin.Les Baalis, occasionnellement, quittent leur cité et se cachent parmi les autres clans, œuvrant insidieusement pour corrompre les autres vampires.<br />Les Baalis pensent que les démons sont les véritables enfants de la nuit, chassés du ciel par un Dieu narcissique qui a créé l’humanité seulement pour satisfaire sa vanité. Ces vampires sont des créatures corrompues, vicieuses et il n’y a rien qu’un Baali ne fera pas pour satisfaire sa propre ambition. Sacrifices sanglants, rituels noirs, massacres brutaux, aucun acte n’est assez vil ou ne coûte trop cher. Ces Vampires ne sont pas apologétiques dans leur adoration du mal mais se repaissent dans ses bénéfices. Du fait de ses ambitions vicieuses, la connaissance du clan en mystères occultes est vaste − comme le sont ses ennemis. Les infernalistes sont craints et chassés et la plupart des vampires les voient comme une abomination.<br />Bien que leur nombre soit réduit, les Baalis sont dangereux. Ils se rassemblent en de petits couvents, ou « ruches », partageant leur savoir infernal et recherchant des rituels démoniaques blasphématoires. Ils en savent beaucoup sur la Fin des Temps et collectionnent souvent d’obscurs et rares livres de prophéties et de savoir. Les Baalis utilisent ces révélations pour prédire les évènements futurs à leurs dépends ainsi que pour attirer les érudits vampires d’autres clans. A contrario des autres Vampires, les Baalis veulent que la fin des Temps se réalise. Ils voient la Géhenne comme une opportunité de se venger et que leurs maîtres démoniaques puissent enfin se lever."
+    },
+    {
+        "Key": "CLAN_BAALI_NAME",
+        "Text": "Baali"
+    },
+    {
+        "Key": "CLAN_BAALI_ORGANIZATION",
+        "Text": "Les Baalis préfèrent s’organiser en de petites cabales où chacun des membres vénère le même suzerain infernal. Ces cabales ne sont pas liées par loyauté ou affection, mais par acte d’engagement auprès de leur maître démoniaque et par un besoin pressé par la peur de servir leur terrible fondateur de clan."
+    },
+    {
+        "Key": "CLAN_BAALI_SURNAME",
+        "Text": "Démons"
+    },
+    {
+        "Key": "CLAN_BAALI_WEAKNESS",
+        "Text": "Les Baalis ne peuvent pas supporter de regarder ou manipuler tout objet lié à la foi, de quelque nature que ce soit. Les démons vampiriques doivent détourner le regard de tels objets et les toucher brûle leur peau en infligeant un point de dégât aggravé qui ne peut pas être réduit ou encaissé. De plus, si un Baali venait à rencontrer la Vraie Foi, tout effet d’entrave ou de dégât est doublé."
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN",
+        "Text": "CAPPADOCIAN"
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN_HISTORY",
+        "Text": "L’antédiluvien Cappadocien était un érudit monastique qui ne prêtait que très peu d’intérêt aux causes politiques ou au commandement. Cappadocius cherchait la vérité, interrogeant les secrets de la vie et de la mort, demandant à sa descendance de faire de même. Pendant l’Âge des ténèbres, le clan était très peuplé, si ce n’est puissant, et ses membres étaient souvent vus comme des juges impartiaux dans le grand Jyhad. L’attitude obsessionnelle du clan vis-à-vis de ses études (et sa pratique ouverte de la Nécromancie) ont conduit les autres clans à voir ces vampires comme des êtres sinistres et perturbants. Leurs tendances isolationnistes ont empêché les Cappadociens d’avoir de nombreux alliés puissants.<br />En général, les Cappadociens ne considèrent ni l’ethnicité ni la nationalité quand ils étreignent des infants. Des individus de toutes les religions ont été amenés dans le clan, tant que ces mortels souhaitaient étudier la mort. Du fait de leurs habitudes monastiques, les érudits Cappadociens ne passent que très peu de temps auprès des mortels. Ils laissèrent de telles tâches à l’une de leurs lignées mineures, un groupe de vampires étreints depuis une famille de marchands Vénitiens. Malheureusement les Giovanni se sont révélés être indignes de confiance et ont pris le contrôle du clan, chassant et diablant tous les Cappadociens qu’ils trouvèrent.<br />Seule une poignée de ces vampires ont survécu dans les nuits modernes, se soustrayant au regard du monde vampirique, préférant leurs études à la politique. Ces vampires haïssent les Giovanni avec passion et sélectionnent avec une bien plus grande attention leurs infants, résultant en une population assez basse de Cappadociens de par le monde. Ceux qui restent ont pris de nouveaux noms, tel que les Émissaires des Crânes au sein du Sabbat, cachant leur réel lignage dans leur double poursuite de recherche et de vengeance.<br />Les deux lignées Cappadociennes sont très distinctes et sont nées de deux manières complètement différentes. Les Lamia étaient les gardiens et les protecteurs de leur lignée monastique ; ils sont maintenant en disgrâce et presque éteints. Les Samedi, rejetons plus récents des Cappadociens encore actifs, cachent leur véritable nature et se présentent comme des mercenaires et des érudits du vaudou."
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN_NAME",
+        "Text": "Cappadocien"
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN_ORGANIZATION",
+        "Text": "Au moyen-âge, les Cappadociens remplirent les rôles de conseillers auprès de Princes en tant qu’intendants de grands dépôts de connaissances. En interne, le clan avait très peu de hiérarchie, bien qu’ils révèrent ceux avec le plus de connaissances et instruisent les plus jeunes et les ignorants. Après que les Giovanni eurent détruit la majorité du clan, les Cappadociens restants avaient encore moins d’intérêt à communiquer les uns avec les autres de peur de révéler leur position aux Giovanni."
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN_SURNAME",
+        "Text": "Profanateurs"
+    },
+    {
+        "Key": "CLAN_CAPPADOCIAN_WEAKNESS",
+        "Text": "Quelle que soit la quantité de sang qu’un Cappadocien consomme, sa peau gardera la pâleur de la mort, le faisant ressembler à un cadavre."
+    },
+    {
+        "Key": "CLAN_RAVNOS",
+        "Text": "RAVNOS"
+    },
+    {
+        "Key": "CLAN_RAVNOS_HISTORY",
+        "Text": "Le clan Ravnos a une réputation assez sombre, alourdie par l’histoire et les préjugés. Ses membres sont des trompeurs, des voleurs et des vagabonds qui volent ce qu’ils veulent avant de passer à la cible suivante. Les Ravnos rejettent typiquement toutes les formes d’autorité, ignorant les limites des sectes et désobéissant aux lois. Dans les nuits modernes, une grande tragédie a frappé le clan Ravnos, réduisant ses effectifs quasiment à néant. Bien qu’il ait commencé à se repeupler après les horreurs de la Semaine des Cauchemars, le clan reste réduit. La majorité de ses membres sont des individus récemment étreints luttant toujours pour comprendre le monde vampirique. Les anciens du clan sont plus reclus qu’avant, effrayés par l’idée d’une nouvelle purge. Comme les gourous des temps anciens, ils ne partagent la sagesse de leur clan qu’avec ceux qui ont prouvé en être dignes.<br />La plupart des Ravnos sont de nouvelles étreintes alors que le clan cherche à se repeupler après les horreurs de la Semaine des Cauchemars. Déchiré entre les anciennes traditions et les idéaux modernes de leurs nouvelles progénitures, les Ravnos forment un clan meurtri par la transition et endeuillé de milles vérités perdues.<br />Avec leur capacité unique permettant de créer des illusions, les Ravnos se spécialisent dans le questionnement de la vérité et la résolution des mystères. Les Ravnos capricieux utilisent cette capacité pour leur profit, saisissant des opportunités pour des gains à court terme. D’autres membres du clan perdent complètement le contact avec la réalité. Ceux qui vivent pour devenir des anciens voient ce pouvoir comme une philosophie et l’utilisent pour atteindre l’illumination dans leur état d’esprit. Ils étudient l’équilibre entre la réalité et la tromperie et contemplent la vérité absolue.<br />Les plus jeunes des membres du clan Ravnos peuvent être de n’importe quelle nationalité ou culture, bien qu’ils soient souvent choisis pour leur capacité à survivre et tromper. Des jeunes qui aiment la liberté, des hipsters, des groupies de groupes de rock itinérants, des militants politiques, des voyageurs irlandais, des tziganes ou des adolescents fugueurs, les Ravnos ont pléthore d’icônes de jeunesse et de vigueur à choisir. Les Ravnos un peu plus vieux viennent en général de la caste Hindou des Brahman, se rappelant d’un temps où les Ravnos étaient basés sur un système de castes plus présent que dans les nuits modernes. Les deux groupes se chamaillent souvent sur l’avenir du clan, tandis que les jeunes Ravnos luttent pour trouver leur place dans le monde. Les plus vieux Ravnos sont plus sages, plus puissants dans le sang et plus expérimentés − mais l’afflux de jeunes vampires amène de nouvelles idées, de l’expérience technologique et une grande quantité de changements et d’énergie. Le clan est au bord du précipice entre respect des traditions et le fait d’en embrasser de nouvelles, entre d’anciennes vérités et des mensonges trop rapides. Les Ravnos doivent trouver un équilibre ou alors changer à jamais."
+    },
+    {
+        "Key": "CLAN_RAVNOS_NAME",
+        "Text": "Ravnos"
+    },
+    {
+        "Key": "CLAN_RAVNOS_ORGANIZATION",
+        "Text": "L’autarcie est très importante pour le clan Ravnos. Ses membres vagabondent dans le monde et n’accordent que très peu d’attention à la société vampirique établie. La majorité des membres du clan sont jeunes, naïfs et ont tendance à l’égoïsme et aux buts à court terme. Ceux qui survivront à cette période d’épreuves établiront la place du clan dans les nuits modernes."
+    },
+    {
+        "Key": "CLAN_RAVNOS_SURNAME",
+        "Text": "Menteurs"
+    },
+    {
+        "Key": "CLAN_RAVNOS_WEAKNESS",
+        "Text": "Une histoire tumultueuse fait des Ravnos des esclaves de leurs vices. Chaque Ravnos a un dérangement de Compulsion, qui représente un penchant pour une sorte de vice − le mensonge, la cruauté ou le vol par exemple. Ils ressentent cette compulsion à se livrer à leur vice s’ils en ont l’opportunité. Les Ravnos ne gagnent pas d’XP de dérangement pour cette faiblesse de clan. Pour plus d’informations consultez les Dérangements."
+    },
+    {
+        "Key": "CLAN_SALUBRI",
+        "Text": "SALUBRI"
+    },
+    {
+        "Key": "CLAN_SALUBRI_HISTORY",
+        "Text": "Pendant l’Âge des Ténèbres, les Salubriens formaient un clan respecté de guérisseurs. Son fondateur, Saulot, était reconnu pour sa sagesse et les autres vampires traitaient ses infants avec respect. Quand Saulot disparut vers l’Orient à la recherche du mystérieux état de Golconde, ses infants furent laissés sans protection ni guide. En son absence, les Salubriens furent les cibles d’un ambitieux groupe de mages mortels souhaitant leur voler leur immortalité. Les Tremeres massacrèrent les Salubriens, absorbant leur âme pour obtenir la puissance du Sang.<br />Quand Saulot revint de sa quête, il retrouva son clan en ruine, au bord de l’extinction. Son voyage l’avait transformé et les nouveaux infants qu’il avait étreints étaient très différents des anciens. Plus belliqueux et beaucoup moins intéressés par l’élévation spirituelle, ces nouveaux infants abattirent leur terrible vengeance sur les ennemis du clan – malgré cela, la guerre fut perdue. Saulot fut détruit, les Salubriens furent désignés comme des infernalistes et des diabolistes et les autres clans de vampires se joignirent aux Tremeres dans cette chasse au Salubri. Le clan fut annihilé et les traces même de son existence s’évanouirent.<br />Craignant les Tremeres et leurs alliés, les Furies restantes et leurs cousins guérisseurs firent beaucoup d’efforts pour se cacher des autres vampires. Au fil des siècles, d’autres clans reprirent servilement les mensonges des Tremeres, décrétant que la quête de Saulot, visant le Golconde, n’était qu’une trahison à l’état de Vampire et les surnoms avilissants de « cyclopes » ou de « mangeurs d’âmes » devinrent communs pour décrire ce clan autrefois honoré.<br />Dans les nuits modernes, le clan des Furies a connu une résurrection. Un nouveau leader, nommé Adonaï, a réuni son clan et trouvé des alliés dans sa quête de vengeance contre les Tremeres : le Sabbat. Élevés parmi les plus grands combattants de la secte, les Salubriens se sont imposés comme un danger significatif pour la Camarilla qui s’est empressée, une fois cette menace révélée, de réutiliser l’ancienne calomnie, désignant les Salubriens de diabolistes, d’infernalistes, voire pire. Les Furies sont dévolues à la destruction du clan Tremere, bien qu’ils doivent faire preuve de beaucoup de prudence au vu de leurs nombreux alliés. Heureusement, ces guerriers n’ont aucun intérêt pour des concepts tels que l’honneur ou la fierté. Ce sont des chasseurs impitoyables, des soldats vengeurs d’une guerre depuis longtemps oubliée. Ils ne vivent que pour la vengeance, peu importe la méthode, peu importe le coût.<br />Aucun membre de la Camarilla ne s’associe avec un Salubrien et même les Anarchs craignent et répudient les membres de ce Clan. Si découverts, les Salubriens sont systématiquement détruits. Et il est difficile pour un Salubrien de cacher son clan de par le troisième œil qu’ils arborent tous au milieu du front peu après l’étreinte. Cet œil est habituellement fermé, la fente minuscule de la paupière cachée par la chair du front. Toutefois, quand le Salubrien entre en frénésie ou qu’il utilise sa discipline de clan à un niveau supérieur au premier (Valeren ou Obeah), l’œil s’ouvre avec une effrayante aura de lumière surnaturelle."
+    },
+    {
+        "Key": "CLAN_SALUBRI_NAME",
+        "Text": "Salubrien"
+    },
+    {
+        "Key": "CLAN_SALUBRI_ORGANIZATION",
+        "Text": "En raison de la destruction du clan par les Tremeres, les Salubriens n’ont pas d’organisation. Pour la plupart, ils ne se connaissent même pas et se cachent même de leur propre clan. Bien qu’ils commencent doucement à se repeupler, la plupart d’entre eux croient que les mensonges les concernant se répandent toujours et que leurs infants seront détruits s’ils sont découverts."
+    },
+    {
+        "Key": "CLAN_SALUBRI_SURNAME",
+        "Text": "Furies"
+    },
+    {
+        "Key": "CLAN_SALUBRI_WEAKNESS",
+        "Text": "Les Salubriens ne peuvent se nourrir que durant un acte de violence. Ainsi, il ne peuvent acheter l’historique Troupeau ni utiliser le troupeau d’un autre personnage."
+    },
+    {
+        "Key": "CLAN_CACOPHONY",
+        "Text": "CACOPHONY"
+    },
+    {
+        "Key": "CLAN_CACOPHONY_HISTORY",
+        "Text": "Alors que la culture mortelle est entrée dans l’âge des Lumières, elle a inventé de nouvelles machines et étendu le monde aux horizons les plus éloignés du globe. La société vampirique a aussi, par ricochet, connu des changements significatifs. Les Filles de la Cacophonie montèrent sur la scène de l’existence Vampirique en fanfare, refusant de se cacher ou d’agir comme si elles étaient moins importantes que les clans plus anciens. Quelques érudits pensent que la lignée est un rejeton du clan Malkavien ou du clan Toreador mais les Filles de la Cacophonie refusent de confirmer l’un ou l’autre. Elles préfèrent être reconnues pour leurs talents et non pas comme une simple excroissance ; elles refusent d’être le dérivé de la renommée de quelqu’un d’autre.<br />Quelles que soient leurs origines, les Filles de la Cacophonie sont connues pour leurs voix extraordinaires. L’intensité d’une chanson d’une Fille ainsi que la démence qu’elle apporte sont tout bonnement impressionnantes. La chanson fait autant partie de leur existence immortelle que le sang. Chaque moment de l’éternité d’une Fille est passé à écouter la musique des sphères. Elles chantent tout autour d’elles, les enchantant à jamais dans sa mélodie. Cette malédiction − ou bénédiction − font passer les Filles de la Cacophonie pour confuses ou capricieuses.<br />Presque tous les membres de cette lignée sont des femmes. Durant l’ère Victorienne, les filles préféraient garder la lignée ainsi, mais dans les nuits modernes, elles ont assoupli ces restrictions. Les mâles un peu âgés sont généralement des castrats remarquables, tandis que les plus jeunes viennent de toutes les gammes de talents vocaux. Ces mâles sont familièrement appelés les Fils de la Discorde et sont quasiment tous universellement liés au sang à leurs sires femmes. Ces cacophonistes mâles sont traités avec suspicion par un grand nombre des femelles plus âgées du clan et doivent gagner le droit de chanter."
+    },
+    {
+        "Key": "CLAN_CACOPHONY_NAME",
+        "Text": "Filles de la Cacophonie"
+    },
+    {
+        "Key": "CLAN_CACOPHONY_ORGANIZATION",
+        "Text": "Y a pas lol"
+    },
+    {
+        "Key": "CLAN_CACOPHONY_SURNAME",
+        "Text": "Sirènes"
+    },
+    {
+        "Key": "CLAN_CACOPHONY_WEAKNESS",
+        "Text": "Les Filles de la Cacophonie entendent constamment de la musique. Cette chanson incessante distrait les Filles autant qu’elle les guide. Elles souffrent d’une pénalité de -2 à tous les Scores de Test basés sur l’Investigation."
+    },
+    {
+        "Key": "CLAN_GARGOYLE",
+        "Text": "GARGOYLE"
+    },
+    {
+        "Key": "CLAN_GARGOYLE_HISTORY",
+        "Text": "Les Tremeres ont créé les tant décriées Gargouilles au cours de leurs plus sombres expériences de clan de sorciers. Créée grâce au sang et à la chair de Tzimisce, Nosferatu et Gangrel kidnappés, une Gargouille est un amalgame de morceaux fusionnés en une seule créature qui n’a aucun souvenir de ses passés conjoints. Au commencement, elles étaient les esclaves des Tremeres, agissant sans intelligence, sentience ni volonté. Ce n’est qu’après une révolution que les Gargouilles ont trouvé la liberté ; elles ont été libérées de force par des membres d’autres clans.<br />Les Gargouilles sont monstrueuses et sont un rappel constant d’un âge plus sombre. Elles vilipendent et haïssent au plus haut point le clan Tremere et cherchent en permanence des manières de se venger de leurs créateurs. Les Gargouilles modernes sont étreintes, mais le processus éradique malgré tout toute trace de la mémoire du vampire, faisant de chaque nouvelle gargouille une ardoise vierge. Les Gargouilles plus anciennes enseignent encore aux plus jeunes l’histoire de l’esclavage de leur peuple, s’assurant que chaque génération connaisse les atrocités dont ils ont souffert aux mains des Tremeres.<br />Avec leur apparence hideuse, les Gargouilles sont une menace pour la Mascarade. Elles doivent toujours se cacher du regard des mortels. Leur lignée se lie souvent d’amitié avec des Nosferatus, Gangrels ou Tzimices, se sentant attirée par ces clans par une forme primitive de mémoire de leur sang."
+    },
+    {
+        "Key": "CLAN_GARGOYLE_NAME",
+        "Text": "Gargouilles"
+    },
+    {
+        "Key": "CLAN_GARGOYLE_ORGANIZATION",
+        "Text": "Y a pas lol"
+    },
+    {
+        "Key": "CLAN_GARGOYLE_SURNAME",
+        "Text": "Grotesques"
+    },
+    {
+        "Key": "CLAN_GARGOYLE_WEAKNESS",
+        "Text": "Les Gargouilles sont monstrueuses en apparence et ne peuvent pas passer pour humaines sans une aide surnaturelle, telle que l’Occultation. De plus, les Tremeres ont créé les Gargouilles afin qu’elles servent d’esclaves, résultant en une pénalité de -2 sur leurs traits pour résister aux pouvoirs de Domination ; incluant les techniques basées sur de la Domination."
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "PROTEAN_NAME",
+        "Text": "Protéisme"
+    },
+    {
+        "Key": "PROTEAN_DESCRIPTION",
+        "Text": "Pendant des centaines d’années, les vampires se sont maintenus à l’abri des villes, se cachant parmi l’homme mortel. Le désert était trop indompté pour tous, sauf les plus sauvages et les plus hardis. La discipline de Protéisme, développée d’abord parmi les Gangrels, a permis à un vampire de trouver un abri dans le sol de la terre, ou de voyager aussi rapidement qu’une chauve-souris pourrait voler ou un loup pourrait courir. Protéisme a été essentiel à la survie vampirique au Moyen Âge et, même dans les nuits modernes, il reste une des disciplines les plus iconiques et renommées des enfants de Caïn."
+    },
+    {
+        "Key": "PROTEAN_POWER_1_NAME",
+        "Text": "Yeux de la Bête"
+    },
+    {
+        "Key": "PROTEAN_POWER_1_DESCRIPTION",
+        "Text": "Avec seulement un moment de concentration, vous pouvez modifier la composition de vos yeux pour ressembler plus à ceux d’un animal. Votre capacité à voir dans l’obscurité augmente, mais cette réfraction donne aussi à vos yeux une lueur mystérieusement animale."
+    },
+    {
+        "Key": "PROTEAN_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 Sang et utilisez une action simple pour activer les Yeux de la Bête. Pour l’heure suivante, vos yeux brillent d’un rouge doux et sauvage. Tant que l’effet est actif, vous pouvez voir parfaitement même dans l’obscurité. Tant que votre personnage n’est pas physiquement aveuglé, vous pouvez combattre dans l’obscurité sans avoir besoin de la manœuvre de combat \"Combat aveugle\"."
+    },
+    {
+        "Key": "PROTEAN_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "PROTEAN_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vos Yeux de la Bête sont toujours actifs, et vous n’avez pas besoin de dépenser du Sang pour activer ce pouvoir. Contrairement à l’activation standard de ce pouvoir, vos yeux ne brillent pas, sauf si vous choisissez de les faire briller. Faire en sorte que vos yeux brillent, ou cessent de briller, nécessite la dépense d’une action simple."
+    },
+	 {
+        "Key": "PROTEAN_POWER_2_NAME",
+        "Text": "Griffes Bestiales"
+    },
+    {
+        "Key": "PROTEAN_POWER_2_DESCRIPTION",
+        "Text": "En activant ce pouvoir, vos ongles s'allongent et se durcissent en griffes pointues et puissantes. Ces griffes sont surnaturelles et capables de déchiqueter la chair, la pierre ou même de minces feuilles de métal. Vous pouvez rétracter ces griffes avec un simple effort de volonté, vos mains reviennent à leur état normal."
+    },
+    {
+        "Key": "PROTEAN_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action simple pour activer Griffes Bestiales. Vos ongles s'aiguisent, durcissent et s'allongent en Griffes Bestiales clairement visibles. Le fait de frapper un ennemi avec vos Griffes Bestiales inflige des dégâts aggravés. Vous pouvez rétracter vos Griffes bestiales à tout moment en dépensant une action simple. Un personnage attaquant avec Griffes Bestiales utilise son attribut Physique + Bagarre contre l’attribut physique de la cible + Esquive.<br /> Si vos griffes se brisent, vous pouvez les faire repousser en réactivant ce pouvoir."
+    },
+    {
+        "Key": "PROTEAN_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "PROTEAN_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez faire pousser ou rétracter les Griffes bestiales à tout moment sans dépenser une action. De plus, lorsque vous activez Griffes bestiales, vos muscles se réarrangent subtilement pour rendre l’attaque plus efficace. En combattant avec Griffes bestiales, vous recevez un bonus de +1 à vos Scores de Test d’Attaque en Bagarre."
+    },
+	{
+        "Key": "PROTEAN_POWER_3_NAME",
+        "Text": "Fusion avec la terre"
+    },
+    {
+        "Key": "PROTEAN_POWER_3_DESCRIPTION",
+        "Text": "Avant l’avènement du transport rapide et la civilisation généralisée, le pouvoir de fusion avec la terre afin de dormir en toute sécurité, caché du soleil, était absolument essentiel à la survie des vampires. En utilisant ce pouvoir, un vampire peut mystiquement se mélanger avec le sol à ses pieds, et rester caché là jusqu'à ce qu’il veuille se lever."
+    },
+    {
+        "Key": "PROTEAN_POWER_3_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez votre action simple pour vous enfoncer dans le sol. Vous devez toucher la terre (argile, sol, ou toute autre terre de consistance molle) afin d’utiliser Fusion avec la terre. <br />Bien que joint à la terre, le vampire existe sous une forme semi-solide et ne peut pas faire d’actions ou utiliser des pouvoirs.Les personnages fusionnés sont semi - conscients, mais ne sont pas conscients de leur environnement. Fusion avec la terre abrite un personnage de la lumière du soleil durant la journée, ou du feu brûlant le sol au dessus de lui, il rend le vampire immunisé à la plupart des formes de dommages physiques. <br />Une perturbation importante dans le sol où un personnage est mélangé met fin prématurément à ce pouvoir.Si quelqu'un passe trois actions standard causant une telle perturbation, le vampire est immédiatement éjecté du sol.Un vampire éjecté s'éveille immédiatement dans une pluie de boue dans un large rayon lié à sa violente sortie du sol. Utiliser des outils pour perturber le terrain peut réduire le nombre d’actions nécessaires pour perturber une Fusion avec la terre. Par exemple, un personnage avec une pelle pourrait être en mesure d’éjecter un vampire fusionné avec deux actions standard, alors qu’un personnage avec une bombe tuyau pourrait l’éjecter avec une seule action standard. <br />Fusion avec la terre permet à un vampire de sombrer dans la boue ou des substances avec une consistance semblable, comme le sable ou le gravier, mais ne peut pas être utilisé pour mélanger avec (ou traverser) le béton, roche, métal, plastique, bois ou tout autre revêtement de sol. Fusion avec la terre ne peut être combinée à des pouvoirs transformateurs ; en se fondant avec la terre, un vampire revient à son état natal."
+    },
+    {
+        "Key": "PROTEAN_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "PROTEAN_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Éveillé et en fusion avec la terre, vous pouvez percevoir votre environnement comme si vous étiez debout au-dessus du sol avec lequel vous êtes fusionné. Si un personnage fusionné dort ou est volontairement en torpeur, il se réveille dès que quelqu'un commence à perturber le sol de son lieu de repos, bien que le réveil ne soit pas automatique et exige tous les tests normaux et les dépenses."
+    }, 
+	{
+        "Key": "PROTEAN_POWER_4_NAME",
+        "Text": "Forme de la bête"
+    },
+    {
+        "Key": "PROTEAN_POWER_4_DESCRIPTION",
+        "Text": "Une des capacités les plus renommées possédées par les vampires, ce pouvoir vous permet de prendre la forme d’un loup ou une chauve-souris, littéralement modifier votre chair et os dans un nouvel état. Bien qu’une telle bête ne soit pas plus vivante que le vampire, elle est capable de voler, de courir ou d’utiliser ses sens animaux comme un membre vivant de son espèce."
+    },
+    {
+        "Key": "PROTEAN_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de sang et utilisez une action standard pour vous transformer en chauve-souris (votre forme de vol) ou en loup (votre forme de combat). Vous pouvez mettre fin à votre transformation Forme de la Bête à tout moment en dépensant une action simple.<br /> Lorsque vous êtes en forme de vol, vous gagnez un bonus de + 3 aux Scores de Test Défensifs basés sur Esquive et vous pouvez voler à votre vitesse normale de déplacement. Toutefois, en raison de la petite taille de la chauve - souris, votre attribut physique est réduit à 3 dans le cas d’attaques physiques. <br />En forme de combat, vous gagnez un bonus de +2 aux Scores de Test d’Attaque en Bagarre, et vos attaques de bagarre, en mordant ou griffant, infligent des dégâts aggravés.<br />Les deux formes animales convertissent et conservent les qualités physiques importantes et les défauts notables liés à l’apparence de votre forme humanoïde, comme être borgne, une touffe de cheveux blancs ou toute autre caractéristique distinctive. Les vampires sur les voies semblent monstrueux dans la forme animale, et les Nosferatu ou d’autres vampires défigurés font des animaux laids, en effet. Forme de la Bête est un pouvoir de transformation et ne peut être combinée avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "PROTEAN_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "PROTEAN_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous achetez Forme de la bête, vous pouvez choisir de modifier thématiquement vos formes de combat et de vol, en changeant leur apparence en quelque chose qui convient à l’histoire de votre personnage ou archétype. Les créatures que vous choisissez doivent être des prédateurs ou des charognards, des mangeurs de viande ; ils ne peuvent pas être des insectes ou des herbivores, et doivent être des animaux que votre personnage pourrait logiquement rencontrer en personne(pas d’animaux éteints ou imaginaires). Une fois que vous avez sélectionné les formes de vol et de combat de votre personnage, vous ne pouvez pas les modifier par la suite.<br /> Au lieu d’une chauve-souris, vous pouvez vous transformer en n’importe quel petit animal volant que vous souhaitez. Les exemples incluent les corbeaux, les hiboux, ou les vautours. Au lieu d’un loup, vous pouvez vous transformer en n’importe quel prédateur terrestre ou aquatique de taille similaire.Les exemples incluent les lynx, les dragons de Komodo, les renards, les léopards, les hyènes, les requins, les carcajous ou les petits ours. Votre Conteur est l’arbitre final pour savoir si un animal particulier est un choix approprié pour Forme de la Bête. <br /> Toutes les formes de vol reçoivent le même bonus et ont les mêmes inconvénients; vous gagnez un bonus de + 3 aux Scores de Test défensifs basés sur Esquive et pouvez voler à votre vitesse normale de déplacement.Toutefois, en raison de votre taille relativement petite, votre attribut physique est réduit à 3 dans le but d’attaques physiques. <br />Lorsque vous choisissez votre forme de combat, vous pouvez appliquer l’un des modèles suivants selon le cas pour l’animal que vous choisissez, en plus d’utiliser les bonus standards et les désavantages du modèle de loup.Vous pouvez également appliquer un de ces modèles, même si vous choisissez de conserver l’aspect visuel d’un loup; ces modèles rendent simplement votre propre loup plus singulier. <br /> • <strong>Énorme</strong>: Vous vous transformez en un grand animal lourd, gagnant 2 niveaux de blessures supplémentaires. <br />• <strong>Brutal</strong>: Vous recevez un bonus supplémentaire de +1 aux Scores de Test d’Attaque basés sur Bagarre. Ce bonus s'accumule avec le bonus normal de +2 gagné en forme de combat Forme de la Bête(+3 au total). <br /> • <strong>Rapide</strong>: Si vous utilisez vos actions simple et standard pour bouger, vous pouvez vous déplacer de neuf pas par round au lieu des six pas standard. <br /> • <strong>Agile</strong>: Vous gagnez un bonus de + 1 à vos test défensifs basés sur Esquive. <br />• <strong>Aquatique</strong>: Vous pouvez nager à votre vitesse normale de déplacement, mais votre vitesse terrestre est réduite à un pas par action, ou, à votre discrétion, vous ne pouvez pas vous déplacer sur terre tout en étant sous cette forme. Tout en étant submergé, vous recevez un bonus de +2 aux Scores de Tests d’Attaque basés sur Bagarre. Ce bonus s'accumule avec le bonus normal de forme de combat de la Forme de la Bête (+4 au total)."
+    }, 
+	{
+        "Key": "PROTEAN_POWER_5_NAME",
+        "Text": "Forme de brume"
+    },
+    {
+        "Key": "PROTEAN_POWER_5_DESCRIPTION",
+        "Text": "Comme les vampires du mythe antique, vous avez atteint un tel contrôle sur votre forme physique que vous pouvez vous dissoudre dans un doux nuage de brume, vous dispersant dans une petite zone. Ce brouillard est visible et perceptible (tout comme le brouillard sur les landes), ainsi que d’un froid mordant au toucher. Vous contrôlez les mouvements du nuage comme vous le feriez pour votre corps, et vous pouvez glisser à travers des fissures, de petits trous, ou sous des portes fermées."
+    },
+    {
+        "Key": "PROTEAN_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et dépensez une action standard pour vous transformer en un nuage de brume. En forme de brume, vous ne pouvez pas dépenser de sang, parler, activer des pouvoirs, ou attaquer physiquement, mais vous êtes également à l’abri des attaques physiques d’autres sources que le feu et la lumière du soleil. Vous pouvez être blessé par des attaques non-physiques et par des armes flamboyantes, comme une torche ou une fusée de secours ; cependant, les munitions incendiaires passent au travers de votre forme trop rapidement pour infliger des dommages.<br /> En forme de brume, vous êtes un nuage semi-solide, fluctuant.Vous pouvez passer à travers toute fissure, trou, ou ouverture que la brume pourrait normalement traverser. Vous ne pouvez pas passer à travers des objets solides ou des passages hermétiques, vous ne pouvez pas voyager à travers les vitres, vous ne vous condensez pas. Vous ne pouvez pas voler, même si vous pouvez voyager le long de surfaces inclinées ou surélevées, comme un mur. Vous ne prenez aucun dommage de chute, mais ne pouvez pas contrôler la vitesse de la chute ni l’emplacement exact de votre atterrissage. <br />En forme de brume, vous vous déplacez d’un pas par action simple, ou deux pas par action simple si vous vous déplacez dans la même direction qu’un niveau important de vent.Si vous essayez de bouger de nouveau contre un débit d’air important, vous devez faire un Attribut physique + Test d’athlétisme à une difficulté établie par votre Conteur, en fonction de la vitesse du vent que vous essayez de combattre.<br /> En forme de brume, vous êtes effectivement de la vapeur d’eau, et vous avez une présence physique tangible.Vous pouvez être touché par n’importe qui s'il passe sa main au travers de votre forme, et vous pouvez toucher d’autres individus en circulant dans la direction de la cible Toucher ou être touché peut exiger une attaque Bagarre.<br /> Forme de brume est un pouvoir de transformation et ne peut pas être combiné avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "PROTEAN_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "PROTEAN_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Tant que Forme de brume est actif, vous pouvez vous déplacer de trois pas par action simple dans n’importe quelle direction, quelle que soit la direction ou comment souffle le vent. En outre, vous pouvez voler à trois pas par action simple."
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_1_NAME",
+        "Text": "Maîtrise de la Terre"
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_1_DESCRIPTION",
+        "Text": "En utilisant ce pouvoir, un Ancien n’est plus contraint de simplement dormir sous terre. Une fois fusionné avec le sol, il peut bouger dans la terre, changeant sa localisation aussi facilement qu’il est de marcher dans une rue venteuse."
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_1_SYSTEM",
+        "Text": "En utilisant le pouvoir de Fusion avec la Terre, vous pouvez bouger sous terre à une vitesse normale. Vous ne pouvez pas passer au travers de matières avec lesquelles vous ne pouvez pas fusionner comme la pierre, l’eau, le béton ou un épais nœud de racines, mais vous pouvez physiquement interagir et même attaquer tout ce que vous trouvez sous terre - ce qui inclut d’autres individus qui usent de Fusion de la Terre. Les personnages fusionnés avec la terre ne peuvent pas riposter à moins qu’il ne possèdent aussi Maîtrise de la Terre.<br />Les personnages qui utilisent Maîtrise de la Terre sont conscients du paysage souterrain à 10 pas de leur localisation, mais ne peuvent pas normalement percevoir la surface. Pour cette raison, les déplacements à longue distance avec Maîtrise de la Terre sont problématiques pour la plupart des utilisateurs, mais des personnages orientés sur la Perception peuvent percevoir leur entourage dans la terre et n’ont généralement aucun problème à naviguer sous terre. Vous ne pouvez pas creuser ou autrement physiquement forcer un individu qui utilise Maîtrise de la Terre à quitter son abri dans le sol, sauf si vous avez un moyen de déterminer sa position."
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_2_NAME",
+        "Text": "Maîtrise des Formes"
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_2_DESCRIPTION",
+        "Text": "La bête dans votre sang est tellement féroce qu’elle intimide les autres, forçant leur rage intérieure à se retirer sous l’assaut de votre domination primitive. D’un geste seulement, rugissement ou autre démonstration primale de supériorité, vous pouvez provoquer la retraite de la bête d’un autre à revenir dans un état normal."
+    },
+    {
+        "Key": "PROTEAN_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez 3 points de Sang et une action standard, jouez la démonstration de dominance (un rugissement, un regard vicieux ou un autre geste de prédateur) vers votre cible et faites un challenge opposé en utilisant votre attribut <i>Social</i> + <i>Survie</i> contre l’attribut <i>Social</i> + <i>Volonté</i>. Si vous réussissez, vous forcez la cible à immédiatement retourner dans sa forme naturelle. De plus, elle ne peut pas changer de forme pendant la prochaine heure.<br />La Maîtrise des Formes révoque les pouvoirs de transformation, comme Forme de la Bête, Sombre Métamorphose ou Forme Horrible. Elle ne peut pas affecter les pouvoirs qui n’altèrent qu’une petite portion du corps, comme les Griffes Bestiales ou les pouvoirs qui altèrent le corps mais qui ne sont pas des transformations, comme Fusion avec la Terre."
+    },
+	{
+        "Key": "PROTEAN_TEST_SCORE",
+        "Text": "Il n’y a pas de de Score de Test générique pour Protéisme."
+    }
+]

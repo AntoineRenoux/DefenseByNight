@@ -1,0 +1,22 @@
+[
+    {
+        "Key":"CAMARILLA",
+        "Text": "Camarilla"
+    },
+    {
+        "Key":"SABBAT",
+        "Text": "Sabbat"
+    },
+    {
+        "Key":"ANARCH",
+        "Text": "Alliance indépendante"
+    },
+    {
+        "Key":"INDEPENDENT_CLAN",
+        "Text": "Clan indépendant"
+    },
+    {
+        "Key":"INDEPENDENT_ALLIANCE",
+        "Text": "Anarch"
+    }
+]

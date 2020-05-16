@@ -1,0 +1,142 @@
+[
+    {
+        "Key": "POTENCE_NAME",
+        "Text": "Puissance"
+    },
+    {
+        "Key": "POTENCE_DESCRIPTION",
+        "Text": "Tous les vampires sont capables de faire preuve d’une force extraordinaire durant un court instant, via la dépense de sang. Ceux maîtrisant la discipline de Puissance savent accéder au caractère originel de leur sang, leur permettant de rendre une telle force permanente. Le pouvoir inhumain de Puissance est incroyable et clairement surnaturel. Avec cette discipline, un vampire peut aisément briser des os ou de la pierre. Une armure devient insignifiante, tout comme les obstacles. Quoi qu’il y ait sur leur route, cela sera démoli ou propulsé de côté. Chaque niveau de Puissance représente un accroissement de la force physique d’un personnage et les effets de chaque niveau s’additionnent. Si votre personnage possède Vigueur (Puissance •••), il dispose des bonus de Prouesse (Puissance •) et de Redoutable (Puissance ••), qui sont nécessaires pour disposer de Vigueur. Les pouvoirs de Puissance sont toujours actifs et ne requièrent normalement pas de Sang pour être effectifs. Certaines Techniques et pouvoirs d’Anciens peuvent nécessiter du Sang ou une action afin d’être activés ; référez - vous à la description de chaque pouvoir pour les précisions.Les pouvoirs de Puissance ne peuvent être utilisés en dehors d’une allonge correspondant à du combat à mains nues ou aux armes de mêlée, à moins que le pouvoir ne précise le contraire. Il n’y a pas de Score de Test générique pour Puissance.<br /> <strong>Focus : Force</strong><br />Les personnages avec un Focus en Force qui ont au moins 1 niveau en Puissance ajoutent +2 à leur Score de test en Bagarre et en Mêlée."
+    },
+    {
+        "Key": "POTENCE_POWER_1_NAME",
+        "Text": "Prouesse"
+    },
+    {
+        "Key": "POTENCE_POWER_1_DESCRIPTION",
+        "Text": "Vos coups parviennent à causer des commotions remarquables, brisant les équipements de protection et les os des mortels d’un seul coup."
+    },
+    {
+        "Key": "POTENCE_POWER_1_SYSTEM",
+        "Text": "Vos attaques en Bagarre et en Mêlée sont perforantes. Les bonus d’armure de votre adversaire sont ignorés."
+    },
+    {
+        "Key": "POTENCE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "POTENCE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	 {
+        "Key": "POTENCE_POWER_2_NAME",
+        "Text": "Redoutable"
+    },
+    {
+        "Key": "POTENCE_POWER_2_DESCRIPTION",
+        "Text": "Votre force est clairement surnaturelle. Vous frappez avec une force redoutable, accablant vos ennemis de coups incroyables."
+    },
+    {
+        "Key": "POTENCE_POWER_2_SYSTEM",
+        "Text": "Lors d’une attaque de Bagarre ou de Mêlée réussie, votre personnage inflige automatiquement 2 points de dommage. Succès Normal: Votre personnage inflige 2points de dommage à ce niveau de Puissance. Succès Exceptionnel: Votre personnage inflige 3 points de dommage."
+    },
+    {
+        "Key": "POTENCE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "POTENCE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	{
+        "Key": "POTENCE_POWER_3_NAME",
+        "Text": "Vigueur"
+    },
+    {
+        "Key": "POTENCE_POWER_3_DESCRIPTION",
+        "Text": "Avec une musculature aussi monumentale, vous pouvez aisément soulever des centaines de livres et avoir assez de force pour briser des poutres de soutien en métal ou bien encore renverser des murs en brique."
+    },
+    {
+        "Key": "POTENCE_POWER_3_SYSTEM",
+        "Text": "Lors d’une attaque en Bagarre ou en Mêlée, vous obtenez un bonus de +5 pour déterminer si l’attaque est ou non un succès exceptionnel."
+    },
+    {
+        "Key": "POTENCE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "POTENCE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "POTENCE_POWER_4_NAME",
+        "Text": "Intensité"
+    },
+    {
+        "Key": "POTENCE_POWER_4_DESCRIPTION",
+        "Text": "Un tel niveau de force vous permet de projeter un véhicule à proximité, de tordre le fer et l’acier avec aisance. Vos coups sont dévastateurs pour vos malheureux ennemis se trouvant sur votre passage."
+    },
+    {
+        "Key": "POTENCE_POWER_4_SYSTEM",
+        "Text": "À chaque succès exceptionnel en Bagarre ou en Mêlée, votre personnage inflige automatiquement 2 points de dommage supplémentaires plutôt qu’1 point, comme c’est habituellement le cas lors des succès exceptionnels. Succès Normal: Votre personnage inflige 2 points de dommages à ce niveau de Puissance. Succès Exceptionnel: Votre personnage inflige 4 points de dégâts plutôt que les 3 habituels quand vous réalisez un succès exceptionnel."
+    },
+    {
+        "Key": "POTENCE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "POTENCE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": ""
+    }, 
+	{
+        "Key": "POTENCE_POWER_5_NAME",
+        "Text": "Toute-Puissance"
+    },
+    {
+        "Key": "POTENCE_POWER_5_DESCRIPTION",
+        "Text": "La force que vous pouvez rassembler est monumentale, délivrant à chaque coup une puissance phénoménale. Un tel pouvoir est au-delà du surnaturel et frise la légende."
+    },
+    {
+        "Key": "POTENCE_POWER_5_SYSTEM",
+        "Text": "Quand vous réussissez une attaque en Bagarre ou en mêlée, votre personnage inflige 3 points de dégâts. Cette somme comprend le bonus octroyé par le pouvoir Redoutable. Notez qu’Intensité ajoute toujours un point supplémentaire de dégâts, mais seulement lorsque le succès est exceptionnel. Succès Normal: Votre personnage inflige 3 points de dégâts à ce niveau de Puissance. Succès Exceptionnel: Votre personnage inflige 5 points de dommage au lieu de 4.Ce nombre comprend le bonus du pouvoir Intensité."
+    },
+    {
+        "Key": "POTENCE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "POTENCE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_1_NAME",
+        "Text": "Force"
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Votre force est presque miraculeuse et vous pouvez faire trembler les fondations des bâtiments ou renverser des barricades en appliquant votre pouvoir physique. Vous frappez avec une intensité incroyable, provoquant des ondes de choc qui peuvent briser les os d’une cible ou faire éclater ses organes."
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_1_SYSTEM",
+        "Text": "Quand vous parvenez à faire une attaque de Bagarre, votre personnage inflige automatiquement 4 points de dégâts. Cela inclut les dégâts donnés par Intensité et Toute-Puissance. Notez que Vigueur ajoute toujours un dégât supplémentaire quand vous parvenez à un succès exceptionnel. Force ne peut pas être utilisée en conjonction avec des armes. Toute arme maniée avec Force se brise avant d’infliger des dégâts. Quand ils manient des armes, les personnages qui possèdent Force peuvent se retenir et infliger 3 points de dégâts au lieu de 4 pour éviter de briser leurs armes.<br />Si vous frappez un mortel ou une créature partiellement surnaturelle avec Force, la cible meurt instantanément. Son corps souffre d’un trop grand traumatisme ; ses organes internes éclatent et ses os se tordent et se brisent en milliers d’échardes, en un seul coup.<br />Un personnage avec Force peut briser n’importe quel objet inanimé en concentrant sa force dessus. La plupart des objets éclatent en un seul coup, mais votre Conteur peut vous demander plusieurs actions quand un personnage plie ou frappe une substance exceptionnellement résistante ou épaisse. Cela prendra peut-être du temps de traverser avec des coups un mur en béton épais de trois mètres, mais sa destruction n’est qu’une question de temps.<br /> <strong>Succès Normal </strong> <br />Votre personnage inflige 4 points de dégâts à ce niveau."
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Votre personnage inflige 6 points de dégâts, au lieu de 4 points de dégâts. Cela intègre le bonus de Vigueur."
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_2_NAME",
+        "Text": "Intensité"
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Votre énergie surpasse la barrière physique, émanant de votre esprit comme des vagues d’énergie tangibles. Vous pouvez projeter l’énergie cinétique pure de vos coups au-delà de votre portée corporelle."
+    },
+    {
+        "Key": "POTENCE_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action standard pour faire une attaque à distance avec Intensité à votre cible. Cette attaque reçoit un bonus de +3 et est considérée comme une attaque de <i>Bagarre</i> malgré la distance entre votre personnage et la cible. Les autres pouvoirs de Puissance, comprenant les Pouvoirs d’Anciens et les Techniques basées sur Puissance peuvent modifier une attaque d’Intensité comme une attaque standard de Bagarre. Vous ne pouvez pas utiliser d’autres pouvoirs avec Intensité ; elle ne peut être augmentée qu’avec des pouvoirs de Puissance. Vous ne pouvez utiliser aucune arme d’aucune sorte en utilisant Intensité.<br />Pour utiliser Intensité, vous devez être capable de voir votre cible et faire un jet physique évident dans sa direction, comme un coup pantomime d’art martial, un revers de la main ou coup de poing de boxe.<br />Vous pouvez utiliser Intensité pendant les rounds de Célérité, tant que vous payez le coût d’1 point de Sang pour chaque attaque avec Intensité. Les dégâts d’Intensité sont toujours des dégâts normaux et ne peuvent être, en aucune manière, convertis en dégâts aggravés."
+    },
+	{
+        "Key": "POTENCE_TEST_SCORE",
+        "Text": "Il n’y a pas de Score de Test générique pour Puissance."
+    }
+]

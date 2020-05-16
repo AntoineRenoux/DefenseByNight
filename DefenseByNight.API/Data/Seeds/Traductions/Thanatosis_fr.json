@@ -1,0 +1,126 @@
+[
+    {
+        "Key": "THANATOSIS_NAME",
+        "Text": "Thanatosis"
+    },
+    {
+        "Key": "THANATOSIS_DESCRIPTION",
+        "Text": "Les corps cadavériques des Vampires sont intimement liés à la mort, piégés dans un état de décomposition éternelle. Thanatosis s'appuie sur cette connexion, stimulant et se nourrissant de la souillure et du pourrissement. Ce sont les pouvoirs de l’atrophie, de la décrépitude, de la putrescence et de la pourriture. A certains égards, Thanatosis donne le pouvoir sur la malédiction elle-même, suspendant provisoirement l’immortalité d’un Vampire et faisant même pourrir et se décomposer sa chair immortelle. Thanatosis est la discipline signature de la lignée des Samedi et certains disent que c'est l’évolution naturelle des pouvoirs de la Voie de Mortis des Cappadociens. Assurément, les deux sont apparentés et partagent des similitudes - mais dans l’ensemble, les Samedi sont plus agressifs et moins studieux."
+    },
+    {
+        "Key": "THANATOSIS_POWER_1_NAME",
+        "Text": "Peau de Mégère"
+    },
+    {
+        "Key": "THANATOSIS_POWER_1_DESCRIPTION",
+        "Text": "La pourriture perpétuelle rend la chair du personnage malléable. Vous pouvez contracter ou étendre votre peau, l’envoyant dans des vagues ridées et ondulantes ou en la tendant sur votre chair de mort-vivant. Vous pouvez même plier votre chair, vous permettant de conserver des objets dans ses rides tannées, comme la poche d’un kangourou."
+    },
+    {
+        "Key": "THANATOSIS_POWER_1_SYSTEM",
+        "Text": "Le corps des utilisateurs de Thanatosis devient pourri et malléable. En dépensant une action standard pour tirer ou tordre votre peau, vous pouvez ouvrir des plis et poches dans votre chair. Ces poches sont capables de stocker des objets allant jusqu'à la taille d’un gros pistolet à main. Accéder aux objets stockés dans ces poches ne nécessite qu’une action simple. <br />De plus, vous pouvez légèrement altérer votre apparence en serrant de manière excessive votre peau autour de votre visage ou en lui permettant d’être lâche et ridée. Ces changements sont suffisants pour tromper des mortels mal informés, mais ils n’altèrent pas suffisamment votre apparence pour tromper quelqu'un que vous connaissez."
+    },
+    {
+        "Key": "THANATOSIS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "THANATOSIS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Les rabats et plis de votre peau peuvent entraver des armes, glissant sur votre musculature ou déviant des coups qui vous auraient autrement blessé. Vous recevez un bonus de +1 aux scores de test défensif quand vous êtes la cible d’une attaque de Bagarre ou Mêlée. De plus, vous recevez un bonus de +5 quand vous tentez de vous échapper d’une manœuvre de combat Agripper."
+    },
+	 {
+        "Key": "THANATOSIS_POWER_2_NAME",
+        "Text": "Putréfaction"
+    },
+    {
+        "Key": "THANATOSIS_POWER_2_DESCRIPTION",
+        "Text": "D'un simple toucher, vous pouvez infliger de la pourriture sur votre cible. Vous provoquez une décomposition putride et suppurante de votre point de contact."
+    },
+    {
+        "Key": "THANATOSIS_POWER_2_SYSTEM",
+        "Text": "Dépensez un point de Sang et utilisez votre action standard pour pourrir tout objet inanimé que vous touchez, au point qu’il devient inutilisable. Une seule application de Putréfaction vous permet de détruire le bois, le tissu, le plastique et le caoutchouc. Mais les objets plus durs, comme le métal, le verre, ou la pierre, nécessitent deux applications de ce pouvoir avant de putréfier. Les objets plus grands qu’une porte standard nécessitent plus d’une application de Putréfaction pour être détruits. Ce pouvoir n’a aucun effet sur la matière vivante ou morte-vivante, mais elle peut pourrir de vrais cadavres (corps morts) jusqu'à ce qu’ils soient méconnaissables."
+    },
+    {
+        "Key": "THANATOSIS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "THANATOSIS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépenser un point de sang et une action standard pour détruire un pieu en bois qui vous perce actuellement le cœur. Ceci est une exception à la règle qui empêche un personnage de dépenser du sang ou d’entreprendre des actions alors qu’il est pieuté."
+    },
+	{
+        "Key": "THANATOSIS_POWER_3_NAME",
+        "Text": "Des Cendres aux Cendres"
+    },
+    {
+        "Key": "THANATOSIS_POWER_3_DESCRIPTION",
+        "Text": "Dans des conditions extrêmes, il est parfois préférable de persuader un adversaire de sa victoire pour gagner l’élément de surprise. Les Samedi sont des maîtres d’une telle supercherie. Avec ce pouvoir, vous pouvez vous effondrer en une poudre épaisse, un peu collante, qui ressemble à un tas de cendres desséché."
+    },
+    {
+        "Key": "THANATOSIS_POWER_3_SYSTEM",
+        "Text": "En dépensant 1 point de Sang et en utilisant votre action standard, vous vous transformez en un tas de cendres. Pendant que vous êtes dans cette forme, vous ne pouvez pas dépenser de Sang, bouger depuis là où vous êtes ou utiliser des pouvoirs surnaturels, mais vous êtes immunisés aux dégâts Physiques, au feu et à la lumière du soleil. Vous gardez aussi une conscience limitée de tout ce qu’il y a dans les 5 pas.<br /> La forme accordée par Des Cendres aux Cendres ne confère pas une invulnérabilité complète. Les cendres ont une certaine résistance à être dispersées mais, si vous êtes trop largement disséminé, vous pouvez être tué. Quand vous utilisez Des Cendres aux Cendres, vous avez 10 points de cohésion. Si certains individus ou facteurs de l’environnement, comme de forts vents ou des flammes collaborent à disperser vos cendres, vous pouvez perdre 1 à 3 points de Cohésion par tour, déterminé à la discrétion du conteur. <br />Si vous vous reformez après avoir perdu de la Cohésion, vous perdez 1 point de Sang par point de Cohésion perdu. Si vous êtes à court de sang de cette manière, vous prenez 1 point de dégât aggravé par point de cohésion perdu. Ces dégâts ne peuvent pas réduits ou annulés. Si votre cohésion atteint zéro, vous rencontrez la Mort Finale.<br /> Ce pouvoir vous fait apparaître comme si vous étiez un tas de cendres normales, mais n’altère pas votre aura. Quelqu'un qui regarde un personnage en Des Cendres aux Cendres avec une perception de l’aura pourra dire que ce tas de cendres a une aura de Vampire. Des Cendres aux Cendres est un pouvoir de transformation et ne peut pas être combiné avec d’autres pouvoirs de transformation."
+    },
+    {
+        "Key": "THANATOSIS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "THANATOSIS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "En forme Des Cendres aux Cendres, vous pouvez dépenser 1 point de Sang pour ramener des cendres qui ont été dispersées, regagnant 1 point de Cohésion par tour. De plus, vous pouvez dépenser 1 point de Sang par tour et vous déplacer jusqu'à 1 pas. Ceci est une exception à la règle qui vous empêche de dépenser du Sang ou de bouger quand vous êtes sous forme de cendres."
+    }, 
+	{
+        "Key": "THANATOSIS_POWER_4_NAME",
+        "Text": "Racornissement"
+    },
+    {
+        "Key": "THANATOSIS_POWER_4_DESCRIPTION",
+        "Text": "En empoignant un membre de la victime et en activant ce pouvoir hideux, vous ratatinez le membre et le rendez inutile en l’infectant avec de la pourriture. Une cible qui souffre des effets de ce pouvoir ressent d’horribles douleurs, ses membres se contractant et ses os cassant sous votre poigne."
+    },
+    {
+        "Key": "THANATOSIS_POWER_4_SYSTEM",
+        "Text": "Utilisez une action standard pour Agripper une cible. Si vous réussissez, dépensez 1 point de Sang pour infliger Racornissement à votre victime en plus de tous les effets standards d’Agripper. Par la suite, la cible subit une pénalité de -1 à son attribut Physique. Cet effet n’est pas considéré comme des dégâts et n’est pas affecté par les pouvoirs ou capacités qui annulent ou atténuent les dégâts. <br />Pour utiliser Racornissement sur une cible, vous devez utiliser la manœuvre de combat Agripper contre la cible. Si votre cible est déjà agrippée, vous pouvez activer ce pouvoir en dépensant 1 point de Sang et en utilisant votre action standard. (Pour plus d’informations sur Agripper, consultez le Chapitre Six: Système de base). <br />Racornissement peut être utilisé pendant les rounds de Célérité, tant que vous payez le coût total pour chaque utilisation.<br /> Les pénalités d’une utilisation répétée de Racornissement sur une seule cible s'accumulent, que ces pénalités soient appliquées par un seul ou plusieurs pratiquants de Thanatosis. Si cette pénalité atteint -5, l’un des membres de la victime (au choix de l’attaquant) devient inutile. Si cette pénalité atteint -10, la cible doit choisir un deuxième membre qui devient inutile et ainsi de suite, jusqu'à ce que tous les membres de la cible soient inutilisables. <br />Si l’une ou les deux jambes d’une cible ont été racornies, elle ne peut que se déplacer d’un pas par action en rampant ou boitant. Si l’un des bras du personnage a été racorni, il souffre d’une pénalité de -5 aux attaques de Bagarre et Mêlée, à moins que le personnage ne soit ambidextre, dans ce cas, il ne souffre que d’une pénalité de -3. Un personnage avec un bras racorni ne peut pas utiliser d’armes à deux mains. Un personnage avec ses deux bras racornis ne peut pas attaquer à moins qu’il ne soit capable de mordre sans Agripper ou s'il a plus de deux membres utilisables, comme ceux accordés par Sombre Métamorphose ou des membres crées grâce à Vicissitude. <br />Les pénalités d’attribut Physique de Racornissement s'estompent après 10 minutes mais un membre racorni n’est pas aussi facilement restauré. Un mortel dont le membre est racorni est estropié de manière permanente. Les membres racornis d’une créature surnaturelle se soignent au bout de deux parties ou un mois, selon le plus long des deux."
+    },
+    {
+        "Key": "THANATOSIS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "THANATOSIS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les membres de votre cible se racornissent quand les pénalités atteignent -3 au lieu du seuil standard de -5. Un deuxième membre devient inutile quand les pénalités atteignent -6 et ainsi de suite. Cet effet fonctionne même si certaines pénalités ont été appliquées par d’autres personnages qui utilisent Racornissement. Par exemple, si un personnage inflige -2 de pénalités et que vous infligez une troisième pénalité de -1, vous racornissez l’un des membres de la cible."
+    }, 
+	{
+        "Key": "THANATOSIS_POWER_5_NAME",
+        "Text": "Nécrose"
+    },
+    {
+        "Key": "THANATOSIS_POWER_5_DESCRIPTION",
+        "Text": "Pouvoir puissant et horrible, Nécrose vous permet de pourrir les muscles et os de votre adversaire, le transformant en des tissus et graisses putrides. La hideuse décomposition induite par ce pouvoir dégoûte et révolte même ceux à la constitution la plus robuste dans la mesure où elle accélère la force de la pourriture et expose les organes internes dans un terrifiant spectacle de souffrance."
+    },
+    {
+        "Key": "THANATOSIS_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action simple pour activer Nécrose. Pendant la prochaine heure, quand vous Agrippez avec succès une cible ou maintenez un Agripper sur une cible, vous pouvez choisir d’infliger une pourriture à votre victime. Vous ne pouvez infliger Nécrose qu’une seule fois par tour, mais vous pouvez le faire n’importe quand, soit durant le tour commun ou durant les rounds de Célérité. <br />La première fois que utilisez Nécrose sur une cible, vous devez parvenir à utiliser la manœuvre de combat Agripper. Lors des rounds suivants, si vous êtes toujours en train d’Agripper la cible, vous pouvez activer Nécrose en utilisant votre action standard. (Pour plus d’informations sur Agripper, consultez le Chapitre Six: Système de base). Votre cible subit 3 points de dégâts aggravés alors que sa chair se décompose et se désagrège. <br />Les dégâts normalement infligés par Agripper ne sont pas convertis en dégâts aggravés par ce pouvoir. Les dégâts infligés par Nécrose ne sont pas réduits par les effets de la manœuvre de combat Agripper. <br />Nécrose ne peut être utilisé avec d’autres pouvoirs nécessitant que vous touchiez ou agrippiez votre cible."
+    },
+    {
+        "Key": "THANATOSIS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "THANATOSIS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Nécrose inflige 4 points de dégâts aggravés, au lieu des 3 standard."
+    },
+    {
+        "Key": "THANATOSIS_ELDER_POWER_1_NAME",
+        "Text": "Infection Insidieuse"
+    },
+    {
+        "Key": "THANATOSIS_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Vous êtes devenu un véritable maître des pouvoirs de la pourriture et de la putréfaction. Au travers de l’utilisation de l’Infection Insidieuse, vous pouvez infecter un sujet avec une maladie dégénérative qui dissout ses organes internes."
+    },
+    {
+        "Key": "THANATOSIS_ELDER_POWER_1_SYSTEM",
+        "Text": "Dépensez 3 points de Sang, utilisez votre action standard et faites un challenge opposé avec le Score de Test de Thanatosis. Si vous réussissez, vous infectez votre cible avec une maladie corruptrice. Les mortels infectés par Infection Insidieuse meurent instantanément alors que leur peau éclate en furoncles et leurs organes internes se liquéfient. Une créature surnaturelle souffre d’une pénalité de -3 à ses attributs physiques pendant l’heure qui suit et perd ses focus d’attributs Physique. Les effets de l’Infection Insidieuse durent une heure."
+    },
+	{
+        "Key": "THANATOSIS_TEST_SCORE",
+        "Text": "L'utilisateur de Thanatosis utilise son Score de Test Attribut <i>Mental + Médecine</i> contre le Score de Test Attribut <i>Mental + Volonté</i> de la cible."
+    }
+]

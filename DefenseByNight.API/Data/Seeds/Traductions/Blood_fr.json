@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "BLOOD_NAME",
+        "Text": "La Voie du Sang"
+    },
+    {
+        "Key": "BLOOD_DESCRIPTION",
+        "Text": "Les initiés sur la Voie du Sang apprennent à quantifier et évaluer les éléments uniques présents dans une goutte de vitae vampirique. En goûtant une goutte de la vitae du sujet, vous pouvez déterminer des informations importantes concernant sa nature."
+    },
+    {
+        "Key": "BLOOD_POWER_1_NAME",
+        "Text": "Goût du Sang"
+    },
+    {
+        "Key": "BLOOD_POWER_1_DESCRIPTION",
+        "Text": "Les initiés sur la Voie du Sang apprennent à quantifier et évaluer les éléments uniques présents dans une goutte de vitae vampirique. En goûtant une goutte de la vitae du sujet, vous pouvez déterminer des informations importantes concernant sa nature."
+    },
+    {
+        "Key": "BLOOD_POWER_1_SYSTEM",
+        "Text": "En ingérant une goutte du sang de votre victime et en utilisant une action simple, vous pouvez discerner des informations concernant le sujet. Ce pouvoir peut être dangereux si le sang est contaminé par des maladies ou d’autres substances nocives. Néanmoins, le pouvoir protège le thaumaturge des effets du lien de sang avec sa cible lorsqu’il utilise ce pouvoir.<br />Le goût du sang donne accès à l’ensemble de ces informations :<br /> • Des informations médicales telles que le groupe sanguin et l’état de santé <br /> • Combien de sang il reste dans le métabolisme de la cible.<br /> • De quel type de créature vient le sang. Si la créature n’est pas un mortel, une goule ou un vampire, le conteur peut demander un test de Mystère pour identifier le type exact de créature.<br /> Si le sang est celui d’un vampire, le thaumaturge peut aussi déterminer :<br /> • la génération du sujet <br />• si celui-ci a commis la diablerie<br />• et depuis combien de temps le vampire s’est nourri."
+    },
+    {
+        "Key": "BLOOD_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BLOOD_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez évaluer le nombre et la force des liens de sang, même partiels, que possède le sujet, incluant ceux dus à la Vaulderie. Vous ne savez pas à qui la cible est liée, ni si les liens sont mutuels, vous connaissez juste le nombre, et l’importance des liens de sang présents."
+    },
+	 {
+        "Key": "BLOOD_POWER_2_NAME",
+        "Text": "Rage Sanguinaire"
+    },
+    {
+        "Key": "BLOOD_POWER_2_DESCRIPTION",
+        "Text": "Vous pouvez pousser le sujet à utiliser sa vitae comme bon vous semble. Un vampire subissant ce pouvoir ressent comme une poussée d’adrénaline et a conscience automatiquement que l’on a utilisé une discipline sur lui."
+    },
+    {
+        "Key": "BLOOD_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et faites un challenge en opposition en utilisant votre Mental + Occulte contre le Mental + Volonté de la cible. La cible doit se trouver à 1 pas de vous. Si vous réussissez, la cible doit dépenser 1 point de sang comme vous le souhaitez : (effet a choisir dans la liste)<br />• Augmenter son attribut physique<br /> • Activer une discipline comme célérité <br /> • Soigner une blessure <br /> • S’éveiller de torpeur<br /> • Suer du sang de ses pores.<br /> La dépense peut excéder la limite de génération. Le pouvoir permet de dépenser le sang mais ne permet pas de forcer le sujet à dépenser une action à moins qu’il ne le veuille sciemment. Par exemple, vous pouvez forcer votre cible à dépenser du sang pour passer en \"forme ténébreuse\" mais la victime ne se transformera pas, à moins de le vouloir."
+    },
+    {
+        "Key": "BLOOD_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BLOOD_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser ce pouvoir à 10 pas de votre cible au lieu d’être à 1 pas."
+    },
+	{
+        "Key": "BLOOD_POWER_3_NAME",
+        "Text": "Puissance du Sang"
+    },
+    {
+        "Key": "BLOOD_POWER_3_DESCRIPTION",
+        "Text": "Vous maîtrisez votre Vitae à un point tel que vous pouvez la rendre plus épaisse de façon temporaire, faisant que votre forme vampirique manifeste une génération plus puissante."
+    },
+    {
+        "Key": "BLOOD_POWER_3_SYSTEM",
+        "Text": "Utilisez une action simple pour activer ce pouvoir. L’effet dure 1 heure. Alors que Sang Puissant est actif, votre réserve maximale de sang augmente de la moitié de sa capacité normale (arrondi au supérieur). De plus, vous pouvez utiliser 2 points de sang par tour lorsque ce pouvoir est actif. Vous êtes considéré comme ayant 3 générations au-dessus de la vôtre pendant toute la durée du pouvoir afin de réveiller quelqu’un de torpeur. Vous ne pouvez utiliser ce pouvoir qu’une seule fois par nuit. Lorsque le pouvoir prend fin, le sang excédentaire dans votre métabolisme se dilue et vous retrouvez votre réserve normale de sang.<br /> Si vous êtes diablé lorsque vous avez activé ce pouvoir, on prend en compte votre génération normale et non la génération virtuelle et temporaire."
+    },
+    {
+        "Key": "BLOOD_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "BLOOD_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser ce pouvoir 2 fois par nuit au lieu d’une seule fois."
+    }, 
+	{
+        "Key": "BLOOD_POWER_4_NAME",
+        "Text": "Vol de Vitae"
+    },
+    {
+        "Key": "BLOOD_POWER_4_DESCRIPTION",
+        "Text": "L'un des principes de base de la magie sympathique est le concept que les choses identiques s'attirent. En transformant de façon mystique le sang de votre corps en un aimant Thaumaturgique, vous pouvez littéralement siphonner le sang de votre cible, le faisant dégouliner de ses pores jusque dans votre main avant d’être absorbé dans votre corps."
+    },
+    {
+        "Key": "BLOOD_POWER_4_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et utilisez une action standard pour effectuer un challenge en opposition utilisant votre attribut Mental + Occulte contre le Mental + Volonté de votre cible qui devra se situer à 25 pas de vous. Si vous réussissez, vous pouvez drainer mystiquement jusqu’à 3 points de sang de votre victime. Ce sang s’extirpe au travers des pores de la victime, plane dans les airs jusqu'à votre main avant d’être absorbé magiquement par votre corps. Le sang substitué de cette façon conserve ses propriétés normales - ingérer du sang de vampire crée un lien de sang, du sang empoisonné vous rend malade, un sang malade transmet ses infections, etc. Inutile de préciser que ce pouvoir aux propriétés incroyables est considéré comme un bris de la Mascarade lorsqu’il est utilisé publiquement.<br />Vous pouvez utiliser ce pouvoir de façon répétée sur votre cible même si vous ratez l’un de vos challenges. Il s'agit d’une exception à la règle sur l’utilisation répétée de challenge mentaux sur la même cible."
+    },
+    {
+        "Key": "BLOOD_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Vous volez 4 points de sang de votre victime au lieu de 3."
+    },
+    {
+        "Key": "BLOOD_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Lorsque vous utilisez Vol de Vitae sur un vampire, votre pouvoir neutralise les propriétés du sang vampirique jusqu'à un certain degré. Le sang récupéré de cette façon ne peut créer un lien de sang avec vous, ne peut vous rendre malade ou vous infecter. Les disciplines affectant le sang d’un vampire tel que le Sang Acide de Vicissitude continuent à produire leurs effets."
+    }, 
+	{
+        "Key": "BLOOD_POWER_5_NAME",
+        "Text": "Chaudron de Sang"
+    },
+    {
+        "Key": "BLOOD_POWER_5_DESCRIPTION",
+        "Text": "En touchant votre opposant, vous pouvez faire bouillir le sang dans ses veines, lui infligeant une incroyable souffrance. Une vapeur écarlate s'élève tout autour du corps de votre victime tandis que son sang bouillonne en sortant de ses pores et de chacun de ses orifices. Peu de vampires peuvent supporter cette fournaise intérieure et les mortels sont inévitablement tués par une telle attaque."
+    },
+    {
+        "Key": "BLOOD_POWER_5_SYSTEM",
+        "Text": "Utilisez une action standard pour Agripper votre cible. si vous réussissez, dépensez 1 point de Sang pour infliger le “chaudron de sang” à votre victime, en plus de lui infliger les effets standard d’un agrippement. Le chaudron de sang bout 2 points de sang de votre cible, lui infligeant ainsi 2 dégâts aggravés. Les dégâts causés par ce pouvoir ne peuvent être réduits ou annulés.<br /> La première fois que vous utilisez Chaudron de Sang sur votre cible, vous devez réussir une Manœuvre de Combat “Agripper” contre votre cible. Si vous avez déjà agrippé votre cible, vous pouvez activer ce pouvoir en dépensant 1 Point de Sang et en utilisant votre action standard.<br />Ce pouvoir ne convertit pas le dommage normal causé par l’agrippement en dégât aggravé et ce dommage peut, quant à lui, être réduit ou annulé normalement. La technique d’agrippement ne réduit pas les dommages causés par le Chaudron de Sang.<br />Les mortels qui subissent ce pouvoir meurent instantanément."
+    },
+    {
+        "Key": "BLOOD_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "BLOOD_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez dépenser 1 point de sang supplémentaire et faire bouillir jusqu’à 3 points de sang, causant ainsi 3 dommages aggravés par utilisation de ce pouvoir."
+    }, 
+	{
+        "Key": "BLOOD_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour La Voie du Sang"
+    }
+]

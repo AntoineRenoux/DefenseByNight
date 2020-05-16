@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "DEMENTATION_NAME",
+        "Text": "Aliénation"
+    },
+    {
+        "Key": "DEMENTATION_DESCRIPTION",
+        "Text": "L’Étreinte ravage les esprits des Malkaviens, tordant et brisant leur psyché, mais étend leur conscience à un point où génie et folie semblent proches. Ils deviennent des visionnaires, catalyseurs de changements et de folies, portant à la fois sagesse et démence dans leur éveil. Le pouvoir d’Aliénation, leur discipline de référence, porte cette folie encore plus loin, la répandant à travers le monde. Cette discipline ouvre les portes du subconscient et libère l’ego, dévastant la logique de la victime et la supplantant par le chaos.<br /> <strong>Dérangements</strong>: Un personnage doit avoir un Dérangement s’il désire acquérir des points en Aliénation.S’il ne possède aucun dérangement, alors le premier point d’Aliénation cause au personnage un Dérangement qui ne peut être supprimé.Le personnage ne gagne aucun Point d’Expérience pour ce Dérangement. Pour plus d’informations sur les Dérangements, reportez-vous au Chapitre : Atouts et Handicaps."
+    },
+    {
+        "Key": "DEMENTATION_POWER_1_NAME",
+        "Text": "Passion"
+    },
+    {
+        "Key": "DEMENTATION_POWER_1_DESCRIPTION",
+        "Text": "Telle la ménade des temps anciens, vous pouvez élever les émotions à des sommets, faisant remonter les peurs, les désirs, le désespoir ou n’importe quelle envie irrépressible de votre cible à la surface. A l’inverse, vous pouvez aussi atténuer ces émotions, entraînant l’esprit dans un vide froid et rationnel."
+    },
+    {
+        "Key": "DEMENTATION_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang, utilisez votre action standard et faites un challenge opposé d’Aliénation avec votre cible. En cas de succès, vous pouvez soit diminuer, soit élever ses émotions pendant une heure.<br /> Si vous choisissez d’élever ses émotions, alors elle ressentira un flux d’émotions − désir désespéré, anxiété, joie ou inquiétude − poussé à l’extrême. Elle doit dépenser 1 point de Volonté à chaque fois que quelque chose de surprenant ou de perturbant arrive. Si elle ne le fait pas, elle réagit de manière démesurée, soit en fuyant, soit en frappant la source de son trouble.<br /> Si vous choisissez d’atténuer ses émotions, la cible ressentira une perte de son empathie ; son esprit ralentit et ses réactions, quelles qu’elles soient, deviennent froides et insipides.Elle ne ressent aucune réponse à un stimulus émotionnel, tel que l’amour, la haine ou la peur.Elle est simplementvide, à un point que cela en devient déconcertant.Un personnage aux émotions atténuées doit dépenser 1 point de Volonté pour engager un combat ou réagir avec une grande conviction.Elle n’a cependant pas besoin de dépenser de la Volonté pour se joindre à un combat commencé ou  pour se défendre.<br /> Vous pouvez mettre fin aux effets d’une Passion en appliquant l’effet inverse(un personnage dont les émotions ont été atténuées est soigné en utilisant Passion pour accroître ses émotions)."
+    },
+    {
+        "Key": "DEMENTATION_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": "Durant les 3 prochains tours, votre cible ne peut dépenser de point de Volonté pour résister aux conséquences de ce pouvoir."
+    },
+    {
+        "Key": "DEMENTATION_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez aussi utiliser Passion des manières suivantes : En parlant calmement avec votre cible ou en lui détaillant un éventuel danger, vous pouvez soit mettre fin à un pouvoir basé sur la peur affectant cette cible ou la rendre plus vulnérable à ses effets. Parlez à votre cible durant 3 tours complets, dépensez 1 point de Sang et faites un challenge opposé d’Aliénation. En cas de succès, vous mettez fin aux effets de pouvoirs tels que Regard Terrifiant ou infligez un malus de -2 à tous ses Scores de Test pour résister à une peur surnaturelle durant la prochaine heure."
+    },
+	 {
+        "Key": "DEMENTATION_POWER_2_NAME",
+        "Text": "Hantise psychique"
+    },
+    {
+        "Key": "DEMENTATION_POWER_2_DESCRIPTION",
+        "Text": "Des visions cauchemardesques, des flashs à peine perceptibles, des échos surnaturels et des conversations incompréhensibles hantent votre victime, transformant le monde autour d’elle en une brume de rêve. Rien ne semble normal et d’étranges sensations parcourent la peau de la cible. Ses désirs subconscients font surface et ses peurs et ses regrets les plus profonds reviennent la hanter, tels de sombres murmures hallucinatoires du passé."
+    },
+    {
+        "Key": "DEMENTATION_POWER_2_SYSTEM",
+        "Text": "Dépensez 1 point de Sang, utilisez votre action standard et faites un challenge opposé d’Aliénation. En cas de succès, le subconscient de votre cible est envahi de visions, de sensations et de sons perturbants, qu’il est le seul à percevoir. Elle souffre d’un malus de -3 pour tout test d’attaque pour les 3 prochains tours, du fait qu’elle essaie (sans succès) de séparer réalité et fiction. Après ces 3 tours, le sujet commence à distinguer ce qui est réel de ce qui est imaginaire. Pendant 1 heure, la pénalité n’est plus que de -1. Les pénalités de Hantise Psychique ne s’appliquent pas aux tests de défense.<br /> Utiliser ce pouvoir sur un individu avec un dérangement lui donne 1 trait de dérangement. Plusieurs Hantises Psychiques ne se cumulent pas."
+    },
+    {
+        "Key": "DEMENTATION_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Votre victime souffre d’un malus de -3 à tous ses tests d’attaque durant 5 tours, qui passe ensuite à -1 pour le reste de la nuit. De plus, utiliser ce pouvoir sur un individu avec un dérangement lui donne 2 traits de dérangement au lieu d’1."
+    },
+    {
+        "Key": "DEMENTATION_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Tant qu’elle est sous l’effet de Hantise Psychique, votre cible perd l’un de ses focus Mentaux. Si elle dispose de plusieurs focus Mentaux, elle choisit quel focus est temporairement perdu."
+    },
+	{
+        "Key": "DEMENTATION_POWER_3_NAME",
+        "Text": "Vision du Chaos"
+    },
+    {
+        "Key": "DEMENTATION_POWER_3_DESCRIPTION",
+        "Text": "Il y a de la sagesse entre les fissures et les morceaux brisés de la réalité et il y a des leçons à apprendre en regardant l’univers s'effondrer lentement. Avec ce pouvoir, vous êtes à même de discerner des modèles complexes, de dévoiler des incohérences et de traquer les étranges et impalpables fils du destin"
+    },
+    {
+        "Key": "DEMENTATION_POWER_3_SYSTEM",
+        "Text": "Ce pouvoir est toujours actif. Un personnage utilisant Vision du Chaos reçoit un bonus contextuel de +5 à n’importe quelle utilisation basique de la compétence Enquête ou à n’importe quel test de compétence Académique dans le but de casser un code, trouver une pièce manquante d’un puzzle ou combiner des indices. De plus, en faisant ce type de challenge, vous pouvez effectuer ce test sans interagir physiquement avec votre environnement, un simple coup d’œil autour de la zone (une action standard) est suffisant pour faire une recherche complète.<br /> Un personnage utilisant ce pouvoir peut passer quelques instants à scanner une pièce et réussir à découvrir un pistolet dissimulé dans une boîte à chaussures sous le lit, il peut jeter un regard sur une grille de mots-croisés et le résoudre en quelques instants ou il peut compter rapidement le nombre de dalles dans la pièce qu’il est en train de traverser."
+    },
+    {
+        "Key": "DEMENTATION_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "DEMENTATION_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez utiliser Vision du Chaos au prix d’une action simple, au lieu d’une action standard."
+    }, 
+	{
+        "Key": "DEMENTATION_POWER_4_NAME",
+        "Text": "Voix de la Folie"
+    },
+    {
+        "Key": "DEMENTATION_POWER_4_DESCRIPTION",
+        "Text": "Votre voix peut porter la démence du chant des sirènes et le murmure du pandémonium de la folie pure. En parlant d’une voix lourde et résonante, vous pouvez faire revivre les regrets, les peurs, la douleur, l’horreur et les souffrances de la vie et non-vie de votre cible, libérant son Ça et donnant les rênes à ses démons intérieurs."
+    },
+    {
+        "Key": "DEMENTATION_POWER_4_SYSTEM",
+        "Text": "Pour utiliser Voix de la Folie, vous devez avoir l’attention de la cible pendant au moins 5 tours (15 secondes) pour lui décrire le dérangement que vous voulez lui infliger. Quand vous avez fini cette description, dépensez 1 point de Sang et faites un challenge opposé contre votre cible. En cas de succès, vous infligez le dérangement de votre choix à votre cible pour le reste de la soirée et 1 trait de dérangement. Si l’individu dispose déjà de traits de dérangement, ce dernier peut causer un épisode psychotique (voir le chapitre sur les Dérangements).<br /> Par exemple, vous pouvez approcher le Primogène Ventrue et lui dire « J’ai vu 2 Brujahs tourner autour de votre voiture la nuit dernière. Que faisaient-ils ? Pensez-vous que les Brujahs soient dignes de confiance ? ». En cas de succès, avec cette phrase, vous pouvez donner le dérangement Phobie avec pour déclencheur « Brujah ». <br />Un individu ne peut être affecté par ce pouvoir qu’une seule fois par utilisateur d’Aliénation. Si le même personnage tente d’infliger un second dérangement avant que le premier n’expire, le premier dérangement est remplacé par le second. Si un autre utilisateur d’Aliénation réussit à utiliser ce pouvoir sur une cible déjà affectée, les dérangements se cumulent."
+    },
+    {
+        "Key": "DEMENTATION_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Le dérangement infligé par Voix de la folie dure 2 parties ou 1 mois, en fonction de ce qui est le plus long."
+    },
+    {
+        "Key": "DEMENTATION_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Au lieu de devoir passer cinq tours à parler à votre cible, vous pouvez infliger un dérangement sans rien d’autre qu’une simple phrase et une action standard. Par exemple, vous pouvez infliger le même dérangement que précédemment en disant simplement à votre cible <i> « Pensez-vous que les Brujahs soient dignes de confiance ? »</i>. Un personnage n’a pas besoin de comprendre complètement le dérangement dans le roleplay pour appliquer les effets de ce pouvoir, mais un joueur doit être sûr de pouvoir expliquer le dérangement à l’interprète de la cible, afin qu’il puisse jouer convenablement les effets."
+    }, 
+	{
+        "Key": "DEMENTATION_POWER_5_NAME",
+        "Text": "Démence Absolue"
+    },
+    {
+        "Key": "DEMENTATION_POWER_5_DESCRIPTION",
+        "Text": "En utilisant ce pouvoir, la folie absolue – l’éclatement total du miroir – est libérée au sein de l’esprit de votre victime. Vous faites remonter chaque sentiment d’insécurité, chaque affront oublié, chaque moment de panique ou chaque accès de colère et amplifiez ces blessures émotionnelles au centuple, causant des ravages sur l’esprit de votre cible."
+    },
+    {
+        "Key": "DEMENTATION_POWER_5_SYSTEM",
+        "Text": "Vous devez avoir toute l’attention de votre cible pour que Démence Absolue fonctionne. Une fois son entière attention acquise, dépensez 1 Point de Sang, utilisez votre action standard et faites un challenge opposé contre votre cible. En cas de succès, vous la rendez folle durant la prochaine heure. <br /> Démence Absolue emplit l’esprit de votre cible de dérangements conflictuels, lui compliquant les raisonnement logiques. Votre cible doit travailler avec le Conteur pour déterminer exactement comment la folie la frappe, mais pour fluidifier le jeu, l’utilisateur de Démence Absolue choisit l’un des effets suivants à appliquer à sa victime : <br /> • <i>Peur</i>: La victime est terrifiée par tout ce qui semble menaçant et va chercher à fuir et se cacher dans un endroit sûr jusqu’à ce que Démence Totale soit terminée.La victime ne cherchera pas à se battre, sauf si elle est acculée et si elle est forcée à se battre, elle s’enfuira à la moindre occasion. <br /> • <i>Confusion</i>: La victime souffre d’une pénalité de - 5 à tous ses tests d’attaque pendant la durée de Démence Totale, du fait qu’elle tente de séparer la réalité de la fiction.Cette pénalité ne s’applique pas aux tests de défense.<br /> • <i>Fugue</i>: La cible se retire mentalement, s’asseyant en silence, ne parlant qu’à des amis en qui elle a entièrement confiance.Si on la force à sortir de sa bulle, elle va soit attaquer, soit fuir la personne qui l’a provoquée(au choix de la cible)."
+    },
+    {
+        "Key": "DEMENTATION_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Les effets de Démence Absolue durent deux heures, au lieu d’une seule."
+    },
+	{
+        "Key": "DEMENTATION_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "La cible perd tous ses focus Mentaux et Sociaux tant que l’effet de Démence Absolue est actif."
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_1_NAME",
+        "Text": "Malaise Persistant"
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Partager votre folie est aussi naturel pour vous que de boire du sang… et aussi satisfaisant. Les Anciens qui maîtrisent ce pouvoir peuvent infliger une affliction fort substantielle sur l’esprit d’autrui."
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_1_SYSTEM",
+        "Text": "Les personnages affectés par votre Voix de la Folie mettent leur traits de Dérangements à 2 ; à chaque fois que votre victime subit une rupture psychotique alors qu’elle est sous les effets de ce pouvoir, la rupture psychotique ne réinitialise pas ses traits de Dérangements à 0 (ou 1, si le personnage est Malkavien). Au lieu de ça, ses traits de Dérangements sont réinitialisés à 2. Pour plus d’informations sur les Dérangements et les traits de dérangements, voir le Chapitre Cinq : Atouts et Handicaps."
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_2_NAME",
+        "Text": "Déni"
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Le monde que nous voyons et observons n’est pas un vrai monde. Les vérités que nous connaissons et en lesquelles nous avons confiance ne sont pas les vraies vérités. Elles ne sont que des ombres, rien de plus que des réflexions de quelque chose de plus profond, qui repose dans l’au-delà. Avec ce pouvoir, vous pouvez prouver la véracité du vieil adage de Platon et dénier les assomptions collectives du monde."
+    },
+    {
+        "Key": "DEMENTATION_ELDER_POWER_2_SYSTEM",
+        "Text": "Dépensez 3 points de Sang et une action simple pour dénier l’existence d’un objet inanimé. Ce pouvoir ne peut pas être utilisé pour dénier l’existence de créatures en vie, mortes-vivantes ou d’esprits ; il ne fonctionne que sur les objets inanimés. Vous êtes conscient que, pour les faibles d’esprits, l’objet que vous avez dénié existe toujours, mais pour vous, il n’est rien d’autre qu’une réflexion évidemment fausse de la réalité. L’objet que vous avez dénié ne peut plus obscurcir votre champ de vision, vos mouvements, vous toucher ou vous blesser de quelque manière que ce soit.<br />Un utilisateur de Déni peut traverser une porte verrouillée qu’il ne \"voit pas\" comme si c'était une arcade et une épée qu’il refuse de reconnaître échoue à le blesser, passant au travers de son corps. L’utilisateur d’Aliénation peut dénier n’importe quel objet dans sa ligne de vue, mais il ne peut étendre son déni qu’aux objets qu’il touche. Par exemple, l’utilisateur d’Aliénation peut lancer une hache d’incendie au travers d’une porte qu’il a déniée et frapper l’ennemi de l’autre côté mais, s'il tire avec un pistolet au travers du mur dénié, la balle frappe le mur comme d’habitude.<br />Vous pouvez dénier jusqu'à trois objet de la taille d’une petite voiture. Il est possible de dénier jusqu'à trois objets en même temps, mais vous devez dépenser 3 points de sang et une action simple pour chaque objet. Le déni dure une heure ou jusqu'à ce que vous dépensiez une action simple pour mettre fin à ses effets."
+    },
+	{
+        "Key": "DEMENTATION_TEST_SCORE",
+        "Text": "Le personnage se servant d’Aliénation utilise son Score de Test <i>Social + Empathie</i> contre le Score de Test Social + Volonté de la cible."
+    }
+]

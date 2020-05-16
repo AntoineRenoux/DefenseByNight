@@ -1,0 +1,114 @@
+[
+    {
+        "Key": "MORTIS_NAME",
+        "Text": "La Voie de Mortis"
+    },
+    {
+        "Key": "MORTIS_DESCRIPTION",
+        "Text": "La Voie de Mortis est en rapport avec les processus physiques et les manifestations de la mort qui affectent le corps physique. Cette Voie provient d’une profonde compréhension nécromantique de la forme de mort-vivant et sa philosophie se base sur la nature du corps en tant que passerelle entre la vie et la mort.<br /> Dans les temps anciens, les membres du clan Cappadocien étaient les nécromants proéminents de la société vampirique mais, au fil des siècles, leur propriété sur cette discipline s'est estompée. Maintenant, seule la Voie de Mortis subsiste en tant que Voie exclusive de Necromancie pratiquée par cet ancien clan. Seuls les Cappadociens et les membres de la lignée Cappadocienne des Lamias peuvent apprendre cette Voie de nécromancie. Aucun Giovanni ou membre de la lignée Samedi n’a un accès inné à cette Voie."
+    },
+    {
+        "Key": "MORTIS_POWER_1_NAME",
+        "Text": "Masque de Mort"
+    },
+    {
+        "Key": "MORTIS_POWER_1_DESCRIPTION",
+        "Text": "Ce pouvoir aide le vampire à la fois à tromper et à mieux comprendre les différences entre un Vrai Corps et un membre des morts-vivants animé par nécromancie. En utilisant les capacités accordées par ce pouvoir, vous transformez votre corps pour une période de temps, pouvant même utiliser ce pouvoir pour vous cacher au milieu des autres corps durant des périodes étendues de torpeur."
+    },
+    {
+        "Key": "MORTIS_POWER_1_SYSTEM",
+        "Text": "Dépensez un Point de Sang et une action standard pour transformer votre forme physique en celle d’un cadavre normal. Tant que Masque de Mort est actif, vous êtes considéré comme un cadavre ordinaire. Vous ne pouvez bouger, vous n’avez pas d’aura, vous perdez accès à tous vos pouvoirs vampiriques (excepté celui-ci), vous ne prenez aucun dégât des rayons du soleil et vous apparaissez comme un simple corps sans vie, non magique. Une personne utilisant Masque de la mort n’est pas un Vrai Corps et ne peut être ciblé par un effet affectant ceux-ci. <br /> Tant que Masque de Mort est actif, vous êtes conscient de tout ce qui se passe dans les cinq pas autour de votre corps. Vous ne prenez pas de blessure avec les dégâts occasionnés à votre corps tant que vous êtes dans cet état et êtes immunisé au pieutage. Vous pouvez quand même être tué si votre tête est séparée du corps ou si celui-ci est détruit. Détruire votre corps ou vous décapiter de cette façon nécessite d’utiliser trois actions standards, durant lesquelles vous pouvez mettre fin à Masque de Mort et revenir instantanément à votre forme réelle. Durant ce retour à votre état d’origine, vous soignez tous les dégâts qui ont été infligés à votre corps durant l’usage de Masque de Mort et votre corps éjecte automatiquement tout pieu ou matière étrangère.<br /> Masque de Mort dure jusqu'à ce que vous décidiez d’annuler ce pouvoir. Si vous l’utilisez durant une longue période de temps, votre corps pourrira et se décomposera normalement mais ne perdra jamais sa cohésion. De cette façon, vous devenez aussi pourri et décrépit que n’importe quel corps dans sa tombe jusqu'à ce que vous vous réveilliez."
+    },
+    {
+        "Key": "MORTIS_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MORTIS_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Une fois par tour, lorsque vous utilisez Masque de Mort, vous pouvez dépensez un Point de Sang pour effectuer une seule action simple, incluant le mouvement dans ces actions. De plus, masque de Mort s'active automatiquement si vous entrez en torpeur due aux dégâts subis ou en cas de pieutage. Dans ces circonstances, vous n’avez pas à dépenser un Point de Sang pour l’activation de ce pouvoir."
+    },
+	 {
+        "Key": "MORTIS_POWER_2_NAME",
+        "Text": "Remonter la Pendule"
+    },
+    {
+        "Key": "MORTIS_POWER_2_DESCRIPTION",
+        "Text": "Ce pouvoir subtil vous permet de vaincre le sommeil profond qu’est la torpeur, permettant à vous-même ou un autre vampire de se relever de ces profondeurs."
+    },
+    {
+        "Key": "MORTIS_POWER_2_SYSTEM",
+        "Text": "Dépensez un Point de Sang et une action standard pour toucher un vampire en torpeur. La cible s'éveille immédiatement de sa torpeur. Une cible qui s'éveille de torpeur par ce pouvoir dispose du même nombre de niveaux de vie qu’avant d’être entré dans cet état. Ce pouvoir peut être utilisé pour vous réveiller vous-même de torpeur. C'est une exception à la règle qui interdit aux personnages d’utiliser leurs pouvoirs dans cet état."
+    },
+    {
+        "Key": "MORTIS_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MORTIS_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Dépensez un Point de Sang et une action standard pour toucher le Vrai Corps d’un individu mort depuis moins de 24 heures. La cible se relève instantanément des morts. Son corps étant réanimé, son âme revient et elle peut aussitôt agir normalement pendant la durée de ce pouvoir. Elle n’a aucune mémoire de ce qui s'est passé après sa mort ni de ce qui se trouve de l’autre coté du Voile. Tant que ce pouvoir dure, la cible ne peut être tuée, sauf si son corps est détruit. Ce pouvoir dure tant que vous dépensez un Point de Sang par tour. Quand ce pouvoir s’arrête, la cible meurt alors de façon irrémédiable et ne peut plus être réussite (ou éteinte) par aucun moyen. Les vampires, qu’ils soient morts-vivants ou ayant subi la mort ultime, ne peuvent être ciblés par ce pouvoir."
+    },
+	{
+        "Key": "MORTIS_POWER_3_NAME",
+        "Text": "Fléau"
+    },
+    {
+        "Key": "MORTIS_POWER_3_DESCRIPTION",
+        "Text": "A travers la maîtrise de ce pouvoir, vous pouvez infecter le corps de votre victime, lui donnant une terrible maladie ressemblant à la peste noire. Des bubons se forment sur sa peau, sa chair pourrit et se détache, une gangrène noire se répand à travers son corps."
+    },
+    {
+        "Key": "MORTIS_POWER_3_SYSTEM",
+        "Text": "Dépensez un Point de Sang et une action standard en pointant dramatiquement du doigt votre cible puis faites un challenge opposé en utilisant le challenge de Nécromancie. Si vous réussissez, votre cible contracte une terrible maladie. La victime de Fléau subit aussitôt un point de dégât aggravé tandis que sa chair pourrit et tombe en lambeaux. Ce dégât ne peut être réduit ou annulé. Après une heure, votre cible doit faire un nouveau challenge statique utilisant ses attributs Physique + Survie contre votre Mental + Occulte. Étant donné qu’il s'agit d’un challenge statique, vous ne pouvez pas utiliser votre volonté pour re-test même si votre cible peut le faire. Si ce challenge a échoué, la cible prend un nouveau dégât aggravé qui ne peut être réduit ou annulé. Répéter ce process toutes les heures jusqu’à ce que la cible réussisse un challenge (indiquant que son corps a vaincu la maladie), meurt ou tombe en torpeur.<br /> Les personnes vivantes peuvent mourir à cause de Fléau mais les vampires arrêtent de subir des dégâts de ce pouvoir une fois entrés en torpeur. Si un vampire se met volontairement en torpeur avant de ne plus avoir de niveaux de santé, il continue de subir les dégâts même durant la torpeur jusqu'à ce qu’il n’ait plus de niveaux de santé."
+    },
+    {
+        "Key": "MORTIS_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": "Quand vous activez ce pouvoir, la cible subit 2 points de dégâts aggravés au lieu d’un seul. De plus, la victime subit 2 points de dégâts aggravés à chaque fois qu’elle échoue à un des challenges statiques. Ces dégâts ne peuvent être prévenus ou annulés."
+    },
+    {
+        "Key": "MORTIS_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Les challenges statiques pour éviter les dégâts supplémentaires doivent se faire toutes les 10 minutes et non toutes les heures."
+    }, 
+	{
+        "Key": "MORTIS_POWER_4_NAME",
+        "Text": "Passage de la Faucheuse"
+    },
+    {
+        "Key": "MORTIS_POWER_4_DESCRIPTION",
+        "Text": "L'effrayante forme de la faucheuse n’est jamais loin de l’âme d’un vampire et ceux qui sont forcés de regarder la réalité de l’éternité en face se trouveront emplis de la durable menace de la mort. Même les mortels ont peur de la venue de leur fin inexorable."
+    },
+    {
+        "Key": "MORTIS_POWER_4_SYSTEM",
+        "Text": "Dépensez un Point de Sang et une action standard pour faire un challenge opposé de Nécromancie. Si vous réussissez, votre cible expérimente une vision fugitive de la mort. Quelques rares chanceux ont un aperçu momentané du paradis, mais la plupart expérimentent les horreurs de l’enfer ou les terreurs du vide absolu. Quelle que soit la forme que prend ce pouvoir, la victime se retrouve brièvement neutralisée par son aperçu de la mort. La cible perd sa prochaine action standard.<br /> Si ce pouvoir est utilisé deux fois sur la même cible, les effets sont diminués, car la personne s'habitue au choc subi. Si la cible affectée par ce pouvoir l’a déjà subi il y a trois tours ou moins, la seconde utilisation de ce pouvoir n’a aucun effet."
+    },
+    {
+        "Key": "MORTIS_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "Si vous réussissez un succès exceptionnel avec le Passage de la Faucheuse contre une cible mortelle, celle-ci décède instantanément. Les être surnaturels survivent mais subissent 3 points de dégâts aggravés en plus des effets normaux de ce pouvoir. Ces dégâts ne peuvent être diminués ou annulés."
+    },
+    {
+        "Key": "MORTIS_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les victimes du Passage de la Faucheuse perdent à la fois leur prochaine action standard et action simple. Si la cible a déjà subi ce pouvoir depuis 3 tours ou moins, elle perd simplement son action simple sur une nouvelle utilisation de ce pouvoir."
+    }, 
+	{
+        "Key": "MORTIS_POWER_5_NAME",
+        "Text": "Le Quatrième Cavalier"
+    },
+    {
+        "Key": "MORTIS_POWER_5_DESCRIPTION",
+        "Text": "A travers l’invocation du pouvoir du Voile et le transfert de ces énergies en lui-même, l’utilisateur de ce pouvoir se transforme en une incarnation littérale de la Mort. La plupart des utilisateurs de ce pouvoir apparaissent comme des squelettes humains dans une robe noire, élimée avec des points de lueurs étincelants dans ses orbites vides et entouré des murmures incessants des damnés. D’autres prennent une forme plus personnelle, reliée à leur historique culturel ou leur idées personnelles mais, dans tous les cas, cette forme est toujours reconnaissable comme l’avatar de la Mort."
+    },
+    {
+        "Key": "MORTIS_POWER_5_SYSTEM",
+        "Text": "Dépensez un Point de Sang et votre action simple pour vous transformer de façon dramatique en un avatar physique de la Mort. Cette transformation doit se nourrir, se rechargeant en absorbant les forces vitales de ce qui l’entoure. Si elle ne peut drainer de la puissance d’autres sources, elle dévore l’utilisateur de l’intérieur, l’amenant lentement vers sa mort.<br /> Au début de chaque tour durant lequel le Quatrième Cavalier est actif, tout être vivant dans les deux pas subit 2 points de dégâts normaux pendant que sa force vitale est corrompue et détruite. Ces dégâts ne peuvent être réduits ou annulés d’aucune façon. <br /> Les Vampires se trouvant dans le même rayon perdent un Point de Sang, pendant que la force vitale qu’ils avaient volée à d’autres leur est volée à son tour. Le Sang se trouvant dans les veines des vampires se change littéralement en cendres. Les vampires qui n’ont pas de Sang dans leur organisme ne subissent pas d’autres effets.<br /> Si le Quatrième Cavalier n’a pas de sources sur laquelle se nourrir, que ce soit en transformant du sang de vampire en cendres ou en infligeant des dégâts à un humain, il se retourne alors sur lui-même et transforme deux Points de Sang de l’invocateur de ce pouvoir. Celui-ci s'arrête immédiatement si l’utilisateur n’a plus de Sang, tombe en torpeur ou dépense une action simple pour le désactiver.<br /> Tant que le personnage est sous l’effet de ce pouvoir, ses attaques de mêlée ou à mains nues infligent un point de dégât supplémentaire.<br /> Le Quatrième cavalier est un pouvoir de transformation et ne peut pas être combiné avec les autres pouvoirs de transformation. Vous pouvez utiliser des armes dans cette forme."
+    },
+    {
+        "Key": "MORTIS_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "MORTIS_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Tant que vous êtes transformé en Quatrième Cavalier, vos poings ou vos armes sont entourés d’une énergie nécromantique visible. Toutes vos attaques de Mêlée ou de Bagarre infligent des dégâts aggravés. Cette énergie se manifeste comme des nuages tourbillonnants de fumée noire, des insectes bourdonnants ou de toute autre manière appropriée à votre forme."
+    }, 
+	{
+        "Key": "MORTIS_TEST_SCORE",
+        "Text": "Il n'y a pas de Score standard pour La Voie de Mortis"
+    }
+]

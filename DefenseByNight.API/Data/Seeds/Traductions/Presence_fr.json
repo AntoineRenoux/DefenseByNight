@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "PRESENCE_NAME",
+        "Text": "Présence"
+    },
+    {
+        "Key": "PRESENCE_DESCRIPTION",
+        "Text": "La beauté et l’élégance des Vampires ont inspiré des générations de mortels à écrire des poèmes, chansons et histoires, toutes luttant pour relater la magnificence des ces séduisants morts-vivants. Rien n’attire davantage l’attention que l’aura naturelle d’un Vampire pour commander, intimider ou se rendre sensuel et les pratiquants de la discipline Présence maîtrisent cette capacité. De telles créatures peuvent inspirer la terreur, séduire ou apporter un terrible désespoir aux malheureux amants dont son attention s’est éloignée. Au travers de l’utilisation de Présence, les vampires pratiquent une manipulation subtile. Là où la Domination est un marteau, la Présence est une main de fer dans un gant de velours. Cette discipline peut renverser les émotions sans que l’on s'en rende compte, si les effets sont subtilement appliqués. Mais la présence n’altère ni la manière de penser d’un sujet ni sa personnalité ; elle enflamme simplement les sentiments et l’affection de la cible, l’obligeant à ressentir de nouvelles émotions. Ceux ciblés par Présence ne perdent pas leur santé mentale et ne sont pas non plus enclins à croire des choses ridicules simplement parce que le Vampire a dit que c’était la vérité.Toujours est-il qu’avec de l’inspiration, de l’éloquence ou des dons de richesses utilisés en combinaison avec cette discipline, peuvent apporter des soutiens permanents au Vampire."
+    },
+    {
+        "Key": "PRESENCE_POWER_1_NAME",
+        "Text": "Admiration"
+    },
+    {
+        "Key": "PRESENCE_POWER_1_DESCRIPTION",
+        "Text": "Vous vous faites remarquer même dans les salles les plus animées. Votre beauté et votre charisme attirent l’attention des autres comme des papillons de nuit vers une flamme. Même ceux qui sont en désaccord avec votre cause ou vos objectifs s’arrêteront et vous écouteront, ne serait-ce que pour vous accorder le bénéfice du doute pendant un moment."
+    },
+    {
+        "Key": "PRESENCE_POWER_1_SYSTEM",
+        "Text": "Pour activer Admiration, dépensez un point de sang et une action standard. Pour le reste de la scène, vous semblez plus grand que nature, plus impressionnant qu’à l’accoutumée et tous ceux à portée de conversation vous accorderont leur attention et sentiront un fort désir d’être proche de vous. Les personnages affectés par l’Admiration ne sont pas poussés à davantage vous faire confiance ou à arrêter de vous attaquer, mais ils doivent vous porter une attention particulière. Une cible affectée par Admiration est considérée comme automatiquement concentrée sur vous, selon la règle du Regard et Focalisation.<br /> Les Personnages peuvent ignorer les effets d’Admiration pendant une heure, même s'ils proviennent de différents individus, en dépensant un point de Volonté."
+    },
+    {
+        "Key": "PRESENCE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "PRESENCE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": ""
+    },
+	 {
+        "Key": "PRESENCE_POWER_2_NAME",
+        "Text": "Regard Terrifiant"
+    },
+    {
+        "Key": "PRESENCE_POWER_2_DESCRIPTION",
+        "Text": "La bête d’un vampire est une entité terrifiante, sauvage et prédatrice. Utiliser le Regard Terrifiant permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d’une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête."
+    },
+    {
+        "Key": "PRESENCE_POWER_2_SYSTEM",
+        "Text": "Dépensez une action standard alors que votre personnage montre ses crocs en sifflant ou hurlant sur sa cible et initiez le challenge opposé avec votre cible. Si vous remportez le challenge, elle est submergée par la peur. La cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.<br /> Un personnage affecté par votre Regard Terrifiant ne vous attaquera pas, sauf s'il n’a plus aucun recours. Si elle est confinée en un lieu avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion."
+    },
+    {
+        "Key": "PRESENCE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard Terrifiant, il subira à nouveau l’effet du pouvoir et le forcera à battre en retraite, subissant les effets du Regard Terrifiant pendant cinq nouvelles minutes."
+    },
+    {
+        "Key": "PRESENCE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements sont ceux d’un prédateur - mais votre visage n’est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire."
+    },
+	{
+        "Key": "PRESENCE_POWER_3_NAME",
+        "Text": "Envoûtement"
+    },
+    {
+        "Key": "PRESENCE_POWER_3_DESCRIPTION",
+        "Text": "Un doux sourire peut renverser le plus dur des cœurs. Vous êtes la vedette du rassemblement, une étoile dans le ciel nuageux, le seul récepteur de l’attention. Peu sont ceux qui peuvent rivaliser face à votre beauté et votre grâce et ceux qui sont suffisamment chanceux pour attirer votre attention feront tout ce qu’ils peuvent pour la garder."
+    },
+    {
+        "Key": "PRESENCE_POWER_3_SYSTEM",
+        "Text": "Pour activer Envoûtement, dépensez 1 point de sang, dépensez une action standard et initiez un Challenge opposé avec votre cible. En cas de succès, vous faites plier les émotions de votre cible et conquérez son cœur. Elle vous devient immédiatement réceptive, rationalisant tout sentiment de dédain ou négatif qu’elle avait à votre égard avant que vous n’utilisiez ce pouvoir. Bien que la cible ne soit pas votre esclave et n’obéisse pas à tous vos ordres, elle vous admire grandement et est disposée à vous aider dans les limites du raisonnable.<br /> A la fois pendant les effets du pouvoir et après que le pouvoir s'est estompé, le sujet va rationaliser les effets de l’Envoûtement. Ceux qui étaient déjà particulièrement disposés envers vous se souviennent que vous étiez particulièrement séduisant ; ceux qui avait une antipathie modérée envers vous blâment à contrecœur leur changement d’opinion sur le compte de vos incroyables talents de persuasion. Seul un individu qui vous vilipende activement et souhaite vous nuire verra clairement que ses actions ont été manipulées.Les autres spectateurs, ceux qui peuvent voir l’individu envoûté, peuvent mieux se rendre compte qu’il est sous l’influence de votre contrôle émotionnel - mais il sera particulièrement difficile de convaincre un individu envoûté que tel est le cas.<br /> Les personnages envoûtés ne peuvent se résoudre à vous faire du mal, physiquement ou politiquement, et seront en général sympathiques avec vous aussi raisonnablement que possible. Envoûtement n’est pas un contrôle mental et les personnages envoûtés ne sont pas obligés de suivre vos instructions à la lettre. Ils feront en sorte de vous faire plaisir et soutiendront votre cause en cas de conflit ou d’argumentation, du moment qu’ils ne se mettent pas en danger ce faisant.Un personnage envoûté ne se liera pas au sang avec vous ou ne risquera pas sa vie pour vous défendre, mais il vous donnera de l’aide tant que la situation n’est pas dangereuse. <br />Si vous attaquez quelqu'un que vous avez envoûté, les effets du pouvoir s'arrêtent immédiatement."
+    },
+    {
+        "Key": "PRESENCE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": "Si vous parvenez à faire un succès exceptionnel, la cible de votre Envoûtement subit une pénalité de -3 pour résister ou surmonter vos autres pouvoirs de Présence pour la durée de ses effets. Tous les pouvoirs de Présence, Pouvoirs d’Anciens et toutes les techniques basées sur la Présence bénéficient de ce malus."
+    },
+    {
+        "Key": "PRESENCE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Quand vous utilisez Envoûtement avec succès, ses effets durent trois heures au lieu d’une."
+    }, 
+	{
+        "Key": "PRESENCE_POWER_4_NAME",
+        "Text": "Convocation"
+    },
+    {
+        "Key": "PRESENCE_POWER_4_DESCRIPTION",
+        "Text": "Vos pouvoirs de persuasion sont tellement puissants que vous pouvez mystiquement contraindre les autres à venir quand vous les appelez, même s'ils sont à des kilomètres de distance. Le simple souvenir de votre beauté et de votre personnalité inspirante les hante alors qu’ils ressentent le doux appel de votre esprit pour qu’ils viennent à vos côtés."
+    },
+    {
+        "Key": "PRESENCE_POWER_4_SYSTEM",
+        "Text": "Pour convoquer un autre individu, dépensez 1 point de sang et une action standard. Faites un challenge opposé contre la cible qui vous est familière. Pour plus d’informations sur la familiarité, consultez la règle de Familiarité avec la Cible. <br />Une fois que vous avez commencé une convocation, vous ne pouvez pas quitter la zone d’où vous avez lancé le pouvoir ou la convocation prend immédiatement fin. Si vous réussissez, la cible prend immédiatement conscience du fait qu’elle a été affectée par l’utilisation d’un pouvoir, ainsi que de l’identité de celui qui a lancé la convocation et le lieu où elle doit vous rencontrer. Si votre cible ne vous fait pas confiance, elle peux utiliser un temps bref, jusqu'à dix minutes, pour prendre des précautions avant de répondre à votre convocation. <br />Une cible convoquée viendra aussi vite et directement que possible, mais elle conservera ses instincts de survie. La cible ne marchera pas du haut d’une falaise ou ne s'engagera pas dans une situation qu’elle peut détecter comme une embuscade. <br />S'il n’est pas possible pour un personnage de venir se présenter physiquement à vous sans s'engager dans une situation dangereuse, la cible doit se rapprocher de vous autant que possible et vous contacter différemment, comme un appel téléphonique, forcer un humain à vous livrer une note ou envoyer un messager animal. Si la cible n’est pas consciente des risques pour sa sécurité, elle répondra en personne à votre convocation, même si vos plans à son sujet sont sinistres. <br />Les mortels convoqués continueront de suivre votre appel malgré toute distance et quel que soit le temps qu’il leur faudra pour vous rejoindre, tant que vous restez sur les lieux où vous avez initié la convocation. Éventuellement, ils se présenteront à vous, même s'ils ont dû voyager pendant des jours. Les créatures surnaturelles voyagent aussi rapidement qu’elles le peuvent jusqu'à ce qu’elles vous rejoignent ou jusqu'au prochain lever du soleil, peu importe ce qui vient en premier."
+    },
+    {
+        "Key": "PRESENCE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": "La cible de votre Convocation ne sait pas que le pouvoir a été utilisé et, par conséquent, ne peut pas sentir l’identité de celui qui le convoque. Elle se déplacera pour se présenter jusqu'à vous sans se savoir pourquoi - ni ou où elle va. La convocation prend quand même fin si votre cible ne peut pas vous approcher sans marcher dans une situation manifestement dangereuse."
+    },
+    {
+        "Key": "PRESENCE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez convoquer sans dépenser de points de sang ni d’actions standard vos serviteurs, goules et tout individu lié à vous au sang. Vous pouvez utiliser cet aspect de la convocation même en étant pieuté ou en torpeur. Ceci est la seule exception à la règle qui empêche l’utilisation de pouvoir alors qu’un personnage est en torpeur ou pieuté."
+    }, 
+	{
+        "Key": "PRESENCE_POWER_5_NAME",
+        "Text": "Majesté"
+    },
+    {
+        "Key": "PRESENCE_POWER_5_DESCRIPTION",
+        "Text": "Vous maîtrisez la capacité à canaliser les émotions de votre Bête Vampirique, concentrant sa rage en une sombre, majestueuse aura qui semble presque palpable. Votre force de personnalité force les cœurs faibles à fléchir, les individus craintifs à se baisser ou ramper alors que vous exigez leur respect. Les cœurs se brisent sur votre passage et même les plus stoïques tremblent quand vous passez, submergés par l’autorité et la souveraineté de votre personnalité. Vous prenez les traits et la contenance des anciens dirigeants, tant qu’ils sont correctement exprimés - que ce soit grâce à de l’intimidation et la domination, une adoration obséquieuse, un magnétisme sexuel ou par la grâce et la pureté."
+    },
+    {
+        "Key": "PRESENCE_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de sang et une action standard pour activer la Majesté. Pendant l’heure qui suit, vous apparaissez comme l’apothéose de la meilleur nature de votre personnage - étonnamment beau, épouvantablement cruel, majestueux au-delà de tout reproche ou autre - tant qu’il reflète la personnalité de votre personnage. La sensation de la Majesté d’un personnage est variable car cela dépend de son humeur actuelle et de sa personnalité.<br /> La Majesté se manifeste comme une présence émotionnelle dominatrice, qui amplifie la nature du personnage. Tant que ce pouvoir est actif, les autres ne peuvent pas vous manquer de respect et, s'ils peuvent ne pas être d’accord avec vous, ils doivent le montrer avec la plus grande courtoisie. Quiconque aimerait vous attaquer ou être vulgaire envers votre personnage doit entreprendre un challenge opposé avec vous, utilisant son Score de Test de <i>Social + Volonté</i> contre votre Score de Test de <i>Social + Commandement</i>. Si l’attaquant rate ce challenge, il ne peut pas faire d’autres tentatives contre vous pendant les prochaines 10 minutes. Il devient prisonnier des effets de votre Majesté et continuera à vous traiter avec respect et courtoisie même s'il quitte les lieux. Une fois que 10 minutes se sont écoulées, l’attaquant peut à nouveau tenter de briser votre majesté. Cet effet est aussi appliqué aux pouvoirs qui ne visent pas directement l’utilisateur de Majesté, mais visent l’endroit englobant l’utilisateur de la Majesté. Si un personnage veut enflammer une pièce et que l’un des personnages présents a sa Majesté activée, l’attaquant doit faire un Test contre cette Majesté pour entreprendre son action. <br />Si vous attaquez un individu affecté par votre Majesté ou si vous utilisez un pouvoir contre lui, votre Majesté est immédiatement brisée pour cet individu. Il devient insensible à votre majesté pour l’heure qui suit et vous traitera tel qu’il le ferait normalement, même vous attaquer comme il l’entend. Cette rupture de la Majesté n’affecte qu’un individu en particulier ; les autres personnes présentes affectées par votre Majesté ne sont pas libérés simplement parce qu’ils sont témoins de votre agression envers l’un de leurs amis.<br /> Pendant une scène de combat de masse, si vous utilisez la tactique \"Aider un Défenseur\" pour forcer quelqu'un à vous attaquer plutôt que leur cible, votre Majesté est automatiquement rompue pour cet attaquant, car vous avez agi de manière agressive envers lui. Si vous attaquez un personnage qui est assisté par la tactique \"Aider un Défenseur\", votre Majesté est rompue tant pour la nouvelle cible que la cible d’origine sauf si vous renoncez à votre attaque quand un autre joueur déclare son intention d’utiliser la tactique \"Aider un Défenseur\".Pour plus d’informations, regardez les règles de Combat de Masse."
+    },
+    {
+        "Key": "PRESENCE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+	{
+        "Key": "PRESENCE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Tant que votre Majesté est activée, vous ignorez la Majesté des autres personnages."
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_1_NAME",
+        "Text": "Regard paralysant"
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Bien que votre regard ne puisse pas tuer, il peut certainement faire trembler un ennemi jusqu'au plus profond de lui-même. Vous pouvez implacablement convoquer la nature prédatrice de votre Bête, la concentrant dans un seul regard fugace. Ceux qui sont ciblés deviennent des proies devant vous, trop terrifiés pour même s'enfuir."
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_1_SYSTEM",
+        "Text": "Pour activer le Regard Paralysant, vous devez dépenser 2 points de Sang et votre action standard pour regarder avec intensité votre cible, puis faites un Challenge opposé contre votre adversaire, en utilisant le Score de Test de Présence. En cas de succès, votre cible devient totalement pétrifiée et abjectement terrifiée. Elle ne peut pas parler, bouger, fuir ou entreprendre toute autre action que ce soit.<br />Votre cible reste paralysée tout le temps que vous continuez à dépenser une action simple à chaque round pour garder votre concentration, bien que vous n’ayez pas besoin de regarder votre cible. La paralysie continue jusqu'à ce que vous quittiez la proximité de la cible, qu’elle soit la cible d’une attaque ou jusqu'à ce qu’elle prenne des dégâts. Si la paralysie se brise pour quelque raison que ce soit, la victime souffre des effets de Regard Terrifiant et doit immédiatement fuir votre présence. Pour le reste de la soirée, la cible va vous éviter, comme si vous aviez réussi un succès exceptionnel avec Regard Terrifiant."
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_2_NAME",
+        "Text": "Amour"
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Le sang des Vampires renferme bien des pouvoirs, du commandement des facultés mentales à la formidable force ou la vitesse pure. Mais bien des anciens soutiennent que la capacité de renverser les émotions grâce aux chaînes du lien de sang est le plus insidieux et le plus efficace des pouvoirs. Certainement, ceux qui peuvent évoquer l’obsession du lien sans réellement forcer un autre à boire son sang ont un avantage dans la culture vampirique - un terrible et terrifiant avantage. Ceux qui tombent sous les effets du pouvoir d’une telle créature remueront ciel et terre, trahiront amis et alliés et iront jusqu'à se sacrifier pour le compte de leur bien-aimé.<br />Amour est une chose dangereuse, puisqu'il altère complètement les émotions du sujet et sa personnalité envers le Vampire dominant. Une telle victime est soudainement affectée par un lien de sang niveau trois pendant la prochaine heure.<br />Une fois que Amour s'estompe, le sujet tente de rationaliser les actions qu’il a entreprises sous l’influence de la discipline. Cependant, contrairement à la Transe, un utilisateur de ce pouvoir peut persuader sa cible d’accomplir des tâches dangereuses et atypiques. Si, pendant que la cible est affectée par Amour, elle entreprend des actions anormales ou a agi contre son éthique et ses croyances, elle réalisera certainement immédiatement que ses émotions étaient manipulées par la force.<br />Pour plus d’informations sur les liens de sang, référez vous au Chapitre Sept : Système Dramaturgique."
+    },
+    {
+        "Key": "PRESENCE_ELDER_POWER_2_SYSTEM",
+        "Text": "Pour activer Amour, dépensez 3 points de Sang et votre action standard et faites un Challenge Social opposé contre votre cible en utilisant le Score de Test de Présence. Si vous réussissez, la cible est soudainement affectée par un lien de sang de niveau 3 contre vous pendant l’heure qui suit.<br />Si vous utilisez ce pouvoir contre la même cible deux fois dans une même soirée, réduisez la durée de la deuxième application de Amour de moitié, de sorte qu’elle ne soit que de 30 minutes. Cette pénalité est cumulative. La deuxième fois que vous utilisez Amour sur une cible, la durée est de 30 minutes ; à la troisième utilisation d’Amour contre la cible lors de la même soirée, la durée devient 15 minutes, et ainsi de suite."
+    },
+	{
+        "Key": "PRESENCE_TEST_SCORE",
+        "Text": "Un utilisateur de Présence doit utiliser son Score de Test <i>Social + Commandement</i> contre le Score de Test <i>Social + Volonté</i> de la cible."
+    }
+]

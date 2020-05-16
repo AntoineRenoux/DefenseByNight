@@ -1,0 +1,54 @@
+[
+  {
+    "Key": "GEN_LBL_SITE_NAME",
+    "Text": "Defense By Night"
+  },
+  {
+    "Key": "GEN_LBL_LOG_IN",
+    "Text": "Connexion"
+  },
+  {
+    "Key": "GEN_LBL_LOG_OUT",
+    "Text": "Déconnexion"
+  },
+  {
+    "Key": "GEN_LBL_REGISTRATION",
+    "Text": "Inscription"
+  },
+  {
+    "Key": "GEN_LBL_HOME",
+    "Text": "Accueil"
+  },
+  {
+    "Key": "GEN_LBL_FIRSTNAME",
+    "Text": "Prénom"
+  },
+  {
+    "Key": "GEN_LBL_LASTNAME",
+    "Text": "Nom de famille"
+  },
+  {
+    "Key": "GEN_LBL_EMAIL",
+    "Text": "Adresse mail"
+  },
+  {
+    "Key": "GEN_LBL_PASSWORD",
+    "Text": "Mot de passe"
+  },
+  {
+    "Key": "GEN_LBL_CONFIRM_PASSWORD",
+    "Text": "Confirmation du mot de passe"
+  },
+  {
+    "Key": "GEN_LBL_BIRTHDATE",
+    "Text": "Date de naissance"
+  },
+  {
+    "Key": "GEN_LBL_PSEUDO",
+    "Text": "Pseudo"
+  },
+  {
+    "Key": "GEN_LBL_MOBILE_PHONE",
+    "Text": "Téléphone portable"
+  }
+]

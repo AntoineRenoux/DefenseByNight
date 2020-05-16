@@ -1,0 +1,138 @@
+[
+    {
+        "Key": "MELPOMINEE_NAME",
+        "Text": "Melpominée"
+    },
+    {
+        "Key": "MELPOMINEE_DESCRIPTION",
+        "Text": "La muse Grecque de la tragédie, Melpomene, aurait inspiré la folie et de grandes émotions à travers sa musique. Les sirènes, aussi, utilisent la chanson pour rendre les marins fous, faisant échouer leur navire sur les récifs. Dans les mythes, la musique a un grand pouvoir et la discipline de Melpominée prouve la véracité de ces légendes. Au travers du son et de la chanson, l’utilisateur de cette discipline tord les émotions et agite la folie, affectant les profondeurs même de l’âme d’un auditeur. <br /> Les sujets sourds, ou les sujets autrement incapables d’entendre le Vampire, sont toujours affectés tant que la voix du chanteur atteint leur position naturellement. Les effets de Melpominée ne peuvent pas être enregistrés ou portés par des microphones, porte-voix ou un autre moyen mécanique ou électronique ; de tels enregistrements ne peuvent que dépeindre la performance de la chanson, sans effets surnaturels."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_1_NAME",
+        "Text": "La Voix Manquante"
+    },
+    {
+        "Key": "MELPOMINEE_POWER_1_DESCRIPTION",
+        "Text": "Un utilisateur pratiquant de Melpominée peut altérer sa voix au-delà de la mesure humaine, englobant des octaves à la fois dans et en dehors de la gamme vocale normale. L’utilisateur peut imiter d’autres voix, créer des sons inhabituels et chanter des arias complets avec facilité."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_1_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et une action simple pour modifier votre voix. Avec La Voix Manquante, vous pouvez utiliser tous les sons qu’une voix humaine peut produire (dans n’importe quelle gamme d’octave ou vocale, de la Basse la plus grave au Soprano le plus aigu). Vous pouvez aussi augmenter le volume au-delà de la portée humaine, résonnant sur les autres sons comme un mégaphone vivant. De plus, si vous avez 3 points ou plus dans Performance : Chant, vous pouvez répliquer n’importe quelle voix que vous avez étudiée pendant cinq minutes, quel que soit le genre ou le ton vocal de l’individu.<br /> Notez que La Voix Manquante ne vous fournit pas toute maîtrise des langues étrangères; vous pouvez dupliquer un accent étranger, mais pas comprendre les langages que vous ne comprenez pas déjà."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_1_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MELPOMINEE_POWER_1_FOCUS_DESCRIPTION",
+        "Text": "Votre Voix Manquante est une exception à la règle selon laquelle Melpominée ne peut pas être capturée par des enregistrements ou portée par un moyen électronique ou mécanique. Votre personnage peut utiliser la voix de quelqu'un d’autre via un téléphone ou pour tromper des systèmes de sécurité activés par la voix."
+    },
+	 {
+        "Key": "MELPOMINEE_POWER_2_NAME",
+        "Text": "Voix Fantomatique"
+    },
+    {
+        "Key": "MELPOMINEE_POWER_2_DESCRIPTION",
+        "Text": "Avec de la concentration, vous pouvez faire en sorte d’émettre votre voix d’un lieu différent que le vôtre. Plusieurs utilisateurs de Melpominée utilisent la Voix Fantomatique pour s'harmoniser avec eux-mêmes, réalisant des performances spectaculaires grâce à l’utilisation de ce pouvoir."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_2_SYSTEM",
+        "Text": "En dépensant 1 point de sang et une action simple, vous pouvez faire en sorte que votre voix soit générée de l’air vide. Utiliser ce pouvoir vous permet de faire émaner de n’importe quel lieu dans votre champ de vision ou depuis tous lieux avec lesquels vous êtes familiers. Quand vous utilisez la Voix Fantomatique, vous n’avez pas besoin de bouger vos lèvres ou montrer d’autres signes que vous parlez. Si vous le voulez, vous pouvez permettre à une personne consentante de répondre de la même manière, sa voix émanera doucement juste à portée de votre audition. Un personnage qui a les pouvoirs d’Auspex : Sens Intensifiés et est à trois pas de vous pourra entendre une conversation tenue au travers de la Voix Fantomatique. Vous ne pouvez avoir qu’une seule application de la Voix Fantôme active à chaque moment.Cependant, vous pouvez tenir deux conversations simultanément, une au travers de la Voix Fantomatique et une tenue normalement. Vous ne pouvez pas utiliser de pouvoirs ou d’autres effet surnaturels grâce à la Voix Fantomatique."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_2_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MELPOMINEE_POWER_2_FOCUS_DESCRIPTION",
+        "Text": "Plutôt que d’utiliser Voix Fantôme sur une cible ou lieu que vous pouvez voir, vous pouvez l’utiliser sur tout individu avec lequel vous êtes familier, quelle que soit la distance. Votre voix émane juste derrière la cible, vous permettant de communiquer avec elle. De plus, si vous le souhaitez, vous pouvez autoriser la voix de votre cible à faire écho vers vous."
+    },
+	{
+        "Key": "MELPOMINEE_POWER_3_NAME",
+        "Text": "Madrigal"
+    },
+    {
+        "Key": "MELPOMINEE_POWER_3_DESCRIPTION",
+        "Text": "Les hauteur et profondeur de vos chansons portent de profondes émotions. Avec de magnifiques arias et oraisons, vous montez les autres au sommet de leur passion ; une mélancolie noire coule de vos mélodies de désespoir."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_3_SYSTEM",
+        "Text": "Pour utiliser Madrigal, vous devez dépenser un point de Sang et ensuite chanter pendant au moins trois tours. Tous ceux à portée de voix de ce pouvoir ressentent une intense émotion de votre choix, en relation avec votre performance. Cette émotion est renversante, invoquant une vague de souvenirs, d’images ou d’événements qui ont causé des sentiments similaires dans le passé de l’individu. Les individus affectés par une Madrigal reçoivent un bonus de +2 à leurs Score de Test pour résister aux pouvoirs basés sur les émotions de disciplines autre que Melpominée comme la Transe, Regard Terrifiant ou Passion. <br /> Utiliser ce pouvoir sur un individu qui a un dérangement lui donne 1 trait de Dérangement. Pour plus d’informations sur les dérangements, consultez le Chapitre 5, Atouts et Handicapes. <br />Les effets de Madrigal durent pendant 10 minutes, plus 10 minutes additionnelles pour chaque point que l’utilisateur possède dans la compétence Performance : Chant."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_3_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MELPOMINEE_POWER_3_FOCUS_DESCRIPTION",
+        "Text": "Pour la durée de Madrigal, votre cible reçoit un bonus de +3 (plutôt qu’un +2) à ses Scores de Test pour résister à des pouvoirs non-Melpominée basés sur l’émotion comme Présence."
+    }, 
+	{
+        "Key": "MELPOMINEE_POWER_4_NAME",
+        "Text": "Chant de la Sirène"
+    },
+    {
+        "Key": "MELPOMINEE_POWER_4_DESCRIPTION",
+        "Text": "En faisant appel à la tourmente et les blessures émotionnelles d’un sujet, vous éveillez la folie dans l’âme d’un individu. Le son de votre voix submerge l’esprit d’un auditeur alors que vous brisez sa prise sur la réalité."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_4_SYSTEM",
+        "Text": "Pour appeler le Chant de la Sirène, vous devez dépenser 1 point de Sang et un action standard pour chanter. Choisissez un nombre d’individus à portée d’écoute égal à votre compétence dans Performance : Chant.Ces individus entrent immédiatement dans un état de fugue dissociative, arrêtant toute autre activité pour écouter votre performance.Tant que vous continuez à dépenser votre action standard en chantant chaque round, vos auditeurs resteront captivés par la chanson.Si vous utilisez votre action simple pour marcher, ils vous suivront à un rythme lent, inconscients des événements autour d’eux; ils ne remarqueront pas des violations de la Mascarade ou d’autres évènements généraux.Cependant, si un individu attiré se fait attaquer, est mis en danger(vous ne pouvez pas les mener au dessus d’une fosse ou devant une voiture à toute vitesse) ou est la cible d’un pouvoir offensif, votre Chant de la Sirène se brise immédiatement.<br /> Tous ceux qui veulent résister à votre Chant de la Sirène doivent entreprendre un challenge opposé en utilisant leur Score de Test d’Attribut Social + Volonté contre votre Score de Test de Melpominée.<br /> Utiliser ce pouvoir sur un individu avec un dérangement lui donne 2 traits de Dérangement.Si cela provoque une crise psychotique, cette crise n’aura pas lieu avant que le Chant de la Sirène ne se termine.Pour plus d’informations sur les Dérangements, voir le Chapitre 5: Atouts et Handicaps."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_4_EXCEPTIONALSUCCESS",
+        "Text": ""
+    },
+    {
+        "Key": "MELPOMINEE_POWER_4_FOCUS_DESCRIPTION",
+        "Text": "Les mortels ne comptent pas dans votre nombre maximum de cibles pour le Chant de la Sirène."
+    }, 
+	{
+        "Key": "MELPOMINEE_POWER_5_NAME",
+        "Text": "Mort du Tambour"
+    },
+    {
+        "Key": "MELPOMINEE_POWER_5_DESCRIPTION",
+        "Text": "Le Son peut être une force explosive et mortelle et le pouvoir des harmoniques peut secouer même les matériaux les plus solides. En donnant le ton à votre voix de l’exacte fréquence de la forme physique d’un ennemi, vous pouvez provoquer de sévères blessures à votre cible."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_5_SYSTEM",
+        "Text": "Dépensez 1 point de Sang et dépensez une action standard pour chanter, pousser un hurlement ou évoquer de manière audible la Mort du Tambour. Faites un challenge opposé avec votre adversaire en utilisant les traits de Challenge de Melpominée. En cas de succès, votre victime subit 3 points de dégâts aggravés.<br /> Vous pouvez activer la Mort du Tambour contre une cible de manière répétée ; c’est une exception à la règle qui interdit à un personnage d’utiliser un pouvoir Social contre la même cible après avoir échoué.Si vous échouez à utiliser Mort du Tambour contre votre adversaire, vous pouvez encore essayer contre lui(ou un autre) le tour d’après."
+    },
+    {
+        "Key": "MELPOMINEE_POWER_5_EXCEPTIONALSUCCESS",
+        "Text": "Votre utilisation de la Mort du Tambour inflige 4 points de dégâts aggravés plutôt que 3."
+    },
+	{
+        "Key": "MELPOMINEE_POWER_5_FOCUS_DESCRIPTION",
+        "Text": "Vous pouvez aussi cibler des objets avec la Mort du Tambour. La plupart des objets se briseront après un seul round de chant, mais le Conteur peut demander plusieurs rounds de chant pour briser des matériaux exceptionnellement durs et résistants."
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_1_NAME",
+        "Text": "Crescendo Déchirant"
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_1_DESCRIPTION",
+        "Text": "Votre chant fait partie de la musique mystique des sphères, elle résonne par delà le cosmos avec une intensité incroyable."
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_1_SYSTEM",
+        "Text": "Quand vous invoquez le pouvoir Mort du Tambour, vous pouvez choisir d’infliger un point additionnel de dégât à une cible ou, à la place, affecter trois cibles de votre choix.<br />Quand vous ciblez plusieurs ennemis avec ce pouvoir, vous devez faire séparément un challenge opposé à chaque défenseur. Si vous deviez dépenser un point de Volonté pour un re-test dans l’un des ces challenges opposés, vous gagnez le re-test pour tous les challenges opposés restants sans avoir à dépenser plus de volonté. Si vous dépensez de la Volonté pour re-test après que certains des challenges ont été résolus, vous ne pouvez pas retourner en arrière vers un challenge précédent que vous avez perdu et lui appliquer ce re-test de Volonté rétroactivement."
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_2_NAME",
+        "Text": "Écho Persistant"
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_2_DESCRIPTION",
+        "Text": "Les artistes experts savent que les échos persistants d’une chanson peuvent être aussi puissants que la musique en elle-même, se répétant doucement dans l’esprit de l’auditeur. Avec le pouvoir de l’écho persistant, vous pouvez laisser votre chanson en suspens, attendant qu’elle soit de nouveau ramenée à la vie."
+    },
+    {
+        "Key": "MELPOMINEE_ELDER_POWER_2_SYSTEM",
+        "Text": "Quand vous activez Voie Fantomatique, Madrigal ou Destruction du Tympan, vous pouvez choisir d’avoir les effets de ce pouvoir en décalé, silencieusement suspendu dans l’air à votre position actuelle, jusqu'à être activé plus tard. Vous devez être physiquement présent sur les lieux où vous souhaitez mettre en place l’Écho Persistant au moment de l’activation du pouvoir, mais vous n’avez pas besoin d’être présent quand l’Écho Persistant s'active.<br />En premier lieu, vous devez réunir toutes les conditions du pouvoir que vous souhaitez invoquer. Ensuite, informez le conteur sur les détails qui causent l’activation de ce pouvoir où vous êtes actuellement présent. Des exemples de déclencheurs peuvent inclure, \"Quand quelqu'un d’autre que moi traverse cette pièce\" ou \"Trois jours après que le soleil s'est couché.\" Ce pouvoir reste en suspension via Écho Persistant pour un nombre de nuit égal au nombre de points dans <i>Performance</i> : <i>Chant</i> ou jusqu'à ce qu’il soit déclenché. Vous ne pouvez pas avoir plus d’une application de l’Écho Persistant à un moment donné. En créer un deuxième efface le premier."
+    },
+	{
+        "Key": "MELPOMINEE_TEST_SCORE",
+        "Text": "L'utilisateur de Melpominée utilise son attribut <i>Social + Subterfuge</i> contre l’attribut <i>Social + Volonté.</i>"
+    }
+]
