@@ -15,11 +15,6 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<User, UserDto>();
 
-            CreateMap<Traduction, TraductionDto>();
-            CreateMap<TraductionDto, Traduction>();
-            CreateMap<TraductionDto, TraductionViewModel>();
-            CreateMap<TraductionViewModel, TraductionDto>();
-
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();
 

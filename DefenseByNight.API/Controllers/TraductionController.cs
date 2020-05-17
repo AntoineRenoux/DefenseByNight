@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using DefenseByNight.API.Data.Interfaces;
@@ -17,9 +18,10 @@ namespace DefenseByNight.API.Controllers
     {
         private readonly ITraductionRepository _traductionRepository;
         private readonly IMapper _mapper;
-
-        private const int LCID = 1036;
-
+        private readonly Dictionary<string, int> dictLang = new Dictionary<string, int>{
+           {"en", 2057},
+           {"fr", 1036}
+        };
         public TraductionController(
             ITraductionRepository traductionRepository,
             IMapper mapper
@@ -31,22 +33,14 @@ namespace DefenseByNight.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get(int lcid = LCID)
+        public async Task<IActionResult> Get(string lang = "fr")
         {
-            var tradDto = await _traductionRepository.GetAll(lcid);
+            var trad = await _traductionRepository.GetAll(dictLang.FirstOrDefault(l => l.Key == lang).Value);
 
-            if (tradDto != null)
-                return Ok(_mapper.Map<List<TraductionViewModel>>(tradDto));
+            if (trad != null)
+                return Ok(trad);
 
             return BadRequest("Traductions failed");
-        }
-
-        [HttpGet("translate")]
-        public async Task<IActionResult> Translate(string key)
-        {
-            var modelDto = new TraductionDto() { Key = key, LCID = LCID };
-            var trad = await _traductionRepository.GetTranslate(modelDto);
-            return Ok(_mapper.Map<TraductionViewModel>(trad));
         }
     }
 }

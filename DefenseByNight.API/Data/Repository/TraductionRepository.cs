@@ -20,17 +20,9 @@ namespace DefenseByNight.API.Data.Repository
             _context = context;
         }
 
-        public async Task<List<TraductionDto>> GetAll(int lcid)
+        public async Task<Dictionary<string, string>> GetAll(int lcid)
         {
-            var trad = await _context.Traductions.Where(x => x.LCID == lcid).ToListAsync();
-
-            return _mapper.Map<List<TraductionDto>>(trad);
-        }
-
-        public async Task<TraductionDto> GetTranslate(TraductionDto model)
-        {
-            var trad = await _context.Traductions.FirstOrDefaultAsync(tr => tr.Key == model.Key && tr.LCID == model.LCID);
-            return _mapper.Map<TraductionDto>(trad);
+            return await _context.Traductions.Where(x => x.LCID == lcid).ToDictionaryAsync(k => k.Key, v => v.Text);
         }
     }
 }

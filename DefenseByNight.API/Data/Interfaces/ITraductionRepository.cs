@@ -7,8 +7,6 @@ namespace DefenseByNight.API.Data.Interfaces
 {
     public interface ITraductionRepository
     {
-        Task<List<TraductionDto>> GetAll(int lcid);
-
-         Task<TraductionDto> GetTranslate(TraductionDto model);
+        Task<Dictionary<string, string>> GetAll(int lcid);
     }
 }

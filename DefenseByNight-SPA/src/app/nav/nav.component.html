@@ -1,24 +1,23 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" [routerLink]="['']">GEN_LBL_SITE_NAME</a>
+    <a class="navbar-brand" [routerLink]="['']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
 
     <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/character']">Personnage_proxy</a>
+        <a class="nav-link" [routerLink]="['/character']">{{ 'GEN_LBL_CHARACTER' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/rules']">Règles_proxy</a>
+        <a class="nav-link" [routerLink]="['/rules']">{{ 'GEN_LBL_RULES' | translate }}</a>
       </li>
     </ul>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
       <span dropdown>
-        <a href id="basic-link" dropdownToggle (click)="false" aria-controls="basic-link-dropdown">Welcome
-          {{ authService.decodedToken?.unique_name | titlecase }}</a>
+        <a href id="basic-link" dropdownToggle (click)="false" aria-controls="basic-link-dropdown">{{ authService.decodedToken?.unique_name | titlecase }}</a>
         <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
           aria-labelledby="basic-link">
           <li role="menuitem">
-            <a class="dropdown-item" href (click)="logOut()">GEN_LBL_LOG_OUT</a>
+            <a class="dropdown-item" href (click)="logOut()">{{ 'GEN_LBL_LOG_OUT' | translate }}</a>
           </li>
         </ul>
       </span>
@@ -26,25 +25,25 @@
 
     <div *ngIf="!loggedIn()">
       <span class="mr-2">
-        <a [routerLink]="['/register']">GEN_LBL_REGISTER</a>
+        <a [routerLink]="['/register']">{{ 'GEN_LBL_REGISTRATION' | translate }}</a>
       </span>
-      <form #loginForm="ngForm" (ngSubmit)="login()" style="display: inline;">
+      <form #loginForm="ngForm" (ngSubmit)="login()" class="form-inline">
         <span dropdown>
           <a href id="basic-link-connexion" dropdownToggle (click)="false"
-            aria-controls="basic-link-dropdown-connexion">GEN_LBL_LOG_IN</a>
+            aria-controls="basic-link-dropdown-connexion">{{ 'GEN_LBL_LOG_IN' | translate }}</a>
           <ul id="basic-link-dropdown-connexion" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
             aria-labelledby="basic-link-connexion">
             <li class="ml-2 mr-2 mb-2" role="menuitem">
-              <input name="userName" type="text" class="form-control" placeholder="Username_proxy" aria-label="Username"
+              <input name="userName" type="text" class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate }}" aria-label="Username"
                 [(ngModel)]="model.userName" />
             </li>
             <li class="ml-2 mr-2" role="menuitem">
-              <input name="password" type="password" class="form-control" placeholder="Password_proxy"
+              <input name="password" type="password" class="form-control" placeholder="{{'GEN_LBL_PASSWORD' | translate }}"
                 aria-label="Password" [(ngModel)]="model.password" />
             </li>
             <li class="divider dropdown-divider"></li>
             <li role="menuitem" class="text-center">
-              <button class="btn btn-primary" type="submit">Connexion_proxy</button>
+              <button class="btn btn-primary" type="submit">{{ 'GEN_LBL_LOG_IN' | translate }}</button>
             </li>
           </ul>
         </span>

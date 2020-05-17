@@ -22,7 +22,8 @@ namespace DefenseByNight.API.Data.Seeds
                 var traductions = new List<Traduction>();
                 var allTraductionFiles = new string[]
                     {
-                        "Data/Seeds/Traductions/Site_fr.json",
+                        "Data/Seeds/Traductions/NavBar_fr.json",
+                        "Data/Seeds/Traductions/ConnexionRegistration_fr.json",
                         "Data/Seeds/Traductions/Roles_fr.json",
                         "Data/Seeds/Traductions/Affilifation_fr.json",
                         "Data/Seeds/Traductions/Focus_fr.json",
