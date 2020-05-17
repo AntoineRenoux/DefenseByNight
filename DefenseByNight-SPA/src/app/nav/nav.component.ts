@@ -20,7 +20,6 @@ export class NavComponent implements OnInit {
   }
 
   login() {
-    debugger;
     this.authService.login(this.model).subscribe(next => {
      this.toaster.success('Connecté_proxy');
     }, error => {

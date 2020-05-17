@@ -12,33 +12,43 @@
     </ul>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
-      <a class="dropdown-toggle text-light" dropdownToggle>
-        Welcome {{ authService.decodedToken?.unique_name | titlecase }}
-      </a>
-
-      <div class="dropdown-menu mt-3" *dropdownMenu>
-        <a class="dropdown-item" (click)="logOut()"><i class="fa fa-sign-out mr-1"></i>GEN_LBL_LOG_OUT</a>
-      </div>
-    </div>
-
-    <form *ngIf="!loggedIn()" class="form-inline my-2 my-lg-0" #loginForm="ngForm" (ngSubmit)="login()">
-      <div class="btn-group" dropdown [autoClose]="false">
-        <button id="button-connexion" dropdownToggle type="button" class="btn btn-secondary dropdown-toggle" aria-controls="dropdown-basic">GEN_LBL_LOG_IN<span class="caret"></span></button>
-        <button type="button" class="btn btn-secondary">GEN_LBL_REGISTER</button>
-        <ul id="dropdown-connexion" *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-connexion">
-          <li class="ml-2 mr-2 mb-2" role="menuitem">
-            <input type="text" class="form-control" placeholder="Username_proxy" aria-label="Username"/>
-          </li>
-          <li class="ml-2 mr-2" role="menuitem">
-            <input type="password" class="form-control" placeholder="Password_proxy" aria-label="Password"/>
-          </li>
-          <li class="divider dropdown-divider"></li>
-          <li role="menuitem" class="text-center">
-            <button class="btn btn-primary" type="submit">Connexion_proxy</button>
+      <span dropdown>
+        <a href id="basic-link" dropdownToggle (click)="false" aria-controls="basic-link-dropdown">Welcome
+          {{ authService.decodedToken?.unique_name | titlecase }}</a>
+        <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
+          aria-labelledby="basic-link">
+          <li role="menuitem">
+            <a class="dropdown-item" href (click)="logOut()">GEN_LBL_LOG_OUT</a>
           </li>
         </ul>
-      </div>
-    </form>
+      </span>
+    </div>
 
+    <div *ngIf="!loggedIn()">
+      <span class="mr-2">
+        <a [routerLink]="['/register']">GEN_LBL_REGISTER</a>
+      </span>
+      <form #loginForm="ngForm" (ngSubmit)="login()" style="display: inline;">
+        <span dropdown>
+          <a href id="basic-link-connexion" dropdownToggle (click)="false"
+            aria-controls="basic-link-dropdown-connexion">GEN_LBL_LOG_IN</a>
+          <ul id="basic-link-dropdown-connexion" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
+            aria-labelledby="basic-link-connexion">
+            <li class="ml-2 mr-2 mb-2" role="menuitem">
+              <input name="userName" type="text" class="form-control" placeholder="Username_proxy" aria-label="Username"
+                [(ngModel)]="model.userName" />
+            </li>
+            <li class="ml-2 mr-2" role="menuitem">
+              <input name="password" type="password" class="form-control" placeholder="Password_proxy"
+                aria-label="Password" [(ngModel)]="model.password" />
+            </li>
+            <li class="divider dropdown-divider"></li>
+            <li role="menuitem" class="text-center">
+              <button class="btn btn-primary" type="submit">Connexion_proxy</button>
+            </li>
+          </ul>
+        </span>
+      </form>
+    </div>
   </div>
 </nav>
