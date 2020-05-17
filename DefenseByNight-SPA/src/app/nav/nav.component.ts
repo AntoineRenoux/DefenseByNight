@@ -22,9 +22,13 @@ export class NavComponent implements OnInit {
 
   login() {
     this.authService.login(this.model).subscribe(next => {
-     this.toaster.success('Connecté_proxy');
+      this.translate.get('GEN_LBL_CONNECTED').subscribe((res: string) => {
+        this.toaster.success(res);
+      });
     }, error => {
-      this.toaster.error('Non authorisé_proxy');
+      this.translate.get('ERR_NOT_ALLOWED').subscribe((res: string) => {
+        this.toaster.info(res);
+      });
     });
   }
 
@@ -37,7 +41,9 @@ export class NavComponent implements OnInit {
     localStorage.removeItem('user');
     this.authService.decodedToken = null;
     this.authService.currentUser = null;
-    this.toaster.info('Déconnecté_proxy');
+    this.translate.get('GEN_LBL_DISCONNECT').subscribe((res: string) => {
+      this.toaster.success(res);
+    });
     this.router.navigate(['']);
   }
 }

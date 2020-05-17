@@ -28,7 +28,7 @@
         <a [routerLink]="['/register']">{{ 'GEN_LBL_REGISTRATION' | translate }}</a>
       </span>
       <form #loginForm="ngForm" (ngSubmit)="login()" class="form-inline">
-        <span dropdown>
+        <span dropdown [autoClose]="false">
           <a href id="basic-link-connexion" dropdownToggle (click)="false"
             aria-controls="basic-link-dropdown-connexion">{{ 'GEN_LBL_LOG_IN' | translate }}</a>
           <ul id="basic-link-dropdown-connexion" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"

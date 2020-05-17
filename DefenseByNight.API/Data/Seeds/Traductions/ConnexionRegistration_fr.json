@@ -30,5 +30,17 @@
   {
     "Key": "GEN_LBL_MOBILE_PHONE",
     "Text": "Téléphone portable"
+  },
+  {
+    "Key": "GEN_LBL_CONNECTED",
+    "Text": "Connecté"
+  },
+  {
+    "Key": "GEN_LBL_DISCONNECT",
+    "Text": "Déconnecté"
+  },
+  {
+    "Key": "ERR_NOT_ALLOWED",
+    "Text": "You shall not pass !"
   }
 ]

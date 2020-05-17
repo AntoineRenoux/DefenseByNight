@@ -63,7 +63,11 @@ export function HttpLoaderFactory(langService: LanguageService) {
          },
       }),
       RouterModule.forRoot(appRoutes),
-      ToastrModule.forRoot(),
+      ToastrModule.forRoot({
+         timeOut: 10000,
+         positionClass: 'toast-bottom-right',
+         preventDuplicates: true,
+      }),
       TranslateModule.forRoot({
          loader: {provide: TranslateLoader, useFactory: HttpLoaderFactory, deps: [LanguageService]},
          defaultLanguage: 'fr'
