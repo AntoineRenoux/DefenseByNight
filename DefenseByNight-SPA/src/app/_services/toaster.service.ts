@@ -6,26 +6,22 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class ToasterService {
 
-  private taostParameter = {
-    positionClass: 'toast-bottom-right'
-  };
-
   constructor(private toaster: ToastrService) { }
 
   success(message: string) {
-    this.toaster.success(message, null, this.taostParameter);
+    this.toaster.success(message);
   }
 
-  warning(message: string){
-    this.toaster.warning(message, null, this.taostParameter);
+  warning(message: string) {
+    this.toaster.warning(message);
   }
 
-  error(message: string){
-    this.toaster.error(message, null, this.taostParameter);
+  error(message: string) {
+    this.toaster.error(message);
   }
 
-  info(message: string){
-    this.toaster.info(message, null, this.taostParameter);
+  info(message: string) {
+    this.toaster.info(message);
   }
   
 }

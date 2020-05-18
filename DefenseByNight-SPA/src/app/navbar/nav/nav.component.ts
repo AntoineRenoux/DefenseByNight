@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
-import { AuthService } from '../_services/auth.service';
-import { UserLogin } from '../_models/userLogin';
-import { ToasterService } from '../_services/toaster.service';
+import { AuthService } from '../../_services/auth.service';
+import { UserLogin } from '../../_models/userLogin';
+import { ToasterService } from '../../_services/toaster.service';
 
 @Component({
   selector: 'app-nav',

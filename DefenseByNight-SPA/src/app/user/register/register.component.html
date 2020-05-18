@@ -1,0 +1,92 @@
+<div class="container">
+  <form [formGroup]="registerForm" (ngSubmit)='register()' autocomplete="off">
+
+      <h2 class="text-center text-primary">{{'GEN_LBL_REGISTRATION' | translate}}</h2>
+
+      <hr>
+
+      <div class="form-group">
+          <input type="text"
+              formControlName="firstname"
+              [ngClass]="{'is-invalid': registerForm.get('firstname').errors && registerForm.get('firstname').touched}"
+              class="form-control" placeholder="{{'GEN_LBL_FIRSTNAME' | translate}}">
+          <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
+      </div>
+
+      <div class="form-group">
+          <input type="text" 
+              formControlName="lastname"
+              [ngClass]="{'is-invalid': registerForm.get('lastname').errors && registerForm.get('lastname').touched}"
+              class="form-control" 
+              placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
+          <div class="invalid-feedback">{{'ERR_LASTNAME_REQUIRED' | translate}}</div>
+      </div>
+
+      <div class="form-group">
+          <input type="text" 
+             formControlName="username"
+             [ngClass]="{'is-invalid': registerForm.get('username').errors && registerForm.get('username').touched}"
+             class="form-control" 
+             placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
+          <div class="invalid-feedback">{{'ERR_USERNAME_REQUIRED' | translate}}</div>
+      </div>
+
+      <div class="form-group">
+          <input type="text"
+                 formControlName="dateOfBirth"
+                 [ngClass]="{'is-invalid': registerForm.get('dateOfBirth').errors && registerForm.get('dateOfBirth').touched}"
+                 placeholder="{{'GEN_LBL_BIRTHDATE' | translate}}"
+                 class="form-control"
+                 bsDatepicker
+                 [bsConfig]="bsConfig" >
+        </div>
+
+      <div class="form-group">
+          <input type="email" 
+             formControlName="email"
+             [ngClass]="{'is-invalid': registerForm.get('email').errors && registerForm.get('email').touched}"
+             class="form-control" 
+             placeholder="{{'GEN_LBL_EMAIL' | translate}}">
+             <div class="invalid-feedback">{{'ERR_EMAIL_REQUIRED' | translate}}</div>
+      </div>
+
+      <div class="form-group">
+          <input type="tel" 
+             formControlName="phonenumber"
+             [ngClass]="{'is-invalid': registerForm.get('phonenumber').errors && registerForm.get('phonenumber').touched}"
+             class="form-control" 
+             placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}">
+          <div class="invalid-feedback">{{'ERR_PHONENUMBER_REQUIRED' | translate}}</div>
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+          <input type="password" 
+             formControlName="password"
+             [ngClass]="{'is-invalid': registerForm.get('password').errors && registerForm.get('password').touched}"
+             class="form-control"
+             placeholder="{{'GEN_LBL_PASSWORD' | translate}}">
+          <div class="invalid-feedback" *ngIf="registerForm.get('password').hasError('required') && registerForm.get('password').touched">{{'ERR_PASSWORD_REQUIRED' | translate}}</div>
+          <div class="invalid-feedback" *ngIf="registerForm.get('password').hasError('minlength') && registerForm.get('password').touched">{{'ERR_PASSWORD_MINLENGTH' | translate}}</div>
+      </div>
+
+      <div class="form-group">
+          <input type="password" 
+             formControlName="confirmPassword"
+             [ngClass]="{'is-invalid': (registerForm.get('confirmPassword').errors && registerForm.get('confirmPassword').touched)
+                 || (registerForm.get('confirmPassword').touched
+                 && registerForm.hasError('mismatch'))}"
+             class="form-control" 
+             placeholder="{{'GEN_LBL_CONFIRM_PASSWORD' | translate}}">
+          <div class="invalid-feedback" *ngIf="registerForm.get('confirmPassword').errors && registerForm.get('confirmPassword').touched">{{'ERR_CONFIRMPASSWORD_REQUIRED' | translate}}</div>
+          <div class="invalid-feedback" *ngIf="registerForm.hasError('mismatch') && registerForm.get('confirmPassword').touched">{{'ERR_CONFIRMPASSWORD_MATCH' | translate}}</div>
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block">{{'GEN_LBL_CREATE_ACCOUNT' | translate}}</button>
+      </div>
+  </form>
+</div>
