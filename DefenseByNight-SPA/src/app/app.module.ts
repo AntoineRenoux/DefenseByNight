@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { JwtModule } from '@auth0/angular-jwt';
@@ -54,6 +54,7 @@ export function HttpLoaderFactory(langService: LanguageService) {
       TooltipModule.forRoot(),
       HttpClientModule,
       BrowserAnimationsModule,
+      ReactiveFormsModule,
       BsDropdownModule.forRoot(),
       JwtModule.forRoot({
          config: {

@@ -40,7 +40,47 @@
     "Text": "Déconnecté"
   },
   {
+    "Key": "GEN_LBL_CREATE_ACCOUNT",
+    "Text": "Création du compte"
+  },
+  {
     "Key": "ERR_NOT_ALLOWED",
     "Text": "You shall not pass !"
+  },
+  {
+    "Key": "ERR_FIRSTNAME_REQUIRED",
+    "Text": "Le prénom est obligatoire !"
+  },
+  {
+    "Key": "ERR_LASTNAME_REQUIRED",
+    "Text": "Le nom de famille est obligatoire !"
+  },
+  {
+    "Key": "ERR_USERNAME_REQUIRED",
+    "Text": "Le pseudo est obligatoire !"
+  },
+  {
+    "Key": "ERR_EMAIL_REQUIRED",
+    "Text": "L'email est obligatoire !"
+  },
+  {
+    "Key": "ERR_PHONENUMBER_REQUIRED",
+    "Text": "Un numéro de portable est obligatoire !"
+  },
+  {
+    "Key": "ERR_PASSWORD_REQUIRED",
+    "Text": "Un mot de passe est obligatoire !"
+  },
+  {
+    "Key": "ERR_PASSWORD_MINLENGTH",
+    "Text": "Un mot de passe doit contenir au moins 8 caractères !"
+  },
+  {
+    "Key": "ERR_CONFIRMPASSWORD_REQUIRED",
+    "Text": "Vous devez resaisir votre mot de passe !"
+  },
+  {
+    "Key": "ERR_CONFIRMPASSWORD_MATCH",
+    "Text": "Les mots de passe doivent correspondre !"
   }
 ]

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { AuthService } from '../_services/auth.service';
 import { UserLogin } from '../_models/userLogin';
@@ -15,7 +15,7 @@ export class NavComponent implements OnInit {
   model = new UserLogin();
 
   // tslint:disable-next-line: max-line-length
-  constructor(public authService: AuthService, private toaster: ToasterService, private router: Router, private translate: TranslateService) {}
+  constructor(public authService: AuthService, private toaster: ToasterService, private router: Router, private translate: TranslateService) { }
 
   ngOnInit(): void {
   }
