@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 
 const appRoutes: Routes = [
     {
-        path: 'register',
+        path: 'user',
         loadChildren: () => import('./user/user.module').then(m => m.UserModule)
     },
     {

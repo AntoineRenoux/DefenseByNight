@@ -3,13 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 
+export const defaultLanguage: any = 'fr';
+
 @Injectable({
   providedIn: 'root'
 })
 export class LanguageService {
 
   private allLanguages = ['en', 'fr'];
-  private currentLang = 'fr';
+  private currentLang = defaultLanguage;
   private baseUrl = environment.apiUrl + 'traduction';
 
   constructor(private http: HttpClient) { }

@@ -3,19 +3,17 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
-
 import { HttpClientModule } from '@angular/common/http';
 import { JwtModule } from '@auth0/angular-jwt';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { TranslateLoader } from '@ngx-translate/core';
+import { Observable } from 'rxjs';
+import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
-
-import { ToastrModule } from 'ngx-toastr';
 import { NavComponent } from './navbar/nav/nav.component';
-import { LanguageService } from './_services/language.service';
-import { Observable, from } from 'rxjs';
+import { LanguageService, defaultLanguage } from './_services/language.service';
 import { AppRoutingModule } from './app-routing.module';
 
 export function tokenGetter() {
@@ -65,7 +63,7 @@ export function HttpLoaderFactory(langService: LanguageService) {
       }),
       TranslateModule.forRoot({
          loader: { provide: TranslateLoader, useFactory: HttpLoaderFactory, deps: [LanguageService] },
-         defaultLanguage: 'fr'
+         defaultLanguage
      })
    ],
    bootstrap: [
