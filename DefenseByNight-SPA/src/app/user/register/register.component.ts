@@ -23,9 +23,9 @@ export class RegisterComponent implements OnInit {
 
   // tslint:disable-next-line: max-line-length
   constructor(private toaster: ToasterService, private translate: TranslateService,
-    private authService: AuthService, private fb: FormBuilder,
-    private langService: LanguageService, private localeService: BsLocaleService,
-    private routerService: Router) { }
+              private authService: AuthService, private fb: FormBuilder,
+              private langService: LanguageService, private localeService: BsLocaleService,
+              private routerService: Router) { }
 
   ngOnInit() {
     this.createRegisterForm();
@@ -43,11 +43,19 @@ export class RegisterComponent implements OnInit {
       phonenumber: ['', Validators.required],
       password: ['', [Validators.required, Validators.minLength(8)]],
       confirmPassword: ['', Validators.required],
-    }, { validators: this.passwordMatchValidator });
+    }, { validators: [this.passwordMatchValidator, this.userMustBeMajor] });
   }
 
   passwordMatchValidator(g: FormGroup) {
     return g.get('password').value === g.get('confirmPassword').value ? null : { mismatch: true };
+  }
+
+  userMustBeMajor(g: FormGroup) {
+    if (g.get('dateOfBirth').value != null) {
+      const timeDiff = Math.abs(Date.now() - g.get('dateOfBirth').value);
+      const age = Math.floor((timeDiff / (1000 * 3600 * 24)) / 365.25);
+      return age >= 18 ? null : { underage : true };
+    }
   }
 
   register() {
@@ -67,8 +75,8 @@ export class RegisterComponent implements OnInit {
         this.routerService.navigate(['user/connexion']);
         this.toaster.success(res);
       });
-    }, (err: string) => {
-      this.translate.get(err).subscribe((res: string) => {
+    }, (error) => {
+      this.translate.get(error.error).subscribe((res: string) => {
         this.toaster.error(res);
       });
     });

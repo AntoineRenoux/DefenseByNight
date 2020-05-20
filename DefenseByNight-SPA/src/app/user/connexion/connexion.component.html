@@ -9,17 +9,21 @@
         <form #loginForm="ngForm" (ngSubmit)="login()" class="form">
 
           <div class="form-group">
-            <input name="userName" type="text" class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate }}"
-              aria-label="Username" [(ngModel)]="model.userName" />
+            <input  name="userName" 
+                    type="text" 
+                    class="form-control" 
+                    placeholder="{{'GEN_LBL_PSEUDO' | translate }}"
+                    aria-label="Username" [(ngModel)]="model.userName" required/>
+            <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
           </div>
           <div class="form-group">
-            <input name="password" type="password" class="form-control"
+            <input name="password" type="password" class="form-control" required
               placeholder="{{'GEN_LBL_PASSWORD' | translate }}" aria-label="Password" [(ngModel)]="model.password" />
           </div>
 
           <hr>
 
-          <button class="btn btn-primary col-md-12" type="submit">{{ 'GEN_LBL_LOG_IN' | translate }}</button>
+          <button class="btn btn-primary col-md-12" type="submit" [disabled]="!loginForm.valid">{{ 'GEN_LBL_LOG_IN' | translate }}</button>
 
         </form>
 

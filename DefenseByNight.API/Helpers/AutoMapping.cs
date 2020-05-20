@@ -16,7 +16,20 @@ namespace DefenseByNight.API.Helpers
             CreateMap<User, UserRegisterDto>();
             CreateMap<UserRegisterDto, User>();
 
+            CreateMap<UserForRegisterViewModel, UserDto>();
+            CreateMap<UserDto, UserForRegisterViewModel>();
+            
+            CreateMap<UserDto, UserRegisterDto>();
+            CreateMap<UserRegisterDto, UserDto>();
+
+            CreateMap<UserForLoginViewModel, UserLoginDto>();
+            CreateMap<UserLoginDto, UserForLoginViewModel>();
+
+            CreateMap<User, UserLoginDto>();
+            CreateMap<UserLoginDto, User>();
+
             CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
 
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();

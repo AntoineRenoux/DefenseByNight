@@ -20,14 +20,14 @@ export class ConnexionComponent implements OnInit {
   }
 
   login() {
-    this.authService.login(this.model).subscribe(next => {
+    this.authService.login(this.model).subscribe((next) => {
       this.router.navigate(['dashboard/home']);
       this.translate.get('SUCCESS_CONNECTED').subscribe((res: string) => {
         this.toaster.success(res);
       });
     }, error => {
-      this.translate.get('ERR_NOT_ALLOWED').subscribe((res: string) => {
-        this.toaster.info(res);
+      this.translate.get('ERR_USERNAME_PASSWORD_DONT_EXISTS').subscribe((res: string) => {
+        this.toaster.error(res);
       });
     });
   }

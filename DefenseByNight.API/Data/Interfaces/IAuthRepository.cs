@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using DefenseByNight.API.Dtos;
 
@@ -5,8 +6,11 @@ namespace DefenseByNight.API.Data.Interfaces
 {
     public interface IAuthRepository
     {
-         Task<UserRegisterDto> RegisterAsync(UserRegisterDto newUser);
-         Task<bool> UserExists(UserRegisterDto newUser);
-         Task<bool> EmailExists(UserRegisterDto newUser);
+         Task<UserDto> RegisterAsync(UserRegisterDto newUser);
+         Task<UserDto> UserExists(UserDto userDto);
+         Task<UserDto> EmailExists(UserDto userDto);
+
+         Task<UserDto> LoginAsync(UserLoginDto newUser);
+         Task<IList<string>> GetRolesAsync(UserDto userDto);
     }
 }

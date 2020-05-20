@@ -81,11 +81,23 @@
   },
   {
     "Key": "ERR_USERNAME_EXISTS",
-    "Text": "Ce nom d'utilisateur est déjà utilisé."
+    "Text": "Ce nom d'utilisateur est déjà pris."
   },
   {
     "Key": "ERR_EMAIL_EXISTS",
     "Text": "Cet email est déjà utilisé."
+  },
+  {
+    "Key": "ERR_USERNAME_PASSWORD_DONT_EXISTS",
+    "Text": "Cette combinaison de utilisateur/mot de passe n'existe pas."
+  }
+  ,{
+    "Key": "ERR_MAJORITY_REQUIRED",
+    "Text": "Vous devez être majeur pour venir jouer avec nous :("
+  },
+  {
+    "Key": "ERR_BIRTHDATE_REQUIRED",
+    "Text": "Vous devez être renseigner votre date de naissance."
   },
   {
     "Key": "SUCCESS_CONNECTED",

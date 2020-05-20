@@ -31,9 +31,13 @@
 
                     <div class="form-group">
                         <input type="text" formControlName="dateOfBirth"
-                            [ngClass]="{'is-invalid': registerForm.get('dateOfBirth').errors && registerForm.get('dateOfBirth').touched, 'is-valid': registerForm.get('dateOfBirth').valid}"
+                            [ngClass]="{'is-invalid': registerForm.get('dateOfBirth').errors && 
+                                registerForm.get('dateOfBirth').touched || 
+                                registerForm.hasError('underage'), 'is-valid': registerForm.get('dateOfBirth').valid && !registerForm.hasError('underage')}"
                             placeholder="{{'GEN_LBL_BIRTHDATE' | translate}}" class="form-control" bsDatepicker
                             [bsConfig]="bsConfig">
+                        <div class="invalid-feedback" *ngIf="registerForm.get('dateOfBirth').errors && registerForm.get('dateOfBirth').touched">{{'ERR_BIRTHDATE_REQUIRED' | translate}}</div>
+                        <div class="invalid-feedback" *ngIf="registerForm.hasError('underage') && registerForm.get('dateOfBirth').touched" >{{'ERR_MAJORITY_REQUIRED' | translate}}</div>
                     </div>
 
                     <div class="form-group">
@@ -65,7 +69,8 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="password" formControlName="confirmPassword" [ngClass]="{'is-invalid': (registerForm.get('confirmPassword').errors && registerForm.get('confirmPassword').touched)
+                        <input type="password" formControlName="confirmPassword"
+                            [ngClass]="{'is-invalid': (registerForm.get('confirmPassword').errors && registerForm.get('confirmPassword').touched)
                  || (registerForm.get('confirmPassword').touched
                  && registerForm.hasError('mismatch')), 'is-valid': registerForm.get('confirmPassword').valid && !registerForm.hasError('mismatch')}" class="form-control"
                             placeholder="{{'GEN_LBL_CONFIRM_PASSWORD' | translate}}">

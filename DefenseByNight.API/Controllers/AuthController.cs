@@ -1,10 +1,8 @@
 using System.Threading.Tasks;
 using AutoMapper;
-using DefenseByNight.API.Data.Identities;
 using DefenseByNight.API.Dtos;
 using DefenseByNight.API.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
@@ -24,54 +22,60 @@ namespace DefenseByNight.API.Controllers
     {
         private readonly IAuthRepository _authRepository;
         private readonly IMapper _mapper;
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
         private readonly IConfiguration _config;
 
-        public AuthController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration config, IAuthRepository authRepository)
+        public AuthController(IMapper mapper, IAuthRepository authRepository, IConfiguration config)
         {
-            _config = config;
-            _signInManager = signInManager;
-            _userManager = userManager;
             _mapper = mapper;
             _authRepository = authRepository;
+            _config = config;
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(UserForLoginViewModel userForLoginViewModel)
+        public async Task<IActionResult> LoginAsync(UserForLoginViewModel userForLoginViewModel)
         {
-            var user = await _userManager.FindByNameAsync(userForLoginViewModel.UserName);
+            var userDto = _mapper.Map<UserLoginDto>(userForLoginViewModel);
+            var user = await _authRepository.LoginAsync(userDto);
 
-            if (user != null)
+            if (user == null)
+                return Unauthorized();
+
+            else
             {
-                var result = await _signInManager.CheckPasswordSignInAsync(user, userForLoginViewModel.Password, true);
-
-                if (result.Succeeded)
+                var appUser = _mapper.Map<UserDto>(user);
+                return Ok(new
                 {
-                    var appUser = _mapper.Map<UserDto>(user);
-                    return Ok(new
-                    {
-                        token = GenerateJwtToken(user).Result,
-                        appUser
-                    });
-                }
-
+                    token = GenerateJwtToken(appUser).Result,
+                    appUser
+                });
             }
 
-            return Unauthorized();
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserForRegisterViewModel userForRegisterViewModel)
+        public async Task<IActionResult> RegisterAsync(UserForRegisterViewModel userForRegisterViewModel)
         {
+            var userDto = _mapper.Map<UserDto>(userForRegisterViewModel);
             var userToRegisterDto = _mapper.Map<UserRegisterDto>(userForRegisterViewModel);
 
-            if(await _authRepository.UserExists(userToRegisterDto)){
-                return BadRequest("ERR_USERNAME_EXISTS");
+            var today = DateTime.Today;
+            var age = today.Year - userForRegisterViewModel.BirthDate.Year;
+            if(userForRegisterViewModel.BirthDate > today.AddYears(-age))
+                age--;
+
+            if (await _authRepository.UserExists(userDto) != null)
+            {
+                return Unauthorized("ERR_USERNAME_EXISTS");
             }
 
-            if(await _authRepository.EmailExists(userToRegisterDto)){
-                return BadRequest("ERR_EMAIL_EXISTS");
+            if (await _authRepository.EmailExists(userDto) != null)
+            {
+                return Unauthorized("ERR_EMAIL_EXISTS");
+            }
+
+            if (age < 18)
+            {
+                return Unauthorized("ERR_MAJORITY_REQUIRED");
             }
 
             var result = await _authRepository.RegisterAsync(userToRegisterDto);
@@ -80,7 +84,7 @@ namespace DefenseByNight.API.Controllers
         }
 
         #region Private
-        private async Task<string> GenerateJwtToken(User user)
+        private async Task<string> GenerateJwtToken(UserDto user)
         {
             var claims = new List<Claim>
             {
@@ -88,7 +92,7 @@ namespace DefenseByNight.API.Controllers
                 new Claim(ClaimTypes.Name, user.UserName)
             };
 
-            var roles = await _userManager.GetRolesAsync(user);
+            var roles = await _authRepository.GetRolesAsync(user);
 
             foreach (var role in roles)
             {
