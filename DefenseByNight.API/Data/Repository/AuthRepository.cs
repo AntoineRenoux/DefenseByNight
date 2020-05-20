@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
@@ -37,6 +38,8 @@ namespace DefenseByNight.API.Data.Repository
 
                 if (result.Succeeded)
                 {
+                    user.LastActive = DateTime.Now;
+                    await _context.SaveChangesAsync();
                     return _mapper.Map<UserDto>(user);
                 }
                 else {

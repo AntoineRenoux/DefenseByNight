@@ -38,7 +38,7 @@ namespace DefenseByNight.API.Controllers
             var user = await _authRepository.LoginAsync(userDto);
 
             if (user == null)
-                return Unauthorized();
+                return Unauthorized("ERR_USERNAME_PASSWORD_DONT_EXISTS");
 
             else
             {

@@ -26,7 +26,7 @@ export class ConnexionComponent implements OnInit {
         this.toaster.success(res);
       });
     }, error => {
-      this.translate.get('ERR_USERNAME_PASSWORD_DONT_EXISTS').subscribe((res: string) => {
+      this.translate.get(error.error).subscribe((res: string) => {
         this.toaster.error(res);
       });
     });
