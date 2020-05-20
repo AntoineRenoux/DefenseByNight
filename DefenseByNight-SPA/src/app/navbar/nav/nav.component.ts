@@ -12,24 +12,11 @@ import { ToasterService } from '../../_services/toaster.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  model = new UserLogin();
 
   // tslint:disable-next-line: max-line-length
   constructor(public authService: AuthService, private toaster: ToasterService, private router: Router, private translate: TranslateService) { }
 
   ngOnInit(): void {
-  }
-
-  login() {
-    this.authService.login(this.model).subscribe(next => {
-      this.translate.get('GEN_LBL_CONNECTED').subscribe((res: string) => {
-        this.toaster.success(res);
-      });
-    }, error => {
-      this.translate.get('ERR_NOT_ALLOWED').subscribe((res: string) => {
-        this.toaster.info(res);
-      });
-    });
   }
 
   loggedIn() {

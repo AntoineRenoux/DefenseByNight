@@ -4,13 +4,17 @@ import { CommonModule } from '@angular/common';
 
 const appRoutes: Routes = [
     {
+        path: 'dashboard',
+        loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
+    },
+    {
         path: 'user',
         loadChildren: () => import('./user/user.module').then(m => m.UserModule)
     },
     {
         path: '',
         pathMatch: 'full',
-        loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule)
+        redirectTo: 'dashboard/anonyme'
     }
 ];
 

@@ -19,7 +19,7 @@ export class AuthGuard implements CanActivate {
     this.translate.get('ERR_NOT_ALLOWED').subscribe((res: string) => {
       this.toaster.error(res);
     });
-    this.router.navigate(['/home']);
+    this.router.navigate(['dashboard/anonyme']);
     return false;
   }
 
