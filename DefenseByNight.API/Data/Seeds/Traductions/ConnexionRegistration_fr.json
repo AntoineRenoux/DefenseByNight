@@ -32,10 +32,6 @@
     "Text": "Téléphone portable"
   },
   {
-    "Key": "GEN_LBL_CONNECTED",
-    "Text": "Connecté"
-  },
-  {
     "Key": "GEN_LBL_DISCONNECT",
     "Text": "Déconnecté"
   },
@@ -82,5 +78,21 @@
   {
     "Key": "ERR_CONFIRMPASSWORD_MATCH",
     "Text": "Les mots de passe doivent correspondre !"
+  },
+  {
+    "Key": "ERR_USERNAME_EXISTS",
+    "Text": "Ce nom d'utilisateur est déjà utilisé."
+  },
+  {
+    "Key": "ERR_EMAIL_EXISTS",
+    "Text": "Cet email est déjà utilisé."
+  },
+  {
+    "Key": "SUCCESS_CONNECTED",
+    "Text": "Connection réussie !"
+  },
+  {
+    "Key": "SUCCESS_CREATION_ACCOUNT",
+    "Text": "Votre compte a été crée :)"
   }
 ]

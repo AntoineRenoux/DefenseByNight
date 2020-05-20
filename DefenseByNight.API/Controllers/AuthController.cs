@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Collections.Generic;
+using DefenseByNight.API.Data.Interfaces;
 
 namespace DefenseByNight.API.Controllers
 {
@@ -21,17 +22,19 @@ namespace DefenseByNight.API.Controllers
     [AllowAnonymous]
     public class AuthController : ControllerBase
     {
+        private readonly IAuthRepository _authRepository;
         private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly IConfiguration _config;
 
-        public AuthController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration config)
+        public AuthController(IMapper mapper, UserManager<User> userManager, SignInManager<User> signInManager, IConfiguration config, IAuthRepository authRepository)
         {
             _config = config;
             _signInManager = signInManager;
             _userManager = userManager;
             _mapper = mapper;
+            _authRepository = authRepository;
         }
 
         [HttpPost("login")]
@@ -61,20 +64,19 @@ namespace DefenseByNight.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterViewModel userForRegisterViewModel)
         {
-            var userToRegister = _mapper.Map<User>(userForRegisterViewModel);
+            var userToRegisterDto = _mapper.Map<UserRegisterDto>(userForRegisterViewModel);
 
-            userToRegister.CreatedDate = DateTime.Now;
-            userToRegister.LastActive = null;
-
-            var result = await _userManager.CreateAsync(userToRegister, userForRegisterViewModel.Password);
-
-            if (result.Succeeded)
-            {
-                var userToReturn = _mapper.Map<UserForRegisterViewModel>(userToRegister);
-
-                return Ok(userToReturn);
+            if(await _authRepository.UserExists(userToRegisterDto)){
+                return BadRequest("ERR_USERNAME_EXISTS");
             }
-            return BadRequest(result.Errors);
+
+            if(await _authRepository.EmailExists(userToRegisterDto)){
+                return BadRequest("ERR_EMAIL_EXISTS");
+            }
+
+            var result = await _authRepository.RegisterAsync(userToRegisterDto);
+
+            return Ok(result);
         }
 
         #region Private

@@ -7,6 +7,7 @@ import { map } from 'rxjs/operators';
 
 import { UserLogin } from '../_models/userLogin';
 import { User } from '../_models/user';
+import { UserRegister } from '../_models/userRegister';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -41,7 +42,7 @@ export class AuthService {
       );
   }
 
-  register(user: User) {
+  register(user: UserRegister) {
     return this.http.post(this.baseUrl + 'register', user);
   }
 

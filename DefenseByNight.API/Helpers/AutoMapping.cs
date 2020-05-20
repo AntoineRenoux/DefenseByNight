@@ -10,8 +10,11 @@ namespace DefenseByNight.API.Helpers
     {
         public AutoMapping()
         {
-            CreateMap<UserForRegisterViewModel, User>();
-            CreateMap<User, UserForRegisterViewModel>();
+            CreateMap<UserForRegisterViewModel, UserRegisterDto>();
+            CreateMap<UserRegisterDto, UserForRegisterViewModel>();
+
+            CreateMap<User, UserRegisterDto>();
+            CreateMap<UserRegisterDto, User>();
 
             CreateMap<User, UserDto>();
 
@@ -20,7 +23,7 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<Power, PowerDto>();
             CreateMap<PowerDto, Power>();
-            
+
             CreateMap<Discipline, DisciplineDto>();
             CreateMap<DisciplineDto, Discipline>();
         }

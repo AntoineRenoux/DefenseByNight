@@ -28,9 +28,9 @@ export class NavComponent implements OnInit {
     localStorage.removeItem('user');
     this.authService.decodedToken = null;
     this.authService.currentUser = null;
+    this.router.navigate(['user/anonyme']);
     this.translate.get('GEN_LBL_DISCONNECT').subscribe((res: string) => {
       this.toaster.success(res);
     });
-    this.router.navigate(['']);
   }
 }
