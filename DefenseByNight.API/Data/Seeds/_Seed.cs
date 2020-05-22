@@ -9,6 +9,8 @@ using Newtonsoft.Json;
 using Tools.Enum;
 using DefenseByNight.API.Helpers.Enums.Disciplines;
 using DefenseByNight.API.Helpers.Enums.Clans;
+using Microsoft.Extensions.Options;
+using DefenseByNight.API.Helpers;
 
 namespace DefenseByNight.API.Data.Seeds
 {
@@ -114,10 +116,25 @@ namespace DefenseByNight.API.Data.Seeds
                     user.CreatedDate = DateTime.Now;
                     userManager.CreateAsync(user, "password").Wait();
                     if (user.UserName.ToLower() == "batman")
-                        userManager.AddToRolesAsync(user, new List<string> {EnumRoles.ADMIN, EnumRoles.MEMBER}).Wait();
+                        userManager.AddToRolesAsync(user, new List<string> { EnumRoles.ADMIN, EnumRoles.MEMBER }).Wait();
                     else
                         userManager.AddToRoleAsync(user, EnumRoles.MEMBER).Wait();
                 }
+            }
+        }
+
+        public static void SeedPhotos(DataContext context)
+        {
+            if (!context.Photos.Any())
+            {
+                context.Photos.Add(new Photo
+                {
+                    PublicId = "default-user-icon_rw8f4j",
+                    Url = "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1590170970/default-user-icon_rw8f4j.jpg",
+                    DateAdded = DateTime.Now
+                });
+
+                context.SaveChanges();
             }
         }
 

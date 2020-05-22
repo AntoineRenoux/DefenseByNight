@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using DefenseByNight.API.Data.Entities;
 using Microsoft.AspNetCore.Identity;
 
 namespace DefenseByNight.API.Data.Identities
@@ -20,5 +21,6 @@ namespace DefenseByNight.API.Data.Identities
         public DateTime CreatedDate { get; set; }
         public DateTime? LastActive { get; set; }
         public virtual ICollection<UserRole> UserRole { get; set; }
+        public Photo Photo { get; set; }
     }
 }

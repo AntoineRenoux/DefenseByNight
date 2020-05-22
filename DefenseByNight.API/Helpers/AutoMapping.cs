@@ -39,6 +39,18 @@ namespace DefenseByNight.API.Helpers
             CreateMap<UserDto, UserViewModel>();
             #endregion
 
+            #region Photo
+            CreateMap<Photo, PhotoDto>();
+            CreateMap<PhotoDto, Photo>();
+
+            CreateMap<PhotoForCreationViewModel, PhotoDto>();
+            CreateMap<PhotoDto, PhotoForCreationViewModel>();
+
+            CreateMap<PhotoViewModel, PhotoDto>();
+            CreateMap<PhotoDto, PhotoViewModel>();
+            
+            #endregion
+
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();
 
@@ -48,8 +60,7 @@ namespace DefenseByNight.API.Helpers
             CreateMap<Discipline, DisciplineDto>();
             CreateMap<DisciplineDto, Discipline>();
 
-            CreateMap<Photo, PhotoDto>();
-            CreateMap<PhotoDto, Photo>();
+
         }
     }
 }

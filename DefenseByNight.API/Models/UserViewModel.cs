@@ -42,5 +42,7 @@ namespace DefenseByNight.API.Models
         [Required]
         [DataType(DataType.Date)]
         public DateTime LastActive { get; set; }
+
+        public PhotoViewModel Photo { get; set; }
     }
 }

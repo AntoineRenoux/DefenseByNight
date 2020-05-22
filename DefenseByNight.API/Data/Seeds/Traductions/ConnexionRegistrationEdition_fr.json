@@ -140,6 +140,10 @@
     "Text": "Vous devez être renseigner votre date de naissance."
   },
   {
+    "Key": "ERR_ADDING_PHOTO",
+    "Text": "Erreur lors de l'ajout de la photo."
+  },
+  {
     "Key": "SUCCESS_CONNECTED",
     "Text": "Connexion réussie !"
   },

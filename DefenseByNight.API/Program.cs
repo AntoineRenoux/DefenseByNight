@@ -35,6 +35,7 @@ namespace DefenseByNight.API
                     Seed.SeedAttributs(context);
                     Seed.SeedAtout(context);
                     Seed.SeedFlaws(context);
+                    Seed.SeedPhotos(context);
                 }
                 catch (Exception ex)
                 {

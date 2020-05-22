@@ -15,7 +15,7 @@ namespace DefenseByNight.API.Dtos
         public DateTime BirthDate { get; set; }
         public string PhoneNumber { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime LastActive { get; set; }
-        public string PhotoUrl { get; set; }
+        public DateTime? LastActive { get; set; }
+        public PhotoDto Photo { get; set; }
     }
 }

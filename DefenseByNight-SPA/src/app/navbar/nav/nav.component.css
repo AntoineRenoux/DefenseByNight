@@ -1,12 +1,21 @@
-.dropdown-toggle, .dropdown-item, nav a {
-    cursor: pointer;
+.dropdown-toggle,
+.dropdown-item,
+nav a {
+  cursor: pointer;
 }
 
 nav span > a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 form {
-    display: inline;
+  display: inline;
+}
+
+img.nav-bar {
+  border-radius: 100%;
+  max-height: 30px;
+  min-width: 30px;
+  margin-right: 10px;
 }

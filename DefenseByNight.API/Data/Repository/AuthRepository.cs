@@ -18,14 +18,17 @@ namespace DefenseByNight.API.Data.Repository
         private readonly IMapper _mapper;
         private readonly IConfiguration _config;
         private readonly SignInManager<User> _signInManager;
+        private readonly IUserRepository _userRepository;
 
-        public AuthRepository(UserManager<User> userManager, IMapper mapper, DataContext context, IConfiguration config, SignInManager<User> signInManager)
+        public AuthRepository(UserManager<User> userManager, IMapper mapper
+        , DataContext context, IConfiguration config, SignInManager<User> signInManager, IUserRepository userRepository)
         {
             _userManager = userManager;
             _mapper = mapper;
             _context = context;
             _config = config;
             _signInManager = signInManager;
+            _userRepository = userRepository;
         }
 
         public async Task<UserDto> LoginAsync(UserLoginDto newUser) 
@@ -40,7 +43,7 @@ namespace DefenseByNight.API.Data.Repository
                 {
                     user.LastActive = DateTime.Now;
                     await _context.SaveChangesAsync();
-                    return _mapper.Map<UserDto>(user);
+                    return await _userRepository.GetUserAsync(user.Id);
                 }
                 else {
                     return null;

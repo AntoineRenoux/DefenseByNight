@@ -13,14 +13,14 @@ import { HttpLoaderFactory } from '../app.module';
 import { AccountComponent } from './account/account.component';
 
 import { FontAwesomeModule, FaIconLibrary  } from '@fortawesome/angular-fontawesome';
-import { faAddressCard, faAt, faMobileAlt, faBirthdayCake, faWifi } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faAt, faMobileAlt, faBirthdayCake, faWifi, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 @NgModule({
     declarations: [
         RegisterComponent,
         ConnexionComponent,
-        AccountComponent
+        AccountComponent,
     ],
     imports: [
         CommonModule,
@@ -44,5 +44,6 @@ export class UserModule {
         library.addIcons(faMobileAlt);
         library.addIcons(faBirthdayCake);
         library.addIcons(faWifi);
+        library.addIcons(faUserCircle);
     }
 }
