@@ -10,6 +10,7 @@ namespace DefenseByNight.API.Helpers
     {
         public AutoMapping()
         {
+            #region User
             CreateMap<UserForRegisterViewModel, UserRegisterDto>();
             CreateMap<UserRegisterDto, UserForRegisterViewModel>();
 
@@ -18,9 +19,15 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<UserForRegisterViewModel, UserDto>();
             CreateMap<UserDto, UserForRegisterViewModel>();
-            
+
             CreateMap<UserDto, UserRegisterDto>();
             CreateMap<UserRegisterDto, UserDto>();
+
+            CreateMap<UserViewModel, UserDto>();
+            CreateMap<UserDto, UserViewModel>();
+
+            CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
 
             CreateMap<UserForLoginViewModel, UserLoginDto>();
             CreateMap<UserLoginDto, UserForLoginViewModel>();
@@ -28,8 +35,9 @@ namespace DefenseByNight.API.Helpers
             CreateMap<User, UserLoginDto>();
             CreateMap<UserLoginDto, User>();
 
-            CreateMap<User, UserDto>();
-            CreateMap<UserDto, User>();
+            CreateMap<UserViewModel, UserDto>();
+            CreateMap<UserDto, UserViewModel>();
+            #endregion
 
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();
@@ -39,6 +47,9 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<Discipline, DisciplineDto>();
             CreateMap<DisciplineDto, Discipline>();
+
+            CreateMap<Photo, PhotoDto>();
+            CreateMap<PhotoDto, Photo>();
         }
     }
 }

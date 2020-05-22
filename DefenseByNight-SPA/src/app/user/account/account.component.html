@@ -1,0 +1,190 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card">
+        <img class="card-img-top"
+          src="https://media.melty.fr/article-4142830-facebook-f10/the-batman-video-robert-pattinson-costume.jpg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{'GEN_LBL_ID' | translate}}</h5>
+          <hr>
+          <div class="form-group row">
+            <div class="col-sm-2">
+              <fa-icon icon="address-card"></fa-icon>
+            </div>
+            <div class="col-sm-10">
+              <p class="card-text">{{userService.currentUser.firstName}} {{userService.currentUser.lastName}} -
+                {{userService.currentUser.userName}}</p>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-2">
+              <fa-icon icon="at"></fa-icon>
+            </div>
+            <div class="col-sm-10">
+              <p class="card-text">{{userService.currentUser.email}}</p>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-2">
+              <fa-icon icon="mobile-alt"></fa-icon>
+            </div>
+            <div class="col-sm-10">
+              <p class="card-text">{{userService.currentUser.phoneNumber}}</p>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-2">
+              <fa-icon icon="birthday-cake"></fa-icon>
+            </div>
+            <div class="col-sm-10">
+              <p class="card-text">{{userService.currentUser.birthDate | date:'longDate'}}</p>
+            </div>
+          </div>
+          <hr>
+          <div class="form-group row">
+            <div class="col-sm-2">
+              <fa-icon icon="wifi"></fa-icon>
+            </div>
+            <div class="col-sm-10">
+              <p class="card-text">{{userService.currentUser.createdDate | date:'longDate'}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-9">
+      <tabset>
+        <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_GENERAL_INFORMATIONS' | translate}}">
+          <div class="card">
+            <div class="card-body">
+
+              <form [formGroup]="editionForm" (ngSubmit)="updateUser()">
+
+                <div class="form-group row">
+                  <label for="username" class="col-sm-2 col-form-label">{{'GEN_LBL_PSEUDO' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text" formControlName="username"
+                      [ngClass]="{'is-invalid': editionForm.get('username').errors && editionForm.get('username').dirty, 'is-valid': editionForm.get('username').valid && editionForm.get('username').dirty}"
+                      class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
+                    <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="firstname" class="col-sm-2 col-form-label">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text" formControlName="firstname"
+                      [ngClass]="{'is-invalid': editionForm.get('firstname').errors && editionForm.get('firstname').dirty, 'is-valid': editionForm.get('firstname').valid && editionForm.get('firstname').dirty}"
+                      class="form-control" placeholder="{{'GEN_LBL_FIRSTNAME' | translate}}">
+                    <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="lastname" class="col-sm-2 col-form-label">{{'GEN_LBL_LASTNAME' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text" formControlName="lastname"
+                      [ngClass]="{'is-invalid': editionForm.get('lastname').errors && editionForm.get('lastname').dirty, 'is-valid': editionForm.get('lastname').valid && editionForm.get('lastname').dirty}"
+                      class="form-control" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
+                    <div class="invalid-feedback">{{'ERR_LASTNAME_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="form-group row">
+                  <label for="dateOfBirth" class="col-sm-4 col-form-label">{{'GEN_LBL_BIRTHDATE' | translate}}</label>
+                  <div class="col-sm-8">
+                    <input type="text" formControlName="dateOfBirth" placeholder="{{'GEN_LBL_BIRTHDATE' | translate}}"
+                      [ngClass]="{'is-invalid': editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty 
+                                  || editionForm.hasError('underage'), 'is-valid': editionForm.get('dateOfBirth').valid && !editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty}"
+                      class="form-control" bsDatepicker [bsConfig]="bsConfig">
+                      <div class="invalid-feedback" *ngIf="editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty">{{'ERR_BIRTHDATE_REQUIRED' | translate}}</div>
+                      <div class="invalid-feedback" *ngIf="editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty" >{{'ERR_MAJORITY_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_ADDRESS' | translate}}</label>
+                  <div class="col-sm-5">
+                    <input type="text"
+                      [ngClass]="{'is-invalid': editionForm.get('address').errors && editionForm.get('address').dirty}"
+                      formControlName="address"
+                      placeholder="{{'GEN_LBL_ADDRESS' | translate}}"
+                      class="form-control">
+                  </div>
+
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_ZIPCODE' | translate}}</label>
+                  <div class="col-sm-3">
+                    <input type="text"
+                      [ngClass]="{'is-invalid': editionForm.get('zipcode').errors && editionForm.get('zipcode').dirty}"
+                      formControlName="zipcode"
+                      placeholder="{{'GEN_LBL_ZIPCODE' | translate}}"
+                      class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_CITY' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text"
+                      [ngClass]="{'is-invalid': editionForm.get('city').errors && editionForm.get('city').dirty}"
+                      formControlName="city"
+                      placeholder="{{'GEN_LBL_CITY' | translate}}"
+                      class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_EMAIL' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text"
+                      [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
+                      formControlName="email"
+                      placeholder="{{'GEN_LBL_EMAIL' | translate}}"
+                      class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="tel" 
+                      formControlName="phonenumber"
+                      [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
+                      placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}"
+                      class="form-control">
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="float-right">
+                      <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty' class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger" (click)="rollbackEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </tab>
+        <tab heading="{{'GEN_LBL_EDITION_HEALTH' | translate}}">
+        </tab>
+        <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_PHOTO' | translate}}">
+
+        </tab>
+        <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_SECURITY' | translate}}">
+
+        </tab>
+      </tabset>
+    </div>
+  </div>
+</div>

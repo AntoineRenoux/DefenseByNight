@@ -9,6 +9,10 @@
         <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
           aria-labelledby="basic-link">
           <li role="menuitem">
+            <a class="dropdown-item" [routerLink]="['user/account']" routerLinkActive="router-link-active" >{{ 'GEN_LBL_ACCOUNT' | translate }}</a>
+          </li>
+          <li class="divider dropdown-divider"></li>
+          <li role="menuitem">
             <a class="dropdown-item" href (click)="logOut()">{{ 'GEN_LBL_LOG_OUT' | translate }}</a>
           </li>
         </ul>

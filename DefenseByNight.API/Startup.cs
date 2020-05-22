@@ -5,6 +5,7 @@ using DefenseByNight.API.Data;
 using DefenseByNight.API.Data.Identities;
 using DefenseByNight.API.Data.Interfaces;
 using DefenseByNight.API.Data.Repository;
+using DefenseByNight.API.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -87,9 +88,12 @@ namespace DefenseByNight.API
 
             services.AddAutoMapper(typeof(Startup));
 
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
+
             services.AddScoped<ITraductionRepository, TraductionRepository>();
             services.AddScoped<IDisciplineRepository, DisciplineRepository>();
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -6,8 +6,8 @@ import { environment } from 'src/environments/environment';
 import { map } from 'rxjs/operators';
 
 import { UserLogin } from '../_models/userLogin';
-import { User } from '../_models/user';
 import { UserRegister } from '../_models/userRegister';
+import { UserService } from './user.service';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -20,12 +20,17 @@ const httpOptions = {
 
 export class AuthService {
 
+  private admin = 'ADMIN';
+  private member = 'MEMBER';
+  private ca = 'CA';
+  private orga = 'ORGA';
+  private player = 'PLAYER';
+
   baseUrl = environment.apiUrl + 'auth/';
   jwtHelper = new JwtHelperService();
   decodedToken: any;
-  currentUser: User;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private userService: UserService) { }
 
   login(model: UserLogin) {
     return this.http.post(this.baseUrl + 'login', model, httpOptions)
@@ -36,10 +41,30 @@ export class AuthService {
             localStorage.setItem('token', user.token);
             localStorage.setItem('user', JSON.stringify(user.appUser));
             this.decodedToken = this.jwtHelper.decodeToken(user.token);
-            this.currentUser = user.appUser;
+            this.userService.currentUser = user.appUser;
           }
         })
       );
+  }
+
+  isAdmin(): boolean {
+    return this.decodedToken.role.includes(this.admin);
+  }
+
+  isMember(): boolean {
+    return this.decodedToken.role.includes(this.member);
+  }
+
+  isCa(): boolean {
+    return this.decodedToken.role.includes(this.ca);
+  }
+
+  isOrga(): boolean {
+    return this.decodedToken.role.includes(this.orga);
+  }
+
+  isPlayer(): boolean {
+    return this.decodedToken.role.includes(this.player);
   }
 
   register(user: UserRegister) {

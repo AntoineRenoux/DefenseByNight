@@ -9,6 +9,8 @@ namespace DefenseByNight.API.Data
     {
         public DataContext(DbContextOptions options) : base(options) { }
 
+        public DbSet<Photo> Photos { get; set; }
+
         public DbSet<Traduction> Traductions { get; set; }
 
         public DbSet<Affiliate> Affiliates { get; set; }

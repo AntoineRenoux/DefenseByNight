@@ -4,23 +4,29 @@
         "Lastname": "Wayne",
         "Username": "Batman",
         "Email": "bruce.wayne@gmail.com",
-        "PhoneNumber": "46468484384",
-        "BirthDate": "1939-03-30"
+        "PhoneNumber": "0123456789",
+        "BirthDate": "1939-03-30",
+        "City": "Gotham City",
+        "Address": "1007 Mountain Drive",
+        "ZipCode": "46597"
     },
     {
         "Firstname": "Clark",
         "Lastname": "Kent",
         "Username": "Superman",
         "Email": "clark.kent@gmail.com",
-        "PhoneNumber": "46468484384",
-        "BirthDate": "1938-01-01"
+        "PhoneNumber": "9876543210",
+        "BirthDate": "1938-01-01",
+        "City": "Metropolis",
+        "Address": "344 Clinton Street, Appartement 3B",
+        "ZipCode": "46598"
     },
     {
         "Firstname": "Diane",
         "Lastname": "Prince",
         "Username": "Wonder Woman",
         "Email": "Diane.Prince@gmail.com",
-        "PhoneNumber": "46468484384",
+        "PhoneNumber": "0123456789",
         "BirthDate": "1941-01-12"
     }
 ]

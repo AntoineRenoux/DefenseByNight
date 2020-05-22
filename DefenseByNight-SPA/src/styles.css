@@ -2,9 +2,12 @@
 
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import '../node_modules/bootswatch/dist/cosmo/bootstrap.min.css';
-@import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import '../node_modules/ngx-toastr/toastr.css';
 
 .container {
     height: 100%;
+}
+
+.fix-center {
+    padding-bottom: 5em;
 }

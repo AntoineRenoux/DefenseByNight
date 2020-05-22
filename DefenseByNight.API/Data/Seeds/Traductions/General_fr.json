@@ -1,0 +1,19 @@
+[
+    {
+        "Key": "GEN_LBL_SAVE",
+        "Text": "Sauvegarder"
+    },
+    {
+        "Key": "GEN_LBL_CANCEL",
+        "Text": "Annuler"
+    },
+	{
+		"Key": "SUCCESS_SAVE",
+		"Text": "Sauvegarde réussie"
+	}
+	,
+    {
+        "Key": "ERR_USER_DOESNT_EXISTS",
+        "Text": "L'utilsateur n'existe pas"
+    }
+]

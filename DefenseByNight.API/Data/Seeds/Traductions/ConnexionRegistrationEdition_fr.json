@@ -40,6 +40,46 @@
     "Text": "Création du compte"
   },
   {
+    "Key": "GEN_LBL_EDITION_ACCOUNT",
+    "Text": "Edition du compte"
+  },
+  {
+    "Key": "GEN_LBL_EDITION_ACCOUNT_GENERAL_INFORMATIONS",
+    "Text": "Informations générales"
+  },
+  {
+    "Key": "GEN_LBL_EDITION_ACCOUNT_PHOTO",
+    "Text": "Photos"
+  },
+  {
+    "Key": "GEN_LBL_EDITION_ACCOUNT_SECURITY",
+    "Text": "Sécurité"
+  },
+  {
+    "Key": "GEN_LBL_EDITION_HEALTH",
+    "Text": "Santé"
+  },
+  {
+    "Key": "GEN_LBL_ID",
+    "Text": "Carte d'identité"
+  },
+  {
+    "Key": "GEN_LBL_CITY",
+    "Text": "Ville"
+  },
+  {
+    "Key": "GEN_LBL_ADDRESS",
+    "Text": "Addresse"
+  },
+  {
+    "Key": "GEN_LBL_ZIPCODE",
+    "Text": "Code postal"
+  },
+  {
+	"Key": "GEN_LBL_PHOTO",
+    "Text": "Photo"
+  },
+  {
     "Key": "ERR_NOT_ALLOWED",
     "Text": "You shall not pass !"
   },
@@ -101,7 +141,7 @@
   },
   {
     "Key": "SUCCESS_CONNECTED",
-    "Text": "Connection réussie !"
+    "Text": "Connexion réussie !"
   },
   {
     "Key": "SUCCESS_CREATION_ACCOUNT",

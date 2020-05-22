@@ -64,7 +64,7 @@ export function HttpLoaderFactory(langService: LanguageService) {
       TranslateModule.forRoot({
          loader: { provide: TranslateLoader, useFactory: HttpLoaderFactory, deps: [LanguageService] },
          defaultLanguage
-     })
+     }),
    ],
    bootstrap: [
       AppComponent

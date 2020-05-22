@@ -1,15 +1,18 @@
 import { Photo } from './photo';
 
 export class User {
-    id: number;
-    username: string;
+    id: string;
+    userName: string;
     firstName: string;
     lastName: string;
     email: string;
     phoneNumber: string;
     birthDate: Date;
-    created: Date;
+    createdDate: Date;
     lastActive: Date;
     photoUrl: string;
+    address: string;
+    city: string;
+    zipcode: string;
     photos?: Photo[];
 }

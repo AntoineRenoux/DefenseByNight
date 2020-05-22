@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/_services/auth.service';
-import { ToastrService } from 'ngx-toastr';
+import { ToasterService } from '../../_services/toaster.service';
 import { TranslateService } from '@ngx-translate/core';
 import { UserLogin } from 'src/app/_models/userLogin';
 import { Router } from '@angular/router';
@@ -14,7 +14,7 @@ export class ConnexionComponent implements OnInit {
   model = new UserLogin();
 
   // tslint:disable-next-line: max-line-length
-  constructor(private authService: AuthService, private toaster: ToastrService, private translate: TranslateService, private router: Router) { }
+  constructor(private authService: AuthService, private toaster: ToasterService, private translate: TranslateService, private router: Router) { }
 
   ngOnInit() {
   }

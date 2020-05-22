@@ -20,6 +20,10 @@
     "Text": "Accueil"
   },
   {
+    "Key": "GEN_LBL_ACCOUNT",
+    "Text": "Mon compte"
+  },
+  {
     "Key": "GEN_LBL_CHARACTER",
     "Text": "Personnage"
   },
