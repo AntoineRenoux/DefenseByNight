@@ -20,7 +20,6 @@ export class AccountComponent implements OnInit {
   editionForm: FormGroup;
 
   bsConfig: Partial<BsDatepickerConfig>;
-  bsValue = this.userService.currentUser.birthDate;
   locales = listLocales();
 
   constructor(public userService: UserService,
@@ -85,14 +84,12 @@ export class AccountComponent implements OnInit {
     user.address = this.editionForm.get('address').value;
     user.zipcode = this.editionForm.get('zipcode').value;
 
-    debugger;
-
-    // this.userService.editUser(user).subscribe(() => {
-    //   this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
-    //     this.toaster.success(res);
-    //   }, () => {}, () => {
-    //     this.createEditionForm();
-    //   });
-    // });
+    this.userService.editUser(user).subscribe(() => {
+      this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
+        this.toaster.success(res);
+      }, () => {}, () => {
+        this.createEditionForm();
+      });
+    });
   }
 }

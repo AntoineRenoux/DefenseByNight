@@ -52,7 +52,7 @@ namespace DefenseByNight.API.Data.Repository
                 user.City = userDto.City;
                 user.Address = userDto.Address;
                 user.ZipCode = userDto.Zipcode;
-                user.BirthDate = user.BirthDate;
+                user.BirthDate = userDto.BirthDate;
 
                 await _userManager.SetEmailAsync(user, userDto.Email);
                 await _userManager.SetPhoneNumberAsync(user, userDto.PhoneNumber);
@@ -60,7 +60,7 @@ namespace DefenseByNight.API.Data.Repository
 
                 await _context.SaveChangesAsync();
 
-                return _mapper.Map<UserDto>(user);
+                return await GetUserAsync(userDto.Id);
             }
 
             return null;
