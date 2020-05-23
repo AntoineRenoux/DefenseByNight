@@ -10,6 +10,7 @@ import { UserService } from 'src/app/_services/user.service';
 import { LanguageService } from 'src/app/_services/language.service';
 import { User } from 'src/app/_models/user';
 import { ToasterService } from 'src/app/_services/toaster.service';
+import { Photo } from 'src/app/_models/photo';
 
 @Component({
   selector: 'app-account',
@@ -52,8 +53,22 @@ export class AccountComponent implements OnInit {
       queueLimit: 1,
       maxFileSize: 10 * 1021 * 1024
     });
-            
+
     this.uploader.onAfterAddingFile = (file) => { file.withCredentials = false; };
+
+    this.uploader.onSuccessItem = (item, response, status, headers) => {
+      if (response) {
+        const res: Photo = JSON.parse(response);
+        const photo = {
+          id: res.id,
+          url: res.url,
+          dateAdded: res.dateAdded,
+          description: res.description
+        };
+
+        this.userService.currentUser.photo = photo;
+      }
+    };
   }
 
   public fileOverBase(e: any): void {

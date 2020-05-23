@@ -176,65 +176,61 @@
           <div class="card">
             <div class="card-body">
 
-              <div class="row mb-2">
-                <div class="col-sm-12 drop-col">
-                  <div ng2FileDrop [ngClass]="{'nv-file-over': hasBaseDropZoneOver}" (fileOver)="fileOverBase($event)"
-                    [uploader]="uploader" class="card bg-faded h-100 text-center">
-                    <p class="mx-atuo my-auto">
-                      {{'GEN_LBL_DROP_HERE' | translate}}
-                      <fa-icon icon="cloud-upload-alt"></fa-icon>
-                    </p>
-                  </div>
+              <div class="col-sm-12 drop-col">
+                <div ng2FileDrop [ngClass]="{'nv-file-over': hasBaseDropZoneOver}" (fileOver)="fileOverBase($event)"
+                  [uploader]="uploader" class="card bg-faded h-100 text-center">
+                  <p class="mx-atuo my-auto">
+                    {{'GEN_LBL_DROP_HERE' | translate}}
+                    <fa-icon icon="cloud-upload-alt"></fa-icon>
+                  </p>
                 </div>
               </div>
-
-              <div class="row">
+              
+              <div class="row mb-3 mt-3">
                 <div class="col-sm-12 text-center">
                   --- {{'GEN_LBL_OR' | translate}} ---
                 </div>
               </div>
 
-              <div class="row mb-2">
-                <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-12 text-center">
                   <input type="file" ng2FileSelect [uploader]="uploader" />
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-sm-12">
-
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th width="50%">{{'GEN_LBL_FILE_NAME' | translate}}</th>
-                        <th>{{'GEN_LBL_FILE_SIZE' | translate}}</th>
-                        <th>{{'GEN_LBL_FILE_PROGRESS' | translate}}</th>
-                        <th>{{'GEN_LBL_ACTION' | translate}}</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr *ngFor="let item of uploader.queue">
-                        <td><strong style="overflow-wrap: break-word;">{{ item?.file?.name }}</strong></td>
-                        <td *ngIf="uploader.options.isHTML5" nowrap>{{ item?.file?.size/1024/1024 | number:'.2' }} MB</td>
-                        <td *ngIf="uploader.options.isHTML5">
-                          <div class="progress" style="margin-bottom: 0;">
-                            <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': item.progress + '%' }">
-                            </div>
+              <div class="row mt-3">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th width="50%">{{'GEN_LBL_FILE_NAME' | translate}}</th>
+                      <th>{{'GEN_LBL_FILE_SIZE' | translate}}</th>
+                      <th>{{'GEN_LBL_FILE_PROGRESS' | translate}}</th>
+                      <th>{{'GEN_LBL_ACTION' | translate}}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let item of uploader.queue">
+                      <td><strong style="overflow-wrap: break-word;">{{ item?.file?.name }}</strong></td>
+                      <td *ngIf="uploader.options.isHTML5" nowrap>{{ item?.file?.size/1024/1024 | number:'.2' }} MB</td>
+                      <td *ngIf="uploader.options.isHTML5">
+                        <div class="progress" style="margin-bottom: 0;">
+                          <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': item.progress + '%' }">
                           </div>
-                        </td>
-                        <td nowrap>
-                          <button type="button" class="btn btn-success btn-xs" (click)="item.upload()"
-                            [disabled]="item.isReady || item.isUploading || item.isSuccess">
-                            <span class="glyphicon glyphicon-upload"></span> {{'GEN_LBL_SAVE' | translate}}
-                          </button>
-                          <button type="button" class="btn btn-danger btn-xs" (click)="item.remove()">
-                            <fa-icon icon="trash"></fa-icon>
-                          </button>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                        </div>
+                      </td>
+                      <td nowrap>
+                        <button type="button" class="btn btn-success btn-xs" (click)="item.upload()"
+                          [disabled]="item.isReady || item.isUploading || item.isSuccess">
+                          <span class="glyphicon glyphicon-upload"></span> {{'GEN_LBL_SAVE' | translate}}
+                        </button>
+                        <button type="button" class="btn btn-danger btn-xs" (click)="item.remove()">
+                          <fa-icon icon="trash"></fa-icon>
+                        </button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
               </div>
 
             </div>

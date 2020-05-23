@@ -144,6 +144,18 @@
     "Text": "Erreur lors de l'ajout de la photo."
   },
   {
+    "Key": "ERR_DELETE_PHOTO_DONT_EXIST",
+    "Text": "Vous n'avez pas de photo."
+  },
+  {
+    "Key": "ERR_DELETE_PHOTO_DEFAULT",
+    "Text": "Vous ne pouvez pas supprimer la photo par défaut."
+  },
+  {
+    "Key": "ERR_DELETE_PHOTO_GENRAL",
+    "Text": "La suppression de cette photo a échoué"
+  },
+  {
     "Key": "SUCCESS_CONNECTED",
     "Text": "Connexion réussie !"
   },

@@ -19,9 +19,10 @@ namespace DefenseByNight.API.Controllers
         private readonly IMapper _mapper;
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         private readonly IPhotoRepository _photoReposity;
+        private readonly IUserRepository _userRepository;
         private Cloudinary _cloudinary;
 
-        public PhotoController(IMapper mapper, IOptions<CloudinarySettings> cloudinaryConfig, IPhotoRepository photoReposity)
+        public PhotoController(IMapper mapper, IOptions<CloudinarySettings> cloudinaryConfig, IPhotoRepository photoReposity, IUserRepository userRepository)
         {
             _cloudinaryConfig = cloudinaryConfig;
             _mapper = mapper;
@@ -34,6 +35,7 @@ namespace DefenseByNight.API.Controllers
             );
 
             _cloudinary = new Cloudinary(account);
+            _userRepository = userRepository;
         }
 
         [HttpGet("photoId", Name = "GetPhoto")]
@@ -46,10 +48,16 @@ namespace DefenseByNight.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddPhotoForUser(string userId, [FromForm]PhotoForCreationViewModel photoModel)
+        public async Task<IActionResult> AddPhotoForUser(string userId, [FromForm] PhotoForCreationViewModel photoModel)
         {
             if (userId != User.FindFirst(ClaimTypes.NameIdentifier).Value)
                 return Unauthorized();
+
+            
+            var currentUser = await _userRepository.GetUserAsync(userId);
+
+            if (currentUser.Photo != null && currentUser.Photo.Id != 1)
+                await DeletePhotoAsync(userId, currentUser.Photo.Id);
 
             var photoDto = _mapper.Map<PhotoDto>(photoModel);
 
@@ -83,6 +91,35 @@ namespace DefenseByNight.API.Controllers
             var photoReturn = _mapper.Map<PhotoViewModel>(result);
 
             return CreatedAtRoute("GetPhoto", new { photoId = photoReturn.Id, userId = userId }, photoReturn);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePhotoAsync(string userId, int photoId)
+        {
+            if (userId != User.FindFirst(ClaimTypes.NameIdentifier).Value)
+                return Unauthorized();
+
+            var user = await _userRepository.GetUserAsync(userId);
+
+            if (user.Photo == null)
+                return BadRequest("ERR_DELETE_PHOTO_DONT_EXIST");
+
+            if (user.Photo.Id == 1)
+                return BadRequest("ERR_DELETE_PHOTO_DEFAULT");
+
+            if (user.Photo.PublicId != null)
+            {
+                var deleteParams = new DeletionParams(user.Photo.PublicId);
+
+                var result = _cloudinary.Destroy(deleteParams);
+
+                if (result.Result == "ok")
+                {
+                    await _photoReposity.DeletePhotoAsync(userId, photoId);
+                    return Ok();
+                }
+            }
+            return BadRequest("ERR_DELETE_PHOTO_GENRAL");
         }
     }
 }

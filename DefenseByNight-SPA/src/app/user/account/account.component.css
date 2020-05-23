@@ -10,6 +10,6 @@ button.btn-success {
     height: 150px;
 }
 
-.my-drop-zone {
-    border: brown dashed 0.5px;
+.nv-file-over {
+    border: dotted 3px brown;
 }

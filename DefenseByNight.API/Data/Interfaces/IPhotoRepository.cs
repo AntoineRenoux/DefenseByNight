@@ -7,5 +7,6 @@ namespace DefenseByNight.API.Data.Interfaces
     {
          Task<PhotoDto> AddPhotoAsync(string userId, PhotoDto photoModel);
          Task<PhotoDto> GetPhotoAsync(int photoId);
+         Task<int> DeletePhotoAsync(string userId, int photoId);
     }
 }

@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using DefenseByNight.API.Data.Entities;
@@ -24,13 +25,22 @@ namespace DefenseByNight.API.Data.Repository
 
         public async Task<PhotoDto> AddPhotoAsync(string userId, PhotoDto photoDto)
         {
-            var user = await _userManager.FindByIdAsync(userId);
+            var currentUser = await _context.Users
+                                .Where(u => u.Id == userId)
+                                .Include(i => i.Photo)
+                                .FirstOrDefaultAsync();
+
             var photo = _mapper.Map<Photo>(photoDto);
 
-            if (user == null)
+            if (currentUser == null)
                 return null;
 
-            user.Photo = photo;
+            if (currentUser.Photo != null)
+            {
+                _context.Photos.Remove(currentUser.Photo);
+            }
+
+            currentUser.Photo = photo;
 
             await _context.SaveChangesAsync();
 
@@ -42,6 +52,14 @@ namespace DefenseByNight.API.Data.Repository
             var photo = await _context.Photos.FirstOrDefaultAsync(x => x.Id == photoId);
 
             return _mapper.Map<PhotoDto>(photo);
+        }
+
+        public async Task<int> DeletePhotoAsync(string userId, int photoId)
+        {
+             var photo = await _context.Photos.FirstOrDefaultAsync(p => p.Id == photoId);
+            _context.Photos.Remove(photo);
+
+            return await _context.SaveChangesAsync();
         }
     }
 }
