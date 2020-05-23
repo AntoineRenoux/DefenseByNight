@@ -13,15 +13,15 @@ using Microsoft.Extensions.Options;
 namespace DefenseByNight.API.Controllers
 {
     [ApiController]
-    [Route("api/users/{userId}/photos")]
-    public class PhotosController : ControllerBase
+    [Route("api/user/{userId}/photos")]
+    public class PhotoController : ControllerBase
     {
         private readonly IMapper _mapper;
         private readonly IOptions<CloudinarySettings> _cloudinaryConfig;
         private readonly IPhotoRepository _photoReposity;
         private Cloudinary _cloudinary;
 
-        public PhotosController(IMapper mapper, IOptions<CloudinarySettings> cloudinaryConfig, IPhotoRepository photoReposity)
+        public PhotoController(IMapper mapper, IOptions<CloudinarySettings> cloudinaryConfig, IPhotoRepository photoReposity)
         {
             _cloudinaryConfig = cloudinaryConfig;
             _mapper = mapper;

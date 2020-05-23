@@ -2,9 +2,7 @@
   <div class="row">
     <div class="col-sm-3">
       <div class="card">
-        <img class="card-img-top"
-          src="{{userService.currentUser.photo.url}}"
-          alt="Card image cap">
+        <img class="card-img-top" src="{{userService.currentUser.photo.url}}" alt="Card image">
         <div class="card-body">
           <h5 class="card-title">{{'GEN_LBL_ID' | translate}}</h5>
           <hr>
@@ -100,8 +98,12 @@
                       [ngClass]="{'is-invalid': editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty 
                                   || editionForm.hasError('underage'), 'is-valid': editionForm.get('dateOfBirth').valid && !editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty}"
                       class="form-control" bsDatepicker [bsConfig]="bsConfig">
-                      <div class="invalid-feedback" *ngIf="editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty">{{'ERR_BIRTHDATE_REQUIRED' | translate}}</div>
-                      <div class="invalid-feedback" *ngIf="editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty" >{{'ERR_MAJORITY_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback"
+                      *ngIf="editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty">
+                      {{'ERR_BIRTHDATE_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback"
+                      *ngIf="editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty">
+                      {{'ERR_MAJORITY_REQUIRED' | translate}}</div>
                   </div>
                 </div>
 
@@ -112,18 +114,14 @@
                   <div class="col-sm-5">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('address').errors && editionForm.get('address').dirty}"
-                      formControlName="address"
-                      placeholder="{{'GEN_LBL_ADDRESS' | translate}}"
-                      class="form-control">
+                      formControlName="address" placeholder="{{'GEN_LBL_ADDRESS' | translate}}" class="form-control">
                   </div>
 
                   <label class="col-sm-2 col-form-label">{{'GEN_LBL_ZIPCODE' | translate}}</label>
                   <div class="col-sm-3">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('zipcode').errors && editionForm.get('zipcode').dirty}"
-                      formControlName="zipcode"
-                      placeholder="{{'GEN_LBL_ZIPCODE' | translate}}"
-                      class="form-control">
+                      formControlName="zipcode" placeholder="{{'GEN_LBL_ZIPCODE' | translate}}" class="form-control">
                   </div>
                 </div>
 
@@ -132,9 +130,7 @@
                   <div class="col-sm-10">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('city').errors && editionForm.get('city').dirty}"
-                      formControlName="city"
-                      placeholder="{{'GEN_LBL_CITY' | translate}}"
-                      class="form-control">
+                      formControlName="city" placeholder="{{'GEN_LBL_CITY' | translate}}" class="form-control">
                   </div>
                 </div>
 
@@ -143,20 +139,16 @@
                   <div class="col-sm-10">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
-                      formControlName="email"
-                      placeholder="{{'GEN_LBL_EMAIL' | translate}}"
-                      class="form-control">
+                      formControlName="email" placeholder="{{'GEN_LBL_EMAIL' | translate}}" class="form-control">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
                   <div class="col-sm-10">
-                    <input type="tel" 
-                      formControlName="phonenumber"
+                    <input type="tel" formControlName="phonenumber"
                       [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
-                      placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}"
-                      class="form-control">
+                      placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}" class="form-control">
                   </div>
                 </div>
 
@@ -165,8 +157,10 @@
                 <div class="row">
                   <div class="col-sm-12">
                     <div class="float-right">
-                      <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty' class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
-                      <button type="button" class="btn btn-danger" (click)="rollbackEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                      <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty'
+                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger"
+                        (click)="rollbackEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
                     </div>
                   </div>
                 </div>
@@ -181,6 +175,67 @@
         <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_PHOTO' | translate}}">
           <div class="card">
             <div class="card-body">
+
+              <div class="row mb-2">
+                <div class="col-sm-12 drop-col">
+                  <div ng2FileDrop [ngClass]="{'nv-file-over': hasBaseDropZoneOver}" (fileOver)="fileOverBase($event)"
+                    [uploader]="uploader" class="card bg-faded h-100 text-center">
+                    <p class="mx-atuo my-auto">
+                      {{'GEN_LBL_DROP_HERE' | translate}}
+                      <fa-icon icon="cloud-upload-alt"></fa-icon>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12 text-center">
+                  --- {{'GEN_LBL_OR' | translate}} ---
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-sm-12">
+                  <input type="file" ng2FileSelect [uploader]="uploader" />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th width="50%">{{'GEN_LBL_FILE_NAME' | translate}}</th>
+                        <th>{{'GEN_LBL_FILE_SIZE' | translate}}</th>
+                        <th>{{'GEN_LBL_FILE_PROGRESS' | translate}}</th>
+                        <th>{{'GEN_LBL_ACTION' | translate}}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let item of uploader.queue">
+                        <td><strong style="overflow-wrap: break-word;">{{ item?.file?.name }}</strong></td>
+                        <td *ngIf="uploader.options.isHTML5" nowrap>{{ item?.file?.size/1024/1024 | number:'.2' }} MB</td>
+                        <td *ngIf="uploader.options.isHTML5">
+                          <div class="progress" style="margin-bottom: 0;">
+                            <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': item.progress + '%' }">
+                            </div>
+                          </div>
+                        </td>
+                        <td nowrap>
+                          <button type="button" class="btn btn-success btn-xs" (click)="item.upload()"
+                            [disabled]="item.isReady || item.isUploading || item.isSuccess">
+                            <span class="glyphicon glyphicon-upload"></span> {{'GEN_LBL_SAVE' | translate}}
+                          </button>
+                          <button type="button" class="btn btn-danger btn-xs" (click)="item.remove()">
+                            <fa-icon icon="trash"></fa-icon>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
 
             </div>
           </div>

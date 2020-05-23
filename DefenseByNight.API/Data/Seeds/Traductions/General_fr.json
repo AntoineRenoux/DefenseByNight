@@ -8,10 +8,33 @@
         "Text": "Annuler"
     },
 	{
+		"Key": "GEN_LBL_OR",
+		"Text": "OU"
+	},
+	{
+		"Key": "GEN_LBL_DROP_HERE",
+		"Text": "Glissez votre image ici"
+	},
+    {
+        "Key": "GEN_LBL_FILE_NAME",
+        "Text": "Nom du fichier"
+    },
+    {
+        "Key": "GEN_LBL_FILE_SIZE",
+        "Text": "Taille"
+    },
+	{
+        "Key": "GEN_LBL_FILE_PROGRESS",
+        "Text": "Progression"
+    },
+	{
+        "Key": "GEN_LBL_ACTION",
+        "Text": "Action"
+    },
+	{
 		"Key": "SUCCESS_SAVE",
 		"Text": "Sauvegarde réussie"
-	}
-	,
+	},
     {
         "Key": "ERR_USER_DOESNT_EXISTS",
         "Text": "L'utilsateur n'existe pas"

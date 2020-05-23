@@ -5,3 +5,11 @@ fa-icon {
 button.btn-success {
     margin-right: 5px;;
 }
+
+.drop-col {
+    height: 150px;
+}
+
+.my-drop-zone {
+    border: brown dashed 0.5px;
+}
