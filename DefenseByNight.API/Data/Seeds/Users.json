@@ -8,7 +8,13 @@
         "BirthDate": "1939-03-30",
         "City": "Gotham City",
         "Address": "1007 Mountain Drive",
-        "ZipCode": "46597"
+        "ZipCode": "46597",
+        "Health": {
+            "Allergies": "",
+            "ContactFirstName": "Alfred",
+            "ContactLastName": "Pennyworth",
+            "PhoneNumber": "98743513"
+        }
     },
     {
         "Firstname": "Clark",

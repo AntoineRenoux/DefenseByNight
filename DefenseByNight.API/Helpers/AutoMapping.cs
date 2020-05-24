@@ -51,6 +51,14 @@ namespace DefenseByNight.API.Helpers
             
             #endregion
 
+            #region Health
+            CreateMap<Health, HealthDto>();
+            CreateMap<HealthDto, Health>();
+
+            CreateMap<HealthAddViewModel, HealthDto>();
+            CreateMap<HealthDto, HealthAddViewModel>();
+            #endregion
+
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();
 

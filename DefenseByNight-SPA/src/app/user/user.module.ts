@@ -5,6 +5,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { FileUploadModule } from 'ng2-file-upload';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 import { RegisterComponent } from './register/register.component';
 import { ConnexionComponent } from './connexion/connexion.component';
@@ -34,6 +35,7 @@ import { faAddressCard, faAt, faMobileAlt
         TabsModule.forRoot(),
         FontAwesomeModule,
         FileUploadModule,
+        CKEditorModule,
         TranslateModule.forRoot({
             loader: { provide: TranslateLoader, useFactory: HttpLoaderFactory, deps: [LanguageService] },
             defaultLanguage

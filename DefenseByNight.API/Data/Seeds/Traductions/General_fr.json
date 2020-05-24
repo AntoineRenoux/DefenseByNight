@@ -4,6 +4,14 @@
         "Text": "Defense By night"
     },
 	{
+        "Key": "GEN_LBL_IMPORTANT",
+        "Text": "Important"
+    },
+	{
+        "Key": "GEN_LBL_MODIFICATIONS_UNSAVED",
+        "Text": "Des modifications sont en cours. Si vous quitter la page sans les sauvegarder elles seront perdues."
+    },
+	{
         "Key": "GEN_LBL_SAVE",
         "Text": "Sauvegarder"
     },

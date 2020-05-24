@@ -7,9 +7,11 @@
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
       <span dropdown>
-        <img src="{{userService.currentUser.photo.url}}" class="nav-bar">
-        <a href id="basic-link" dropdownToggle (click)="false"
-          aria-controls="basic-link-dropdown">{{ authService.decodedToken?.unique_name | titlecase }}</a>
+        <div class="account-name">
+          <img src="{{userService.currentUser.photo.url}}" class="nav-bar">
+          <a href id="basic-link" dropdownToggle (click)="false"
+            aria-controls="basic-link-dropdown">{{ authService.decodedToken?.unique_name | titlecase }}</a>
+        </div>
         <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
           aria-labelledby="basic-link">
           <li role="menuitem">

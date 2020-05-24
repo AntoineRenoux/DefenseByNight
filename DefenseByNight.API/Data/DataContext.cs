@@ -10,9 +10,10 @@ namespace DefenseByNight.API.Data
         public DataContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Photo> Photos { get; set; }
-
         public DbSet<Traduction> Traductions { get; set; }
+        public DbSet<Health> Health { get; set; }
 
+        #region Game
         public DbSet<Affiliate> Affiliates { get; set; }
 
         public DbSet<Focus> Focus { get; set; }
@@ -28,6 +29,7 @@ namespace DefenseByNight.API.Data
         public DbSet<Atout> Atouts { get; set; }
 
         public DbSet<Flaw> Flaws { get; set; }
+        #endregion
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

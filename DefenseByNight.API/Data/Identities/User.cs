@@ -22,5 +22,6 @@ namespace DefenseByNight.API.Data.Identities
         public DateTime? LastActive { get; set; }
         public virtual ICollection<UserRole> UserRole { get; set; }
         public Photo Photo { get; set; }
+        public Health Health { get; set; }
     }
 }

@@ -4,6 +4,18 @@
     "Text": "Prénom"
   },
   {
+    "Key": "GEN_LBL_ALLERGIES",
+    "Text": "Allergies et problèmes de santé"
+  },
+  {
+    "Key": "GEN_LBL_ICU",
+    "Text": "Personne à contacter"
+  },
+  {
+    "Key": "GEN_LBL_PLAYER_PROFIL",
+    "Text": "Profil de joueur"
+  },
+  {
     "Key": "GEN_LBL_LASTNAME",
     "Text": "Nom de famille"
   },
@@ -146,6 +158,10 @@
   {
     "Key": "ERR_DELETE_PHOTO_DONT_EXIST",
     "Text": "Vous n'avez pas de photo."
+  },
+  {
+    "Key": "ERR_ADDING_HEALTH_INFORMATIONS",
+    "Text": "Impossible d'ajouter les infomations votre santé."
   },
   {
     "Key": "ERR_DELETE_PHOTO_DEFAULT",

@@ -1,5 +1,18 @@
 <div class="container">
   <div class="row">
+    <div class="col-ms-12">
+      <h1>{{'GEN_LBL_PLAYER_PROFIL' | translate}}</h1>
+    </div>
+  </div>
+  <hr>
+  <div class="row" *ngIf="editionForm.dirty || uploader.queue.length > 0 || contactForm.dirty">
+    <div class="col-sm-12">
+      <div class="alert alert-info">
+        <strong>{{'GEN_LBL_IMPORTANT' | translate}} : </strong>{{'GEN_LBL_MODIFICATIONS_UNSAVED' | translate}}
+      </div>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-sm-3">
       <div class="card">
         <img class="card-img-top" src="{{userService.currentUser.photo.url}}" alt="Card image">
@@ -65,7 +78,7 @@
                     <input type="text" formControlName="username"
                       [ngClass]="{'is-invalid': editionForm.get('username').errors && editionForm.get('username').dirty, 'is-valid': editionForm.get('username').valid && editionForm.get('username').dirty}"
                       class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
-                    <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback">{{'GEN_LBL_PSEUDO' | translate}}</div>
                   </div>
                 </div>
 
@@ -111,11 +124,21 @@
 
                 <div class="form-group row">
                   <label class="col-sm-2 col-form-label">{{'GEN_LBL_ADDRESS' | translate}}</label>
-                  <div class="col-sm-5">
+                  <div class="col-sm-10">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('address').errors && editionForm.get('address').dirty}"
                       formControlName="address" placeholder="{{'GEN_LBL_ADDRESS' | translate}}" class="form-control">
                   </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_CITY' | translate}}</label>
+                  <div class="col-sm-5">
+                    <input type="text"
+                      [ngClass]="{'is-invalid': editionForm.get('city').errors && editionForm.get('city').dirty}"
+                      formControlName="city" placeholder="{{'GEN_LBL_CITY' | translate}}" class="form-control">
+                  </div>
+
 
                   <label class="col-sm-2 col-form-label">{{'GEN_LBL_ZIPCODE' | translate}}</label>
                   <div class="col-sm-3">
@@ -126,20 +149,12 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_CITY' | translate}}</label>
-                  <div class="col-sm-10">
-                    <input type="text"
-                      [ngClass]="{'is-invalid': editionForm.get('city').errors && editionForm.get('city').dirty}"
-                      formControlName="city" placeholder="{{'GEN_LBL_CITY' | translate}}" class="form-control">
-                  </div>
-                </div>
-
-                <div class="form-group row">
                   <label class="col-sm-2 col-form-label">{{'GEN_LBL_EMAIL' | translate}}</label>
                   <div class="col-sm-10">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
                       formControlName="email" placeholder="{{'GEN_LBL_EMAIL' | translate}}" class="form-control">
+                    <div class="invalid-feedback">{{'ERR_EMAIL_REQUIRED' | translate}}</div>
                   </div>
                 </div>
 
@@ -149,6 +164,7 @@
                     <input type="tel" formControlName="phonenumber"
                       [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
                       placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}" class="form-control">
+                    <div class="invalid-feedback">{{'ERR_PHONENUMBER_REQUIRED' | translate}}</div>
                   </div>
                 </div>
 
@@ -160,7 +176,7 @@
                       <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty'
                         class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
                       <button type="button" class="btn btn-danger"
-                        (click)="rollbackEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                        (click)="createEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
                     </div>
                   </div>
                 </div>
@@ -171,6 +187,64 @@
           </div>
         </tab>
         <tab heading="{{'GEN_LBL_EDITION_HEALTH' | translate}}">
+          <div class="card">
+            <div class="card-body">
+              <h3>{{'GEN_LBL_ALLERGIES' | translate}}</h3>
+              <form [formGroup]="contactForm" (ngSubmit)="updateHealth()">
+                <ckeditor [editor]="Editor" [config]="configEditor" formControlName="allergies"></ckeditor>
+                <hr>
+
+                <h3>{{'GEN_LBL_ICU' | translate}}</h3>
+
+
+                <div class="form-group row">
+                  <label for="firstnameContact"
+                    class="col-sm-2 col-form-label">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text" formControlName="firstnameContact"
+                      [ngClass]="{'is-invalid': contactForm.get('firstnameContact').errors && contactForm.get('firstnameContact').dirty, 'is-valid': contactForm.get('firstnameContact').valid && contactForm.get('firstnameContact').dirty}"
+                      class="form-control" placeholder="{{'GEN_LBL_FIRSTNAME' | translate}}">
+                    <div class="invalid-feedback">{{'ERR_FIRSTNAME_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="lastnameContact"
+                    class="col-sm-2 col-form-label">{{'GEN_LBL_LASTNAME' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="text" formControlName="lastnameContact"
+                      [ngClass]="{'is-invalid': contactForm.get('lastnameContact').errors && contactForm.get('lastnameContact').dirty, 'is-valid': contactForm.get('lastnameContact').valid && contactForm.get('lastnameContact').dirty}"
+                      class="form-control" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
+                    <div class="invalid-feedback">{{'ERR_LASTNAME_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
+                  <div class="col-sm-10">
+                    <input type="tel" formControlName="phonenumberContact"
+                      [ngClass]="{'is-invalid': contactForm.get('phonenumberContact').errors && contactForm.get('phonenumberContact').dirty, 'is-valid': contactForm.get('phonenumberContact').valid && contactForm.get('phonenumberContact').dirty}"
+                      placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}" class="form-control">
+                    <div class="invalid-feedback">{{'ERR_PHONENUMBER_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="float-right">
+                      <button type="submit" [disabled]='!contactForm.valid || !contactForm.dirty'
+                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger"
+                        (click)="createContactForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
         </tab>
         <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_PHOTO' | translate}}">
           <div class="card">
@@ -185,7 +259,7 @@
                   </p>
                 </div>
               </div>
-              
+
               <div class="row mb-3 mt-3">
                 <div class="col-sm-12 text-center">
                   --- {{'GEN_LBL_OR' | translate}} ---

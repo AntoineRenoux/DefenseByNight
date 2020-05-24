@@ -4,7 +4,13 @@ nav a {
   cursor: pointer;
 }
 
-nav span > a {
+.account-name:hover{
+  background-color: lightgray;
+  padding: 3px 5px 3px 5px;
+  border-radius: 15px;
+}
+
+.account-name > a {
   color: white;
   text-decoration: none;
 }

@@ -4,7 +4,6 @@ using AutoMapper;
 using DefenseByNight.API.Data.Interfaces;
 using DefenseByNight.API.Dtos;
 using Microsoft.EntityFrameworkCore;
-using DefenseByNight.API.Helpers;
 
 namespace DefenseByNight.API.Data.Repository
 {

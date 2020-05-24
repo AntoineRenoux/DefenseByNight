@@ -1,4 +1,5 @@
 import { Photo } from './photo';
+import { Health } from './health';
 
 export class User {
     id: string;
@@ -14,4 +15,5 @@ export class User {
     city: string;
     zipcode: string;
     photo: Photo;
+    health: Health;
 }

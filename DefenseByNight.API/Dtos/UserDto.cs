@@ -17,5 +17,6 @@ namespace DefenseByNight.API.Dtos
         public DateTime CreatedDate { get; set; }
         public DateTime? LastActive { get; set; }
         public PhotoDto Photo { get; set; }
+        public HealthDto Health { get; set; }
     }
 }

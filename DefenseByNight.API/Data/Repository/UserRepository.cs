@@ -28,7 +28,8 @@ namespace DefenseByNight.API.Data.Repository
         {
             var user = await _context.Users
                         .Where(u => u.Id == userId)
-                        .Include(u => u.Photo)
+                        .Include(p => p.Photo)
+                        .Include(h => h.Health)
                         .FirstOrDefaultAsync();
 
             var userDto = _mapper.Map<UserDto>(user);
