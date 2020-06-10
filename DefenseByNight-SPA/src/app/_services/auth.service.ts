@@ -8,6 +8,7 @@ import { map } from 'rxjs/operators';
 import { UserLogin } from '../_models/userLogin';
 import { UserRegister } from '../_models/userRegister';
 import { UserService } from './user.service';
+import { Security } from '../_models/security';
 
 const httpOptions = {
   headers: new HttpHeaders({
@@ -45,6 +46,11 @@ export class AuthService {
           }
         })
       );
+  }
+
+  changePassword(model: Security) {
+    debugger;
+    return this.http.post(this.baseUrl + this.userService.currentUser.id, model);
   }
 
   isAdmin(): boolean {

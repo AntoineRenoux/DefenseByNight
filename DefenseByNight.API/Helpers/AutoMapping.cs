@@ -37,6 +37,9 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<UserViewModel, UserDto>();
             CreateMap<UserDto, UserViewModel>();
+
+            CreateMap<UserChangePasswordViewModel, UserChangePasswordDto>();
+            CreateMap<UserChangePasswordDto, UserChangePasswordViewModel>();
             #endregion
 
             #region Photo
@@ -48,7 +51,7 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<PhotoViewModel, PhotoDto>();
             CreateMap<PhotoDto, PhotoViewModel>();
-            
+
             #endregion
 
             #region Health

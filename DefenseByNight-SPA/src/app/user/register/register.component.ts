@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { TranslateService } from '@ngx-translate/core';
 import { BsDatepickerConfig, BsLocaleService } from 'ngx-bootstrap/datepicker';
-import { listLocales } from 'ngx-bootstrap/chronos';
+import { listLocales, updateLocale } from 'ngx-bootstrap/chronos';
 
 import { ToasterService } from '../../_services/toaster.service';
 import { AuthService } from 'src/app/_services/auth.service';
@@ -43,7 +43,7 @@ export class RegisterComponent implements OnInit {
       phonenumber: ['', Validators.required],
       password: ['', [Validators.required, Validators.minLength(8)]],
       confirmPassword: ['', Validators.required],
-    }, { validators: [this.passwordMatchValidator, this.userMustBeMajor] });
+    }, { validators: [this.passwordMatchValidator, this.userMustBeMajor], updateOn: 'blur' });
   }
 
   passwordMatchValidator(g: FormGroup) {
@@ -61,14 +61,14 @@ export class RegisterComponent implements OnInit {
   register() {
     const user = new UserRegister();
 
-    user.username = this.registerForm.controls['username'].value;
-    user.firstName = this.registerForm.controls['firstname'].value;
-    user.lastName = this.registerForm.controls['lastname'].value;
-    user.birthDate = this.registerForm.controls['dateOfBirth'].value;
-    user.email = this.registerForm.controls['email'].value;
-    user.phoneNumber = this.registerForm.controls['phonenumber'].value;
-    user.password = this.registerForm.controls['password'].value;
-    user.confirmPassword = this.registerForm.controls['confirmPassword'].value;
+    user.username = this.registerForm.controls.username.value;
+    user.firstName = this.registerForm.controls.firstname.value;
+    user.lastName = this.registerForm.controls.lastname.value;
+    user.birthDate = this.registerForm.controls.dateOfBirth.value;
+    user.email = this.registerForm.controls.email.value;
+    user.phoneNumber = this.registerForm.controls.phonenumber.value;
+    user.password = this.registerForm.controls.password.value;
+    user.confirmPassword = this.registerForm.controls.confirmPassword.value;
 
     this.authService.register(user).subscribe(() => {
       this.translate.get('SUCCESS_CREATION_ACCOUNT').subscribe((res: string) => {

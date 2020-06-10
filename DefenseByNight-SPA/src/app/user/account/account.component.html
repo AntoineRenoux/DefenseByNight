@@ -78,7 +78,7 @@
                     <input type="text" formControlName="username"
                       [ngClass]="{'is-invalid': editionForm.get('username').errors && editionForm.get('username').dirty, 'is-valid': editionForm.get('username').valid && editionForm.get('username').dirty}"
                       class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
-                    <div class="invalid-feedback">{{'GEN_LBL_PSEUDO' | translate}}</div>
+                    <div class="invalid-feedback">{{'ERR_USERNAME_REQUIRED' | translate}}</div>
                   </div>
                 </div>
 
@@ -175,8 +175,7 @@
                     <div class="float-right">
                       <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty'
                         class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
-                      <button type="button" class="btn btn-danger"
-                        (click)="createEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                      <button type="button" class="btn btn-danger" (click)="createEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
                     </div>
                   </div>
                 </div>
@@ -311,7 +310,52 @@
           </div>
         </tab>
         <tab heading="{{'GEN_LBL_EDITION_ACCOUNT_SECURITY' | translate}}">
+          <div class="card">
+            <div class="card-body">
+              <h3>{{'GEN_LBL_CHANGE_PASSWORD' | translate}}</h3>
+              <hr>
 
+              <form [formGroup]="securityForm" (ngSubmit)="updateSecurity()">
+                <div class="col-sm-7 mx-auto">
+                  <div class="form-group row">
+                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_CURRENT_PASSWORD' | translate}}</label>
+                    <div class="col-sm-7">
+                      <input type="password" class="form-control" formControlName="currentPassword">
+                    </div>
+                    <div class="invalid-feedback">{{'ERR_PASSWORD_REQUIRED' | translate}}</div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_NEW_PASSWORD' | translate}}</label>
+                    <div class="col-sm-7">
+                      <input type="password" class="form-control" formControlName="newPassword">
+                    </div>
+                    <div class="invalid-feedback">{{'ERR_PASSWORD_REQUIRED' | translate}}</div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_CONFIRM_NEW_PASSWORD' | translate}}</label>
+                    <div class="col-sm-7">
+                      <input type="password" class="form-control" formControlName="confirmPassword">
+                    </div>
+                    <div class="invalid-feedback">{{'ERR_PASSWORD_REQUIRED' | translate}}</div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="float-right">
+                      <button type="submit" [disabled]='!securityForm.valid || !securityForm.dirty'
+                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger"
+                        (click)="createContactForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+          </div>
         </tab>
       </tabset>
     </div>

@@ -5,6 +5,7 @@ using AutoMapper;
 using DefenseByNight.API.Data.Identities;
 using DefenseByNight.API.Data.Interfaces;
 using DefenseByNight.API.Dtos;
+using DefenseByNight.API.Helpers.Enums;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -31,7 +32,7 @@ namespace DefenseByNight.API.Data.Repository
             _userRepository = userRepository;
         }
 
-        public async Task<UserDto> LoginAsync(UserLoginDto newUser) 
+        public async Task<UserDto> LoginAsync(UserLoginDto newUser)
         {
             var user = await _userManager.FindByNameAsync(newUser.Username);
 
@@ -45,11 +46,13 @@ namespace DefenseByNight.API.Data.Repository
                     await _context.SaveChangesAsync();
                     return await _userRepository.GetUserAsync(user.Id);
                 }
-                else {
+                else
+                {
                     return null;
                 }
             }
-            else {
+            else
+            {
                 return null;
             }
         }
@@ -60,17 +63,21 @@ namespace DefenseByNight.API.Data.Repository
 
             var result = await _userManager.CreateAsync(user, newUser.Password);
 
+            await _userManager.AddToRoleAsync(user, EnumRoles.MEMBER);
+
             var res = await _context.Users.FirstOrDefaultAsync(x => x.UserName == user.UserName);
 
             return _mapper.Map<UserDto>(res);
         }
 
-        public async Task<UserDto> UserExists(UserDto newUser) {
+        public async Task<UserDto> UserExists(UserDto newUser)
+        {
             var user = await _userManager.FindByNameAsync(newUser.UserName);
             return _mapper.Map<UserDto>(user);
         }
 
-        public async Task<UserDto> EmailExists(UserDto newUser) {
+        public async Task<UserDto> EmailExists(UserDto newUser)
+        {
             var user = await _userManager.FindByEmailAsync(newUser.Email);
             return _mapper.Map<UserDto>(user);
         }
@@ -79,6 +86,21 @@ namespace DefenseByNight.API.Data.Repository
         {
             var user = _mapper.Map<User>(userDto);
             return await _userManager.GetRolesAsync(user);
+        }
+
+        public async Task<bool> ChangePasswordAsync(string userId, UserChangePasswordDto userChangePasswordDto)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+
+            var connexion = await _signInManager.CheckPasswordSignInAsync(user, userChangePasswordDto.CurrentPassword, false);
+
+            if (connexion.Succeeded)
+            {
+                var result = await _userManager.ChangePasswordAsync(user, userChangePasswordDto.CurrentPassword, userChangePasswordDto.NewPassword);
+                return result.Succeeded;
+            }
+
+            return false;
         }
     }
 }

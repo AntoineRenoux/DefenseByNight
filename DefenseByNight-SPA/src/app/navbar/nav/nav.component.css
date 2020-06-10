@@ -8,9 +8,10 @@ nav a {
   background-color: lightgray;
   padding: 3px 5px 3px 5px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
-.account-name > a {
+.account-name > a, span > a {
   color: white;
   text-decoration: none;
 }

@@ -60,7 +60,7 @@ namespace DefenseByNight.API.Controllers
 
             var today = DateTime.Today;
             var age = today.Year - userForRegisterViewModel.BirthDate.Year;
-            if(userForRegisterViewModel.BirthDate > today.AddYears(-age))
+            if (userForRegisterViewModel.BirthDate > today.AddYears(-age))
                 age--;
 
             if (await _authRepository.UserExists(userDto) != null)
@@ -81,6 +81,24 @@ namespace DefenseByNight.API.Controllers
             var result = await _authRepository.RegisterAsync(userToRegisterDto);
 
             return Ok(result);
+        }
+
+        [HttpPost("{userId}")]
+        public async Task<IActionResult> ChangePasswordAsync(string userId, [FromBody]UserChangePasswordViewModel changePasswordViewModel)
+        {
+            if(userId != User.FindFirst(ClaimTypes.NameIdentifier).Value)
+                return Unauthorized();
+
+            if (changePasswordViewModel.NewPassword != changePasswordViewModel.ConfirmPassword)
+                return BadRequest("ERR_CONFIRMPASSWORD_MATCH");
+
+            var success = await _authRepository.ChangePasswordAsync(userId, _mapper.Map<UserChangePasswordDto>(changePasswordViewModel));
+
+            if (!success)
+                return BadRequest();
+
+            return Ok("SUCCESS_CHANGE_PASSWORD");
+
         }
 
         #region Private

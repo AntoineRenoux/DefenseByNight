@@ -12,5 +12,6 @@ namespace DefenseByNight.API.Data.Interfaces
 
          Task<UserDto> LoginAsync(UserLoginDto newUser);
          Task<IList<string>> GetRolesAsync(UserDto userDto);
+         Task<bool> ChangePasswordAsync(string userId, UserChangePasswordDto userChangePasswordDto);
     }
 }

@@ -4,6 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+import localeFrExtra from '@angular/common/locales/extra/fr';
 import { JwtModule } from '@auth0/angular-jwt';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
@@ -15,6 +19,8 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './navbar/nav/nav.component';
 import { LanguageService, defaultLanguage } from './_services/language.service';
 import { AppRoutingModule } from './app-routing.module';
+
+registerLocaleData(localeFr, 'fr-FR', localeFrExtra);
 
 export function tokenGetter() {
    return localStorage.getItem('token');
@@ -66,6 +72,10 @@ export function HttpLoaderFactory(langService: LanguageService) {
          defaultLanguage
      }),
    ],
+   providers: [
+      {
+         provide: LOCALE_ID, useValue: 'fr-FR',
+      }],
    bootstrap: [
       AppComponent
    ]

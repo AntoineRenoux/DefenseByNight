@@ -32,6 +32,10 @@
     "Text": "Confirmation du mot de passe"
   },
   {
+    "Key": "GEN_LBL_CONFIRM_NEW_PASSWORD",
+    "Text": "Confirmation du nouveau mot de passe"
+  },
+  {
     "Key": "GEN_LBL_BIRTHDATE",
     "Text": "Date de naissance"
   },
@@ -76,6 +80,14 @@
     "Text": "Carte d'identité"
   },
   {
+    "Key": "GEN_LBL_CURRENT_PASSWORD",
+    "Text": "Mot de passe actuel"
+  },
+  {
+    "Key": "GEN_LBL_NEW_PASSWORD",
+    "Text": "Nouveau mot de passe"
+  },
+  {
     "Key": "GEN_LBL_CITY",
     "Text": "Ville"
   },
@@ -90,6 +102,10 @@
   {
 	"Key": "GEN_LBL_PHOTO",
     "Text": "Photo"
+  },
+  {
+	"Key": "GEN_LBL_CHANGE_PASSWORD",
+    "Text": "Gestion du mot de passe"
   },
   {
     "Key": "ERR_NOT_ALLOWED",
@@ -149,7 +165,7 @@
   },
   {
     "Key": "ERR_BIRTHDATE_REQUIRED",
-    "Text": "Vous devez être renseigner votre date de naissance."
+    "Text": "Vous devez renseigner votre date de naissance."
   },
   {
     "Key": "ERR_ADDING_PHOTO",
@@ -172,11 +188,23 @@
     "Text": "La suppression de cette photo a échoué"
   },
   {
+    "Key": "ERR_CHANGING_PASSWORD",
+    "Text": "Le changement de mot de passe à échoué"
+  },
+  {
+    "Key": "ERR_UPDATING_USER",
+    "Text": "Les modifications ont échoué"
+  },
+  {
     "Key": "SUCCESS_CONNECTED",
     "Text": "Connexion réussie !"
   },
   {
     "Key": "SUCCESS_CREATION_ACCOUNT",
     "Text": "Votre compte a été crée :)"
+  },
+  {
+    "Key": "SUCCESS_CHANGE_PASSWORD",
+    "Text": "Votre mot de passe à été changé avec succès !"
   }
 ]

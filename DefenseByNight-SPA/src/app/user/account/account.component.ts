@@ -14,6 +14,8 @@ import { User } from 'src/app/_models/user';
 import { ToasterService } from 'src/app/_services/toaster.service';
 import { Photo } from 'src/app/_models/photo';
 import { Health } from 'src/app/_models/health';
+import { AuthService } from 'src/app/_services/auth.service';
+import { Security } from 'src/app/_models/security';
 
 @Component({
   selector: 'app-account',
@@ -32,6 +34,7 @@ export class AccountComponent implements OnInit {
 
   editionForm: FormGroup;
   contactForm: FormGroup;
+  securityForm: FormGroup;
 
   uploader: FileUploader;
   hasBaseDropZoneOver = false;
@@ -45,7 +48,8 @@ export class AccountComponent implements OnInit {
               private langService: LanguageService,
               private fb: FormBuilder,
               private toaster: ToasterService,
-              private translate: TranslateService) { }
+              private translate: TranslateService,
+              private authService: AuthService) { }
 
   ngOnInit() {
     this.createEditionForm();
@@ -54,20 +58,29 @@ export class AccountComponent implements OnInit {
     this.initializeUploader();
     this.initializeEditor();
     this.createContactForm();
+    this.createSecurityForm();
   }
 
   initializeEditor() {
     this.configEditor = {
       toolbar: [
-          'heading',
-          '|',
-          'bold',
-          'italic',
-          'undo',
-          'redo'
+        'heading',
+        '|',
+        'bold',
+        'italic',
+        'undo',
+        'redo'
       ],
       language: this.langService.getCurrentLang()
     };
+  }
+
+  createSecurityForm() {
+    this.securityForm = this.fb.group({
+      currentPassword: ['', Validators.required],
+      newPassword: ['', [Validators.required, Validators.minLength(8)]],
+      confirmPassword: ['', [Validators.required]]
+    }, this.passwordMatchValidator);
   }
 
   createContactForm() {
@@ -89,14 +102,14 @@ export class AccountComponent implements OnInit {
       email: [this.userService.currentUser.email, [Validators.required, Validators.email]],
       phonenumber: [this.userService.currentUser.phoneNumber, [Validators.required
         , Validators.pattern(this.numberRegex), Validators.minLength(10), Validators.maxLength(10)]],
-      city: [this.userService.currentUser.city, [Validators.required, Validators.pattern(this.cityRegex)]],
+      city: [this.userService.currentUser.city],
       address: [this.userService.currentUser.address, null],
       zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.numberRegex)]
     }, { validators: [this.userMustBeMajor] });
   }
 
   passwordMatchValidator(g: FormGroup) {
-    return g.get('password').value === g.get('confirmPassword').value ? null : { mismatch: true };
+    return g.get('newPassword').value === g.get('confirmPassword').value ? null : { mismatch: true };
   }
 
   userMustBeMajor(g: FormGroup) {
@@ -141,7 +154,6 @@ export class AccountComponent implements OnInit {
     this.hasBaseDropZoneOver = e;
   }
 
-
   updateHealth() {
     const health = new Health();
 
@@ -176,8 +188,31 @@ export class AccountComponent implements OnInit {
     this.userService.editUser(user).subscribe(() => {
       this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
         this.toaster.success(res);
-      }, () => { }, () => {
+      }, () => {
+        this.translate.get('ERR_UPDATING_USER').subscribe((res: string) => {
+          this.toaster.error(res);
+        });
+      }, () => {
         this.createEditionForm();
+      });
+    });
+  }
+
+  updateSecurity() {
+    const model = new Security();
+
+    model.confirmPassword = this.securityForm.get('confirmPassword').value;
+    model.currentPassword = this.securityForm.get('currentPassword').value;
+    model.newPassword = this.securityForm.get('newPassword').value;
+
+    this.authService.changePassword(model).subscribe(() => {
+      this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
+        this.toaster.success(res);
+      });
+    }, (error) => {
+      this.translate.get('ERR_CHANGING_PASSWORD').subscribe((res: string) => {
+        this.toaster.error(res);
+        console.log(error);
       });
     });
   }

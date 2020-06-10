@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using AutoMapper;
 using DefenseByNight.API.Data;
@@ -17,6 +19,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Localization;
 
 namespace DefenseByNight.API
 {
@@ -56,6 +59,18 @@ namespace DefenseByNight.API
                                 };
                             });
 
+            services.Configure<RequestLocalizationOptions>(options => {
+                var supportedCultures = new List<CultureInfo>
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("fr-FR")
+                };
+                
+                options.DefaultRequestCulture = new RequestCulture("fr-FR");
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
+
             services.Configure<IdentityOptions>(options =>
                           {
                               // Password settings.
@@ -73,7 +88,7 @@ namespace DefenseByNight.API
 
                               // User settings.
                               options.User.AllowedUserNameCharacters =
-                                                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+ éàèêï";
+                                                 "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._$*%@+ ùéàèêï";
                               options.User.RequireUniqueEmail = true;
                           });
 
@@ -109,6 +124,7 @@ namespace DefenseByNight.API
             //Redirige les url http vers https
             //app.UseHttpsRedirection();
 
+            app.UseRequestLocalization();
             app.UseRouting();
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseAuthentication();
