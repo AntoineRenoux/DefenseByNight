@@ -154,7 +154,8 @@
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
                       formControlName="email" placeholder="{{'GEN_LBL_EMAIL' | translate}}" class="form-control">
-                    <div class="invalid-feedback">{{'ERR_EMAIL_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback" *ngIf="!editionForm.get('email').errors?.pattern">{{'ERR_EMAIL_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback" *ngIf="editionForm.get('email').errors?.pattern">{{'ERR_EMAIL_INCORRECT' | translate}}</div>
                   </div>
                 </div>
 
@@ -164,7 +165,8 @@
                     <input type="tel" formControlName="phonenumber"
                       [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
                       placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}" class="form-control">
-                    <div class="invalid-feedback">{{'ERR_PHONENUMBER_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback" *ngIf="!editionForm.get('phonenumber').errors?.pattern">{{'ERR_PHONENUMBER_REQUIRED' | translate}}</div>
+                    <div class="invalid-feedback" *ngIf="editionForm.get('phonenumber').errors?.pattern">{{'ERR_PHONENUMBER_INCORRECT' | translate}}</div>
                   </div>
                 </div>
 

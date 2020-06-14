@@ -116,8 +116,16 @@
     "Text": "Le prénom est obligatoire !"
   },
   {
+    "Key": "ERR_FIRSTNAME_INCORRECT",
+    "Text": "Le prénom est incorrect."
+  },
+  {
     "Key": "ERR_LASTNAME_REQUIRED",
     "Text": "Le nom de famille est obligatoire !"
+  },
+  {
+    "Key": "ERR_LASTNAME_INCORRECT",
+    "Text": "Le nom de famille est incorrect."
   },
   {
     "Key": "ERR_USERNAME_REQUIRED",
@@ -128,8 +136,16 @@
     "Text": "L'email est obligatoire !"
   },
   {
+    "Key": "ERR_EMAIL_INCORRECT",
+    "Text": "L'email est incorrect."
+  },
+  {
     "Key": "ERR_PHONENUMBER_REQUIRED",
     "Text": "Un numéro de portable est obligatoire !"
+  },
+  {
+    "Key": "ERR_PHONENUMBER_INCORRECT",
+    "Text": "Le numéro de portable est incorrect."
   },
   {
     "Key": "ERR_PASSWORD_REQUIRED",

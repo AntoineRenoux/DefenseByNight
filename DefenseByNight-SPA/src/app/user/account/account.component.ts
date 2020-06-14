@@ -86,7 +86,7 @@ export class AccountComponent implements OnInit {
       firstnameContact: [this.userService.currentUser.health?.contactFirstName, Validators.required],
       lastnameContact: [this.userService.currentUser.health?.contactLastName, Validators.required],
       phonenumberContact: [this.userService.currentUser.health?.phoneNumber, [Validators.required, Validators.minLength(10)
-        , Validators.maxLength(10), Validators.pattern(this.validatorService.numberRegex)]]
+        , Validators.maxLength(10), Validators.pattern(this.validatorService.phoneNumberRegex)]]
     });
   }
 
@@ -96,13 +96,14 @@ export class AccountComponent implements OnInit {
       firstname: [this.userService.currentUser.firstName, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
       lastname: [this.userService.currentUser.lastName, [Validators.required, Validators.pattern(this.validatorService.lastNameRegex)]],
       dateOfBirth: [new Date(this.userService.currentUser.birthDate), Validators.required],
-      email: [this.userService.currentUser.email, [Validators.required, Validators.email]],
-      phonenumber: [this.userService.currentUser.phoneNumber, [Validators.required
-        , Validators.pattern(this.validatorService.numberRegex), Validators.minLength(10), Validators.maxLength(10)]],
+      // tslint:disable-next-line: max-line-length
+      email: [this.userService.currentUser.email, [Validators.required, Validators.email, Validators.pattern(this.validatorService.emailRegex)]],
+      // tslint:disable-next-line: max-line-length
+      phonenumber: [this.userService.currentUser.phoneNumber, [Validators.required, Validators.pattern(this.validatorService.phoneNumberRegex)]],
       city: [this.userService.currentUser.city],
       address: [this.userService.currentUser.address, null],
-      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.validatorService.numberRegex)]
-    }, { validators: [this.validatorService.userMustBeMajor] });
+      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.validatorService.zipCodeRegex)]
+    }, { validators: [this.validatorService.userMustBeMajor], updateOn: 'blur' });
   }
 
   initializeUploader() {
