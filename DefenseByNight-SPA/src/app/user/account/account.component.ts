@@ -16,6 +16,7 @@ import { Photo } from 'src/app/_models/photo';
 import { Health } from 'src/app/_models/health';
 import { AuthService } from 'src/app/_services/auth.service';
 import { Security } from 'src/app/_models/security';
+import { ValidatorService } from 'src/app/_services/validator.service';
 
 @Component({
   selector: 'app-account',
@@ -23,11 +24,6 @@ import { Security } from 'src/app/_models/security';
   styleUrls: ['./account.component.css']
 })
 export class AccountComponent implements OnInit {
-  // TODO : ajouter les regex sur les noms
-  numberRegex = '^[0-9]*$';
-  firstNameRegex = '((^|-)[a-zA-Z][a-zà-ü]+)+';
-  lastNameRegex = '((^| )[a-zA-Z][a-zà-ü]+)+';
-  cityRegex = '((^| )[a-zA-Z][a-zà-ü]+)+';
 
   public Editor = ClassicEditor;
   configEditor: any;
@@ -49,7 +45,8 @@ export class AccountComponent implements OnInit {
               private fb: FormBuilder,
               private toaster: ToasterService,
               private translate: TranslateService,
-              private authService: AuthService) { }
+              private authService: AuthService,
+              private validatorService: ValidatorService) { }
 
   ngOnInit() {
     this.createEditionForm();
@@ -80,7 +77,7 @@ export class AccountComponent implements OnInit {
       currentPassword: ['', Validators.required],
       newPassword: ['', [Validators.required, Validators.minLength(8)]],
       confirmPassword: ['', [Validators.required]]
-    }, this.passwordMatchValidator);
+    }, this.validatorService.passwordMatchValidator);
   }
 
   createContactForm() {
@@ -89,37 +86,24 @@ export class AccountComponent implements OnInit {
       firstnameContact: [this.userService.currentUser.health?.contactFirstName, Validators.required],
       lastnameContact: [this.userService.currentUser.health?.contactLastName, Validators.required],
       phonenumberContact: [this.userService.currentUser.health?.phoneNumber, [Validators.required, Validators.minLength(10)
-        , Validators.maxLength(10), Validators.pattern(this.numberRegex)]]
+        , Validators.maxLength(10), Validators.pattern(this.validatorService.numberRegex)]]
     });
   }
 
   createEditionForm() {
     this.editionForm = this.fb.group({
       username: [this.userService.currentUser.userName, Validators.required],
-      firstname: [this.userService.currentUser.firstName, [Validators.required, Validators.pattern(this.firstNameRegex)]],
-      lastname: [this.userService.currentUser.lastName, [Validators.required, Validators.pattern(this.lastNameRegex)]],
+      firstname: [this.userService.currentUser.firstName, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
+      lastname: [this.userService.currentUser.lastName, [Validators.required, Validators.pattern(this.validatorService.lastNameRegex)]],
       dateOfBirth: [new Date(this.userService.currentUser.birthDate), Validators.required],
       email: [this.userService.currentUser.email, [Validators.required, Validators.email]],
       phonenumber: [this.userService.currentUser.phoneNumber, [Validators.required
-        , Validators.pattern(this.numberRegex), Validators.minLength(10), Validators.maxLength(10)]],
+        , Validators.pattern(this.validatorService.numberRegex), Validators.minLength(10), Validators.maxLength(10)]],
       city: [this.userService.currentUser.city],
       address: [this.userService.currentUser.address, null],
-      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.numberRegex)]
-    }, { validators: [this.userMustBeMajor] });
+      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.validatorService.numberRegex)]
+    }, { validators: [this.validatorService.userMustBeMajor] });
   }
-
-  passwordMatchValidator(g: FormGroup) {
-    return g.get('newPassword').value === g.get('confirmPassword').value ? null : { mismatch: true };
-  }
-
-  userMustBeMajor(g: FormGroup) {
-    if (g.get('dateOfBirth').value != null) {
-      const timeDiff = Math.abs(Date.now() - g.get('dateOfBirth').value);
-      const age = Math.floor((timeDiff / (1000 * 3600 * 24)) / 365.25);
-      return age >= 18 ? null : { underage: true };
-    }
-  }
-
 
   initializeUploader() {
     this.uploader = new FileUploader({
