@@ -73,8 +73,8 @@
               <form [formGroup]="editionForm" (ngSubmit)="updateUser()">
 
                 <div class="form-group row">
-                  <label for="username" class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_PSEUDO' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label for="username" class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_PSEUDO' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="text" formControlName="username"
                       [ngClass]="{'is-invalid': editionForm.get('username').errors && editionForm.get('username').dirty, 'is-valid': editionForm.get('username').valid && editionForm.get('username').dirty}"
                       class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
@@ -86,8 +86,8 @@
                 </div>
 
                 <div class="form-group row">
-                  <label for="firstname" class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label for="firstname" class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="text" formControlName="firstname"
                       [ngClass]="{'is-invalid': editionForm.get('firstname').errors && editionForm.get('firstname').dirty, 'is-valid': editionForm.get('firstname').valid && editionForm.get('firstname').dirty}"
                       class="form-control" placeholder="{{'GEN_LBL_FIRSTNAME' | translate}}">
@@ -99,11 +99,11 @@
                 </div>
 
                 <div class="form-group row">
-                  <label for="lastname" class="col-sm-2 col-form-label">{{'GEN_LBL_LASTNAME' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label for="lastname" class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_LASTNAME' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="text" formControlName="lastname"
                       [ngClass]="{'is-invalid': editionForm.get('lastname').errors && editionForm.get('lastname').dirty, 'is-valid': editionForm.get('lastname').valid && editionForm.get('lastname').dirty}"
-                      class="form-control requiredField" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
+                      class="form-control" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
                     <div class="invalid-feedback" *ngIf="!editionForm.get('username').errors?.pattern">
                       {{'ERR_LASTNAME_REQUIRED' | translate}}</div>
                     <div class="invalid-feedback" *ngIf="editionForm.get('username').errors?.pattern">
@@ -114,8 +114,8 @@
                 <hr>
 
                 <div class="form-group row">
-                  <label for="dateOfBirth" class="col-sm-4 col-form-label requiredField">{{'GEN_LBL_BIRTHDATE' | translate}}</label>
-                  <div class="col-sm-8">
+                  <label for="dateOfBirth" class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_BIRTHDATE' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="text" formControlName="dateOfBirth" placeholder="{{'GEN_LBL_BIRTHDATE' | translate}}"
                       [ngClass]="{'is-invalid': editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty 
                                   || editionForm.hasError('underage'), 'is-valid': editionForm.get('dateOfBirth').valid && !editionForm.hasError('underage') && editionForm.get('dateOfBirth').dirty}"
@@ -132,8 +132,8 @@
                 <hr>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_ADDRESS' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label class="col-sm-3 col-form-label">{{'GEN_LBL_ADDRESS' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('address').errors && editionForm.get('address').dirty,'is-valid': editionForm.get('address').valid && editionForm.get('address').dirty}"
                       formControlName="address" placeholder="{{'GEN_LBL_ADDRESS' | translate}}" class="form-control">
@@ -143,8 +143,8 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_CITY' | translate}}</label>
-                  <div class="col-sm-5">
+                  <label class="col-sm-3 col-form-label">{{'GEN_LBL_CITY' | translate}}</label>
+                  <div class="col-sm-4">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('city').errors && editionForm.get('city').dirty, 'is-valid': editionForm.get('city').valid && editionForm.get('city').dirty}"
                       formControlName="city" placeholder="{{'GEN_LBL_CITY' | translate}}" class="form-control">
@@ -164,8 +164,8 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_EMAIL' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_EMAIL' | translate}}</label>
+                  <div class="col-sm-7">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
                       formControlName="email" placeholder="{{'GEN_LBL_EMAIL' | translate}}" class="form-control">
@@ -177,8 +177,8 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
-                  <div class="col-sm-10">
+                  <label class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
+                  <div class="col-sm-9">
                     <input type="tel" formControlName="phonenumber"
                       [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
                       placeholder="{{'GEN_LBL_MOBILE_PHONE' | translate}}" class="form-control">
@@ -347,7 +347,7 @@
               <hr>
 
               <form [formGroup]="securityForm" (ngSubmit)="updateSecurity()">
-                <div class="col-sm-7 mx-auto">
+                <div class="col-sm-8 mx-auto">
                   <div class="form-group row">
                     <label class="col-sm-5 col-form-label requiredField">{{'GEN_LBL_CURRENT_PASSWORD' | translate}}</label>
                     <div class="col-sm-7">
