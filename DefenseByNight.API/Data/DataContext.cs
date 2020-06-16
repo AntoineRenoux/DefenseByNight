@@ -12,6 +12,7 @@ namespace DefenseByNight.API.Data
         public DbSet<Photo> Photos { get; set; }
         public DbSet<Traduction> Traductions { get; set; }
         public DbSet<Health> Health { get; set; }
+        public DbSet<Reference> References { get; set; }
 
         #region Game
         public DbSet<Affiliate> Affiliates { get; set; }

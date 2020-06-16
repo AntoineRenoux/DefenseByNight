@@ -90,11 +90,11 @@ namespace DefenseByNight.API.Data.Repository
 
         public async Task<bool> ChangePasswordAsync(string userId, UserChangePasswordDto userChangePasswordDto)
         {
-            var user = await _userManager.FindByIdAsync(userId);
+            var user = _userManager.FindByIdAsync(userId).Result;
 
-            var connexion = await _signInManager.CheckPasswordSignInAsync(user, userChangePasswordDto.CurrentPassword, false);
+            var connexion = await _userManager.CheckPasswordAsync(user, userChangePasswordDto.CurrentPassword);
 
-            if (connexion.Succeeded)
+            if (connexion)
             {
                 var result = await _userManager.ChangePasswordAsync(user, userChangePasswordDto.CurrentPassword, userChangePasswordDto.NewPassword);
                 return result.Succeeded;

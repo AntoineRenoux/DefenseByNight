@@ -26,6 +26,7 @@ namespace DefenseByNight.API
                     var userService = services.GetRequiredService<UserManager<User>>();
                     var roleService = services.GetRequiredService<RoleManager<Role>>();
                     context.Database.Migrate();
+                    Seed.SeedReferences(context);
                     Seed.SeedTraductions(context);
                     Seed.SeedUsers(userService, roleService);
                     Seed.SeedAffiliate(context);

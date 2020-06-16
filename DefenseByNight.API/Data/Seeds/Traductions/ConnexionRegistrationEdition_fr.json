@@ -117,7 +117,7 @@
   },
   {
     "Key": "ERR_FIRSTNAME_INCORRECT",
-    "Text": "Le prénom est incorrect."
+    "Text": "Le prénom est incorrect. Seules les lettres majuscules et minuscules ainsi que '-' ou l'espace ne sont acceptés."
   },
   {
     "Key": "ERR_LASTNAME_REQUIRED",
@@ -125,11 +125,23 @@
   },
   {
     "Key": "ERR_LASTNAME_INCORRECT",
-    "Text": "Le nom de famille est incorrect."
+    "Text": "Le nom de famille est incorrect. Seules les lettres majuscules et minuscules ainsi que '-' ou l'espace ne sont acceptés."
   },
   {
     "Key": "ERR_USERNAME_REQUIRED",
     "Text": "Le pseudo est obligatoire !"
+  },
+  {
+    "Key": "ERR_USERNAME_INCORRECT",
+    "Text": "Le pseudo est incorrect. Vous ne pouvez utiliser que les lettres majuscules et minuscules, les chiffres, les espaces, '-' et '_' pour vous faire un pseudo. Il doit être compris entre 2 et 20 carractères."
+  },
+  {
+    "Key": "ERR_ADDRESS_REQUIRED",
+    "Text": "Votre addresse est incorrect."
+  },
+  {
+    "Key": "ERR_TEXT_INCORRECT",
+    "Text": "Votre saisie est incorrect."
   },
   {
     "Key": "ERR_EMAIL_REQUIRED",

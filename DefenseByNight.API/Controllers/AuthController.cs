@@ -95,9 +95,9 @@ namespace DefenseByNight.API.Controllers
             var success = await _authRepository.ChangePasswordAsync(userId, _mapper.Map<UserChangePasswordDto>(changePasswordViewModel));
 
             if (!success)
-                return BadRequest();
+                return BadRequest("ERR_CHANGING_PASSWORD");
 
-            return Ok("SUCCESS_CHANGE_PASSWORD");
+            return Ok();
 
         }
 

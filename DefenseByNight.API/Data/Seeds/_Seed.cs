@@ -17,6 +17,23 @@ namespace DefenseByNight.API.Data.Seeds
 
     public class Seed
     {
+        public static void SeedReferences(DataContext context)
+        {
+            if (!context.References.Any())
+            {
+                var allRegerenceFiles = new string[]
+                {
+                    "Data/Seeds/References/Configuration.json"
+                };
+
+                foreach (var file in allRegerenceFiles)
+                {
+                    context.References.AddRange(JsonConvert.DeserializeObject<List<Reference>>(System.IO.File.ReadAllText(file)));
+                }
+                context.SaveChanges();
+            }
+        }
+
         public static void SeedTraductions(DataContext context)
         {
             if (!context.Traductions.Any())
