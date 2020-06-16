@@ -2,18 +2,18 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" *ngIf="loggedIn()"
+    <a class="navbar-brand" *ngIf="loggedIn()" dbnNavigationPile
       [routerLink]="['dashboard/home']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
-    <a class="navbar-brand" *ngIf="!loggedIn()"
+    <a class="navbar-brand" *ngIf="!loggedIn()" dbnNavigationPile
       [routerLink]="['dashboard/anonyme']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
-      <span dropdown>
-        <div class="navbox">
-          <a href id="basic-link" dropdownToggle (click)="false"
-            aria-controls="basic-link-dropdown"><img src="{{userService.currentUser.photo.url}}" class="nav-bar">
+      <span dropdown class="navbox" dbnNavigationPile>
+        <span>
+          <a href id="basic-link" dropdownToggle (click)="false" aria-controls="basic-link-dropdown"><img
+              src="{{userService.currentUser.photo.url}}" class="nav-bar">
             {{ authService.decodedToken?.unique_name | titlecase }}</a>
-        </div>
+        </span>
         <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
           aria-labelledby="basic-link">
           <li role="menuitem">
@@ -29,10 +29,10 @@
     </div>
 
     <div *ngIf="!loggedIn()">
-      <span class="mr-2">
+      <span class="mr-2 navbox" dbnNavigationPile>
         <a [routerLink]="['user/register']">{{ 'GEN_LBL_REGISTRATION' | translate }}</a>
       </span>
-      <span class="mr-2">
+      <span class="mr-2 navbox" dbnNavigationPile>
         <a [routerLink]="['user/connexion']">{{ 'GEN_LBL_LOG_IN' | translate }}</a>
       </span>
     </div>

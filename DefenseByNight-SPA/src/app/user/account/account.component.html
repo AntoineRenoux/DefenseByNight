@@ -73,7 +73,7 @@
               <form [formGroup]="editionForm" (ngSubmit)="updateUser()">
 
                 <div class="form-group row">
-                  <label for="username" class="col-sm-2 col-form-label">{{'GEN_LBL_PSEUDO' | translate}}</label>
+                  <label for="username" class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_PSEUDO' | translate}}</label>
                   <div class="col-sm-10">
                     <input type="text" formControlName="username"
                       [ngClass]="{'is-invalid': editionForm.get('username').errors && editionForm.get('username').dirty, 'is-valid': editionForm.get('username').valid && editionForm.get('username').dirty}"
@@ -86,7 +86,7 @@
                 </div>
 
                 <div class="form-group row">
-                  <label for="firstname" class="col-sm-2 col-form-label">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
+                  <label for="firstname" class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_FIRSTNAME' | translate}}</label>
                   <div class="col-sm-10">
                     <input type="text" formControlName="firstname"
                       [ngClass]="{'is-invalid': editionForm.get('firstname').errors && editionForm.get('firstname').dirty, 'is-valid': editionForm.get('firstname').valid && editionForm.get('firstname').dirty}"
@@ -103,7 +103,7 @@
                   <div class="col-sm-10">
                     <input type="text" formControlName="lastname"
                       [ngClass]="{'is-invalid': editionForm.get('lastname').errors && editionForm.get('lastname').dirty, 'is-valid': editionForm.get('lastname').valid && editionForm.get('lastname').dirty}"
-                      class="form-control" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
+                      class="form-control requiredField" placeholder="{{'GEN_LBL_LASTNAME' | translate}}">
                     <div class="invalid-feedback" *ngIf="!editionForm.get('username').errors?.pattern">
                       {{'ERR_LASTNAME_REQUIRED' | translate}}</div>
                     <div class="invalid-feedback" *ngIf="editionForm.get('username').errors?.pattern">
@@ -114,7 +114,7 @@
                 <hr>
 
                 <div class="form-group row">
-                  <label for="dateOfBirth" class="col-sm-4 col-form-label">{{'GEN_LBL_BIRTHDATE' | translate}}</label>
+                  <label for="dateOfBirth" class="col-sm-4 col-form-label requiredField">{{'GEN_LBL_BIRTHDATE' | translate}}</label>
                   <div class="col-sm-8">
                     <input type="text" formControlName="dateOfBirth" placeholder="{{'GEN_LBL_BIRTHDATE' | translate}}"
                       [ngClass]="{'is-invalid': editionForm.get('dateOfBirth').errors && editionForm.get('dateOfBirth').dirty 
@@ -164,7 +164,7 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_EMAIL' | translate}}</label>
+                  <label class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_EMAIL' | translate}}</label>
                   <div class="col-sm-10">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
@@ -177,7 +177,7 @@
                 </div>
 
                 <div class="form-group row">
-                  <label class="col-sm-2 col-form-label">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
+                  <label class="col-sm-2 col-form-label requiredField">{{'GEN_LBL_MOBILE_PHONE' | translate}}</label>
                   <div class="col-sm-10">
                     <input type="tel" formControlName="phonenumber"
                       [ngClass]="{'is-invalid': editionForm.get('phonenumber').errors && editionForm.get('phonenumber').dirty, 'is-valid': editionForm.get('phonenumber').valid && editionForm.get('phonenumber').dirty}"
@@ -349,7 +349,7 @@
               <form [formGroup]="securityForm" (ngSubmit)="updateSecurity()">
                 <div class="col-sm-7 mx-auto">
                   <div class="form-group row">
-                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_CURRENT_PASSWORD' | translate}}</label>
+                    <label class="col-sm-5 col-form-label requiredField">{{'GEN_LBL_CURRENT_PASSWORD' | translate}}</label>
                     <div class="col-sm-7">
                       <input type="password" class="form-control" formControlName="currentPassword">
                       <div class="invalid-feedback"
@@ -359,7 +359,7 @@
                   </div>
 
                   <div class="form-group row">
-                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_NEW_PASSWORD' | translate}}</label>
+                    <label class="col-sm-5 col-form-label requiredField">{{'GEN_LBL_NEW_PASSWORD' | translate}}</label>
                     <div class="col-sm-7">
                       <input type="password" class="form-control" formControlName="newPassword">
                     </div>
@@ -372,7 +372,7 @@
                   </div>
 
                   <div class="form-group row">
-                    <label class="col-sm-5 col-form-label">{{'GEN_LBL_CONFIRM_NEW_PASSWORD' | translate}}</label>
+                    <label class="col-sm-5 col-form-label requiredField">{{'GEN_LBL_CONFIRM_NEW_PASSWORD' | translate}}</label>
                     <div class="col-sm-7">
                       <input type="password" class="form-control" formControlName="confirmPassword">
                     </div>

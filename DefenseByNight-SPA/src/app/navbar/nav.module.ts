@@ -8,7 +8,6 @@ import { LanguageService, defaultLanguage } from '../_services/language.service'
 import { HttpLoaderFactory } from '../app.module';
 import { NavComponent } from './nav/nav.component';
 
-
 @NgModule({
     declarations: [
         NavComponent

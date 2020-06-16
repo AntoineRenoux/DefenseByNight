@@ -10,6 +10,12 @@ nav a {
 
 .navbox:hover {
   cursor: pointer;
+  padding-bottom: 14px;
+  border-bottom: 3px solid red;
+}
+
+.navbox.active {
+  padding-bottom: 14px;
   border-bottom: 3px solid red;
 }
 

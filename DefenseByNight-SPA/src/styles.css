@@ -11,3 +11,9 @@
 .fix-center {
     padding-bottom: 5em;
 }
+
+.requiredField::after {
+    content: "*";
+    color: red;
+    padding-left: 3px;
+}

@@ -19,6 +19,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './navbar/nav/nav.component';
 import { LanguageService, defaultLanguage } from './_services/language.service';
 import { AppRoutingModule } from './app-routing.module';
+import { NavigationPileDirective } from './_directives/navigation-pile.directive';
 
 registerLocaleData(localeFr, 'fr-FR', localeFrExtra);
 
@@ -45,7 +46,8 @@ export function HttpLoaderFactory(langService: LanguageService) {
 @NgModule({
    declarations: [
       AppComponent,
-      NavComponent
+      NavComponent,
+      NavigationPileDirective
    ],
    imports: [
       BrowserModule,
