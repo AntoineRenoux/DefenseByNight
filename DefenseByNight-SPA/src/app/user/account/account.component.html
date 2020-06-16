@@ -165,7 +165,7 @@
 
                 <div class="form-group row">
                   <label class="col-sm-3 col-form-label requiredField">{{'GEN_LBL_EMAIL' | translate}}</label>
-                  <div class="col-sm-7">
+                  <div class="col-sm-9">
                     <input type="text"
                       [ngClass]="{'is-invalid': editionForm.get('email').errors && editionForm.get('email').dirty, 'is-valid': editionForm.get('email').valid && editionForm.get('email').dirty}"
                       formControlName="email" placeholder="{{'GEN_LBL_EMAIL' | translate}}" class="form-control">
@@ -192,13 +192,11 @@
                 <hr>
 
                 <div class="row">
-                  <div class="col-sm-12">
-                    <div class="float-right">
+                  <div class="col-sm-12 text-center">
                       <button type="submit" [disabled]='!editionForm.valid || !editionForm.dirty'
-                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
-                      <button type="button" class="btn btn-danger"
+                        class="btn btn-success col-sm-5 mr-2">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger col-sm-5"
                         (click)="createEditionForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
-                    </div>
                   </div>
                 </div>
 
@@ -262,13 +260,11 @@
                 <hr>
 
                 <div class="row">
-                  <div class="col-sm-12">
-                    <div class="float-right">
+                  <div class="col-sm-12 text-center">
                       <button type="submit" [disabled]='!contactForm.valid || !contactForm.dirty'
-                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
-                      <button type="button" class="btn btn-danger"
+                        class="btn btn-success col-sm-5 mr-2">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger col-sm-5"
                         (click)="createContactForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
-                    </div>
                   </div>
                 </div>
               </form>
@@ -385,15 +381,15 @@
                   </div>
                 </div>
 
+                <hr>
+
                 <div class="row">
-                  <div class="col-sm-12">
-                    <div class="float-right">
+                  <div class="col-sm-12 text-center">
                       <button type="submit" [disabled]='!securityForm.valid || !securityForm.dirty'
-                        class="btn btn-success">{{'GEN_LBL_SAVE' | translate}}</button>
-                      <button type="button" class="btn btn-danger"
+                        class="btn btn-success col-sm-5 mr-2">{{'GEN_LBL_SAVE' | translate}}</button>
+                      <button type="button" class="btn btn-danger col-sm-5"
                         (click)="createContactForm()">{{'GEN_LBL_CANCEL' | translate}}</button>
                     </div>
-                  </div>
                 </div>
               </form>
 
