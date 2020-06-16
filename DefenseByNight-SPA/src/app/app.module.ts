@@ -9,17 +9,14 @@ import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
 import localeFrExtra from '@angular/common/locales/extra/fr';
 import { JwtModule } from '@auth0/angular-jwt';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { TranslateLoader } from '@ngx-translate/core';
-import { Observable } from 'rxjs';
 import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './navbar/nav/nav.component';
-import { LanguageService, defaultLanguage } from './_services/language.service';
+import { LanguageService, defaultLanguage, HttpLoaderFactory } from './_services/language.service';
 import { AppRoutingModule } from './app-routing.module';
-import { NavigationPileDirective } from './_directives/navigation-pile.directive';
+import { NavModule } from './navbar/nav.module';
 
 registerLocaleData(localeFr, 'fr-FR', localeFrExtra);
 
@@ -27,36 +24,18 @@ export function tokenGetter() {
    return localStorage.getItem('token');
 }
 
-export class TranslationLoader implements TranslateLoader {
-   constructor(private langService: LanguageService) { }
-
-   getTranslation(lang: string): Observable<any> {
-       return this.langService.getTranslate(lang);
-   }
-
-   getCurrentLang(): any {
-      return this.langService.getCurrentLang();
-   }
-}
-
-export function HttpLoaderFactory(langService: LanguageService) {
-   return new TranslationLoader(langService);
-}
-
 @NgModule({
    declarations: [
-      AppComponent,
-      NavComponent,
-      NavigationPileDirective
+      AppComponent
    ],
    imports: [
+      NavModule,
       BrowserModule,
       FormsModule,
       AppRoutingModule,
       TooltipModule.forRoot(),
       HttpClientModule,
       BrowserAnimationsModule,
-      BsDropdownModule.forRoot(),
       JwtModule.forRoot({
          config: {
             tokenGetter,

@@ -5,6 +5,23 @@ import { Observable } from 'rxjs';
 
 import { defineLocale } from 'ngx-bootstrap/chronos';
 import { frLocale } from 'ngx-bootstrap/locale';
+import { TranslateLoader } from '@ngx-translate/core';
+
+export class TranslationLoader implements TranslateLoader {
+  constructor(private langService: LanguageService) { }
+
+  getTranslation(lang: string): Observable<any> {
+      return this.langService.getTranslate(lang);
+  }
+
+  getCurrentLang(): any {
+     return this.langService.getCurrentLang();
+  }
+}
+
+export function HttpLoaderFactory(langService: LanguageService) {
+  return new TranslationLoader(langService);
+}
 
 export const defaultLanguage: any = 'fr';
 defineLocale(defaultLanguage, frLocale);
