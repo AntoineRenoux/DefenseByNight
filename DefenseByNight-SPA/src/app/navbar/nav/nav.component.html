@@ -1,4 +1,6 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<img class="img-fluid" src="{{banner}}" alt="banner">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" *ngIf="loggedIn()"
       [routerLink]="['dashboard/home']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
@@ -7,9 +9,10 @@
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
       <span dropdown>
-        <div class="account-name">
+        <div class="navbox">
           <a href id="basic-link" dropdownToggle (click)="false"
-            aria-controls="basic-link-dropdown"><img src="{{userService.currentUser.photo.url}}" class="nav-bar account-name">{{ authService.decodedToken?.unique_name | titlecase }}</a>
+            aria-controls="basic-link-dropdown"><img src="{{userService.currentUser.photo.url}}" class="nav-bar">
+            {{ authService.decodedToken?.unique_name | titlecase }}</a>
         </div>
         <ul id="basic-link-dropdown" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
           aria-labelledby="basic-link">

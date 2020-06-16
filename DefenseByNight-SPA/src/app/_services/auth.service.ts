@@ -49,7 +49,6 @@ export class AuthService {
   }
 
   changePassword(model: Security) {
-    debugger;
     return this.http.post(this.baseUrl + this.userService.currentUser.id, model);
   }
 

@@ -28,7 +28,8 @@
                         <input type="text" formControlName="username"
                             [ngClass]="{'is-invalid': registerForm.get('username').errors && registerForm.get('username').touched, 'is-valid': registerForm.get('username').valid}"
                             class="form-control" placeholder="{{'GEN_LBL_PSEUDO' | translate}}">
-                        <div class="invalid-feedback">{{'ERR_USERNAME_REQUIRED' | translate}}</div>
+                        <div class="invalid-feedback" *ngIf="!registerForm.get('username').errors?.pattern">{{'ERR_USERNAME_REQUIRED' | translate}}</div>
+                        <div class="invalid-feedback" *ngIf="registerForm.get('username').errors?.pattern">{{'ERR_USERNAME_INCORRECT' | translate}}</div>
                     </div>
 
                     <div class="form-group">

@@ -5,6 +5,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { AuthService } from '../../_services/auth.service';
 import { ToasterService } from '../../_services/toaster.service';
 import { UserService } from 'src/app/_services/user.service';
+import { ReferencesService } from 'src/app/_services/references.service';
 
 @Component({
   selector: 'app-nav',
@@ -13,14 +14,20 @@ import { UserService } from 'src/app/_services/user.service';
 })
 export class NavComponent implements OnInit {
 
+  public banner: any;
+
   // tslint:disable-next-line: max-line-length
   constructor(public authService: AuthService,
               private toaster: ToasterService,
-              private router: Router,
+              public router: Router,
               private translate: TranslateService,
-              public userService: UserService) { }
+              public userService: UserService,
+              private refService: ReferencesService) { }
 
   ngOnInit(): void {
+    this.refService.getBanner().subscribe((res) => {
+      this.banner = res.value;
+    });
   }
 
   loggedIn() {

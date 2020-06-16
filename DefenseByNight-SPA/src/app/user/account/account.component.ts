@@ -40,13 +40,13 @@ export class AccountComponent implements OnInit {
   locales = listLocales();
 
   constructor(public userService: UserService,
-              private localeService: BsLocaleService,
-              private langService: LanguageService,
-              private fb: FormBuilder,
-              private toaster: ToasterService,
-              private translate: TranslateService,
-              private authService: AuthService,
-              private validatorService: ValidatorService) { }
+    private localeService: BsLocaleService,
+    private langService: LanguageService,
+    private fb: FormBuilder,
+    private toaster: ToasterService,
+    private translate: TranslateService,
+    private authService: AuthService,
+    private validatorService: ValidatorService) { }
 
   ngOnInit() {
     this.createEditionForm();
@@ -72,38 +72,8 @@ export class AccountComponent implements OnInit {
     };
   }
 
-  createSecurityForm() {
-    this.securityForm = this.fb.group({
-      currentPassword: ['', Validators.required],
-      newPassword: ['', [Validators.required, Validators.minLength(8)]],
-      confirmPassword: ['', [Validators.required]]
-    }, this.validatorService.passwordMatchValidator);
-  }
-
-  createContactForm() {
-    this.contactForm = this.fb.group({
-      allergies: [this.userService.currentUser.health?.allergies, null],
-      firstnameContact: [this.userService.currentUser.health?.contactFirstName, Validators.required],
-      lastnameContact: [this.userService.currentUser.health?.contactLastName, Validators.required],
-      phonenumberContact: [this.userService.currentUser.health?.phoneNumber, [Validators.required, Validators.minLength(10)
-        , Validators.maxLength(10), Validators.pattern(this.validatorService.phoneNumberRegex)]]
-    });
-  }
-
-  createEditionForm() {
-    this.editionForm = this.fb.group({
-      username: [this.userService.currentUser.userName, Validators.required],
-      firstname: [this.userService.currentUser.firstName, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
-      lastname: [this.userService.currentUser.lastName, [Validators.required, Validators.pattern(this.validatorService.lastNameRegex)]],
-      dateOfBirth: [new Date(this.userService.currentUser.birthDate), Validators.required],
-      // tslint:disable-next-line: max-line-length
-      email: [this.userService.currentUser.email, [Validators.required, Validators.email, Validators.pattern(this.validatorService.emailRegex)]],
-      // tslint:disable-next-line: max-line-length
-      phonenumber: [this.userService.currentUser.phoneNumber, [Validators.required, Validators.pattern(this.validatorService.phoneNumberRegex)]],
-      city: [this.userService.currentUser.city],
-      address: [this.userService.currentUser.address, null],
-      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.validatorService.zipCodeRegex)]
-    }, { validators: [this.validatorService.userMustBeMajor], updateOn: 'blur' });
+  public fileOverBase(e: any): void {
+    this.hasBaseDropZoneOver = e;
   }
 
   initializeUploader() {
@@ -135,25 +105,40 @@ export class AccountComponent implements OnInit {
     };
   }
 
-  public fileOverBase(e: any): void {
-    this.hasBaseDropZoneOver = e;
+  createEditionForm() {
+    this.editionForm = this.fb.group({
+      username: [this.userService.currentUser.userName, [Validators.required, Validators.pattern(this.validatorService.userNameRegex)]],
+      firstname: [this.userService.currentUser.firstName, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
+      lastname: [this.userService.currentUser.lastName, [Validators.required, Validators.pattern(this.validatorService.lastNameRegex)]],
+      dateOfBirth: [new Date(this.userService.currentUser.birthDate), Validators.required],
+      email: [this.userService.currentUser.email, [Validators.required, Validators.email
+        , Validators.pattern(this.validatorService.emailRegex)]],
+      phonenumber: [this.userService.currentUser.phoneNumber
+        , [Validators.required, Validators.pattern(this.validatorService.phoneNumberRegex)]],
+      city: [this.userService.currentUser.city, Validators.pattern(this.validatorService.cityRegex)],
+      address: [this.userService.currentUser.address, Validators.pattern(this.validatorService.addressRegex)],
+      zipcode: [this.userService.currentUser.zipcode, Validators.pattern(this.validatorService.zipCodeRegex)]
+    }, { validators: [this.validatorService.userMustBeMajor], updateOn: 'blur' });
   }
 
-  updateHealth() {
-    const health = new Health();
-
-    health.allergies = this.contactForm.get('allergies').value;
-    health.contactFirstName = this.contactForm.get('firstnameContact').value;
-    health.contactLastName = this.contactForm.get('lastnameContact').value;
-    health.phoneNumber = this.contactForm.get('phonenumberContact').value;
-
-    this.userService.editHealth(health).subscribe(() => {
-      this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
-        this.toaster.success(res);
-      }, () => { }, () => {
-        this.createContactForm();
-      });
+  createContactForm() {
+    this.contactForm = this.fb.group({
+      allergies: [this.userService.currentUser.health?.allergies, null],
+      firstnameContact: [this.userService.currentUser.health?.contactFirstName, [Validators.required
+        , Validators.pattern(this.validatorService.firstNameRegex)]],
+      lastnameContact: [this.userService.currentUser.health?.contactLastName
+        , [Validators.required, Validators.pattern(this.validatorService.lastNameRegex)]],
+      phonenumberContact: [this.userService.currentUser.health?.phoneNumber,
+      [Validators.required, Validators.pattern(this.validatorService.phoneNumberRegex)]]
     });
+  }
+
+  createSecurityForm() {
+    this.securityForm = this.fb.group({
+      currentPassword: ['', Validators.required],
+      newPassword: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(40)]],
+      confirmPassword: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(40)]]
+    }, this.validatorService.changedPasswordMatch);
   }
 
   updateUser() {
@@ -183,6 +168,27 @@ export class AccountComponent implements OnInit {
     });
   }
 
+  updateHealth() {
+    const health = new Health();
+
+    health.allergies = this.contactForm.get('allergies').value;
+    health.contactFirstName = this.contactForm.get('firstnameContact').value;
+    health.contactLastName = this.contactForm.get('lastnameContact').value;
+    health.phoneNumber = this.contactForm.get('phonenumberContact').value;
+
+    this.userService.editHealth(health).subscribe(() => {
+      this.translate.get('SUCCESS_SAVE').subscribe((res: string) => {
+        this.toaster.success(res);
+      }, (error) => {
+        this.translate.get(error.error).subscribe((res: string) => {
+          this.toaster.error(res);
+        });
+      }, () => {
+        this.createContactForm();
+      });
+    });
+  }
+
   updateSecurity() {
     const model = new Security();
 
@@ -195,9 +201,8 @@ export class AccountComponent implements OnInit {
         this.toaster.success(res);
       });
     }, (error) => {
-      this.translate.get('ERR_CHANGING_PASSWORD').subscribe((res: string) => {
+      this.translate.get(error.error).subscribe((res: string) => {
         this.toaster.error(res);
-        console.log(error);
       });
     });
   }
