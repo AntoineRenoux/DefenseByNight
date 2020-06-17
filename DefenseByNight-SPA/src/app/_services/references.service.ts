@@ -16,4 +16,8 @@ export class ReferencesService {
     return this.http.get<any>(this.baseUrl + '/getbanner');
   }
 
+  getLogo(): Observable<any> {
+    return this.http.get<any>(this.baseUrl + '/getlogo');
+  }
+
 }

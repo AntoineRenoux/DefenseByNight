@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" *ngIf="loggedIn()" dbnNavigationPile
+    <a class="navbar-brand" *ngIf="loggedIn()" dbnNavigationPile (click)='showBanner(true)'
       [routerLink]="['dashboard/home']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
-    <a class="navbar-brand" *ngIf="!loggedIn()" dbnNavigationPile
+    <a class="navbar-brand" *ngIf="!loggedIn()" dbnNavigationPile (click)='showBanner(true)'
       [routerLink]="['dashboard/anonyme']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
@@ -27,10 +27,10 @@
     </div>
 
     <div *ngIf="!loggedIn()">
-      <span class="mr-2 navbox" dbnNavigationPile>
+      <span class="mr-2 navbox" dbnNavigationPile (click)='showBanner(false)'>
         <a [routerLink]="['user/register']">{{ 'GEN_LBL_REGISTRATION' | translate }}</a>
       </span>
-      <span class="mr-2 navbox" dbnNavigationPile>
+      <span class="mr-2 navbox" dbnNavigationPile (click)='showBanner(false)'>
         <a [routerLink]="['user/connexion']">{{ 'GEN_LBL_LOG_IN' | translate }}</a>
       </span>
     </div>

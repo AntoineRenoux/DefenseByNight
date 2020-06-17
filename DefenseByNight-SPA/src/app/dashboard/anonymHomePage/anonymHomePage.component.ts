@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ReferencesService } from 'src/app/_services/references.service';
 
 @Component({
   selector: 'app-anonymhomepage',
@@ -7,11 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnonymHomePageComponent implements OnInit {
 
-  public banner: any;
+  logo: any;
 
-  constructor() { }
+  constructor(private ressourceService: ReferencesService) { }
 
   ngOnInit() {
+    this.ressourceService.getLogo().subscribe(logo => {
+      this.logo = logo.value;
+    });
   }
 
 }

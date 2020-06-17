@@ -2,5 +2,9 @@
     {
         "Key": "BANNER",
         "Value": "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1592250738/banniere_wle01f.jpg"
+    },
+    {
+        "Key": "LOGO",
+        "Value": "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1592423087/bannerYs_tkrmdn.jpg"
     }
 ]

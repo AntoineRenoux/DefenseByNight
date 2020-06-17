@@ -31,5 +31,16 @@ namespace DefenseByNight.API.Controllers
 
             return BadRequest();
         }
+
+        [HttpGet("GetLogo")]
+        public async Task<IActionResult> GetLogo()
+        {
+            var reference = await _referenceRepository.GetReference(EnumReference.EnumLogo);
+
+            if(reference != null)
+                return Ok(reference);
+
+            return BadRequest();
+        }
     }
 }
