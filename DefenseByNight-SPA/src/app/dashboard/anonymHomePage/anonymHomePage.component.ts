@@ -13,7 +13,7 @@ export class AnonymHomePageComponent implements OnInit {
   constructor(private ressourceService: ReferencesService) { }
 
   ngOnInit() {
-    this.ressourceService.getLogo().subscribe(logo => {
+    this.ressourceService.getReference('LOGO').subscribe(logo => {
       this.logo = logo.value;
     });
   }

@@ -13,7 +13,7 @@ export class BannerComponent implements OnInit {
   constructor(private refService: ReferencesService) { }
 
   ngOnInit() {
-    this.refService.getBanner().subscribe((res) => {
+    this.refService.getReference('BANNER').subscribe((res) => {
       this.banner = res.value;
     });
   }

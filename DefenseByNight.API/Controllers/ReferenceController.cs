@@ -10,7 +10,7 @@ namespace DefenseByNight.API.Controllers
     [ApiController]
     [Route("api/Reference")]
     [AllowAnonymous]
-    public class ReferenceController: ControllerBase
+    public class ReferenceController : ControllerBase
     {
         private readonly IReferenceRepository _referenceRepository;
         private readonly IMapper _mapper;
@@ -21,23 +21,12 @@ namespace DefenseByNight.API.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("GetBanner")]
-        public async Task<IActionResult> GetBanner()
+        [HttpGet("{key}")]
+        public async Task<IActionResult> GetReference(string key)
         {
-            var reference = await _referenceRepository.GetReference(EnumReference.EnumBanner);
+            var reference = await _referenceRepository.GetReference(key);
 
-            if(reference != null)
-                return Ok(reference);
-
-            return BadRequest();
-        }
-
-        [HttpGet("GetLogo")]
-        public async Task<IActionResult> GetLogo()
-        {
-            var reference = await _referenceRepository.GetReference(EnumReference.EnumLogo);
-
-            if(reference != null)
+            if (reference != null)
                 return Ok(reference);
 
             return BadRequest();

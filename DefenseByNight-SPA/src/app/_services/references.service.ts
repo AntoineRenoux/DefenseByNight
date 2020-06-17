@@ -8,16 +8,11 @@ import { Observable } from 'rxjs';
 })
 export class ReferencesService {
 
-  private baseUrl = environment.apiUrl + 'reference';
+  private baseUrl = environment.apiUrl + 'reference/';
 
   constructor(private http: HttpClient) { }
 
-  getBanner(): Observable<any> {
-    return this.http.get<any>(this.baseUrl + '/getbanner');
+  getReference(key: string) {
+    return this.http.get<any>(this.baseUrl + key);
   }
-
-  getLogo(): Observable<any> {
-    return this.http.get<any>(this.baseUrl + '/getlogo');
-  }
-
 }
