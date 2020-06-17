@@ -13,8 +13,6 @@ import { UserService } from 'src/app/_services/user.service';
 })
 export class NavComponent implements OnInit {
 
-  @Output() toggleBanner = new EventEmitter<boolean>();
-
   // tslint:disable-next-line: max-line-length
   constructor(public authService: AuthService,
               private toaster: ToasterService,
@@ -23,10 +21,6 @@ export class NavComponent implements OnInit {
               public userService: UserService) { }
 
   ngOnInit(): void {
-  }
-
-  showBanner(show: boolean) {
-    this.toggleBanner.emit(show);
   }
 
   loggedIn() {
@@ -42,6 +36,5 @@ export class NavComponent implements OnInit {
     this.translate.get('GEN_LBL_DISCONNECT').subscribe((res: string) => {
       this.toaster.success(res);
     });
-    this.showBanner(true);
   }
 }

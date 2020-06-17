@@ -12,9 +12,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   jwtHelper = new JwtHelperService();
-  public showBanner = true;
 
-  constructor(private authService: AuthService, private userService: UserService, private route: Router) { }
+  constructor(private authService: AuthService, private userService: UserService) { }
 
   ngOnInit() {
     const token = localStorage.getItem('token');
@@ -26,11 +25,6 @@ export class AppComponent implements OnInit {
     if (user) {
       this.userService.currentUser = user;
     }
-    this.showBanner = window.location.href.includes('dashboard');
-  }
-
-  onToggleBanner(show: boolean) {
-    this.showBanner = show;
   }
 
   loggedId(): boolean {
