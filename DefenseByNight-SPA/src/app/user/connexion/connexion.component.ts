@@ -21,7 +21,7 @@ export class ConnexionComponent implements OnInit {
 
   login() {
     this.authService.login(this.model).subscribe((next) => {
-      this.router.navigate(['dashboard/home']);
+      this.router.navigate(['home/']);
       this.translate.get('SUCCESS_CONNECTED').subscribe((res: string) => {
         this.toaster.success(res);
       });

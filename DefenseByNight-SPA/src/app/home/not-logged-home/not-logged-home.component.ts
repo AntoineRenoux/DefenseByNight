@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ReferencesService } from 'src/app/_services/references.service';
 
 @Component({
-  selector: 'app-anonymhomepage',
-  templateUrl: './anonymHomePage.component.html',
-  styleUrls: ['./anonymHomePage.component.css']
+  selector: 'app-not-logged-home',
+  templateUrl: './not-logged-home.component.html',
+  styleUrls: ['./not-logged-home.component.css']
 })
-export class AnonymHomePageComponent implements OnInit {
+export class NotLoggedHomeComponent implements OnInit {
 
   logo: any;
 

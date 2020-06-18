@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AnonymHomePageComponent } from './anonymHomePage.component';
+import { NotLoggedHomeComponent } from './not-logged-home.component';
 
-describe('AnonymHomePageComponent', () => {
-  let component: AnonymHomePageComponent;
-  let fixture: ComponentFixture<AnonymHomePageComponent>;
+describe('NotLoggedHomeComponent', () => {
+  let component: NotLoggedHomeComponent;
+  let fixture: ComponentFixture<NotLoggedHomeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AnonymHomePageComponent ]
+      declarations: [ NotLoggedHomeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AnonymHomePageComponent);
+    fixture = TestBed.createComponent(NotLoggedHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

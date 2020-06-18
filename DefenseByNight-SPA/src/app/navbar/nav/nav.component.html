@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" *ngIf="loggedIn()" dbnNavigationPile
-      [routerLink]="['dashboard/home']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
+      [routerLink]="['home']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
     <a class="navbar-brand" *ngIf="!loggedIn()" dbnNavigationPile
-      [routerLink]="['dashboard/anonyme']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
+      [routerLink]="['home/anonyme']">{{ 'GEN_LBL_SITE_NAME' | translate }}</a>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
       <span dropdown class="navbox" dbnNavigationPile>

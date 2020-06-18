@@ -10,16 +10,13 @@ import { TranslateService } from '@ngx-translate/core';
 export class AuthGuard implements CanActivate {
 
   // tslint:disable-next-line: max-line-length
-  constructor(private authService: AuthService, private router: Router, private toaster: ToastrService, private translate: TranslateService) { }
+  constructor(private authService: AuthService, private router: Router, private toaster: ToastrService) { }
 
   canActivate(): boolean {
     if (this.authService.loggedIn()) {
       return true;
     }
-    this.translate.get('ERR_NOT_ALLOWED').subscribe((res: string) => {
-      this.toaster.error(res);
-    });
-    this.router.navigate(['dashboard/anonyme']);
+    this.router.navigate(['home/anonymous']);
     return false;
   }
 
