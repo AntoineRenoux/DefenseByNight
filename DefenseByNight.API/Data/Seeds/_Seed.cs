@@ -45,6 +45,7 @@ namespace DefenseByNight.API.Data.Seeds
                         "Data/Seeds/Traductions/General_fr.json",
                         "Data/Seeds/Traductions/NavBar_fr.json",
                         "Data/Seeds/Traductions/ConnexionRegistrationEdition_fr.json",
+                        "Data/Seeds/Traductions/Character_fr.json",
                         "Data/Seeds/Traductions/Roles_fr.json",
                         "Data/Seeds/Traductions/RulesFromGame/Affilifation_fr.json",
                         "Data/Seeds/Traductions/RulesFromGame/Focus_fr.json",

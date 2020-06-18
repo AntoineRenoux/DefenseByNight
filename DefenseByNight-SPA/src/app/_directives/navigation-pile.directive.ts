@@ -9,10 +9,11 @@ export class NavigationPileDirective {
   constructor(private elementRef: ElementRef, private renderer: Renderer2) { }
 
   @HostListener('click') onClick() {
-    const toto = document.getElementsByClassName('navbox active');
-    if (toto.length > 0) {
-      for (let index = 0; index < toto.length; index++) {
-        const element = toto[index];
+    const elem = document.getElementsByClassName('navbox active');
+    if (elem.length > 0) {
+      // tslint:disable-next-line: prefer-for-of
+      for (let index = 0; index < elem.length; index++) {
+        const element = elem[index];
         element.classList.remove('active');
       }
     }
