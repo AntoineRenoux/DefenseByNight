@@ -20,6 +20,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Localization;
+using DefenseByNight.API.Data.Interfaces.IGameRepository;
+using DefenseByNight.API.Data.Repository.GameRepository;
 
 namespace DefenseByNight.API
 {
@@ -112,6 +114,7 @@ namespace DefenseByNight.API
             services.AddScoped<IPhotoRepository, PhotoRepository>();
             services.AddScoped<IHealthRepository, HealthRepository>();
             services.AddScoped<IReferenceRepository, ReferenceRepository>();
+            services.AddScoped<ICharacterRepository, CharacterRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

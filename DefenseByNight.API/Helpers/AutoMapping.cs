@@ -2,6 +2,7 @@ using AutoMapper;
 using DefenseByNight.API.Data.Entities;
 using DefenseByNight.API.Data.Identities;
 using DefenseByNight.API.Dtos;
+using DefenseByNight.API.Dtos.GameDto;
 using DefenseByNight.API.Models;
 
 namespace DefenseByNight.API.Helpers
@@ -73,7 +74,15 @@ namespace DefenseByNight.API.Helpers
             CreateMap<Discipline, DisciplineDto>();
             CreateMap<DisciplineDto, Discipline>();
 
-
+            CreateMap<CharacterDto, Character>();
+            CreateMap<Character, CharacterDto>();
+            CreateMap<CharacterViewModel, CharacterDto>();
+            CreateMap<CharacterDto, CharacterViewModel>();
+              
+            CreateMap<AffiliateDto, Affiliate>();
+            CreateMap<Affiliate, AffiliateDto>();
+            CreateMap<AffiliateViewModel, AffiliateDto>();
+            CreateMap<AffiliateDto, AffiliateViewModel>();
         }
     }
 }

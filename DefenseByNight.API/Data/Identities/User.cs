@@ -23,5 +23,7 @@ namespace DefenseByNight.API.Data.Identities
         public virtual ICollection<UserRole> UserRole { get; set; }
         public Photo Photo { get; set; }
         public Health Health { get; set; }
+
+        public ICollection<Character> Characters {get; set;}
     }
 }

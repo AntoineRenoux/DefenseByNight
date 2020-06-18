@@ -4,14 +4,16 @@ using DefenseByNight.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DefenseByNight.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200618123936_Character")]
+    partial class Character
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -79,7 +81,6 @@ namespace DefenseByNight.API.Migrations
             modelBuilder.Entity("DefenseByNight.API.Data.Entities.Character", b =>
                 {
                     b.Property<string>("CharacterKey")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
@@ -90,14 +91,9 @@ namespace DefenseByNight.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("CharacterKey");
 
                     b.HasIndex("SectAffiliateKey");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Characters");
                 });
@@ -599,10 +595,6 @@ namespace DefenseByNight.API.Migrations
                         .HasForeignKey("SectAffiliateKey")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("DefenseByNight.API.Data.Identities.User", null)
-                        .WithMany("Characters")
-                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("DefenseByNight.API.Data.Entities.Discipline", b =>

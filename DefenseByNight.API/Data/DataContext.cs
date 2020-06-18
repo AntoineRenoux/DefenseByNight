@@ -30,6 +30,9 @@ namespace DefenseByNight.API.Data
         public DbSet<Atout> Atouts { get; set; }
 
         public DbSet<Flaw> Flaws { get; set; }
+
+        public DbSet<Character> Characters {get; set;}
+
         #endregion
 
         protected override void OnModelCreating(ModelBuilder builder)
