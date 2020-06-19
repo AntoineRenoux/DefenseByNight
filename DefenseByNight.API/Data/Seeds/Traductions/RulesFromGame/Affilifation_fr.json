@@ -4,19 +4,39 @@
         "Text": "Camarilla"
     },
     {
+        "Key":"CAMARILLA_DESCRIPTION",
+        "Text": "The Camarilla is the largest of vampiric sects, a loose organization which ostensibly represents and protects all vampires by enforcing and promulgating the Masquerade. It is currently composed of six clans (formerly seven), though officially it considers all Kindred under its purview and welcomes any that obey its laws. In addition to preventing the growing mortals masses from discovering the existence of vampires, the Camarilla aims to maintain the status quo of Kindred society; as such, much of its structure and traditions mirror that of Cainite society in feudal Europe in the Dark Ages, and places it at odds with the agenda of the Sabbat and Anarchs, both of whom seek to overthrow Kindred society."
+    },
+    {
         "Key":"SABBAT",
         "Text": "Sabbat"
     },
     {
+        "Key":"SABBAT_DESCRIPTION",
+        "Text": "The Sabbat is a loose organization of Cainites who reject the Traditions. Unlike the Camarilla, the Sabbat believes in the Antediluvians and Caine. Also known as the Sword of Caine, as they believe they will be the army Caine will use to destroy the Antediluvians once Gehenna arrives."
+    },
+    {
         "Key":"ANARCH",
-        "Text": "Alliance indépendante"
+        "Text": "Anarch"
+    },
+    {
+        "Key":"ANARCH_DESCRIPTION",
+        "Text": "An Anarch Revolt refers to an instance where large numbers of younger vampires rebel against their elders, either because they no longer wish to be manipulated by the older Cainites or they wish to take the elders' power for themselves."
     },
     {
         "Key":"INDEPENDENT_CLAN",
         "Text": "Clan indépendant"
     },
     {
+        "Key":"INDEPENDENT_CLAN_DESCRIPTION",
+        "Text": "The Independent Alliance is an alliance of the Giovanni and the Followers of Set described in Mind's Eye Theatre: Vampire: The Masquerade"
+    },
+    {
         "Key":"INDEPENDENT_ALLIANCE",
-        "Text": "Anarch"
+        "Text": "Alliance indépendante"
+    },
+    {
+        "Key":"INDEPENDENT_ALLIANCE_DESCRIPTION",
+        "Text": "Independent clans are major vampiric clans that claim descent from Caine, but no allegiance to any of the Cainite sects."
     }
 ]

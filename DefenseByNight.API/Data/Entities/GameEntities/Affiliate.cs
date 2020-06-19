@@ -6,5 +6,10 @@ namespace DefenseByNight.API.Data.Entities
     {
         [Key]
         public string AffiliateKey { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
+        public string Logo { get; set; }
     }
 }

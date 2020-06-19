@@ -4,14 +4,16 @@ using DefenseByNight.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DefenseByNight.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200619102133_ChroniclesEdit")]
+    partial class ChroniclesEdit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -89,10 +91,6 @@ namespace DefenseByNight.API.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("ChronicleKey")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -106,8 +104,6 @@ namespace DefenseByNight.API.Migrations
 
                     b.HasKey("CharacterKey");
 
-                    b.HasIndex("ChronicleKey");
-
                     b.HasIndex("SectAffiliateKey");
 
                     b.HasIndex("UserId");
@@ -120,10 +116,6 @@ namespace DefenseByNight.API.Migrations
                     b.Property<string>("ChronicleKey")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("City")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
@@ -632,12 +624,6 @@ namespace DefenseByNight.API.Migrations
 
             modelBuilder.Entity("DefenseByNight.API.Data.Entities.Character", b =>
                 {
-                    b.HasOne("DefenseByNight.API.Data.Entities.Chronicle", "Chronicle")
-                        .WithMany()
-                        .HasForeignKey("ChronicleKey")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("DefenseByNight.API.Data.Entities.Affiliate", "Sect")
                         .WithMany()
                         .HasForeignKey("SectAffiliateKey")

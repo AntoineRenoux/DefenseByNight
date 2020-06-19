@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using DefenseByNight.API.Data.Interfaces.IGameRepository;
-using DefenseByNight.API.Dtos.GameDto;
 using DefenseByNight.API.Models;
 using Microsoft.AspNetCore.Mvc;
 

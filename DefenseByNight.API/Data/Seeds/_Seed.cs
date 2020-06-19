@@ -9,14 +9,61 @@ using Newtonsoft.Json;
 using Tools.Enum;
 using DefenseByNight.API.Helpers.Enums.Disciplines;
 using DefenseByNight.API.Helpers.Enums.Clans;
-using Microsoft.Extensions.Options;
-using DefenseByNight.API.Helpers;
 
 namespace DefenseByNight.API.Data.Seeds
 {
 
     public class Seed
     {
+        public static void SeedUsers(UserManager<User> userManager, RoleManager<Role> roleManager)
+        {
+            if (!userManager.Users.Any())
+            {
+                var userData = System.IO.File.ReadAllText("Data/Seeds/Users.json");
+                var users = JsonConvert.DeserializeObject<List<User>>(userData);
+
+                var roles = new List<Role>{
+                    new Role{Name = EnumRoles.ADMIN},
+                    new Role{Name = EnumRoles.CA},
+                    new Role{Name = EnumRoles.MEMBER},
+                    new Role{Name = EnumRoles.ORGANIZER},
+                    new Role{Name = EnumRoles.PLAYER},
+                };
+
+                foreach (var role in roles)
+                {
+                    roleManager.CreateAsync(role).Wait();
+                }
+
+                foreach (var user in users)
+                {
+                    user.CreatedDate = DateTime.Now;
+                    userManager.CreateAsync(user, "password").Wait();
+                    if (user.UserName.ToLower() == "batman")
+                        userManager.AddToRolesAsync(user, new List<string> { EnumRoles.ADMIN, EnumRoles.MEMBER }).Wait();
+                    else
+                        userManager.AddToRoleAsync(user, EnumRoles.MEMBER).Wait();
+                }
+            }
+        }
+
+        public static void SeedChronicles(DataContext context)
+        {
+            if(!context.Chronicles.Any())
+            {
+                var chronicle = new Chronicle() {
+                    Name = "La cité de Verre",
+                    StartDate = new DateTime(2018, 9, 1),
+                    EndDate = null,
+                    City = "Ys"
+                };
+
+                context.Chronicles.Add(chronicle);
+
+                context.SaveChanges();
+            }
+        }
+
         public static void SeedReferences(DataContext context)
         {
             if (!context.References.Any())
@@ -30,6 +77,7 @@ namespace DefenseByNight.API.Data.Seeds
                 {
                     context.References.AddRange(JsonConvert.DeserializeObject<List<Reference>>(System.IO.File.ReadAllText(file)));
                 }
+
                 context.SaveChanges();
             }
         }
@@ -106,38 +154,6 @@ namespace DefenseByNight.API.Data.Seeds
 
                 context.SaveChanges();
 
-            }
-        }
-
-        public static void SeedUsers(UserManager<User> userManager, RoleManager<Role> roleManager)
-        {
-            if (!userManager.Users.Any())
-            {
-                var userData = System.IO.File.ReadAllText("Data/Seeds/Users.json");
-                var users = JsonConvert.DeserializeObject<List<User>>(userData);
-
-                var roles = new List<Role>{
-                    new Role{Name = EnumRoles.ADMIN},
-                    new Role{Name = EnumRoles.CA},
-                    new Role{Name = EnumRoles.MEMBER},
-                    new Role{Name = EnumRoles.ORGANIZER},
-                    new Role{Name = EnumRoles.PLAYER},
-                };
-
-                foreach (var role in roles)
-                {
-                    roleManager.CreateAsync(role).Wait();
-                }
-
-                foreach (var user in users)
-                {
-                    user.CreatedDate = DateTime.Now;
-                    userManager.CreateAsync(user, "password").Wait();
-                    if (user.UserName.ToLower() == "batman")
-                        userManager.AddToRolesAsync(user, new List<string> { EnumRoles.ADMIN, EnumRoles.MEMBER }).Wait();
-                    else
-                        userManager.AddToRoleAsync(user, EnumRoles.MEMBER).Wait();
-                }
             }
         }
 
@@ -235,11 +251,11 @@ namespace DefenseByNight.API.Data.Seeds
             if (!context.Affiliates.Any())
             {
                 new List<Affiliate> {
-                    new Affiliate{AffiliateKey = EnumAffiliate.CAMARILLA},
-                    new Affiliate{AffiliateKey = EnumAffiliate.SABBAT},
-                    new Affiliate{AffiliateKey = EnumAffiliate.INDEPENDENT_ALLIANCE},
-                    new Affiliate{AffiliateKey = EnumAffiliate.INDEPENDENT_CLAN},
-                    new Affiliate{AffiliateKey = EnumAffiliate.ANARCH}
+                    new Affiliate{AffiliateKey = EnumAffiliate.CAMARILLA, Description = EnumAffiliate.CAMARILLA_DESCRIPTION, Logo = "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1592556671/SymbolCamarillaV5_qawmxh.png"},
+                    new Affiliate{AffiliateKey = EnumAffiliate.SABBAT, Description = EnumAffiliate.SABBAT_DESCRIPTION, Logo = "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1592557249/LogoSectSabbat_dnx2uy.png" },
+                    new Affiliate{AffiliateKey = EnumAffiliate.ANARCH, Description = EnumAffiliate.ANARCH_DESCRIPTION, Logo = "https://res.cloudinary.com/dbf5hrvz3/image/upload/v1592558099/Anarch_sxwssw.png" },
+                    new Affiliate{AffiliateKey = EnumAffiliate.INDEPENDENT_ALLIANCE, Description = EnumAffiliate.INDEPENDENT_ALLIANCE_DESCRIPTION },
+                    new Affiliate{AffiliateKey = EnumAffiliate.INDEPENDENT_CLAN, Description = EnumAffiliate.INDEPENDENT_CLAN_DESCRIPTION }
                 }.ForEach(a =>
                 {
                     context.Affiliates.Add(a);

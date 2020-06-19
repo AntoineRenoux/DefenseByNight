@@ -78,11 +78,16 @@ namespace DefenseByNight.API.Helpers
             CreateMap<Character, CharacterDto>();
             CreateMap<CharacterViewModel, CharacterDto>();
             CreateMap<CharacterDto, CharacterViewModel>();
-              
+
             CreateMap<AffiliateDto, Affiliate>();
             CreateMap<Affiliate, AffiliateDto>();
             CreateMap<AffiliateViewModel, AffiliateDto>();
             CreateMap<AffiliateDto, AffiliateViewModel>();
+
+            CreateMap<ChronicleDto, Chronicle>();
+            CreateMap<Chronicle, ChronicleDto>();
+            CreateMap<ChronicleViewModel, ChronicleDto>();
+            CreateMap<ChronicleDto, ChronicleViewModel>();
         }
     }
 }

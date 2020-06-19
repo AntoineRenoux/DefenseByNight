@@ -2,5 +2,21 @@
     {
         "Key": "LBL_CREATE_CHARACTER",
         "Text": "Création de personnage"
+    },
+    {
+        "Key": "LBL_CREATE_CHARACTER_NAME",
+        "Text": "Nom du personnage"
+    },
+    {
+        "Key": "LBL_CREATE_CHARACTER_NAME_INCORRECT",
+        "Text": "Le nom du personnage est incorrect."
+    },
+    {
+        "Key": "LBL_CREATE_CHARACTER_NAME_REQUIRED",
+        "Text": "Le nom du personnage est obligatoire."
+    },
+    {
+        "Key": "LBL_CREATE_CHARACTER_SECT",
+        "Text": "Choisissez une secte ..."
     }
 ]

@@ -31,7 +31,9 @@ namespace DefenseByNight.API.Data
 
         public DbSet<Flaw> Flaws { get; set; }
 
-        public DbSet<Character> Characters {get; set;}
+        public DbSet<Character> Characters { get; set; }
+
+        public DbSet<Chronicle> Chronicles { get; set; }
 
         #endregion
 

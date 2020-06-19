@@ -1,21 +1,24 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DefenseByNight.API.Data.Entities
 {
-    public class Character
+    public class Chronicle
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string CharacterKey { get; set; }
+        public string ChronicleKey { get; set; }
 
         [Required]
         public string Name { get; set; }
 
         [Required]
-        public Affiliate Sect { get; set; }
+        public string City { get; set; }
 
         [Required]
-        public Chronicle Chronicle { get; set; }
+        public DateTime StartDate { get; set; }
+
+        public DateTime? EndDate { get; set; }
     }
 }

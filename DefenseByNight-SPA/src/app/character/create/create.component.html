@@ -1,29 +1,48 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-ms-12">
-      <h1>{{'LBL_CREATE_CHARACTER' | translate}}</h1>
+    <div class="card border-light mb-3 info-card">
+      <div class="card-header">Header</div>
+      <div class="card-body">
+        <h5 class="card-title">Light card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
     </div>
-  </div>
-  <hr>
-  <form>
-      <div class="card w-100">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-sm-10">
-              <input id="bite" class="form-control form-control-lg" type="text">
-            </div>
-            <div class="col">
-              <select class="form-control form-control-lg">
-                <option>Secte</option>
-                <option>Camarilla</option>
-                <option>Sabbat</option>
-                <option>Anarch</option>
-              </select>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-ms-12">
+          <h1>{{'LBL_CREATE_CHARACTER' | translate}}</h1>
+        </div>
+      </div>
+      <hr>
+      <form [formGroup]="characterForm">
+        <div class="card w-100">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <input formControlName="characterName" class="form-control form-control-lg" type="text"
+                  placeholder="{{'LBL_CREATE_CHARACTER_NAME' | translate}}">
+              </div>
+              <div class="col">
+                <select class="form-control form-control-lg" formControlName="sect">
+                  <option [ngValue]="null">{{'LBL_CREATE_CHARACTER_SECT' | translate}}</option>
+                  <option *ngFor="let sect of affilations" [ngValue]="sect.affiliateKey">
+                    {{sect.affiliateKey | translate}}
+                  </option>
+                </select>
+              </div>
             </div>
           </div>
-
         </div>
-
+      </form>
+    </div>
+    <div class="col-sm-3">
+      <div class="card border-light mb-3 info-card">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Light card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
       </div>
-  </form>
+    </div>
+  </div>
 </div>
