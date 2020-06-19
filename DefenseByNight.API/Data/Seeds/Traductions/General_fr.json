@@ -50,5 +50,9 @@
     {
         "Key": "ERR_USER_DOESNT_EXISTS",
         "Text": "L'utilsateur n'existe pas"
+    },
+    {
+        "Key": "ERR_CHRONICLE_DOESNT_EXISTS",
+        "Text": "La chronique n'existe pas"
     }
 ]

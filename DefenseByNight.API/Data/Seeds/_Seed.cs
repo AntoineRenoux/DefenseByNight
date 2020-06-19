@@ -55,7 +55,9 @@ namespace DefenseByNight.API.Data.Seeds
                     Name = "La cité de Verre",
                     StartDate = new DateTime(2018, 9, 1),
                     EndDate = null,
-                    City = "Ys"
+                    City = "Ys",
+                    BaseExperience = 100,
+                    ExperiencePerMonth = 2
                 };
 
                 context.Chronicles.Add(chronicle);

@@ -7,5 +7,6 @@ namespace DefenseByNight.API.Data.Interfaces
     public interface IChroniclesRepository
     {
          Task<List<ChronicleDto>> GetAllAsync();
+         Task<ChronicleDto> GetByKeyAsync(string chronicleKey);
     }
 }

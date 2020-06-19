@@ -20,5 +20,11 @@ namespace DefenseByNight.API.Data.Entities
         public DateTime StartDate { get; set; }
 
         public DateTime? EndDate { get; set; }
+
+        [Required]
+        public int BaseExperience { get; set; }
+
+        [Required]
+        public int ExperiencePerMonth { get; set; }
     }
 }

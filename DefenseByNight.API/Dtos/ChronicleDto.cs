@@ -13,5 +13,9 @@ namespace DefenseByNight.API.Dtos
         public DateTime StartDate { get; set; }
 
         public DateTime? EndDate { get; set; }
+
+        public int BaseExperience { get; set; }
+
+        public int ExperiencePerMonth { get; set; }
     }
 }

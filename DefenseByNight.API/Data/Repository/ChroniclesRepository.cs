@@ -23,5 +23,11 @@ namespace DefenseByNight.API.Data.Repository
             var chronicles = await context.Chronicles.ToListAsync();
             return _mapper.Map<List<ChronicleDto>>(chronicles);
         }
+
+        public async Task<ChronicleDto> GetByKeyAsync(string chronicleKey)
+        {
+            var chronicle = await context.Chronicles.FirstOrDefaultAsync(c => c.ChronicleKey == chronicleKey);
+            return _mapper.Map<ChronicleDto>(chronicle);
+        }
     }
 }
