@@ -1,0 +1,66 @@
+[
+    {
+        "Key": "CREATION_CHARACTER_LBL_HELP",
+        "Text": "Aide"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_HELP_HEADER",
+        "Text": "Bienvenu dans la création de personnage !"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_HELP_TEXT_DEFAULT",
+        "Text": "Cette fenêtre est là pour vous aider lors du processus en vous donnant les informations importantes au passage de votre souris."
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_RULE",
+        "Text": "Etapes de la création"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_XP_AVAILABLE",
+        "Text": "Expérience disponible"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_0",
+        "Text": "Etape 0: Choissir sa chronique et le nom de mon personnage."
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_1",
+        "Text": "Etape 1: Choissir sa nature et son archétype."
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_2",
+        "Text": "Etape 2: Rapporter les Points d’Expérience Initiaux"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_3",
+        "Text": "Etape 3: Choisir un Clan"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_4",
+        "Text": "Etape 4: Choix des Attributs Initiaux"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_5",
+        "Text": "Etape 5: Choix des Compétences Initiales"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_6",
+        "Text": "Etape 6: Choix des Historiques Initiaux"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_7",
+        "Text": "Etape 7: Choix des Disciplines Initiales"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_8",
+        "Text": "Etape 8: Choix des Atouts et Handicaps"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_9",
+        "Text": "Etape 9: Dépense des PX"
+    },
+    {
+        "Key": "CREATION_CHARACTER_LBL_STEP_10",
+        "Text": "Etape 10: Touches Finales"
+    }
+]

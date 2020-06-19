@@ -93,6 +93,7 @@ namespace DefenseByNight.API.Data.Seeds
                     {
                         "Data/Seeds/Traductions/User_fr.json",
                         "Data/Seeds/Traductions/General_fr.json",
+                        "Data/Seeds/Traductions/CreationCharacter_fr.json",
                         "Data/Seeds/Traductions/NavBar_fr.json",
                         "Data/Seeds/Traductions/ConnexionRegistrationEdition_fr.json",
                         "Data/Seeds/Traductions/Character_fr.json",
