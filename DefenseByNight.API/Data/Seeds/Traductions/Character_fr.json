@@ -14,9 +14,5 @@
     {
         "Key": "LBL_CREATE_CHARACTER_NAME_REQUIRED",
         "Text": "Le nom du personnage est obligatoire."
-    },
-    {
-        "Key": "LBL_CREATE_CHARACTER_SECT",
-        "Text": "Choisissez une secte ..."
     }
 ]

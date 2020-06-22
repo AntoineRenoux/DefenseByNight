@@ -21,7 +21,7 @@
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_0",
-        "Text": "Etape 0: Choissir sa chronique et le nom de mon personnage."
+        "Text": "Etape 0: Choissir la chronique et le nom de mon personnage."
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_1",
@@ -62,5 +62,37 @@
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_10",
         "Text": "Etape 10: Touches Finales"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CHRONICLE",
+        "Text": "Choisissez votre chronique ..."
+    },
+    {
+        "Key": "CREATION_CHARACTER_CHRONICLE_HELP_HEADER",
+        "Text": "Choix de la Chronique"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CHRONICLE_HELP_TEXT",
+        "Text": "Vous allez choisir la chronique dans laquelle vous allez jouer. Celà va définir le cadre dans lequel vous allez évoluer. Si vous ne savez pas quoi choisir demandez à votre Orga référant."
+    },
+    {
+        "Key": "CREATION_CHARACTER_SECT",
+        "Text": "Choisissez votre secte ..."
+    },
+    {
+        "Key": "CREATION_CHARACTER_SECT_HELP_HEADER",
+        "Text": "Choix de votre secte"
+    },
+    {
+        "Key": "CREATION_CHARACTER_SECT_HELP_TEXT",
+        "Text": "Le choix de votre secte est crutial. Il représente votre allégence envers les autres vampires et surtout votre point de vue sur les sujets importants de votre non vie comme votre ressenti envers les mortels ou les vampires les plus vieux. Comme toujours, si vous ne savez pas quoi séléctionner, demander à votre Orga."
+    },
+    {
+        "Key": "CREATION_CHARACTER_NAME_HELP_HEADER",
+        "Text": "Choissisez votre nom de personnage"
+    },
+    {
+        "Key": "CREATION_CHARACTER_NAME_HELP_TEXT",
+        "Text": "Choissisez simplement votre nom. Réfléchissez bien, c'est comme ça que tous les autres joueurs vont vous appeller pour les prochaines années."
     }
 ]

@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { HttpLoaderFactory, LanguageService, defaultLanguage } from '../_services/language.service';
 import { CharacterRoutingModule } from './character-routing.module';
+import { HelpCreationCharacterDirective } from '../_directives/help-creation-character.directive';
 
 @NgModule({
   imports: [
@@ -18,6 +19,6 @@ import { CharacterRoutingModule } from './character-routing.module';
       defaultLanguage
   })
   ],
-  declarations: [CreateComponent]
+  declarations: [CreateComponent, HelpCreationCharacterDirective]
 })
 export class CharacterModule { }
