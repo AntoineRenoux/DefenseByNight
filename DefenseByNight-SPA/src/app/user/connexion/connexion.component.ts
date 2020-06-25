@@ -14,7 +14,10 @@ export class ConnexionComponent implements OnInit {
   model = new UserLogin();
 
   // tslint:disable-next-line: max-line-length
-  constructor(private authService: AuthService, private toaster: ToasterService, private translate: TranslateService, private router: Router) { }
+  constructor(private authService: AuthService,
+              private toaster: ToasterService,
+              private translate: TranslateService,
+              private router: Router) { }
 
   ngOnInit() {
   }

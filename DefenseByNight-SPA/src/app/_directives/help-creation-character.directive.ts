@@ -16,27 +16,28 @@ export class HelpCreationCharacterDirective {
               private translateService: TranslateService) { }
 
   @HostListener('mouseenter') onMouseEnter() {
-    const header = this.renderer.selectRootElement('.info-card .card-title', true);
-    this.translateService.get(this.headerText).subscribe(res => {
-      this.renderer.setProperty(header, 'textContent', res);
-    });
-
-    const body = this.renderer.selectRootElement('.info-card .card-text', true);
-    this.translateService.get(this.bodyText).subscribe(res => {
-      this.renderer.setProperty(body, 'textContent', res);
-    });
+    this.editHeader(this.headerText);
+    this.editBody(this.bodyText);
   }
 
   @HostListener('mouseleave') onMouseLeave() {
-    const header = this.renderer.selectRootElement('.info-card .card-title', true);
-    this.translateService.get(this.defaultHeaderText).subscribe(res => {
-      this.renderer.setProperty(header, 'textContent', res);
-    });
+    this.editHeader();
+    this.editBody();
+  }
 
-    const body = this.renderer.selectRootElement('.info-card .card-text', true);
-    this.translateService.get(this.defaultBodyText).subscribe(res => {
-      this.renderer.setProperty(body, 'textContent', res);
+  editHeader(text?: string) {
+    const header = this.renderer.selectRootElement('.info-card .card-title', true);
+
+    this.translateService.get(text != null ? text : this.defaultHeaderText).subscribe(res => {
+      this.renderer.setProperty(header, 'textContent', res);
     });
   }
 
+  editBody(text?: string) {
+    const body = this.renderer.selectRootElement('.info-card .card-text', true);
+
+    this.translateService.get(text != null ? text : this.defaultBodyText).subscribe(res => {
+      this.renderer.setProperty(body, 'textContent', res);
+    });
+  }
 }

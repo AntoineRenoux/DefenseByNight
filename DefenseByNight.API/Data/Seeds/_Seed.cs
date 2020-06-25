@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using Tools.Enum;
 using DefenseByNight.API.Helpers.Enums.Disciplines;
 using DefenseByNight.API.Helpers.Enums.Clans;
+using DefenseByNight.API.Data.Entities.GameEntities;
 
 namespace DefenseByNight.API.Data.Seeds
 {
@@ -49,9 +50,10 @@ namespace DefenseByNight.API.Data.Seeds
 
         public static void SeedChronicles(DataContext context)
         {
-            if(!context.Chronicles.Any())
+            if (!context.Chronicles.Any())
             {
-                var chronicle = new Chronicle() {
+                var chronicle = new Chronicle()
+                {
                     Name = "La cité de Verre",
                     StartDate = new DateTime(2018, 9, 1),
                     EndDate = null,
@@ -98,6 +100,7 @@ namespace DefenseByNight.API.Data.Seeds
                         "Data/Seeds/Traductions/ConnexionRegistrationEdition_fr.json",
                         "Data/Seeds/Traductions/Character_fr.json",
                         "Data/Seeds/Traductions/Roles_fr.json",
+                        "Data/Seeds/Traductions/RulesFromGame/Archetype_fr.json",
                         "Data/Seeds/Traductions/RulesFromGame/Affilifation_fr.json",
                         "Data/Seeds/Traductions/RulesFromGame/Focus_fr.json",
                         "Data/Seeds/Traductions/RulesFromGame/Attribute_fr.json",
@@ -160,6 +163,58 @@ namespace DefenseByNight.API.Data.Seeds
             }
         }
 
+        public static void SeedArchetypes(DataContext context)
+        {
+            if (!context.Archetypes.Any())
+            {
+                context.Archetypes.AddRange(new List<Archetype> {
+                    new Archetype{ ArchetypeKey = EnumArchetype.ARCHITECT_NAME, Description = EnumArchetype.ARCHITECT_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.ARTIST_NAME, Description = EnumArchetype.ARTIST_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.BRUTE_NAME, Description = EnumArchetype.BRUTE_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.ANGEL_NAME, Description = EnumArchetype.ANGEL_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.CHILD_NAME, Description = EnumArchetype.CHILD_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.COMPETITOR_NAME, Description = EnumArchetype.COMPETITOR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.SWINDLER_NAME, Description = EnumArchetype.SWINDLER_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.CONFORMIST_NAME, Description = EnumArchetype.CONFORMIST_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.CURIOUS_NAME, Description = EnumArchetype.CURIOS_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.GRUMPY_NAME, Description = EnumArchetype.GRUMPY_NAME },
+
+                    new Archetype{ ArchetypeKey = EnumArchetype.SCHOLAR_NAME, Description = EnumArchetype.SCHOLAR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.MYSTERIOUS_NAME, Description = EnumArchetype.MYSTERIOUS_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.FANATIC_NAME, Description = EnumArchetype.FANATIC_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.WARRIOR_NAME, Description = EnumArchetype.WARRIOR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.CRINGE_NAME, Description = EnumArchetype.CRINGE_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.FREEMIND_NAME, Description = EnumArchetype.FREEMIND_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.JUDGE_NAME, Description = EnumArchetype.JUDGE_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.I_KNOW_NAME, Description = EnumArchetype.I_KNOW_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.INTROVERTED_NAME, Description = EnumArchetype.INTROVERTED_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.LEADER_NAME, Description = EnumArchetype.LEADER_DESCRIPTION },
+
+                    new Archetype{ ArchetypeKey = EnumArchetype.LONLY_NAME, Description = EnumArchetype.LONLY_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.PUBLIC_DANGER_NAME, Description = EnumArchetype.PUBLIC_DANGER_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.MARTYR_NAME, Description = EnumArchetype.MARTYR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.MEDIATOR_NAME, Description = EnumArchetype.MEDIATOR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.MERCO_NAME, Description = EnumArchetype.MERCO_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.MONSTER_NAME, Description = EnumArchetype.MONSTER_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.PENITENT_NAME, Description = EnumArchetype.PENITENT_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.PROTECTOR_NAME, Description = EnumArchetype.PROTECTOR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.RATIONALIST_NAME, Description = EnumArchetype.RATIONALIST_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.NOBLE_NAME, Description = EnumArchetype.NOBLE_DESCRIPTION },
+                    
+                    new Archetype{ ArchetypeKey = EnumArchetype.SURVIVOR_NAME, Description = EnumArchetype.SURVIVOR_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.A_TYPE_NAME, Description = EnumArchetype.A_TYPE_DECRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.TEACHER_NAME, Description = EnumArchetype.TEACHER_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.CONSERVATOR_NAME, Description = EnumArchetype.CONSERVATOR_DECRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.PERTURBTOR_NAME, Description = EnumArchetype.PERTUBATOR_DECRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.FLATTERING_NAME, Description = EnumArchetype.FLATTERING_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.TRICKSTER_NAME, Description = EnumArchetype.TRICKSTER_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.IMPERTUBLABLE_NAME, Description = EnumArchetype.IMPERTUBLABLE_DESCRIPTION },
+                    new Archetype{ ArchetypeKey = EnumArchetype.UNTRUSTWORTHY_NAME, Description = EnumArchetype.UNTRUSTWORTHY_DESCRIPTION }
+                });
+
+                context.SaveChanges();
+            }
+        }
         public static void SeedPhotos(DataContext context)
         {
             if (!context.Photos.Any())

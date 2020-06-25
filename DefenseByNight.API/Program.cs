@@ -29,6 +29,7 @@ namespace DefenseByNight.API
                     Seed.SeedChronicles(context);
                     Seed.SeedReferences(context);
                     Seed.SeedTraductions(context);
+                    Seed.SeedArchetypes(context);
                     Seed.SeedUsers(userService, roleService);
                     Seed.SeedAffiliate(context);
                     Seed.SeedFocus(context);

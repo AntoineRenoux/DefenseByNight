@@ -21,11 +21,11 @@
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_0",
-        "Text": "Etape 0: Choissir la chronique et le nom de mon personnage."
+        "Text": "Etape 0: Choissir la chronique, la secte et le nom de mon personnage."
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_1",
-        "Text": "Etape 1: Choissir sa nature et son archétype."
+        "Text": "Etape 1: Inspiration"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_2",

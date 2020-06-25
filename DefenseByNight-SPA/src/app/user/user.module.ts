@@ -5,7 +5,6 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { FileUploadModule } from 'ng2-file-upload';
-import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 import { RegisterComponent } from './register/register.component';
 import { ConnexionComponent } from './connexion/connexion.component';
@@ -17,6 +16,7 @@ import { FontAwesomeModule, FaIconLibrary  } from '@fortawesome/angular-fontawes
 import { faAddressCard, faAt, faMobileAlt
         , faBirthdayCake, faWifi, faUserCircle
         , faCloudUploadAlt, faTrash} from '@fortawesome/free-solid-svg-icons';
+import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 
 @NgModule({

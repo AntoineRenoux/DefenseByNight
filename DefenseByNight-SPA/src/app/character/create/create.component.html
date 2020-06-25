@@ -16,40 +16,56 @@
         </div>
       </div>
       <hr>
-      <form [formGroup]="characterForm">
-        <div class="card w-100">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-sm-4" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CHRONICLE_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_CHRONICLE_HELP_TEXT'">
-                <select class="form-control form-control-lg" formControlName="chronicle">
-                  <option [ngValue]="null">{{'CREATION_CHARACTER_CHRONICLE' | translate}}</option>
-                  <option *ngFor="let chronicle of chronicles" [ngValue]="chronicle.chronicleKey">
-                    {{chronicle.name | translate}}
-                  </option>
-                </select>
-              </div>
-              <div class="col-sm-4" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_NAME_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_NAME_HELP_TEXT'">
-                <input formControlName="characterName" class="form-control form-control-lg" type="text"
-                  placeholder="{{'LBL_CREATE_CHARACTER_NAME' | translate}}">
-              </div>
-              <div class="col-sm-4" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_SECT_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_SECT_HELP_TEXT'">
-                <select class="form-control form-control-lg" formControlName="sect">
-                  <option [ngValue]="null">{{'CREATION_CHARACTER_SECT' | translate}}</option>
-                  <option *ngFor="let sect of affilations" [ngValue]="sect.affiliateKey">
-                   {{sect.affiliateKey | translate}}
-                  </option>
-                </select>
-              </div>
+
+      <div class="card">
+        <div class="card-body">
+          <form class="row mb-1" [formGroup]="stepZeroForm">
+            <div class="col" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_NAME_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_NAME_HELP_TEXT'">
+              <input formControlName="characterName" class="form-control" type="text"
+                placeholder="{{'LBL_CREATE_CHARACTER_NAME' | translate}}">
             </div>
-          </div>
+            <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_SECT_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_SECT_HELP_TEXT'">
+              <select class="form-control" formControlName="sect">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_SECT' | translate}}</option>
+                <option *ngFor="let sect of affilations" [ngValue]="sect.affiliateKey">
+                  {{sect.affiliateKey | translate}}
+                </option>
+              </select>
+            </div>
+            <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CHRONICLE_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_CHRONICLE_HELP_TEXT'">
+              <select class="form-control" formControlName="chronicle">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_CHRONICLE' | translate}}</option>
+                <option *ngFor="let chronicle of chronicles" [ngValue]="chronicle.chronicleKey">
+                  {{chronicle.name | translate}}
+                </option>
+              </select>
+            </div>
+          </form>
+          <form class="row mb-1" [formGroup]="stepOneForm">
+
+          </form>
         </div>
-      </form>
+      </div>
+
+
+
+      <!-- <p>Valide : {{stepZeroForm.valid}}</p>
+          <p>Status : {{stepZeroForm.status}}</p>
+          <p>Dirty : {{stepZeroForm.dirty}}</p>
+          <p>Touched : {{stepZeroForm.touched}}</p> -->
+
+
+
     </div>
     <div class="col">
       <div class="card border-light mb-3">
         <div class="card-header">{{'CREATION_CHARACTER_LBL_RULE'| translate}}</div>
         <div class="card-body">
-          <p class="card-text font-weight-bold">{{'CREATION_CHARACTER_LBL_STEP_0' | translate}}</p>
+          <p [ngClass]="{'stepValided': stepZeroForm.valid, 'font-weight-bold': !stepZeroForm.valid}" class="card-text">
+            {{'CREATION_CHARACTER_LBL_STEP_0' | translate}}</p>
           <p class="card-text font-weight-light">{{'CREATION_CHARACTER_LBL_STEP_1' | translate}}</p>
           <p class="card-text font-weight-light">{{'CREATION_CHARACTER_LBL_STEP_2' | translate}}</p>
           <p class="card-text font-weight-light">{{'CREATION_CHARACTER_LBL_STEP_3' | translate}}</p>

@@ -16,16 +16,19 @@ import { ChronicleService } from 'src/app/_services/chronicle.service';
 export class CreateComponent implements OnInit {
 
   public affilations: Affilate[];
-  characterForm: FormGroup;
+  stepZeroForm: FormGroup;
+  stepOneForm: FormGroup;
   chronicles: Chronicle[];
 
   constructor(private affilateService: AffiliateService,
               private fb: FormBuilder,
               private validatorService: ValidatorService,
-              private chronicleService: ChronicleService) { }
+              private chronicleService: ChronicleService,
+              private translateService: TranslateService) { }
 
   ngOnInit() {
-    this.initializeCreationForm();
+    this.initializeStepZeroForm();
+    this.initializeStepOneForm();
     this.affilateService.getAllAffiliations().subscribe((result) => {
       this.affilations = result;
     });
@@ -34,13 +37,19 @@ export class CreateComponent implements OnInit {
     });
   }
 
-  initializeCreationForm() {
-    this.characterForm = this.fb.group({
+  initializeStepZeroForm() {
+    this.stepZeroForm = this.fb.group({
       chronicle: [null, Validators.required],
       // tslint:disable-next-line: max-line-length
       characterName: [null, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
       sect: [null, [Validators.required]]
-    });
+    }, {updateOn: 'blur'});
   }
 
+  initializeStepOneForm() {
+    this.stepOneForm = this.fb.group({
+      archetypes: [null, Validators.required],
+      concept: [null, Validators.required]
+    });
+  }
 }

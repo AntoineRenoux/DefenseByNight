@@ -40,13 +40,13 @@ export class AccountComponent implements OnInit {
   locales = listLocales();
 
   constructor(public userService: UserService,
-    private localeService: BsLocaleService,
-    private langService: LanguageService,
-    private fb: FormBuilder,
-    private toaster: ToasterService,
-    private translate: TranslateService,
-    private authService: AuthService,
-    private validatorService: ValidatorService) { }
+              private localeService: BsLocaleService,
+              private langService: LanguageService,
+              private fb: FormBuilder,
+              private toaster: ToasterService,
+              private translate: TranslateService,
+              private authService: AuthService,
+              private validatorService: ValidatorService) { }
 
   ngOnInit() {
     this.createEditionForm();

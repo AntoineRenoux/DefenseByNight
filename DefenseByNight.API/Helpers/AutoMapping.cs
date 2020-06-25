@@ -1,5 +1,6 @@
 using AutoMapper;
 using DefenseByNight.API.Data.Entities;
+using DefenseByNight.API.Data.Entities.GameEntities;
 using DefenseByNight.API.Data.Identities;
 using DefenseByNight.API.Dtos;
 using DefenseByNight.API.Dtos.GameDto;
@@ -88,6 +89,11 @@ namespace DefenseByNight.API.Helpers
             CreateMap<Chronicle, ChronicleDto>();
             CreateMap<ChronicleViewModel, ChronicleDto>();
             CreateMap<ChronicleDto, ChronicleViewModel>();
+
+            CreateMap<ArchetypeDto, Archetype>();
+            CreateMap<Archetype, ArchetypeDto>();
+            CreateMap<ArchetypeViewModel, ArchetypeDto>();
+            CreateMap<ArchetypeDto, ArchetypeViewModel>();
         }
     }
 }

@@ -1,0 +1,314 @@
+[
+    {
+        "Key": "ARCHITECT_NAME",
+        "Text": "Architecte"
+    },
+    {
+        "Key": "ARCHITECT_DESCRIPTION",
+        "Text": "Vous adorez les structures physiques et sociales et abhorrez quiconque se situe hors du système."
+    },
+    {
+        "Key": "ARTIST_NAME",
+        "Text": "Artiste"
+    },
+    {
+        "Key": "ARTIST_DESCRIPTION",
+        "Text": "Vous vous focalisez sur l’inspiration, l’émotion, la force créatrice. Vous existez pour votre art."
+    },
+    {
+        "Key": "BRUTE_NAME",
+        "Text": "Brute"
+    },
+    {
+        "Key": "BRUTE_DESCRIPTION",
+        "Text": "Vous êtes fier de votre supériorité et tout le monde le sait. Il vaut mieux pour eux vous laisser agir à votre guise."
+    },
+    {
+        "Key": "ANGEL_NAME",
+        "Text": "Ange-Gardien"
+    },
+    {
+        "Key": "ANGEL_DESCRIPTION",
+        "Text": "Vous protégez le faible, cultivez l’ignorant et faites des pieds et des mains pour les autres."
+    },
+    {
+        "Key": "CHILD_NAME",
+        "Text": "Enfant"
+    },
+    {
+        "Key": "CHILD_DESCRIPTION",
+        "Text": "Votre compréhension de la nature humaine est naïve et simpliste. Vous avez beaucoup à apprendre."
+    },
+    {
+        "Key": "COMPETITOR_NAME",
+        "Text": "Compétiteur"
+    },
+    {
+        "Key": "COMPETITOR_DESCRIPTION",
+        "Text": "Vous aimez relever des défis. La victoire n’a de saveur que si elle comprend un risque."
+    },
+    {
+        "Key": "SWINDLER_NAME",
+        "Text": "Escroc"
+    },
+    {
+        "Key": "SWINDLER_DESCRIPTION",
+        "Text": "Vous êtes un filou, un menteur et un tricheur. Parfois, c’est une raison de vivre − et d’autres fois c’est un art."
+    },
+    {
+        "Key": "CONFORMIST_NAME",
+        "Text": "Conformiste"
+    },
+    {
+        "Key": "CONFORMIST_DESCRIPTION",
+        "Text": "Vous gardez un regard attentif sur la société et veillez à vous y adapter. Peu importe ce que le groupe veut, vous le voulez aussi."
+    },
+    {
+        "Key": "CURIOUS_NAME",
+        "Text": "Curieux"
+    },
+    {
+        "Key": "CURIOS_DESCRIPTION",
+        "Text": "Vous êtes indiscret, y compris à vos dépens et vous ne pouvez abandonner un puzzle inachevé."
+    },
+    {
+        "Key": "GRUMPY_NAME",
+        "Text": "Râleur"
+    },
+    {
+        "Key": "GRUMPY_DESCRIPTION",
+        "Text": "Le doute, la critique et le mépris sont vos armes. Rien ne vous ennuie plus que la confiance."
+    },
+    {
+        "Key": "SCHOLAR_NAME",
+        "Text": "Lettré"
+    },
+    {
+        "Key": "SCHOLAR_DESCRIPTION",
+        "Text": "Vous êtes raffiné et n’acceptez que le meilleur. Vous faites partie du gotha."
+    },
+    {
+        "Key": "MYSTERIOUS_NAME",
+        "Text": "Mystère"
+    },
+    {
+        "Key": "MYSTERIOUS_DESCRIPTION",
+        "Text": "Vous êtes décalé, étrange et souvent incompris. Vous n’êtes tout simplement pas très en phase avec les autres."
+    },
+    {
+        "Key": "FANATIC_NAME",
+        "Text": "Fanatique"
+    },
+    {
+        "Key": "FANATIC_DESCRIPTION",
+        "Text": "Une cause vous inspire. Rien d’autre n’a d’importance."
+    },
+    {
+        "Key": "WARRIOR_NAME",
+        "Text": "Battant"
+    },
+    {
+        "Key": "WARRIOR_DESCRIPTION",
+        "Text": "Vous affrontez des problèmes au quotidien et vous aimez vous y attaquer de front. La bataille est toujours une option."
+    },
+    {
+        "Key": "CRINGE_NAME",
+        "Text": "Tordu"
+    },
+    {
+        "Key": "CRINGE_DESCRIPTION",
+        "Text": "Vous aimez choquer et dégoûter autrui, réduisant à néant leurs confortables hypothèses."
+    },
+    {
+        "Key": "FREEMIND_NAME",
+        "Text": "Esprit libre"
+    },
+    {
+        "Key": "FREEMIND_DESCRIPTION",
+        "Text": "Vous êtes incontrôlable, imprévisible et cela vous plaît. Vous haïssez les règles."
+    },
+    {
+        "Key": "JUDGE_NAME",
+        "Text": "Juge"
+    },
+    {
+        "Key": "JUDGE_DESCRIPTION",
+        "Text": "Vous soutenez une norme comportementale ; ceux qui ne s’y conforment pas sont punis ou bannis."
+    },
+    {
+        "Key": "I_KNOW_NAME",
+        "Text": "Je-Sais-Tout"
+    },
+    {
+        "Key": "I_KNOW_DESCRIPTION",
+        "Text": "Vous êtes un érudit, un cerveau et aimez le montrer. Autrui devrait admirer votre intelligence."
+    },
+    {
+        "Key": "INTROVERTED_NAME",
+        "Text": "Introverti"
+    },
+    {
+        "Key": "INTROVERTED_DESCRIPTION",
+        "Text": "Vous êtes centré sur vous-même. Réfléchi, timide et réservé, vous préférez rester silencieux."
+    },
+    {
+        "Key": "LEADER_NAME",
+        "Text": "Dirigeant"
+    },
+    {
+        "Key": "LEADER_DESCRIPTION",
+        "Text": "Vous avez un but, l’énergie et les idées. Vous voulez être aux commandes."
+    },
+    {
+        "Key": "LONLY_NAME",
+        "Text": "Solitaire"
+    },
+    {
+        "Key": "LONLY_DESCRIPTION",
+        "Text": "Vous n’êtes pas un engrenage du système. Vous vous attendez à être rejeté et préférez travailler seul."
+    },
+    {
+        "Key": "PUBLIC_DANGER_NAME",
+        "Text": "Danger public"
+    },
+    {
+        "Key": "PUBLIC_DANGER_DESCRIPTION",
+        "Text": "Énergique et excessivement impatient, vous êtes prompt à agir de manière irréfléchie."
+    },
+    {
+        "Key": "MARTYR_NAME",
+        "Text": "Martyr"
+    },
+    {
+        "Key": "MARTYR_DESCRIPTION",
+        "Text": "Vous prouvez votre valeur par la souffrance et le travail pour gagner la sympathie d’autrui."
+    },
+    {
+        "Key": "MEDIATOR_NAME",
+        "Text": "Médiateur"
+    },
+    {
+        "Key": "MEDIATOR_DESCRIPTION",
+        "Text": "Doté d’un talent inné pour résoudre les conflits, vous êtes sous votre meilleur jour lors de négociations."
+    },
+    {
+        "Key": "MERCO_NAME",
+        "Text": "Mercenaire"
+    },
+    {
+        "Key": "MERCO_DESCRIPTION",
+        "Text": "Votre loyauté s’achète et se vend ; vous ferez n’importe quoi tant que le prix est adéquat."
+    },
+    {
+        "Key": "MONSTER_NAME",
+        "Text": "Monstre"
+    },
+    {
+        "Key": "MONSTER_DESCRIPTION",
+        "Text": "Rien ne vous fait plus plaisir que de faire naître l’horreur à travers la méchanceté, la cruauté ou le vice."
+    },
+    {
+        "Key": "PENITENT_NAME",
+        "Text": "Pénitent"
+    },
+    {
+        "Key": "PENITENT_DESCRIPTION",
+        "Text": "Vous devez expier vos fautes ; vous cherchez constamment le pardon."
+    },
+    {
+        "Key": "PROTECTOR_NAME",
+        "Text": "Protecteur"
+    },
+    {
+        "Key": "PROTECTOR_DESCRIPTION",
+        "Text": "Défendre ce que vous aimez est votre raison d’être ; vous maintenez le cap."
+    },
+    {
+        "Key": "RATIONALIST_NAME",
+        "Text": "Rationaliste"
+    },
+    {
+        "Key": "RATIONALIST_DESCRIPTION",
+        "Text": "La raison et la logique sont vos guides. Vous rejetez toute décision basée sur l’émotion."
+    },
+    {
+        "Key": "NOBLE_NAME",
+        "Text": "Noble"
+    },
+    {
+        "Key": "NOBLE_DESCRIPTION",
+        "Text": "Vous êtes un personnage royal, meilleur qu’autrui de manière innée et vous acceptez la responsabilité allant de pair avec votre position."
+    },
+    {
+        "Key": "SURVIVOR_NAME",
+        "Text": "Survivant"
+    },
+    {
+        "Key": "SURVIVOR_DESCRIPTION",
+        "Text": "Vous ferez tout ce qu’il faut, peu importe l’avilissement ou qui vous devrez trahir pour rester en vie."
+    },
+    {
+        "Key": "A_TYPE_NAME",
+        "Text": "Personnalité de type A"
+    },
+    {
+        "Key": "A_TYPE_DECRIPTION",
+        "Text": "Habile, mais autocritique, vous exigez la perfection de vous-même et d’autrui."
+    },
+    {
+        "Key": "TEACHER_NAME",
+        "Text": "Professeur"
+    },
+    {
+        "Key": "TEACHER_DESCRIPTION",
+        "Text": "Transmettre le savoir à autrui vous réjouit et vous vous attendez à être reconnu comme une pointure dans votre domaine."
+    },
+    {
+        "Key": "CONSERVATOR_NAME",
+        "Text": "Conservateur"
+    },
+    {
+        "Key": "CONSERVATOR_DECRIPTION",
+        "Text": "Le par-cœur et l’habitude ont votre vote, vous préférez le prévisible à la nouveauté."
+    },
+    {
+        "Key": "PERTURBTOR_NAME",
+        "Text": "Perturbateur"
+    },
+    {
+        "Key": "PERTUBATOR_DECRIPTION",
+        "Text": "Vous aimez défier l’autorité, pousser à la rébellion et inciter à la désobéissance."
+    },
+    {
+        "Key": "FLATTERING_NAME",
+        "Text": "Flatteur"
+    },
+    {
+        "Key": "FLATTERING_DESCRIPTION",
+        "Text": "Vous restez dans le sillon des personnalités influentes et profitez de leurs victoires."
+    },
+    {
+        "Key": "TRICKSTER_NAME",
+        "Text": "Filou"
+    },
+    {
+        "Key": "TRICKSTER_DESCRIPTION",
+        "Text": "Vous êtes un imposteur, un espiègle personnage qui préfère gagner au travers de la ruse."
+    },
+    {
+        "Key": "IMPERTUBLABLE_NAME",
+        "Text": "Imperturbable"
+    },
+    {
+        "Key": "IMPERTUBLABLE_DESCRIPTION",
+        "Text": " Vous êtes toujours calme et détendu, que ce soit dans la victoire ou la défaite. Quand il vous arrive de ressentir de l’enthousiasme, cela vous obsède, jusqu’à ce que, à son tour, il disparaisse aussi."
+    },
+    {
+        "Key": "UNTRUSTWORTHY_NAME",
+        "Text": "Indigne de confiance"
+    },
+    {
+        "Key": "UNTRUSTWORTHY_DESCRIPTION",
+        "Text": "C’est toujours chacun pour sa pomme au final, pourquoi s’en cacher ?"
+    }
+]

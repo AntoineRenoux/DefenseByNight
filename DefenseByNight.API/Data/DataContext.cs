@@ -1,4 +1,5 @@
 using DefenseByNight.API.Data.Entities;
+using DefenseByNight.API.Data.Entities.GameEntities;
 using DefenseByNight.API.Data.Identities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,8 @@ namespace DefenseByNight.API.Data
         public DbSet<Character> Characters { get; set; }
 
         public DbSet<Chronicle> Chronicles { get; set; }
+
+        public DbSet<Archetype> Archetypes { get; set; }
 
         #endregion
 

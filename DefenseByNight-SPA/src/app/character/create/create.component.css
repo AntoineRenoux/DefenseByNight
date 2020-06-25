@@ -3,3 +3,7 @@
     max-width: 18rem;
     text-align: justify;
 }
+
+.stepValided {
+    color: green;
+}
