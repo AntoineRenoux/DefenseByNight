@@ -17,71 +17,105 @@
       </div>
       <hr>
 
-      <form class="row mb-3" [formGroup]="stepZeroForm">
-        <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CHRONICLE_HELP_HEADER'"
-          [bodyText]="'CREATION_CHARACTER_CHRONICLE_HELP_TEXT'">
-          <select class="form-control align-middle" formControlName="chronicle"
-            [ngClass]="{'is-invalid': stepZeroForm.get('chronicle').errors && stepZeroForm.get('chronicle').touched}">
-            <option [ngValue]="null">{{'CREATION_CHARACTER_CHRONICLE' | translate}}</option>
-            <option *ngFor="let chronicle of chronicles" [ngValue]="chronicle.chronicleKey">
-              {{chronicle.name | translate}}
-            </option>
-          </select>
-        </div>
-        <div class="col" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_NAME_HELP_HEADER'"
-          [bodyText]="'CREATION_CHARACTER_NAME_HELP_TEXT'">
-          <input
-            [ngClass]="{'is-invalid': stepZeroForm.get('characterName').errors && stepZeroForm.get('characterName').touched}"
-            formControlName="characterName" class="form-control form-control-lg" type="text"
-            placeholder="{{'LBL_CREATE_CHARACTER_NAME' | translate}}" style="text-align: center;">
-          <div class="invalid-feedback">
-            {{'ERR_CREATION_CHARACTER_NAME' | translate}}</div>
-        </div>
-        <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_SECT_HELP_HEADER'"
-          [bodyText]="'CREATION_CHARACTER_SECT_HELP_TEXT'">
-          <select class="form-control" formControlName="sect"
-            [ngClass]="{'is-invalid': stepZeroForm.get('sect').errors && stepZeroForm.get('sect').touched}">
-            <option [ngValue]="null">{{'CREATION_CHARACTER_SECT' | translate}}</option>
-            <option *ngFor="let sect of affilations" [ngValue]="sect.affiliateKey">
-              {{sect.affiliateKey | translate}}
-            </option>
-          </select>
-        </div>
-      </form>
+      <div class="card mb-3">
+        <div class="card-body">
+          <form class="row mb-3" [formGroup]="stepZeroForm">
+            <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CHRONICLE_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_CHRONICLE_HELP_TEXT'">
+              <select class="form-control align-middle" formControlName="chronicle"
+                [ngClass]="{'is-invalid': stepZeroForm.get('chronicle').errors && stepZeroForm.get('chronicle').touched}">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_CHRONICLE' | translate}}</option>
+                <option *ngFor="let chronicle of chronicles" [ngValue]="chronicle.chronicleKey">
+                  {{chronicle.name | translate}}
+                </option>
+              </select>
+            </div>
+            <div class="col" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_NAME_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_NAME_HELP_TEXT'">
+              <input
+                [ngClass]="{'is-invalid': stepZeroForm.get('characterName').errors && stepZeroForm.get('characterName').touched}"
+                formControlName="characterName" class="form-control form-control-lg" type="text"
+                placeholder="{{'LBL_CREATE_CHARACTER_NAME' | translate}}" style="text-align: center;">
+              <div class="invalid-feedback">
+                {{'ERR_CREATION_CHARACTER_NAME' | translate}}</div>
+            </div>
+            <div class="col-sm-3" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_SECT_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_SECT_HELP_TEXT'">
+              <select class="form-control" formControlName="sect"
+                [ngClass]="{'is-invalid': stepZeroForm.get('sect').errors && stepZeroForm.get('sect').touched}">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_SECT' | translate}}</option>
+                <option *ngFor="let sect of affilations" [ngValue]="sect.affiliateKey">
+                  {{sect.affiliateKey | translate}}
+                </option>
+              </select>
+            </div>
+          </form>
 
-      <form class="row mb-3" [formGroup]="stepOneForm">
-        <div class="col-12 mb-1" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_ARCHETYPE_HELP_HEADER'"
-          [bodyText]="'CREATION_CHARACTER_ARCHETYPE_HELP_TEXT'">
-          <select class="form-control" formControlName="archetypes"
-            [ngClass]="{'is-invalid': stepOneForm.get('archetypes').errors && stepOneForm.get('archetypes').touched}">
-            <option [ngValue]="null">{{'CREATION_CHARACTER_ARCHETYPE' | translate}}</option>
-            <option *ngFor="let archetype of archetypes" [ngValue]="archetype.archetypeKey">
-              {{archetype.archetypeKey | translate}}
-            </option>
-          </select>
-        </div>
-        <div class="col">
-          <ckeditor [editor]="Editor" [config]="configEditor" formControlName="concept"
-            [ngClass]="{'is-invalid': stepOneForm.get('concept').errors && stepOneForm.get('concept').touched}"
-            dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CONCEPT_HELP_HEADER'"
-            [bodyText]="'CREATION_CHARACTER_CONCEPT_HELP_TEXT'"></ckeditor>
-          <div class="invalid-feedback">
-            {{'ERR_CREATION_CHARACTER_CONCEPT' | translate}}</div>
-        </div>
-      </form>
+          <form class="row mb-3" [formGroup]="stepOneForm">
+            <div class="col-12 mb-1" dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_ARCHETYPE_HELP_HEADER'"
+              [bodyText]="'CREATION_CHARACTER_ARCHETYPE_HELP_TEXT'">
+              <select class="form-control" formControlName="archetypes"
+                [ngClass]="{'is-invalid': stepOneForm.get('archetypes').errors && stepOneForm.get('archetypes').touched}">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_ARCHETYPE' | translate}}</option>
+                <option *ngFor="let archetype of archetypes" [ngValue]="archetype.archetypeKey">
+                  {{archetype.archetypeKey | translate}}
+                </option>
+              </select>
+            </div>
+            <div class="col">
+              <ckeditor [editor]="Editor" [config]="configEditor" formControlName="concept"
+                [ngClass]="{'is-invalid': stepOneForm.get('concept').errors && stepOneForm.get('concept').touched}"
+                dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_CONCEPT_HELP_HEADER'"
+                [bodyText]="'CREATION_CHARACTER_CONCEPT_HELP_TEXT'"></ckeditor>
+              <div class="invalid-feedback">
+                {{'ERR_CREATION_CHARACTER_CONCEPT' | translate}}</div>
+            </div>
+          </form>
 
-      <form class="row mb-2" [formGroup]="stepTwoForm">
-        <div class="col">
-          <select class="form-control" formControlName="clan"
-            [ngClass]="{'is-invalid': stepTwoForm.get('clan').errors && stepTwoForm.get('clan').touched}">
-            <option [ngValue]="null">{{'CREATION_CHARACTER_CLAN' | translate}}</option>
-            <option *ngFor="let clan of clans" [ngValue]="clan.clanKey">
-              {{clan.name | translate}}
-            </option>
-          </select>
-        </div>
+          <form class="row" [formGroup]="stepTwoForm">
+            <div class="col">
+              <select class="form-control" formControlName="clan"
+                [ngClass]="{'is-invalid': stepTwoForm.get('clan').errors && stepTwoForm.get('clan').touched}">
+                <option [ngValue]="null">{{'CREATION_CHARACTER_CLAN' | translate}}</option>
+                <option *ngFor="let clan of clans" [ngValue]="clan.clanKey">
+                  {{clan.name | translate}}
+                </option>
+              </select>
+            </div>
 
-      </form>
+          </form>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <div class="text-center">
+            <h3 class="card-title">{{'ATTRIBUT'| translate}}</h3>
+            <h6 class="card-subtitle mb-2 text-muted">{{'CREATION_CHARACTER_EXPLAIN_POINTS_ATTRIBUTS' | translate}}</h6>
+            <hr>
+          </div>
+          <form class="row text-center" [formGroup]="stepThreeForm">
+            <div class="col">
+              <span>{{'PHYSICAL_NAME'|translate}} :
+              
+              </span>
+            </div>
+            <div class="col">
+              <span>{{'SOCIAL_NAME'|translate}} : 
+               
+              </span>
+            </div>
+            <div class="col">
+              <span>{{'MENTAL_NAME'|translate}} : 
+               
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
     </div>
 
     <div class="col">
@@ -102,46 +136,42 @@
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="stepTwoForm.valid" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span [ngClass]="{'stepValided font-weight-light': stepTwoForm.valid, 'font-weight-bold': stepZeroForm.valid && stepOneForm.valid && !stepTwoForm.valid}"
+            <span
+              [ngClass]="{'stepValided font-weight-light': stepTwoForm.valid, 'font-weight-bold': stepZeroForm.valid && stepOneForm.valid && !stepTwoForm.valid}"
               class="card-text">{{'CREATION_CHARACTER_LBL_STEP_2' | translate}}</span>
           </div>
           <div class="mb-2">
-            <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
+            <fa-icon *ngIf="stepThreeForm.valid" class="stepValided align-middle mr-1" icon="check"></fa-icon>
             <span
+              [ngClass]="{'stepValided font-weight-light': stepThreeForm.valid, 'font-weight-bold': stepZeroForm.valid && stepOneForm.valid && stepTwoForm.valid && !stepThreeForm.valid}"
               class="card-text">{{'CREATION_CHARACTER_LBL_STEP_3' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span 
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_4' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_4' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span 
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_5' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_5' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_6' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_6' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_7' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_7' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_8' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_8' | translate}}</span>
           </div>
           <div class="mb-2">
             <fa-icon *ngIf="false" class="stepValided align-middle mr-1" icon="check"></fa-icon>
-            <span
-              class="card-text">{{'CREATION_CHARACTER_LBL_STEP_9' | translate}}</span>
+            <span class="card-text">{{'CREATION_CHARACTER_LBL_STEP_9' | translate}}</span>
           </div>
-        
+
+        </div>
       </div>
     </div>
   </div>
-</div>

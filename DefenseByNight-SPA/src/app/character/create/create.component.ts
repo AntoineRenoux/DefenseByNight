@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
@@ -30,6 +30,7 @@ export class CreateComponent implements OnInit {
   stepZeroForm: FormGroup;
   stepOneForm: FormGroup;
   stepTwoForm: FormGroup;
+  stepThreeForm: FormGroup;
 
   Editor = ClassicEditor;
   configEditor: any;
@@ -47,6 +48,7 @@ export class CreateComponent implements OnInit {
     this.initializeStepZeroForm();
     this.initializeStepOneForm();
     this.initializeStepTwoForm();
+    this.initializeStepThreeForm();
 
     this.affilateService.getAllAffiliations().subscribe(result => {
       this.affilations = result;
@@ -86,6 +88,12 @@ export class CreateComponent implements OnInit {
   initializeStepTwoForm() {
     this.stepTwoForm = this.fb.group({
       clan: [null, Validators.required]
+    });
+  }
+
+  initializeStepThreeForm() {
+    this.stepThreeForm = this.fb.group({
+      physic: [null, Validators.required]
     });
   }
 

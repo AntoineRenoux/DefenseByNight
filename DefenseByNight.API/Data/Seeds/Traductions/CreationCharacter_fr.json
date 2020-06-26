@@ -117,7 +117,11 @@
     },
     {
         "Key": "CREATION_CHARACTER_CLAN",
-        "Text": "Choissisez votre clan"
+        "Text": "Choissisez votre clan ..."
+    },
+    {
+        "Key": "CREATION_CHARACTER_EXPLAIN_POINTS_ATTRIBUTS",
+        "Text": "(Assignez 7 points dans l'attribut primaire, 5 au secondaire et 3 au tertiaire. Choissisez un focus pour chaque attribut.)"
     },
     {
         "Key": "ERR_CREATION_CHARACTER_NAME",

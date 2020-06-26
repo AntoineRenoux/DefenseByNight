@@ -1,5 +1,9 @@
 [
     {
+        "Key": "ATTRIBUT",
+        "Text": "Attributs"
+    },
+    {
         "Key": "PHYSICAL_NAME",
         "Text": "Physique"
     },
