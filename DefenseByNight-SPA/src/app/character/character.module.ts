@@ -7,8 +7,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpLoaderFactory, LanguageService, defaultLanguage } from '../_services/language.service';
 import { CharacterRoutingModule } from './character-routing.module';
 import { HelpCreationCharacterDirective } from '../_directives/help-creation-character.directive';
-import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   imports: [
@@ -16,6 +16,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
     CharacterRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
     TranslateModule.forRoot({
       loader: { provide: TranslateLoader, useFactory: HttpLoaderFactory, deps: [LanguageService] },
       defaultLanguage
@@ -25,6 +26,6 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 })
 export class CharacterModule {
   constructor(library: FaIconLibrary) {
-    library.addIcons(faCheckCircle);
+    library.addIcons(faCheck);
   }
 }

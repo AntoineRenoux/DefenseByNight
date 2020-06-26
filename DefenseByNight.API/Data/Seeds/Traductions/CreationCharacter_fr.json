@@ -88,11 +88,43 @@
         "Text": "Le choix de votre secte est crutial. Il représente votre allégence envers les autres vampires et surtout votre point de vue sur les sujets importants de votre non vie comme votre ressenti envers les mortels ou les vampires les plus vieux. Comme toujours, si vous ne savez pas quoi séléctionner, demander à votre Orga."
     },
     {
+        "Key": "CREATION_CHARACTER_ARCHETYPE",
+        "Text": "Choisissez votre archétype ..."
+    },
+    {
+        "Key": "CREATION_CHARACTER_ARCHETYPE_HELP_HEADER",
+        "Text": "Choix de l'archétype"
+    },
+    {
+        "Key": "CREATION_CHARACTER_ARCHETYPE_HELP_TEXT",
+        "Text": "Chaque Archétype résume un genre de personnage ou de personnalité, offrant un portrait basique. Votre personnage est-il un escroc ou davantage un solitaire ?"
+    },
+    {
         "Key": "CREATION_CHARACTER_NAME_HELP_HEADER",
         "Text": "Choissisez votre nom de personnage"
     },
     {
         "Key": "CREATION_CHARACTER_NAME_HELP_TEXT",
         "Text": "Choissisez simplement votre nom. Réfléchissez bien, c'est comme ça que tous les autres joueurs vont vous appeller pour les prochaines années."
+    },
+    {
+        "Key": "CREATION_CHARACTER_CONCEPT_PLACEHOLDER",
+        "Text": "Votre concept en quelques mots"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CONCEPT_HELP_HEADER",
+        "Text": "Choix du concept"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CONCEPT_HELP_TEXT",
+        "Text": "Il est souvent bienvenu de commencer à réfléchir au concept du personnage en définissant ce qu’il fut de son vivant. Dès lors, vous pouvez créer l’histoire de sa vie. A-t-il rejeté sa vie mortelle lors de l’Étreinte ? S’y accroche-t-il, souhaitant retourner à la mortalité ? A-t-il ressenti l’Étreinte comme un don, ou a-t-il le sentiment qu’on lui a volé sa vie ?"
+    },
+    {
+        "Key": "ERR_CREATION_CHARACTER_NAME",
+        "Text": "Votre nom de personnage ne peut contenir que des lettres, des espaces et des tirets. Il doit faire entre 1 et 30 caractères."
+    },
+    {
+        "Key": "ERR_CREATION_CHARACTER_CONCEPT",
+        "Text": "Votre concept doit contenir au maximum 100 caractères."
     }
 ]

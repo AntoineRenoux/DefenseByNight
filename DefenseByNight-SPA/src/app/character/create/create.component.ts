@@ -7,6 +7,8 @@ import { Affilate } from 'src/app/_models/affiliate';
 import { ValidatorService } from 'src/app/_services/validator.service';
 import { Chronicle } from 'src/app/_models/Chronicle';
 import { ChronicleService } from 'src/app/_services/chronicle.service';
+import { ArchetypesService } from 'src/app/_services/archetypes.service';
+import { Archetype } from 'src/app/_models/archetype';
 
 @Component({
   selector: 'app-create',
@@ -15,22 +17,28 @@ import { ChronicleService } from 'src/app/_services/chronicle.service';
 })
 export class CreateComponent implements OnInit {
 
-  public affilations: Affilate[];
+  affilations: Affilate[];
+  archetypes: Archetype[];
+  chronicles: Chronicle[];
+
   stepZeroForm: FormGroup;
   stepOneForm: FormGroup;
-  chronicles: Chronicle[];
 
   constructor(private affilateService: AffiliateService,
               private fb: FormBuilder,
               private validatorService: ValidatorService,
               private chronicleService: ChronicleService,
-              private translateService: TranslateService) { }
+              private translateService: TranslateService,
+              private archetypeService: ArchetypesService) { }
 
   ngOnInit() {
     this.initializeStepZeroForm();
     this.initializeStepOneForm();
-    this.affilateService.getAllAffiliations().subscribe((result) => {
+    this.affilateService.getAllAffiliations().subscribe(result => {
       this.affilations = result;
+    });
+    this.archetypeService.getAllArchetypes().subscribe(result => {
+      this.archetypes = result;
     });
     this.chronicleService.getAll().subscribe(result => {
       this.chronicles = result;
@@ -41,15 +49,15 @@ export class CreateComponent implements OnInit {
     this.stepZeroForm = this.fb.group({
       chronicle: [null, Validators.required],
       // tslint:disable-next-line: max-line-length
-      characterName: [null, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex)]],
+      characterName: [null, [Validators.required, Validators.pattern(this.validatorService.firstNameRegex), Validators.maxLength(30)]],
       sect: [null, [Validators.required]]
-    }, {updateOn: 'blur'});
+    });
   }
 
   initializeStepOneForm() {
     this.stepOneForm = this.fb.group({
       archetypes: [null, Validators.required],
-      concept: [null, Validators.required]
+      concept: [null, [Validators.required, Validators.maxLength(100)]]
     });
   }
 }

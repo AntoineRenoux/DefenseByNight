@@ -1,9 +1,13 @@
-.info-card{
-    margin: 0 auto;
-    max-width: 18rem;
-    text-align: justify;
+.info-card {
+  margin: 0 auto;
+  max-width: 18rem;
+  text-align: justify;
 }
 
 .stepValided {
-    color: green;
+  color: green;
+}
+
+.stepError {
+  color: red;
 }
