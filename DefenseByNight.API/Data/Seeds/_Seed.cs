@@ -215,6 +215,7 @@ namespace DefenseByNight.API.Data.Seeds
                 context.SaveChanges();
             }
         }
+        
         public static void SeedPhotos(DataContext context)
         {
             if (!context.Photos.Any())
@@ -638,7 +639,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumAssamite.CLAN_ASSAMITE_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumAssamite.CLAN_ASSAMITE_SURNAME,
-                    Weakness = EnumAssamite.CLAN_ASSAMITE_WEAKNESS
+                    Weakness = EnumAssamite.CLAN_ASSAMITE_WEAKNESS,
+                    QuickDescription = EnumAssamite.CLAN_ASSAMITE_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -651,7 +653,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumBrujah.CLAN_BRUJAH_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumBrujah.CLAN_BRUJAH_SURNAME,
-                    Weakness = EnumBrujah.CLAN_BRUJAH_WEAKNESS
+                    Weakness = EnumBrujah.CLAN_BRUJAH_WEAKNESS,
+                    QuickDescription = EnumBrujah.CLAN_BRUJAH_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -664,7 +667,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumSet.CLAN_SET_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumSet.CLAN_SET_SURNAME,
-                    Weakness = EnumSet.CLAN_SET_WEAKNESS
+                    Weakness = EnumSet.CLAN_SET_WEAKNESS,
+                    QuickDescription = EnumSet.CLAN_SET_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -677,7 +681,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumGangrel.CLAN_GANGREL_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumGangrel.CLAN_GANGREL_SURNAME,
-                    Weakness = EnumGangrel.CLAN_GANGREL_WEAKNESS
+                    Weakness = EnumGangrel.CLAN_GANGREL_WEAKNESS,
+                    QuickDescription = EnumGangrel.CLAN_GANGREL_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -690,7 +695,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumGiovanni.CLAN_GIOVANNI_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumGiovanni.CLAN_GIOVANNI_SURNAME,
-                    Weakness = EnumGiovanni.CLAN_GIOVANNI_WEAKNESS
+                    Weakness = EnumGiovanni.CLAN_GIOVANNI_WEAKNESS,
+                    QuickDescription = EnumGiovanni.CLAN_GIOVANNI_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -703,7 +709,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumLasombra.CLAN_LASOMBRA_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumLasombra.CLAN_LASOMBRA_SURNAME,
-                    Weakness = EnumLasombra.CLAN_LASOMBRA_WEAKNESS
+                    Weakness = EnumLasombra.CLAN_LASOMBRA_WEAKNESS,
+                    QuickDescription = EnumLasombra.CLAN_LASOMBRA_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -716,7 +723,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumMalkavian.CLAN_MALKAVIAN_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumMalkavian.CLAN_MALKAVIAN_SURNAME,
-                    Weakness = EnumMalkavian.CLAN_MALKAVIAN_WEAKNESS
+                    Weakness = EnumMalkavian.CLAN_MALKAVIAN_WEAKNESS,
+                    QuickDescription = EnumMalkavian.CLAN_MALKAVIAN_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -729,7 +737,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumNosferatu.CLAN_NOSFERATU_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumNosferatu.CLAN_NOSFERATU_SURNAME,
-                    Weakness = EnumNosferatu.CLAN_NOSFERATU_WEAKNESS
+                    Weakness = EnumNosferatu.CLAN_NOSFERATU_WEAKNESS,
+                    QuickDescription = EnumNosferatu.CLAN_NOSFERATU_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -742,7 +751,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumToreador.CLAN_TOREADOR_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumToreador.CLAN_TOREADOR_SURNAME,
-                    Weakness = EnumToreador.CLAN_TOREADOR_WEAKNESS
+                    Weakness = EnumToreador.CLAN_TOREADOR_WEAKNESS,
+                    QuickDescription = EnumToreador.CLAN_TOREADOR_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -755,7 +765,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumTremere.CLAN_TREMERE_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumTremere.CLAN_TREMERE_SURNAME,
-                    Weakness = EnumTremere.CLAN_TREMERE_WEAKNESS
+                    Weakness = EnumTremere.CLAN_TREMERE_WEAKNESS,
+                    QuickDescription = EnumTremere.CLAN_TREMERE_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -768,7 +779,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumTzimisce.CLAN_TZIMISCE_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumTzimisce.CLAN_TZIMISCE_SURNAME,
-                    Weakness = EnumTzimisce.CLAN_TZIMISCE_WEAKNESS
+                    Weakness = EnumTzimisce.CLAN_TZIMISCE_WEAKNESS,
+                    QuickDescription = EnumTzimisce.CLAN_TZIMISCE_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -781,7 +793,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumVentrue.CLAN_VENTRUE_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumVentrue.CLAN_VENTRUE_SURNAME,
-                    Weakness = EnumVentrue.CLAN_VENTRUE_WEAKNESS
+                    Weakness = EnumVentrue.CLAN_VENTRUE_WEAKNESS,
+                    QuickDescription = EnumVentrue.CLAN_VENTRUE_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan
@@ -794,7 +807,8 @@ namespace DefenseByNight.API.Data.Seeds
                     Organisation = EnumCaitiff.CLAN_CAITIFF_ORGANIZATION,
                     RarityClan = EnumRarityClan.Major,
                     Surname = EnumCaitiff.CLAN_CAITIFF_SURNAME,
-                    Weakness = EnumCaitiff.CLAN_CAITIFF_WEAKNESS
+                    Weakness = EnumCaitiff.CLAN_CAITIFF_WEAKNESS,
+                    QuickDescription = EnumCaitiff.CLAN_CAITIFF_QUICKDESCRIPTION
                 });
 
                 context.Clans.Add(new Clan

@@ -64,6 +64,11 @@ namespace DefenseByNight.API.Helpers
             CreateMap<HealthDto, HealthAddViewModel>();
             #endregion
 
+            CreateMap<Clan, ClanDto>();
+            CreateMap<ClanDto, Clan>();
+            CreateMap<ClanCharacterCreationViewModel, ClanDto>();
+            CreateMap<ClanDto, ClanCharacterCreationViewModel>();
+
             CreateMap<Reference, ReferenceDto>();
 
             CreateMap<Focus, FocusDto>();

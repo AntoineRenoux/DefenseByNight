@@ -15,6 +15,8 @@ namespace DefenseByNight.API.Data.Entities
         [Required]
         public string Surname { get; set; }
 
+        public string QuickDescription { get; set; }
+
         [Required]
         public string History { get; set; }
 

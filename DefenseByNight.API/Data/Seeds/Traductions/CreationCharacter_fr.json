@@ -29,39 +29,35 @@
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_2",
-        "Text": "Etape 2: Rapporter les Points d’Expérience Initiaux"
+        "Text": "Etape 2: Choisir un Clan"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_3",
-        "Text": "Etape 3: Choisir un Clan"
+        "Text": "Etape 3: Choix des Attributs Initiaux"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_4",
-        "Text": "Etape 4: Choix des Attributs Initiaux"
+        "Text": "Etape 4: Choix des Compétences Initiales"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_5",
-        "Text": "Etape 5: Choix des Compétences Initiales"
+        "Text": "Etape 5: Choix des Historiques Initiaux"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_6",
-        "Text": "Etape 6: Choix des Historiques Initiaux"
+        "Text": "Etape 6: Choix des Disciplines Initiales"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_7",
-        "Text": "Etape 7: Choix des Disciplines Initiales"
+        "Text": "Etape 7: Choix des Atouts et Handicaps"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_8",
-        "Text": "Etape 8: Choix des Atouts et Handicaps"
+        "Text": "Etape 8: Dépense des PX"
     },
     {
         "Key": "CREATION_CHARACTER_LBL_STEP_9",
-        "Text": "Etape 9: Dépense des PX"
-    },
-    {
-        "Key": "CREATION_CHARACTER_LBL_STEP_10",
-        "Text": "Etape 10: Touches Finales"
+        "Text": "Etape 9: Touches Finales"
     },
     {
         "Key": "CREATION_CHARACTER_CHRONICLE",
@@ -118,6 +114,10 @@
     {
         "Key": "CREATION_CHARACTER_CONCEPT_HELP_TEXT",
         "Text": "Il est souvent bienvenu de commencer à réfléchir au concept du personnage en définissant ce qu’il fut de son vivant. Dès lors, vous pouvez créer l’histoire de sa vie. A-t-il rejeté sa vie mortelle lors de l’Étreinte ? S’y accroche-t-il, souhaitant retourner à la mortalité ? A-t-il ressenti l’Étreinte comme un don, ou a-t-il le sentiment qu’on lui a volé sa vie ?"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CLAN",
+        "Text": "Choissisez votre clan"
     },
     {
         "Key": "ERR_CREATION_CHARACTER_NAME",

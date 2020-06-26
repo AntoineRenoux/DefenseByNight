@@ -1,5 +1,9 @@
 [
     {
+        "Key": "CLAN",
+        "Text": "Clan"
+    },
+    {
         "Key": "CLAN_ASSAMITE",
         "Text": "ASSAMITE"
     },
@@ -10,6 +14,10 @@
     {
         "Key": "CLAN_ASSAMITE_NAME",
         "Text": "Assamite"
+    },
+    {
+        "Key": "CLAN_ASSAMITE_QUICKDESCRIPTION",
+        "Text": " Originaires du Moyen-Orient, ces redoutables assassins se voient tels des juges, apportant la mort aux vampires des clans «inférieurs ». Ils vénèrent leur fondateur, Haqim et évitent tout imbroglio d’alliance ou de secte."
     },
     {
         "Key": "CLAN_ASSAMITE_ORGANIZATION",
@@ -34,6 +42,10 @@
     {
         "Key": "CLAN_BRUJAH_NAME",
         "Text": "Brujah"
+    },
+    {
+        "Key": "CLAN_BRUJAH_QUICKDESCRIPTION",
+        "Text": "Les Brujahs sont un clan de passionnés, prompts à la colère et à l’agressivité. Ils sont philosophes, guerriers, de turbulents amis et de dangereux ennemis. Ils défendent souvent des causes, se battent contre l’oppression et la tyrannie dans l’espoir d’un monde meilleur."
     },
     {
         "Key": "CLAN_BRUJAH_ORGANIZATION",
@@ -68,6 +80,10 @@
         "Text": "Serpents"
     },
     {
+        "Key": "CLAN_SET_QUICKDESCRIPTION",
+        "Text": "Décadents, aguicheurs et corrompus, les Setites vouent un culte à leur Dieu dans des temples dorés et des fumeries d’opium, mêlant sans difficulté Égypte ancienne et criminalité moderne."
+    },
+    {
         "Key": "CLAN_SET_WEAKNESS",
         "Text": "Les Setites réagissent violemment aux lumières vives. Ils subissent 1 point de dommage additionnel quand ils sont exposés à la lumière du soleil et tous les Scores de Test sont réduits de 2 pour tout challenge initié lorsqu’ils sont exposés à une lumière vive quel qu’en soit le type. Notez que les Scores de Test défensifs ne sont pas sujets à cette pénalité."
     },
@@ -90,6 +106,10 @@
     {
         "Key": "CLAN_GANGREL_SURNAME",
         "Text": "Apatrides"
+    },
+    {
+        "Key": "CLAN_GANGREL_QUICKDESCRIPTION",
+        "Text": "Les Gangrels nomades sont des prédateurs sauvages et des loups solitaires, préférant les étendues sauvages et la liberté au confinement du milieu urbain. Ils sont de remarquables métamorphes et de robustes alliés."
     },
     {
         "Key": "CLAN_GANGREL_WEAKNESS",
@@ -116,6 +136,10 @@
         "Text": "Nécromants"
     },
     {
+        "Key": "CLAN_GIOVANNI_QUICKDESCRIPTION",
+        "Text": "Les Giovanni sont incestueux et les maîtres insulaires de la magie nécromantique. Dotés de la cruauté d’une dynastie mafieuse et l’ambition d’une corporation moderne, ces marchands vénitiens cherchent à obtenir le pouvoir à n’importe quel prix."
+    },
+    {
         "Key": "CLAN_GIOVANNI_WEAKNESS",
         "Text": "La morsure d’un Giovanni cause une douleur atroce aux mortels qui la reçoivent. Quand un Giovanni se nourrit sur un Mortel, il inflige 3 points de dégâts pour chaque point de sang drainé au lieu des 2 habituels."
     },
@@ -130,6 +154,10 @@
     {
         "Key": "CLAN_LASOMBRA_SURNAME",
         "Text": "Magistères"
+    },
+    {
+        "Key": "CLAN_LASOMBRA_QUICKDESCRIPTION",
+        "Text": "Élégants et inhumains, les Lasombras savourent leur existence vampirique. Avec une grâce royale, ils dirigent les ombres et se réjouissent dans les deux types d’ombre − celle de la nuit et celle de l’âme."
     },
     {
         "Key": "CLAN_LASOMBRA_HISTORY",
@@ -156,6 +184,10 @@
         "Text": "Lunatiques"
     },
     {
+        "Key": "CLAN_MALKAVIAN_QUICKDESCRIPTION",
+        "Text": "Bien que doués d’une perspicacité plus qu’avisée, tous les membres du clan Malkavien souffrent d’une certaine forme de folie macabre. Tour à tour terrifiants ou paisibles, ces vampires cherchent souvent à éclairer leurs confrères…qu’ils le veuillent ou non."
+    },
+    {
         "Key": "CLAN_MALKAVIAN_HISTORY",
         "Text": "Pour certains, l’éternité n’est rien de plus qu’une continuation de leur existence mortelle. Pour les Malkaviens, la transition est bien plus abrupte et dévastatrice. L’étreinte fracasse l’esprit de ceux qui sont amenés dans ce clan, les conduisant juste au delà du bord de la folie − mais en déverrouillant des dons surnaturels d’introspection et de perspicacité.<br /> Tous les Malkaviens sont profondément et sombrement fous ; leur psychologie est dans un équilibre précaire au bord de la falaise qu’est leur santé mentale. C’est un phénomène douloureusement aliénant. Leurs dérangements peuvent prendre la forme structurée, médicalement comprise, d’une folie ou elle peut être un renversement complet des sens. Elle peut aller et venir sous la forme d’une psychose vive ou elle peut se manifester sous la forme d’hallucinations élaborées sur le long terme. Chaque Malkavien a vu son esprit se disloquer selon des schémas différents ; aucun d’entre eux n’émerge de son étreinte exactement de la même manière.<br /> Il est très difficile pour les autres Vampires de se lier aux membres du clan Malkavien. Ils sont hargneux, imprévisibles et parfois inintelligibles. Ils voient le monde différemment et, occasionnellement, essaient d’éduquer et d’éclairer les autres à des vérités que seuls eux semblent comprendre. Ces leçons prennent la forme de farces très élaborées, terrifiantes et dangereuses. Ne suivant une logique que seul un Malkavien pourrait comprendre. Les Malkaviens semblent donner l’étreinte au hasard, prenant leurs infants dans toutes les strates de la société mortelle. L’apparence extérieure d’un Malkavien est habituellement spécifique au dérangement du personnage, variant d’une propreté obsessionnelle à un ébouriffement complet. Les Malkaviens les plus jeunes tendent à être plus solitaires et déviants, luttant pour se comprendre eux-mêmes et le nouveau monde dans lequel ils ont été plongés. Les anciens tendent à avoir une meilleure compréhension de leurs tumultes intérieurs et semblent plus à l’aise. De plus, tous les Malkaviens sont connectés à un vaste sixième sens persistant − certains disent que c’est la conscience somnolente du fondateur de leur clan − et ils possèdent tous une perspicacité au delà de toute compréhension mortelle."
     },
@@ -178,6 +210,10 @@
     {
         "Key": "CLAN_NOSFERATU_SURNAME",
         "Text": "Rats d’égouts"
+    },
+    {
+        "Key": "CLAN_NOSFERATU_QUICKDESCRIPTION",
+        "Text": "Les membres du Clan Nosferatu sont hideux, leurs corps sont abominablement déformés par l’Étreinte. Ils sont néanmoins de redoutables espions et de rusés voleurs de secrets, faisant d’eux les maîtres de l’information dans la société vampirique."
     },
     {
         "Key": "CLAN_NOSFERATU_HISTORY",
@@ -204,6 +240,10 @@
         "Text": "Dégénérés"
     },
     {
+        "Key": "CLAN_TOREADOR_QUICKDESCRIPTION",
+        "Text": "Les Toreadors sont des hédonistes sensuels et grégaires, connus aussi bien pour leur beauté que pour leur ruse. De tous les clans, ils sont les plus raffinés, toujours à la pointe de l’art et de la culture mortels."
+    },
+    {
         "Key": "CLAN_TOREADOR_HISTORY",
         "Text": "Les roses magnifiques dans un jardin étoilé au soir. Un air chantant dans un crépuscule somnolent. La douceur du baiser d’un amant. Ces images évoquent le Toreador car ces vampires sont les plus beaux de tous.<br />Les Toreadors sont des artistes, écrivains et créateurs : des artisans qui bénéficient d’une vie immortelle d’apparat et de sensualité. Et, contrairement à d’autres clans, les Toreadors s’enfoncent dans le monde des mortels. Souvent, ils font semblant d’être mortels, vivant comme des célébrités et donnant des patronages à des artistes mortels influents. De ville en ville, de passion en passion, le Toreador voltige, inspirant de lui le meilleur des arts et laissant une traînée de cœurs brisés derrière lui.<br />Avec des goûts aussi raffinés, il est facile pour un Toreador de devenir blasé, amer et rempli d’ennui. Entourés par l’excès, ils perdent très vite tout intérêt, saisissant prix après prix − les plus doux étant ceux volés aux autres. Les plus anciens Toreadors deviennent souvent dépravés, tombant dans la débauche simplement pour pouvoir ressentir quoi que ce soit.<br />Les Toreadors aiment la politique et vivent pour la hiérarchie, tant qu’ils en sont au sommet. Ils développent des cultes de la personnalité, rassemblant des adeptes captivés par leur beauté ou mendiant leur patronage. Ils sont toujours à la pointe de la culture, des arts et de la société. Ils s’enorgueillissent de leur beauté et de leur grâce, hébergent des salons et rassemblements pour montrer leur beauté et leur style. Ceux qui ne peuvent pas maintenir le rythme sont ostracisés et ridiculisés. Les Vampires qui sont laids, non-civilisés ou qui ne montrent aucun signe de respect pour les arts sont déchirés par les griffes métaphoriques d’un Toreador. C’est spécifiquement pour cette raison qu’il existe une inimitié éternelle entre les clan Toreador et Nosferatu, une haine ancrée tellement profondément qu’elle durera éternellement."
     },
@@ -226,6 +266,10 @@
     {
         "Key": "CLAN_TREMERE_SURNAME",
         "Text": "Sorciers"
+    },
+    {
+        "Key": "CLAN_TREMERE_QUICKDESCRIPTION",
+        "Text": "Jadis, ce groupe de sorciers a su saisir l’immortalité et façonner son propre destin. De nos « jours », ils sont craints et méprisés de part leurs secrets occultes, bien que nul ne puisse ignorer le pouvoir qu’ils sont capables d’exercer."
     },
     {
         "Key": "CLAN_TREMERE_HISTORY",
@@ -252,6 +296,10 @@
         "Text": "Monstres"
     },
     {
+        "Key": "CLAN_TZIMISCE_QUICKDESCRIPTION",
+        "Text": "Un clan de nobles déchus de l’Europe de l’Est, les solitaires Tzimisce sont des créatures jalouses et possessives. Disposant de la capacité à façonner chair et os, les maîtres de la métamorphose cherchent à évoluer au-delà de la compréhension humaine."
+    },
+    {
         "Key": "CLAN_TZIMISCE_HISTORY",
         "Text": "Bien avant que l’histoire ne commence à être documentée, les Tzimisces résidaient dans les montagnes et les fastes de l’Ancien Monde, se tenant éloignés des troupeaux de mortels pathétiques sur lesquels ils se nourrissaient. Dirigeants absolus des territoires qu’ils occupent, ce sont des créatures jalouses et possessives, profondément connectées à la terre. Ils défendent violemment leurs domaines, vivant dans des groupes basés sur le lignage − un Sire et son infant adorateur − et savent manipuler le lien de sang avec expertise et cruauté.<br />Les éons passés dans leurs châteaux de pierre ont tordu l’esprit des Tzimisces et les longs siècles d’études leur ont donné la maîtrise de la chair ; ils possèdent la capacité de modeler et manipuler la chair comme un autre manipulerait de l’argile. Ils appliquent une philosophie qui révère la métamorphose, portant leur regard au-delà du fragile corps physique dans une tentative de découverte de la nature de l’âme. Détachés et scientifiques, les Tzimisces utilisent les mortels à la fois comme nourriture et sujets d’expériences. Ils ne se soucient absolument pas des humains, les jetant impitoyablement quand ils ne leur sont plus d’aucune utilité.<br />Les mystiques Tzimisces connaissent bien les esprits de la terre et pratiquent une forme de magie qu’ils appellent le Koldunisme. Ils gardent jalousement ces secrets, particulièrement des Tremere, qu’ils voient comme des usurpateurs de leurs pouvoirs anciens. Ils voient les autres clans comme des prétendants et des faibles, en rut et vivant au milieu même des animaux qu’ils mangent. Pour témoigner leur dédain, de nombreux Tzimisces modèlent leur propre chair en d’étranges et monstrueuses œuvres d’art, avec des couronnes de corne et des vêtements confectionnés à partir de peau sculptée."
     },
@@ -276,6 +324,10 @@
         "Text": "Roys"
     },
     {
+        "Key": "CLAN_VENTRUE_QUICKDESCRIPTION",
+        "Text": "Stoïques et posés, les Ventrues sont le summum de l’aristocratie vampirique. Ils sont souverains et PDG, riches bienfaiteurs ou encore décideurs militaires, régnant sur la nuit avec une poigne de fer."
+    },
+    {
         "Key": "CLAN_VENTRUE_HISTORY",
         "Text": "Alors que les autres clans s’essaient à la politique, étudient la philosophie et encouragent les arts, les descendants du Clan Ventrue ciblent leurs recherches sur la seule chose qui importe vraiment : le pouvoir. Régner est dans leur sang et rares sont les Ventrues qui ne ressentent pas le besoin de commander. La légende du Clan Ventrue est celle des Rois et des Reines, un lignage de souverains datant d’avant la chute de l’Empire Romain. Ils considèrent qu’il est dans leur droit divin de mener et de façonner le monde. Cette attitude s’applique non seulement aux autres vampires mais aussi aux domaines des mortels où les Ventrues sont souvent des faiseurs de rois et décident du destin des empires mortels.<br /> <i>Noblesse oblige</i> est un terme souvent entendu dans les couloirs du Clan Ventrue. Ils respectent la dignitas, une vertu basée sur l’honneur, la propriété ainsi que le respect et ceux qui se plient à ces règles complexes seront l’exemple même de la réussite au sein du Clan des Roys. Les Ventrues sont malins, éduqués et érudits, aussi doués avec une épée qu’avec un stylo. Conservateurs et insensibles, ils basent rarement leurs décisions sur des émotions. Tout ce qu’ils font est pensé avec l’acquisition du pouvoir en tête et la survie du plus fort. Ils savent que la rudesse peut être nécessaire pour diriger un domaine rempli de morts-vivants désobéissants.<br />La pratique du pouvoir royal par les Ventrues se traduit assez bien dans le monde moderne. À la place des rois et des empereurs, ils sont devenus des PDG influents, contrôlant des empires de la finance et des affaires, plutôt que des terres et des serfs. Le Clan a recentré ses intérêts en faveur de la technologie moderne et du commerce où ils fraient tels des loups voraces au sein d’un troupeau de moutons sans défense.<br />Dans le but de maintenir la position dominante du Clan, les Ventrues choisissent généralement leurs infants parmi ceux étant déjà en pleine réussite : meneurs militaires, entrepreneurs, hommes d’affaires et riches investisseurs rejoignent les rangs des anciens rois et reines."
     },
@@ -298,6 +350,10 @@
     {
         "Key": "CLAN_CAITIFF_SURNAME",
         "Text": "Déchets, Bâtards (Pander)"
+    },
+    {
+        "Key": "CLAN_CAITIFF_QUICKDESCRIPTION",
+        "Text": "Leur sang est tellement faible qu’ils ne peuvent prétendre appartenir à un clan ou à une lignée de sang, puisqu’ils n’en montrent aucune caractéristique commune. Ces malheureux vampires sont habituellement abandonnés et ignorés après leur malencontreuse Étreinte. Ils ne peuvent compter que sur eux-même pour survivre."
     },
     {
         "Key": "CLAN_CAITIFF_HISTORY",
