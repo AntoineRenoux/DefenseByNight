@@ -17,5 +17,14 @@ namespace DefenseByNight.API.Data.Entities
 
         [Required]
         public Chronicle Chronicle { get; set; }
+
+        [Required]
+        public int PhysicalAttribut { get; set; } = 1;
+
+        [Required]
+        public int SocialAttribut { get; set; } = 1;
+
+        [Required]
+        public int MentalAttribut { get; set; } = 1;
     }
 }

@@ -13,5 +13,17 @@ namespace DefenseByNight.API.Models
 
         [Required]
         public AffiliateViewModel Sect { get; set; }
+
+        [Required]
+        public ChronicleViewModel Chronicle { get; set; }
+
+        [Required]
+        public int PhysicalAttribut { get; set; }
+
+        [Required]
+        public int SocialAttribut { get; set; }
+
+        [Required]
+        public int MentalAttribut { get; set; }
     }
 }
