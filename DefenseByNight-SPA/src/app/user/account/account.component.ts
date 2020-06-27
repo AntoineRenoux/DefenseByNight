@@ -138,7 +138,7 @@ export class AccountComponent implements OnInit {
       currentPassword: ['', Validators.required],
       newPassword: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(40)]],
       confirmPassword: ['', [Validators.required, Validators.minLength(8), Validators.maxLength(40)]]
-    }, this.validatorService.changedPasswordMatch);
+    }, { validators: [this.validatorService.changedPasswordMatch]});
   }
 
   updateUser() {
