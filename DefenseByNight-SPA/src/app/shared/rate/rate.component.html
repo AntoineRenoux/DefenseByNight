@@ -1,0 +1,15 @@
+<fa-icon
+    (click)="rate(i + 1)"
+    [ngClass]="{'mr-1': i === (nbCircleMax / 2 - 1)}"
+    *ngFor="let in of counter(currentRate); let i = index" 
+    [icon]="['fas', 'circle']" 
+    size='xs'>
+</fa-icon>
+
+<fa-icon 
+    (click)="rate(currentRate + i + 1)"
+    [ngClass]="{'mr-1': currentRate + i === (nbCircleMax/2 - 1)}"
+    *ngFor="let in of counter(nbCircleMax - currentRate); let i = index" 
+    [icon]="['far', 'circle']" 
+    size='xs'>
+</fa-icon>
