@@ -1,6 +1,7 @@
 import { Affilate } from './affiliate';
 import { Chronicle } from './Chronicle';
 import { Archetype } from './archetype';
+import { Focus } from './focus';
 
 export class Character {
     characterKey: string;
@@ -15,4 +16,8 @@ export class Character {
     physicalAttribut: number;
     socialAttribut: number;
     mentalAttribut: number;
+
+    physicalFocus: Focus[];
+    socialFocus: Focus[];
+    mentalFocus: Focus[];
 }

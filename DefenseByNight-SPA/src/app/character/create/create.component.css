@@ -11,3 +11,7 @@
 .stepError {
   color: red;
 }
+
+.attribut {
+  border-right: 1px solid lightgray;
+}

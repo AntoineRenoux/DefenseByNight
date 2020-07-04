@@ -73,6 +73,13 @@ namespace DefenseByNight.API.Helpers
 
             CreateMap<Focus, FocusDto>();
             CreateMap<FocusDto, Focus>();
+            CreateMap<FocusViewModel, FocusDto>();
+            CreateMap<FocusDto, FocusViewModel>();
+
+            CreateMap<Attribute, AttributeDto>();
+            CreateMap<AttributeDto, Attribute>();
+            CreateMap<AttributeDto, AttributeViewModel>();
+            CreateMap<AttributeViewModel, AttributeDto>();
 
             CreateMap<Power, PowerDto>();
             CreateMap<PowerDto, Power>();

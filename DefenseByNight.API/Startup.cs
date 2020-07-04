@@ -119,6 +119,7 @@ namespace DefenseByNight.API
             services.AddScoped<IChroniclesRepository, ChroniclesRepository>();
             services.AddScoped<IArchetypeRepository, ArchetypeRepository>();
             services.AddScoped<IClanRepository, ClanRepository>();
+            services.AddScoped<IAttributeRepository, AttributeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

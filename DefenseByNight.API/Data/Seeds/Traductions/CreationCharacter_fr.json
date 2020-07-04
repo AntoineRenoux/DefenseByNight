@@ -118,6 +118,14 @@
     {
         "Key": "CREATION_CHARACTER_CLAN",
         "Text": "Choissisez votre clan ..."
+    }, 
+    {
+        "Key": "CREATION_CHARACTER_CLAN_HELP_HEADER",
+        "Text": "Choix du Clan"
+    },
+    {
+        "Key": "CREATION_CHARACTER_CLAN_HELP_TEXT",
+        "Text": "Envisagez quel type de clan peut avoir été attiré par votre concept et quelles sont les circonstances qui ont pu amener à votre Étreinte. Un mortel porté sur les arts, par exemple, est un candidat probable à l’Étreinte par un Toreador, tandis qu’un homme d’affaire peut avoir attiré l’attention d’un Sire Ventrue."
     },
     {
         "Key": "CREATION_CHARACTER_EXPLAIN_POINTS_ATTRIBUTS",
