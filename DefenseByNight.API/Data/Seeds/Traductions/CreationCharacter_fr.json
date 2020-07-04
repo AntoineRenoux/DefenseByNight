@@ -132,6 +132,30 @@
         "Text": "(Assignez 7 points dans l'attribut primaire, 5 au secondaire et 3 au tertiaire. Choissisez un focus pour chaque attribut.)"
     },
     {
+        "Key": "CREATION_CHARACTER_PHYSICAL_ATTRIBUT_HELP_HEADER",
+        "Text": "Attributs Physiques"
+    }, 
+    {
+        "Key": "CREATION_CHARACTER_PHYSICAL_ATTRIBUT_HELP_TEXT",
+        "Text": "Les attributs physiques quantifient de manière générale la force, l’agilité et la vigueur d’un personnage. Un personnage avec de modestes attributs physiques n’est pas très athlétique, tandis qu’un personnage avec des attributs physiques élevés est exceptionnellement fort, dextre ou robuste. Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et seulement leur Physique) pour une courte période."
+    },
+    {
+        "Key": "CREATION_CHARACTER_SOCIAL_ATTRIBUT_HELP_HEADER",
+        "Text": "Attributs Sociaux"
+    }, 
+    {
+        "Key": "CREATION_CHARACTER_SOCIAL_ATTRIBUT_HELP_TEXT",
+        "Text": "Les vampires sont des créatures manipulatrices, usant des humains (et réciproquement) comme des composantes de leurs tentatives afin de faire avancer leurs objectifs personnels. Les attributs sociaux décrivent l’apparence, le charme et la capacité à interagir avec autrui d’un personnage. Si votre personnage a peu d’attribut en Social, il est maladroit, timide ou encore commun. Un personnage avec un haut niveau dans l’attribut Social est séduisant, fascinant et doux, doué pour convaincre autrui d’aller dans son sens."
+    },
+    {
+        "Key": "CREATION_CHARACTER_MENTAL_ATTRIBUT_HELP_HEADER",
+        "Text": "Attributs Mentaux"
+    }, 
+    {
+        "Key": "CREATION_CHARACTER_MENTAL_ATTRIBUT_HELP_TEXT",
+        "Text": "Les attributs mentaux indiquent la capacité du personnage à résoudre des problèmes, apprendre, déduire et à être attentif. Un personnage avec un attribut Mental élevé est vigilant, logique ou intuitif. D’autre part, si l’attribut Mental du personnage est faible, il n’est pas aussi doué. Un tel personnage peut avoir fait peu d’études, être naïf ou lent à la détente."
+    },
+    {
         "Key": "ERR_CREATION_CHARACTER_NAME",
         "Text": "Votre nom de personnage ne peut contenir que des lettres, des espaces et des tirets. Il doit faire entre 1 et 30 caractères."
     },

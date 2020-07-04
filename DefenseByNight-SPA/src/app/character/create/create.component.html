@@ -113,13 +113,14 @@
           </div>
           <form class="row text-center" [formGroup]="stepThreeForm">
             <div class="col mr-1 attribut">
-              <span>{{'PHYSICAL_NAME'|translate}} :
+              <span dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_PHYSICAL_ATTRIBUT_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_PHYSICAL_ATTRIBUT_HELP_TEXT'">{{'PHYSICAL_NAME'|translate}} :
                 <dbn-rate [maxRate]='maxRatePrimaryAttribut' [nbCircleMax]=10 [currentRate]=1
                   (newRate)="setPhysicalAttribut($event)"></dbn-rate>
               </span>
               <div class="row">
-                <div class="col form-check" *ngFor="let focus of physicalFocus">
-                  <input class="form-check-input" type="checkbox" value="{{focus.focusKey}}" formControlName="physicalFocus">
+                <div class="col form-check" *ngFor="let focus of physicalFocus"
+                  dbnHelpCreationCharacter [headerText]="focus.name" [bodyText]="focus.description">
+                  <input class="form-check-input" id="{{focus.focusKey}}" type="checkbox" value="{{focus.focusKey}}" formControlName="physicalFocus">
                   <label class="form-check-label" for="{{focus.focusKey}}">
                     {{focus.focusName|translate}}
                   </label>
@@ -127,13 +128,14 @@
               </div>
             </div>
             <div class="col mr-1 attribut">
-              <span>{{'SOCIAL_NAME'|translate}} :
+              <span dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_SOCIAL_ATTRIBUT_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_SOCIAL_ATTRIBUT_HELP_TEXT'">{{'SOCIAL_NAME'|translate}} :
                 <dbn-rate [maxRate]='maxRatePrimaryAttribut' [nbCircleMax]=10 [currentRate]=1
                   (newRate)="setSocialAttribut($event)"></dbn-rate>
               </span>
               <div class="row">
-                <div class="col form-check" *ngFor="let focus of socialFocus">
-                  <input class="form-check-input" type="checkbox" value="{{focus.focusKey}}" formControlName="socialFocus">
+                <div class="col form-check" *ngFor="let focus of socialFocus"
+                  dbnHelpCreationCharacter [headerText]="focus.name" [bodyText]="focus.description">
+                  <input class="form-check-input" id="{{focus.focusKey}}" type="checkbox" value="{{focus.focusKey}}" formControlName="socialFocus">
                   <label class="form-check-label" for="{{focus.focusKey}}">
                     {{focus.focusName|translate}}
                   </label>
@@ -141,13 +143,14 @@
               </div>
             </div>
             <div class="col">
-              <span>{{'MENTAL_NAME'|translate}} :
+              <span dbnHelpCreationCharacter [headerText]="'CREATION_CHARACTER_MENTAL_ATTRIBUT_HELP_HEADER'" [bodyText]="'CREATION_CHARACTER_MENTAL_ATTRIBUT_HELP_TEXT'">{{'MENTAL_NAME'|translate}} :
                 <dbn-rate [maxRate]='maxRatePrimaryAttribut' [nbCircleMax]=10 [currentRate]=1
                   (newRate)="setMentalAttribut($event)"></dbn-rate>
               </span>
               <div class="row">
-                <div class="col form-check" *ngFor="let focus of mentalFocus">
-                  <input class="form-check-input" type="checkbox" value="{{focus.focusKey}}" formControlName="mentalFocus">
+                <div class="col form-check" *ngFor="let focus of mentalFocus"
+                dbnHelpCreationCharacter [headerText]="focus.name" [bodyText]="focus.description">
+                  <input class="form-check-input" id="{{focus.focusKey}}" type="checkbox" value="{{focus.focusKey}}" formControlName="mentalFocus">
                   <label class="form-check-label" for="{{focus.focusKey}}">
                     {{focus.focusName|translate}}
                   </label>
